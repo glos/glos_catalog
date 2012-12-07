@@ -1,0 +1,61 @@
+<query xmlns="http://basex.org/rest">
+  <text>
+  <![CDATA[
+    declare namespace gmd="http://www.isotc211.org/2005/gmd"; 
+    declare namespace gco="http://www.isotc211.org/2005/gco"; 
+    declare function local:QueryFunction($sequences, $textsearch, $keywords)
+    {
+      for $val in $sequences
+      let $title := $val//gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:title/gco:CharacterString/text()
+      (: let $orgname := $val//gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString/text() :)
+    
+      where $val//gmd:identificationInfo contains text {$textsearch}
+        order by $title
+        (: group by $provider:)
+        return$val
+    };
+    
+    declare function local:FormatResult($fois)
+    {
+      for $foi in $fois
+      return
+      <gmd:MD_Metadata>
+      {$foi/gmd:fileIdentifier}
+      <gmd:identificationInfo>
+        {$foi/gmd:identificationInfo/gmd:MD_DataIdentification}
+      </gmd:identificationInfo>
+      </gmd:MD_Metadata>
+    };
+    
+    declare variable $records as xs:integer external;
+    declare variable $start as xs:integer external;
+    declare variable $textsearch as xs:string external;
+    
+    
+    (:Select some data - all of the MD_DataIdentificaiton Elements:)
+    let $foi := /*
+    
+    
+    let $resultSequence := local:QueryFunction($foi,$textsearch,5)
+    let $max := count($resultSequence)
+    let $end :=  min (($start + $records - 1,$max))
+    
+    (: for $page in subsequence($resultSequence, $start, $records) :)
+    
+    return 
+    <csw:GetRecordsResponse xmlns:csw="http://www.opengis.net/cat/csw/2.0.2" xmlns:ogc="http://www.opengis.net/ogc" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:ows="http://www.opengis.net/ows" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.2" xsi:schemaLocation="http://www.opengis.net/cat/csw/2.0.2 http://schemas.opengis.net/csw/2.0.2/CSW-discovery.xsd">
+      <csw:RequestId/>
+      <csw:SearchStatus timestamp="{current-dateTime()}"/>
+      <csw:SearchResults nextRecord="{$end +1}" numberOfRecordsMatched="{$max}" numberOfRecordsReturned="{$records}" recordSchema="http://www.isotc211.org/2005/gmd">
+    
+    {local:FormatResult(subsequence($resultSequence, $start, $records))}
+     </csw:SearchResults>
+    </csw:GetRecordsResponse>
+  
+  ]]>
+
+  </text>
+  <variable name="records" value="___LIMIT___"/>
+  <variable name="start" value="___START___"/>
+  <variable name="textsearch" value="___ANYTEXT___"/>
+</query>

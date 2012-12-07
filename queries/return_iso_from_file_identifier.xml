@@ -1,0 +1,15 @@
+<query xmlns="http://basex.org/rest">
+  <text>
+    <![CDATA[ 
+        declare namespace gmd="http://www.isotc211.org/2005/gmd"; 
+        declare namespace gco="http://www.isotc211.org/2005/gco";
+        declare namespace gmi="http://www.isotc211.org/2005/gmi";
+        declare variable $efid as xs:string external;
+        for $val in //gmd:fileIdentifier
+            let $fid := $val/gco:CharacterString/text()
+            where $fid eq $efid
+                return $val/..
+    ]]>
+  </text>
+  <variable name="efid" value="glos/aoc/superior/sst/LakeSuperiorSST_best.ncd"/>
+</query>

@@ -1,4 +1,9 @@
-glos_catalog
+GLOS Cataloging Resources
 ============
 
-Resources for the GLOS cataloging system
+Uses environmental variables:
+
+  BASEX_SERVER (no default)
+  BASEX_PORT (1984)
+  BASEX_USER (no default)
+  BASEX_PASS (no default)

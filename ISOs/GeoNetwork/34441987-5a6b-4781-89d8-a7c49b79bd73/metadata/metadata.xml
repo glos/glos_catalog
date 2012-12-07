@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<metadata xmlns:geonet="http://www.fao.org/geonetwork" xml:lang="en">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>United States Geological Survey</origin>
+        <pubdate>20070123</pubdate>
+        <title>Great Lakes 8 unit huc</title>
+        <mgmg1cid />
+        <pubinfo>
+          <pubplace>Ann Arbor, MI</pubplace>
+          <publish>Great Lakes Information Network (GLIN)</publish>
+        </pubinfo>
+        <onlink>http://gis.glin.net/ogc/services.php#gl_8_unit_huc</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This file contains Hydrologic Unit boundaries and codes for the United States, Puerto Rico, and the U.S. Virgin Islands. The data is a seamless National representation of Hydrologic Unit Code (HUC) boundaries at HUC2 to HUC12 levels compiled from U.S. Geological Survey (USGS) National Hydrography Dataset (NHD) and U.S. Department of Agricultural (USDA) National Resources Conservation Services (NRCS) Watershed Boundary Dataset (WBD) sources.</abstract>
+      <purpose>This data is intended primarily for geographic display and analysis of regional and national data, and can also be used for illustration purposes at intermediate or small scales (1:250,000 to 1:2,000,000).</purpose>
+      <supplinf>Summary: US Great Lakes Basins 8 Unit HUCS</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>unknown</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>See dataset specific metadata.</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>In work</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-93.208054</westbc>
+        <eastbc>-73.623726</eastbc>
+        <northbc>48.112640</northbc>
+        <southbc>40.399723</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>inland waters</themekey>
+      </theme>
+      <place>
+        <placekt>Uncontrolled Keywords</placekt>
+        <placekey>US</placekey>
+        <placekey>Great Lakes</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>These data were digitized and edited from best available sources at a scales ranging from 1:24,000, or better, up to 1:2,000,000.  This data is not intended to be the authoritative source for hyrologic units, but only as a reference to NHD data that has some interdependecies with hydrologic unit delineation for reach code assignments.</useconst>
+    <natvform>Shapefile</natvform>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Richard Garcia</cntper>
+          <cntorg>Great Lakes Commission</cntorg>
+        </cntperp>
+        <cntpos />
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address />
+          <city />
+          <state />
+          <postal />
+        </cntaddr>
+        <cntvoice>734-971-9135</cntvoice>
+        <cntemail>rgarcia@glc.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>http://gis.glin.net/geoserver/wms?bbox=-93.208054,40.399723,-73.623726,48.112640&amp;request=GetMap&amp;layers=glin:gl_8_unit_huc&amp;width=600&amp;height=400&amp;srs=EPSG:4326&amp;styles=line_navy&amp;format=image/png</browsen>
+      <browsed>WMS-based PNG preview of dataset at full extent</browsed>
+      <browset>PNG</browset>
+    </browse>
+    <native>GNU/Linux i686 i386</native>
+    <crossref>
+      <citeinfo>
+        <origin />
+        <pubdate />
+        <title />
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <metainfo>
+    <metd>2009-12-30T11:38:14-04:00</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Richard Garcia</cntper>
+          <cntorg>Great Lakes Commission</cntorg>
+        </cntperp>
+        <cntpos />
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address />
+          <city />
+          <state />
+          <postal />
+        </cntaddr>
+        <cntvoice>734-971-9135</cntvoice>
+        <cntfax />
+        <cntemail>rgarcia@glc.org</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper />
+          <cntorg />
+        </cntperp>
+        <cntpos />
+        <cntaddr>
+          <addrtype />
+          <address />
+          <city />
+          <state />
+          <postal />
+        </cntaddr>
+        <cntvoice />
+        <cntfax />
+        <cntemail />
+      </cntinfo>
+    </distrib>
+    <resdesc>gl_8_unit_huc</resdesc>
+    <distliab>Disclaimer. The Great Lakes Information Network (GLIN) cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. The the Great Lakes Information Network (GLIN) makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Shapefile</formname>
+          <formcont>US Great Lakes Basins 8 Unit HUCS</formcont>
+          <filedec>Shapefile compressed with GNU zip</filedec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis.glin.net/geoserver/wfs?request=getfeature&amp;service=wfs&amp;version=1.0.0&amp;typename=glin:gl_8_unit_huc&amp;outputformat=shape-zip</networkr>
+              </networka>
+            </computer>
+            <oncomp>GNU/Linux i686 i386</oncomp>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>GML</formname>
+          <formcont>US Great Lakes Basins 8 Unit HUCS</formcont>
+          <filedec>Geographic Markup Language (GML) compressed with GNU zip</filedec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis.glin.net/geoserver/wfs?request=getfeature&amp;service=wfs&amp;version=1.0.0&amp;typename=glin:gl_8_unit_huc&amp;outputformat=GML2-GZIP</networkr>
+              </networka>
+            </computer>
+            <oncomp>GNU/Linux i686 i386</oncomp>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>SVG</formname>
+          <formcont>US Great Lakes Basins 8 Unit HUCS</formcont>
+          <filedec>No compression applied</filedec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis.glin.net/geoserver/wms?bbox=-93.208054,40.399723,-73.623726,48.112640&amp;request=GetMap&amp;layers=glin:gl_8_unit_huc&amp;width=600&amp;height=400&amp;srs=EPSG:4326&amp;styles=line_navy&amp;format=image/svg</networkr>
+              </networka>
+            </computer>
+            <oncomp>GNU/Linux i686 i386</oncomp>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>PDF</formname>
+          <formcont>US Great Lakes Basins 8 Unit HUCS</formcont>
+          <filedec>No compression applied</filedec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis.glin.net/geoserver/wms?bbox=-93.208054,40.399723,-73.623726,48.112640&amp;request=GetMap&amp;layers=glin:gl_8_unit_huc&amp;width=600&amp;height=400&amp;srs=EPSG:4326&amp;styles=line_navy&amp;format=application/pdf</networkr>
+              </networka>
+            </computer>
+            <oncomp>GNU/Linux i686 i386</oncomp>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>none</fees>
+    </stdorder>
+  </distinfo>
+  <spdoinfo>
+    <direct />
+  </spdoinfo>
+  <dataqual />
+  <spref>
+    <horizsys>
+      <geograph>
+        <geogunit />
+        <latres>0.01757812</latres>
+        <longres>0.01757812</longres>
+      </geograph>
+    </horizsys>
+  </spref>
+  <eainfo />
+</metadata>
