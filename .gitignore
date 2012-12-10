@@ -1,1 +1,3 @@
 *.pyc
+ISOs/In-situ/storet/*.xml
+
