@@ -5,6 +5,7 @@
 import BaseXClient
 from os import walk
 from os.path import join
+import os
 import sys
 
 if sys.version < '3': # i'm testing with Python 2.7.3
@@ -40,6 +41,9 @@ def CreateGlos(dir = ""):
         # add document
         for root, dirs, files in walk(dir):
             for file in files:
+
+                if os.path.splitext(file)[1][1:].strip().lower() != "xml":
+                  continue
                 
                 fpath = join(root,file)
                 dbpath = join(root,file)[len(dir):]
