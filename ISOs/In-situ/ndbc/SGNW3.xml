@@ -46,7 +46,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:Date>2012-12-06</gco:Date>
+    <gco:Date>2012-12-07</gco:Date>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -64,7 +64,7 @@
           <gmd:date>
             <gmd:CI_Date>
               <gmd:date>
-                <gco:DateTime>2012-12-06T16:17:11.032Z</gco:DateTime>
+                <gco:DateTime>2012-12-07T13:14:22.184Z</gco:DateTime>
               </gmd:date>
             </gmd:CI_Date>
           </gmd:date>
@@ -142,19 +142,6 @@
       <gmd:aggregationInfo>
         <gmd:MD_AggregateInformation>
           <gmd:aggregateDataSetIdentifier>
-            <gmd:MD_Identifier>
-              <gmd:authority>
-                <gmd:CI_Citation>
-                  <gmd:title>
-                    <gco:CharacterString>Unidata Common Data Model</gco:CharacterString>
-                  </gmd:title>
-                  <gmd:date gco:nilReason="inapplicable"></gmd:date>
-                </gmd:CI_Citation>
-              </gmd:authority>
-              <gmd:code>
-                <gco:CharacterString>Station</gco:CharacterString>
-              </gmd:code>
-            </gmd:MD_Identifier>
           </gmd:aggregateDataSetIdentifier>
         </gmd:MD_AggregateInformation>
       </gmd:aggregationInfo>
@@ -210,6 +197,152 @@
         </gmd:EX_Extent>
       </gmd:extent>
     </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:identificationInfo>
+    <srv:SV_ServiceIdentification id="SOS">
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>National Data Buoy Center SOS</gco:CharacterString>
+          </gmd:title>
+          <gmd:date gco:nilReason="inapplicable"></gmd:date>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName gco:nilReason="missing"></gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>National Data Buoy Center</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo gco:nilReason="missing"></gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+          <gco:CharacterString>N MICHIGAN- Halfway between North Manitou and Washington Islands.</gco:CharacterString>
+      </gmd:abstract>
+      <srv:serviceType>
+          <gco:LocalName>OGC Sensor Observation Service (SOS)</gco:LocalName>
+      </srv:serviceType>
+      <srv:extent>
+          <gmd:EX_Extent>
+            <gmd:geographicElement>
+              <gmd:EX_GeographicBoundingBox>
+                <gmd:extentTypeCode>
+                  <gco:Boolean>1</gco:Boolean>
+                </gmd:extentTypeCode>
+                <gmd:westBoundLongitude>
+                  <gco:Decimal>-86.411</gco:Decimal>
+                </gmd:westBoundLongitude>
+                <gmd:eastBoundLongitude>
+                  <gco:Decimal>-86.411</gco:Decimal>
+                </gmd:eastBoundLongitude>
+                <gmd:southBoundLatitude>
+                  <gco:Decimal>45.344</gco:Decimal>
+                </gmd:southBoundLatitude>
+                <gmd:northBoundLatitude>
+                  <gco:Decimal>45.344</gco:Decimal>
+                </gmd:northBoundLatitude>
+              </gmd:EX_GeographicBoundingBox>
+            </gmd:geographicElement>
+            <gmd:temporalElement>
+              <gmd:EX_TemporalExtent>
+                <gmd:extent>
+                  <gml:TimePeriod>
+                    <gml:beginPosition>2008-07-21T20:50:00.000Z</gml:beginPosition>
+                    <gml:endPosition indeterminatePosition="now"></gml:endPosition>
+                  </gml:TimePeriod>
+                </gmd:extent>
+              </gmd:EX_TemporalExtent>
+            </gmd:temporalElement>
+            <gmd:verticalElement>
+              <gmd:EX_VerticalExtent>
+                <gmd:minimumValue>
+                  <gco:Real>0</gco:Real>
+                </gmd:minimumValue>
+                <gmd:maximumValue>
+                  <gco:Real>0</gco:Real>
+                </gmd:maximumValue>
+                <gmd:verticalCRS gco:nilReason="missing"></gmd:verticalCRS>
+              </gmd:EX_VerticalExtent>
+            </gmd:verticalElement>
+          </gmd:EX_Extent>
+        </srv:extent>
+      <srv:couplingType>
+        <srv:SV_CouplingType gco:nilReason="unknown"></srv:SV_CouplingType>
+      </srv:couplingType>
+      <srv:containsOperations>
+        <srv:SV_OperationMetadata>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:DCP gco:nilReason="unknown"></srv:DCP>
+          <srv:connectPoint>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://sdf.ndbc.noaa.gov/sos/server.php?request=GetCapabilities&service=SOS</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>SOS - GetCapabilities</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Sensor Observation Service - GetCapabilities</gco:CharacterString>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+        </srv:connectPoint>
+      </srv:SV_OperationMetadata>
+      <srv:SV_OperationMetadata>
+        <srv:operationName>
+          <gco:CharacterString>DescribeSensor</gco:CharacterString>
+        </srv:operationName>
+        <srv:DCP gco:nilReason="unknown"></srv:DCP>
+        <srv:connectPoint>
+          <gmd:CI_OnlineResource>
+            <gmd:linkage>
+              <gmd:URL>http://sdf.ndbc.noaa.gov/sos/server.php?service=SOS&request=DescribeSensor&version=1.0.0&outputformat=text/xml;subtype=%22sensorML/1.0.1%22&procedure=urn:ioos:station:wmo:sgnw3</gmd:URL>
+            </gmd:linkage>
+            <gmd:name>
+              <gco:CharacterString>SOS - DescribeSensor</gco:CharacterString>
+            </gmd:name>
+            <gmd:description>
+              <gco:CharacterString>Sensor Observation Service - DescribeSensor</gco:CharacterString>
+            </gmd:description>
+            <gmd:function>
+              <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+            </gmd:function>
+          </gmd:CI_OnlineResource>
+        </srv:connectPoint>
+      </srv:SV_OperationMetadata>
+      <srv:SV_OperationMetadata>
+        <srv:operationName>
+          <gco:CharacterString>GetObservation</gco:CharacterString>
+        </srv:operationName>
+        <srv:DCP gco:nilReason="unknown"></srv:DCP>
+        <srv:connectPoint>
+          <gmd:CI_OnlineResource>
+            <gmd:linkage>
+              <gmd:URL>http://sdf.ndbc.noaa.gov/sos/server.php?request=GetObservation&service=SOS&version=1.0.0&offering=urn:ioos:station:wmo:sgnw3&observedproperty=air_temperature&responseformat=text/xml;subtype=%22om/1.0.0%22&eventtime=latest</gmd:URL>
+            </gmd:linkage>
+            <gmd:name>
+              <gco:CharacterString>SOS - GetObservation</gco:CharacterString>
+            </gmd:name>
+            <gmd:description>
+              <gco:CharacterString>Sensor Observation Service - GetObservation</gco:CharacterString>
+            </gmd:description>
+            <gmd:function>
+              <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+            </gmd:function>
+          </gmd:CI_OnlineResource>
+        </srv:connectPoint>
+      </srv:SV_OperationMetadata>
+      <srv:operatesOn xlink:href="#DataIdentification"></srv:operatesOn>
+      </srv:containsOperations>
+    </srv:SV_ServiceIdentification>
   </gmd:identificationInfo>
   <gmd:contentInfo>
     <gmi:MI_CoverageDescription>
