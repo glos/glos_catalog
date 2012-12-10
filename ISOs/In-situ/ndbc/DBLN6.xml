@@ -280,7 +280,7 @@
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>http://sdf.ndbc.noaa.gov/sos/server.php?request=GetCapabilities&service=SOS</gmd:URL>
+                <gmd:URL>http://sdf.ndbc.noaa.gov/sos/server.php?request=GetCapabilities&amp;service=SOS</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>SOS - GetCapabilities</gco:CharacterString>
@@ -302,7 +302,7 @@
         <srv:connectPoint>
           <gmd:CI_OnlineResource>
             <gmd:linkage>
-              <gmd:URL>http://sdf.ndbc.noaa.gov/sos/server.php?service=SOS&request=DescribeSensor&version=1.0.0&outputformat=text/xml;subtype=%22sensorML/1.0.1%22&procedure=urn:ioos:station:wmo:dbln6</gmd:URL>
+              <gmd:URL>http://sdf.ndbc.noaa.gov/sos/server.php?service=SOS&amp;request=DescribeSensor&amp;version=1.0.0&amp;outputformat=text/xml;subtype=%22sensorML/1.0.1%22&amp;procedure=urn:ioos:station:wmo:dbln6</gmd:URL>
             </gmd:linkage>
             <gmd:name>
               <gco:CharacterString>SOS - DescribeSensor</gco:CharacterString>
@@ -324,7 +324,7 @@
         <srv:connectPoint>
           <gmd:CI_OnlineResource>
             <gmd:linkage>
-              <gmd:URL>http://sdf.ndbc.noaa.gov/sos/server.php?request=GetObservation&service=SOS&version=1.0.0&offering=urn:ioos:station:wmo:dbln6&observedproperty=air_temperature&responseformat=text/xml;subtype=%22om/1.0.0%22&eventtime=latest</gmd:URL>
+              <gmd:URL>http://sdf.ndbc.noaa.gov/sos/server.php?request=GetObservation&amp;service=SOS&amp;version=1.0.0&amp;offering=urn:ioos:station:wmo:dbln6&amp;observedproperty=air_temperature&amp;responseformat=text/xml;subtype=%22om/1.0.0%22&amp;eventtime=latest</gmd:URL>
             </gmd:linkage>
             <gmd:name>
               <gco:CharacterString>SOS - GetObservation</gco:CharacterString>
