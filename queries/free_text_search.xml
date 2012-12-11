@@ -21,6 +21,7 @@
       {$foi/gmd:fileIdentifier}
       {$foi/gmd:identificationInfo}
       {$foi/gmd:distributionInfo}
+      {$foi/gmd:contentInfo}
       </gmd:MD_Metadata>
     };
 
