@@ -15,7 +15,7 @@ if sys.version < '3': # i'm testing with Python 2.7.3
 import xml.dom.minidom
 
 
-def CreateGlos(dir = ""):
+def CreateGlos(directory = ""):
     
     try:
         base_server = os.environ["BASEX_SERVER"]
@@ -31,7 +31,7 @@ def CreateGlos(dir = ""):
     session.execute("drop db glos")
     print(session.info())
 
-    print "Importing XML in DIR: '", dir, "'"
+    print "Importing XML in DIR: '", directory, "'"
 
     try:
         # create empty database
@@ -39,17 +39,17 @@ def CreateGlos(dir = ""):
         print(session.info())
     
         # add document
-        for root, dirs, files in walk(dir):
-            for file in files:
+        for root, dirs, files in walk(directory):
+            for f in files:
 
-                if os.path.splitext(file)[1][1:].strip().lower() != "xml":
+                if os.path.splitext(f)[1][1:].strip().lower() != "xml":
                   continue
                 
-                fpath = join(root,file)
-                dbpath = join(root,file)[len(dir):]
+                fpath = join(root,f)
+                dbpath = join(root,f)[len(directory):]
                 
-                print "File:", fpath
-                print "bd path:", dbpath
+                #print "File:", fpath
+                #print "bd path:", dbpath
         
                 session.add(dbpath, readXml(fpath))
                 
@@ -65,7 +65,6 @@ def CreateGlos(dir = ""):
         if session:
             session.close()
     
-
 
 def readXml(filename):
     
