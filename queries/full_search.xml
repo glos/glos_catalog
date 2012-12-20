@@ -1,0 +1,200 @@
+<query xmlns="http://basex.org/rest">
+  <text>
+  <![CDATA[
+	declare namespace gmd="http://www.isotc211.org/2005/gmd"; 
+	declare namespace gco="http://www.isotc211.org/2005/gco"; 
+	declare namespace gmi="http://www.isotc211.org/2005/gmi";
+	declare namespace gml="http://www.opengis.net/gml";
+	
+	declare function local:FreeTextQueryFunction($sequences, $textsearch)
+	{
+	  for $val in $sequences
+		where ($val//gmd:identificationInfo//text() contains text {$textsearch} using fuzzy) or ($val//gmd:contentInfo//text() contains text {$textsearch} using fuzzy)
+		  (: Investigate how to use ftand, ftor to enable more comlex text search. Need to figure out how to parse the query to build the xquery statement... :)
+		  return$val
+	};
+	
+	declare function local:GeoSpatialWithinQueryFunction($sequences, $west, $east, $north, $south)
+	{
+	  for $val in $sequences
+		let $bbox := $val//gmd:EX_GeographicBoundingBox
+		let $westB := $bbox/gmd:westBoundLongitude/gco:Decimal
+		let $eastB := $bbox/gmd:eastBoundLongitude/gco:Decimal
+		let $southB := $bbox/gmd:southBoundLatitude/gco:Decimal
+		let $northB := $bbox/gmd:northBoundLatitude/gco:Decimal
+		where ($west < $westB and 
+			   $east > $eastB and
+			   $south < $southB and
+			   $north > $northB)
+		  return $val   
+	};
+	
+	declare function local:TemporalIntersectsQueryFunction($sequences, $startQ, $endQ)
+	{
+	  for $val in $sequences
+		let $bbox := $val//gml:TimePeriod
+		let $startB := $bbox/gml:beginPosition
+		let $endB := $bbox/gml:endPosition
+		where (
+				(:Include the FOI if the time bounds are empty:)
+				not($startB and $endB) 
+				
+				and
+				
+				$startQ < $startB and $endQ > $startB
+				
+				or
+				
+				$endQ > $endB and $startQ < $endB
+				
+			  )
+		  return $val   
+	};
+	
+	
+	declare function local:GeoSpatialIntersectsQueryFunction($sequences, $westQ, $eastQ, $northQ, $southQ)
+	{
+	  for $val in $sequences
+		let $bbox := $val//gmd:EX_GeographicBoundingBox
+		let $westB := $bbox/gmd:westBoundLongitude/gco:Decimal
+		let $eastB := $bbox/gmd:eastBoundLongitude/gco:Decimal
+		let $southB := $bbox/gmd:southBoundLatitude/gco:Decimal
+		let $northB := $bbox/gmd:northBoundLatitude/gco:Decimal
+		where (
+				(:If the query bounds contains any corner of the FOI's bounds:)
+				($eastQ > $westB and $westQ < $westB and 
+				  ($northQ > $northB and $southQ < $northB or
+					$southQ < $southB and $northQ > $southB)
+				  or
+				$westQ < $eastB and $eastQ > $eastB and
+				  ($northQ > $northB and $southQ < $northB or
+					$southQ < $southB and $northQ > $southB)
+				)
+				
+				or
+				(:If any corner of the query bounds is contained by the FOI's bounds:)
+				($eastB > $westQ and $westB < $westQ and 
+				  ($northB > $northQ and $southB < $northQ or
+					$southB < $southQ and $northB > $southQ)
+				  or
+				$westB < $eastQ and $eastB > $eastQ and
+				  ($northB > $northQ and $southB < $northQ or
+					$southB < $southQ and $northB > $southQ)
+				)
+			  )
+		  return $val   
+	};
+	
+	declare function local:OrderByFunction($sequences)
+	{
+	  for $val in $sequences
+		let $title := $val//gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:title/gco:CharacterString/text()
+		order by $title
+		return $val
+	};
+	
+	
+	declare function local:FormatResult($fois)
+	{
+	  for $foi in $fois
+	  return
+	  <gmd:MD_Metadata>
+	  {$foi/gmd:fileIdentifier}
+	  {$foi/gmd:identificationInfo}
+	  {$foi/gmd:distributionInfo}
+	  {$foi/gmd:contentInfo}
+	  </gmd:MD_Metadata>
+	};
+	
+	(: Declare values for use in .xq file in basex
+	let $records :=  3
+	let $start :=    0 
+	
+	let $textSearch := false()
+	let $searchTerm := "water"
+	
+	
+	let $geoSearch := true()
+	let $west := -98.0
+	let $east := -60.1
+	let $north := 60.
+	let $south := 31.
+	
+	let $temporalSearch :=true()
+	let $tstart := "2010-11-29T23:59:00"
+	let $tend := "2010-11-30T00:01:00"
+	
+	:)
+	
+	(: Declare variables for post format :)
+	declare variable $records as xs:integer external;
+	declare variable $start as xs:integer external;
+	
+	declare variable $textSearch as xs:boolean external;
+	declare variable $searchTerm as xs:string external;
+	
+	declare variable $geoSearch as xs:boolean external;
+	declare variable $west as xs:decimal external;
+	declare variable $east as xs:decimal external;
+	declare variable $north as xs:decimal external;
+	declare variable $south as xs:decimal external;
+	
+	declare variable $temporalSearch as xs:boolean external;
+	declare variable $tstart as xs:string external;
+	declare variable $tend as xs:string external;
+	
+	
+	(:Select some data - all of the MD_DataIdentificaiton Elements:)
+	let $resultSequence := /*
+	let $resultSequence := if ($textSearch) then
+							 local:FreeTextQueryFunction($resultSequence, $searchTerm)
+							else
+							  $resultSequence
+	
+	let $resultSequence := if ($geoSearch) then
+							 local:GeoSpatialWithinQueryFunction($resultSequence, $west, $east, $north, $south)
+							else
+							  $resultSequence
+	
+	let $resultSequence := if ($temporalSearch) then
+							 local:TemporalIntersectsQueryFunction($resultSequence, $tstart, $tend)
+							else
+							  $resultSequence
+	
+	
+	
+	let $resultSequence := local:OrderByFunction($resultSequence)
+	
+	let $max := count($resultSequence)
+	let $end := min (($start + $records - 1, $max))
+	let $num := min (($max, $records))
+	
+	return 
+	  <csw:GetRecordsResponse xmlns:csw="http://www.opengis.net/cat/csw/2.0.2" xmlns:ogc="http://www.opengis.net/ogc" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:ows="http://www.opengis.net/ows" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.2" xsi:schemaLocation="http://www.opengis.net/cat/csw/2.0.2 http://schemas.opengis.net/csw/2.0.2/CSW-discovery.xsd">
+		<csw:RequestId/>
+		<csw:SearchStatus timestamp="{current-dateTime()}"/>
+		<csw:SearchResults nextRecord="{$end + 1}" numberOfRecordsMatched="{$max}" numberOfRecordsReturned="{$num}" recordSchema="http://www.isotc211.org/2005/gmd">
+		  {local:FormatResult(subsequence($resultSequence, $start, $records))}
+		</csw:SearchResults>
+	  </csw:GetRecordsResponse>
+
+  ]]>
+
+  </text>
+  <variable name="records" value="___LIMIT___"/>
+  <variable name="start" value="___START___"/>
+  
+  <variable name="textSearch" value="___TEXTSEARCH___"/>
+  <variable name="searchTerm" value="___ANYTEXT___"/>
+  
+  <variable name="geoSearch" value="___GEOSEARCH___"/>
+  <variable name="west" value="___WEST___"/>
+  <variable name="east" value="___EAST___"/>
+  <variable name="north" value="___NORTH___"/>
+  <variable name="south" value="___SOUTH___"/>
+
+  <variable name="temporalSearch" value="___TEMPORALSEARCH___"/>
+  <variable name="tstart" value="___TSTART___"/>
+  <variable name="tend" value="___TEND___"/>
+
+</query>
