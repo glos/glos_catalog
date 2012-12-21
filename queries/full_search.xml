@@ -22,10 +22,10 @@
 		let $eastB := $bbox/gmd:eastBoundLongitude/gco:Decimal
 		let $southB := $bbox/gmd:southBoundLatitude/gco:Decimal
 		let $northB := $bbox/gmd:northBoundLatitude/gco:Decimal
-		where ($west < $westB and 
-			   $east > $eastB and
-			   $south < $southB and
-			   $north > $northB)
+		where ($west <= $westB and 
+			   $east >= $eastB and
+			   $south <= $southB and
+			   $north >= $northB)
 		  return $val   
 	};
 	
@@ -39,15 +39,17 @@
 				(:Include the FOI if the time bounds are empty:)
 				not($startB and $endB) 
 				
-				and
-				
-				$startQ < $startB and $endQ > $startB
-				
 				or
 				
-				$endQ > $endB and $startQ < $endB
+				$startQ <= $startB and $startB <= $endQ 
+				or
+				$endQ >= $endB and $endB >= $startQ
+				or
+				$startB <= $startQ and $startQ <= $endB
+				or 
+				$endB >= $endQ and $endQ >= $startB
 				
-			  )
+				)
 		  return $val   
 	};
 	
@@ -62,25 +64,15 @@
 		let $northB := $bbox/gmd:northBoundLatitude/gco:Decimal
 		where (
 				(:If the query bounds contains any corner of the FOI's bounds:)
-				($eastQ > $westB and $westQ < $westB and 
-				  ($northQ > $northB and $southQ < $northB or
-					$southQ < $southB and $northQ > $southB)
-				  or
-				$westQ < $eastB and $eastQ > $eastB and
-				  ($northQ > $northB and $southQ < $northB or
-					$southQ < $southB and $northQ > $southB)
-				)
-				
-				or
-				(:If any corner of the query bounds is contained by the FOI's bounds:)
-				($eastB > $westQ and $westB < $westQ and 
-				  ($northB > $northQ and $southB < $northQ or
-					$southB < $southQ and $northB > $southQ)
-				  or
-				$westB < $eastQ and $eastB > $eastQ and
-				  ($northB > $northQ and $southB < $northQ or
-					$southB < $southQ and $northB > $southQ)
-				)
+				($eastQ >= $westB and $westB >= $westQ or
+				 $westQ <= $eastB and $eastB <= $eastQ or
+				 $eastB >= $westQ and $westQ >= $westB or 
+				 $westB <= $eastQ and $eastQ <= $eastB) 
+				 and 
+				($northQ >= $northB and $northB >= $southQ or
+				 $southQ <= $southB and $southB <= $northQ or 
+				 $northB >= $northQ and $northQ >= $southB or
+				 $southB <= $southQ and $southQ <= $northB)
 			  )
 		  return $val   
 	};
@@ -106,43 +98,22 @@
 	  </gmd:MD_Metadata>
 	};
 	
-	(: Declare values for use in .xq file in basex
-	let $records :=  3
-	let $start :=    0 
-	
-	let $textSearch := false()
-	let $searchTerm := "water"
-	
-	
-	let $geoSearch := true()
-	let $west := -98.0
-	let $east := -60.1
-	let $north := 60.
-	let $south := 31.
-	
-	let $temporalSearch :=true()
-	let $tstart := "2010-11-29T23:59:00"
-	let $tend := "2010-11-30T00:01:00"
-	
-	:)
-	
 	(: Declare variables for post format :)
-	declare variable $records as xs:integer external;
-	declare variable $start as xs:integer external;
-	
-	declare variable $textSearch as xs:boolean external;
-	declare variable $searchTerm as xs:string external;
-	
-	declare variable $geoSearch as xs:boolean external;
-	declare variable $west as xs:decimal external;
-	declare variable $east as xs:decimal external;
-	declare variable $north as xs:decimal external;
-	declare variable $south as xs:decimal external;
-	
-	declare variable $temporalSearch as xs:boolean external;
-	declare variable $tstart as xs:string external;
-	declare variable $tend as xs:string external;
-	
+		declare variable $records as xs:integer external;
+		declare variable $start as xs:integer external;
+		
+		declare variable $textSearch as xs:boolean external;
+		declare variable $searchTerm as xs:string external;
+		
+		declare variable $geoSearch as xs:boolean external;
+		declare variable $west as xs:decimal external;
+		declare variable $east as xs:decimal external;
+		declare variable $north as xs:decimal external;
+		declare variable $south as xs:decimal external;
+		
+		declare variable $temporalSearch as xs:boolean external;
+		declare variable $tstart as xs:string external;
+		declare variable $tend as xs:string external;
 	
 	(:Select some data - all of the MD_DataIdentificaiton Elements:)
 	let $resultSequence := /*
@@ -152,7 +123,7 @@
 							  $resultSequence
 	
 	let $resultSequence := if ($geoSearch) then
-							 local:GeoSpatialWithinQueryFunction($resultSequence, $west, $east, $north, $south)
+							 local:GeoSpatialIntersectsQueryFunction($resultSequence, $west, $east, $north, $south)
 							else
 							  $resultSequence
 	
@@ -178,8 +149,7 @@
 		</csw:SearchResults>
 	  </csw:GetRecordsResponse>
 
-  ]]>
-
+]]>
   </text>
   <variable name="records" value="___LIMIT___"/>
   <variable name="start" value="___START___"/>
@@ -196,5 +166,4 @@
   <variable name="temporalSearch" value="___TEMPORALSEARCH___"/>
   <variable name="tstart" value="___TSTART___"/>
   <variable name="tend" value="___TEND___"/>
-
 </query>
