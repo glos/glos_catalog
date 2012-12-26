@@ -36,10 +36,11 @@
 		let $startB := $bbox/gml:beginPosition
 		let $endB := $bbox/gml:endPosition
 		where (
-				(:Include the FOI if the time bounds are empty:)
+				(:Include the FOI if the time bounds are empty
 				not($startB and $endB) 
 				
 				or
+				:)
 				
 				$startQ <= $startB and $startB <= $endQ 
 				or
