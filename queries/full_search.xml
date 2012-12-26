@@ -9,8 +9,7 @@
 	declare function local:FreeTextQueryFunction($sequences, $textsearch)
 	{
 	  for $val in $sequences
-		where ($val//gmd:identificationInfo//text() contains text {$textsearch} using fuzzy) or ($val//gmd:contentInfo//text() contains text {$textsearch} using fuzzy)
-		  (: Investigate how to use ftand, ftor to enable more comlex text search. Need to figure out how to parse the query to build the xquery statement... :)
+		where ($val contains text {$textsearch} using wildcards)
 		  return$val
 	};
 	
@@ -36,11 +35,10 @@
 		let $startB := $bbox/gml:beginPosition
 		let $endB := $bbox/gml:endPosition
 		where (
-				(:Include the FOI if the time bounds are empty
+				(:Include the FOI if the time bounds are empty:)
 				not($startB and $endB) 
 				
 				or
-				:)
 				
 				$startQ <= $startB and $startB <= $endQ 
 				or
@@ -99,22 +97,23 @@
 	  </gmd:MD_Metadata>
 	};
 	
-	(: Declare variables for post format :)
-		declare variable $records as xs:integer external;
-		declare variable $start as xs:integer external;
+	
+	declare variable $records as xs:integer external := 20;
+	declare variable $start as xs:integer external := 1;
 		
-		declare variable $textSearch as xs:boolean external;
-		declare variable $searchTerm as xs:string external;
+	declare variable $textSearch as xs:boolean external := true();
+	declare variable $searchTerm as item()* external := ("National", "sst");
 		
-		declare variable $geoSearch as xs:boolean external;
-		declare variable $west as xs:decimal external;
-		declare variable $east as xs:decimal external;
-		declare variable $north as xs:decimal external;
-		declare variable $south as xs:decimal external;
+	declare variable $geoSearch as xs:boolean external := true();
+	declare variable $west as xs:decimal external  := -86.0;
+	declare variable $east as xs:decimal external  := -71.9;
+	declare variable $north as xs:decimal external := 46.;
+	declare variable $south as xs:decimal external := 43.;
 		
-		declare variable $temporalSearch as xs:boolean external;
-		declare variable $tstart as xs:string external;
-		declare variable $tend as xs:string external;
+	declare variable $temporalSearch as xs:boolean external := false();
+	declare variable $tstart as xs:string external := "2012-03-11T07:01:00";
+	declare variable $tend as xs:string external := "2012-10-22T07:06:00";
+	
 	
 	(:Select some data - all of the MD_DataIdentificaiton Elements:)
 	let $resultSequence := /*
@@ -135,7 +134,11 @@
 	
 	
 	
-	let $resultSequence := local:OrderByFunction($resultSequence)
+	let $resultSequence := if (not ($textSearch)) then
+							 local:OrderByFunction($resultSequence)
+							else
+							 $resultSequence
+							  
 	
 	let $max := count($resultSequence)
 	let $end := min (($start + $records - 1, $max))
@@ -149,6 +152,10 @@
 		  {local:FormatResult(subsequence($resultSequence, $start, $records))}
 		</csw:SearchResults>
 	  </csw:GetRecordsResponse>
+	
+
+
+
 
 ]]>
   </text>
@@ -167,4 +174,5 @@
   <variable name="temporalSearch" value="___TEMPORALSEARCH___"/>
   <variable name="tstart" value="___TSTART___"/>
   <variable name="tend" value="___TEND___"/>
+
 </query>
