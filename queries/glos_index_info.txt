@@ -1,0 +1,2149 @@
+> open glos
+Database 'glos' was opened in 40.02 ms.
+> info index
+Elements
+- Structure: Hash
+- Entries: 447
+  gco:CharacterString                      2196080x, strings, leaf
+  gco:aName                                324540x, leaf
+  gmd:keyword                              324398x, leaf
+  gmd:sequenceIdentifier                   324078x, leaf
+  gmd:descriptor                           324078x, leaf
+  gmd:dimension                            324078x, leaf
+  gco:MemberName                           324078x, leaf
+  gmd:MD_Band                              324078x, leaf
+  gco:attributeType                        324031x, leaf
+  gco:Decimal                              278564x, numeric(-434.7930908203125 - 180.0), leaf
+  gmd:CI_OnlineResource                    208454x, leaf
+  gmd:URL                                  208454x, strings, leaf
+  gmd:linkage                              208454x, leaf
+  gmd:date                                 139681x, leaf
+  gmd:contactInfo                          139282x, leaf
+  gmd:organisationName                     139282x, leaf
+  gmd:individualName                       139282x, leaf
+  gmd:CI_ResponsibleParty                  139282x, leaf
+  gmd:role                                 139282x, leaf
+  gmd:CI_RoleCode                          139282x, 4 values, leaf
+  gco:Real                                 138934x, numeric(-326.0 - 4.9E-324), leaf
+  gmd:extent                               104722x, leaf
+  gmd:name                                 104607x, leaf
+  gmd:address                              104586x, leaf
+  gmd:CI_Address                           104586x, leaf
+  gmd:CI_Contact                           104585x, leaf
+  gmd:electronicMailAddress                104584x, leaf
+  gmd:administrativeArea                   104431x, leaf
+  gmd:postalCode                           104431x, leaf
+  gmd:phone                                104431x, leaf
+  gmd:city                                 104422x, leaf
+  gmd:description                          104414x, leaf
+  gmd:contact                              104261x, leaf
+  gmd:function                             104243x, leaf
+  gmd:CI_OnLineFunctionCode                104243x, 3 values, leaf
+  srv:connectPoint                         104149x, leaf
+  srv:DCP                                  104133x, leaf
+  srv:operationName                        104131x, leaf
+  srv:SV_OperationMetadata                 104131x, leaf
+  srv:containsOperations                   104107x, leaf
+  gmd:deliveryPoint                        104098x, leaf
+  gmd:onlineResource                       104060x, leaf
+  gmd:EX_Extent                            69831x, leaf
+  gmd:CI_Telephone                         69755x, leaf
+  gmd:voice                                69755x, leaf
+  gmd:CI_Citation                          69750x, leaf
+  gmd:title                                69750x, leaf
+  gmd:CI_Date                              69744x, leaf
+  gmd:dateType                             69732x, leaf
+  gmd:abstract                             69659x, leaf
+  gmd:citation                             69659x, leaf
+  gmd:identificationInfo                   69659x, leaf
+  gmd:temporalElement                      69642x, leaf
+  gmd:EX_TemporalExtent                    69642x, leaf
+  gml:TimePeriod                           69642x, leaf
+  gml:beginPosition                        69642x, strings, leaf
+  gml:endPosition                          69642x, strings, leaf
+  gmd:geographicElement                    69641x, leaf
+  gmd:EX_GeographicBoundingBox             69641x, leaf
+  gmd:westBoundLongitude                   69641x, leaf
+  gmd:eastBoundLongitude                   69641x, leaf
+  gmd:southBoundLatitude                   69641x, leaf
+  gmd:northBoundLatitude                   69641x, leaf
+  gco:Boolean                              69468x, numeric(1 - 1), leaf
+  gmd:extentTypeCode                       69468x, leaf
+  gmd:minimumValue                         69467x, leaf
+  gmd:verticalElement                      69467x, leaf
+  gmd:EX_VerticalExtent                    69467x, leaf
+  gmd:maximumValue                         69467x, leaf
+  gmd:verticalCRS                          69451x, leaf
+  gmd:language                             35129x, leaf
+  gco:Date                                 35078x, 80 values, leaf
+  gmi:MI_Metadata                          34909x, leaf
+  gmd:dateStamp                            34909x, leaf
+  gmd:metadataStandardName                 34909x, leaf
+  gmd:metadataStandardVersion              34909x, leaf
+  gmd:fileIdentifier                       34909x, leaf
+  gmd:topicCategory                        34908x, leaf
+  gmd:MD_DataIdentification                34908x, leaf
+  gmd:MD_TopicCategoryCode                 34908x, 6 values, leaf
+  gco:DateTime                             34897x, strings, leaf
+  gmd:citedResponsibleParty                34794x, leaf
+  srv:SV_ServiceIdentification             34751x, leaf
+  srv:serviceType                          34751x, leaf
+  gco:LocalName                            34751x, 46 values, leaf
+  srv:extent                               34751x, leaf
+  srv:couplingType                         34751x, leaf
+  srv:SV_CouplingType                      34751x, 1 values, leaf
+  gmi:MI_CoverageDescription               34720x, leaf
+  gmd:attributeDescription                 34720x, leaf
+  gmd:contentType                          34720x, leaf
+  gmd:contentInfo                          34720x, leaf
+  gmd:MD_Keywords                          21900x, leaf
+  gmd:descriptiveKeywords                  21900x, leaf
+  gco:TypeName                             462x, leaf
+  gmd:units                                433x, leaf
+  gmd:CI_DateTypeCode                      380x, leaf
+  gmd:country                              379x, leaf
+  gmd:fileDescription                      376x, leaf
+  gmd:MD_BrowseGraphic                     376x, leaf
+  gmd:graphicOverview                      376x, leaf
+  gmd:fileName                             376x, leaf
+  gmd:positionName                         376x, leaf
+  gmd:MD_RestrictionCode                   354x, leaf
+  gmd:MD_CharacterSetCode                  251x, 1 values, leaf
+  gmd:type                                 247x, leaf
+  gmd:characterSet                         247x, leaf
+  gmd:MD_KeywordTypeCode                   247x, 3 values, leaf
+  gmd:onLine                               245x, leaf
+  gmd:protocol                             234x, leaf
+  gmd:maintenanceAndUpdateFrequency        221x, leaf
+  gmd:pointOfContact                       221x, leaf
+  gmd:MD_MaintenanceInformation            221x, leaf
+  gmd:distributionInfo                     220x, leaf
+  gmd:MD_Distribution                      220x, leaf
+  gmd:MD_DigitalTransferOptions            217x, leaf
+  gmd:MD_Format                            206x, leaf
+  gmd:version                              206x, leaf
+  gmd:status                               190x, leaf
+  gmd:MD_ProgressCode                      190x, leaf
+  gmd:MD_MaintenanceFrequencyCode          189x, leaf
+  gmd:resourceConstraints                  188x, leaf
+  gmd:spatialResolution                    188x, leaf
+  gmd:MD_Resolution                        188x, leaf
+  gmd:MD_LegalConstraints                  188x, leaf
+  gmd:resourceMaintenance                  188x, leaf
+  gmd:supplementalInformation              187x, leaf
+  gmd:purpose                              181x, leaf
+  gmd:otherCitationDetails                 178x, leaf
+  gmd:accessConstraints                    177x, leaf
+  gmd:useConstraints                       177x, leaf
+  gmd:otherConstraints                     177x, leaf
+  gmd:distributionFormat                   174x, leaf
+  gmd:specification                        171x, leaf
+  gmd:edition                              166x, leaf
+  gmd:transferOptions                      153x, leaf
+  gmd:axisDimensionProperties              121x, leaf
+  gmd:MD_Dimension                         121x, leaf
+  gmd:dimensionName                        121x, leaf
+  gmd:MD_DimensionNameTypeCode             121x, 4 values, leaf
+  gmd:dimensionSize                        121x, leaf
+  gmd:resolution                           121x, leaf
+  gco:Measure                              117x, numeric(-0.9962539454752023 - 174356.0), leaf
+  gmd:MD_ScopeCode                         112x, 2 values, leaf
+  gco:Integer                              94x, numeric(3 - 59784), leaf
+  gmd:code                                 77x, leaf
+  gmd:MD_Identifier                        74x, leaf
+  srv:operatesOn                           74x, leaf
+  gmd:hierarchyLevel                       65x, leaf
+  gmd:distributorTransferOptions           64x, leaf
+  gmd:thesaurusName                        48x, leaf
+  gmd:dataQualityInfo                      47x, leaf
+  gmd:LI_Lineage                           47x, leaf
+  gmd:statement                            47x, leaf
+  gmd:scope                                47x, leaf
+  gmd:DQ_DataQuality                       47x, leaf
+  gmd:MD_AggregateInformation              47x, leaf
+  gmd:aggregationInfo                      47x, leaf
+  gmd:authority                            47x, leaf
+  gmd:facsimile                            47x, leaf
+  gmd:DQ_Scope                             47x, leaf
+  gmd:level                                47x, leaf
+  gmd:lineage                              47x, leaf
+  gmd:identifier                           44x, leaf
+  gml:description                          44x, 1 values, leaf
+  gmd:aggregateDataSetIdentifier           42x, leaf
+  gmd:LanguageCode                         38x, 1 values, leaf
+  digform                                  37x, leaf
+  digtinfo                                 37x, leaf
+  formname                                 36x, 4 values, leaf
+  networka                                 36x, leaf
+  computer                                 36x, leaf
+  formcont                                 36x, strings, leaf
+  onlinopt                                 36x, leaf
+  digtopt                                  36x, leaf
+  filedec                                  36x, 3 values, leaf
+  oncomp                                   36x, 1 values, leaf
+  networkr                                 36x, strings, leaf
+  gmd:initiativeType                       35x, leaf
+  gmd:DS_InitiativeTypeCode                35x, 1 values, leaf
+  gmd:associationType                      35x, leaf
+  gmd:DS_AssociationTypeCode               35x, 1 values, leaf
+  gmd:distributor                          33x, leaf
+  gmd:metadataMaintenance                  33x, leaf
+  gmd:MD_Distributor                       33x, leaf
+  gmd:distributorContact                   33x, leaf
+  origin                                   33x, 12 values, leaf
+  gmd:maintenanceNote                      32x, leaf
+  gmd:distributorFormat                    32x, leaf
+  gmd:transformationParameterAvailability  32x, leaf
+  gmd:MD_CellGeometryCode                  32x, 1 values, leaf
+  gmd:cellGeometry                         32x, leaf
+  gmd:numberOfDimensions                   32x, leaf
+  gmd:MD_GridSpatialRepresentation         32x, leaf
+  gmd:spatialRepresentationInfo            32x, leaf
+  placekey                                 30x, 16 values, leaf
+  gmd:applicationProfile                   30x, leaf
+  cntinfo                                  29x, leaf
+  postal                                   29x, 3 values, leaf
+  cntvoice                                 29x, 5 values, leaf
+  city                                     29x, 3 values, leaf
+  cntaddr                                  29x, leaf
+  addrtype                                 29x, 2 values, leaf
+  state                                    29x, 3 values, leaf
+  cntper                                   28x, 4 values, leaf
+  cntperp                                  28x, leaf
+  cntpos                                   27x, 2 values, leaf
+  address                                  27x, 3 values, leaf
+  cntorg                                   26x, 3 values, leaf
+  cntemail                                 26x, 4 values, leaf
+  gmd:LocalisedCharacterString             24x, strings, leaf
+  gmx:MimeFileType                         24x, leaf
+  gmd:textGroup                            24x, leaf
+  gmd:equivalentScale                      20x, leaf
+  gmd:MD_RepresentativeFraction            20x, leaf
+  gmd:denominator                          20x, leaf
+  citeinfo                                 19x, leaf
+  pubdate                                  19x, 9 values, leaf
+  title                                    19x, 11 values, leaf
+  themekey                                 17x, 14 values, leaf
+  cntfax                                   16x, 1 values, leaf
+  gmd:presentationForm                     16x, leaf
+  gmd:CI_PresentationFormCode              16x, leaf
+  gmd:referenceSystemIdentifier            15x, leaf
+  gmd:MD_ReferenceSystem                   15x, leaf
+  gmd:spatialRepresentationType            15x, leaf
+  gmd:referenceSystemInfo                  15x, leaf
+  gmd:MD_SpatialRepresentationTypeCode     15x, leaf
+  gmd:RS_Identifier                        15x, leaf
+  metadata                                 10x, leaf
+  idinfo                                   10x, leaf
+  citation                                 10x, leaf
+  descript                                 10x, leaf
+  abstract                                 10x, strings, leaf
+  purpose                                  10x, strings, leaf
+  timeperd                                 10x, leaf
+  timeinfo                                 10x, leaf
+  sngdate                                  10x, leaf
+  caldate                                  10x, 2 values, leaf
+  current                                  10x, 9 values, leaf
+  status                                   10x, leaf
+  progress                                 10x, 6 values, leaf
+  update                                   10x, 8 values, leaf
+  spdom                                    10x, leaf
+  bounding                                 10x, leaf
+  westbc                                   10x, numeric(-93.9715 - 4.9E-324), leaf
+  eastbc                                   10x, numeric(-85.416667 - 4.9E-324), leaf
+  northbc                                  10x, numeric(42.69046 - 49.7917), leaf
+  southbc                                  10x, numeric(40.399723 - 44.554539), leaf
+  keywords                                 10x, leaf
+  theme                                    10x, leaf
+  themekt                                  10x, strings, leaf
+  accconst                                 10x, 2 values, leaf
+  useconst                                 10x, strings, leaf
+  natvform                                 10x, 1 values, leaf
+  ptcontac                                 10x, leaf
+  native                                   10x, 2 values, leaf
+  metainfo                                 10x, leaf
+  metd                                     10x, 2 values, leaf
+  metc                                     10x, leaf
+  metstdn                                  10x, 1 values, leaf
+  metstdv                                  10x, 1 values, leaf
+  distinfo                                 10x, leaf
+  resdesc                                  10x, 10 values, leaf
+  distliab                                 10x, strings, leaf
+  stdorder                                 10x, leaf
+  spdoinfo                                 10x, leaf
+  dataqual                                 10x, leaf
+  spref                                    10x, leaf
+  horizsys                                 10x, leaf
+  geograph                                 10x, leaf
+  geogunit                                 10x, 1 values, leaf
+  latres                                   10x, numeric(0.0 - 0.01757812), leaf
+  longres                                  10x, numeric(0.0 - 0.01757812), leaf
+  eainfo                                   10x, leaf
+  fees                                     9x, 1 values, leaf
+  publish                                  9x, 1 values, leaf
+  pubplace                                 9x, 1 values, leaf
+  pubinfo                                  9x, leaf
+  mgmg1cid                                 9x, leaf
+  placekt                                  9x, 1 values, leaf
+  place                                    9x, leaf
+  supplinf                                 9x, strings, leaf
+  browse                                   9x, leaf
+  browsen                                  9x, strings, leaf
+  browsed                                  9x, 1 values, leaf
+  browset                                  9x, 1 values, leaf
+  crossref                                 9x, leaf
+  onlink                                   9x, 8 values, leaf
+  distrib                                  9x, leaf
+  srv:DCPList                              7x, leaf
+  gmd:PT_Locale                            6x, leaf
+  gmd:locale                               6x, leaf
+  gmd:characterEncoding                    6x, leaf
+  gmd:languageCode                         6x, leaf
+  cordsysn                                 5x, leaf
+  geogcsn                                  5x, 1 values, leaf
+  attrdef                                  5x, 5 values, leaf
+  direct                                   5x, 1 values, leaf
+  gmd:aggregateDataSetName                 5x, leaf
+  begdatea                                 5x, leaf
+  attr                                     5x, leaf
+  attrlabl                                 5x, 5 values, leaf
+  gmd:PT_FreeText                          4x, leaf
+  dct:modified                             3x, 3 values, leaf
+  dc:rights                                3x, leaf
+  dc:title                                 3x, 1 values, leaf
+  simpledc                                 3x, leaf
+  dc:format                                3x, leaf
+  dc:coverage                              3x, 1 values, leaf
+  dc:relation                              3x, leaf
+  dc:language                              3x, leaf
+  dc:type                                  3x, leaf
+  dc:date                                  3x, leaf
+  dc:contributor                           3x, leaf
+  dc:source                                3x, leaf
+  dc:publisher                             3x, leaf
+  dc:description                           3x, leaf
+  dc:subject                               3x, leaf
+  dc:creator                               3x, leaf
+  dc:identifier                            3x, 3 values, leaf
+  srcused                                  2x, 2 values, leaf
+  procdate                                 2x, numeric(20100129 - 20110407), leaf
+  proctime                                 2x, numeric(9442400 - 14232300), leaf
+  lineage                                  2x, leaf
+  westBL                                   2x, numeric(-92.944336 - 4.9E-324), leaf
+  eastBL                                   2x, numeric(-78.398437 - 4.9E-324), leaf
+  languageCode                             2x, leaf
+  northBL                                  2x, numeric(48.848225 - 48.848225), leaf
+  gmd:metadataExtensionInfo                2x, leaf
+  gmi:MI_MetadataExtensionInformation      2x, leaf
+  gml:TimeNode                             2x, leaf
+  southBL                                  2x, numeric(40.84706 - 40.84706), leaf
+  exTypeCode                               2x, numeric(1 - 1), leaf
+  attrdefs                                 2x, 1 values, leaf
+  attrdomv                                 2x, leaf
+  udom                                     2x, 2 values, leaf
+  procstep                                 2x, leaf
+  procdesc                                 2x, 2 values, leaf
+  formatName                               1x, 1 values, leaf
+  ptvctinf                                 1x, leaf
+  esriterm                                 1x, leaf
+  efeatyp                                  1x, 1 values, leaf
+  efeageom                                 1x, 1 values, leaf
+  esritopo                                 1x, 1 values, leaf
+  efeacnt                                  1x, numeric(37 - 37), leaf
+  spindex                                  1x, 1 values, leaf
+  linrefer                                 1x, 1 values, leaf
+  sdtsterm                                 1x, leaf
+  sdtstype                                 1x, 1 values, leaf
+  ptvctcnt                                 1x, numeric(37 - 37), leaf
+  spatRepInfo                              1x, leaf
+  VectSpatRep                              1x, leaf
+  topLvl                                   1x, leaf
+  TopoLevCd                                1x, leaf
+  geometObjs                               1x, leaf
+  geoObjTyp                                1x, leaf
+  GeoObjTypCd                              1x, leaf
+  geoObjCnt                                1x, numeric(37 - 37), leaf
+  detailed                                 1x, leaf
+  enttyp                                   1x, leaf
+  enttypl                                  1x, 1 values, leaf
+  enttypt                                  1x, 1 values, leaf
+  enttypc                                  1x, numeric(37 - 37), leaf
+  mdDateSt                                 1x, numeric(20110407 - 20110407), leaf
+  geodetic                                 1x, leaf
+  horizdn                                  1x, 1 values, leaf
+  ellips                                   1x, 1 values, leaf
+  semiaxis                                 1x, numeric(6378137.0 - 6378137.0), leaf
+  denflat                                  1x, numeric(298.257224 - 298.257224), leaf
+  refSysInfo                               1x, leaf
+  RefSystem                                1x, leaf
+  refSysID                                 1x, leaf
+  identCode                                1x, 1 values, leaf
+  gml:relatedTime                          1x, leaf
+  gml:TimeEdge                             1x, leaf
+  gml:start                                1x, leaf
+  gml:end                                  1x, leaf
+  gmd:CI_Metadata_Contact                  1x, leaf
+  gmd:portrayalCatalogueInfo               1x, leaf
+  gmd:MD_PortrayalCatalogueReference       1x, leaf
+  gmd:portrayalCatalogueCitation           1x, leaf
+  srv:serviceTypeVersion                   1x, leaf
+  srv:accessProperties                     1x, leaf
+  gmd:MD_StandardOrderProcess              1x, leaf
+  gmd:fees                                 1x, leaf
+  gmd:levelDescription                     1x, leaf
+  gmd:MD_ScopeDescription                  1x, leaf
+  gmd:other                                1x, leaf
+  Esri                                     1x, leaf
+  CreaDate                                 1x, numeric(20110407 - 20110407), leaf
+  CreaTime                                 1x, numeric(14232300 - 14232300), leaf
+  SyncOnce                                 1x, 1 values, leaf
+  DataProperties                           1x, leaf
+  Process                                  1x, strings, leaf
+  SyncDate                                 1x, numeric(20110407 - 20110407), leaf
+  SyncTime                                 1x, numeric(14294700 - 14294700), leaf
+  ModDate                                  1x, numeric(20110407 - 20110407), leaf
+  ModTime                                  1x, numeric(14371100 - 14371100), leaf
+  MetaID                                   1x, 1 values, leaf
+  langdata                                 1x, 1 values, leaf
+  ftname                                   1x, 1 values, leaf
+  geoform                                  1x, 1 values, leaf
+  lboundng                                 1x, leaf
+  leftbc                                   1x, numeric(-92.944336 - 4.9E-324), leaf
+  rightbc                                  1x, numeric(-78.398437 - 4.9E-324), leaf
+  bottombc                                 1x, numeric(40.84706 - 40.84706), leaf
+  topbc                                    1x, numeric(48.848225 - 48.848225), leaf
+  country                                  1x, 1 values, leaf
+  datacred                                 1x, 1 values, leaf
+  dataIdInfo                               1x, leaf
+  envirDesc                                1x, 1 values, leaf
+  dataLang                                 1x, leaf
+  idCitation                               1x, leaf
+  resTitle                                 1x, 1 values, leaf
+  presForm                                 1x, leaf
+  PresFormCd                               1x, leaf
+  spatRpType                               1x, leaf
+  SpatRepTypCd                             1x, leaf
+  dataExt                                  1x, leaf
+  geoEle                                   1x, leaf
+  GeoBndBox                                1x, leaf
+  geoBox                                   1x, leaf
+  langmeta                                 1x, 1 values, leaf
+  mettc                                    1x, 1 values, leaf
+  cntorgp                                  1x, leaf
+  metextns                                 1x, leaf
+  metprof                                  1x, 1 values, leaf
+  mdLang                                   1x, leaf
+  mdStanName                               1x, 1 values, leaf
+  mdStanVer                                1x, 1 values, leaf
+  mdChar                                   1x, leaf
+  CharSetCd                                1x, leaf
+  mdHrLv                                   1x, leaf
+  ScopeCd                                  1x, leaf
+  mdHrLvName                               1x, 1 values, leaf
+  transize                                 1x, numeric(0.008 - 0.008), leaf
+  distInfo                                 1x, leaf
+  distributor                              1x, leaf
+  distorTran                               1x, leaf
+  onLineSrc                                1x, leaf
+  orDesc                                   1x, numeric(2 - 2), leaf
+  linkage                                  1x, leaf
+  protocol                                 1x, 1 values, leaf
+  transSize                                1x, numeric(0.008 - 0.008), leaf
+  distorFormat                             1x, leaf
+  gmd:alternateTitle                       1x, leaf
+
+Attributes
+- Structure: Hash
+- Entries: 21
+  gco:nilReason          986501x, 3 values, leaf
+  codeList               280262x, strings, leaf
+  codeListValue          280262x, 52 values, leaf
+  id                     208311x, strings, leaf
+  xsi:schemaLocation     34722x, 2 values, leaf
+  xlink:href             507x, strings, leaf
+  gml:id                 281x, 69 values, leaf
+  indeterminatePosition  156x, 1 values, leaf
+  uom                    117x, 4 values, leaf
+  Sync                   90x, 1 values, leaf
+  locale                 24x, 6 values, leaf
+  type                   24x, 1 values, leaf
+  xml:lang               10x, 1 values, leaf
+  value                  8x, 4 values, leaf
+  Name                   4x, 1 values, leaf
+  xsi:type               4x, 1 values, leaf
+  esriExtentType         2x, 2 values, leaf
+  Date                   1x, numeric(20100129 - 20100129), leaf
+  Time                   1x, numeric(92452 - 92452), leaf
+  ToolSource             1x, 1 values, leaf
+  codeSpace              1x, 1 values, leaf
+
+Text Index
+- Structure: Sorted List
+- Size: 8 MB
+- Entries: 219929
+  0                                                                                             138752x
+  download                                                                                      104158x
+  1                                                                                             69471x
+  distributor                                                                                   69352x
+  WQP SOS                                                                                       69352x
+  Temperature, water                                                                            40089x
+  pH                                                                                            39435x
+  Dissolved oxygen (DO)                                                                         36159x
+  eng                                                                                           35129x
+  originator                                                                                    34782x
+  pointOfContact                                                                                34764x
+  inlandWaters                                                                                  34749x
+  tight                                                                                         34738x
+  Ann Arbor                                                                                     34724x
+  ISO 19115-2:2009(E)                                                                           34720x
+  ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data  34720x
+  48104                                                                                         34720x
+  229 Nickels Arcade                                                                            34720x
+  GetCapabilities                                                                               34719x
+  GLOS DMAC                                                                                     34710x
+  Michigan                                                                                      34706x
+  dmac@glos.us                                                                                  34705x
+  (734) 332-6113                                                                                34700x
+  Great Lakes Observing System                                                                  34699x
+  Sensor Observation Service - GetObservation                                                   34688x
+  Sensor Observation Service - GetCapabilities                                                  34688x
+  Sensor Observation Service - DescribeSensor                                                   34688x
+  SOS - GetObservation                                                                          34688x
+  SOS - GetCapabilities                                                                         34688x
+  SOS - DescribeSensor                                                                          34688x
+  ...
+  0.0024280000000000005                                                                         1x
+  0.002428                                                                                      1x
+  0.0024279999999999996                                                                         1x
+  0.002427999999999998                                                                          1x
+  0.002427999999999997                                                                          1x
+  0.002427999999999996                                                                          1x
+  0.0024279999999999957                                                                         1x
+  -93.971500                                                                                    1x
+  -93.208054                                                                                    1x
+  -93                                                                                           1x
+  -92.166670                                                                                    1x
+  -88.000000                                                                                    1x
+  -87.999093                                                                                    1x
+  -87.992691                                                                                    1x
+  -85.416667                                                                                    1x
+  -84.729599                                                                                    1x
+  -84.498459                                                                                    1x
+  -83.571671                                                                                    1x
+  -82.931213                                                                                    1x
+  -82.370712                                                                                    1x
+  -82                                                                                           1x
+  -80                                                                                           1x
+  -79.891983                                                                                    1x
+  -78.769493                                                                                    1x
+  -78                                                                                           1x
+  -76.061554                                                                                    1x
+  -75.605830                                                                                    1x
+  -75                                                                                           1x
+  -73.623726                                                                                    1x
+  -69.368200                                                                                    1x
+
+Attribute Index
+- Structure: Sorted List
+- Size: 3 MB
+- Entries: 69555
+  unknown                                                                                      601399x
+  missing                                                                                      385040x
+  download                                                                                     104158x
+  distributor                                                                                  69362x
+  pointOfContact                                                                               34817x
+  originator                                                                                   34794x
+  tight                                                                                        34739x
+  http://www.tc211.org/ISO19139/resources/codeList.xml#SV_CouplingType                         34738x
+  http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd  34720x
+  SOS                                                                                          34688x
+  wqp_url                                                                                      34676x
+  storet_url                                                                                   34676x
+  glos_url                                                                                     34676x
+  http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode                          380x
+  http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode                              379x
+  http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode                       354x
+  utf8                                                                                         215x
+  theme                                                                                        213x
+  http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode                       200x
+  http://www.isotc211.org/2005/resources/codeList.xml#MD_ProgressCode                          190x
+  http://www.isotc211.org/2005/resources/codeList.xml#MD_MaintenanceFrequencyCode              189x
+  ./resources/codeList.xml#MD_CharacterSetCode                                                 186x
+  publication                                                                                  176x
+  completed                                                                                    158x
+  n/a                                                                                          157x
+  otherRestrictions                                                                            156x
+  now                                                                                          156x
+  creation                                                                                     120x
+  TRUE                                                                                         90x
+  -1002582945                                                                                  1x
+  -1002532774                                                                                  1x
+  -1002525372                                                                                  1x
+  -1002503210                                                                                  1x
+  -100234383                                                                                   1x
+  -1002337740                                                                                  1x
+  -1002334992                                                                                  1x
+  -1002323717                                                                                  1x
+  -1002091917                                                                                  1x
+  -1002079142                                                                                  1x
+  -1002063996                                                                                  1x
+  -1002054716                                                                                  1x
+  -1002035120                                                                                  1x
+  -1002034882                                                                                  1x
+  -1002032798                                                                                  1x
+  -1001982123                                                                                  1x
+  -1001979484                                                                                  1x
+  -1001952799                                                                                  1x
+  -1001948680                                                                                  1x
+  -1001912926                                                                                  1x
+  -100189453                                                                                   1x
+  -1001888045                                                                                  1x
+  -1001871601                                                                                  1x
+  -1001716234                                                                                  1x
+  -1001712112                                                                                  1x
+  -100167155                                                                                   1x
+  -1001546353                                                                                  1x
+  -1001533250                                                                                  1x
+  -1001502442                                                                                  1x
+  -1001475746                                                                                  1x
+
+Full-Text Index
+- Structure: Fuzzy
+- Stemming: OFF
+- Case Sensitivity: OFF
+- Diacritics: OFF
+- Language: English
+- Size: 57 MB
+- Entries: 97687
+  sos              485596x
+  0                386423x
+  1                276062x
+  service          210056x
+  http             208643x
+  wqp              208056x
+  00               184794x
+  2                150501x
+  getcapabilities  138813x
+  getobservation   138752x
+  describesensor   138752x
+  water            130916x
+  12               126225x
+  000z             112708x
+  storet           112186x
+  as               110993x
+  epa              110347x
+  us               105585x
+  glos             104418x
+  download         104315x
+  gov              104282x
+  observation      104174x
+  request          104139x
+  sensor           104076x
+  com              104038x
+  herokuapp        104028x
+  2012             99355x
+  text             87276x
+  quality          78958x
+  22               72744x
+  ...
+  1659             1x
+  1404             1x
+  1169             1x
+  1037             1x
+  0e18             1x
+  0a52             1x
+  01ff             1x
+  002d             1x
+  wbd              1x
+  umn              1x
+  try              1x
+  too              1x
+  tnb              1x
+  rss              1x
+  own              1x
+  law              1x
+  kmz              1x
+  kml              1x
+  jsp              1x
+  jon              1x
+  geo              1x
+  fid              1x
+  det              1x
+  age              1x
+  22m              1x
+  16t              1x
+  vs               1x
+  re               1x
+  nm               1x
+  eo               1x
+
+Path Summary
+doc(): 34922x, strings
+  gmi:MI_Metadata: 34909x, strings
+    @xsi:schemaLocation: 34722x, 2 values, leaf
+    gmd:fileIdentifier: 34909x, strings
+      gco:CharacterString: 34909x, leaf
+        text(): 34909x, strings, leaf
+    gmd:contact: 104261x, strings
+      gmd:CI_ResponsibleParty: 104261x, strings
+        gmd:individualName: 104261x, strings
+          gco:CharacterString: 104259x, leaf
+            text(): 104255x, 18 values, leaf
+          @gco:nilReason: 6x, 1 values, leaf
+        gmd:organisationName: 104261x, strings
+          gco:CharacterString: 104261x, leaf
+            text(): 104216x, 12 values, leaf
+          @gco:nilReason: 45x, 1 values, leaf
+        gmd:contactInfo: 104261x, strings
+          gmd:CI_Contact: 104259x, strings
+            gmd:phone: 104229x, strings
+              gmd:CI_Telephone: 69553x, strings
+                gmd:voice: 69553x, strings
+                  gco:CharacterString: 69553x, leaf
+                    text(): 69426x, 7 values, leaf
+                  @gco:nilReason: 127x, 1 values, leaf
+                gmd:facsimile: 26x, strings
+                  @gco:nilReason: 16x, 1 values, leaf
+                  gco:CharacterString: 26x, leaf
+                    text(): 10x, 1 values, leaf
+              @gco:nilReason: 34676x, 1 values, leaf
+            gmd:address: 104259x, strings
+              gmd:CI_Address: 104259x, strings
+                gmd:deliveryPoint: 104066x, strings
+                  gco:CharacterString: 34714x, leaf
+                    text(): 34698x, 1 values, leaf
+                  @gco:nilReason: 69368x, 1 values, leaf
+                gmd:city: 104220x, strings
+                  gco:CharacterString: 69544x, leaf
+                    text(): 69374x, 2 values, leaf
+                  @gco:nilReason: 34846x, 1 values, leaf
+                gmd:administrativeArea: 104229x, strings
+                  gco:CharacterString: 69553x, leaf
+                    text(): 69374x, 3 values, leaf
+                  @gco:nilReason: 34855x, 1 values, leaf
+                gmd:postalCode: 104229x, strings
+                  gco:CharacterString: 34877x, leaf
+                    text(): 34698x, numeric(48104 - 48104), leaf
+                  @gco:nilReason: 69531x, 1 values, leaf
+                gmd:electronicMailAddress: 104258x, strings
+                  gco:CharacterString: 104258x, leaf
+                    text(): 104215x, 12 values, leaf
+                  @gco:nilReason: 43x, 1 values, leaf
+                gmd:country: 189x, strings
+                  @gco:nilReason: 170x, 1 values, leaf
+                  gco:CharacterString: 189x, leaf
+                    text(): 19x, 2 values, leaf
+            gmd:onlineResource: 104034x, strings
+              gmd:CI_OnlineResource: 104034x, strings
+                @id: 104028x, 3 values, leaf
+                gmd:linkage: 104034x, strings
+                  gmd:URL: 104034x, leaf
+                    text(): 104034x, 5 values, leaf
+                gmd:protocol: 5x, strings
+                  gco:CharacterString: 5x, leaf
+                    text(): 5x, 1 values, leaf
+                gmd:applicationProfile: 5x, strings
+                  gco:CharacterString: 5x, leaf
+                    text(): 5x, 1 values, leaf
+                gmd:name: 5x, strings
+                  gco:CharacterString: 5x, leaf
+                gmd:description: 5x, strings
+                  gco:CharacterString: 5x, leaf
+                gmd:function: 5x, strings
+                  gmd:CI_OnLineFunctionCode: 5x, leaf
+                    @codeList: 5x, strings, leaf
+                    @codeListValue: 5x, 1 values, leaf
+                    text(): 5x, 1 values, leaf
+          @gco:nilReason: 2x, 1 values, leaf
+        gmd:role: 104261x, strings
+          gmd:CI_RoleCode: 104261x, leaf
+            text(): 104072x, 3 values, leaf
+            @codeList: 104249x, strings, leaf
+            @codeListValue: 104249x, 5 values, leaf
+        gmd:positionName: 189x, strings
+          gco:CharacterString: 189x, leaf
+            text(): 176x, 4 values, leaf
+          @gco:nilReason: 13x, 1 values, leaf
+    gmd:dateStamp: 34909x, strings
+      gco:Date: 34720x, leaf
+        text(): 34720x, 6 values, leaf
+      gco:DateTime: 189x, leaf
+        text(): 189x, strings, leaf
+    gmd:metadataStandardName: 34909x, strings
+      gco:CharacterString: 34909x, leaf
+        text(): 34909x, 3 values, leaf
+    gmd:metadataStandardVersion: 34909x, strings
+      gco:CharacterString: 34909x, leaf
+        text(): 34909x, 3 values, leaf
+    gmd:identificationInfo: 69659x, strings
+      gmd:MD_DataIdentification: 34908x, strings
+        @id: 44x, 1 values, leaf
+        gmd:citation: 34908x, strings
+          gmd:CI_Citation: 34908x, strings
+            gmd:title: 34908x, strings
+              gco:CharacterString: 34908x, leaf
+                text(): 34875x, strings, leaf
+              @xsi:type: 2x, 1 values, leaf
+              gmd:PT_FreeText: 2x, strings
+                gmd:textGroup: 12x, strings
+                  gmd:LocalisedCharacterString: 12x, leaf
+                    @locale: 12x, 6 values, leaf
+                    text(): 12x, 6 values, leaf
+            gmd:date: 35097x, strings
+              gmd:CI_Date: 35065x, strings
+                gmd:date: 35065x, strings
+                  gco:DateTime: 34707x, leaf
+                    text(): 34699x, strings, leaf
+                  gco:Date: 358x, leaf
+                    text(): 315x, 74 values, leaf
+                gmd:dateType: 35053x, strings
+                  @gco:nilReason: 34676x, 1 values, leaf
+                  gmd:CI_DateTypeCode: 377x, leaf
+                    @codeList: 377x, 1 values, leaf
+                    @codeListValue: 377x, 3 values, leaf
+              @gco:nilReason: 32x, 1 values, leaf
+            gmd:identifier: 44x, strings
+              gmd:MD_Identifier: 44x, strings
+                gmd:authority: 17x, strings
+                  gmd:CI_Citation: 17x, strings
+                    gmd:title: 17x, strings
+                      gco:CharacterString: 17x, leaf
+                        text(): 17x, 2 values, leaf
+                    gmd:date: 17x, leaf
+                      @gco:nilReason: 17x, 1 values, leaf
+                gmd:code: 32x, strings
+                  gco:CharacterString: 32x, leaf
+                    text(): 32x, 32 values, leaf
+            gmd:citedResponsibleParty: 44x, strings
+              gmd:CI_ResponsibleParty: 44x, strings
+                gmd:individualName: 44x, strings
+                  gco:CharacterString: 42x, leaf
+                    text(): 42x, 3 values, leaf
+                  @gco:nilReason: 2x, 1 values, leaf
+                gmd:organisationName: 44x, strings
+                  gco:CharacterString: 44x, leaf
+                    text(): 44x, 5 values, leaf
+                gmd:contactInfo: 44x, strings
+                  gmd:CI_Contact: 42x, strings
+                    gmd:phone: 12x, strings
+                      gmd:CI_Telephone: 12x, strings
+                        gmd:voice: 12x, strings
+                          gco:CharacterString: 12x, leaf
+                            text(): 12x, 1 values, leaf
+                    gmd:address: 42x, strings
+                      gmd:CI_Address: 42x, strings
+                        gmd:deliveryPoint: 12x, strings
+                          gco:CharacterString: 12x, leaf
+                            text(): 12x, 1 values, leaf
+                        gmd:city: 12x, strings
+                          gco:CharacterString: 12x, leaf
+                            text(): 12x, 1 values, leaf
+                        gmd:administrativeArea: 12x, strings
+                          gco:CharacterString: 12x, leaf
+                            text(): 12x, 1 values, leaf
+                        gmd:postalCode: 12x, strings
+                          gco:CharacterString: 12x, leaf
+                            text(): 12x, numeric(48104 - 48104), leaf
+                        gmd:electronicMailAddress: 42x, strings
+                          gco:CharacterString: 42x, leaf
+                            text(): 42x, 3 values, leaf
+                    gmd:onlineResource: 5x, strings
+                      gmd:CI_OnlineResource: 5x, strings
+                        gmd:linkage: 5x, strings
+                          gmd:URL: 5x, leaf
+                            text(): 5x, 1 values, leaf
+                        gmd:protocol: 5x, strings
+                          gco:CharacterString: 5x, leaf
+                            text(): 5x, 1 values, leaf
+                        gmd:applicationProfile: 5x, strings
+                          gco:CharacterString: 5x, leaf
+                            text(): 5x, 1 values, leaf
+                        gmd:name: 5x, strings
+                          gco:CharacterString: 5x, leaf
+                        gmd:description: 5x, strings
+                          gco:CharacterString: 5x, leaf
+                        gmd:function: 5x, strings
+                          gmd:CI_OnLineFunctionCode: 5x, leaf
+                            @codeList: 5x, strings, leaf
+                            @codeListValue: 5x, 1 values, leaf
+                            text(): 5x, 1 values, leaf
+                  @gco:nilReason: 2x, 1 values, leaf
+                gmd:role: 44x, strings
+                  gmd:CI_RoleCode: 44x, leaf
+                    text(): 44x, 2 values, leaf
+                    @codeList: 32x, strings, leaf
+                    @codeListValue: 32x, 1 values, leaf
+            gmd:edition: 166x, strings
+              @gco:nilReason: 164x, 1 values, leaf
+              gco:CharacterString: 166x, leaf
+                text(): 2x, 2 values, leaf
+            gmd:otherCitationDetails: 178x, strings
+              gco:CharacterString: 178x, leaf
+                text(): 178x, strings, leaf
+            gmd:presentationForm: 16x, strings
+              gmd:CI_PresentationFormCode: 16x, leaf
+                @codeList: 16x, 1 values, leaf
+                @codeListValue: 16x, 2 values, leaf
+        gmd:abstract: 34908x, strings
+          gco:CharacterString: 34906x, leaf
+            text(): 34906x, strings, leaf
+          @gco:nilReason: 2x, 1 values, leaf
+          @xsi:type: 2x, 1 values, leaf
+          gmd:PT_FreeText: 2x, strings
+            gmd:textGroup: 12x, strings
+              gmd:LocalisedCharacterString: 12x, leaf
+                @locale: 12x, 6 values, leaf
+                text(): 12x, strings, leaf
+        gmd:descriptiveKeywords: 21899x, strings
+          gmd:MD_Keywords: 21899x, strings
+            gmd:keyword: 324393x, strings
+              gco:CharacterString: 324393x, leaf
+                text(): 324389x, strings, leaf
+              @gco:nilReason: 4x, 1 values, leaf
+            gmd:type: 246x, strings
+              gmd:MD_KeywordTypeCode: 246x, leaf
+                @codeList: 246x, strings, leaf
+                @codeListValue: 246x, 4 values, leaf
+                text(): 47x, 3 values, leaf
+            gmd:thesaurusName: 48x, strings
+              gmd:CI_Citation: 38x, strings
+                gmd:title: 38x, strings
+                  @gco:nilReason: 33x, 1 values, leaf
+                  gco:CharacterString: 6x, leaf
+                    text(): 5x, 1 values, leaf
+                gmd:date: 38x, strings
+                  @gco:nilReason: 37x, 1 values, leaf
+                  gmd:CI_Date: 1x, strings
+                    gmd:dateType: 1x, strings
+                      gmd:CI_DateTypeCode: 1x, leaf
+                        @codeList: 1x, 1 values, leaf
+                        @codeListValue: 1x, leaf
+              @gco:nilReason: 10x, 1 values, leaf
+        gmd:aggregationInfo: 47x, strings
+          gmd:MD_AggregateInformation: 47x, strings
+            gmd:aggregateDataSetIdentifier: 42x, strings
+              gmd:MD_Identifier: 30x, strings
+                gmd:authority: 30x, strings
+                  gmd:CI_Citation: 30x, strings
+                    gmd:title: 30x, strings
+                      gco:CharacterString: 30x, leaf
+                        text(): 30x, 1 values, leaf
+                    gmd:date: 30x, leaf
+                      @gco:nilReason: 30x, 1 values, leaf
+                gmd:code: 30x, strings
+                  gco:CharacterString: 30x, leaf
+                    text(): 30x, 1 values, leaf
+            gmd:associationType: 35x, strings
+              gmd:DS_AssociationTypeCode: 35x, leaf
+                @codeList: 35x, strings, leaf
+                @codeListValue: 35x, 1 values, leaf
+                text(): 35x, 1 values, leaf
+            gmd:initiativeType: 35x, strings
+              gmd:DS_InitiativeTypeCode: 35x, leaf
+                @codeList: 35x, strings, leaf
+                @codeListValue: 35x, 1 values, leaf
+                text(): 35x, 1 values, leaf
+            gmd:aggregateDataSetName: 5x, strings
+              gmd:CI_Citation: 5x, strings
+                gmd:title: 5x, strings
+                  gco:CharacterString: 5x, leaf
+                    text(): 5x, 1 values, leaf
+                gmd:date: 5x, leaf
+                  @gco:nilReason: 5x, 1 values, leaf
+        gmd:language: 34908x, strings
+          gco:CharacterString: 34908x, leaf
+            text(): 34908x, 1 values, leaf
+        gmd:topicCategory: 34908x, strings
+          gmd:MD_TopicCategoryCode: 34908x, leaf
+            text(): 34876x, 6 values, leaf
+        gmd:extent: 35080x, strings
+          gmd:EX_Extent: 35080x, strings
+            @id: 44x, 1 values, leaf
+            gmd:geographicElement: 34891x, strings
+              gmd:EX_GeographicBoundingBox: 34891x, strings
+                @id: 43x, 1 values, leaf
+                gmd:extentTypeCode: 34719x, strings
+                  gco:Boolean: 34719x, leaf
+                    text(): 34719x, numeric(1 - 1), leaf
+                gmd:westBoundLongitude: 34891x, strings
+                  gco:Decimal: 34891x, leaf
+                    text(): 34891x, numeric(-434.7930908203125 - 4.9E-324), leaf
+                gmd:eastBoundLongitude: 34891x, strings
+                  gco:Decimal: 34891x, leaf
+                    text(): 34891x, numeric(-92.9997 - 180.0), leaf
+                gmd:southBoundLatitude: 34891x, strings
+                  gco:Decimal: 34891x, leaf
+                    text(): 34891x, numeric(-90.0 - 48.53889), leaf
+                gmd:northBoundLatitude: 34891x, strings
+                  gco:Decimal: 34891x, leaf
+                    text(): 34891x, numeric(40.0002778 - 90.0), leaf
+            gmd:temporalElement: 34892x, strings
+              gmd:EX_TemporalExtent: 34892x, strings
+                @id: 44x, 1 values, leaf
+                gmd:extent: 34892x, strings
+                  gml:TimePeriod: 34892x, strings
+                    @gml:id: 216x, 17 values, leaf
+                    gml:description: 44x, leaf
+                      text(): 44x, 1 values, leaf
+                    gml:beginPosition: 34892x, leaf
+                      text(): 34778x, strings, leaf
+                      @indeterminatePosition: 33x, 1 values, leaf
+                    gml:endPosition: 34892x, leaf
+                      @indeterminatePosition: 45x, 1 values, leaf
+                      text(): 34759x, strings, leaf
+                    @id: 34676x, numeric(-2147439325 - 2147106117), leaf
+                    gml:relatedTime: 1x, strings
+                      gml:TimeEdge: 1x, strings
+                        @gml:id: 1x, 1 values, leaf
+                        gml:start: 1x, strings
+                          gml:TimeNode: 1x, leaf
+                            @gml:id: 1x, 1 values, leaf
+                        gml:end: 1x, strings
+                          gml:TimeNode: 1x, leaf
+                            @gml:id: 1x, 1 values, leaf
+            gmd:verticalElement: 34729x, strings
+              gmd:EX_VerticalExtent: 34729x, strings
+                gmd:minimumValue: 34729x, strings
+                  gco:Real: 34729x, leaf
+                    text(): 34713x, numeric(0 - 0), leaf
+                gmd:maximumValue: 34729x, strings
+                  gco:Real: 34729x, leaf
+                    text(): 34713x, numeric(-326.0 - 4.9E-324), leaf
+                gmd:verticalCRS: 34713x, leaf
+                  @gco:nilReason: 34713x, 1 values, leaf
+        gmd:pointOfContact: 220x, strings
+          gmd:CI_ResponsibleParty: 220x, strings
+            gmd:individualName: 220x, strings
+              @gco:nilReason: 7x, 1 values, leaf
+              gco:CharacterString: 218x, leaf
+                text(): 213x, 15 values, leaf
+            gmd:organisationName: 220x, strings
+              gco:CharacterString: 220x, leaf
+                text(): 216x, 15 values, leaf
+              @gco:nilReason: 4x, 1 values, leaf
+            gmd:contactInfo: 220x, strings
+              @gco:nilReason: 2x, 1 values, leaf
+              gmd:CI_Contact: 217x, strings
+                gmd:address: 217x, strings
+                  gmd:CI_Address: 217x, strings
+                    gmd:electronicMailAddress: 217x, strings
+                      gco:CharacterString: 217x, leaf
+                        text(): 195x, 16 values, leaf
+                      @gco:nilReason: 22x, 1 values, leaf
+                    gmd:city: 187x, strings
+                      @gco:nilReason: 177x, 1 values, leaf
+                      gco:CharacterString: 187x, leaf
+                        text(): 10x, 1 values, leaf
+                    gmd:administrativeArea: 187x, strings
+                      @gco:nilReason: 177x, 1 values, leaf
+                      gco:CharacterString: 187x, leaf
+                        text(): 10x, 1 values, leaf
+                    gmd:postalCode: 187x, strings
+                      @gco:nilReason: 177x, 1 values, leaf
+                      gco:CharacterString: 187x, leaf
+                        text(): 10x, numeric(48104 - 48104), leaf
+                    gmd:country: 187x, strings
+                      @gco:nilReason: 177x, 1 values, leaf
+                      gco:CharacterString: 187x, leaf
+                        text(): 10x, 2 values, leaf
+                    gmd:deliveryPoint: 18x, strings
+                      @gco:nilReason: 8x, 1 values, leaf
+                      gco:CharacterString: 18x, leaf
+                        text(): 10x, 1 values, leaf
+                gmd:phone: 187x, strings
+                  gmd:CI_Telephone: 187x, strings
+                    gmd:voice: 187x, strings
+                      @gco:nilReason: 104x, 1 values, leaf
+                      gco:CharacterString: 187x, leaf
+                        text(): 83x, 12 values, leaf
+                    gmd:facsimile: 19x, strings
+                      @gco:nilReason: 9x, 1 values, leaf
+                      gco:CharacterString: 19x, leaf
+                        text(): 10x, 1 values, leaf
+                gmd:onlineResource: 5x, strings
+                  gmd:CI_OnlineResource: 5x, strings
+                    gmd:linkage: 5x, strings
+                      gmd:URL: 5x, leaf
+                        text(): 5x, 1 values, leaf
+                    gmd:protocol: 5x, strings
+                      gco:CharacterString: 5x, leaf
+                        text(): 5x, 1 values, leaf
+                    gmd:applicationProfile: 5x, strings
+                      gco:CharacterString: 5x, leaf
+                        text(): 5x, 1 values, leaf
+                    gmd:name: 5x, strings
+                      gco:CharacterString: 5x, leaf
+                    gmd:description: 5x, strings
+                      gco:CharacterString: 5x, leaf
+                    gmd:function: 5x, strings
+                      gmd:CI_OnLineFunctionCode: 5x, leaf
+                        @codeList: 5x, strings, leaf
+                        @codeListValue: 5x, 1 values, leaf
+                        text(): 5x, 1 values, leaf
+              gmd:CI_Metadata_Contact: 1x, strings
+                gmd:phone: 1x, strings
+                  gmd:CI_Telephone: 1x, strings
+                    gmd:voice: 1x, strings
+                      gco:CharacterString: 1x, leaf
+                        text(): 1x, 1 values, leaf
+                gmd:address: 1x, strings
+                  gmd:CI_Address: 1x, strings
+                    gmd:city: 1x, strings
+                      @gco:nilReason: 1x, 1 values, leaf
+                      gco:CharacterString: 1x, leaf
+                    gmd:administrativeArea: 1x, strings
+                      @gco:nilReason: 1x, 1 values, leaf
+                      gco:CharacterString: 1x, leaf
+                    gmd:postalCode: 1x, strings
+                      @gco:nilReason: 1x, 1 values, leaf
+                      gco:CharacterString: 1x, leaf
+                    gmd:country: 1x, strings
+                      @gco:nilReason: 1x, 1 values, leaf
+                      gco:CharacterString: 1x, leaf
+                    gmd:electronicMailAddress: 1x, strings
+                      gco:CharacterString: 1x, leaf
+                        text(): 1x, 1 values, leaf
+            gmd:role: 220x, strings
+              gmd:CI_RoleCode: 220x, leaf
+                @codeList: 220x, strings, leaf
+                @codeListValue: 220x, 6 values, leaf
+                text(): 32x, 1 values, leaf
+            gmd:positionName: 185x, strings
+              @gco:nilReason: 73x, 1 values, leaf
+              gco:CharacterString: 185x, leaf
+                text(): 112x, 10 values, leaf
+        gmd:purpose: 181x, strings
+          gco:CharacterString: 181x, leaf
+            text(): 167x, strings, leaf
+          @gco:nilReason: 14x, 1 values, leaf
+        gmd:status: 189x, strings
+          gmd:MD_ProgressCode: 189x, leaf
+            @codeList: 189x, 1 values, leaf
+            @codeListValue: 189x, 4 values, leaf
+        gmd:resourceMaintenance: 188x, strings
+          gmd:MD_MaintenanceInformation: 188x, strings
+            gmd:maintenanceAndUpdateFrequency: 188x, strings
+              gmd:MD_MaintenanceFrequencyCode: 188x, leaf
+                @codeList: 188x, 1 values, leaf
+                @codeListValue: 188x, 6 values, leaf
+        gmd:graphicOverview: 376x, strings
+          gmd:MD_BrowseGraphic: 376x, strings
+            gmd:fileName: 376x, strings
+              @gco:nilReason: 376x, 1 values, leaf
+              gco:CharacterString: 376x, leaf
+            gmd:fileDescription: 376x, strings
+              gco:CharacterString: 376x, leaf
+                text(): 376x, 2 values, leaf
+        gmd:resourceConstraints: 188x, strings
+          gmd:MD_LegalConstraints: 188x, strings
+            gmd:accessConstraints: 177x, strings
+              gmd:MD_RestrictionCode: 177x, leaf
+                @codeList: 177x, 1 values, leaf
+                @codeListValue: 177x, 5 values, leaf
+            gmd:useConstraints: 177x, strings
+              gmd:MD_RestrictionCode: 177x, leaf
+                @codeList: 177x, 1 values, leaf
+                @codeListValue: 177x, 4 values, leaf
+            gmd:otherConstraints: 177x, strings
+              @gco:nilReason: 177x, 1 values, leaf
+              gco:CharacterString: 177x, leaf
+        gmd:spatialResolution: 188x, strings
+          gmd:MD_Resolution: 188x, strings
+            gmd:equivalentScale: 20x, strings
+              gmd:MD_RepresentativeFraction: 20x, strings
+                gmd:denominator: 20x, strings
+                  gco:Integer: 20x, leaf
+        gmd:supplementalInformation: 187x, strings
+          gco:CharacterString: 187x, leaf
+            text(): 165x, strings, leaf
+          @gco:nilReason: 22x, 1 values, leaf
+        gmd:characterSet: 26x, strings
+          gmd:MD_CharacterSetCode: 26x, leaf
+            @codeList: 26x, 1 values, leaf
+            @codeListValue: 26x, 1 values, leaf
+        gmd:spatialRepresentationType: 15x, strings
+          gmd:MD_SpatialRepresentationTypeCode: 15x, leaf
+            @codeList: 15x, 1 values, leaf
+            @codeListValue: 15x, 1 values, leaf
+      srv:SV_ServiceIdentification: 34751x, strings
+        @id: 34750x, 3 values, leaf
+        gmd:citation: 34751x, strings
+          gmd:CI_Citation: 34751x, strings
+            gmd:title: 34751x, strings
+              gco:CharacterString: 34751x, leaf
+                text(): 34751x, 8 values, leaf
+            gmd:date: 34751x, strings
+              @gco:nilReason: 74x, 2 values, leaf
+              gmd:CI_Date: 34677x, strings
+                gmd:date: 34677x, strings
+                  @gco:nilReason: 34676x, 1 values, leaf
+                  gco:DateTime: 1x, leaf
+                    text(): 1x, 1 values, leaf
+                gmd:dateType: 34677x, strings
+                  @gco:nilReason: 34676x, 1 values, leaf
+                  gmd:CI_DateTypeCode: 1x, leaf
+                    @codeList: 1x, 1 values, leaf
+                    @codeListValue: 1x, 1 values, leaf
+            gmd:citedResponsibleParty: 34750x, strings
+              gmd:CI_ResponsibleParty: 34750x, strings
+                gmd:individualName: 34750x, strings
+                  @gco:nilReason: 34690x, 1 values, leaf
+                  gco:CharacterString: 60x, leaf
+                    text(): 60x, 2 values, leaf
+                gmd:organisationName: 34750x, strings
+                  gco:CharacterString: 34750x, leaf
+                    text(): 34750x, 5 values, leaf
+                gmd:contactInfo: 34750x, strings
+                  @gco:nilReason: 34690x, 1 values, leaf
+                  gmd:CI_Contact: 60x, strings
+                    gmd:address: 60x, strings
+                      gmd:CI_Address: 60x, strings
+                        gmd:electronicMailAddress: 60x, strings
+                          gco:CharacterString: 60x, leaf
+                            text(): 60x, 2 values, leaf
+                    gmd:onlineResource: 10x, strings
+                      gmd:CI_OnlineResource: 10x, strings
+                        gmd:linkage: 10x, strings
+                          gmd:URL: 10x, leaf
+                            text(): 10x, 1 values, leaf
+                        gmd:protocol: 10x, strings
+                          gco:CharacterString: 10x, leaf
+                            text(): 10x, 1 values, leaf
+                        gmd:applicationProfile: 10x, strings
+                          gco:CharacterString: 10x, leaf
+                            text(): 10x, 1 values, leaf
+                        gmd:name: 10x, strings
+                          gco:CharacterString: 10x, leaf
+                        gmd:description: 10x, strings
+                          gco:CharacterString: 10x, leaf
+                        gmd:function: 10x, strings
+                          gmd:CI_OnLineFunctionCode: 10x, leaf
+                            @codeList: 10x, strings, leaf
+                            @codeListValue: 10x, 1 values, leaf
+                            text(): 10x, 1 values, leaf
+                gmd:role: 34750x, strings
+                  gmd:CI_RoleCode: 34750x, leaf
+                    @codeList: 34750x, strings, leaf
+                    @codeListValue: 34750x, 2 values, leaf
+                    text(): 34750x, 2 values, leaf
+            gmd:alternateTitle: 1x, leaf
+              @gco:nilReason: 1x, 1 values, leaf
+        gmd:abstract: 34751x, strings
+          gco:CharacterString: 34749x, leaf
+            text(): 34749x, strings, leaf
+          @gco:nilReason: 2x, 1 values, leaf
+        srv:serviceType: 34751x, strings
+          gco:LocalName: 34751x, leaf
+            text(): 33968x, 46 values, leaf
+            @codeSpace: 1x, 1 values, leaf
+        srv:extent: 34751x, strings
+          gmd:EX_Extent: 34751x, strings
+            gmd:geographicElement: 34750x, strings
+              gmd:EX_GeographicBoundingBox: 34750x, strings
+                gmd:extentTypeCode: 34749x, strings
+                  gco:Boolean: 34749x, leaf
+                    text(): 34749x, numeric(1 - 1), leaf
+                gmd:westBoundLongitude: 34750x, strings
+                  gco:Decimal: 34750x, leaf
+                    text(): 34750x, numeric(-434.7930908203125 - 4.9E-324), leaf
+                gmd:eastBoundLongitude: 34750x, strings
+                  gco:Decimal: 34750x, leaf
+                    text(): 34750x, numeric(-92.9997 - 180.0), leaf
+                gmd:southBoundLatitude: 34750x, strings
+                  gco:Decimal: 34750x, leaf
+                    text(): 34750x, numeric(-90.0 - 48.53889), leaf
+                gmd:northBoundLatitude: 34750x, strings
+                  gco:Decimal: 34750x, leaf
+                    text(): 34750x, numeric(40.0002778 - 90.0), leaf
+            gmd:temporalElement: 34750x, strings
+              gmd:EX_TemporalExtent: 34750x, strings
+                gmd:extent: 34750x, strings
+                  gml:TimePeriod: 34750x, strings
+                    gml:beginPosition: 34750x, leaf
+                      text(): 34717x, strings, leaf
+                      @indeterminatePosition: 33x, 1 values, leaf
+                    gml:endPosition: 34750x, leaf
+                      @indeterminatePosition: 45x, 1 values, leaf
+                      text(): 34705x, strings, leaf
+                    @id: 34676x, numeric(-2147425625 - 2147439283), leaf
+                    @gml:id: 62x, 49 values, leaf
+            gmd:verticalElement: 34738x, strings
+              gmd:EX_VerticalExtent: 34738x, strings
+                gmd:minimumValue: 34738x, strings
+                  gco:Real: 34738x, leaf
+                    text(): 34738x, numeric(0 - 0), leaf
+                gmd:maximumValue: 34738x, strings
+                  gco:Real: 34738x, leaf
+                    text(): 34738x, numeric(-326.0 - 4.9E-324), leaf
+                gmd:verticalCRS: 34738x, leaf
+                  @gco:nilReason: 34738x, 1 values, leaf
+        srv:couplingType: 34751x, strings
+          srv:SV_CouplingType: 34751x, leaf
+            @gco:nilReason: 12x, 1 values, leaf
+            @codeList: 34739x, 2 values, leaf
+            @codeListValue: 34739x, 1 values, leaf
+            text(): 34738x, 1 values, leaf
+        srv:containsOperations: 104107x, strings
+          srv:SV_OperationMetadata: 104131x, strings
+            srv:operationName: 104131x, strings
+              gco:CharacterString: 104131x, leaf
+                text(): 104131x, 8 values, leaf
+            srv:DCP: 104133x, strings
+              @gco:nilReason: 104126x, 1 values, leaf
+              srv:DCPList: 7x, leaf
+                @codeList: 7x, 1 values, leaf
+                @codeListValue: 7x, leaf
+            srv:connectPoint: 104149x, strings
+              gmd:CI_OnlineResource: 104149x, strings
+                gmd:linkage: 104149x, strings
+                  gmd:URL: 104149x, leaf
+                    text(): 104149x, strings, leaf
+                gmd:name: 104126x, strings
+                  gco:CharacterString: 104126x, leaf
+                    text(): 104126x, 5 values, leaf
+                gmd:description: 104149x, strings
+                  gco:CharacterString: 104149x, leaf
+                    text(): 104149x, 24 values, leaf
+                gmd:function: 104149x, strings
+                  gmd:CI_OnLineFunctionCode: 104149x, leaf
+                    @codeList: 104149x, strings, leaf
+                    @codeListValue: 104149x, 2 values, leaf
+                    text(): 104126x, 1 values, leaf
+                gmd:protocol: 23x, strings
+                  gco:CharacterString: 23x, leaf
+                    text(): 23x, 1 values, leaf
+          srv:operatesOn: 12x, leaf
+            @xlink:href: 12x, 1 values, leaf
+        srv:operatesOn: 62x, leaf
+          @xlink:href: 62x, 1 values, leaf
+        gmd:status: 1x, strings
+          gmd:MD_ProgressCode: 1x, leaf
+            @codeList: 1x, 1 values, leaf
+            @codeListValue: 1x, 1 values, leaf
+        gmd:pointOfContact: 1x, strings
+          gmd:CI_ResponsibleParty: 1x, strings
+            gmd:individualName: 1x, strings
+              @gco:nilReason: 1x, 1 values, leaf
+              gco:CharacterString: 1x, leaf
+            gmd:organisationName: 1x, strings
+              @gco:nilReason: 1x, 1 values, leaf
+              gco:CharacterString: 1x, leaf
+            gmd:positionName: 1x, strings
+              @gco:nilReason: 1x, 1 values, leaf
+              gco:CharacterString: 1x, leaf
+            gmd:contactInfo: 1x, strings
+              gmd:CI_Contact: 1x, strings
+                gmd:phone: 1x, strings
+                  gmd:CI_Telephone: 1x, strings
+                    gmd:voice: 1x, strings
+                      @gco:nilReason: 1x, 1 values, leaf
+                      gco:CharacterString: 1x, leaf
+                    gmd:facsimile: 1x, strings
+                      @gco:nilReason: 1x, 1 values, leaf
+                      gco:CharacterString: 1x, leaf
+                gmd:address: 1x, strings
+                  gmd:CI_Address: 1x, strings
+                    gmd:deliveryPoint: 1x, strings
+                      @gco:nilReason: 1x, 1 values, leaf
+                      gco:CharacterString: 1x, leaf
+                    gmd:city: 1x, strings
+                      @gco:nilReason: 1x, 1 values, leaf
+                      gco:CharacterString: 1x, leaf
+                    gmd:administrativeArea: 1x, strings
+                      @gco:nilReason: 1x, 1 values, leaf
+                      gco:CharacterString: 1x, leaf
+                    gmd:postalCode: 1x, strings
+                      @gco:nilReason: 1x, 1 values, leaf
+                      gco:CharacterString: 1x, leaf
+                    gmd:country: 1x, strings
+                      @gco:nilReason: 1x, 1 values, leaf
+                      gco:CharacterString: 1x, leaf
+                gmd:onlineResource: 1x, strings
+                  gmd:CI_OnlineResource: 1x, strings
+                    gmd:linkage: 1x, strings
+                      gmd:URL: 1x, leaf
+                        text(): 1x, 1 values, leaf
+            gmd:role: 1x, strings
+              gmd:CI_RoleCode: 1x, leaf
+                @codeList: 1x, 1 values, leaf
+                @codeListValue: 1x, 1 values, leaf
+        gmd:descriptiveKeywords: 1x, strings
+          gmd:MD_Keywords: 1x, strings
+            gmd:keyword: 5x, strings
+              gco:CharacterString: 5x, leaf
+                text(): 5x, 5 values, leaf
+            gmd:type: 1x, strings
+              gmd:MD_KeywordTypeCode: 1x, leaf
+                @codeList: 1x, 1 values, leaf
+                @codeListValue: 1x, 1 values, leaf
+        srv:serviceTypeVersion: 1x, strings
+          gco:CharacterString: 1x, leaf
+            text(): 1x, 1 values, leaf
+        srv:accessProperties: 1x, strings
+          gmd:MD_StandardOrderProcess: 1x, strings
+            gmd:fees: 1x, strings
+              gco:CharacterString: 1x, leaf
+                text(): 1x, 1 values, leaf
+    gmd:contentInfo: 34720x, strings
+      gmi:MI_CoverageDescription: 34720x, strings
+        gmd:attributeDescription: 34720x, leaf
+          @gco:nilReason: 34720x, 1 values, leaf
+        gmd:contentType: 34720x, leaf
+          @gco:nilReason: 34720x, 1 values, leaf
+        gmd:dimension: 324078x, strings
+          gmd:MD_Band: 324078x, strings
+            gmd:sequenceIdentifier: 324078x, strings
+              gco:MemberName: 324078x, strings
+                gco:aName: 324078x, strings
+                  gco:CharacterString: 324078x, leaf
+                    text(): 324078x, strings, leaf
+                gco:attributeType: 324031x, strings
+                  @gco:nilReason: 323569x, 1 values, leaf
+                  gco:TypeName: 462x, strings
+                    gco:aName: 462x, strings
+                      gco:CharacterString: 462x, leaf
+                        text(): 462x, 4 values, leaf
+            gmd:descriptor: 324078x, strings
+              gco:CharacterString: 324078x, leaf
+                text(): 324058x, strings, leaf
+            gmd:units: 433x, leaf
+              @xlink:href: 433x, strings, leaf
+    gmd:language: 221x, strings
+      gmd:LanguageCode: 32x, leaf
+        @codeList: 32x, strings, leaf
+        @codeListValue: 32x, 1 values, leaf
+        text(): 32x, 1 values, leaf
+      gco:CharacterString: 189x, leaf
+        text(): 189x, 1 values, leaf
+    gmd:characterSet: 221x, strings
+      gmd:MD_CharacterSetCode: 221x, leaf
+        @codeList: 221x, strings, leaf
+        @codeListValue: 221x, 2 values, leaf
+        text(): 32x, 1 values, leaf
+    gmd:hierarchyLevel: 65x, strings
+      gmd:MD_ScopeCode: 65x, leaf
+        @codeList: 65x, strings, leaf
+        @codeListValue: 65x, 2 values, leaf
+        text(): 64x, 2 values, leaf
+    gmd:spatialRepresentationInfo: 32x, strings
+      gmd:MD_GridSpatialRepresentation: 32x, strings
+        gmd:numberOfDimensions: 32x, strings
+          gco:Integer: 32x, leaf
+            text(): 32x, numeric(3 - 4), leaf
+        gmd:axisDimensionProperties: 121x, strings
+          gmd:MD_Dimension: 121x, strings
+            gmd:dimensionName: 121x, strings
+              gmd:MD_DimensionNameTypeCode: 121x, leaf
+                @codeList: 121x, strings, leaf
+                @codeListValue: 121x, 4 values, leaf
+                text(): 121x, 4 values, leaf
+            gmd:dimensionSize: 121x, strings
+              @gco:nilReason: 79x, 1 values, leaf
+              gco:Integer: 42x, leaf
+                text(): 42x, numeric(3 - 59784), leaf
+            gmd:resolution: 121x, strings
+              @gco:nilReason: 4x, 1 values, leaf
+              gco:Measure: 117x, leaf
+                @uom: 117x, 4 values, leaf
+                text(): 117x, numeric(-0.9962539454752023 - 174356.0), leaf
+        gmd:cellGeometry: 32x, strings
+          gmd:MD_CellGeometryCode: 32x, leaf
+            @codeList: 32x, strings, leaf
+            @codeListValue: 32x, 1 values, leaf
+            text(): 32x, 1 values, leaf
+        gmd:transformationParameterAvailability: 32x, leaf
+          @gco:nilReason: 32x, 1 values, leaf
+    gmd:distributionInfo: 220x, strings
+      gmd:MD_Distribution: 220x, strings
+        gmd:distributor: 33x, strings
+          gmd:MD_Distributor: 33x, strings
+            gmd:distributorContact: 33x, strings
+              @gco:nilReason: 27x, 1 values, leaf
+              gmd:CI_ResponsibleParty: 6x, strings
+                gmd:individualName: 6x, strings
+                  @gco:nilReason: 6x, 1 values, leaf
+                  gco:CharacterString: 1x, leaf
+                gmd:organisationName: 6x, strings
+                  @gco:nilReason: 1x, 1 values, leaf
+                  gco:CharacterString: 6x, leaf
+                    text(): 5x, 1 values, leaf
+                gmd:positionName: 1x, strings
+                  @gco:nilReason: 1x, 1 values, leaf
+                  gco:CharacterString: 1x, leaf
+                gmd:contactInfo: 6x, strings
+                  gmd:CI_Contact: 6x, strings
+                    gmd:phone: 1x, strings
+                      gmd:CI_Telephone: 1x, strings
+                        gmd:voice: 1x, strings
+                          @gco:nilReason: 1x, 1 values, leaf
+                          gco:CharacterString: 1x, leaf
+                        gmd:facsimile: 1x, strings
+                          @gco:nilReason: 1x, 1 values, leaf
+                          gco:CharacterString: 1x, leaf
+                    gmd:address: 6x, strings
+                      gmd:CI_Address: 6x, strings
+                        gmd:deliveryPoint: 1x, strings
+                          @gco:nilReason: 1x, 1 values, leaf
+                          gco:CharacterString: 1x, leaf
+                        gmd:city: 1x, strings
+                          @gco:nilReason: 1x, 1 values, leaf
+                          gco:CharacterString: 1x, leaf
+                        gmd:administrativeArea: 1x, strings
+                          @gco:nilReason: 1x, 1 values, leaf
+                          gco:CharacterString: 1x, leaf
+                        gmd:postalCode: 1x, strings
+                          @gco:nilReason: 1x, 1 values, leaf
+                          gco:CharacterString: 1x, leaf
+                        gmd:country: 1x, strings
+                          @gco:nilReason: 1x, 1 values, leaf
+                          gco:CharacterString: 1x, leaf
+                        gmd:electronicMailAddress: 6x, strings
+                          @gco:nilReason: 1x, 1 values, leaf
+                          gco:CharacterString: 6x, leaf
+                            text(): 5x, 1 values, leaf
+                    gmd:onlineResource: 5x, strings
+                      gmd:CI_OnlineResource: 5x, strings
+                        gmd:linkage: 5x, strings
+                          gmd:URL: 5x, leaf
+                            text(): 5x, 1 values, leaf
+                        gmd:protocol: 5x, strings
+                          gco:CharacterString: 5x, leaf
+                            text(): 5x, 1 values, leaf
+                        gmd:applicationProfile: 5x, strings
+                          gco:CharacterString: 5x, leaf
+                            text(): 5x, 1 values, leaf
+                        gmd:name: 5x, strings
+                          gco:CharacterString: 5x, leaf
+                            text(): 5x, 1 values, leaf
+                        gmd:description: 5x, strings
+                          gco:CharacterString: 5x, leaf
+                            text(): 5x, 1 values, leaf
+                        gmd:function: 5x, strings
+                          gmd:CI_OnLineFunctionCode: 5x, leaf
+                            @codeList: 5x, strings, leaf
+                            @codeListValue: 5x, 1 values, leaf
+                            text(): 5x, 1 values, leaf
+                gmd:role: 6x, strings
+                  gmd:CI_RoleCode: 6x, leaf
+                    @codeList: 6x, strings, leaf
+                    @codeListValue: 6x, 1 values, leaf
+                    text(): 5x, 1 values, leaf
+            gmd:distributorFormat: 32x, strings
+              gmd:MD_Format: 32x, strings
+                gmd:name: 32x, strings
+                  gco:CharacterString: 32x, leaf
+                    text(): 32x, 1 values, leaf
+                gmd:version: 32x, leaf
+                  @gco:nilReason: 32x, 1 values, leaf
+            gmd:distributorTransferOptions: 64x, strings
+              gmd:MD_DigitalTransferOptions: 64x, strings
+                gmd:onLine: 64x, strings
+                  gmd:CI_OnlineResource: 64x, strings
+                    gmd:linkage: 64x, strings
+                      gmd:URL: 64x, leaf
+                        text(): 64x, strings, leaf
+                    gmd:name: 64x, strings
+                      gco:CharacterString: 64x, leaf
+                        text(): 64x, 2 values, leaf
+                    gmd:description: 64x, strings
+                      gco:CharacterString: 64x, leaf
+                        text(): 64x, strings, leaf
+                    gmd:function: 64x, strings
+                      gmd:CI_OnLineFunctionCode: 64x, leaf
+                        @codeList: 64x, strings, leaf
+                        @codeListValue: 64x, 2 values, leaf
+                        text(): 64x, 2 values, leaf
+        gmd:distributionFormat: 174x, strings
+          gmd:MD_Format: 174x, strings
+            gmd:name: 174x, strings
+              gco:CharacterString: 174x, leaf
+                text(): 171x, strings, leaf
+              @gco:nilReason: 3x, 1 values, leaf
+            gmd:version: 174x, strings
+              @gco:nilReason: 174x, 1 values, leaf
+              gco:CharacterString: 174x, leaf
+            gmd:specification: 171x, strings
+              gco:CharacterString: 171x, leaf
+                text(): 153x, strings, leaf
+              @gco:nilReason: 18x, 1 values, leaf
+        gmd:transferOptions: 153x, strings
+          gmd:MD_DigitalTransferOptions: 153x, strings
+            gmd:onLine: 181x, strings
+              gmd:CI_OnlineResource: 181x, strings
+                gmd:linkage: 181x, strings
+                  gmd:URL: 181x, leaf
+                    text(): 132x, strings, leaf
+                gmd:protocol: 181x, strings
+                  @gco:nilReason: 117x, 1 values, leaf
+                  gco:CharacterString: 181x, leaf
+                    text(): 64x, 4 values, leaf
+                gmd:name: 181x, strings
+                  @gco:nilReason: 145x, 1 values, leaf
+                  gco:CharacterString: 157x, leaf
+                    text(): 12x, 3 values, leaf
+                  gmx:MimeFileType: 24x, leaf
+                    @type: 24x, 1 values, leaf
+                gmd:description: 171x, strings
+                  @gco:nilReason: 146x, 1 values, leaf
+                  gco:CharacterString: 171x, leaf
+                    text(): 12x, 3 values, leaf
+    gmd:dataQualityInfo: 47x, strings
+      gmd:DQ_DataQuality: 47x, strings
+        gmd:scope: 47x, strings
+          gmd:DQ_Scope: 47x, strings
+            gmd:level: 47x, strings
+              gmd:MD_ScopeCode: 47x, leaf
+                @codeList: 47x, strings, leaf
+                @codeListValue: 47x, 2 values, leaf
+                text(): 32x, 1 values, leaf
+            gmd:levelDescription: 1x, strings
+              gmd:MD_ScopeDescription: 1x, strings
+                gmd:other: 1x, strings
+                  @gco:nilReason: 1x, 1 values, leaf
+                  gco:CharacterString: 1x, leaf
+        gmd:lineage: 47x, strings
+          gmd:LI_Lineage: 47x, strings
+            gmd:statement: 47x, strings
+              gco:CharacterString: 47x, leaf
+                text(): 32x, strings, leaf
+              @gco:nilReason: 15x, 1 values, leaf
+    gmd:metadataMaintenance: 33x, strings
+      gmd:MD_MaintenanceInformation: 33x, strings
+        gmd:maintenanceAndUpdateFrequency: 33x, strings
+          @gco:nilReason: 32x, 1 values, leaf
+          gmd:MD_MaintenanceFrequencyCode: 1x, leaf
+            @codeList: 1x, 1 values, leaf
+            @codeListValue: 1x, leaf
+        gmd:maintenanceNote: 32x, strings
+          gco:CharacterString: 32x, leaf
+            text(): 32x, 1 values, leaf
+    gmd:referenceSystemInfo: 15x, strings
+      gmd:MD_ReferenceSystem: 15x, strings
+        gmd:referenceSystemIdentifier: 15x, strings
+          gmd:RS_Identifier: 15x, strings
+            gmd:code: 15x, strings
+              gco:CharacterString: 15x, leaf
+                text(): 15x, 1 values, leaf
+    gmd:metadataExtensionInfo: 2x, strings
+      gmi:MI_MetadataExtensionInformation: 2x, leaf
+    gmd:portrayalCatalogueInfo: 1x, strings
+      gmd:MD_PortrayalCatalogueReference: 1x, strings
+        gmd:portrayalCatalogueCitation: 1x, strings
+          gmd:CI_Citation: 1x, strings
+            gmd:title: 1x, strings
+              @gco:nilReason: 1x, 1 values, leaf
+              gco:CharacterString: 1x, leaf
+            gmd:date: 1x, strings
+              gmd:CI_Date: 1x, strings
+                gmd:dateType: 1x, strings
+                  gmd:CI_DateTypeCode: 1x, leaf
+                    @codeList: 1x, 1 values, leaf
+                    @codeListValue: 1x, leaf
+    gmd:locale: 6x, strings
+      gmd:PT_Locale: 6x, strings
+        @id: 6x, 6 values, leaf
+        gmd:languageCode: 6x, strings
+          gmd:LanguageCode: 6x, leaf
+            @codeList: 6x, 2 values, leaf
+            @codeListValue: 6x, 6 values, leaf
+        gmd:characterEncoding: 6x, strings
+          gmd:MD_CharacterSetCode: 4x, leaf
+            @codeList: 4x, leaf
+            @codeListValue: 4x, leaf
+  simpledc: 3x, strings
+    dc:title: 3x, leaf
+      text(): 3x, 1 values, leaf
+    dc:creator: 3x, leaf
+    dc:subject: 3x, leaf
+    dc:description: 3x, leaf
+    dc:publisher: 3x, leaf
+    dc:contributor: 3x, leaf
+    dc:date: 3x, leaf
+    dc:type: 3x, leaf
+    dc:format: 3x, leaf
+    dc:identifier: 3x, leaf
+      text(): 3x, 3 values, leaf
+    dc:source: 3x, leaf
+    dc:language: 3x, leaf
+    dc:relation: 3x, leaf
+    dc:coverage: 3x, leaf
+      text(): 3x, 1 values, leaf
+    dc:rights: 3x, leaf
+    dct:modified: 3x, leaf
+      text(): 3x, 3 values, leaf
+  metadata: 10x, strings
+    @xml:lang: 10x, 1 values, leaf
+    idinfo: 10x, strings
+      citation: 10x, strings
+        citeinfo: 10x, strings
+          origin: 17x, leaf
+            text(): 17x, 11 values, leaf
+          pubdate: 10x, leaf
+            text(): 9x, 8 values, leaf
+          title: 10x, leaf
+            text(): 10x, 10 values, leaf
+          mgmg1cid: 9x, leaf
+          pubinfo: 9x, strings
+            pubplace: 9x, leaf
+              text(): 9x, 1 values, leaf
+            publish: 9x, leaf
+              text(): 9x, 1 values, leaf
+          onlink: 9x, leaf
+            text(): 8x, 8 values, leaf
+          ftname: 1x, leaf
+            @Sync: 1x, 1 values, leaf
+            text(): 1x, 1 values, leaf
+          geoform: 1x, leaf
+            @Sync: 1x, 1 values, leaf
+            text(): 1x, 1 values, leaf
+      descript: 10x, strings
+        abstract: 10x, leaf
+          text(): 10x, strings, leaf
+        purpose: 10x, leaf
+          text(): 6x, strings, leaf
+        supplinf: 9x, leaf
+          text(): 9x, strings, leaf
+        langdata: 1x, leaf
+          @Sync: 1x, 1 values, leaf
+          text(): 1x, 1 values, leaf
+      timeperd: 10x, strings
+        timeinfo: 10x, strings
+          sngdate: 10x, strings
+            caldate: 10x, leaf
+              text(): 10x, 2 values, leaf
+        current: 10x, leaf
+          text(): 10x, 9 values, leaf
+      status: 10x, strings
+        progress: 10x, leaf
+          text(): 10x, 6 values, leaf
+        update: 10x, leaf
+          text(): 10x, 8 values, leaf
+      spdom: 10x, strings
+        bounding: 10x, strings
+          westbc: 10x, leaf
+            text(): 10x, numeric(-93.9715 - 4.9E-324), leaf
+            @Sync: 1x, 1 values, leaf
+          eastbc: 10x, leaf
+            text(): 10x, numeric(-85.416667 - 4.9E-324), leaf
+            @Sync: 1x, 1 values, leaf
+          northbc: 10x, leaf
+            text(): 10x, numeric(42.69046 - 49.7917), leaf
+            @Sync: 1x, 1 values, leaf
+          southbc: 10x, leaf
+            text(): 10x, numeric(40.399723 - 44.554539), leaf
+            @Sync: 1x, 1 values, leaf
+        lboundng: 1x, strings
+          leftbc: 1x, leaf
+            @Sync: 1x, 1 values, leaf
+            text(): 1x, numeric(-92.944336 - 4.9E-324), leaf
+          rightbc: 1x, leaf
+            @Sync: 1x, 1 values, leaf
+            text(): 1x, numeric(-78.398437 - 4.9E-324), leaf
+          bottombc: 1x, leaf
+            @Sync: 1x, 1 values, leaf
+            text(): 1x, numeric(40.84706 - 40.84706), leaf
+          topbc: 1x, leaf
+            @Sync: 1x, 1 values, leaf
+            text(): 1x, numeric(48.848225 - 48.848225), leaf
+      keywords: 10x, strings
+        theme: 10x, strings
+          themekt: 10x, leaf
+            text(): 10x, strings, leaf
+          themekey: 17x, leaf
+            text(): 17x, 14 values, leaf
+        place: 9x, strings
+          placekt: 9x, leaf
+            text(): 9x, 1 values, leaf
+          placekey: 30x, leaf
+            text(): 30x, 16 values, leaf
+      accconst: 10x, leaf
+        text(): 10x, 2 values, leaf
+      useconst: 10x, leaf
+        text(): 10x, strings, leaf
+      natvform: 10x, leaf
+        text(): 10x, 1 values, leaf
+        @Sync: 1x, 1 values, leaf
+      ptcontac: 10x, strings
+        cntinfo: 10x, strings
+          cntperp: 10x, strings
+            cntper: 10x, leaf
+              text(): 6x, 4 values, leaf
+            cntorg: 9x, leaf
+              text(): 5x, 3 values, leaf
+          cntpos: 9x, leaf
+            text(): 3x, 2 values, leaf
+          cntaddr: 10x, strings
+            addrtype: 10x, leaf
+              text(): 10x, 2 values, leaf
+            address: 10x, leaf
+              text(): 4x, 3 values, leaf
+            city: 10x, leaf
+              text(): 4x, 3 values, leaf
+            state: 10x, leaf
+              text(): 4x, 3 values, leaf
+            postal: 10x, leaf
+              text(): 4x, 3 values, leaf
+            country: 1x, leaf
+              text(): 1x, 1 values, leaf
+          cntvoice: 10x, leaf
+            text(): 6x, 4 values, leaf
+          cntemail: 10x, leaf
+            text(): 6x, 4 values, leaf
+      browse: 9x, strings
+        browsen: 9x, leaf
+          text(): 9x, strings, leaf
+        browsed: 9x, leaf
+          text(): 9x, 1 values, leaf
+        browset: 9x, leaf
+          text(): 9x, 1 values, leaf
+      native: 10x, leaf
+        text(): 10x, 2 values, leaf
+        @Sync: 1x, 1 values, leaf
+      crossref: 9x, strings
+        citeinfo: 9x, strings
+          origin: 16x, leaf
+            text(): 15x, 8 values, leaf
+          pubdate: 9x, leaf
+            text(): 8x, 1 values, leaf
+          title: 9x, leaf
+            text(): 8x, 1 values, leaf
+      datacred: 1x, leaf
+        text(): 1x, 1 values, leaf
+    metainfo: 10x, strings
+      metd: 10x, leaf
+        text(): 10x, 2 values, leaf
+        @Sync: 1x, 1 values, leaf
+      metc: 10x, strings
+        cntinfo: 10x, strings
+          cntperp: 9x, strings
+            cntper: 9x, leaf
+              text(): 5x, 3 values, leaf
+            cntorg: 9x, leaf
+              text(): 5x, 3 values, leaf
+          cntpos: 9x, leaf
+            text(): 3x, 2 values, leaf
+          cntaddr: 10x, strings
+            addrtype: 10x, leaf
+              text(): 9x, 1 values, leaf
+            address: 9x, leaf
+              text(): 3x, 2 values, leaf
+            city: 10x, leaf
+              text(): 3x, 2 values, leaf
+            state: 10x, leaf
+              text(): 3x, 2 values, leaf
+            postal: 10x, leaf
+              text(): 3x, 2 values, leaf
+          cntvoice: 10x, leaf
+            text(): 6x, 4 values, leaf
+          cntfax: 9x, leaf
+            text(): 2x, 1 values, leaf
+          cntemail: 9x, leaf
+            text(): 5x, 3 values, leaf
+          cntorgp: 1x, leaf
+      metstdn: 10x, leaf
+        text(): 10x, 1 values, leaf
+        @Sync: 1x, 1 values, leaf
+      metstdv: 10x, leaf
+        text(): 10x, 1 values, leaf
+        @Sync: 1x, 1 values, leaf
+      langmeta: 1x, leaf
+        @Sync: 1x, 1 values, leaf
+        text(): 1x, 1 values, leaf
+      mettc: 1x, leaf
+        @Sync: 1x, 1 values, leaf
+        text(): 1x, 1 values, leaf
+      metextns: 1x, strings
+        metprof: 1x, leaf
+          @Sync: 1x, 1 values, leaf
+          text(): 1x, 1 values, leaf
+    distinfo: 10x, strings
+      distrib: 9x, strings
+        cntinfo: 9x, strings
+          cntperp: 9x, strings
+            cntper: 9x, leaf
+            cntorg: 8x, leaf
+          cntpos: 9x, leaf
+          cntaddr: 9x, strings
+            addrtype: 9x, leaf
+            address: 8x, leaf
+            city: 9x, leaf
+            state: 9x, leaf
+            postal: 9x, leaf
+          cntvoice: 9x, leaf
+          cntfax: 7x, leaf
+          cntemail: 7x, leaf
+      resdesc: 10x, leaf
+        text(): 10x, 10 values, leaf
+        @Sync: 1x, 1 values, leaf
+      distliab: 10x, leaf
+        text(): 10x, strings, leaf
+      stdorder: 10x, strings
+        digform: 37x, strings
+          digtinfo: 37x, strings
+            formname: 36x, leaf
+              text(): 36x, 4 values, leaf
+            formcont: 36x, leaf
+              text(): 36x, strings, leaf
+            filedec: 36x, leaf
+              text(): 36x, 3 values, leaf
+            transize: 1x, leaf
+              @Sync: 1x, 1 values, leaf
+              text(): 1x, numeric(0.008 - 0.008), leaf
+          digtopt: 36x, strings
+            onlinopt: 36x, strings
+              computer: 36x, strings
+                networka: 36x, strings
+                  networkr: 36x, leaf
+                    text(): 36x, strings, leaf
+              oncomp: 36x, leaf
+                text(): 36x, 1 values, leaf
+        fees: 9x, leaf
+          text(): 9x, 1 values, leaf
+    spdoinfo: 10x, strings
+      direct: 5x, leaf
+        @Sync: 1x, 1 values, leaf
+        text(): 1x, 1 values, leaf
+      ptvctinf: 1x, strings
+        esriterm: 1x, strings
+          @Name: 1x, 1 values, leaf
+          efeatyp: 1x, leaf
+            @Sync: 1x, 1 values, leaf
+            text(): 1x, 1 values, leaf
+          efeageom: 1x, leaf
+            @Sync: 1x, 1 values, leaf
+            text(): 1x, 1 values, leaf
+          esritopo: 1x, leaf
+            @Sync: 1x, 1 values, leaf
+            text(): 1x, 1 values, leaf
+          efeacnt: 1x, leaf
+            @Sync: 1x, 1 values, leaf
+            text(): 1x, numeric(37 - 37), leaf
+          spindex: 1x, leaf
+            @Sync: 1x, 1 values, leaf
+            text(): 1x, 1 values, leaf
+          linrefer: 1x, leaf
+            @Sync: 1x, 1 values, leaf
+            text(): 1x, 1 values, leaf
+        sdtsterm: 1x, strings
+          @Name: 1x, 1 values, leaf
+          sdtstype: 1x, leaf
+            @Sync: 1x, 1 values, leaf
+            text(): 1x, 1 values, leaf
+          ptvctcnt: 1x, leaf
+            @Sync: 1x, 1 values, leaf
+            text(): 1x, numeric(37 - 37), leaf
+    dataqual: 10x, strings
+      lineage: 1x, strings
+        procstep: 2x, strings
+          procdesc: 2x, leaf
+            @Sync: 2x, 1 values, leaf
+            text(): 2x, 2 values, leaf
+          srcused: 2x, leaf
+            @Sync: 2x, 1 values, leaf
+            text(): 2x, 2 values, leaf
+          procdate: 2x, leaf
+            @Sync: 2x, 1 values, leaf
+            text(): 2x, numeric(20100129 - 20110407), leaf
+          proctime: 2x, leaf
+            @Sync: 2x, 1 values, leaf
+            text(): 2x, numeric(9442400 - 14232300), leaf
+    spref: 10x, strings
+      horizsys: 10x, strings
+        geograph: 10x, strings
+          geogunit: 10x, leaf
+            @Sync: 1x, 1 values, leaf
+            text(): 5x, 1 values, leaf
+          latres: 10x, leaf
+            text(): 10x, numeric(0.0 - 0.01757812), leaf
+            @Sync: 1x, 1 values, leaf
+          longres: 10x, leaf
+            text(): 10x, numeric(0.0 - 0.01757812), leaf
+            @Sync: 1x, 1 values, leaf
+        geodetic: 1x, strings
+          horizdn: 1x, leaf
+            @Sync: 1x, 1 values, leaf
+            text(): 1x, 1 values, leaf
+          ellips: 1x, leaf
+            @Sync: 1x, 1 values, leaf
+            text(): 1x, 1 values, leaf
+          semiaxis: 1x, leaf
+            @Sync: 1x, 1 values, leaf
+            text(): 1x, numeric(6378137.0 - 6378137.0), leaf
+          denflat: 1x, leaf
+            @Sync: 1x, 1 values, leaf
+            text(): 1x, numeric(298.257224 - 298.257224), leaf
+        cordsysn: 5x, strings
+          geogcsn: 5x, leaf
+            text(): 5x, 1 values, leaf
+    eainfo: 10x, strings
+      detailed: 1x, strings
+        @Name: 1x, 1 values, leaf
+        enttyp: 1x, strings
+          enttypl: 1x, leaf
+            @Sync: 1x, 1 values, leaf
+            text(): 1x, 1 values, leaf
+          enttypt: 1x, leaf
+            @Sync: 1x, 1 values, leaf
+            text(): 1x, 1 values, leaf
+          enttypc: 1x, leaf
+            @Sync: 1x, 1 values, leaf
+            text(): 1x, numeric(37 - 37), leaf
+        attr: 5x, strings
+          attrlabl: 5x, leaf
+            @Sync: 5x, 1 values, leaf
+            text(): 5x, 5 values, leaf
+          attrdef: 5x, leaf
+            @Sync: 2x, 1 values, leaf
+            text(): 5x, 5 values, leaf
+          attrdefs: 2x, leaf
+            @Sync: 2x, 1 values, leaf
+            text(): 2x, 1 values, leaf
+          attrdomv: 2x, strings
+            udom: 2x, leaf
+              @Sync: 2x, 1 values, leaf
+              text(): 2x, 2 values, leaf
+          begdatea: 5x, leaf
+    Esri: 1x, strings
+      CreaDate: 1x, leaf
+        text(): 1x, numeric(20110407 - 20110407), leaf
+      CreaTime: 1x, leaf
+        text(): 1x, numeric(14232300 - 14232300), leaf
+      SyncOnce: 1x, leaf
+        text(): 1x, 1 values, leaf
+      DataProperties: 1x, strings
+        lineage: 1x, strings
+          Process: 1x, leaf
+            @Date: 1x, numeric(20100129 - 20100129), leaf
+            @Time: 1x, numeric(92452 - 92452), leaf
+            @ToolSource: 1x, 1 values, leaf
+            text(): 1x, strings, leaf
+      SyncDate: 1x, leaf
+        text(): 1x, numeric(20110407 - 20110407), leaf
+      SyncTime: 1x, leaf
+        text(): 1x, numeric(14294700 - 14294700), leaf
+      ModDate: 1x, leaf
+        text(): 1x, numeric(20110407 - 20110407), leaf
+      ModTime: 1x, leaf
+        text(): 1x, numeric(14371100 - 14371100), leaf
+      MetaID: 1x, leaf
+        text(): 1x, 1 values, leaf
+    dataIdInfo: 1x, strings
+      envirDesc: 1x, leaf
+        @Sync: 1x, 1 values, leaf
+        text(): 1x, 1 values, leaf
+      dataLang: 1x, strings
+        languageCode: 1x, leaf
+          @Sync: 1x, 1 values, leaf
+          @value: 1x, 1 values, leaf
+      idCitation: 1x, strings
+        resTitle: 1x, leaf
+          @Sync: 1x, 1 values, leaf
+          text(): 1x, 1 values, leaf
+        presForm: 1x, strings
+          PresFormCd: 1x, leaf
+            @Sync: 1x, 1 values, leaf
+            @value: 1x, numeric(5 - 5), leaf
+      spatRpType: 1x, strings
+        SpatRepTypCd: 1x, leaf
+          @Sync: 1x, 1 values, leaf
+          @value: 1x, numeric(1 - 1), leaf
+      dataExt: 1x, strings
+        geoEle: 1x, strings
+          GeoBndBox: 1x, strings
+            @esriExtentType: 1x, 1 values, leaf
+            westBL: 1x, leaf
+              @Sync: 1x, 1 values, leaf
+              text(): 1x, numeric(-92.944336 - 4.9E-324), leaf
+            eastBL: 1x, leaf
+              @Sync: 1x, 1 values, leaf
+              text(): 1x, numeric(-78.398437 - 4.9E-324), leaf
+            northBL: 1x, leaf
+              @Sync: 1x, 1 values, leaf
+              text(): 1x, numeric(48.848225 - 48.848225), leaf
+            southBL: 1x, leaf
+              @Sync: 1x, 1 values, leaf
+              text(): 1x, numeric(40.84706 - 40.84706), leaf
+            exTypeCode: 1x, leaf
+              @Sync: 1x, 1 values, leaf
+              text(): 1x, numeric(1 - 1), leaf
+      geoBox: 1x, strings
+        @esriExtentType: 1x, 1 values, leaf
+        westBL: 1x, leaf
+          @Sync: 1x, 1 values, leaf
+          text(): 1x, numeric(-92.944336 - 4.9E-324), leaf
+        eastBL: 1x, leaf
+          @Sync: 1x, 1 values, leaf
+          text(): 1x, numeric(-78.398437 - 4.9E-324), leaf
+        northBL: 1x, leaf
+          @Sync: 1x, 1 values, leaf
+          text(): 1x, numeric(48.848225 - 48.848225), leaf
+        southBL: 1x, leaf
+          @Sync: 1x, 1 values, leaf
+          text(): 1x, numeric(40.84706 - 40.84706), leaf
+        exTypeCode: 1x, leaf
+          @Sync: 1x, 1 values, leaf
+          text(): 1x, numeric(1 - 1), leaf
+    mdLang: 1x, strings
+      languageCode: 1x, leaf
+        @Sync: 1x, 1 values, leaf
+        @value: 1x, 1 values, leaf
+    mdStanName: 1x, leaf
+      @Sync: 1x, 1 values, leaf
+      text(): 1x, 1 values, leaf
+    mdStanVer: 1x, leaf
+      @Sync: 1x, 1 values, leaf
+      text(): 1x, 1 values, leaf
+    mdChar: 1x, strings
+      CharSetCd: 1x, leaf
+        @Sync: 1x, 1 values, leaf
+        @value: 1x, numeric(4 - 4), leaf
+    mdHrLv: 1x, strings
+      ScopeCd: 1x, leaf
+        @Sync: 1x, 1 values, leaf
+        @value: 1x, numeric(5 - 5), leaf
+    mdHrLvName: 1x, leaf
+      @Sync: 1x, 1 values, leaf
+      text(): 1x, 1 values, leaf
+    distInfo: 1x, strings
+      distributor: 1x, strings
+        distorTran: 1x, strings
+          onLineSrc: 1x, strings
+            orDesc: 1x, leaf
+              @Sync: 1x, 1 values, leaf
+              text(): 1x, numeric(2 - 2), leaf
+            linkage: 1x, leaf
+              @Sync: 1x, 1 values, leaf
+            protocol: 1x, leaf
+              @Sync: 1x, 1 values, leaf
+              text(): 1x, 1 values, leaf
+          transSize: 1x, leaf
+            @Sync: 1x, 1 values, leaf
+            text(): 1x, numeric(0.008 - 0.008), leaf
+        distorFormat: 1x, strings
+          formatName: 1x, leaf
+            @Sync: 1x, 1 values, leaf
+            text(): 1x, 1 values, leaf
+    spatRepInfo: 1x, strings
+      VectSpatRep: 1x, strings
+        topLvl: 1x, strings
+          TopoLevCd: 1x, leaf
+            @Sync: 1x, 1 values, leaf
+            @value: 1x, numeric(1 - 1), leaf
+        geometObjs: 1x, strings
+          @Name: 1x, 1 values, leaf
+          geoObjTyp: 1x, strings
+            GeoObjTypCd: 1x, leaf
+              @Sync: 1x, 1 values, leaf
+              @value: 1x, numeric(1 - 1), leaf
+          geoObjCnt: 1x, leaf
+            @Sync: 1x, 1 values, leaf
+            text(): 1x, numeric(37 - 37), leaf
+    mdDateSt: 1x, leaf
+      @Sync: 1x, 1 values, leaf
+      text(): 1x, numeric(20110407 - 20110407), leaf
+    refSysInfo: 1x, strings
+      RefSystem: 1x, strings
+        refSysID: 1x, strings
+          identCode: 1x, leaf
+            @Sync: 1x, 1 values, leaf
+            text(): 1x, 1 values, leaf
