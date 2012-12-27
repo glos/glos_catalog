@@ -5,11 +5,14 @@
 	declare namespace gco="http://www.isotc211.org/2005/gco"; 
 	declare namespace gmi="http://www.isotc211.org/2005/gmi";
 	declare namespace gml="http://www.opengis.net/gml";
+	declare namespace xs="http://www.w3.org/2001/XMLSchema";
 	
 	declare function local:FreeTextQueryFunction($sequences, $textsearch)
 	{
+	  let $searchTerms := tokenize($textsearch,'\s+')
+	
 	  for $val in $sequences
-		where ($val contains text {$textsearch} using wildcards)
+		where ($val contains text {$searchTerms} using wildcards)
 		  return$val
 	};
 	
@@ -102,7 +105,7 @@
 	declare variable $start as xs:integer external := 1;
 		
 	declare variable $textSearch as xs:boolean external := true();
-	declare variable $searchTerm as item()* external := ("National", "sst");
+	declare variable $searchTerm as xs:string external := "water";
 		
 	declare variable $geoSearch as xs:boolean external := true();
 	declare variable $west as xs:decimal external  := -86.0;
@@ -152,10 +155,6 @@
 		  {local:FormatResult(subsequence($resultSequence, $start, $records))}
 		</csw:SearchResults>
 	  </csw:GetRecordsResponse>
-	
-
-
-
 
 ]]>
   </text>
@@ -174,5 +173,4 @@
   <variable name="temporalSearch" value="___TEMPORALSEARCH___"/>
   <variable name="tstart" value="___TSTART___"/>
   <variable name="tend" value="___TEND___"/>
-
 </query>
