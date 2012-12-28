@@ -12,7 +12,7 @@
 	  let $searchTerms := tokenize($textsearch,'\s+')
 	
 	  for $val in $sequences
-		where ($val//text() contains text {$searchTerms} all using thesaurus at 'thesaurus.xml', fuzzy)
+		where ($val//text() contains text {$searchTerms} all using fuzzy )
 		  return$val
 	};
 	
@@ -113,7 +113,7 @@
 	declare variable $start as xs:integer external := 1;
 		
 	declare variable $textSearch as xs:boolean external := true();
-	declare variable $searchTerm as xs:string external := "temp water,";
+	declare variable $searchTerm as xs:string external := "temperature water";
 		
 	declare variable $geoSearch as xs:boolean external := false();
 	declare variable $west as xs:decimal external  := -86.0;
@@ -121,7 +121,7 @@
 	declare variable $north as xs:decimal external := 46.;
 	declare variable $south as xs:decimal external := 43.;
 		
-	declare variable $temporalSearch as xs:boolean external := true();
+	declare variable $temporalSearch as xs:boolean external := false();
 	declare variable $tstart as xs:string external := "2011-05-22T23:59:00";
 	declare variable $tend as xs:string external := "2011-05-23T00:01:00";
 	
@@ -163,8 +163,6 @@
 		  {local:FormatResult(subsequence($resultSequence, $start, $records))}
 		</csw:SearchResults>
 	  </csw:GetRecordsResponse>
-	
-	
 
 ]]>
   </text>
