@@ -12,7 +12,7 @@
 	  let $searchTerms := tokenize($textsearch,'\s+')
 	
 	  for $val in $sequences
-		where ($val contains text {$searchTerms} all using wildcards)
+		where ($val//text() contains text {$searchTerms} all using thesaurus at 'thesaurus.xml', fuzzy)
 		  return$val
 	};
 	
@@ -105,9 +105,9 @@
 	declare variable $start as xs:integer external := 1;
 		
 	declare variable $textSearch as xs:boolean external := true();
-	declare variable $searchTerm as xs:string external := "stoc.?astic ice water";
+	declare variable $searchTerm as xs:string external := "water temp";
 		
-	declare variable $geoSearch as xs:boolean external := false();
+	declare variable $geoSearch as xs:boolean external := true();
 	declare variable $west as xs:decimal external  := -86.0;
 	declare variable $east as xs:decimal external  := -71.9;
 	declare variable $north as xs:decimal external := 46.;

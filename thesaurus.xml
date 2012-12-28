@@ -1,0 +1,16 @@
+<thesaurus xmlns="http://www.w3.org/2007/xqftts/thesaurus">
+  <entry>
+    <term>temperature</term>
+    <synonym>
+      <term>temp</term>
+      <relationship>abbreviation</relationship>
+    </synonym>
+  </entry>
+  <entry>
+    <term>temp</term>
+    <synonym>
+      <term>temperature</term>
+      <relationship>abbreviated</relationship>
+    </synonym>
+  </entry>  
+</thesaurus>
