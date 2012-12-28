@@ -38,11 +38,6 @@
 		let $startB := $bbox/gml:beginPosition
 		let $endB := $bbox/gml:endPosition
 		where (
-				(:Include the FOI if the time bounds are empty:)
-				not($startB and $endB) 
-				
-				or
-				
 				$startQ <= $startB and $startB <= $endQ 
 				or
 				$endQ >= $endB and $endB >= $startQ
@@ -105,7 +100,7 @@
 	declare variable $start as xs:integer external := 1;
 		
 	declare variable $textSearch as xs:boolean external := true();
-	declare variable $searchTerm as xs:string external := "water temp";
+	declare variable $searchTerm as xs:string external := "temp water,";
 		
 	declare variable $geoSearch as xs:boolean external := true();
 	declare variable $west as xs:decimal external  := -86.0;
@@ -155,7 +150,6 @@
 		  {local:FormatResult(subsequence($resultSequence, $start, $records))}
 		</csw:SearchResults>
 	  </csw:GetRecordsResponse>
-
 ]]>
   </text>
   <variable name="records" value="___LIMIT___"/>
