@@ -37,14 +37,27 @@
 		let $bbox := $val//gml:TimePeriod
 		let $startB := $bbox/gml:beginPosition
 		let $endB := $bbox/gml:endPosition
+		
+		let $now := adjust-dateTime-to-timezone(current-dateTime(),xs:dayTimeDuration("PT0H"))
+		
+		let $endB := if($endB/@indeterminatePosition = "now") then
+					   $now
+					 else
+					   $endB
+		
+		let $startB := if($startB/@indeterminatePosition = "now") then
+					   $now
+					 else
+					   $startB
+		
 		where (
-				$startQ <= $startB and $startB <= $endQ 
+				$startB != "" and $startQ <= $startB and $startB <= $endQ 
 				or
-				$endQ >= $endB and $endB >= $startQ
+				$endB != "" and $endQ >= $endB and $endB >= $startQ
 				or
-				$startB <= $startQ and $startQ <= $endB
+				$startB != "" and  $startB <= $startQ and $startQ <= $endB
 				or 
-				$endB >= $endQ and $endQ >= $startB
+				$endB != "" and $endB >= $endQ and $endQ >= $startB
 				
 				)
 		  return $val   
@@ -102,15 +115,15 @@
 	declare variable $textSearch as xs:boolean external := true();
 	declare variable $searchTerm as xs:string external := "temp water,";
 		
-	declare variable $geoSearch as xs:boolean external := true();
+	declare variable $geoSearch as xs:boolean external := false();
 	declare variable $west as xs:decimal external  := -86.0;
 	declare variable $east as xs:decimal external  := -71.9;
 	declare variable $north as xs:decimal external := 46.;
 	declare variable $south as xs:decimal external := 43.;
 		
-	declare variable $temporalSearch as xs:boolean external := false();
-	declare variable $tstart as xs:string external := "2012-03-11T07:01:00";
-	declare variable $tend as xs:string external := "2012-10-22T07:06:00";
+	declare variable $temporalSearch as xs:boolean external := true();
+	declare variable $tstart as xs:string external := "2011-05-22T23:59:00";
+	declare variable $tend as xs:string external := "2011-05-23T00:01:00";
 	
 	
 	(:Select some data - all of the MD_DataIdentificaiton Elements:)
@@ -150,6 +163,9 @@
 		  {local:FormatResult(subsequence($resultSequence, $start, $records))}
 		</csw:SearchResults>
 	  </csw:GetRecordsResponse>
+	
+	
+
 ]]>
   </text>
   <variable name="records" value="___LIMIT___"/>
