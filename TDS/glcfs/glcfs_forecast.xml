@@ -75,8 +75,8 @@
         <update startup="true" rescan="0 4 * * * ? *" trigger="allow" />
         <protoDataset choice="Penultimate">
           <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-            <attribute name="validtime" value="01-JAN-2012 00:00 GMT" />
-            <attribute name="validtime_DOY" value="001, 2012 00:00 GMT" />
+            <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
+            <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
             <attribute name="Conventions" type="String" value="CF-1.6"/> 
           </netcdf>
         </protoDataset>
@@ -125,8 +125,8 @@
         <update startup="true" rescan="0 4 * * * ? *" trigger="allow" />
         <protoDataset choice="Penultimate">
           <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-            <attribute name="validtime" value="01-JAN-2012 00:00 GMT" />
-            <attribute name="validtime_DOY" value="001, 2012 00:00 GMT" />
+            <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
+            <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
             <attribute name="Conventions" type="String" value="CF-1.6"/> 
           </netcdf>
         </protoDataset>
@@ -174,8 +174,8 @@
         <update startup="true" rescan="0 4 * * * ? *" trigger="allow" />
         <protoDataset choice="Penultimate">
           <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-            <attribute name="validtime" value="01-JAN-2012 00:00 GMT" />
-            <attribute name="validtime_DOY" value="001, 2012 00:00 GMT" />
+            <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
+            <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
             <attribute name="Conventions" type="String" value="CF-1.6"/> 
           </netcdf>
         </protoDataset>
@@ -223,8 +223,8 @@
         <update startup="true" rescan="0 4 * * * ? *" trigger="allow" />
         <protoDataset choice="Penultimate">
           <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-            <attribute name="validtime" value="01-JAN-2012 00:00 GMT" />
-            <attribute name="validtime_DOY" value="001, 2012 00:00 GMT" />
+            <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
+            <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
             <attribute name="Conventions" type="String" value="CF-1.6"/> 
           </netcdf>
         </protoDataset>
@@ -273,8 +273,8 @@
         <update startup="true" rescan="0 4 * * * ? *" trigger="allow" />
         <protoDataset choice="Penultimate">
           <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-            <attribute name="validtime" value="01-JAN-2012 00:00 GMT" />
-            <attribute name="validtime_DOY" value="001, 2012 00:00 GMT" />
+            <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
+            <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
             <attribute name="Conventions" type="String" value="CF-1.6"/> 
           </netcdf>
         </protoDataset>

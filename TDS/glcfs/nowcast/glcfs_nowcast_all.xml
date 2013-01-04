@@ -47,8 +47,8 @@
           <remove type="dimension" name="validtime_length" />
           <remove type="variable" name="validtime"/>
           <attribute name="Conventions" type="String" value="CF-1.6"/> 
-          <attribute name="validtime" value="01-JAN-2012 00:00 GMT" />
-          <attribute name="validtime_DOY" value="001, 2012 00:00 GMT" />
+          <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
           <attribute name="comment2" value="3-hourly model 3D output starting at validtime plus 3 hr" />
         </netcdf>
       </protoDataset>
@@ -81,8 +81,8 @@
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
           <remove type="dimension" name="validtime_length" />
           <remove type="variable" name="validtime"/>
-          <attribute name="validtime" value="01-JAN-2012 00:00 GMT" />
-          <attribute name="validtime_DOY" value="001, 2012 00:00 GMT" />
+          <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
           <attribute name="comment2" value="1-hourly model 2D output starting at validtime plus 1 hr" />
           <attribute name="Conventions" type="String" value="CF-1.6"/> 
         </netcdf>
@@ -106,8 +106,8 @@
           <remove type="dimension" name="validtime_length" />
           <remove type="variable" name="validtime"/>
           <attribute name="Conventions" type="String" value="CF-1.6"/> 
-          <attribute name="validtime" value="01-JAN-2012 00:00 GMT" />
-          <attribute name="validtime_DOY" value="001, 2012 00:00 GMT" />
+          <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
           <attribute name="comment2" value="3-hourly model 3D output starting at validtime plus 3 hr" />
         </netcdf>
       </protoDataset>
@@ -152,8 +152,8 @@
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
           <remove type="dimension" name="validtime_length" />
           <remove type="variable" name="validtime"/>
-          <attribute name="validtime" value="01-JAN-2012 00:00 GMT" />
-          <attribute name="validtime_DOY" value="001, 2012 00:00 GMT" />
+          <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
           <attribute name="comment2" value="1-hourly model 2D output starting at validtime plus 1 hr" />
           <attribute name="Conventions" type="String" value="CF-1.6"/> 
         </netcdf>
@@ -177,8 +177,8 @@
           <remove type="dimension" name="validtime_length" />
           <remove type="variable" name="validtime"/>
           <attribute name="Conventions" type="String" value="CF-1.6"/> 
-          <attribute name="validtime" value="01-JAN-2012 00:00 GMT" />
-          <attribute name="validtime_DOY" value="001, 2012 00:00 GMT" />
+          <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
           <attribute name="comment2" value="3-hourly model 3D output starting at validtime plus 3 hr" />
         </netcdf>
       </protoDataset>
@@ -210,8 +210,8 @@
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
           <remove type="dimension" name="validtime_length" />
           <remove type="variable" name="validtime"/>
-          <attribute name="validtime" value="01-JAN-2012 00:00 GMT" />
-          <attribute name="validtime_DOY" value="001, 2012 00:00 GMT" />
+          <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
           <attribute name="comment2" value="1-hourly model 2D output starting at validtime plus 1 hr" />
           <attribute name="Conventions" type="String" value="CF-1.6"/> 
         </netcdf>
@@ -236,8 +236,8 @@
           <remove type="dimension" name="validtime_length" />
           <remove type="variable" name="validtime"/>
           <attribute name="Conventions" type="String" value="CF-1.6"/> 
-          <attribute name="validtime" value="01-JAN-2012 00:00 GMT" />
-          <attribute name="validtime_DOY" value="001, 2012 00:00 GMT" />
+          <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
           <attribute name="comment2" value="3-hourly model 3D output starting at validtime plus 3 hr" />
         </netcdf>
       </protoDataset>
@@ -269,8 +269,8 @@
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
           <remove type="dimension" name="validtime_length" />
           <remove type="variable" name="validtime"/>
-          <attribute name="validtime" value="01-JAN-2012 00:00 GMT" />
-          <attribute name="validtime_DOY" value="001, 2012 00:00 GMT" />
+          <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
           <attribute name="comment2" value="1-hourly model 2D output starting at validtime plus 1 hr" />
           <attribute name="Conventions" type="String" value="CF-1.6"/> 
         </netcdf>
@@ -294,8 +294,8 @@
           <remove type="dimension" name="validtime_length" />
           <remove type="variable" name="validtime"/>
           <attribute name="Conventions" type="String" value="CF-1.6"/> 
-          <attribute name="validtime" value="01-JAN-2012 00:00 GMT" />
-          <attribute name="validtime_DOY" value="001, 2012 00:00 GMT" />
+          <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
           <attribute name="comment2" value="3-hourly model 3D output starting at validtime plus 3 hr" />
         </netcdf>
       </protoDataset>
@@ -327,8 +327,8 @@
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
           <remove type="dimension" name="validtime_length" />
           <remove type="variable" name="validtime"/>
-          <attribute name="validtime" value="01-JAN-2012 00:00 GMT" />
-          <attribute name="validtime_DOY" value="001, 2012 00:00 GMT" />
+          <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
           <attribute name="comment2" value="1-hourly model 2D output starting at validtime plus 1 hr" />
           <attribute name="Conventions" type="String" value="CF-1.6"/> 
         </netcdf>

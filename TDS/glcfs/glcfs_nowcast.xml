@@ -4,9 +4,10 @@
         xmlns:xlink="http://www.w3.org/1999/xlink">
 
   <dataset name="GLCFS - Great Lakes Coastal Forecasting System (POM)">
-    <catalogRef xlink:title="Nowcast - Current Year (2012)" xlink:href="nowcast/glcfs_nowcast_current.xml" name=""/>
+    <catalogRef xlink:title="Nowcast - Current Year (2013)" xlink:href="nowcast/glcfs_nowcast_current.xml" name=""/>
     <catalogRef xlink:title="Nowcast - All Years" xlink:href="nowcast/glcfs_nowcast_all.xml" name=""/>
-    <!--catalogRef xlink:title="GLCFS - Nowcast - 2012" xlink:href="nowcast/glcfs_nowcast_2012.xml" name=""/-->
+    <catalogRef xlink:title="Nowcast - 2012" xlink:href="nowcast/glcfs_nowcast_2012.xml" name=""/>
+    <catalogRef xlink:title="Nowcast - 2011" xlink:href="nowcast/glcfs_nowcast_2011.xml" name=""/>
     <catalogRef xlink:title="Nowcast - 2011" xlink:href="nowcast/glcfs_nowcast_2011.xml" name=""/>
     <catalogRef xlink:title="Nowcast - 2010" xlink:href="nowcast/glcfs_nowcast_2010.xml" name=""/>
     <catalogRef xlink:title="Nowcast - 2009" xlink:href="nowcast/glcfs_nowcast_2009.xml" name=""/>
