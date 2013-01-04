@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog name="Lake Surface Temperature (MODIS) Catalog"
+        xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <service name="all" base="" serviceType="compound">
+    <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/" />
+    <service name="http" serviceType="HTTPServer" base="/thredds/fileServer/" />
+    <service name="wms" serviceType="WMS" base="/thredds/wms/" />
+    <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+    <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+    <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+  </service>
+  <service name="agg" base="" serviceType="compound">
+    <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/" />
+    <service name="wms" serviceType="WMS" base="/thredds/wms/" />
+    <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+    <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+    <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+  </service>
+
+  <dataset name="AOC - Lake Surface Temperature (MODIS)">
+
+    <featureCollection featureType="FMRC" name="LakeErieSST-FMRC" harvest="true" path="SST/LakeErieSST-FMRC">
+      <metadata inherited="true">
+        <serviceName>agg</serviceName>
+        <documentation type="summary">Lake Erie SST</documentation>
+      </metadata>
+      <collection spec="data/MTRI-LST/erie_current_year/converted/.*nc4$"/>
+      <protoDataset choice="Penultimate">
+        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+          <variable name="sst">
+            <attribute name="coordinates" value="lon lat"/>
+          </variable>
+          <remove name="time_run" type="variable" />
+        </netcdf>
+      </protoDataset>
+      <fmrcConfig datasetTypes="Best Files" />
+    </featureCollection>
+
+    <dataset name="LakeErieSST-Agg" urlPath="SST/LakeErieSST-Agg" ID="LakeErieSST-Agg" dataType="Grid">
+      <metadata inherited="true">
+        <serviceName>agg</serviceName>
+      </metadata>
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <aggregation dimName="time" type="joinExisting">
+          <scan location="data/MTRI-LST/erie_current_year/converted/" suffix=".nc4"/>
+        </aggregation>
+      </netcdf>
+    </dataset>
+
+    <featureCollection featureType="FMRC" name="LakeHuronSST-FMRC" harvest="true" path="SST/LakeHuronSST-FMRC">
+      <metadata inherited="true">
+        <serviceName>agg</serviceName>
+        <documentation type="summary">Lake Huron SST</documentation>
+      </metadata>
+      <collection spec="data/MTRI-LST/huron_current_year/converted/.*nc4$"/>
+      <fmrcConfig datasetTypes="Best Files" />
+    </featureCollection>
+    
+    <dataset name="LakeHuronSST-Agg" urlPath="SST/LakeHuronSST-Agg" ID="LakeHuronSST-Agg" dataType="Grid">
+      <metadata inherited="true">
+        <serviceName>agg</serviceName>
+      </metadata>
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <aggregation dimName="time" type="joinExisting">
+          <scan location="data/MTRI-LST/huron_current_year/converted/" suffix=".nc4"/>
+        </aggregation>
+      </netcdf>
+    </dataset>
+
+    <featureCollection featureType="FMRC" name="LakeMichiganSST-FMRC" harvest="true" path="SST/LakeMichiganSST-FMRC">
+      <metadata inherited="true">
+        <serviceName>agg</serviceName>
+        <documentation type="summary">Lake Michigan SST</documentation>
+      </metadata>
+      <collection spec="data/MTRI-LST/michigan_current_year/converted/.*nc4$"/>
+      <fmrcConfig datasetTypes="Best Files" />
+    </featureCollection>
+
+    <dataset name="LakeMichiganSST-Agg" urlPath="SST/LakeMichiganSST-Agg" ID="LakeMichiganSST-Agg" dataType="Grid">
+      <metadata inherited="true">
+        <serviceName>agg</serviceName>
+      </metadata>
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <aggregation dimName="time" type="joinExisting">
+          <scan location="data/MTRI-LST/michigan_current_year/converted/" suffix=".nc4"/>
+        </aggregation>
+      </netcdf>
+    </dataset>
+
+    <featureCollection featureType="FMRC" name="LakeOntarioSST-FMRC" harvest="true" path="SST/LakeOntarioSST-FMRC">
+      <metadata inherited="true">
+        <serviceName>agg</serviceName>
+        <documentation type="summary">Lake Ontario SST</documentation>
+      </metadata>
+      <collection spec="data/MTRI-LST/ontario_current_year/converted/.*nc4$"/>
+      <fmrcConfig datasetTypes="Best Files" />
+    </featureCollection>
+
+    <dataset name="LakeOntarioSST-Agg" urlPath="SST/LakeOntarioSST-Agg" ID="LakeOntarioSST-Agg" dataType="Grid">
+      <metadata inherited="true">
+        <serviceName>agg</serviceName>
+      </metadata>
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <aggregation dimName="time" type="joinExisting">
+          <scan location="data/MTRI-LST/ontario_current_year/converted/" suffix=".nc4"/>
+        </aggregation>
+      </netcdf>
+    </dataset>
+
+    <featureCollection featureType="FMRC" name="LakeSuperiorSST-FMRC" harvest="true" path="SST/LakeSuperiorSST-FMRC">
+      <metadata inherited="true">
+        <serviceName>agg</serviceName>
+        <documentation type="summary">Lake Superior SST</documentation>
+      </metadata>
+      <collection spec="data/MTRI-LST/superior_current_year/converted/.*nc4$"/>
+      <fmrcConfig datasetTypes="Best Files" />
+    </featureCollection>
+    
+    <dataset name="LakeSuperiorSST-Agg" urlPath="SST/LakeSuperiorSST-Agg" ID="LakeSuperiorSST-Agg" dataType="Grid">
+      <metadata inherited="true">
+        <serviceName>agg</serviceName>
+      </metadata>
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <aggregation dimName="time" type="joinExisting">
+          <scan location="data/MTRI-LST/superior_current_year/converted/" suffix=".nc4"/>
+        </aggregation>
+      </netcdf>
+    </dataset>
+  </dataset>
+</catalog>

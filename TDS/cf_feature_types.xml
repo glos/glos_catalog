@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog name="CF - Discrete Sampling Geometry Examples"
+        xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+        
+  <service name="all" base="" serviceType="compound">
+    <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/" />
+    <service name="http" serviceType="HTTPServer" base="/thredds/fileServer/" />
+    <service name="wms" serviceType="WMS" base="/thredds/wms/" />
+    <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+    <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+    <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+  </service>
+
+  <datasetScan name="CF - Discrete Sampling Geometry Examples" ID="cfFeatureScan" path="cftype" location="/data/cf_feature_types">
+    <metadata inherited="true">
+      <serviceName>all</serviceName>
+    </metadata>
+    <filter>
+      <include wildcard="*.nc"/>
+    </filter>
+  </datasetScan>
+  
+</catalog>

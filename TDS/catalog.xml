@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog name="GLOS THREDDS Server"
+        xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <catalogRef xlink:title="AOC - Lake Surface Temperature (MODIS)" xlink:href="aoc.xml" name=""/>
+  <catalogRef xlink:title="GLCFS - Great Lakes Coastal Forecasting System (POM)" xlink:href="glcfs/glcfs.xml" name=""/>
+  <catalogRef xlink:title="SLRFVM - Upper St. Lawrence River (FVCOM)" xlink:href="slrfvm/slrfvm.xml" name=""/>
+  <catalogRef xlink:title="HECWFS - Huron to Erie Connecting Waterways Forecasting System (FVCOM)" xlink:href="hecwfs/hecwfs.xml" name=""/>
+  <catalogRef xlink:title="CF - Discrete Sampling Geometry Examples" xlink:href="cf_feature_types.xml" name=""/>
+
+</catalog>

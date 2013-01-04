@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog name="GLCFS Catalog"
+        xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <dataset name="GLCFS - Great Lakes Coastal Forecasting System (POM)">
+    <catalogRef xlink:title="Forecast" xlink:href="glcfs_forecast.xml" name=""/>
+    <catalogRef xlink:title="Nowcast" xlink:href="glcfs_nowcast.xml" name=""/>
+    <catalogRef xlink:title="Forcing" xlink:href="glcfs_forcing.xml" name=""/>
+  </dataset>
+</catalog>

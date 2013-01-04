@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog name="GLCFS - Nowcast - All Years"
+        xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <service name="all" base="" serviceType="compound">
+    <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/" />
+    <service name="http" serviceType="HTTPServer" base="/thredds/fileServer/" />
+    <service name="wms" serviceType="WMS" base="/thredds/wms/" />
+    <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+    <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+    <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+  </service>
+
+  <dataset name="Great Lakes Coastal Forecasting System - Nowcast - All Years">
+    <metadata inherited="true">
+      <serviceName>all</serviceName>
+
+      <creator>
+        <name vocabulary="DIF">Dr. Dave Schwab</name>
+        <contact url="http://www.glerl.noaa.gov/" email="david.schwab@noaa.gov"/>
+      </creator>
+
+      <documentation xlink:href="http://www.glerl.noaa.gov/res/glcfs/"
+        xlink:title="Great Lakes Coastal Forecasting System"/>
+
+      <documentation type="Summary"> Great Lakes Coastal Forecasting System</documentation>
+
+      <documentation type="Disclaimer"> NOAA GLERL is providing this data "as is," and NOAA GLERL
+        and its partners cannot be held responsible, nor assume any liability for any damages caused
+        by inaccuracies in this data or documentation, or as a result of the failure of the data or
+        software to function in a particular manner. NOAA GLERL and its partners make no warranty,
+        expressed or implied, as to the accuracy, completeness, or utility of this information, nor
+        does the fact of distribution constitute a warranty. Real-time data have not been subjected
+        to quality control or quality assurance procedures. Timely delivery of data and products
+        through the Internet is not guaranteed. Before using information obtained from this server,
+        special attention should be given to the date and time of the data and products being
+        displayed. </documentation>
+    </metadata>
+
+    
+    <featureCollection name="Lake Michigan - Nowcast - 3D - All Years" featureType="FMRC" harvest="true" path="glos/glcfs/archiveall/michigan/ncfmrc-3d">
+      <collection spec="/var/thredds/GLCFS/Archive/**/m#yyyyDDDHH#\.out3\.nc$" olderThan="5 min" />
+      <update startup="true" rescan="0 4 * * * ? *" trigger="allow" />
+      <protoDataset choice="Penultimate">
+        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+          <remove type="dimension" name="validtime_length" />
+          <remove type="variable" name="validtime"/>
+          <attribute name="Conventions" type="String" value="CF-1.6"/> 
+          <attribute name="validtime" value="01-JAN-2012 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2012 00:00 GMT" />
+          <attribute name="comment2" value="3-hourly model 3D output starting at validtime plus 3 hr" />
+        </netcdf>
+      </protoDataset>
+      <fmrcConfig datasetTypes="Best Files" />
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <variable name="depth">
+          <attribute name="coordinates" value="lat lon"/>
+        </variable>
+        <variable name="eta" shape="time ny nx" type="float">
+          <attribute name="coordinates" value="time lat lon" />
+          <attribute name="units" value="m"/>
+          <values start="0.00" increment="0.0"/>
+        </variable>
+        <variable name="temp">
+          <attribute name="coordinates" value="time sigma lat lon"/>
+        </variable>
+        <variable name="u">
+          <attribute name="coordinates" value="time sigma lat lon"/>
+        </variable>
+        <variable name="v">
+          <attribute name="coordinates" value="time sigma lat lon"/>
+        </variable>
+      </netcdf>
+    </featureCollection>
+    
+    <featureCollection name="Lake Michigan - Nowcast - 2D - All Years" featureType="FMRC" harvest="true" path="glos/glcfs/archiveall/michigan/ncfmrc-2d">
+      <collection spec="/var/thredds/GLCFS/Archive/**/m#yyyyDDDHH#\.out1\.nc$" olderThan="5 min" />
+      <update startup="true" rescan="0 4 * * * ? *" trigger="allow" />
+      <protoDataset choice="Penultimate">
+        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+          <remove type="dimension" name="validtime_length" />
+          <remove type="variable" name="validtime"/>
+          <attribute name="validtime" value="01-JAN-2012 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2012 00:00 GMT" />
+          <attribute name="comment2" value="1-hourly model 2D output starting at validtime plus 1 hr" />
+          <attribute name="Conventions" type="String" value="CF-1.6"/> 
+        </netcdf>
+      </protoDataset>
+      <fmrcConfig datasetTypes="Best Files" />
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <variable name="depth" shape="ny nx" type="float">
+            <attribute name="coordinates" value="lat lon"/>
+        </variable>
+        <variable name="wvh" >
+          <attribute name="coordinates" value="time lat lon"/>
+        </variable>
+      </netcdf>
+    </featureCollection>
+
+    <featureCollection name="Lake Superior - Nowcast - 3D - All Years" featureType="FMRC" harvest="true" path="glos/glcfs/archiveall/superior/ncfmrc-3d">
+      <collection spec="/var/thredds/GLCFS/Archive/**/s#yyyyDDDHH#\.out3\.nc$" olderThan="5 min" />
+      <update startup="true" rescan="0 4 * * * ? *" trigger="allow" />
+      <protoDataset choice="Penultimate">
+        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+          <remove type="dimension" name="validtime_length" />
+          <remove type="variable" name="validtime"/>
+          <attribute name="Conventions" type="String" value="CF-1.6"/> 
+          <attribute name="validtime" value="01-JAN-2012 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2012 00:00 GMT" />
+          <attribute name="comment2" value="3-hourly model 3D output starting at validtime plus 3 hr" />
+        </netcdf>
+      </protoDataset>
+      <fmrcConfig datasetTypes="Best Files" />
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <variable name="depth" shape="ny nx" type="float">
+          <attribute name="long_name" value="Bathymetry " />
+          <attribute name="units" value="meters" />
+          <attribute name="positive" value="down" />
+          <attribute name="standard_name" value="depth" />
+          <attribute name="coordinates" value="lat lon"/>
+        </variable>
+        <variable name="eta" shape="time ny nx" type="float">
+          <attribute name="reference" value="model_sea_level" />
+          <attribute name="long_name" value="Height Above Model Sea Level" />
+          <attribute name="coordinates" value="time lat lon"/>
+          <attribute name="units" value="meters"/>
+          <attribute name="missing_value" type="float" value="-99999.0" />
+          <attribute name="positive" value="up" />
+          <attribute name="standard_name" value="sea_surface_elevation" />
+        </variable>
+        <variable name="temp" shape="time nsigma ny nx" type="float">
+          <attribute name="long_name" value="Temperature" />
+          <attribute name="units" value="Celsius" />
+          <attribute name="missing_value" type="float" value="-99999.0" />
+          <attribute name="standard_name" value="sea_water_temperature" />
+          <attribute name="coordinates" value="time sigma lat lon"/>
+        </variable>
+        <variable name="u">
+          <attribute name="coordinates" value="time sigma lat lon"/>
+        </variable>
+        <variable name="v">
+          <attribute name="coordinates" value="time sigma lat lon"/>
+        </variable>
+      </netcdf>
+    </featureCollection>
+                
+    <featureCollection name="Lake Superior - Nowcast - 2D - All Years" featureType="FMRC" harvest="true" path="glos/glcfs/archiveall/superior/ncfmrc-2d">
+      <collection spec="/var/thredds/GLCFS/Archive/**/s#yyyyDDDHH#\.out1\.nc$" olderThan="5 min" />
+      <update startup="true" rescan="0 4 * * * ? *" trigger="allow" />
+      <protoDataset choice="Penultimate">
+        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+          <remove type="dimension" name="validtime_length" />
+          <remove type="variable" name="validtime"/>
+          <attribute name="validtime" value="01-JAN-2012 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2012 00:00 GMT" />
+          <attribute name="comment2" value="1-hourly model 2D output starting at validtime plus 1 hr" />
+          <attribute name="Conventions" type="String" value="CF-1.6"/> 
+        </netcdf>
+      </protoDataset>
+      <fmrcConfig datasetTypes="Best Files" />
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <variable name="depth">
+          <attribute name="coordinates" value="lat lon"/>
+        </variable>
+        <variable name="wvh">
+          <attribute name="coordinates" value="time lat lon"/>
+        </variable>
+      </netcdf>
+    </featureCollection>
+
+    <featureCollection name="Lake Huron - Nowcast - 3D - All Years" featureType="FMRC" harvest="true" path="glos/glcfs/archiveall/huron/ncfmrc-3d">
+      <collection spec="/var/thredds/GLCFS/Archive/**/h#yyyyDDDHH#\.out3\.nc$" olderThan="5 min" />
+      <update startup="true" rescan="0 4 * * * ? *" trigger="allow" />
+      <protoDataset choice="Penultimate">
+        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+          <remove type="dimension" name="validtime_length" />
+          <remove type="variable" name="validtime"/>
+          <attribute name="Conventions" type="String" value="CF-1.6"/> 
+          <attribute name="validtime" value="01-JAN-2012 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2012 00:00 GMT" />
+          <attribute name="comment2" value="3-hourly model 3D output starting at validtime plus 3 hr" />
+        </netcdf>
+      </protoDataset>
+      <fmrcConfig datasetTypes="Best Files" />
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <variable name="depth" shape="ny nx" type="float">
+          <attribute name="coordinates" value="lat lon"/>
+        </variable>
+        <variable name="eta" shape="time ny nx" type="float">
+          <attribute name="coordinates" value="time lat lon"/>
+          <attribute name="units" value="m"/>
+        </variable>
+        <variable name="temp" shape="time nsigma ny nx" type="float">
+          <attribute name="coordinates" value="time sigma lat lon"/>
+        </variable>
+        <variable name="u">
+          <attribute name="coordinates" value="time sigma lat lon"/>
+        </variable>
+        <variable name="v">
+          <attribute name="coordinates" value="time sigma lat lon"/>
+        </variable>
+      </netcdf>
+    </featureCollection>
+
+    <featureCollection name="Lake Huron - Nowcast - 2D - All Years" featureType="FMRC" harvest="true" path="glos/glcfs/archiveall/huron/ncfmrc-2d">
+      <collection spec="/var/thredds/GLCFS/Archive/**/h#yyyyDDDHH#\.out1\.nc$" olderThan="5 min" />
+      <update startup="true" rescan="0 4 * * * ? *" trigger="allow" />
+      <protoDataset choice="Penultimate">
+        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+          <remove type="dimension" name="validtime_length" />
+          <remove type="variable" name="validtime"/>
+          <attribute name="validtime" value="01-JAN-2012 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2012 00:00 GMT" />
+          <attribute name="comment2" value="1-hourly model 2D output starting at validtime plus 1 hr" />
+          <attribute name="Conventions" type="String" value="CF-1.6"/> 
+        </netcdf>
+      </protoDataset>
+      <fmrcConfig datasetTypes="Best Files" />
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <variable name="depth">
+            <attribute name="coordinates" value="lat lon"/>
+        </variable>
+        <variable name="wvh">
+          <attribute name="coordinates" value="time lat lon"/>
+        </variable>
+      </netcdf>
+    </featureCollection>
+
+
+    <featureCollection name="Lake Erie - Nowcast - 3D - All Years" featureType="FMRC" harvest="true" path="glos/glcfs/archiveall/erie/ncfmrc-3d">
+      <collection spec="/var/thredds/GLCFS/Archive/**/e#yyyyDDDHH#\.out3\.nc$" olderThan="5 min" />
+      <update startup="true" rescan="0 4 * * * ? *" trigger="allow" />
+      <protoDataset choice="Penultimate">
+        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+          <remove type="dimension" name="validtime_length" />
+          <remove type="variable" name="validtime"/>
+          <attribute name="Conventions" type="String" value="CF-1.6"/> 
+          <attribute name="validtime" value="01-JAN-2012 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2012 00:00 GMT" />
+          <attribute name="comment2" value="3-hourly model 3D output starting at validtime plus 3 hr" />
+        </netcdf>
+      </protoDataset>
+      <fmrcConfig datasetTypes="Best Files" />
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <variable name="depth">
+          <attribute name="coordinates" value="lat lon"/>
+        </variable>
+        <variable name="eta" shape="time ny nx" type="float">
+          <attribute name="coordinates" value="time lat lon"/>
+          <attribute name="units" value="m"/>
+        </variable>
+        <variable name="temp" shape="time nsigma ny nx" type="float">
+          <attribute name="coordinates" value="time sigma lat lon"/>
+        </variable>
+        <variable name="u">
+          <attribute name="coordinates" value="time sigma lat lon"/>
+        </variable>
+        <variable name="v">
+          <attribute name="coordinates" value="time sigma lat lon"/>
+        </variable>
+      </netcdf>
+    </featureCollection>
+
+    <featureCollection name="Lake Erie - Nowcast - 2D - All Years" featureType="FMRC" harvest="true" path="glos/glcfs/archiveall/erie/ncfmrc-2d">
+      <collection spec="/var/thredds/GLCFS/Archive/**/e#yyyyDDDHH#\.out1\.nc$" olderThan="5 min" />
+      <update startup="true" rescan="0 4 * * * ? *" trigger="allow" />
+      <protoDataset choice="Penultimate">
+        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+          <remove type="dimension" name="validtime_length" />
+          <remove type="variable" name="validtime"/>
+          <attribute name="validtime" value="01-JAN-2012 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2012 00:00 GMT" />
+          <attribute name="comment2" value="1-hourly model 2D output starting at validtime plus 1 hr" />
+          <attribute name="Conventions" type="String" value="CF-1.6"/> 
+        </netcdf>
+      </protoDataset>
+      <fmrcConfig datasetTypes="Best Files" />
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <variable name="depth">
+          <attribute name="coordinates" value="lat lon"/>
+        </variable>
+        <variable name="wvh">
+          <attribute name="coordinates" value="time lat lon"/>
+        </variable>
+      </netcdf>
+    </featureCollection>
+
+    <featureCollection name="Lake Ontario - Nowcast - 3D - All Years" featureType="FMRC" harvest="true" path="glos/glcfs/archiveall/ontario/ncfmrc-3d">
+      <collection spec="/var/thredds/GLCFS/Archive/**/o#yyyyDDDHH#\.out3\.nc$" olderThan="5 min" />
+      <update startup="true" rescan="0 4 * * * ? *" trigger="allow" />
+      <protoDataset choice="Penultimate">
+        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+          <remove type="dimension" name="validtime_length" />
+          <remove type="variable" name="validtime"/>
+          <attribute name="Conventions" type="String" value="CF-1.6"/> 
+          <attribute name="validtime" value="01-JAN-2012 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2012 00:00 GMT" />
+          <attribute name="comment2" value="3-hourly model 3D output starting at validtime plus 3 hr" />
+        </netcdf>
+      </protoDataset>
+      <fmrcConfig datasetTypes="Best Files" />
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <variable name="depth">
+          <attribute name="coordinates" value="lat lon"/>
+        </variable>
+        <variable name="eta" shape="time ny nx" type="float">
+          <attribute name="coordinates" value="time lat lon"/>
+          <attribute name="units" value="m"/>
+        </variable>
+        <variable name="temp" shape="time nsigma ny nx" type="float">
+          <attribute name="coordinates" value="time sigma lat lon"/>
+        </variable>
+        <variable name="u">
+          <attribute name="coordinates" value="time sigma lat lon"/>
+        </variable>
+        <variable name="v">
+          <attribute name="coordinates" value="time sigma lat lon"/>
+        </variable>
+      </netcdf>
+    </featureCollection>
+
+    <featureCollection name="Lake Ontario - Nowcast - 2D - All Years" featureType="FMRC" harvest="true" path="glos/glcfs/archiveall/ontario/ncfmrc-2d">
+      <collection spec="/var/thredds/GLCFS/Archive/**/o#yyyyDDDHH#\.out1\.nc$" olderThan="5 min" />
+      <update startup="true" rescan="0 4 * * * ? *" trigger="allow" />
+      <protoDataset choice="Penultimate">
+        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+          <remove type="dimension" name="validtime_length" />
+          <remove type="variable" name="validtime"/>
+          <attribute name="validtime" value="01-JAN-2012 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2012 00:00 GMT" />
+          <attribute name="comment2" value="1-hourly model 2D output starting at validtime plus 1 hr" />
+          <attribute name="Conventions" type="String" value="CF-1.6"/> 
+        </netcdf>
+      </protoDataset>
+      <fmrcConfig datasetTypes="Best Files" />
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <variable name="depth">
+          <attribute name="coordinates" value="lat lon"/>
+        </variable>
+        <variable name="wvh">
+          <attribute name="coordinates" value="time lat lon"/>
+        </variable>
+      </netcdf>
+    </featureCollection>
+
+  </dataset>
+</catalog>

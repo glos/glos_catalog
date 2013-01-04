@@ -1,0 +1,28 @@
+html 
+{
+	background-image: url('images/thredds.png'), url('images/banner.png'), url('images/background.png');
+	background-position: right 30px, left top, left top;
+	background-repeat: no-repeat, no-repeat, repeat;
+	background-color: #ccc;
+  font-family: Tahoma, Arial, sans-serif;
+  padding-top: 117px;
+}
+body
+{
+  background-color: #eeeeee;
+  width: 825px;
+  margin: 30px auto 0 auto; 
+  border: 1px solid black;
+  padding: 20px;
+    
+}
+form
+{
+  margin: 0 25px 0 25px;
+  width: 825px;
+}
+pre
+{
+  margin: 20px;
+  padding: 20px;   
+}

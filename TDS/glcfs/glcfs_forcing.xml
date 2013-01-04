@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog name="GLCFS - Great Lakes Coastal Forecasting System (POM) - Forcing"
+        xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <dataset name="GLCFS - Great Lakes Coastal Forecasting System (POM)">
+    <catalogRef xlink:title="Forcing - Current Year (2012)" xlink:href="forcing/glcfs_forcing_current.xml" name=""/>
+    <catalogRef xlink:title="Forcing - All Years" xlink:href="forcing/glcfs_forcing_all.xml" name=""/>
+    <!--catalogRef xlink:title="Forcing - 2012" xlink:href="glcfs_forcing_2012.xml" name=""/-->
+    <catalogRef xlink:title="Forcing - 2011" xlink:href="forcing/glcfs_forcing_2011.xml" name=""/>
+    <catalogRef xlink:title="Forcing - 2010" xlink:href="forcing/glcfs_forcing_2010.xml" name=""/>
+    <catalogRef xlink:title="Forcing - 2009" xlink:href="forcing/glcfs_forcing_2009.xml" name=""/>
+    <catalogRef xlink:title="Forcing - 2008" xlink:href="forcing/glcfs_forcing_2008.xml" name=""/>
+    <catalogRef xlink:title="Forcing - 2007" xlink:href="forcing/glcfs_forcing_2007.xml" name=""/>
+    <catalogRef xlink:title="Forcing - 2006" xlink:href="forcing/glcfs_forcing_2006.xml" name=""/>
+  </dataset>
+</catalog>

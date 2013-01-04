@@ -1,0 +1,66 @@
+html {
+  background: url('images/background.png') #ccc repeat top left;
+}
+
+body {
+  width: 90%;
+  color: black;
+  border: 1px solid #000;
+  margin: 147px auto 50px auto;
+  background-color: #eee;
+  font-family: monospace;
+  padding: 20px 0;
+}
+
+h2 {
+  color: white;
+  font-size: 15px;
+  white-space: nowrap;
+  position: absolute;
+  margin: 0 auto;
+  padding-left: 5px;
+}
+
+table + h2 {
+  position: absolute;
+  top: 0px;
+  width: 90%;
+  background-image: url('images/metadata.png'), url('images/banner.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 30px, left top;
+  padding-top: 102px; 
+  padding-bottom: 20px;
+  min-width: 920px;
+}
+
+table + h2 + h2 {
+  top: 120px;
+}
+
+h3 {
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+b {
+  color: black;
+}
+
+a {
+  color : #0062AD;
+}
+
+table {
+  display: none;
+}
+
+ul,ol {
+  margin: 0px 10px;
+  padding-left: 10px;
+  list-style-type: none;
+}
+ul li em {
+  font-weight: bold;
+  font-style: normal;
+}
