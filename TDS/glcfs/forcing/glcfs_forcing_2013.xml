@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<catalog name="GLCFS - Forcing - Current Year"
+<catalog name="GLCFS - Forcing - 2013"
         xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
         xmlns:xlink="http://www.w3.org/1999/xlink">
 
@@ -12,7 +12,7 @@
     <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
   </service>
 
-  <dataset name="Great Lakes Coastal Forecasting System - Forcing - Current Year">
+  <dataset name="Great Lakes Coastal Forecasting System - Forcing - 2013">
     <metadata inherited="true">
       <serviceName>all</serviceName>
 
@@ -38,76 +38,71 @@
         displayed. </documentation>
     </metadata>
 
-    <featureCollection name="Lake Michigan - Forcing - 3D - Current Year" featureType="FMRC" harvest="true" path="glos/glcfs/archivecurrent/michigan/ncfmrc-3d">
-      <collection spec="../../data/GLCFS/Nowcast/m#yyyyDDDHH#\.in1\.nc$" olderThan="5 min" />
-      <update startup="true" rescan="0 5 * * * ? *" trigger="allow" />
+    <featureCollection name="Lake Michigan - Forcing - 3D - 2013" featureType="FMRC" harvest="true" path="glos/glcfs/archive2013/michigan/ncfmrc-3d">
+      <collection spec="../../data/GLCFS/Archive/2013/m#yyyyDDDHH#\.in1\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
           <remove type="dimension" name="validtime_length" />
           <remove type="variable" name="validtime"/>
           <attribute name="Conventions" type="String" value="CF-1.6"/> 
-          <attribute name="validtime" value="01-JAN-2012 00:00 GMT" />
-          <attribute name="validtime_DOY" value="001, 2012 00:00 GMT" />
+          <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
         </netcdf>
       </protoDataset>
       <fmrcConfig datasetTypes="Best Files" />
     </featureCollection>
     
-    <featureCollection name="Lake Superior - Forcing - 3D - Current Year" featureType="FMRC" harvest="true" path="glos/glcfs/archivecurrent/superior/ncfmrc-3d">
-      <collection spec="../../data/GLCFS/Nowcast/s#yyyyDDDHH#\.in1\.nc$" olderThan="5 min" />
-      <update startup="true" rescan="0 5 * * * ? *" trigger="allow" />
+    <featureCollection name="Lake Superior - Forcing - 3D - 2013" featureType="FMRC" harvest="true" path="glos/glcfs/archive2013/superior/ncfmrc-3d">
+      <collection spec="../../data/GLCFS/Archive/2013/s#yyyyDDDHH#\.in1\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
           <remove type="dimension" name="validtime_length" />
           <remove type="variable" name="validtime"/>
           <attribute name="Conventions" type="String" value="CF-1.6"/> 
-          <attribute name="validtime" value="01-JAN-2012 00:00 GMT" />
-          <attribute name="validtime_DOY" value="001, 2012 00:00 GMT" />
+          <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
         </netcdf>
       </protoDataset>
       <fmrcConfig datasetTypes="Best Files" />
     </featureCollection>
     
-    <featureCollection name="Lake Huron - Forcing - 3D - Current Year" featureType="FMRC" harvest="true" path="glos/glcfs/archivecurrent/huron/ncfmrc-3d">
-      <collection spec="../../data/GLCFS/Nowcast/h#yyyyDDDHH#\.in1\.nc$" olderThan="5 min" />
-      <update startup="true" rescan="0 5 * * * ? *" trigger="allow" />
+    <featureCollection name="Lake Huron - Forcing - 3D - 2013" featureType="FMRC" harvest="true" path="glos/glcfs/archive2013/huron/ncfmrc-3d">
+      <collection spec="../../data/GLCFS/Archive/2013/h#yyyyDDDHH#\.in1\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
           <remove type="dimension" name="validtime_length" />
           <remove type="variable" name="validtime"/>
           <attribute name="Conventions" type="String" value="CF-1.6"/> 
-          <attribute name="validtime" value="01-JAN-2012 00:00 GMT" />
-          <attribute name="validtime_DOY" value="001, 2012 00:00 GMT" />
+          <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
         </netcdf>
       </protoDataset>
       <fmrcConfig datasetTypes="Best Files" />
     </featureCollection>
 
-    <featureCollection name="Lake Erie - Forcing - 3D - Current Year" featureType="FMRC" harvest="true" path="glos/glcfs/archivecurrent/erie/ncfmrc-3d">
-      <collection spec="../../data/GLCFS/Nowcast/e#yyyyDDDHH#\.in1\.nc$" olderThan="5 min" />
-      <update startup="true" rescan="0 5 * * * ? *" trigger="allow" />
+    <featureCollection name="Lake Erie - Forcing - 3D - 2013" featureType="FMRC" harvest="true" path="glos/glcfs/archive2013/erie/ncfmrc-3d">
+      <collection spec="../../data/GLCFS/Archive/2013/e#yyyyDDDHH#\.in1\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
           <remove type="dimension" name="validtime_length" />
           <remove type="variable" name="validtime"/>
           <attribute name="Conventions" type="String" value="CF-1.6"/> 
-          <attribute name="validtime" value="01-JAN-2012 00:00 GMT" />
-          <attribute name="validtime_DOY" value="001, 2012 00:00 GMT" />
+          <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
         </netcdf>
       </protoDataset>
       <fmrcConfig datasetTypes="Best Files" />
     </featureCollection>
     
-    <featureCollection name="Lake Ontario - Forcing - 3D - Current Year" featureType="FMRC" harvest="true" path="glos/glcfs/archivecurrent/ontario/ncfmrc-3d">
-      <collection spec="../../data/GLCFS/Nowcast/o#yyyyDDDHH#\.in1\.nc$" olderThan="5 min" />
-      <update startup="true" rescan="0 5 * * * ? *" trigger="allow" />
+    <featureCollection name="Lake Ontario - Forcing - 3D - 2013" featureType="FMRC" harvest="true" path="glos/glcfs/archive2013/ontario/ncfmrc-3d">
+      <collection spec="../../data/GLCFS/Archive/2013/o#yyyyDDDHH#\.in1\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
           <remove type="dimension" name="validtime_length" />
           <remove type="variable" name="validtime"/>
           <attribute name="Conventions" type="String" value="CF-1.6"/> 
-          <attribute name="validtime" value="01-JAN-2012 00:00 GMT" />
-          <attribute name="validtime_DOY" value="001, 2012 00:00 GMT" />
+          <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
         </netcdf>
       </protoDataset>
       <fmrcConfig datasetTypes="Best Files" />

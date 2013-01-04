@@ -40,7 +40,7 @@
 
     
     <featureCollection name="Lake Michigan - Nowcast - 3D - 2012" featureType="FMRC" harvest="true" path="glos/glcfs/archive2012/michigan/ncfmrc-3d">
-      <collection spec="/var/thredds/GLCFS/Archive/2012/m#yyyyDDDHH#\.out3\.nc$" olderThan="5 min" />
+      <collection spec="../../data/GLCFS/Archive/2012/m#yyyyDDDHH#\.out3\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
           <remove type="dimension" name="validtime_length" />
@@ -74,7 +74,7 @@
     </featureCollection>
     
     <featureCollection name="Lake Michigan - Nowcast - 2D - 2012" featureType="FMRC" harvest="true" path="glos/glcfs/archive2012/michigan/ncfmrc-2d">
-      <collection spec="/var/thredds/GLCFS/Archive/2012/m#yyyyDDDHH#\.out1\.nc$" olderThan="5 min" />
+      <collection spec="../../data/GLCFS/Archive/2012/m#yyyyDDDHH#\.out1\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
           <remove type="dimension" name="validtime_length" />
@@ -97,7 +97,7 @@
     </featureCollection>
 
     <featureCollection name="Lake Superior - Nowcast - 3D - 2012" featureType="FMRC" harvest="true" path="glos/glcfs/archive2012/superior/ncfmrc-3d">
-      <collection spec="/var/thredds/GLCFS/Archive/2012/s#yyyyDDDHH#\.out3\.nc$" olderThan="5 min" />
+      <collection spec="../../data/GLCFS/Archive/2012/s#yyyyDDDHH#\.out3\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
           <remove type="dimension" name="validtime_length" />
@@ -143,7 +143,7 @@
     </featureCollection>
                 
     <featureCollection name="Lake Superior - Nowcast - 2D - 2012" featureType="FMRC" harvest="true" path="glos/glcfs/archive2012/superior/ncfmrc-2d">
-      <collection spec="/var/thredds/GLCFS/Archive/2012/s#yyyyDDDHH#\.out1\.nc$" olderThan="5 min" />
+      <collection spec="../../data/GLCFS/Archive/2012/s#yyyyDDDHH#\.out1\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
           <remove type="dimension" name="validtime_length" />
@@ -166,7 +166,7 @@
     </featureCollection>
 
     <featureCollection name="Lake Huron - Nowcast - 3D - 2012" featureType="FMRC" harvest="true" path="glos/glcfs/archive2012/huron/ncfmrc-3d">
-      <collection spec="/var/thredds/GLCFS/Archive/2012/h#yyyyDDDHH#\.out3\.nc$" olderThan="5 min" />
+      <collection spec="../../data/GLCFS/Archive/2012/h#yyyyDDDHH#\.out3\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
           <remove type="dimension" name="validtime_length" />
@@ -199,7 +199,7 @@
     </featureCollection>
 
     <featureCollection name="Lake Huron - Nowcast - 2D - 2012" featureType="FMRC" harvest="true" path="glos/glcfs/archive2012/huron/ncfmrc-2d">
-      <collection spec="/var/thredds/GLCFS/Archive/2012/h#yyyyDDDHH#\.out1\.nc$" olderThan="5 min" />
+      <collection spec="../../data/GLCFS/Archive/2012/h#yyyyDDDHH#\.out1\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
           <remove type="dimension" name="validtime_length" />
@@ -223,7 +223,7 @@
 
 
     <featureCollection name="Lake Erie - Nowcast - 3D - 2012" featureType="FMRC" harvest="true" path="glos/glcfs/archive2012/erie/ncfmrc-3d">
-      <collection spec="/var/thredds/GLCFS/Archive/2012/e#yyyyDDDHH#\.out3\.nc$" olderThan="5 min" />
+      <collection spec="../../data/GLCFS/Archive/2012/e#yyyyDDDHH#\.out3\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
           <remove type="dimension" name="validtime_length" />
@@ -256,7 +256,7 @@
     </featureCollection>
 
     <featureCollection name="Lake Erie - Nowcast - 2D - 2012" featureType="FMRC" harvest="true" path="glos/glcfs/archive2012/erie/ncfmrc-2d">
-      <collection spec="/var/thredds/GLCFS/Archive/2012/e#yyyyDDDHH#\.out1\.nc$" olderThan="5 min" />
+      <collection spec="../../data/GLCFS/Archive/2012/e#yyyyDDDHH#\.out1\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
           <remove type="dimension" name="validtime_length" />
@@ -279,7 +279,7 @@
     </featureCollection>
 
     <featureCollection name="Lake Ontario - Nowcast - 3D - 2012" featureType="FMRC" harvest="true" path="glos/glcfs/archive2012/ontario/ncfmrc-3d">
-      <collection spec="/var/thredds/GLCFS/Archive/2012/o#yyyyDDDHH#\.out3\.nc$" olderThan="5 min" />
+      <collection spec="../../data/GLCFS/Archive/2012/o#yyyyDDDHH#\.out3\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
           <remove type="dimension" name="validtime_length" />
@@ -312,7 +312,7 @@
     </featureCollection>
 
     <featureCollection name="Lake Ontario - Nowcast - 2D - 2012" featureType="FMRC" harvest="true" path="glos/glcfs/archive2012/ontario/ncfmrc-2d">
-      <collection spec="/var/thredds/GLCFS/Archive/2012/o#yyyyDDDHH#\.out1\.nc$" olderThan="5 min" />
+      <collection spec="../../data/GLCFS/Archive/2012/o#yyyyDDDHH#\.out1\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
           <remove type="dimension" name="validtime_length" />
