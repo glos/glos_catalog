@@ -37,9 +37,9 @@
       <filter>
         <include wildcard="*.nc"/>
       </filter>
-      <addLatest>
+      <addProxies>
         <simpleLatest name="latest.xml" top="true" serviceName="latest" />
-      </addLatest>      
+      </addProxies>      
     </datasetScan>
     
     <datasetScan name="Forecast - Individual Files" 
@@ -51,9 +51,9 @@
       <filter>
         <include wildcard="*.nc"/>
       </filter>
-      <addLatest>
+      <addProxies>
         <simpleLatest name="latest.xml" top="true" serviceName="latest" />
-      </addLatest>      
+      </addProxies>      
     </datasetScan>
   </dataset>
 </catalog>
