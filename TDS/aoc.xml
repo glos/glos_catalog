@@ -26,7 +26,7 @@
         <serviceName>agg</serviceName>
         <documentation type="summary">Lake Erie SST</documentation>
       </metadata>
-      <collection spec="data/MTRI-LST/erie_current_year/converted/.*nc4$"/>
+      <collection spec="/var/thredds/MTRI-LST/erie_current_year/converted/.*nc4$"/>
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
           <variable name="sst">
@@ -44,7 +44,7 @@
       </metadata>
       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
         <aggregation dimName="time" type="joinExisting">
-          <scan location="data/MTRI-LST/erie_current_year/converted/" suffix=".nc4"/>
+          <scan location="/var/thredds/MTRI-LST/erie_current_year/converted/" suffix=".nc4"/>
         </aggregation>
       </netcdf>
     </dataset>
@@ -54,7 +54,7 @@
         <serviceName>agg</serviceName>
         <documentation type="summary">Lake Huron SST</documentation>
       </metadata>
-      <collection spec="data/MTRI-LST/huron_current_year/converted/.*nc4$"/>
+      <collection spec="/var/thredds/MTRI-LST/huron_current_year/converted/.*nc4$"/>
       <fmrcConfig datasetTypes="Best Files" />
     </featureCollection>
     
@@ -64,7 +64,7 @@
       </metadata>
       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
         <aggregation dimName="time" type="joinExisting">
-          <scan location="data/MTRI-LST/huron_current_year/converted/" suffix=".nc4"/>
+          <scan location="/var/thredds/MTRI-LST/huron_current_year/converted/" suffix=".nc4"/>
         </aggregation>
       </netcdf>
     </dataset>
@@ -74,7 +74,7 @@
         <serviceName>agg</serviceName>
         <documentation type="summary">Lake Michigan SST</documentation>
       </metadata>
-      <collection spec="data/MTRI-LST/michigan_current_year/converted/.*nc4$"/>
+      <collection spec="/var/thredds/MTRI-LST/michigan_current_year/converted/.*nc4$"/>
       <fmrcConfig datasetTypes="Best Files" />
     </featureCollection>
 
@@ -84,7 +84,7 @@
       </metadata>
       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
         <aggregation dimName="time" type="joinExisting">
-          <scan location="data/MTRI-LST/michigan_current_year/converted/" suffix=".nc4"/>
+          <scan location="/var/thredds/MTRI-LST/michigan_current_year/converted/" suffix=".nc4"/>
         </aggregation>
       </netcdf>
     </dataset>
@@ -94,7 +94,7 @@
         <serviceName>agg</serviceName>
         <documentation type="summary">Lake Ontario SST</documentation>
       </metadata>
-      <collection spec="data/MTRI-LST/ontario_current_year/converted/.*nc4$"/>
+      <collection spec="/var/thredds/MTRI-LST/ontario_current_year/converted/.*nc4$"/>
       <fmrcConfig datasetTypes="Best Files" />
     </featureCollection>
 
@@ -104,7 +104,7 @@
       </metadata>
       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
         <aggregation dimName="time" type="joinExisting">
-          <scan location="data/MTRI-LST/ontario_current_year/converted/" suffix=".nc4"/>
+          <scan location="/var/thredds/MTRI-LST/ontario_current_year/converted/" suffix=".nc4"/>
         </aggregation>
       </netcdf>
     </dataset>
@@ -114,7 +114,7 @@
         <serviceName>agg</serviceName>
         <documentation type="summary">Lake Superior SST</documentation>
       </metadata>
-      <collection spec="data/MTRI-LST/superior_current_year/converted/.*nc4$"/>
+      <collection spec="/var/thredds/MTRI-LST/superior_current_year/converted/.*nc4$"/>
       <fmrcConfig datasetTypes="Best Files" />
     </featureCollection>
     
@@ -124,7 +124,7 @@
       </metadata>
       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
         <aggregation dimName="time" type="joinExisting">
-          <scan location="data/MTRI-LST/superior_current_year/converted/" suffix=".nc4"/>
+          <scan location="/var/thredds/MTRI-LST/superior_current_year/converted/" suffix=".nc4"/>
         </aggregation>
       </netcdf>
     </dataset>
