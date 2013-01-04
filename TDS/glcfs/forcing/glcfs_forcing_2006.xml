@@ -39,7 +39,7 @@
     </metadata>
 
     <featureCollection name="Lake Michigan - Forcing - 3D - 2006" featureType="FMRC" harvest="true" path="glos/glcfs/archive2006/michigan/ncfmrc-3d">
-      <collection spec="../../data/GLCFS/Archive/2006/m#yyyyDDDHH#\.in1\.nc$" olderThan="5 min" />
+      <collection spec="/var/thredds/GLCFS/Archive/2006/m#yyyyDDDHH#\.in1\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
           <remove type="dimension" name="validtime_length" />
@@ -53,7 +53,7 @@
     </featureCollection>
     
     <featureCollection name="Lake Superior - Forcing - 3D - 2006" featureType="FMRC" harvest="true" path="glos/glcfs/archive2006/superior/ncfmrc-3d">
-      <collection spec="../../data/GLCFS/Archive/2006/s#yyyyDDDHH#\.in1\.nc$" olderThan="5 min" />
+      <collection spec="/var/thredds/GLCFS/Archive/2006/s#yyyyDDDHH#\.in1\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
           <remove type="dimension" name="validtime_length" />
@@ -67,7 +67,7 @@
     </featureCollection>
     
     <featureCollection name="Lake Huron - Forcing - 3D - 2006" featureType="FMRC" harvest="true" path="glos/glcfs/archive2006/huron/ncfmrc-3d">
-      <collection spec="../../data/GLCFS/Archive/2006/h#yyyyDDDHH#\.in1\.nc$" olderThan="5 min" />
+      <collection spec="/var/thredds/GLCFS/Archive/2006/h#yyyyDDDHH#\.in1\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
           <remove type="dimension" name="validtime_length" />
@@ -81,7 +81,7 @@
     </featureCollection>
 
     <featureCollection name="Lake Erie - Forcing - 3D - 2006" featureType="FMRC" harvest="true" path="glos/glcfs/archive2006/erie/ncfmrc-3d">
-      <collection spec="../../data/GLCFS/Archive/2006/e#yyyyDDDHH#\.in1\.nc$" olderThan="5 min" />
+      <collection spec="/var/thredds/GLCFS/Archive/2006/e#yyyyDDDHH#\.in1\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
           <remove type="dimension" name="validtime_length" />
@@ -95,7 +95,7 @@
     </featureCollection>
     
     <featureCollection name="Lake Ontario - Forcing - 3D - 2006" featureType="FMRC" harvest="true" path="glos/glcfs/archive2006/ontario/ncfmrc-3d">
-      <collection spec="../../data/GLCFS/Archive/2006/o#yyyyDDDHH#\.in1\.nc$" olderThan="5 min" />
+      <collection spec="/var/thredds/GLCFS/Archive/2006/o#yyyyDDDHH#\.in1\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
           <remove type="dimension" name="validtime_length" />

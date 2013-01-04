@@ -23,37 +23,37 @@
       <serviceName>agg</serviceName>
       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
         <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
-          <scan location="../data/SLRFVM/nowcast/" suffix=".nc" subdirs="false"/>
+          <scan location="/var/thredds/SLRFVM/nowcast/" suffix=".nc" subdirs="false"/>
         </aggregation>
       </netcdf>
     </dataset>
 
     <datasetScan name="Nowcast - Individual Files" 
                        ID="SLRFVM-Nowcast-Files" path="SLRFVM-Nowcast-Files"
-                       location="../data/SLRFVM/nowcast/">
+                       location="/var/thredds/SLRFVM/nowcast/">
       <metadata inherited="true">
         <serviceName>all</serviceName>
       </metadata>
       <filter>
         <include wildcard="*.nc"/>
       </filter>
-      <addProxies>
+      <addLatest>
         <simpleLatest name="latest.xml" top="true" serviceName="latest" />
-      </addProxies>    
+      </addLatest>      
     </datasetScan>
     
     <datasetScan name="Forecast - Individual Files" 
                        ID="SLRFVM-Forecast-Files" path="SLRFVM-Forecast-Files"
-                       location="../data/SLRFVM/forecast/">
+                       location="/var/thredds/SLRFVM/forecast/">
       <metadata inherited="true">
         <serviceName>all</serviceName>
       </metadata>
       <filter>
         <include wildcard="*.nc"/>
       </filter>
-      <addProxies>
+      <addLatest>
         <simpleLatest name="latest.xml" top="true" serviceName="latest" />
-      </addProxies>   
+      </addLatest>      
     </datasetScan>
   </dataset>
 </catalog>

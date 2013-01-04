@@ -40,7 +40,7 @@
 
     
     <featureCollection name="Lake Michigan - Nowcast - 3D - Current Year" featureType="FMRC" harvest="true" path="glos/glcfs/archivecurrent/michigan/ncfmrc-3d">
-      <collection spec="../../data/GLCFS/Nowcast/m#yyyyDDDHH#\.out3\.nc$" olderThan="5 min" />
+      <collection spec="/var/thredds/GLCFS/Nowcast/m#yyyyDDDHH#\.out3\.nc$" olderThan="5 min" />
       <update startup="true" rescan="0 4 * * * ? *" trigger="allow" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
@@ -75,7 +75,7 @@
     </featureCollection>
     
     <featureCollection name="Lake Michigan - Nowcast - 2D - Current Year" featureType="FMRC" harvest="true" path="glos/glcfs/archivecurrent/michigan/ncfmrc-2d">
-      <collection spec="../../data/GLCFS/Nowcast/m#yyyyDDDHH#\.out1\.nc$" olderThan="5 min" />
+      <collection spec="/var/thredds/GLCFS/Nowcast/m#yyyyDDDHH#\.out1\.nc$" olderThan="5 min" />
       <update startup="true" rescan="0 4 * * * ? *" trigger="allow" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
@@ -99,7 +99,7 @@
     </featureCollection>
 
     <featureCollection name="Lake Superior - Nowcast - 3D - Current Year" featureType="FMRC" harvest="true" path="glos/glcfs/archivecurrent/superior/ncfmrc-3d">
-      <collection spec="../../data/GLCFS/Nowcast/s#yyyyDDDHH#\.out3\.nc$" olderThan="5 min" />
+      <collection spec="/var/thredds/GLCFS/Nowcast/s#yyyyDDDHH#\.out3\.nc$" olderThan="5 min" />
       <update startup="true" rescan="0 4 * * * ? *" trigger="allow" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
@@ -146,7 +146,7 @@
     </featureCollection>
                 
     <featureCollection name="Lake Superior - Nowcast - 2D - Current Year" featureType="FMRC" harvest="true" path="glos/glcfs/archivecurrent/superior/ncfmrc-2d">
-      <collection spec="../../data/GLCFS/Nowcast/s#yyyyDDDHH#\.out1\.nc$" olderThan="5 min" />
+      <collection spec="/var/thredds/GLCFS/Nowcast/s#yyyyDDDHH#\.out1\.nc$" olderThan="5 min" />
       <update startup="true" rescan="0 4 * * * ? *" trigger="allow" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
@@ -170,7 +170,7 @@
     </featureCollection>
 
     <featureCollection name="Lake Huron - Nowcast - 3D - Current Year" featureType="FMRC" harvest="true" path="glos/glcfs/archivecurrent/huron/ncfmrc-3d">
-      <collection spec="../../data/GLCFS/Nowcast/h#yyyyDDDHH#\.out3\.nc$" olderThan="5 min" />
+      <collection spec="/var/thredds/GLCFS/Nowcast/h#yyyyDDDHH#\.out3\.nc$" olderThan="5 min" />
       <update startup="true" rescan="0 4 * * * ? *" trigger="allow" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
@@ -204,7 +204,7 @@
     </featureCollection>
 
     <featureCollection name="Lake Huron - Nowcast - 2D - Current Year" featureType="FMRC" harvest="true" path="glos/glcfs/archivecurrent/huron/ncfmrc-2d">
-      <collection spec="../../data/GLCFS/Nowcast/h#yyyyDDDHH#\.out1\.nc$" olderThan="5 min" />
+      <collection spec="/var/thredds/GLCFS/Nowcast/h#yyyyDDDHH#\.out1\.nc$" olderThan="5 min" />
       <update startup="true" rescan="0 4 * * * ? *" trigger="allow" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
@@ -229,7 +229,7 @@
 
 
     <featureCollection name="Lake Erie - Nowcast - 3D - Current Year" featureType="FMRC" harvest="true" path="glos/glcfs/archivecurrent/erie/ncfmrc-3d">
-      <collection spec="../../data/GLCFS/Nowcast/e#yyyyDDDHH#\.out3\.nc$" olderThan="5 min" />
+      <collection spec="/var/thredds/GLCFS/Nowcast/e#yyyyDDDHH#\.out3\.nc$" olderThan="5 min" />
       <update startup="true" rescan="0 4 * * * ? *" trigger="allow" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
@@ -263,7 +263,7 @@
     </featureCollection>
 
     <featureCollection name="Lake Erie - Nowcast - 2D - Current Year" featureType="FMRC" harvest="true" path="glos/glcfs/archivecurrent/erie/ncfmrc-2d">
-      <collection spec="../../data/GLCFS/Nowcast/e#yyyyDDDHH#\.out1\.nc$" olderThan="5 min" />
+      <collection spec="/var/thredds/GLCFS/Nowcast/e#yyyyDDDHH#\.out1\.nc$" olderThan="5 min" />
       <update startup="true" rescan="0 4 * * * ? *" trigger="allow" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
@@ -287,7 +287,7 @@
     </featureCollection>
 
     <featureCollection name="Lake Ontario - Nowcast - 3D - Current Year" featureType="FMRC" harvest="true" path="glos/glcfs/archivecurrent/ontario/ncfmrc-3d">
-      <collection spec="../../data/GLCFS/Nowcast/o#yyyyDDDHH#\.out3\.nc$" olderThan="5 min" />
+      <collection spec="/var/thredds/GLCFS/Nowcast/o#yyyyDDDHH#\.out3\.nc$" olderThan="5 min" />
       <update startup="true" rescan="0 4 * * * ? *" trigger="allow" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
@@ -321,7 +321,7 @@
     </featureCollection>
 
     <featureCollection name="Lake Ontario - Nowcast - 2D - Current Year" featureType="FMRC" harvest="true" path="glos/glcfs/archivecurrent/ontario/ncfmrc-2d">
-      <collection spec="../../data/GLCFS/Nowcast/o#yyyyDDDHH#\.out1\.nc$" olderThan="5 min" />
+      <collection spec="/var/thredds/GLCFS/Nowcast/o#yyyyDDDHH#\.out1\.nc$" olderThan="5 min" />
       <update startup="true" rescan="0 4 * * * ? *" trigger="allow" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
