@@ -170,20 +170,20 @@
 
 ]]>
   </text>
-  <variable name="records" value="20"/>
-  <variable name="start" value="1"/>
+  <variable name="records" value="___LIMIT___"/>
+  <variable name="start" value="___START___"/>
   
-  <variable name="textSearch" value="1"/>
-  <variable name="searchTerm" value="water temperature" />
+  <variable name="textSearch" value="___TEXTSEARCH___"/>
+  <variable name="searchTerm" value="___ANYTEXT___"/>
   
-  <variable name="geoSearch" value="0"/>
-  <variable name="west" value="0"/>
-  <variable name="east" value="0"/>
-  <variable name="north" value="0"/>
-  <variable name="south" value="0"/>
+  <variable name="geoSearch" value="___GEOSEARCH___"/>
+  <variable name="west" value="___WEST___"/>
+  <variable name="east" value="___EAST___"/>
+  <variable name="north" value="___NORTH___"/>
+  <variable name="south" value="___SOUTH___"/>
 
-  <variable name="temporalSearch" value="0"/>
-  <variable name="tstart" value="0"/>
-  <variable name="tend" value="0"/>
+  <variable name="temporalSearch" value="___TEMPORALSEARCH___"/>
+  <variable name="tstart" value="___TSTART___"/>
+  <variable name="tend" value="___TEND___"/>
 
 </query>
