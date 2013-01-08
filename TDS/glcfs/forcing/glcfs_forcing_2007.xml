@@ -38,7 +38,7 @@
         displayed. </documentation>
     </metadata>
 
-    <featureCollection name="Lake Michigan - Forcing - 3D - 2007" featureType="FMRC" harvest="true" path="glos/glcfs/archive2007/michigan/ncfmrc-3d">
+    <featureCollection name="Lake Michigan - Forcing - 3D - 2007" featureType="FMRC" harvest="true" path="glos/glcfs/archive2007/michigan/forcing-fmrc-3d">
       <collection spec="/var/thredds/GLCFS/Archive/2007/m#yyyyDDDHH#\.in1\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
@@ -52,7 +52,7 @@
       <fmrcConfig datasetTypes="Best Files" />
     </featureCollection>
     
-    <featureCollection name="Lake Superior - Forcing - 3D - 2007" featureType="FMRC" harvest="true" path="glos/glcfs/archive2007/superior/ncfmrc-3d">
+    <featureCollection name="Lake Superior - Forcing - 3D - 2007" featureType="FMRC" harvest="true" path="glos/glcfs/archive2007/superior/forcing-fmrc-3d">
       <collection spec="/var/thredds/GLCFS/Archive/2007/s#yyyyDDDHH#\.in1\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
@@ -66,7 +66,7 @@
       <fmrcConfig datasetTypes="Best Files" />
     </featureCollection>
     
-    <featureCollection name="Lake Huron - Forcing - 3D - 2007" featureType="FMRC" harvest="true" path="glos/glcfs/archive2007/huron/ncfmrc-3d">
+    <featureCollection name="Lake Huron - Forcing - 3D - 2007" featureType="FMRC" harvest="true" path="glos/glcfs/archive2007/huron/forcing-fmrc-3d">
       <collection spec="/var/thredds/GLCFS/Archive/2007/h#yyyyDDDHH#\.in1\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
@@ -80,7 +80,7 @@
       <fmrcConfig datasetTypes="Best Files" />
     </featureCollection>
 
-    <featureCollection name="Lake Erie - Forcing - 3D - 2007" featureType="FMRC" harvest="true" path="glos/glcfs/archive2007/erie/ncfmrc-3d">
+    <featureCollection name="Lake Erie - Forcing - 3D - 2007" featureType="FMRC" harvest="true" path="glos/glcfs/archive2007/erie/forcing-fmrc-3d">
       <collection spec="/var/thredds/GLCFS/Archive/2007/e#yyyyDDDHH#\.in1\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
@@ -94,7 +94,7 @@
       <fmrcConfig datasetTypes="Best Files" />
     </featureCollection>
     
-    <featureCollection name="Lake Ontario - Forcing - 3D - 2007" featureType="FMRC" harvest="true" path="glos/glcfs/archive2007/ontario/ncfmrc-3d">
+    <featureCollection name="Lake Ontario - Forcing - 3D - 2007" featureType="FMRC" harvest="true" path="glos/glcfs/archive2007/ontario/forcing-fmrc-3d">
       <collection spec="/var/thredds/GLCFS/Archive/2007/o#yyyyDDDHH#\.in1\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
