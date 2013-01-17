@@ -43,8 +43,6 @@
       <collection spec="/var/thredds/GLCFS/Archive/2011/m#yyyyDDDHH#\.out3\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-          <remove type="dimension" name="validtime_length" />
-          <remove type="variable" name="validtime"/>
           <attribute name="Conventions" type="String" value="CF-1.6"/> 
           <attribute name="validtime" value="01-JAN-2011 00:00 GMT" />
           <attribute name="validtime_DOY" value="001, 2011 00:00 GMT" />
@@ -102,8 +100,6 @@
       <collection spec="/var/thredds/GLCFS/Archive/2011/m#yyyyDDDHH#\.out1\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-          <remove type="dimension" name="validtime_length" />
-          <remove type="variable" name="validtime"/>
           <attribute name="validtime" value="01-JAN-2011 00:00 GMT" />
           <attribute name="validtime_DOY" value="001, 2011 00:00 GMT" />
           <attribute name="comment2" value="1-hourly model 2D output starting at validtime plus 1 hr" />
@@ -133,8 +129,6 @@
       <collection spec="/var/thredds/GLCFS/Archive/2011/s#yyyyDDDHH#\.out3\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-          <remove type="dimension" name="validtime_length" />
-          <remove type="variable" name="validtime"/>
           <attribute name="Conventions" type="String" value="CF-1.6"/> 
           <attribute name="validtime" value="01-JAN-2011 00:00 GMT" />
           <attribute name="validtime_DOY" value="001, 2011 00:00 GMT" />
@@ -179,8 +173,6 @@
       <collection spec="/var/thredds/GLCFS/Archive/2011/s#yyyyDDDHH#\.out1\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-          <remove type="dimension" name="validtime_length" />
-          <remove type="variable" name="validtime"/>
           <attribute name="validtime" value="01-JAN-2011 00:00 GMT" />
           <attribute name="validtime_DOY" value="001, 2011 00:00 GMT" />
           <attribute name="comment2" value="1-hourly model 2D output starting at validtime plus 1 hr" />
@@ -202,8 +194,6 @@
       <collection spec="/var/thredds/GLCFS/Archive/2011/h#yyyyDDDHH#\.out3\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-          <remove type="dimension" name="validtime_length" />
-          <remove type="variable" name="validtime"/>
           <attribute name="Conventions" type="String" value="CF-1.6"/> 
           <attribute name="validtime" value="01-JAN-2011 00:00 GMT" />
           <attribute name="validtime_DOY" value="001, 2011 00:00 GMT" />
@@ -235,8 +225,6 @@
       <collection spec="/var/thredds/GLCFS/Archive/2011/h#yyyyDDDHH#\.out1\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-          <remove type="dimension" name="validtime_length" />
-          <remove type="variable" name="validtime"/>
           <attribute name="validtime" value="01-JAN-2011 00:00 GMT" />
           <attribute name="validtime_DOY" value="001, 2011 00:00 GMT" />
           <attribute name="comment2" value="1-hourly model 2D output starting at validtime plus 1 hr" />
@@ -259,8 +247,6 @@
       <collection spec="/var/thredds/GLCFS/Archive/2011/e#yyyyDDDHH#\.out3\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-          <remove type="dimension" name="validtime_length" />
-          <remove type="variable" name="validtime"/>
           <attribute name="Conventions" type="String" value="CF-1.6"/> 
           <attribute name="validtime" value="01-JAN-2011 00:00 GMT" />
           <attribute name="validtime_DOY" value="001, 2011 00:00 GMT" />
@@ -292,8 +278,6 @@
       <collection spec="/var/thredds/GLCFS/Archive/2011/e#yyyyDDDHH#\.out1\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-          <remove type="dimension" name="validtime_length" />
-          <remove type="variable" name="validtime"/>
           <attribute name="validtime" value="01-JAN-2011 00:00 GMT" />
           <attribute name="validtime_DOY" value="001, 2011 00:00 GMT" />
           <attribute name="comment2" value="1-hourly model 2D output starting at validtime plus 1 hr" />
@@ -315,8 +299,6 @@
       <collection spec="/var/thredds/GLCFS/Archive/2011/o#yyyyDDDHH#\.out3\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-          <remove type="dimension" name="validtime_length" />
-          <remove type="variable" name="validtime"/>
           <attribute name="Conventions" type="String" value="CF-1.6"/> 
           <attribute name="validtime" value="01-JAN-2011 00:00 GMT" />
           <attribute name="validtime_DOY" value="001, 2011 00:00 GMT" />
@@ -348,8 +330,6 @@
       <collection spec="/var/thredds/GLCFS/Archive/2011/o#yyyyDDDHH#\.out1\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-          <remove type="dimension" name="validtime_length" />
-          <remove type="variable" name="validtime"/>
           <attribute name="validtime" value="01-JAN-2011 00:00 GMT" />
           <attribute name="validtime_DOY" value="001, 2011 00:00 GMT" />
           <attribute name="comment2" value="1-hourly model 2D output starting at validtime plus 1 hr" />
