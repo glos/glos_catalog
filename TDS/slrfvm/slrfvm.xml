@@ -18,7 +18,16 @@
   
   <service name="latest" serviceType="Resolver" base="" />
 
+  <datasetRoot path="FVCOM" location="/data/fvcom_lastest_forecasts" cache="false" />
+
   <dataset name="SLRFVM - Upper St. Lawrence River (FVCOM)">
+  
+     <dataset name="Forecast - Latest" ID="SLRFVM - Lastest-Forecast" urlPath="FVCOM/SLRFVM-Latest-Forecast.nc">
+        <serviceName>all</serviceName>
+        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/fvcom_lastest_forecasts/slr.nc">
+        </netcdf>
+      </dataset>
+  
     <dataset name="Nowcast - Aggregation" ID="SLRFVM-Nowcast-Agg" urlPath="SLRFVM-Nowcast-Agg.nc">
       <serviceName>agg</serviceName>
       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
