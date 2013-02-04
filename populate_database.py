@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 # Documentation: http://docs.basex.org/wiki/Clients
 #
+# Usage: BASEX_SERVER=localhost BASEX_USER=admin BASEX_PASS=admin python populate_database.py
+#
 # (C) BaseX Team 2005-12, BSD License
 import BaseXClient
 from os import walk
@@ -52,8 +54,7 @@ def CreateGlos(directory = ""):
                 #print "bd path:", dbpath
         
                 session.add(dbpath, readXml(fpath))
-                
-        print(session.info())
+                print(session.info())
     
     
     except Exception as e:
@@ -75,7 +76,7 @@ def readXml(filename):
     content = doc.toxml()
     # str if Python 3.x, unicode if Python 2.x.
     # (both are actually real unicode. (ucs2 or ucs4.))
-    print(type(content))
+    #print(type(content))
     
     return content
     
