@@ -1,14 +1,11 @@
-from pyiso.utils.iso_download import download, download_iso
+from pyiso.utils.utils import download, download_iso, move_iso
 from pyiso.utils.etree import etree
-from os.path import abspath
-from shutil import move
 
 class AOCCollector(object):
 	def __init__(self):
 		self._html = 'http://64.9.200.113:8080/thredds/aoc.html'
 		self._iso = 'http://64.9.200.113:8080/thredds/iso/SST/'
-		self._iso_dir = '../ISOs/Satellite/'
-		self._tmp_dir = './pyiso/iso_tmp/'
+		self._iso_dir = 'Satellite/'
 		self._parser = etree.HTMLParser()
 
 	def download_isos(self):
@@ -20,7 +17,7 @@ class AOCCollector(object):
 		tree = etree.HTML(resp)
 
 		datasets = list()
-		iso_files = dict()
+		files = dict()
 
 		# get all of the datasets to download
 		for elm in tree.findall('.//a[@href]'):
@@ -33,20 +30,8 @@ class AOCCollector(object):
 		# download isos
 		for ds in datasets:
 			url = self._iso + ds
-			iso_files[ds] = download_iso(url, catalog=self._html, dataset=ds)
+			files[ds] = download_iso(url, catalog=self._html, dataset=ds)
 
-		self.__move_to_ISO_dir(iso_files)
-
-	def __move_to_ISO_dir(self, files):
-		"""
-			Uses shutil.move to move files from iso_tmp to ISO/Satellite
-		"""
-		if not isinstance(files, dict):
-			raise ValueError('files needs to be of type dict')
-
+		# move them
 		for key in files.keys():
-			dpath = abspath(self._iso_dir)
-			spath = abspath(self._tmp_dir + files[key])
-			move(spath, dpath)
-
-
+			move_iso(files[key],self._iso_dir)
