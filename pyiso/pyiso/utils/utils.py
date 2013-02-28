@@ -69,6 +69,9 @@ def download_iso(html, headers=None, **kwargs):
 	else:
 		url = html
 
+	# escape out spaces, just incase
+	url = url.replace(' ', '')
+
 	print '\nDownloading ISO: ' + url
 
 	request = Request(url=url, headers=headers)
