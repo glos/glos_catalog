@@ -6,7 +6,7 @@ class AOCCollector(object):
 		self._html = 'http://64.9.200.113:8080/thredds/aoc.html'
 		self._iso = 'http://64.9.200.113:8080/thredds/iso/SST/'
 		self._iso_dir = 'Satellite/'
-		self._parser = etree.HTMLParser()
+		#self._parser = etree.HTMLParser()
 
 	def download_isos(self):
 		"""
