@@ -6,4 +6,5 @@ class SLRFVMTest(unittest.TestCase):
 		self._slrfvm = SLRFVMCollector()
 
 	def test_iso_download(self):
-		self._slrfvm.download_isos()
+		# self._slrfvm.download_isos()
+		pass
