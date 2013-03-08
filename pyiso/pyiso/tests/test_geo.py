@@ -1,5 +1,5 @@
 import unittest
-from pyiso.geo.geo import GeoCollector
+from pyiso.collectors.geo import GeoCollector
 
 class GeoTest(unittest.TestCase):
 	def setUp(self):

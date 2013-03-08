@@ -1,4 +1,4 @@
-from pyiso.hecwfs.hecwfs import HECWFSCollector
+from pyiso.collectors.hecwfs import HECWFSCollector
 
 class SLRFVMCollector(HECWFSCollector):
 	def __init__(self):
