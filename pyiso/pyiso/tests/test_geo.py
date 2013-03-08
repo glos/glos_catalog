@@ -7,4 +7,5 @@ class GeoTest(unittest.TestCase):
 
 	def test_download(self):
 		self._geo.download_isos()
+		pass
 		

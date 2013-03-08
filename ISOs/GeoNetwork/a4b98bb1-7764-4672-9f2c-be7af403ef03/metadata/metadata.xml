@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:geonet="http://www.fao.org/geonetwork">
+  <gmd:fileIdentifier xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx">
+    <gco:CharacterString>a4b98bb1-7764-4672-9f2c-be7af403ef03</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gco:CharacterString>eng</gco:CharacterString>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="./resources/codeList.xml#MD_CharacterSetCode" />
+  </gmd:characterSet>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>James Smith</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Environment Canada</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Program Data Steward</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString>123-456-7890New_York_Harbor_2010-10-20.pdf</gco:CharacterString>
+              </gmd:voice>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:administrativeArea gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:administrativeArea>
+              <gmd:postalCode gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:postalCode>
+              <gmd:country>
+                <gco:CharacterString>Canada</gco:CharacterString>
+              </gmd:country>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>notarealemail@notaserviceprovider.com</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeListValue="custodian" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" />
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:DateTime xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx">2011-12-14T16:08:33</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>Version 3.14</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>(Vector ISO19139 Preferred! TEMPLATE--One to be used for IUGLS (AUG 9))"**EXAMPLE DATA RECORD:  Lake Superior Water Levels – Water levels at New York Harbor 10-21-2010"</gco:CharacterString>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2010-10-13</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2011-04-06</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2011-04-06</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="revision" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:otherCitationDetails>
+            <gco:CharacterString>NAME OF TWG goes here</gco:CharacterString>
+          </gmd:otherCitationDetails>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>The New York Harbor Water Levels dataset contains tabular information on water levels, collected hourly from several stationary buoys.</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:purpose>
+        <gco:CharacterString>The Water levels at New York Harbor dataset was developed in order to calculate values of water depth in the New York Harbor area between the months of January 2008 and October 2010.</gco:CharacterString>
+      </gmd:purpose>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeListValue="historicalArchive" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ProgressCode" />
+      </gmd:status>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>James Smith</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>Environment Canada</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:positionName>
+            <gco:CharacterString>Program Data Steward</gco:CharacterString>
+          </gmd:positionName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>123-456-7890</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:city gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:city>
+                  <gmd:administrativeArea gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:administrativeArea>
+                  <gmd:postalCode gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:postalCode>
+                  <gmd:country gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>notarealemail@notaserviceprovider.com</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeListValue="custodian" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeListValue="quarterly" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_MaintenanceFrequencyCode" />
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName gco:nilReason="missing">
+            <gco:CharacterString />
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>thumbnail</gco:CharacterString>
+          </gmd:fileDescription>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName gco:nilReason="missing">
+            <gco:CharacterString />
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>large_thumbnail</gco:CharacterString>
+          </gmd:fileDescription>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>WATER DEPTH, WATER LEVELS</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeListValue="theme" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" />
+          </gmd:type>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeListValue="license" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode" />
+          </gmd:accessConstraints>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeListValue="license" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode" />
+          </gmd:useConstraints>
+          <gmd:otherConstraints gco:nilReason="missing">
+            <gco:CharacterString />
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:spatialResolution>
+        <gmd:MD_Resolution />
+      </gmd:spatialResolution>
+      <gmd:language>
+        <gco:CharacterString>eng</gco:CharacterString>
+      </gmd:language>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>inlandWaters</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="n/a">
+                  <gml:beginPosition>1896-06-26T00:00:00</gml:beginPosition>
+                  <gml:endPosition>2010-12-01T00:00:00</gml:endPosition>
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-172.16811</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>145</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>-86</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>89</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+      <gmd:supplementalInformation>
+        <gco:CharacterString>Jamien Sandhu--August 9--
+Put Date Published and Date Revised in the Edition field, but this may not be ideal. Perhaps we can get rid of the edition and put all three dates (created, published, and revised) into the Date field, with accompanying labels to differentiate between the three?
+*Not sure what to put in "Presentation Form" field.*
+*not sure what to put in "Spatial representation type" or "Character set" fields*
+*Not sure what to put in "Reference System Information" area*
+*Not sure what to put in the "Metadata--File identifier" Field or character set field*
+*Geographic area=Great Lakes Basin (is the most relevant option from the drop down menu)*
+-------
+Meeting between Paula and Jamie--August 9. Took out following fields:
+-second Descriptive keywords box (But we are unsure if we should have an individual box for each keyword, or keep the keywords in one box separated by commas)
+-Presentation Form 
+-Spatial representation type
+-Equivalent Scale
+-Data Quality Info
+-Facsimile &amp; Delivery Point (in both Point of Contact and Contact)
+Want to take out or make null:
+-City, Administrative area, Postal Code, and Country field (in both the Point of Contact and Contact areas)
+-the "Ellipsoid" field in the "Temporal Extent" area
+-Only need one field for "online resource" ("Transfer options") but are unable to delete them.
+Q: Can these changes be made to the actual template or do we have to manually make the changes for each record?
+----------
+IJC Weekly Meeting Paula, Jamie Tom August 10th
+Tom discovered a way to individually express three date types. 
+Each record was changed. 
+To change a record to express creation, publication, and revision dates do the following:
+On the left hand side go into "Indentification Package". Here you will be able to repeat the date field by clicking on the "+" icon. Once you created a new date field click on the "+" beside the date to reveal the date field box. Here you should pick the year option, not the year and time option. Repeat this process for the third date field. You should end up with three individual date fields.
+Privileges: In order to allow public users to see a metadata record you need to set each record to be available for everyone.
+--------------------
+August 17-Jamien Sandhu--
+In order to display the distribution information I selected the "Distribution" option from the left hand "By Package" menu. From there I added the format boxes for "name" and "specification". 
+I added the "name of the resource" info (from the spreadsheet) into the Distribution Info--Format "name" field. I added the "description" info (from the spreadsheet) into the Distribution Info--Format "specification" field. 
+There were some special circumstances where I also added the "linkage" and "protocol" (from the spreadsheet) information into the Distribution Info--Format "specfication" field. This was the case if either of those two cells had explanatory information rather than the actual information required. For instance, some records used these cells to say "there is no link." "there is no protocal, but look on the Sharepoint site" etc. I felt it was better to append this information right onto the "description" information, since this information was more descriptive than anything else.  
+Lastly I used only one "Online Resource" field and deleted the remaining two. I entered the URL ("linkage" from the spreadsheet) and the protocol if they were applicable and left the "name of the resource" and the description blank. 
+This was done due to display issues. Previously the URL link appeared as the description text and it was more confusing than useful.
+
+**Changes can not be made to this template (I9139 template (preferred!)) but if you use this very template and select the "Create" option you will have a template that is identical and suitable for use for the IUGLS.
+Click on the "Create" button. (This will create a copy of this template) 
+Select the "GLOS-GLIN" Group 
+Click 'ok'
+Go through the fields and make modifications as needed. 
+Remember this is a template. Therefore you need to change any or all text in order to make the record accurate for your specific purposes.**
+----------------------------------------
+August 18-Jamien S.
+We can not get rid of the time element in the Temporal Extent Begin/End date. Therefore make sure to set the time to "00:00" (unless there is a specified time stamp).
+------------------
+Jamie S--Aug.24
+TWG Name:
+Click on identification package (left menu option).
+CLick + sign adjacent to "Other citation details" 
+Type in TWG name in free text box
+Ensure that the proper name is used (e.g. "Water Uses Technical Working Group") since some users may not know what "TWG" represents.</gco:CharacterString>
+      </gmd:supplementalInformation>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>New_York_Harbor_2010-10-20.pdf</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="missing">
+            <gco:CharacterString />
+          </gmd:version>
+          <gmd:specification>
+            <gco:CharacterString>The data is a downloadable PDF file on a sharepoint website.</gco:CharacterString>
+          </gmd:specification>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://notarealsite.com/New_York_Harbor_2010-10-20.pdf</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:DOWNLOAD-1.0-ftp--download</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+</gmi:MI_Metadata>
