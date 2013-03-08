@@ -80,7 +80,8 @@ def download_iso(html, headers=None, **kwargs):
 
 	# write response into the iso_tmp folder; the name will be uri in the html
 	name = html.rpartition('/')[2]
-	name += '.xml'
+	if not name.endswith('.xml'):
+		name += '.xml'
 
 	path = abspath(TMP_DIR + name)
 
