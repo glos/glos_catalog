@@ -2,3 +2,5 @@
 ISOs/In-situ/storet/*.xml
 
 pyiso/pyiso/iso_tmp/*
+*.log
+*.out
