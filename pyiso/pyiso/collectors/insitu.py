@@ -19,7 +19,6 @@ class InSituCollector(object):
 			dirlist = download(self._html+source.text+'/list.html')
 			dirtree = etree.HTML(dirlist)
 			for iso in dirtree.findall('.//li'):
-				print self._html + source.text + '/' + iso.text.strip()
 				sname = download_iso(self._html+source.text+'/'+iso.text.strip())
 				move_iso(sname, self._iso_dirs[source.text])
 
