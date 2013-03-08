@@ -14,7 +14,6 @@ class GeoCollector(object):
 		self._character_string = '{http://www.isotc211.org/2005/gco}CharacterString'
 
 	def download_isos(self):
-		return
 		# download zip file
 		resp = download(self._html)
 		f = open('./pyiso/iso_tmp/geo.txt', 'w+')

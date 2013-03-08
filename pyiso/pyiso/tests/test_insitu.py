@@ -7,3 +7,4 @@ class TestInsitu(unittest.TestCase):
 
 	def test_insitu(self):
 		self._insitu.download_isos()
+		pass
