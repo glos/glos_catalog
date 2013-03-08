@@ -25,6 +25,9 @@ def iso_update():
 	upd = Run(cmd, cwd='./pyiso',shell=True, stdout=logfile)
 	upd.wait()
 
+	proc = Run('./convert_geonetwork.sh', shell=True, stdout=logfile)
+	proc.wait()
+
 	# elapsed = datetime.now() - now
 	# print str('%d secs, elapsed time' % (elapsed.total_seconds()))
 
