@@ -1,15 +1,14 @@
 # executes all of the collectors
-from pyiso.aoc.aoc import AOCCollector
-from pyiso.geo.geo import GeoCollector
-from pyiso.glcfs.glcfs import GLCFSCollector
-from pyiso.hecwfs.hecwfs import HECWFSCollector
-from pyiso.insitu.insitu import InSituCollector
-from pyiso.slrfvm.slrfvm import SLRFVMCollector
+from pyiso.collectors.aoc import AOCCollector
+from pyiso.collectors.geo import GeoCollector
+from pyiso.collectors.glcfs import GLCFSCollector
+from pyiso.collectors.hecwfs import HECWFSCollector
+from pyiso.collectors.insitu import InSituCollector
+from pyiso.collectors.slrfvm import SLRFVMCollector
 
 def main():
 	col_list = [AOCCollector(),GeoCollector(),GLCFSCollector(),HECWFSCollector(),InSituCollector(),SLRFVMCollector()]
 	for coll in col_list:
-		print 'downloading for ' + str(coll)
 		coll.download_isos()
 
 
