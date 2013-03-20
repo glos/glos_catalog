@@ -36,7 +36,10 @@ def download(html, headers=None, **kwargs):
 
 	request = Request(url=url, headers=headers)
 
-	response = urlopen(request)
+	try:
+		response = urlopen(request)
+	except:
+		return None
 
 	reply = response.read()
 
@@ -76,7 +79,10 @@ def download_iso(html, headers=None, **kwargs):
 
 	request = Request(url=url, headers=headers)
 
-	response = urlopen(request)
+	try:
+		response = urlopen(request)
+	except:
+		return None
 
 	# write response into the iso_tmp folder; the name will be uri in the html
 	name = html.rpartition('/')[2]
@@ -100,6 +106,9 @@ def move_iso(source, dest, dfile_name=None):
 			- source: the name of the ISO file to move that lives inside the iso_tmp directory
 			- dest: the destination directory/file to move to, the path should be relative to the ISO directory in glos_catalog
 	"""
+	if source is None or dest is None:
+		return
+
 	dpath = abspath(ISO_DIR + dest)
 	if dfile_name is not None:
 		dpath += '/' + dfile_name
