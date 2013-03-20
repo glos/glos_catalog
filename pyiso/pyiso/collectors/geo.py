@@ -20,6 +20,12 @@ class GeoCollector(object):
 		f.write(resp)
 		f.close()
 
+		# remove previous corrupted file
+		try:
+			os.remove(abspath(self._iso_path + 'corrupt_metadata_ids.txt'))
+		except:
+			pass
+
 		for line in open('./pyiso/iso_tmp/geo.txt','r'):
 			line_spl = line.split('\t')
 			if line_spl[1].strip() == 'id':
@@ -46,7 +52,7 @@ class GeoCollector(object):
 				except:
 					path = abspath(self._iso_path + 'corrupt_metadata_ids.txt')
 					f = open(path, 'a+')
-					f.write('\nCorrupted xml for id: ' + str(iid))
+					f.write('\nCorrupted/Missing xml for id: ' + str(iid))
 					f.close()
 
 
