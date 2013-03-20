@@ -75,6 +75,8 @@ class GLCFSCollector(object):
 				url = url.replace('/catalog/','/iso/')
 
 				#download iso
-				retval.append(download_iso(url,catalog=cat,dataset=dataset))
+				iso = download_iso(url,catalog=cat,dataset=dataset)
+				if iso is not None:
+					retval.append(iso)
 
 		return retval
