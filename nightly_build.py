@@ -16,6 +16,8 @@ if 'logfile' in args:
 	logfile = args['logfile']
 logfile = open(logfile, 'w+')
 
+prev_branch = 'master'
+
 def iso_update():
 	global logfile
 	# now = datetime.now()
@@ -32,7 +34,7 @@ def iso_update():
 	# print str('%d secs, elapsed time' % (elapsed.total_seconds()))
 
 def git_push():
-	global args, logfile
+	global args, logfile, prev_branch
 	r='remote'
 	b='branch'
 	# stage all files for commit
@@ -65,7 +67,7 @@ def git_push():
 	proc.wait()
 
 def git_switch_to_nightly():
-	global args, logfile
+	global args, logfile, prev_branch
 	# parse arguments into a dictionary
 	b='branch'
 
