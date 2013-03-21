@@ -34,6 +34,7 @@ def iso_update():
 def git_push():
 	global args, logfile
 	r='remote'
+	b='branch'
 	# stage all files for commit
 	proc = Run(str('git add . '), shell=True, stdout=logfile, stderr=logfile)
 	proc.wait()
@@ -51,6 +52,11 @@ def git_push():
 		remote = args['remote']
 	else:
 		remote = 'origin'
+
+	if b in args:
+		branch = args['branch']
+	else:
+		branch = 'nightly'
 
 	proc = Run(str('git push %s %s ' % (remote,branch)), shell=True, stdout=logfile, stderr=logfile)
 	proc.wait()
