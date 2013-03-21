@@ -38,13 +38,14 @@ class InSituCollector(object):
 				if source.text == 'STORET':
 					# archive the storet directory in iso_tmp and move it to the ISOs directory
 					f = file(path.abspath('./pyiso/iso_tmp/storet.zip'), 'w')
-					with ZipFile(f, 'w') as zip_file:
-						fileiter = (f
-							for root, _, files in walk(self._storet_zip_dir)
-							for f in files)
-						xmlfilter = (f for f in fileiter if f.endswith('.xml'))
-						for xml in xmlfilter:
-							zip_file.write(self._storet_zip_dir + xml, arcname=xml)
+					zip_file = ZipFile(f, 'w')
+					fileiter = (f
+						for root, _, files in walk(self._storet_zip_dir)
+						for f in files)
+					xmlfilter = (f for f in fileiter if f.endswith('.xml'))
+					for xml in xmlfilter:
+						zip_file.write(self._storet_zip_dir + xml, arcname=xml)
+					zip_file.close()
 
 					# move the zip file
 					dest = '../ISOs/' + self._iso_dirs[source.text] + '/storet.zip'
