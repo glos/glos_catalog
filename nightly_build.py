@@ -14,7 +14,7 @@ for arg in argv:
 logfile = 'nightly.log'
 if 'logfile' in args:
 	logfile = args['logfile']
-logfile = open(logfile, 'a+')
+logfile = open(logfile, 'w+')
 
 def iso_update():
 	global logfile
@@ -33,34 +33,6 @@ def iso_update():
 
 def git_push():
 	global args, logfile
-	# parse arguments into a dictionary
-	b='branch'
-	r='remote'
-
-	# first make sure we are on the correct branch (use -B to set the build to this start point)
-	if b in args:
-		branch = args['branch']
-	else:
-		branch = 'nightly'
-
-	catch = None
-	catch = Run(str('git branch'), shell=True, stdout=PIPE)
-	catch.wait()
-
-	# store current branch, to switch back
-	prev_branch = branch
-	catch_p = str(catch.stdout.read())
-	catch_p = catch_p.splitlines()
-	print len(catch_p)
-	for p in catch_p:
-		if '*' in p:
-			p_splt = p.partition(' ')
-			prev_branch = p_splt[2]
-
-	# checkout branch
-	proc = Run(str('git checkout -B %s' % (branch)), shell=True, stdout=logfile, stderr=logfile)
-	proc.wait()
-
 	# stage all files for commit
 	proc = Run(str('git add . '), shell=True, stdout=logfile, stderr=logfile)
 	proc.wait()
@@ -85,7 +57,47 @@ def git_push():
 	proc = Run(str('git checkout %s ') % (prev_branch), shell=True, stdout=logfile, stderr=logfile)
 	proc.wait()
 
+def git_switch_to_nightly():
+	global args, logfile
+	# parse arguments into a dictionary
+	b='branch'
+	r='remote'
 
+	# first make sure we are on the correct branch (use -B to set the build to this start point)
+	if b in args:
+		branch = args['branch']
+	else:
+		branch = 'nightly'
+
+	if 'master' in args:
+		master = args['master']
+	else:
+		master = 'master'
+
+	catch = None
+	catch = Run(str('git branch'), shell=True, stdout=PIPE)
+	catch.wait()
+
+	# store current branch, to switch back
+	prev_branch = branch
+	catch_p = str(catch.stdout.read())
+	icatch_p = catch_p.splitlines()
+	print len(catch_p)
+	for p in catch_p:
+		if '*' in p:
+			p_splt = p.partition(' ')
+			prev_branch = p_splt[2]
+
+	# checkout branch
+	proc = Run(str('git checkout %s' % (branch)), shell=True, stdout=logfile, stderr=logfile)
+	proc.wait()
+
+	# merge with master
+	proc = Run(str('git merge -Xtheirs %s' % (master)), shell=True, stdout=logfile, stderr=logfile)
+	proc.wait()
+
+
+git_switch_to_nightly()
 iso_update()
 git_push()
 logfile.close()
