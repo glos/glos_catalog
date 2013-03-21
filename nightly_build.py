@@ -22,10 +22,10 @@ def iso_update():
 	cmd = str('python pyiso.py')
 	# need to change working dir, but can't use Popen because we need to wait for exit
 	# so just change dir then go back
-	upd = Run(cmd, cwd='./pyiso',shell=True, stdout=logfile)
+	upd = Run(cmd, cwd='./pyiso',shell=True, stdout=logfile, stderr=logfile)
 	upd.wait()
 
-	proc = Run('./convert_geonetwork.sh', shell=True, stdout=logfile)
+	proc = Run('./convert_geonetwork.sh', shell=True, stdout=logfile, stderr=logfile)
 	proc.wait()
 
 	# elapsed = datetime.now() - now
@@ -58,11 +58,11 @@ def git_push():
 			prev_branch = p_splt[2]
 
 	# checkout branch
-	proc = Run(str('git checkout -B %s' % (branch)), shell=True, stdout=logfile)
+	proc = Run(str('git checkout -B %s' % (branch)), shell=True, stdout=logfile, stderr=logfile)
 	proc.wait()
 
 	# stage all files for commit
-	proc = Run(str('git add . '), shell=True, stdout=logfile)
+	proc = Run(str('git add . '), shell=True, stdout=logfile, stderr=logfile)
 	proc.wait()
 
 	commit_message = str('Nightly commit for %s' % (datetime.today().strftime('%Y-%m-%d')))
@@ -70,7 +70,7 @@ def git_push():
 		commit_message = args['message']
 
 	# commit all files with a message stating the build is for today
-	proc = Run(str('git commit -m \"%s\" ' % (commit_message)), shell=True, stdout=logfile)
+	proc = Run(str('git commit -m \"%s\" ' % (commit_message)), shell=True, stdout=logfile, stderr=logfile)
 	proc.wait()
 
 	# push commit to the origin (or specified remote branch name)
@@ -79,10 +79,10 @@ def git_push():
 	else:
 		remote = 'origin'
 
-	proc = Run(str('git push %s %s ' % (remote,branch)), shell=True, stdout=logfile)
+	proc = Run(str('git push %s %s ' % (remote,branch)), shell=True, stdout=logfile, stderr=logfile)
 	proc.wait()
 
-	proc = Run(str('git checkout %s ') % (prev_branch), shell=True, stdout=logfile)
+	proc = Run(str('git checkout %s ') % (prev_branch), shell=True, stdout=logfile, stderr=logfile)
 	proc.wait()
 
 
