@@ -33,6 +33,7 @@ def iso_update():
 
 def git_push():
 	global args, logfile
+	r='remote'
 	# stage all files for commit
 	proc = Run(str('git add . '), shell=True, stdout=logfile, stderr=logfile)
 	proc.wait()
@@ -61,7 +62,6 @@ def git_switch_to_nightly():
 	global args, logfile
 	# parse arguments into a dictionary
 	b='branch'
-	r='remote'
 
 	# first make sure we are on the correct branch (use -B to set the build to this start point)
 	if b in args:
