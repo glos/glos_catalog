@@ -39,7 +39,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2013-04-06</gco:Date>
+      <gco:Date>2013-04-07</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -201,10 +201,10 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d108901">
+                        <gml:TimePeriod gml:id="d108969">
                            <gml:description>seconds</gml:description>
-                           <gml:beginPosition>2013-04-05T16:01:52Z</gml:beginPosition>
-                           <gml:endPosition>2013-04-07T15:00:00Z</gml:endPosition>
+                           <gml:beginPosition>2013-04-06T16:01:52Z</gml:beginPosition>
+                           <gml:endPosition>2013-04-08T15:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -814,10 +814,10 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>Sat Apr  6 00:55:53 2013: ncap2 -O -S /zeus/d2/usl/ncap2.nco temp.nc temp.nc
-Sat Apr  6 00:55:51 2013: ncks -d node,97,19700 -d node,19703,19719 -d node,19723,19731 -d nele,180,35028 -d nele,35032,35061 -d nele,35067,35083 /zeus/d2/usl/forecast/2013/output/netcdf/201309515.nc temp.nc
-Sat Apr  6 00:55:37 2013: ncap2 -O -s nprocs=nprocs;partition=partition;x=x;y=y;where(lon&gt;0.0) lon=lon-360; usl_0001.nc usl_0001.nc
-model started at: 05/04/2013   19:14</gco:CharacterString>
+                  <gco:CharacterString>Sun Apr  7 00:56:11 2013: ncap2 -O -S /zeus/d2/usl/ncap2.nco temp.nc temp.nc
+Sun Apr  7 00:56:09 2013: ncks -d node,97,19700 -d node,19703,19719 -d node,19723,19731 -d nele,180,35028 -d nele,35032,35061 -d nele,35067,35083 /zeus/d2/usl/forecast/2013/output/netcdf/201309615.nc temp.nc
+Sun Apr  7 00:55:50 2013: ncap2 -O -s nprocs=nprocs;partition=partition;x=x;y=y;where(lon&gt;0.0) lon=lon-360; usl_0001.nc usl_0001.nc
+model started at: 06/04/2013   19:14</gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
          </gmd:lineage>
