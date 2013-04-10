@@ -115,7 +115,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:Date>2013-04-09</gco:Date>
+        <gco:Date>2013-04-10</gco:Date>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -133,7 +133,7 @@
                     <gmd:date>
                         <gmd:CI_Date>
                             <gmd:date>
-                                <gco:DateTime>2013-04-09T01:32:55.558Z</gco:DateTime>
+                                <gco:DateTime>2013-04-10T01:35:54.498Z</gco:DateTime>
                             </gmd:date>
                             <gmd:dateType gco:nilReason="unknown"/>
                         </gmd:CI_Date>
@@ -180,7 +180,7 @@
                     <gmd:temporalElement>
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
-                                <gml:TimePeriod id="-849626000">
+                                <gml:TimePeriod id="-1982455770">
                                     <gml:beginPosition>2008-10-07T16:00:00.000Z</gml:beginPosition>
                                     <gml:endPosition>2009-02-12T20:00:00.000Z</gml:endPosition>
                                 </gml:TimePeriod>
@@ -260,7 +260,7 @@
                     <gmd:temporalElement>
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
-                                <gml:TimePeriod id="2055432310">
+                                <gml:TimePeriod id="976240160">
                                     <gml:beginPosition>2008-10-07T16:00:00.000Z</gml:beginPosition>
                                     <gml:endPosition>2009-02-12T20:00:00.000Z</gml:endPosition>
                                 </gml:TimePeriod>
