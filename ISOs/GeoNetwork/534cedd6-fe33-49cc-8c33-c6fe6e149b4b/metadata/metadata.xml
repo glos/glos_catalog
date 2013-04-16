@@ -58,14 +58,14 @@
             </gmd:CI_Contact>
          </gmd:contactInfo>
          <gmd:role>
-            <gmd:CI_RoleCode codeListValue=""
+            <gmd:CI_RoleCode codeListValue="processor"
                              codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
          </gmd:role>
       </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
       <gco:DateTime xmlns:srv="http://www.isotc211.org/2005/srv"
-                    xmlns:gmx="http://www.isotc211.org/2005/gmx">2011-08-24T13:04:03</gco:DateTime>
+                    xmlns:gmx="http://www.isotc211.org/2005/gmx">2013-04-15T12:26:14</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
@@ -73,6 +73,9 @@
   <gmd:metadataStandardVersion>
       <gco:CharacterString>Version 3.14</gco:CharacterString>
   </gmd:metadataStandardVersion>
+  <gmd:dataSetURI gco:nilReason="missing">
+      <gco:CharacterString/>
+  </gmd:dataSetURI>
   <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -80,6 +83,9 @@
                <gmd:title>
                   <gco:CharacterString>Lake Erie Net Basin Supply - Stochastic 55590 years</gco:CharacterString>
                </gmd:title>
+               <gmd:alternateTitle>
+                  <gco:CharacterString>50,000-yr Stochastic NBS - IUGLS Fagherazzi Version (2010)</gco:CharacterString>
+               </gmd:alternateTitle>
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
@@ -113,8 +119,8 @@
                      </gmd:dateType>
                   </gmd:CI_Date>
                </gmd:date>
-               <gmd:edition gco:nilReason="missing">
-                  <gco:CharacterString/>
+               <gmd:edition>
+                  <gco:CharacterString>2010</gco:CharacterString>
                </gmd:edition>
                <gmd:otherCitationDetails>
                   <gco:CharacterString>Plan Formulation &amp; Evaluation Technical Working Group</gco:CharacterString>
@@ -122,7 +128,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Lake Erie Historical Net Basin Supply was developed by Laura Fagherazzi (Hydro Quebec).</gco:CharacterString>
+            <gco:CharacterString>Lake Erie Historical Net Basin Supply was developed by Laura Fagherazzi (Hydro Quebec). Time series of 50,000 years of stochastically generated monthly net basin supplies (NBS) developed for lakes Superior, Michigan-Huron, St. Clair and Erie by Fagherazzi et al (2011) for the International Upper Great Lakes Study</gco:CharacterString>
          </gmd:abstract>
          <gmd:purpose>
             <gco:CharacterString>The Erie NBS was used in Lake Erie regulation plan formulation and evaluation</gco:CharacterString>
@@ -181,7 +187,7 @@
          <gmd:resourceMaintenance>
             <gmd:MD_MaintenanceInformation>
                <gmd:maintenanceAndUpdateFrequency>
-                  <gmd:MD_MaintenanceFrequencyCode codeListValue=""
+                  <gmd:MD_MaintenanceFrequencyCode codeListValue="irregular"
                                                    codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_MaintenanceFrequencyCode"/>
                </gmd:maintenanceAndUpdateFrequency>
             </gmd:MD_MaintenanceInformation>
@@ -209,11 +215,22 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>STOCHASTIC SEQUENCE, LAKE ERIE, NET BASIN SUPPLY</gco:CharacterString>
+                  <gco:CharacterString>STOCHASTIC SEQUENCE, NET BASIN SUPPLY</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeListValue="theme"
                                           codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode"/>
+               </gmd:type>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>Lake Erie</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode"
+                                          codeListValue="place"/>
                </gmd:type>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
@@ -227,8 +244,8 @@
                   <gmd:MD_RestrictionCode codeListValue=""
                                           codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"/>
                </gmd:useConstraints>
-               <gmd:otherConstraints gco:nilReason="missing">
-                  <gco:CharacterString/>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None. Public Accessible</gco:CharacterString>
                </gmd:otherConstraints>
             </gmd:MD_LegalConstraints>
          </gmd:resourceConstraints>
@@ -260,10 +277,10 @@
                <gmd:geographicElement>
                   <gmd:EX_GeographicBoundingBox>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-83</gco:Decimal>
+                        <gco:Decimal>-84</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-56</gco:Decimal>
+                        <gco:Decimal>-78.5</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
                         <gco:Decimal>41</gco:Decimal>
@@ -278,7 +295,9 @@
          <gmd:supplementalInformation>
             <gco:CharacterString>Use Constraints: "public accessible".
 Under Maintenance and Repair: "every few years"
-Comments: "monthly data, 5.5M"</gco:CharacterString>
+Comments: "monthly data, 5.5M"
+
+zip file contains: er50000.nbs; mh50000.nbs; sp50000.nbs; stc50000.nbs; Stochastic Analysis - Fagherazzi.pdf</gco:CharacterString>
          </gmd:supplementalInformation>
       </gmd:MD_DataIdentification>
   </gmd:identificationInfo>
@@ -289,14 +308,39 @@ Comments: "monthly data, 5.5M"</gco:CharacterString>
                <gmd:name>
                   <gco:CharacterString>er50000.nbs</gco:CharacterString>
                </gmd:name>
-               <gmd:version gco:nilReason="missing">
-                  <gco:CharacterString/>
+               <gmd:version>
+                  <gco:CharacterString>2010</gco:CharacterString>
                </gmd:version>
                <gmd:specification>
                   <gco:CharacterString>The data is a downloadable as ascii file on a sharepoint website.</gco:CharacterString>
                </gmd:specification>
+               <gmd:fileDecompressionTechnique gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:fileDecompressionTechnique>
             </gmd:MD_Format>
          </gmd:distributionFormat>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage xmlns:srv="http://www.isotc211.org/2005/srv"
+                                  xmlns:gmx="http://www.isotc211.org/2005/gmx">
+                        <gmd:URL>http://iugls.org/DocStore/ProjectArchive/Viewable_Datasets/Stochastic_NBS/Fagherazzi_StochasticNBS_2010_IUGLS.zip</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name xmlns:srv="http://www.isotc211.org/2005/srv"
+                               xmlns:gmx="http://www.isotc211.org/2005/gmx">
+                        <gmx:MimeFileType type="">Fagherazzi_StochasticNBS_2010_IUGLS.zip</gmx:MimeFileType>
+                     </gmd:name>
+                     <gmd:description gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
       </gmd:MD_Distribution>
   </gmd:distributionInfo>
 </gmi:MI_Metadata>
