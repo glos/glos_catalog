@@ -58,14 +58,14 @@
             </gmd:CI_Contact>
          </gmd:contactInfo>
          <gmd:role>
-            <gmd:CI_RoleCode codeListValue=""
+            <gmd:CI_RoleCode codeListValue="pointOfContact"
                              codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
          </gmd:role>
       </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
       <gco:DateTime xmlns:srv="http://www.isotc211.org/2005/srv"
-                    xmlns:gmx="http://www.isotc211.org/2005/gmx">2011-08-24T13:03:28</gco:DateTime>
+                    xmlns:gmx="http://www.isotc211.org/2005/gmx">2013-04-17T14:47:42</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
@@ -80,6 +80,9 @@
                <gmd:title>
                   <gco:CharacterString>Lake St. Clair Net Basin Supply  - Stochastic 55590 years</gco:CharacterString>
                </gmd:title>
+               <gmd:alternateTitle>
+                  <gco:CharacterString>50,000-yr Stochastic NBS - IUGLS Fagherazzi Version (2010)</gco:CharacterString>
+               </gmd:alternateTitle>
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
@@ -122,7 +125,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Lake St. Clair Historical Net Basin Supply was developed by Laura Fagherazzi (Hydro Quebec).</gco:CharacterString>
+            <gco:CharacterString>Lake St. Clair Historical Net Basin Supply was developed by Laura Fagherazzi (Hydro Quebec). Time series of 50,000 years of stochastically generated monthly net basin supplies (NBS) developed for lakes Superior, Michigan-Huron, St. Clair and Erie by Fagherazzi et al (2011) for the International Upper Great Lakes Study</gco:CharacterString>
          </gmd:abstract>
          <gmd:purpose>
             <gco:CharacterString>The St. Clair NBS was used in Lake St. Clair regulation plan formulation and evaluation</gco:CharacterString>
@@ -181,7 +184,7 @@
          <gmd:resourceMaintenance>
             <gmd:MD_MaintenanceInformation>
                <gmd:maintenanceAndUpdateFrequency>
-                  <gmd:MD_MaintenanceFrequencyCode codeListValue=""
+                  <gmd:MD_MaintenanceFrequencyCode codeListValue="irregular"
                                                    codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_MaintenanceFrequencyCode"/>
                </gmd:maintenanceAndUpdateFrequency>
             </gmd:MD_MaintenanceInformation>
@@ -209,11 +212,25 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>STOCHASTIC SEQUENCE, LAKE ST CLAIR, NET BASIN SUPPLY</gco:CharacterString>
+                  <gco:CharacterString>STOCHASTIC SEQUENCE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Net Basin Supply</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeListValue="theme"
                                           codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode"/>
+               </gmd:type>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>Lake St. Clair</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode"
+                                          codeListValue="place"/>
                </gmd:type>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
@@ -227,8 +244,8 @@
                   <gmd:MD_RestrictionCode codeListValue=""
                                           codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"/>
                </gmd:useConstraints>
-               <gmd:otherConstraints gco:nilReason="missing">
-                  <gco:CharacterString/>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None, public accessible</gco:CharacterString>
                </gmd:otherConstraints>
             </gmd:MD_LegalConstraints>
          </gmd:resourceConstraints>
@@ -260,16 +277,16 @@
                <gmd:geographicElement>
                   <gmd:EX_GeographicBoundingBox>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-93.21</gco:Decimal>
+                        <gco:Decimal>-83.058984375</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-74.49</gco:Decimal>
+                        <gco:Decimal>-82.300927734375</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>40.39</gco:Decimal>
+                        <gco:Decimal>42.22515625</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>50.74</gco:Decimal>
+                        <gco:Decimal>42.77447265625</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
@@ -279,7 +296,8 @@
             <gco:CharacterString>Use Constraints: "public accessible".
 Under Maintenance and Repair: "every few years"
 Geographic Location: "Lake St. Clair"
-Comments: "monthly data, 5.5M"</gco:CharacterString>
+Comments: "monthly data, 5.5M"
+zip file contains: er50000.nbs; mh50000.nbs; sp50000.nbs; stc50000.nbs; Stochastic Analysis - Fagherazzi.pdf</gco:CharacterString>
          </gmd:supplementalInformation>
       </gmd:MD_DataIdentification>
   </gmd:identificationInfo>
@@ -290,14 +308,34 @@ Comments: "monthly data, 5.5M"</gco:CharacterString>
                <gmd:name>
                   <gco:CharacterString>stc50000.nbs</gco:CharacterString>
                </gmd:name>
-               <gmd:version gco:nilReason="missing">
-                  <gco:CharacterString/>
+               <gmd:version>
+                  <gco:CharacterString>2010</gco:CharacterString>
                </gmd:version>
                <gmd:specification>
                   <gco:CharacterString>The data is a downloadable as ascii file on a sharepoint website.</gco:CharacterString>
                </gmd:specification>
             </gmd:MD_Format>
          </gmd:distributionFormat>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://iugls.org/DocStore/ProjectArchive/Viewable_Datasets/Stochastic_NBS/Fagherazzi_StochasticNBS_2010_IUGLS.zip</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>Fagherazzi_StochasticNBS_2010_IUGLS.zip</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
       </gmd:MD_Distribution>
   </gmd:distributionInfo>
 </gmi:MI_Metadata>

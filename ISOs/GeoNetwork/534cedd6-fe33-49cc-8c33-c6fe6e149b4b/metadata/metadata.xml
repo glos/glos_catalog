@@ -65,7 +65,7 @@
   </gmd:contact>
   <gmd:dateStamp>
       <gco:DateTime xmlns:srv="http://www.isotc211.org/2005/srv"
-                    xmlns:gmx="http://www.isotc211.org/2005/gmx">2013-04-15T12:26:14</gco:DateTime>
+                    xmlns:gmx="http://www.isotc211.org/2005/gmx">2013-04-17T14:09:33</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
@@ -215,7 +215,10 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>STOCHASTIC SEQUENCE, NET BASIN SUPPLY</gco:CharacterString>
+                  <gco:CharacterString>STOCHASTIC SEQUENCE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NET BASIN SUPPLY</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeListValue="theme"
