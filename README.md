@@ -11,7 +11,7 @@ Uses environmental variables:
   
   
   Use basex client
-  ./basexclient -n localhost -p 1984 -P admin -U admin
+  ./basexclient -n 64.9.200.113 -p 1984 -P glos -U user
   
   
   Indexes
