@@ -20,6 +20,6 @@ class InSituCollector(object):
                 dirtree = etree.HTML(dirlist)
 
                 for iso in dirtree.findall('.//li'):
-                    isos.append(self.url+source.text+'/'+iso.text.strip())
+                    isos.append(self.url + "/" + source.text + '/' + iso.text.strip())
 
         return isos
