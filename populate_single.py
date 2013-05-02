@@ -25,11 +25,11 @@ def UpdateSingle(xml_file):
     except:
         raise ValueError("Please set environmental variables %s, %s, and %s" % ("BASEX_SERVER", "BASEX_USER", "BASEX_PASS"))
 
-    print "Importing XML in DIR: %s" % xml_file
+    print "Importing file: %s" % xml_file
 
     # create session
     session = BaseXClient.Session(base_server, base_port, base_user, base_pass)
-    print(session.info()) 
+    session.execute("OPEN glos")
 
     try:
         dbpath = "/".join(xml_file.split("/")[1:])
@@ -39,8 +39,6 @@ def UpdateSingle(xml_file):
         # close session
         if session:
             session.close()
-    
-
 
 def readXml(filename):
     
