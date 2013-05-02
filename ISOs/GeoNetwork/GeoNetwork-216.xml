@@ -1,22 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd"
-                 xmlns:gts="http://www.isotc211.org/2005/gts"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                 xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:gco="http://www.isotc211.org/2005/gco"
-                 xmlns:geonet="http://www.fao.org/geonetwork"
-                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
-  <gmd:fileIdentifier xmlns:srv="http://www.isotc211.org/2005/srv"
-                       xmlns:gmx="http://www.isotc211.org/2005/gmx">
+<?xml version='1.0' encoding='UTF-8'?>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd"><gmd:fileIdentifier xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gco:CharacterString>627700e1-cd91-4209-944e-a304c96a7952</gco:CharacterString>
   </gmd:fileIdentifier>
-  <gmd:language>
+  <gmd:language xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gco:CharacterString>eng</gco:CharacterString>
   </gmd:language>
-  <gmd:characterSet>
+  <gmd:characterSet xmlns:gmd="http://www.isotc211.org/2005/gmd">
       <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="./resources/codeList.xml#MD_CharacterSetCode"/>
   </gmd:characterSet>
-  <gmd:contact>
+  <gmd:contact xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gmd:CI_ResponsibleParty>
          <gmd:individualName>
             <gco:CharacterString>Dick Bartz &amp; Pat Inch</gco:CharacterString>
@@ -58,22 +50,20 @@
             </gmd:CI_Contact>
          </gmd:contactInfo>
          <gmd:role>
-            <gmd:CI_RoleCode codeListValue=""
-                             codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+            <gmd:CI_RoleCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
          </gmd:role>
       </gmd:CI_ResponsibleParty>
   </gmd:contact>
-  <gmd:dateStamp>
-      <gco:DateTime xmlns:srv="http://www.isotc211.org/2005/srv"
-                    xmlns:gmx="http://www.isotc211.org/2005/gmx">2011-09-21T09:55:42</gco:DateTime>
+  <gmd:dateStamp xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:DateTime xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx">2011-09-21T09:55:42</gco:DateTime>
   </gmd:dateStamp>
-  <gmd:metadataStandardName>
+  <gmd:metadataStandardName xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
   </gmd:metadataStandardName>
-  <gmd:metadataStandardVersion>
+  <gmd:metadataStandardVersion xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gco:CharacterString>Version 3.14</gco:CharacterString>
   </gmd:metadataStandardVersion>
-  <gmd:identificationInfo>
+  <gmd:identificationInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml">
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
@@ -86,8 +76,7 @@
                         <gco:Date>2008-10-12</gco:Date>
                      </gmd:date>
                      <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode"
-                                             codeListValue="publication"/>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
                      </gmd:dateType>
                   </gmd:CI_Date>
                </gmd:date>
@@ -106,8 +95,7 @@
             <gco:CharacterString>The project was to identify and characterize potential problems of municipal, industrial and domestic water uses associated with flow and fluctuations in water levels on the Upper Great Lakes.</gco:CharacterString>
          </gmd:purpose>
          <gmd:status>
-            <gmd:MD_ProgressCode codeListValue="completed"
-                                 codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ProgressCode"/>
+            <gmd:MD_ProgressCode codeListValue="completed" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ProgressCode"/>
          </gmd:status>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -151,16 +139,14 @@
                   </gmd:CI_Contact>
                </gmd:contactInfo>
                <gmd:role>
-                  <gmd:CI_RoleCode codeListValue="pointOfContact"
-                                   codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+                  <gmd:CI_RoleCode codeListValue="pointOfContact" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
                </gmd:role>
             </gmd:CI_ResponsibleParty>
          </gmd:pointOfContact>
          <gmd:resourceMaintenance>
             <gmd:MD_MaintenanceInformation>
                <gmd:maintenanceAndUpdateFrequency>
-                  <gmd:MD_MaintenanceFrequencyCode codeListValue=""
-                                                   codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_MaintenanceFrequencyCode"/>
+                  <gmd:MD_MaintenanceFrequencyCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_MaintenanceFrequencyCode"/>
                </gmd:maintenanceAndUpdateFrequency>
             </gmd:MD_MaintenanceInformation>
          </gmd:resourceMaintenance>
@@ -190,20 +176,17 @@
                   <gco:CharacterString>COSTS, DATA COLLECTION, DATABASES, DOMESTIC WATER USE, ECONOMIC IMPACT, ELECTRIC POWER, INFLOW, LAKE, OUTFLOW, OUTFLOWS, PERFORMANCE INDICATORS, WATER, WATER INTAKE, WATER LEVEL, WATER LEVEL CHANGES, WATER LEVELS, WATER SUPPLIES, WATER SUPPLY, WATER USE, WATER USE IRRIGATION, WATER UTILITIES, Outfalls, Municipal Wastewater Outfall, Industrial Wastewater Outfall, Water Level Changes, Facility Type, Water Users, Self-Supplied Domestic Water Use, Water Supply Intakes, Intake, Water Outfall, Outfall, Combined Sewer Overflows, Elevation, State, Province, Provincial, Historic Low, Historic High, Cooling Towers, Intake Extensions, Industry, Industrial, Commerce, Public Water Supply, Municipal Water Use, Industrial Water Use, Domestic Water Use, Lake Superior, Lake Michigan, Lake Huron, Lake Erie, Lake St Clair, Intake Data, Outfall Data, Data Security, Great Lakes Basin, Great Lakes, Water Body, Capacity, Diameter, Federal Data, Classification, Power Generation, Crop Production, Mining, Level, Capital Costs, Chemical Manufacturers, Electricity Producers, Municipal Water Supplier</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
-                  <gmd:MD_KeywordTypeCode codeListValue="theme"
-                                          codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode"/>
+                  <gmd:MD_KeywordTypeCode codeListValue="theme" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode"/>
                </gmd:type>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
          <gmd:resourceConstraints>
             <gmd:MD_LegalConstraints>
                <gmd:accessConstraints>
-                  <gmd:MD_RestrictionCode codeListValue="intellectualPropertyRights"
-                                          codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"/>
+                  <gmd:MD_RestrictionCode codeListValue="intellectualPropertyRights" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"/>
                </gmd:accessConstraints>
                <gmd:useConstraints>
-                  <gmd:MD_RestrictionCode codeListValue="intellectualPropertyRights"
-                                          codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"/>
+                  <gmd:MD_RestrictionCode codeListValue="intellectualPropertyRights" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"/>
                </gmd:useConstraints>
                <gmd:otherConstraints gco:nilReason="missing">
                   <gco:CharacterString/>
@@ -258,7 +241,7 @@
          </gmd:supplementalInformation>
       </gmd:MD_DataIdentification>
   </gmd:identificationInfo>
-  <gmd:distributionInfo>
+  <gmd:distributionInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gmd:MD_Distribution>
          <gmd:distributionFormat>
             <gmd:MD_Format>
@@ -277,15 +260,13 @@
             <gmd:MD_DigitalTransferOptions>
                <gmd:onLine>
                   <gmd:CI_OnlineResource>
-                     <gmd:linkage xmlns:srv="http://www.isotc211.org/2005/srv"
-                                  xmlns:gmx="http://www.isotc211.org/2005/gmx">
+                     <gmd:linkage xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx">
                         <gmd:URL>http://team.iugls.org/IUGLS%20Documents/Lake%20Levels%20Study%20Final%20Report%20from%20ECT_Water%20Users%20TWG_Jan%2010-2011.pdf</gmd:URL>
                      </gmd:linkage>
                      <gmd:protocol>
                         <gco:CharacterString>WWW:DOWNLOAD-1.0-ftp--download</gco:CharacterString>
                      </gmd:protocol>
-                     <gmd:name xmlns:srv="http://www.isotc211.org/2005/srv"
-                               xmlns:gmx="http://www.isotc211.org/2005/gmx">
+                     <gmd:name xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx">
                         <gmx:MimeFileType type=""/>
                      </gmd:name>
                      <gmd:description gco:nilReason="missing">
@@ -297,4 +278,4 @@
          </gmd:transferOptions>
       </gmd:MD_Distribution>
   </gmd:distributionInfo>
-</gmd:MD_Metadata>
+</gmi:MI_Metadata>

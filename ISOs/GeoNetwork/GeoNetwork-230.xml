@@ -1,22 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                 xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:gts="http://www.isotc211.org/2005/gts"
-                 xmlns:gco="http://www.isotc211.org/2005/gco"
-                 xmlns:geonet="http://www.fao.org/geonetwork"
-                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
-  <gmd:fileIdentifier xmlns:srv="http://www.isotc211.org/2005/srv"
-                       xmlns:gmx="http://www.isotc211.org/2005/gmx">
+<?xml version='1.0' encoding='UTF-8'?>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd"><gmd:fileIdentifier xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gco:CharacterString>b01bae39-002d-4412-9727-de0ce84cb142</gco:CharacterString>
   </gmd:fileIdentifier>
-  <gmd:language>
+  <gmd:language xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gco:CharacterString>eng</gco:CharacterString>
   </gmd:language>
-  <gmd:characterSet>
+  <gmd:characterSet xmlns:gmd="http://www.isotc211.org/2005/gmd">
       <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="./resources/codeList.xml#MD_CharacterSetCode"/>
   </gmd:characterSet>
-  <gmd:contact>
+  <gmd:contact xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gmd:CI_ResponsibleParty>
          <gmd:individualName>
             <gco:CharacterString>Kelli Paige</gco:CharacterString>
@@ -64,22 +56,20 @@
             </gmd:CI_Contact>
          </gmd:contactInfo>
          <gmd:role>
-            <gmd:CI_RoleCode codeListValue="pointOfContact"
-                             codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+            <gmd:CI_RoleCode codeListValue="pointOfContact" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
          </gmd:role>
       </gmd:CI_ResponsibleParty>
   </gmd:contact>
-  <gmd:dateStamp>
-      <gco:DateTime xmlns:srv="http://www.isotc211.org/2005/srv"
-                    xmlns:gmx="http://www.isotc211.org/2005/gmx">2011-08-15T08:16:50</gco:DateTime>
+  <gmd:dateStamp xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:DateTime xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx">2011-08-15T08:16:50</gco:DateTime>
   </gmd:dateStamp>
-  <gmd:metadataStandardName>
+  <gmd:metadataStandardName xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
   </gmd:metadataStandardName>
-  <gmd:metadataStandardVersion>
+  <gmd:metadataStandardVersion xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gco:CharacterString>1.0</gco:CharacterString>
   </gmd:metadataStandardVersion>
-  <gmd:referenceSystemInfo>
+  <gmd:referenceSystemInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gmd:MD_ReferenceSystem>
          <gmd:referenceSystemIdentifier>
             <gmd:RS_Identifier>
@@ -90,7 +80,7 @@
          </gmd:referenceSystemIdentifier>
       </gmd:MD_ReferenceSystem>
   </gmd:referenceSystemInfo>
-  <gmd:identificationInfo>
+  <gmd:identificationInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml">
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
@@ -103,8 +93,7 @@
                         <gco:DateTime>2011-08-12T14:45:00</gco:DateTime>
                      </gmd:date>
                      <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeListValue="publication"
-                                             codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode"/>
+                        <gmd:CI_DateTypeCode codeListValue="publication" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode"/>
                      </gmd:dateType>
                   </gmd:CI_Date>
                </gmd:date>
@@ -112,8 +101,7 @@
                   <gco:CharacterString/>
                </gmd:edition>
                <gmd:presentationForm>
-                  <gmd:CI_PresentationFormCode codeListValue="mapDigital"
-                                               codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_PresentationFormCode"/>
+                  <gmd:CI_PresentationFormCode codeListValue="mapDigital" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_PresentationFormCode"/>
                </gmd:presentationForm>
             </gmd:CI_Citation>
          </gmd:citation>
@@ -124,8 +112,7 @@
             <gco:CharacterString>Continuous in-situ observations of meteorolgic and water surface conditions.</gco:CharacterString>
          </gmd:purpose>
          <gmd:status>
-            <gmd:MD_ProgressCode codeListValue="onGoing"
-                                 codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ProgressCode"/>
+            <gmd:MD_ProgressCode codeListValue="onGoing" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ProgressCode"/>
          </gmd:status>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -175,16 +162,14 @@
                   </gmd:CI_Contact>
                </gmd:contactInfo>
                <gmd:role>
-                  <gmd:CI_RoleCode codeListValue="distributor"
-                                   codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+                  <gmd:CI_RoleCode codeListValue="distributor" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
                </gmd:role>
             </gmd:CI_ResponsibleParty>
          </gmd:pointOfContact>
          <gmd:resourceMaintenance>
             <gmd:MD_MaintenanceInformation>
                <gmd:maintenanceAndUpdateFrequency>
-                  <gmd:MD_MaintenanceFrequencyCode codeListValue="asNeeded"
-                                                   codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_MaintenanceFrequencyCode"/>
+                  <gmd:MD_MaintenanceFrequencyCode codeListValue="asNeeded" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_MaintenanceFrequencyCode"/>
                </gmd:maintenanceAndUpdateFrequency>
             </gmd:MD_MaintenanceInformation>
          </gmd:resourceMaintenance>
@@ -232,8 +217,7 @@
                   <gco:CharacterString>wind from direction</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
-                  <gmd:MD_KeywordTypeCode codeListValue=""
-                                          codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode"/>
+                  <gmd:MD_KeywordTypeCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode"/>
                </gmd:type>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
@@ -258,8 +242,7 @@
                   <gco:CharacterString>GLOS</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
-                  <gmd:MD_KeywordTypeCode codeListValue=""
-                                          codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode"/>
+                  <gmd:MD_KeywordTypeCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode"/>
                </gmd:type>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
@@ -267,8 +250,7 @@
             <gmd:MD_LegalConstraints/>
          </gmd:resourceConstraints>
          <gmd:spatialRepresentationType>
-            <gmd:MD_SpatialRepresentationTypeCode codeListValue="vector"
-                                                  codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_SpatialRepresentationTypeCode"/>
+            <gmd:MD_SpatialRepresentationTypeCode codeListValue="vector" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_SpatialRepresentationTypeCode"/>
          </gmd:spatialRepresentationType>
          <gmd:spatialResolution>
             <gmd:MD_Resolution>
@@ -285,8 +267,7 @@
             <gco:CharacterString>eng</gco:CharacterString>
          </gmd:language>
          <gmd:characterSet>
-            <gmd:MD_CharacterSetCode codeListValue="utf8"
-                                     codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_CharacterSetCode"/>
+            <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_CharacterSetCode"/>
          </gmd:characterSet>
          <gmd:topicCategory>
             <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
@@ -330,7 +311,7 @@
          </gmd:supplementalInformation>
       </gmd:MD_DataIdentification>
   </gmd:identificationInfo>
-  <gmd:distributionInfo>
+  <gmd:distributionInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gmd:MD_Distribution>
          <gmd:transferOptions>
             <gmd:MD_DigitalTransferOptions>
@@ -352,15 +333,13 @@
                </gmd:onLine>
                <gmd:onLine>
                   <gmd:CI_OnlineResource>
-                     <gmd:linkage xmlns:srv="http://www.isotc211.org/2005/srv"
-                                  xmlns:gmx="http://www.isotc211.org/2005/gmx">
+                     <gmd:linkage xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx">
                         <gmd:URL>http://data.glos.us/metadata/srv/en/resources.get?id=230&amp;fname=&amp;access=private</gmd:URL>
                      </gmd:linkage>
                      <gmd:protocol>
                         <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
                      </gmd:protocol>
-                     <gmd:name xmlns:srv="http://www.isotc211.org/2005/srv"
-                               xmlns:gmx="http://www.isotc211.org/2005/gmx">
+                     <gmd:name xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx">
                         <gmx:MimeFileType type=""/>
                      </gmd:name>
                      <gmd:description>
@@ -388,13 +367,12 @@
          </gmd:transferOptions>
       </gmd:MD_Distribution>
   </gmd:distributionInfo>
-  <gmd:dataQualityInfo>
+  <gmd:dataQualityInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gmd:DQ_DataQuality>
          <gmd:scope>
             <gmd:DQ_Scope>
                <gmd:level>
-                  <gmd:MD_ScopeCode codeListValue="dataset"
-                                    codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ScopeCode"/>
+                  <gmd:MD_ScopeCode codeListValue="dataset" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ScopeCode"/>
                </gmd:level>
             </gmd:DQ_Scope>
          </gmd:scope>
@@ -407,4 +385,4 @@
          </gmd:lineage>
       </gmd:DQ_DataQuality>
   </gmd:dataQualityInfo>
-</gmd:MD_Metadata>
+</gmi:MI_Metadata>
