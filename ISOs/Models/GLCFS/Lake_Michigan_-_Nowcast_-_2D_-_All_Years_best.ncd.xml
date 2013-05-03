@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gmi:MI_Metadata xmlns:gss="http://www.isotc211.org/2005/gss"
+<gmi:MI_Metadata xmlns:gmx="http://www.isotc211.org/2005/gmx"
+                 xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                 xmlns:gss="http://www.isotc211.org/2005/gss"
                  xmlns:gts="http://www.isotc211.org/2005/gts"
+                 xmlns:xs="http://www.w3.org/2001/XMLSchema"
                  xmlns:gml="http://www.opengis.net/gml/3.2"
                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                 xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                 xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:srv="http://www.isotc211.org/2005/srv"
-                 xmlns:gmx="http://www.isotc211.org/2005/gmx"
-                 xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>glos/glcfs/archiveall/michigan/ncfmrc-2d/Lake_Michigan_-_Nowcast_-_2D_-_All_Years_best.ncd</gco:CharacterString>
@@ -57,7 +57,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2013-05-02</gco:Date>
+      <gco:Date>2013-05-03</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -132,11 +132,51 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Great Lakes Coastal Forecasting System (GLCFS), NOWCAST</gco:CharacterString>
+                  <gco:CharacterString>GLCFS - Lake Michigan - Nowcast - 2D</gco:CharacterString>
                </gmd:title>
-               <gmd:date gco:nilReason="missing"/>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2012-01-01</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2012-01-01</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="issued">issued</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2012-01-01</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
                <gmd:identifier>
                   <gmd:MD_Identifier>
+                     <gmd:authority>
+                        <gmd:CI_Citation>
+                           <gmd:title>
+                              <gco:CharacterString>GLOS</gco:CharacterString>
+                           </gmd:title>
+                           <gmd:date gco:nilReason="inapplicable"/>
+                        </gmd:CI_Citation>
+                     </gmd:authority>
                      <gmd:code>
                         <gco:CharacterString>glos/glcfs/archiveall/michigan/ncfmrc-2d/Lake_Michigan_-_Nowcast_-_2D_-_All_Years_best.ncd</gco:CharacterString>
                      </gmd:code>
@@ -167,10 +207,23 @@
                      </gmd:role>
                   </gmd:CI_ResponsibleParty>
                </gmd:citedResponsibleParty>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName>
+                        <gco:CharacterString>GLOS DMAC</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:organisationName gco:nilReason="missing"/>
+                     <gmd:contactInfo gco:nilReason="missing"/>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue=""/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Great Lakes Coastal Forecasting System</gco:CharacterString>
+            <gco:CharacterString>Aggregation of the 2D Nowcast output for Lake Michigan from GLCFS</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -197,6 +250,18 @@
                </gmd:role>
             </gmd:CI_ResponsibleParty>
          </gmd:pointOfContact>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>GLOS DMAC</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
+                                          codeListValue="dataCenter">dataCenter</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName gco:nilReason="unknown"/>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
@@ -271,12 +336,21 @@
                </gmd:type>
                <gmd:thesaurusName>
                   <gmd:CI_Citation>
-                     <gmd:title gco:nilReason="missing"/>
+                     <gmd:title>
+                        <gco:CharacterString>http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html</gco:CharacterString>
+                     </gmd:title>
                      <gmd:date gco:nilReason="unknown"/>
                   </gmd:CI_Citation>
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>No usage restrictions</gco:CharacterString>
+               </gmd:useLimitation>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:aggregationInfo>
             <gmd:MD_AggregateInformation>
                <gmd:aggregateDataSetIdentifier>
@@ -334,7 +408,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d10717">
+                        <gml:TimePeriod gml:id="d285">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2012-01-01T01:00:00Z</gml:beginPosition>
                            <gml:endPosition>2013-04-11T00:00:00Z</gml:endPosition>
@@ -362,9 +436,41 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Great Lakes Coastal Forecasting System (GLCFS), NOWCAST</gco:CharacterString>
+                  <gco:CharacterString>GLCFS - Lake Michigan - Nowcast - 2D</gco:CharacterString>
                </gmd:title>
-               <gmd:date gco:nilReason="missing"/>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2012-01-01</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2012-01-01</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="issued">issued</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2012-01-01</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
@@ -390,10 +496,23 @@
                      </gmd:role>
                   </gmd:CI_ResponsibleParty>
                </gmd:citedResponsibleParty>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName>
+                        <gco:CharacterString>GLOS DMAC</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:organisationName gco:nilReason="missing"/>
+                     <gmd:contactInfo gco:nilReason="missing"/>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue=""/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Best time series, taking the data from the most recent run available.</gco:CharacterString>
+            <gco:CharacterString>Aggregation of the 2D Nowcast output for Lake Michigan from GLCFS</gco:CharacterString>
          </gmd:abstract>
          <srv:serviceType>
             <gco:LocalName>THREDDS OPeNDAP</gco:LocalName>
@@ -422,7 +541,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d10717e66">
+                        <gml:TimePeriod gml:id="d285e73">
                            <gml:beginPosition>2012-01-01T01:00:00Z</gml:beginPosition>
                            <gml:endPosition>2013-04-11T00:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -479,9 +598,41 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Great Lakes Coastal Forecasting System (GLCFS), NOWCAST</gco:CharacterString>
+                  <gco:CharacterString>GLCFS - Lake Michigan - Nowcast - 2D</gco:CharacterString>
                </gmd:title>
-               <gmd:date gco:nilReason="missing"/>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2012-01-01</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2012-01-01</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="issued">issued</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2012-01-01</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
@@ -507,10 +658,23 @@
                      </gmd:role>
                   </gmd:CI_ResponsibleParty>
                </gmd:citedResponsibleParty>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName>
+                        <gco:CharacterString>GLOS DMAC</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:organisationName gco:nilReason="missing"/>
+                     <gmd:contactInfo gco:nilReason="missing"/>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue=""/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Best time series, taking the data from the most recent run available.</gco:CharacterString>
+            <gco:CharacterString>Aggregation of the 2D Nowcast output for Lake Michigan from GLCFS</gco:CharacterString>
          </gmd:abstract>
          <srv:serviceType>
             <gco:LocalName>Open Geospatial Consortium Web Map Service (WMS)</gco:LocalName>
@@ -539,7 +703,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d10717e67">
+                        <gml:TimePeriod gml:id="d285e74">
                            <gml:beginPosition>2012-01-01T01:00:00Z</gml:beginPosition>
                            <gml:endPosition>2013-04-11T00:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -1085,7 +1249,29 @@
       <gmd:MD_Distribution>
          <gmd:distributor>
             <gmd:MD_Distributor>
-               <gmd:distributorContact gco:nilReason="missing"/>
+               <gmd:distributorContact>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName gco:nilReason="missing"/>
+                     <gmd:organisationName>
+                        <gco:CharacterString>GLOS DMAC</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>dmac@glos.us</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:distributorContact>
                <gmd:distributorFormat>
                   <gmd:MD_Format>
                      <gmd:name>

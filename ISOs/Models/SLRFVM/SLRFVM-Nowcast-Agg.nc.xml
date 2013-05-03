@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gmi:MI_Metadata xmlns:gss="http://www.isotc211.org/2005/gss"
+<gmi:MI_Metadata xmlns:gmx="http://www.isotc211.org/2005/gmx"
+                 xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                 xmlns:gss="http://www.isotc211.org/2005/gss"
                  xmlns:gts="http://www.isotc211.org/2005/gts"
+                 xmlns:xs="http://www.w3.org/2001/XMLSchema"
                  xmlns:gml="http://www.opengis.net/gml/3.2"
                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                 xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                 xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:srv="http://www.isotc211.org/2005/srv"
-                 xmlns:gmx="http://www.isotc211.org/2005/gmx"
-                 xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>SLRFVM-Nowcast-Agg</gco:CharacterString>
@@ -33,11 +33,23 @@
    </gmd:hierarchyLevel>
    <gmd:contact>
       <gmd:CI_ResponsibleParty>
-         <gmd:individualName gco:nilReason="missing"/>
+         <gmd:individualName>
+            <gco:CharacterString>Dr. Dave Schwab</gco:CharacterString>
+         </gmd:individualName>
          <gmd:organisationName>
             <gco:CharacterString>School for Marine Science and Technology</gco:CharacterString>
          </gmd:organisationName>
-         <gmd:contactInfo gco:nilReason="missing"/>
+         <gmd:contactInfo>
+            <gmd:CI_Contact>
+               <gmd:address>
+                  <gmd:CI_Address>
+                     <gmd:electronicMailAddress>
+                        <gco:CharacterString>david.schwab@noaa.gov</gco:CharacterString>
+                     </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+               </gmd:address>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
          <gmd:role>
             <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
                              codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
@@ -45,7 +57,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2013-05-02</gco:Date>
+      <gco:Date>2013-05-03</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -106,11 +118,51 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Upper St. Lawrence</gco:CharacterString>
+                  <gco:CharacterString>SLRFVM - Upper St. Lawrence River (FVCOM) - Nowcast Aggregation</gco:CharacterString>
                </gmd:title>
-               <gmd:date gco:nilReason="missing"/>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2012-01-01</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2012-01-01</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="issued">issued</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2012-01-01</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
                <gmd:identifier>
                   <gmd:MD_Identifier>
+                     <gmd:authority>
+                        <gmd:CI_Citation>
+                           <gmd:title>
+                              <gco:CharacterString>GLOS</gco:CharacterString>
+                           </gmd:title>
+                           <gmd:date gco:nilReason="inapplicable"/>
+                        </gmd:CI_Citation>
+                     </gmd:authority>
                      <gmd:code>
                         <gco:CharacterString>SLRFVM-Nowcast-Agg</gco:CharacterString>
                      </gmd:code>
@@ -118,33 +170,84 @@
                </gmd:identifier>
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
-                     <gmd:individualName gco:nilReason="missing"/>
+                     <gmd:individualName>
+                        <gco:CharacterString>Dr. Dave Schwab</gco:CharacterString>
+                     </gmd:individualName>
                      <gmd:organisationName>
                         <gco:CharacterString>School for Marine Science and Technology</gco:CharacterString>
                      </gmd:organisationName>
-                     <gmd:contactInfo gco:nilReason="missing"/>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>david.schwab@noaa.gov</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
                                          codeListValue="originator">originator</gmd:CI_RoleCode>
                      </gmd:role>
                   </gmd:CI_ResponsibleParty>
                </gmd:citedResponsibleParty>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName>
+                        <gco:CharacterString>GLOS DMAC</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:organisationName gco:nilReason="missing"/>
+                     <gmd:contactInfo gco:nilReason="missing"/>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue=""/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
             </gmd:CI_Citation>
          </gmd:citation>
-         <gmd:abstract gco:nilReason="missing"/>
+         <gmd:abstract>
+            <gco:CharacterString>Nowcast Aggregation from SLRFVM - Upper St. Lawrence River (FVCOM) run out of GLERL</gco:CharacterString>
+         </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
-               <gmd:individualName gco:nilReason="missing"/>
+               <gmd:individualName>
+                  <gco:CharacterString>Dr. Dave Schwab</gco:CharacterString>
+               </gmd:individualName>
                <gmd:organisationName>
                   <gco:CharacterString>School for Marine Science and Technology</gco:CharacterString>
                </gmd:organisationName>
-               <gmd:contactInfo gco:nilReason="missing"/>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>david.schwab@noaa.gov</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
                <gmd:role>
                   <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
                                    codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
                </gmd:role>
             </gmd:CI_ResponsibleParty>
          </gmd:pointOfContact>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>GLOS DMAC</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
+                                          codeListValue="dataCenter">dataCenter</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName gco:nilReason="unknown"/>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
@@ -177,12 +280,21 @@
                </gmd:type>
                <gmd:thesaurusName>
                   <gmd:CI_Citation>
-                     <gmd:title gco:nilReason="missing"/>
+                     <gmd:title>
+                        <gco:CharacterString>http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html</gco:CharacterString>
+                     </gmd:title>
                      <gmd:date gco:nilReason="unknown"/>
                   </gmd:CI_Citation>
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>No usage restrictions</gco:CharacterString>
+               </gmd:useLimitation>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gco:CharacterString>eng</gco:CharacterString>
          </gmd:language>
@@ -213,10 +325,10 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d10751">
+                        <gml:TimePeriod gml:id="d319">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2012-03-23T07:01:52Z</gml:beginPosition>
-                           <gml:endPosition>2013-05-02T06:00:00Z</gml:endPosition>
+                           <gml:endPosition>2013-05-03T03:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -230,25 +342,84 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Upper St. Lawrence</gco:CharacterString>
+                  <gco:CharacterString>SLRFVM - Upper St. Lawrence River (FVCOM) - Nowcast Aggregation</gco:CharacterString>
                </gmd:title>
-               <gmd:date gco:nilReason="missing"/>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2012-01-01</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2012-01-01</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="issued">issued</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2012-01-01</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
-                     <gmd:individualName gco:nilReason="missing"/>
+                     <gmd:individualName>
+                        <gco:CharacterString>Dr. Dave Schwab</gco:CharacterString>
+                     </gmd:individualName>
                      <gmd:organisationName>
                         <gco:CharacterString>School for Marine Science and Technology</gco:CharacterString>
                      </gmd:organisationName>
-                     <gmd:contactInfo gco:nilReason="missing"/>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>david.schwab@noaa.gov</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
                                          codeListValue="originator">originator</gmd:CI_RoleCode>
                      </gmd:role>
                   </gmd:CI_ResponsibleParty>
                </gmd:citedResponsibleParty>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName>
+                        <gco:CharacterString>GLOS DMAC</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:organisationName gco:nilReason="missing"/>
+                     <gmd:contactInfo gco:nilReason="missing"/>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue=""/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
             </gmd:CI_Citation>
          </gmd:citation>
-         <gmd:abstract gco:nilReason="missing"/>
+         <gmd:abstract>
+            <gco:CharacterString>Nowcast Aggregation from SLRFVM - Upper St. Lawrence River (FVCOM) run out of GLERL</gco:CharacterString>
+         </gmd:abstract>
          <srv:serviceType>
             <gco:LocalName>THREDDS OPeNDAP</gco:LocalName>
          </srv:serviceType>
@@ -276,9 +447,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d10751e50">
+                        <gml:TimePeriod gml:id="d319e60">
                            <gml:beginPosition>2012-03-23T07:01:52Z</gml:beginPosition>
-                           <gml:endPosition>2013-05-02T06:00:00Z</gml:endPosition>
+                           <gml:endPosition>2013-05-03T03:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -909,7 +1080,29 @@
       <gmd:MD_Distribution>
          <gmd:distributor>
             <gmd:MD_Distributor>
-               <gmd:distributorContact gco:nilReason="missing"/>
+               <gmd:distributorContact>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName gco:nilReason="missing"/>
+                     <gmd:organisationName>
+                        <gco:CharacterString>GLOS DMAC</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>dmac@glos.us</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:distributorContact>
                <gmd:distributorFormat>
                   <gmd:MD_Format>
                      <gmd:name>
@@ -977,10 +1170,10 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>Thu May  2 15:13:22 2013: ncap2 -O -S /zeus/d2/usl/ncap2.nco temp.nc temp.nc
-Thu May  2 15:13:22 2013: ncks -d node,97,19700 -d node,19703,19719 -d node,19723,19731 -d nele,180,35028 -d nele,35032,35061 -d nele,35067,35083 /zeus/d2/usl/nowcast/2013/output/netcdf/201312200.nc temp.nc
-Thu May  2 15:12:58 2013: ncap2 -O -s nprocs=nprocs;partition=partition;x=x;y=y;where(lon&gt;0.0) lon=lon-360; usl_0001.nc usl_0001.nc
-model started at: 02/05/2013   10:10</gco:CharacterString>
+                  <gco:CharacterString>Fri May  3 12:13:13 2013: ncap2 -O -S /zeus/d2/usl/ncap2.nco temp.nc temp.nc
+Fri May  3 12:13:13 2013: ncks -d node,97,19700 -d node,19703,19719 -d node,19723,19731 -d nele,180,35028 -d nele,35032,35061 -d nele,35067,35083 /zeus/d2/usl/nowcast/2013/output/netcdf/201312221.nc temp.nc
+Fri May  3 12:12:50 2013: ncap2 -O -s nprocs=nprocs;partition=partition;x=x;y=y;where(lon&gt;0.0) lon=lon-360; usl_0001.nc usl_0001.nc
+model started at: 03/05/2013   07:10</gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
          </gmd:lineage>
