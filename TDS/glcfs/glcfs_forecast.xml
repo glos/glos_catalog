@@ -16,10 +16,19 @@
    <dataset name="Forecast">
       <metadata inherited="true">
         <serviceName>all</serviceName>
+        <keyword vocabulary="GCMD Science Keywords">GLOS, GLCFS, Forecast, Great Lakes</keyword>
+        <date type="created">2012-01-01</date>
+        <date type="modified">2012-01-01</date>
+        <date type="issued">2012-01-01</date>
         <creator>
           <name vocabulary="DIF">Dr. Dave Schwab</name>
           <contact url="http://www.glerl.noaa.gov/" email="david.schwab@noaa.gov"/>
         </creator>
+        <publisher>
+          <name>GLOS DMAC</name>
+          <contact url="http://glos.us" email="dmac@glos.us"/>
+        </publisher>
+        <documentation type="rights">No usage restrictions</documentation>
         <documentation xlink:href="http://www.glerl.noaa.gov/res/glcfs/" xlink:title="Great Lakes Coastal Forecasting System"/>
         <documentation type="Summary"> Great Lakes Coastal Forecasting System</documentation>
         <documentation type="Disclaimer"> NOAA GLERL is providing this data "as is," and NOAA GLERL and
@@ -32,6 +41,9 @@
           the Internet is not guaranteed. Before using information obtained from this server, special
           attention should be given to the date and time of the data and products being displayed.
         </documentation>
+        <contributor role="distributor">GLOS DMAC</contributor>
+        <contributor role="producer">GLERL</contributor>
+        <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
       </metadata>
 
       <featureCollection name="Lake Michigan - 3D" featureType="FMRC" harvest="true" path="glos/glcfs/michigan/fcfmrc-3d">
@@ -39,7 +51,13 @@
         <update startup="true" rescan="0 4 * * * ? *" trigger="allow"/>
         <protoDataset choice="Penultimate">
           <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-            <attribute name="Conventions" type="String" value="CF-1.6"/> 
+            <attribute name="Conventions" type="String" value="CF-1.6"/>
+            <attribute name="title" value="GLCFS - Lake Michigan - Forecast - 3D" />
+            <attribute name="summary" value="Aggregation of the 3D Forecast output for Lake Michigan from GLCFS" />
+            <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+            <attribute name="naming_authority" type="String" value="GLOS" />
+            <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0" />
+            <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />    
           </netcdf>
         </protoDataset>
         <fmrcConfig datasetTypes="Best Files" />
@@ -77,7 +95,13 @@
           <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
             <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
             <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
-            <attribute name="Conventions" type="String" value="CF-1.6"/> 
+            <attribute name="Conventions" type="String" value="CF-1.6"/>
+            <attribute name="title" value="GLCFS - Lake Michigan - Forecast - 2D" />
+            <attribute name="summary" value="Aggregation of the 2D Forecast output for Lake Michigan from GLCFS" />
+            <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+            <attribute name="naming_authority" type="String" value="GLOS" />
+            <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0" />
+            <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />                
           </netcdf>
         </protoDataset>
         <fmrcConfig datasetTypes="Best Files" />
@@ -89,7 +113,13 @@
         <update startup="true" rescan="0 4 * * * ? *" trigger="allow"/>
         <protoDataset choice="Penultimate">
           <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-            <attribute name="Conventions" type="String" value="CF-1.6"/> 
+            <attribute name="Conventions" type="String" value="CF-1.6"/>
+            <attribute name="title" value="GLCFS - Lake Erie - Forecast - 3D" />
+            <attribute name="summary" value="Aggregation of the 3D Forecast output for Lake Erie from GLCFS" />
+            <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+            <attribute name="naming_authority" type="String" value="GLOS" />
+            <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0" />
+            <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" /> 
           </netcdf>
         </protoDataset>
         <fmrcConfig datasetTypes="Best Files" />
@@ -127,7 +157,13 @@
           <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
             <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
             <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
-            <attribute name="Conventions" type="String" value="CF-1.6"/> 
+            <attribute name="Conventions" type="String" value="CF-1.6"/>
+            <attribute name="title" value="GLCFS - Lake Erie - Forecast - 2D" />
+            <attribute name="summary" value="Aggregation of the 2D Forecast output for Lake Erie from GLCFS" />
+            <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+            <attribute name="naming_authority" type="String" value="GLOS" />
+            <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0" />
+            <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
           </netcdf>
         </protoDataset>
         <fmrcConfig datasetTypes="Best Files" />
@@ -138,7 +174,13 @@
         <update startup="true" rescan="0 4 * * * ? *" trigger="allow"/>
         <protoDataset choice="Penultimate">
           <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-            <attribute name="Conventions" type="String" value="CF-1.6"/> 
+            <attribute name="Conventions" type="String" value="CF-1.6"/>
+            <attribute name="title" value="GLCFS - Lake Huron - Forecast - 3D" />
+            <attribute name="summary" value="Aggregation of the 3D Forecast output for Lake Huron from GLCFS" />
+            <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+            <attribute name="naming_authority" type="String" value="GLOS" />
+            <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0" />
+            <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />             
           </netcdf>
         </protoDataset>
         <fmrcConfig datasetTypes="Best Files" />
@@ -176,7 +218,13 @@
           <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
             <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
             <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
-            <attribute name="Conventions" type="String" value="CF-1.6"/> 
+            <attribute name="Conventions" type="String" value="CF-1.6"/>
+            <attribute name="title" value="GLCFS - Lake Huron - Forecast - 2D" />
+            <attribute name="summary" value="Aggregation of the 2D Forecast output for Lake Huron from GLCFS" />
+            <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+            <attribute name="naming_authority" type="String" value="GLOS" />
+            <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0" />
+            <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" /> 
           </netcdf>
         </protoDataset>
         <fmrcConfig datasetTypes="Best Files" />
@@ -187,7 +235,13 @@
         <update startup="true" rescan="0 4 * * * ? *" trigger="allow"/>
         <protoDataset choice="Penultimate">
           <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-            <attribute name="Conventions" type="String" value="CF-1.6"/> 
+            <attribute name="Conventions" type="String" value="CF-1.6"/>
+            <attribute name="title" value="GLCFS - Lake Ontario - Forecast - 3D" />
+            <attribute name="summary" value="Aggregation of the 3D Forecast output for Lake Ontario from GLCFS" />
+            <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+            <attribute name="naming_authority" type="String" value="GLOS" />
+            <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0" />
+            <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" /> 
           </netcdf>
         </protoDataset>
         <fmrcConfig datasetTypes="Best Files" />
@@ -225,7 +279,13 @@
           <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
             <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
             <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
-            <attribute name="Conventions" type="String" value="CF-1.6"/> 
+            <attribute name="Conventions" type="String" value="CF-1.6"/>
+            <attribute name="title" value="GLCFS - Lake Ontario - Forecast - 2D" />
+            <attribute name="summary" value="Aggregation of the 2D Forecast output for Lake Ontario from GLCFS" />
+            <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+            <attribute name="naming_authority" type="String" value="GLOS" />
+            <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0" />
+            <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />             
           </netcdf>
         </protoDataset>
         <fmrcConfig datasetTypes="Best Files" />
@@ -237,7 +297,13 @@
         <update startup="true" rescan="0 4 * * * ? *" trigger="allow"/>
         <protoDataset choice="Penultimate">
           <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-            <attribute name="Conventions" type="String" value="CF-1.6"/> 
+            <attribute name="Conventions" type="String" value="CF-1.6"/>
+            <attribute name="title" value="GLCFS - Lake Superior - Forecast - 3D" />
+            <attribute name="summary" value="Aggregation of the 3D Forecast output for Lake Superior from GLCFS" />
+            <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+            <attribute name="naming_authority" type="String" value="GLOS" />
+            <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0" />
+            <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />             
           </netcdf>
         </protoDataset>
         <fmrcConfig datasetTypes="Best Files" />
@@ -275,7 +341,13 @@
           <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
             <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
             <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
-            <attribute name="Conventions" type="String" value="CF-1.6"/> 
+            <attribute name="Conventions" type="String" value="CF-1.6"/>
+            <attribute name="title" value="GLCFS - Lake Superior - Forecast - 2D" />
+            <attribute name="summary" value="Aggregation of the 2D Forecast output for Lake Superior from GLCFS" />
+            <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+            <attribute name="naming_authority" type="String" value="GLOS" />
+            <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0" />
+            <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />             
           </netcdf>
         </protoDataset>
         <fmrcConfig datasetTypes="Best Files" />

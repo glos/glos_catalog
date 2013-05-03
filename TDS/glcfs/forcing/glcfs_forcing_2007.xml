@@ -15,29 +15,36 @@
   <dataset name="Great Lakes Coastal Forecasting System - Forcing - 2007">
     <metadata inherited="true">
       <serviceName>all</serviceName>
-
+      <keyword vocabulary="GCMD Science Keywords">GLOS, GLCFS, Forcing, Great Lakes</keyword>
+      <date type="created">2012-01-01</date>
+      <date type="modified">2012-01-01</date>
+      <date type="issued">2012-01-01</date>
       <creator>
         <name vocabulary="DIF">Dr. Dave Schwab</name>
         <contact url="http://www.glerl.noaa.gov/" email="david.schwab@noaa.gov"/>
       </creator>
-
-      <documentation xlink:href="http://www.glerl.noaa.gov/res/glcfs/"
-        xlink:title="Great Lakes Coastal Forecasting System"/>
-
+      <publisher>
+        <name>GLOS DMAC</name>
+        <contact url="http://glos.us" email="dmac@glos.us"/>
+      </publisher>
+      <documentation type="rights">No usage restrictions</documentation>
+      <documentation xlink:href="http://www.glerl.noaa.gov/res/glcfs/" xlink:title="Great Lakes Coastal Forecasting System"/>
       <documentation type="Summary"> Great Lakes Coastal Forecasting System</documentation>
-
-      <documentation type="Disclaimer"> NOAA GLERL is providing this data "as is," and NOAA GLERL
-        and its partners cannot be held responsible, nor assume any liability for any damages caused
-        by inaccuracies in this data or documentation, or as a result of the failure of the data or
+      <documentation type="Disclaimer"> NOAA GLERL is providing this data "as is," and NOAA GLERL and
+        its partners cannot be held responsible, nor assume any liability for any damages caused by
+        inaccuracies in this data or documentation, or as a result of the failure of the data or
         software to function in a particular manner. NOAA GLERL and its partners make no warranty,
-        expressed or implied, as to the accuracy, completeness, or utility of this information, nor
-        does the fact of distribution constitute a warranty. Real-time data have not been subjected
-        to quality control or quality assurance procedures. Timely delivery of data and products
-        through the Internet is not guaranteed. Before using information obtained from this server,
-        special attention should be given to the date and time of the data and products being
-        displayed. </documentation>
+        expressed or implied, as to the accuracy, completeness, or utility of this information, nor does
+        the fact of distribution constitute a warranty. Real-time data have not been subjected to
+        quality control or quality assurance procedures. Timely delivery of data and products through
+        the Internet is not guaranteed. Before using information obtained from this server, special
+        attention should be given to the date and time of the data and products being displayed.
+      </documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer">GLERL</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
     </metadata>
-
+    
     <featureCollection name="Lake Michigan - Forcing - 3D - 2007" featureType="FMRC" harvest="true" path="glos/glcfs/archive2007/michigan/forcing-fmrc-3d">
       <collection spec="/var/thredds/GLCFS/Archive/2007/m#yyyyDDDHH#\.in1\.nc$" olderThan="5 min" />
       <protoDataset choice="Penultimate">
