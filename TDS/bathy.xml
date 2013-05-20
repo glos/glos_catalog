@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog name="Great Lakes Bathymetry Catalog"
+        xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <service name="agg" base="" serviceType="compound">
+    <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/" />
+    <service name="wms" serviceType="WMS" base="/thredds/wms/" />
+    <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+    <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+    <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+  </service>
+
+  <dataset name="Bathymetry - NOAA Coastal Relief (3 arc sec)" ID="NOAA-Coastal-Relief-Bathymetry" urlPath="NOAA-Coastal-Relief-Bathymetry.nc">
+    <metadata inherited="true">
+      <dataType>Grid</dataType>
+      <dataFormat>NetCDF</dataFormat>
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">Bathymetry, NOAA, Coastal Relief, Depth, GLOS</keyword>
+      <date type="created">2012-01-01</date>
+      <date type="modified">2012-01-01</date>
+      <date type="issued">2012-01-01</date>
+      <project>NOAA NGDC Coast Relief Model</project>
+      <documentation type="funding">NOAA > NESDIS > NGDC > MGGD</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <creator>
+        <name vocabulary="DIF">NOAA NGDC (POC: Ms. Kelly Carignan)</name>
+        <contact url="http://www.ngdc.noaa.gov" email="kelly.carignan@noaa.gov"/>
+      </creator>
+      <publisher>
+        <name>GLOS DMAC</name>
+        <contact url="http://glos.us" email="dmac@glos.us"/>
+      </publisher>
+      <documentation xlink:href="http://www.ngdc.noaa.gov/mgg/greatlakes/greatlakes.html"
+        xlink:title="NOAA Coastal Relief Model"/>
+      <documentation type="rights">No usage restrictions</documentation>
+      <documentation type="Disclaimer of Liability">
+        While NESDIS makes every effort to ensure that its databases are error-free, errors do occur. We ask that you notify us immediately of any errors that you discover in our data. We will make every effort to correct them. 
+
+        With respect to documents available from this server, neither the United States Government nor any of its employees, makes any warranty, express or implied, including the warranties of merchantability and fitness for a particular purpose; nor assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed; nor represents that its use would not infringe privately owned rights.
+      </documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer">NOAA NGDC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+      <property name="citation" value="http://www.ngdc.noaa.gov/nmmrview/metadata.jsp?id=gov.noaa.ngdc.mgg.dem:greatlakes_bathymetry&amp;view=html, NOAA National Geophysical Data Center, U.S. Coastal Relief Model" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/thredds/Bathymetry/crm_great_lakes.nc">
+      <attribute name="title" value="Great Lakes Bathymetry - NOAA Coastal Relief (3 arc sec)" />
+      <attribute name="summary" value="Bathymetry of Lakes Michigan, Erie, Saint Clair, Ontario and Huron has been compiled as a component of a NOAA project to rescue Great Lakes lake floor geological and geophysical data and make it more accessible. Lake Superior bathymetry partially completed. The present contours and grids have been partially derived and completely compiled here at NOAA's National Geophysical Data Center (NGDC) using a variety of sources of data including the NOS Hydrographic data base and the Canadian Hydrographic Service (CHS) smooth sheets. This project is a cooperative effort between investigators at the NGDC, the NOAA Great Lakes Environmental Research Laboratory and the Canadian Hydrographic Service. Bathymetric data used for this project have been collected from the Great Lakes in support of nautical charting for at least 150 years by the US Army Corp. of Engineers (before 1970), the NOAA National Ocean Service (after 1970), and the CHS." />
+      <attribute name="metadata_link" type="String" value="http://www.ngdc.noaa.gov/nmmrview/metadata.jsp?id=gov.noaa.ngdc.mgg.dem:greatlakes_bathymetry&amp;view=html" />
+      <attribute name="naming_authority" type="String" value="GLOS" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0" />
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+
+      <dimension name="lon" orgName="x" />
+      <dimension name="lat" orgName="y" />
+
+      <variable name="lon" shape="lon" type="double">
+        <attribute name="units" value="degrees_east"/>
+        <attribute name="standard_name" value="longitude" />
+        <attribute name="long_name" value="longitude" />        
+        <values start="-93.00" increment="0.0008333333333333333"/>
+      </variable>
+       
+      <variable name="lat" shape="lat" type="double">
+        <attribute name="units" value="degrees_north"/>
+        <attribute name="standard_name" value="latitude" />
+        <attribute name="long_name" value="latitude" />        
+        <values start="50.00" increment="-0.0008333333333333333"/>
+      </variable>
+
+      <variable name="topo" orgName="Band1" shape="lat lon" type="float">
+        <attribute name="units" value="meters"/>
+        <attribute name="long_name" value="Topography"/>
+      </variable>
+    </netcdf>
+
+  </dataset>
+</catalog>
