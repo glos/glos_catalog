@@ -164,6 +164,14 @@ class Session(object):
         """Replaces a resource with the specified input."""
         self.__send_input(12, path, content)
 
+    def delete(self, path):
+        """ 
+            DELETE is not implemented in the Server Protocol:
+            http://docs.basex.org/wiki/Server_Protocol
+            So, use a direct DELETE execute.
+        """
+        return self.execute("DELETE %s" % path)
+
     # see http://docs.basex.org/wiki/Server_Protocol
     def store(self, path, content):
         """Stores a binary resource in the opened database.
