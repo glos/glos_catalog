@@ -12,10 +12,11 @@ def main():
 
     base_download_path = "/home/dev/Development/glos_catalog/ISOs"
 
-    # The ID in THREDDS needs to contain one of these strings to be identified.
+    # datasets: The ID in THREDDS needs to contain one of these strings to be identified.
+    # skips: The LINK path in the actual thredds catalog webpage can't be equal to any of these strings
     
     # We only want the Agg and FMRC datasets
-    datasets = ["SST-Agg", "SST-FMRC"]
+    datasets = ["SST-Agg"]
     # Don't process the "files/" lists
     skips = ["files/"]
     isos = ThreddsCollector("http://tds.glos.us:8080/thredds/aoc.html", datasets=datasets, skips=skips).run()

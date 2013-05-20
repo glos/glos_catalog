@@ -35,7 +35,7 @@
       <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
     </metadata>
 
-    <featureCollection featureType="FMRC" name="LakeErieSST-FMRC" harvest="true" path="SST/LakeErieSST-FMRC">
+    <!--featureCollection featureType="FMRC" name="LakeErieSST-FMRC" harvest="true" path="SST/LakeErieSST-FMRC">
       <metadata inherited="true">
         <serviceName>agg</serviceName>
         <documentation type="summary">Lake Erie SST</documentation>
@@ -54,7 +54,7 @@
         </netcdf>
       </protoDataset>
       <fmrcConfig datasetTypes="Best Files" />
-    </featureCollection>
+    </featureCollection-->
 
     <dataset name="LakeErieSST-Agg" urlPath="SST/LakeErieSST-Agg" ID="LakeErieSST-Agg" dataType="Grid">
       <metadata inherited="true">
@@ -75,7 +75,7 @@
       </netcdf>
     </dataset>
 
-    <featureCollection featureType="FMRC" name="LakeHuronSST-FMRC" harvest="true" path="SST/LakeHuronSST-FMRC">
+    <!--featureCollection featureType="FMRC" name="LakeHuronSST-FMRC" harvest="true" path="SST/LakeHuronSST-FMRC">
       <metadata inherited="true">
         <serviceName>agg</serviceName>
         <documentation type="summary">Lake Huron SST</documentation>
@@ -94,7 +94,7 @@
         </netcdf>
       </protoDataset>
       <fmrcConfig datasetTypes="Best Files" />
-    </featureCollection>
+    </featureCollection-->
     
     <dataset name="LakeHuronSST-Agg" urlPath="SST/LakeHuronSST-Agg" ID="LakeHuronSST-Agg" dataType="Grid">
       <metadata inherited="true">
@@ -115,7 +115,7 @@
       </netcdf>
     </dataset>
 
-    <featureCollection featureType="FMRC" name="LakeMichiganSST-FMRC" harvest="true" path="SST/LakeMichiganSST-FMRC">
+    <!--featureCollection featureType="FMRC" name="LakeMichiganSST-FMRC" harvest="true" path="SST/LakeMichiganSST-FMRC">
       <metadata inherited="true">
         <serviceName>agg</serviceName>
         <documentation type="summary">Lake Michigan SST</documentation>
@@ -134,7 +134,7 @@
         </netcdf>
       </protoDataset>
       <fmrcConfig datasetTypes="Best Files" />
-    </featureCollection>
+    </featureCollection-->
 
     <dataset name="LakeMichiganSST-Agg" urlPath="SST/LakeMichiganSST-Agg" ID="LakeMichiganSST-Agg" dataType="Grid">
       <metadata inherited="true">
@@ -155,7 +155,7 @@
       </netcdf>
     </dataset>
 
-    <featureCollection featureType="FMRC" name="LakeOntarioSST-FMRC" harvest="true" path="SST/LakeOntarioSST-FMRC">
+    <!--featureCollection featureType="FMRC" name="LakeOntarioSST-FMRC" harvest="true" path="SST/LakeOntarioSST-FMRC">
       <metadata inherited="true">
         <serviceName>agg</serviceName>
         <documentation type="summary">Lake Ontario SST</documentation>
@@ -174,7 +174,7 @@
         </netcdf>
       </protoDataset>
       <fmrcConfig datasetTypes="Best Files" />
-    </featureCollection>
+    </featureCollection-->
 
     <dataset name="LakeOntarioSST-Agg" urlPath="SST/LakeOntarioSST-Agg" ID="LakeOntarioSST-Agg" dataType="Grid">
       <metadata inherited="true">
@@ -195,7 +195,7 @@
       </netcdf>
     </dataset>
 
-    <featureCollection featureType="FMRC" name="LakeSuperiorSST-FMRC" harvest="true" path="SST/LakeSuperiorSST-FMRC">
+    <!--featureCollection featureType="FMRC" name="LakeSuperiorSST-FMRC" harvest="true" path="SST/LakeSuperiorSST-FMRC">
       <metadata inherited="true">
         <serviceName>agg</serviceName>
         <documentation type="summary">Lake Superior SST</documentation>
@@ -214,7 +214,7 @@
         </netcdf>
       </protoDataset>
       <fmrcConfig datasetTypes="Best Files" />
-    </featureCollection>
+    </featureCollection-->
     
     <dataset name="LakeSuperiorSST-Agg" urlPath="SST/LakeSuperiorSST-Agg" ID="LakeSuperiorSST-Agg" dataType="Grid">
       <metadata inherited="true">
