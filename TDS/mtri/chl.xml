@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog name="Lake Surface Chlorophyll (MODIS) Catalog"
+        xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <service name="all" base="" serviceType="compound">
+    <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/" />
+    <service name="http" serviceType="HTTPServer" base="/thredds/fileServer/" />
+    <service name="wms" serviceType="WMS" base="/thredds/wms/" />
+    <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+    <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+    <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+  </service>
+  <service name="agg" base="" serviceType="compound">
+    <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/" />
+    <service name="wms" serviceType="WMS" base="/thredds/wms/" />
+    <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+    <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+    <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+  </service>
+
+  <dataset name="MTRI - Lake Surface Chlorophyll (MODIS)">
+
+    <metadata inherited="true">
+      <keyword vocabulary="GCMD Science Keywords">Chl, Chloropyll, GLOS, MODIS, MTRI, AOC, Satellite, Sea Surface Chloropyll, Lake Surface Chloropyll</keyword>
+      <date type="created">2012-01-01</date>
+      <date type="modified">2012-01-01</date>
+      <date type="issued">2012-01-01</date>
+      <project>GLOS MTRI</project>
+      <documentation type="funding">GLOS MTRI</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer">MTRI</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <dataset name="LakeErieCHL-Agg" urlPath="CHL/LakeErieCHL-Agg" ID="LakeErieCHL-Agg" dataType="Grid">
+      <metadata inherited="true">
+        <serviceName>agg</serviceName>
+      </metadata>
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <attribute name="title" value="Lake Erie - MODIS - Lake Surface Chlorophyll (CHL) - Aggregation" />
+        <attribute name="summary" value="Aggregation of Lake Surface Chlorophyll from Lake Erie and surrounding waters from MODIS satellites." />
+        <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+        <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+        <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+        <attribute name="geospatial_vertical_units" type="String" value="meters" />
+        <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+        <attribute name="geospatial_vertical_positive" type="String" value="up" />
+        <aggregation dimName="time" type="joinExisting">
+          <scan location="/var/thredds/MTRI-CHL/erie/" suffix=".nc4"/>
+        </aggregation>
+      </netcdf>
+    </dataset>
+
+    <dataset name="LakeHuronCHL-Agg" urlPath="CHL/LakeHuronCHL-Agg" ID="LakeHuronCHL-Agg" dataType="Grid">
+      <metadata inherited="true">
+        <serviceName>agg</serviceName>
+      </metadata>
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <attribute name="title" value="Lake Huron - MODIS - Lake Surface Chlorophyll (CHL) - Aggregation" />
+        <attribute name="summary" value="Aggregation of Lake Surface Chlorophyll from Lake Huron and surrounding waters from MODIS satellites." />
+        <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+        <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+        <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+        <attribute name="geospatial_vertical_units" type="String" value="meters" />
+        <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+        <attribute name="geospatial_vertical_positive" type="String" value="up" />
+        <aggregation dimName="time" type="joinExisting">
+          <scan location="/var/thredds/MTRI-CHL/huron/" suffix=".nc4"/>
+        </aggregation>
+      </netcdf>
+    </dataset>
+
+    <dataset name="LakeMichiganCHL-Agg" urlPath="CHL/LakeMichiganCHL-Agg" ID="LakeMichiganCHL-Agg" dataType="Grid">
+      <metadata inherited="true">
+        <serviceName>agg</serviceName>
+      </metadata>
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <attribute name="title" value="Lake Michigan - MODIS - Lake Surface Chlorophyll (CHL) - Aggregation" />
+        <attribute name="summary" value="Aggregation of Lake Surface Chlorophyll from Lake Michigan and surrounding waters from MODIS satellites." />
+        <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+        <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+        <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+        <attribute name="geospatial_vertical_units" type="String" value="meters" />
+        <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+        <attribute name="geospatial_vertical_positive" type="String" value="up" />
+        <aggregation dimName="time" type="joinExisting">
+          <scan location="/var/thredds/MTRI-CHL/michigan/" suffix=".nc4"/>
+        </aggregation>
+      </netcdf>
+    </dataset>
+
+    <dataset name="LakeOntarioCHL-Agg" urlPath="CHL/LakeOntarioCHL-Agg" ID="LakeOntarioCHL-Agg" dataType="Grid">
+      <metadata inherited="true">
+        <serviceName>agg</serviceName>
+      </metadata>
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <attribute name="title" value="Lake Ontario - MODIS - Lake Surface Chlorophyll (CHL) - Aggregation" />
+        <attribute name="summary" value="Aggregation of Lake Surface Chlorophyll from Lake Ontario and surrounding waters from MODIS satellites." />
+        <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+        <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+        <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+        <attribute name="geospatial_vertical_units" type="String" value="meters" />
+        <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+        <attribute name="geospatial_vertical_positive" type="String" value="up" />
+        <aggregation dimName="time" type="joinExisting">
+          <scan location="/var/thredds/MTRI-CHL/ontario/" suffix=".nc4"/>
+        </aggregation>
+      </netcdf>
+    </dataset>
+
+    <dataset name="LakeSuperiorCHL-Agg" urlPath="CHL/LakeSuperiorCHL-Agg" ID="LakeSuperiorCHL-Agg" dataType="Grid">
+      <metadata inherited="true">
+        <serviceName>agg</serviceName>
+      </metadata>
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <attribute name="title" value="Lake Superior - MODIS - Lake Surface Chlorophyll (CHL) - Aggregation" />
+        <attribute name="summary" value="Aggregation of Lake Surface Chlorophyll from Lake Superior and surrounding waters from MODIS satellites." />
+        <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+        <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+        <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+        <attribute name="geospatial_vertical_units" type="String" value="meters" />
+        <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+        <attribute name="geospatial_vertical_positive" type="String" value="up" />      
+        <aggregation dimName="time" type="joinExisting">
+          <scan location="/var/thredds/MTRI-CHL/superior/" suffix=".nc4"/>
+        </aggregation>
+      </netcdf>
+    </dataset>
+  </dataset>
+</catalog>
