@@ -15,11 +15,27 @@ def main():
     # datasets: The ID in THREDDS needs to contain one of these strings to be identified.
     # skips: The LINK path in the actual thredds catalog webpage can't be equal to any of these strings
     
-    # We only want the Agg and FMRC datasets
+    # We only want the Agg datasets
     datasets = ["SST-Agg"]
     # Don't process the "files/" lists
     skips = ["files/"]
-    isos = ThreddsCollector("http://tds.glos.us:8080/thredds/aoc.html", datasets=datasets, skips=skips).run()
+    isos = ThreddsCollector("http://tds.glos.us:8080/thredds/mtri/aoc.html", datasets=datasets, skips=skips).run()
+    download_path = os.path.join(base_download_path, "Satellite")
+    IsoDownloader.run(isos, download_path)
+
+    # We only want the Agg datasets
+    datasets = ["CHL-Agg"]
+    # Don't process the "files/" lists
+    skips = ["files/"]
+    isos = ThreddsCollector("http://tds.glos.us:8080/thredds/mtri/chl.html", datasets=datasets, skips=skips).run()
+    download_path = os.path.join(base_download_path, "Satellite")
+    IsoDownloader.run(isos, download_path)
+
+    # We only want the Agg datasets
+    datasets = ["NC-Agg"]
+    # Don't process the "files/" lists
+    skips = ["files/"]
+    isos = ThreddsCollector("http://tds.glos.us:8080/thredds/mtri/natcolor.html", datasets=datasets, skips=skips).run()
     download_path = os.path.join(base_download_path, "Satellite")
     IsoDownloader.run(isos, download_path)
 

@@ -13,7 +13,7 @@
                  xmlns:srv="http://www.isotc211.org/2005/srv"
                  xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
    <gmd:fileIdentifier>
-      <gco:CharacterString>LakeErieSST-Agg</gco:CharacterString>
+      <gco:CharacterString>LakeOntarioNC-Agg</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#LanguageCode"
@@ -100,10 +100,10 @@
                                                 codeListValue="column">column</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>2028</gco:Integer>
+                  <gco:Integer>1906</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
-                  <gco:Measure uom="degrees_east">0.002427999999999998</gco:Measure>
+                  <gco:Measure uom="degrees_east">0.002427999999999997</gco:Measure>
                </gmd:resolution>
             </gmd:MD_Dimension>
          </gmd:axisDimensionProperties>
@@ -114,10 +114,10 @@
                                                 codeListValue="row">row</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>828</gco:Integer>
+                  <gco:Integer>842</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
-                  <gco:Measure uom="degrees_north">0.002428</gco:Measure>
+                  <gco:Measure uom="degrees_north">0.002428000000000006</gco:Measure>
                </gmd:resolution>
             </gmd:MD_Dimension>
          </gmd:axisDimensionProperties>
@@ -128,10 +128,10 @@
                                                 codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>143</gco:Integer>
+                  <gco:Integer>1</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
-                  <gco:Measure uom="seconds">291430.0</gco:Measure>
+                  <gco:Measure uom="seconds">0.0</gco:Measure>
                </gmd:resolution>
             </gmd:MD_Dimension>
          </gmd:axisDimensionProperties>
@@ -147,7 +147,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Lake Erie - MODIS - Lake Surface Temperature (LST) - Aggregation</gco:CharacterString>
+                  <gco:CharacterString>Lake Ontario - MODIS - Natural Color Imagery (NC) - Aggregation</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -193,7 +193,7 @@
                         </gmd:CI_Citation>
                      </gmd:authority>
                      <gmd:code>
-                        <gco:CharacterString>LakeErieSST-Agg</gco:CharacterString>
+                        <gco:CharacterString>LakeOntarioNC-Agg</gco:CharacterString>
                      </gmd:code>
                   </gmd:MD_Identifier>
                </gmd:identifier>
@@ -259,15 +259,15 @@
                   </gmd:CI_ResponsibleParty>
                </gmd:citedResponsibleParty>
                <gmd:otherCitationDetails>
-                  <gco:CharacterString>These data are provided to the Great Lakes Observing System from the Michigan Tech Research Institute (MTRI) in Ann Arbor, MI.  For further information about MTRI or these data, please contact Mr. Colin Brooks cnbrooks@mtu.edu</gco:CharacterString>
+                  <gco:CharacterString>These data are provided to the Great Lakes Observing System from the Michigan Tech Research Institute (MTRI) in Ann Arbor, MI. For further information about MTRI or these data, please contact Mr. Colin Brooks cnbrooks@mtu.edu</gco:CharacterString>
                </gmd:otherCitationDetails>
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Aggregation of Lake Surface Temperature from Lake Erie and surrounding waters from MODIS satellites.</gco:CharacterString>
+            <gco:CharacterString>Aggregation of Natural Color Imagery from Lake Ontario and surrounding waters from MODIS satellites.</gco:CharacterString>
          </gmd:abstract>
          <gmd:credit>
-            <gco:CharacterString>GLOS MTRI AOC</gco:CharacterString>
+            <gco:CharacterString>GLOS MTRI</gco:CharacterString>
          </gmd:credit>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -326,25 +326,16 @@
                   <gco:CharacterString> MODIS</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString> LST</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString> SST</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
                   <gco:CharacterString> MTRI</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString> AOC</gco:CharacterString>
+                  <gco:CharacterString> Natural Color Imagery</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString> Basemap</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
                   <gco:CharacterString> Satellite</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString> Sea Surface Temperature</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString> Lake Surface Temperature</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
@@ -363,7 +354,7 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>GLOS MTRI AOC</gco:CharacterString>
+                  <gco:CharacterString>GLOS MTRI</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
@@ -387,7 +378,13 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>lake_surface_temperature</gco:CharacterString>
+                  <gco:CharacterString>red_spectral_band</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>green_spectral_band</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>blue_spectral_band</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
                   <gco:CharacterString>latitude</gco:CharacterString>
@@ -424,7 +421,7 @@
                <gmd:aggregateDataSetName>
                   <gmd:CI_Citation>
                      <gmd:title>
-                        <gco:CharacterString>GLOS MTRI AOC</gco:CharacterString>
+                        <gco:CharacterString>GLOS MTRI</gco:CharacterString>
                      </gmd:title>
                      <gmd:date gco:nilReason="inapplicable"/>
                   </gmd:CI_Citation>
@@ -480,26 +477,26 @@
                         <gco:Boolean>1</gco:Boolean>
                      </gmd:extentTypeCode>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-83.56737199999999</gco:Decimal>
+                        <gco:Decimal>-80.09483209999999</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-78.645816</gco:Decimal>
+                        <gco:Decimal>-75.4694921</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>41.145270499999995</gco:Decimal>
+                        <gco:Decimal>42.834835999999996</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>43.153226499999995</gco:Decimal>
+                        <gco:Decimal>44.876784</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d103">
+                        <gml:TimePeriod gml:id="d129">
                            <gml:description>seconds</gml:description>
-                           <gml:beginPosition>2012-03-11T08:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2013-07-03T07:20:00Z</gml:endPosition>
+                           <gml:beginPosition>2013-06-20T18:55:00Z</gml:beginPosition>
+                           <gml:endPosition>2013-06-20T18:55:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -524,7 +521,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Lake Erie - MODIS - Lake Surface Temperature (LST) - Aggregation</gco:CharacterString>
+                  <gco:CharacterString>Lake Ontario - MODIS - Natural Color Imagery (NC) - Aggregation</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -623,7 +620,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Aggregation of Lake Surface Temperature from Lake Erie and surrounding waters from MODIS satellites.</gco:CharacterString>
+            <gco:CharacterString>Aggregation of Natural Color Imagery from Lake Ontario and surrounding waters from MODIS satellites.</gco:CharacterString>
          </gmd:abstract>
          <srv:serviceType>
             <gco:LocalName>THREDDS OPeNDAP</gco:LocalName>
@@ -636,25 +633,25 @@
                         <gco:Boolean>1</gco:Boolean>
                      </gmd:extentTypeCode>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-83.56737199999999</gco:Decimal>
+                        <gco:Decimal>-80.09483209999999</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-78.645816</gco:Decimal>
+                        <gco:Decimal>-75.4694921</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>41.145270499999995</gco:Decimal>
+                        <gco:Decimal>42.834835999999996</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>43.153226499999995</gco:Decimal>
+                        <gco:Decimal>44.876784</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d103e68">
-                           <gml:beginPosition>2012-03-11T08:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2013-07-03T07:20:00Z</gml:endPosition>
+                        <gml:TimePeriod gml:id="d129e66">
+                           <gml:beginPosition>2013-06-20T18:55:00Z</gml:beginPosition>
+                           <gml:endPosition>2013-06-20T18:55:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -685,7 +682,7 @@
                <srv:connectPoint>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://tds.glos.us:8080/thredds/dodsC/SST/LakeErieSST-Agg</gmd:URL>
+                        <gmd:URL>http://tds.glos.us:8080/thredds/dodsC/NC/LakeOntarioNC-Agg</gmd:URL>
                      </gmd:linkage>
                      <gmd:name>
                         <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -709,7 +706,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Lake Erie - MODIS - Lake Surface Temperature (LST) - Aggregation</gco:CharacterString>
+                  <gco:CharacterString>Lake Ontario - MODIS - Natural Color Imagery (NC) - Aggregation</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -808,7 +805,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Aggregation of Lake Surface Temperature from Lake Erie and surrounding waters from MODIS satellites.</gco:CharacterString>
+            <gco:CharacterString>Aggregation of Natural Color Imagery from Lake Ontario and surrounding waters from MODIS satellites.</gco:CharacterString>
          </gmd:abstract>
          <srv:serviceType>
             <gco:LocalName>Open Geospatial Consortium Web Map Service (WMS)</gco:LocalName>
@@ -821,25 +818,25 @@
                         <gco:Boolean>1</gco:Boolean>
                      </gmd:extentTypeCode>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-83.56737199999999</gco:Decimal>
+                        <gco:Decimal>-80.09483209999999</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-78.645816</gco:Decimal>
+                        <gco:Decimal>-75.4694921</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>41.145270499999995</gco:Decimal>
+                        <gco:Decimal>42.834835999999996</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>43.153226499999995</gco:Decimal>
+                        <gco:Decimal>44.876784</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d103e69">
-                           <gml:beginPosition>2012-03-11T08:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2013-07-03T07:20:00Z</gml:endPosition>
+                        <gml:TimePeriod gml:id="d129e67">
+                           <gml:beginPosition>2013-06-20T18:55:00Z</gml:beginPosition>
+                           <gml:endPosition>2013-06-20T18:55:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -870,7 +867,7 @@
                <srv:connectPoint>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://tds.glos.us:8080/thredds/wms/SST/LakeErieSST-Agg?service=WMS&amp;version=1.3.0&amp;request=GetCapabilities</gmd:URL>
+                        <gmd:URL>http://tds.glos.us:8080/thredds/wms/NC/LakeOntarioNC-Agg?service=WMS&amp;version=1.3.0&amp;request=GetCapabilities</gmd:URL>
                      </gmd:linkage>
                      <gmd:name>
                         <gco:CharacterString>OGC-WMS</gco:CharacterString>
@@ -919,21 +916,65 @@
                <gmd:sequenceIdentifier>
                   <gco:MemberName>
                      <gco:aName>
-                        <gco:CharacterString>sst</gco:CharacterString>
+                        <gco:CharacterString>Band1</gco:CharacterString>
                      </gco:aName>
                      <gco:attributeType>
                         <gco:TypeName>
                            <gco:aName>
-                              <gco:CharacterString>double</gco:CharacterString>
+                              <gco:CharacterString>byte</gco:CharacterString>
                            </gco:aName>
                         </gco:TypeName>
                      </gco:attributeType>
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>lake_surface_temperature (lake_surface_temperature)</gco:CharacterString>
+                  <gco:CharacterString>GDAL Band Number 1 (red_spectral_band)</gco:CharacterString>
                </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#degrees_Celsius"/>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#red_band_intensity"/>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>Band2</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>byte</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>GDAL Band Number 2 (green_spectral_band)</gco:CharacterString>
+               </gmd:descriptor>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#green_band_intensity"/>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>Band3</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>byte</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>GDAL Band Number 3 (blue_spectral_band)</gco:CharacterString>
+               </gmd:descriptor>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#blue_band_intensity"/>
             </gmd:MD_Band>
          </gmd:dimension>
          <gmd:dimension>
@@ -1067,7 +1108,7 @@
                      <gmd:onLine>
                         <gmd:CI_OnlineResource>
                            <gmd:linkage>
-                              <gmd:URL>http://tds.glos.us:8080/thredds/dodsC/SST/LakeErieSST-Agg.html</gmd:URL>
+                              <gmd:URL>http://tds.glos.us:8080/thredds/dodsC/NC/LakeOntarioNC-Agg.html</gmd:URL>
                            </gmd:linkage>
                            <gmd:name>
                               <gco:CharacterString>File Information</gco:CharacterString>
@@ -1088,7 +1129,7 @@
                      <gmd:onLine>
                         <gmd:CI_OnlineResource>
                            <gmd:linkage>
-                              <gmd:URL>http://www.ncdc.noaa.gov/oa/wct/wct-jnlp-beta.php?singlefile=http://tds.glos.us:8080/thredds/dodsC/SST/LakeErieSST-Agg</gmd:URL>
+                              <gmd:URL>http://www.ncdc.noaa.gov/oa/wct/wct-jnlp-beta.php?singlefile=http://tds.glos.us:8080/thredds/dodsC/NC/LakeOntarioNC-Agg</gmd:URL>
                            </gmd:linkage>
                            <gmd:name>
                               <gco:CharacterString>Viewer Information</gco:CharacterString>
@@ -1121,8 +1162,7 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>Thu Jun 27 14:29:20 2013: /usr/local/bin/ncks -4 -A -L 3 /home/nljessee/Desktop/DMAC_Scripts/4326_201306220735.nc /home/nljessee/Desktop/DMAC_Scripts/4326_201306220735.nc4
-Thu Jun 27 14:29:19 2013: GDAL Create( /home/nljessee/Desktop/DMAC_Scripts/4326_201306220735.nc, ... )</gco:CharacterString>
+                  <gco:CharacterString>Wed Jul 10 08:20:18 2013: GDAL Create( /home/nljessee/Desktop/DMAC_Scripts/20130620_1855.nc, ... )</gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
          </gmd:lineage>
