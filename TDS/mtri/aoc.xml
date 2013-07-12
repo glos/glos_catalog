@@ -56,7 +56,7 @@
       <fmrcConfig datasetTypes="Best Files" />
     </featureCollection-->
 
-    <dataset name="LakeErieSST-Agg" urlPath="SST/LakeErieSST-Agg" ID="LakeErieSST-Agg" dataType="Grid">
+    <dataset name="Lake Erie SST - Aggregation" urlPath="SST/LakeErieSST-Agg" ID="LakeErieSST-Agg" dataType="Grid">
       <metadata inherited="true">
         <serviceName>agg</serviceName>
       </metadata>
@@ -96,7 +96,7 @@
       <fmrcConfig datasetTypes="Best Files" />
     </featureCollection-->
     
-    <dataset name="LakeHuronSST-Agg" urlPath="SST/LakeHuronSST-Agg" ID="LakeHuronSST-Agg" dataType="Grid">
+    <dataset name="Lake Huron SST - Aggregation" urlPath="SST/LakeHuronSST-Agg" ID="LakeHuronSST-Agg" dataType="Grid">
       <metadata inherited="true">
         <serviceName>agg</serviceName>
       </metadata>
@@ -136,7 +136,7 @@
       <fmrcConfig datasetTypes="Best Files" />
     </featureCollection-->
 
-    <dataset name="LakeMichiganSST-Agg" urlPath="SST/LakeMichiganSST-Agg" ID="LakeMichiganSST-Agg" dataType="Grid">
+    <dataset name="Lake Michigan SST - Aggregation" urlPath="SST/LakeMichiganSST-Agg" ID="LakeMichiganSST-Agg" dataType="Grid">
       <metadata inherited="true">
         <serviceName>agg</serviceName>
       </metadata>
@@ -176,7 +176,7 @@
       <fmrcConfig datasetTypes="Best Files" />
     </featureCollection-->
 
-    <dataset name="LakeOntarioSST-Agg" urlPath="SST/LakeOntarioSST-Agg" ID="LakeOntarioSST-Agg" dataType="Grid">
+    <dataset name="Lake Ontario SST - Aggregation" urlPath="SST/LakeOntarioSST-Agg" ID="LakeOntarioSST-Agg" dataType="Grid">
       <metadata inherited="true">
         <serviceName>agg</serviceName>
       </metadata>
@@ -216,7 +216,7 @@
       <fmrcConfig datasetTypes="Best Files" />
     </featureCollection-->
     
-    <dataset name="LakeSuperiorSST-Agg" urlPath="SST/LakeSuperiorSST-Agg" ID="LakeSuperiorSST-Agg" dataType="Grid">
+    <dataset name="Lake Superior SST - Aggregation" urlPath="SST/LakeSuperiorSST-Agg" ID="LakeSuperiorSST-Agg" dataType="Grid">
       <metadata inherited="true">
         <serviceName>agg</serviceName>
       </metadata>
