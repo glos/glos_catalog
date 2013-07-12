@@ -62,6 +62,7 @@ def CreateGlos(directory = ""):
         print(repr(e))
     
     finally:
+        session.execute("CREATE INDEX FULLTEXT")
         # close session
         if session:
             session.close()
