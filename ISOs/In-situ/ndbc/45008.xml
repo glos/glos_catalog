@@ -16,57 +16,6 @@
     </gmd:fileIdentifier>
     <gmd:contact>
         <gmd:CI_ResponsibleParty>
-            <gmd:individualName>
-                <gco:CharacterString>GLOS DMAC</gco:CharacterString>
-            </gmd:individualName>
-            <gmd:organisationName>
-                <gco:CharacterString>Great Lakes Observing System</gco:CharacterString>
-            </gmd:organisationName>
-            <gmd:contactInfo>
-                <gmd:CI_Contact>
-                    <gmd:phone>
-                        <gmd:CI_Telephone>
-                            <gmd:voice>
-                                <gco:CharacterString>(734) 332-6113</gco:CharacterString>
-                            </gmd:voice>
-                        </gmd:CI_Telephone>
-                    </gmd:phone>
-                    <gmd:address>
-                        <gmd:CI_Address>
-                            <gmd:deliveryPoint>
-                                <gco:CharacterString>229 Nickels Arcade</gco:CharacterString>
-                            </gmd:deliveryPoint>
-                            <gmd:city>
-                                <gco:CharacterString>Ann Arbor</gco:CharacterString>
-                            </gmd:city>
-                            <gmd:administrativeArea>
-                                <gco:CharacterString>Michigan</gco:CharacterString>
-                            </gmd:administrativeArea>
-                            <gmd:postalCode>
-                                <gco:CharacterString>48104</gco:CharacterString>
-                            </gmd:postalCode>
-                            <gmd:electronicMailAddress>
-                                <gco:CharacterString>dmac@glos.us</gco:CharacterString>
-                            </gmd:electronicMailAddress>
-                        </gmd:CI_Address>
-                    </gmd:address>
-                    <gmd:onlineResource>
-                        <gmd:CI_OnlineResource id="glos_url">
-                            <gmd:linkage>
-                                <gmd:URL>http://glos.us</gmd:URL>
-                            </gmd:linkage>
-                        </gmd:CI_OnlineResource>
-                    </gmd:onlineResource>
-                </gmd:CI_Contact>
-            </gmd:contactInfo>
-            <gmd:role>
-                <gmd:CI_RoleCode
-                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/CodeList/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
-            </gmd:role>
-        </gmd:CI_ResponsibleParty>
-    </gmd:contact>
-    <gmd:contact>
-        <gmd:CI_ResponsibleParty>
             <gmd:individualName gco:nilReason="missing"/>
             <gmd:organisationName>
                 <gco:CharacterString>National Data Buoy Center</gco:CharacterString>
@@ -83,10 +32,10 @@
                     <gmd:address>
                         <gmd:CI_Address>
                             <gmd:deliveryPoint>
-                                <gco:CharacterString>1007 Balch Boulevard</gco:CharacterString>
+                                <gco:CharacterString>Bldg. 3205</gco:CharacterString>
                             </gmd:deliveryPoint>
                             <gmd:city>
-                                <gco:CharacterString>Stennis Spc Ctr</gco:CharacterString>
+                                <gco:CharacterString>Stennis Space Center</gco:CharacterString>
                             </gmd:city>
                             <gmd:administrativeArea>
                                 <gco:CharacterString>MS</gco:CharacterString>
@@ -110,12 +59,12 @@
             </gmd:contactInfo>
             <gmd:role>
                 <gmd:CI_RoleCode
-                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
             </gmd:role>
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:Date>2013-05-03</gco:Date>
+        <gco:Date>2013-07-18</gco:Date>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -133,7 +82,7 @@
                     <gmd:date>
                         <gmd:CI_Date>
                             <gmd:date>
-                                <gco:DateTime>2013-05-03T01:34:21.230Z</gco:DateTime>
+                                <gco:DateTime>2013-07-18T18:50:58.782Z</gco:DateTime>
                             </gmd:date>
                             <gmd:dateType gco:nilReason="unknown"/>
                         </gmd:CI_Date>
@@ -146,19 +95,46 @@
             <gmd:descriptiveKeywords>
                 <gmd:MD_Keywords>
                     <gmd:keyword>
-                        <gco:CharacterString>air_temperature</gco:CharacterString>
+                        <gco:CharacterString>Sea Water Temperature</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>air_pressure_at_sea_level</gco:CharacterString>
+                        <gco:CharacterString>Significant Wave Height</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>sea_water_temperature</gco:CharacterString>
+                        <gco:CharacterString>Sea Surface Dominant Wave Period</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>waves</gco:CharacterString>
+                        <gco:CharacterString>Mean Wave Period</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>winds</gco:CharacterString>
+                        <gco:CharacterString>Sea Surface Swell Wave Significant Height</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Sea Surface Swell Wave Period</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Sea Surface Wind Wave Significant Height</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Sea Surface Wind Wave Period</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Sea Surface Swell Wave To Direction</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Sea Surface Wind Wave To Direction</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Wind Speed</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Wind From Direction</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Wind Vertical Velocity</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Wind Gust From Direction</gco:CharacterString>
                     </gmd:keyword>
                 </gmd:MD_Keywords>
             </gmd:descriptiveKeywords>
@@ -192,9 +168,9 @@
                     <gmd:temporalElement>
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
-                                <gml:TimePeriod id="1290826053">
+                                <gml:TimePeriod id="TP-EX1">
                                     <gml:beginPosition>2008-07-21T20:50:00.000Z</gml:beginPosition>
-                                    <gml:endPosition>2013-01-09T17:50:00.000Z</gml:endPosition>
+                                    <gml:endPosition indeterminatePosition="now"/>
                                 </gml:TimePeriod>
                             </gmd:extent>
                         </gmd:EX_TemporalExtent>
@@ -215,7 +191,7 @@
         </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
     <gmd:identificationInfo>
-        <srv:SV_ServiceIdentification id="wmo:45008">
+        <srv:SV_ServiceIdentification id="SOS">
             <gmd:citation>
                 <gmd:CI_Citation>
                     <gmd:title>
@@ -272,9 +248,9 @@
                     <gmd:temporalElement>
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
-                                <gml:TimePeriod id="1059626504">
+                                <gml:TimePeriod id="TP-EX1">
                                     <gml:beginPosition>2008-07-21T20:50:00.000Z</gml:beginPosition>
-                                    <gml:endPosition>2013-01-09T17:50:00.000Z</gml:endPosition>
+                                    <gml:endPosition indeterminatePosition="now"/>
                                 </gml:TimePeriod>
                             </gmd:extent>
                         </gmd:EX_TemporalExtent>
@@ -305,13 +281,13 @@
                     <srv:connectPoint>
                         <gmd:CI_OnlineResource>
                             <gmd:linkage>
-                                <gmd:URL>http://sdf.ndbc.noaa.gov/sos/server.php?request=GetCapabilities&amp;service=SOS</gmd:URL>
+                                <gmd:URL>http://sdftest.ndbc.noaa.gov/sos/server.php?service=SOS&amp;request=GetCapabilities</gmd:URL>
                             </gmd:linkage>
                             <gmd:name>
                                 <gco:CharacterString>SOS</gco:CharacterString>
                             </gmd:name>
                             <gmd:description>
-                                <gco:CharacterString>National Data Buoy Center SOS</gco:CharacterString>
+                                <gco:CharacterString>Sensor Observation Service - GetCapabilities</gco:CharacterString>
                             </gmd:description>
                             <gmd:function>
                                 <gmd:CI_OnLineFunctionCode
@@ -330,13 +306,13 @@
                     <srv:connectPoint>
                         <gmd:CI_OnlineResource>
                             <gmd:linkage>
-                                <gmd:URL>http://sdf.ndbc.noaa.gov/sos/server.php?request=DescribeSensor&amp;service=SOS&amp;version=1.0.0&amp;outputformat=text/xml;subtype=%22sensorML/1.0.1%22&amp;procedure=urn:ioos:station:wmo:wmo:45008</gmd:URL>
+                                <gmd:URL>http://sdftest.ndbc.noaa.gov/sos/server.php?service=SOS&amp;request=DescribeSensor&amp;version=1.0.0&amp;outputformat=text/xml;subtype=%22sensorML/1.0.1%22&amp;procedure=urn:ioos:station:wmo%3A45008</gmd:URL>
                             </gmd:linkage>
                             <gmd:name>
                                 <gco:CharacterString>SOS</gco:CharacterString>
                             </gmd:name>
                             <gmd:description>
-                                <gco:CharacterString>National Data Buoy Center SOS</gco:CharacterString>
+                                <gco:CharacterString>Sensor Observation Service - DescribeSensor</gco:CharacterString>
                             </gmd:description>
                             <gmd:function>
                                 <gmd:CI_OnLineFunctionCode
@@ -355,13 +331,13 @@
                     <srv:connectPoint>
                         <gmd:CI_OnlineResource>
                             <gmd:linkage>
-                                <gmd:URL>http://sdftest.ndbc.noaa.gov/sos/server.php?request=GetObservation&amp;version=1.0.0&amp;service=SOS&amp;observedProperty=air_temperature&amp;responseFormat=text%2Fxml%3Bsubtype%3D%22om%2F1.0.0%22&amp;eventtime=latest&amp;offering=urn:ioos:station:wmo:wmo:45008</gmd:URL>
+                                <gmd:URL>http://sdftest.ndbc.noaa.gov/sos/server.php?service=SOS&amp;request=GetObservation&amp;version=1.0.0&amp;responseformat=text/xml;subtype=%22om/1.0.0%22&amp;eventtime=latest&amp;offering=urn:ioos:station:wmo%3A45008&amp;observedProperty=sea_water_temperature</gmd:URL>
                             </gmd:linkage>
                             <gmd:name>
                                 <gco:CharacterString>SOS</gco:CharacterString>
                             </gmd:name>
                             <gmd:description>
-                                <gco:CharacterString>National Data Buoy Center SOS</gco:CharacterString>
+                                <gco:CharacterString>Sensor Observation Service - GetObservation</gco:CharacterString>
                             </gmd:description>
                             <gmd:function>
                                 <gmd:CI_OnLineFunctionCode
@@ -382,37 +358,7 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
-                                <gco:CharacterString>air_temperature</gco:CharacterString>
-                            </gco:aName>
-                            <gco:attributeType gco:nilReason="unknown"/>
-                        </gco:MemberName>
-                    </gmd:sequenceIdentifier>
-                    <gmd:descriptor>
-                        <gco:CharacterString>http://mmisw.org/ont/cf/parameter/air_temperature</gco:CharacterString>
-                    </gmd:descriptor>
-                </gmd:MD_Band>
-            </gmd:dimension>
-            <gmd:dimension>
-                <gmd:MD_Band>
-                    <gmd:sequenceIdentifier>
-                        <gco:MemberName>
-                            <gco:aName>
-                                <gco:CharacterString>air_pressure_at_sea_level</gco:CharacterString>
-                            </gco:aName>
-                            <gco:attributeType gco:nilReason="unknown"/>
-                        </gco:MemberName>
-                    </gmd:sequenceIdentifier>
-                    <gmd:descriptor>
-                        <gco:CharacterString>http://mmisw.org/ont/cf/parameter/air_pressure_at_sea_level</gco:CharacterString>
-                    </gmd:descriptor>
-                </gmd:MD_Band>
-            </gmd:dimension>
-            <gmd:dimension>
-                <gmd:MD_Band>
-                    <gmd:sequenceIdentifier>
-                        <gco:MemberName>
-                            <gco:aName>
-                                <gco:CharacterString>sea_water_temperature</gco:CharacterString>
+                                <gco:CharacterString>Sea Water Temperature</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
                         </gco:MemberName>
@@ -427,13 +373,13 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
-                                <gco:CharacterString>waves</gco:CharacterString>
+                                <gco:CharacterString>Significant Wave Height</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
                         </gco:MemberName>
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
-                        <gco:CharacterString>http://mmisw.org/ont/cf/parameter/waves</gco:CharacterString>
+                        <gco:CharacterString>http://mmisw.org/ont/ioos/parameter/significant_wave_height</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
@@ -442,13 +388,178 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
-                                <gco:CharacterString>winds</gco:CharacterString>
+                                <gco:CharacterString>Sea Surface Dominant Wave Period</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
                         </gco:MemberName>
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
-                        <gco:CharacterString>http://mmisw.org/ont/cf/parameter/winds</gco:CharacterString>
+                        <gco:CharacterString>http://mmisw.org/ont/aoos/parameter/sea_surface_dominant_wave_period</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
+                                <gco:CharacterString>Mean Wave Period</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>http://mmisw.org/ont/ioos/parameter/mean_wave_period</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
+                                <gco:CharacterString>Sea Surface Swell Wave Significant Height</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>http://mmisw.org/ont/cf/parameter/sea_surface_swell_wave_significant_height</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
+                                <gco:CharacterString>Sea Surface Swell Wave Period</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>http://mmisw.org/ont/cf/parameter/sea_surface_swell_wave_period</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
+                                <gco:CharacterString>Sea Surface Wind Wave Significant Height</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>http://mmisw.org/ont/cf/parameter/sea_surface_wind_wave_significant_height</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
+                                <gco:CharacterString>Sea Surface Wind Wave Period</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>http://mmisw.org/ont/cf/parameter/sea_surface_wind_wave_period</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
+                                <gco:CharacterString>Sea Surface Swell Wave To Direction</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>http://mmisw.org/ont/cf/parameter/sea_surface_swell_wave_to_direction</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
+                                <gco:CharacterString>Sea Surface Wind Wave To Direction</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>http://mmisw.org/ont/cf/parameter/sea_surface_wind_wave_to_direction</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
+                                <gco:CharacterString>Wind Speed</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>http://mmisw.org/ont/cf/parameter/wind_speed</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
+                                <gco:CharacterString>Wind From Direction</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>http://mmisw.org/ont/cf/parameter/wind_from_direction</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
+                                <gco:CharacterString>Wind Vertical Velocity</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>http://mmisw.org/ont/aoos/parameter/wind_vertical_velocity</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
+                                <gco:CharacterString>Wind Gust From Direction</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>http://mmisw.org/ont/ioos/parameter/wind_gust_from_direction</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
