@@ -65,16 +65,7 @@ def main():
 
     isos = GeoCollector("http://data.glos.us/metadata").run()
     download_path = os.path.join(base_download_path, "GeoNetwork")
-    IsoDownloader.run(isos, download_path, namer=GeoCollector.namer, modifier=GeoCollector.modifier)
-    
-    isos = InSituCollector("http://64.9.200.113:8080/isos", "ndbc").run()
-    download_path = os.path.join(base_download_path, "In-situ", "ndbc")
-    IsoDownloader.run(isos, download_path)
-    
-    isos = InSituCollector("http://64.9.200.113:8080/isos", "storet").run()
-    download_path = os.path.join(base_download_path, "In-situ", "storet")
-    IsoDownloader.run(isos, download_path)
-    
+    IsoDownloader.run(isos, download_path, namer=GeoCollector.namer, modifier=GeoCollector.modifier)   
 
 main()
 

@@ -17,7 +17,7 @@ if sys.version < '3': # i'm testing with Python 2.7.3
 import xml.dom.minidom
 
 
-def UpdateGlos(directory = ""):
+def CreateGlos(directory = ""):
     
     try:
         base_server = os.environ["BASEX_SERVER"]
@@ -29,12 +29,17 @@ def UpdateGlos(directory = ""):
 
     # create session
     session = BaseXClient.Session(base_server, base_port, base_user, base_pass)
-    session.execute("OPEN glos")
+
+    session.execute("drop db glos")
     print(session.info())
 
-    print "Updating XML from DIR: '", directory, "'"
+    print "Importing XML in DIR: '", directory, "'"
 
-    try:   
+    try:
+        # create empty database
+        session.execute("create db glos")
+        print(session.info())
+    
         # add document
         for root, dirs, files in walk(directory):
             for f in files:
@@ -44,20 +49,21 @@ def UpdateGlos(directory = ""):
                 
                 fpath = join(root,f)
                 dbpath = join(root,f)[len(directory):]
-
-                if "storet" in dbpath:
-                    continue
+                
+                #print "File:", fpath
+                #print "bd path:", dbpath
         
-                print "Updating %s..." % dbpath
-                session.replace(dbpath, readXml(fpath))
+                session.add(dbpath, readXml(fpath))
+                print(session.info())
+    
     
     except Exception as e:
         # print exception
         print(repr(e))
     
     finally:
-        # close session
         session.execute("CREATE INDEX FULLTEXT")
+        # close session
         if session:
             session.close()
     
@@ -76,5 +82,5 @@ def readXml(filename):
     return content
     
     
-UpdateGlos("ISOs")
+CreateGlos("../ISOs")
 

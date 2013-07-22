@@ -55,7 +55,7 @@
       </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:DateTime xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx">2011-09-21T10:28:09</gco:DateTime>
+      <gco:DateTime xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx">2013-07-15T12:04:32</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
@@ -70,6 +70,9 @@
                <gmd:title>
                   <gco:CharacterString>Plan 77A with consumptive uses added into net basin supplies</gco:CharacterString>
                </gmd:title>
+               <gmd:alternateTitle>
+                  <gco:CharacterString>Consumptive Use Impacts on Water Levels</gco:CharacterString>
+               </gmd:alternateTitle>
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
@@ -173,7 +176,19 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>CONSUMPTIVE USE, WATER USE, WATER WITHDRAWAL, Plan 77A, Historical Record</gco:CharacterString>
+                  <gco:CharacterString>CONSUMPTIVE USE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER USE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER WITHDRAWAL</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Plan 77A</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Historical Record</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeListValue="theme" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode"/>
@@ -262,13 +277,13 @@ Comments: "Users need to be aware that the consumptive use rates for 2004 were a
                <gmd:onLine>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://team.iugls.org/IUGLS%20Documents/Comparison%20Lake%20Superior%20MH%20levels%20between%20Plan77A%20and%20Plan77A%20without%20CU.xls</gmd:URL>
+                        <gmd:URL>http://www.iugls.org/DocStore/ProjectArchive/MIU_MunicipalIndustrialWaterUses/MIU04_Fan_ConsumptiveUseWaterLevelSimulations/Data/ComparisonOfSuperiorAndMichHuronLevels_Plan77A_vs_Plan77AwoCU.xls</gmd:URL>
                      </gmd:linkage>
-                     <gmd:protocol gco:nilReason="missing">
-                        <gco:CharacterString/>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
                      </gmd:protocol>
-                     <gmd:name gco:nilReason="missing">
-                        <gco:CharacterString/>
+                     <gmd:name>
+                        <gco:CharacterString>ComparisonOfSuperiorAndMichHuronLevels_Plan77A_vs_Plan77AwoCU.xls</gco:CharacterString>
                      </gmd:name>
                      <gmd:description gco:nilReason="missing">
                         <gco:CharacterString/>

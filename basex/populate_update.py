@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 # Documentation: http://docs.basex.org/wiki/Clients
 #
+# Usage: BASEX_SERVER=localhost BASEX_USER=admin BASEX_PASS=admin python populate_database.py
+#
 # (C) BaseX Team 2005-12, BSD License
 import BaseXClient
 from os import walk
@@ -15,7 +17,7 @@ if sys.version < '3': # i'm testing with Python 2.7.3
 import xml.dom.minidom
 
 
-def UpdateSingle(xml_file):
+def UpdateGlos(directory = ""):
     
     try:
         base_server = os.environ["BASEX_SERVER"]
@@ -25,21 +27,40 @@ def UpdateSingle(xml_file):
     except:
         raise ValueError("Please set environmental variables %s, %s, and %s" % ("BASEX_SERVER", "BASEX_USER", "BASEX_PASS"))
 
-    print "Importing file: %s" % xml_file
-
     # create session
     session = BaseXClient.Session(base_server, base_port, base_user, base_pass)
     session.execute("OPEN glos")
+    print(session.info())
 
-    try:
-        dbpath = "/".join(xml_file.split("/")[1:])
-        session.replace(dbpath, readXml(xml_file))
-        print(session.info()) 
+    print "Updating XML from DIR: '", directory, "'"
+
+    try:   
+        # add document
+        for root, dirs, files in walk(directory):
+            for f in files:
+
+                if os.path.splitext(f)[1][1:].strip().lower() != "xml":
+                  continue
+                
+                fpath = join(root,f)
+                dbpath = join(root,f)[len(directory):]
+
+                if "ndbc" not in dbpath:
+                    continue
+
+                print "Updating %s..." % dbpath
+                session.replace(dbpath, readXml(fpath))
+    
+    except Exception as e:
+        # print exception
+        print(repr(e))
+    
     finally:
         # close session
         session.execute("CREATE INDEX FULLTEXT")
         if session:
             session.close()
+    
 
 def readXml(filename):
     
@@ -50,10 +71,10 @@ def readXml(filename):
     content = doc.toxml()
     # str if Python 3.x, unicode if Python 2.x.
     # (both are actually real unicode. (ucs2 or ucs4.))
-    print(type(content))
+    #print(type(content))
     
     return content
     
     
-UpdateSingle("ISOs/In-situ/storet/10070005.xml")
+UpdateGlos("../ISOs")
 
