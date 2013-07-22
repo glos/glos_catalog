@@ -6,11 +6,10 @@ from pyiso.downloader import IsoDownloader
 import requests
 import os
 import codecs
+import sys
 
 
-def main():
-
-    base_download_path = "/home/dev/Development/glos_catalog/ISOs"
+def main(base_download_path):
 
     # datasets: The ID in THREDDS needs to contain one of these strings to be identified.
     # skips: The LINK path in the actual thredds catalog webpage can't be equal to any of these strings
@@ -67,6 +66,6 @@ def main():
     download_path = os.path.join(base_download_path, "GeoNetwork")
     IsoDownloader.run(isos, download_path, namer=GeoCollector.namer, modifier=GeoCollector.modifier)   
 
-main()
+main(sys.argv[1])
 
 exit(0)
