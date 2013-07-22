@@ -17,57 +17,6 @@
     <gmd:contact>
         <gmd:CI_ResponsibleParty>
             <gmd:individualName>
-                <gco:CharacterString>GLOS DMAC</gco:CharacterString>
-            </gmd:individualName>
-            <gmd:organisationName>
-                <gco:CharacterString>Great Lakes Observing System</gco:CharacterString>
-            </gmd:organisationName>
-            <gmd:contactInfo>
-                <gmd:CI_Contact>
-                    <gmd:phone>
-                        <gmd:CI_Telephone>
-                            <gmd:voice>
-                                <gco:CharacterString>(734) 332-6113</gco:CharacterString>
-                            </gmd:voice>
-                        </gmd:CI_Telephone>
-                    </gmd:phone>
-                    <gmd:address>
-                        <gmd:CI_Address>
-                            <gmd:deliveryPoint>
-                                <gco:CharacterString>229 Nickels Arcade</gco:CharacterString>
-                            </gmd:deliveryPoint>
-                            <gmd:city>
-                                <gco:CharacterString>Ann Arbor</gco:CharacterString>
-                            </gmd:city>
-                            <gmd:administrativeArea>
-                                <gco:CharacterString>Michigan</gco:CharacterString>
-                            </gmd:administrativeArea>
-                            <gmd:postalCode>
-                                <gco:CharacterString>48104</gco:CharacterString>
-                            </gmd:postalCode>
-                            <gmd:electronicMailAddress>
-                                <gco:CharacterString>dmac@glos.us</gco:CharacterString>
-                            </gmd:electronicMailAddress>
-                        </gmd:CI_Address>
-                    </gmd:address>
-                    <gmd:onlineResource>
-                        <gmd:CI_OnlineResource id="glos_url">
-                            <gmd:linkage>
-                                <gmd:URL>http://glos.us</gmd:URL>
-                            </gmd:linkage>
-                        </gmd:CI_OnlineResource>
-                    </gmd:onlineResource>
-                </gmd:CI_Contact>
-            </gmd:contactInfo>
-            <gmd:role>
-                <gmd:CI_RoleCode
-                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/CodeList/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
-            </gmd:role>
-        </gmd:CI_ResponsibleParty>
-    </gmd:contact>
-    <gmd:contact>
-        <gmd:CI_ResponsibleParty>
-            <gmd:individualName>
                 <gco:CharacterString>NWQMC - WQP</gco:CharacterString>
             </gmd:individualName>
             <gmd:organisationName>
@@ -150,7 +99,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:Date>2013-03-20</gco:Date>
+        <gco:Date>2013-07-22</gco:Date>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -168,7 +117,7 @@
                     <gmd:date>
                         <gmd:CI_Date>
                             <gmd:date>
-                                <gco:DateTime>2013-03-20T22:59:42.312Z</gco:DateTime>
+                                <gco:DateTime>2013-07-22T08:39:20.328Z</gco:DateTime>
                             </gmd:date>
                             <gmd:dateType gco:nilReason="unknown"/>
                         </gmd:CI_Date>
@@ -205,6 +154,9 @@
                         <gco:CharacterString>Lindane</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
+                        <gco:CharacterString>2-Chloro-4-isopropylamino-6-amino-s-triazine</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
                         <gco:CharacterString>.alpha.-Amino-2,3-dihydro-5-methyl-3-oxo-4-isoxazolepropanoic acid</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
@@ -217,7 +169,7 @@
                         <gco:CharacterString>Organic carbon</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>2,4-D, Dichlorophenoxyacetic acid</gco:CharacterString>
+                        <gco:CharacterString>2,4-DB</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Carbofuran</gco:CharacterString>
@@ -241,6 +193,9 @@
                         <gco:CharacterString>Propachlor</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
+                        <gco:CharacterString>Mecoprop</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
                         <gco:CharacterString>Hardness, carbonate</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
@@ -251,9 +206,6 @@
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Aroclor 1221</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>Sulfur, sulfate (SO4) as SO4</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Glyphosate</gco:CharacterString>
@@ -298,9 +250,6 @@
                         <gco:CharacterString>Specific conductance</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>EPTC, Dipropylthiocarbamic acid s-ethyl ester</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
                         <gco:CharacterString>Aroclor 1260</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
@@ -311,9 +260,6 @@
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Beryllium</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>Dichlorovos</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Carbaryl</gco:CharacterString>
@@ -329,6 +275,9 @@
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>.alpha.-Hexachlorocyclohexane</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Phosphorus as P</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Enterococcus</gco:CharacterString>
@@ -352,10 +301,10 @@
                         <gco:CharacterString>MCPA</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>Turbidity</gco:CharacterString>
+                        <gco:CharacterString>Dichlorvos</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>Desethyl atrazine</gco:CharacterString>
+                        <gco:CharacterString>Turbidity</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Dimethenamid</gco:CharacterString>
@@ -382,9 +331,6 @@
                         <gco:CharacterString>p,p'-DDE</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>2,4,5-T, Trichlorophenoxyacetic acid</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
                         <gco:CharacterString>Copper</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
@@ -406,9 +352,6 @@
                         <gco:CharacterString>Atrazine</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>Phosphate-phosphorus as P</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
                         <gco:CharacterString>Dalapon</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
@@ -422,6 +365,9 @@
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Carbonaceous biochemical oxygen demand, standard conditions</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Sulfate as SO4</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>.delta.-Hexachlorocyclohexane</gco:CharacterString>
@@ -445,7 +391,13 @@
                         <gco:CharacterString>Nitrate as N</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
+                        <gco:CharacterString>2,4,5-T</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
                         <gco:CharacterString>2-Choro-6-ethylamino-4-amino-s-triazine</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>S-Ethyl dipropylthiocarbamate</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Heptachlor epoxide</gco:CharacterString>
@@ -490,7 +442,7 @@
                         <gco:CharacterString>Total suspended solids</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>MCPP, Mecoprop</gco:CharacterString>
+                        <gco:CharacterString>2,4-D</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Trifluralin</gco:CharacterString>
@@ -518,9 +470,6 @@
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Cyanide</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>2,4-DB, Dichlorophenoxybutyric acid</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Bentazon</gco:CharacterString>
@@ -605,7 +554,7 @@
                     <gmd:temporalElement>
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
-                                <gml:TimePeriod id="265444435">
+                                <gml:TimePeriod id="TP-EX1">
                                     <gml:beginPosition>1999-10-25T20:00:00.000Z</gml:beginPosition>
                                     <gml:endPosition>2009-09-01T15:30:00.000Z</gml:endPosition>
                                 </gml:TimePeriod>
@@ -685,7 +634,7 @@
                     <gmd:temporalElement>
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
-                                <gml:TimePeriod id="-1572728753">
+                                <gml:TimePeriod id="TP-EX1">
                                     <gml:beginPosition>1999-10-25T20:00:00.000Z</gml:beginPosition>
                                     <gml:endPosition>2009-09-01T15:30:00.000Z</gml:endPosition>
                                 </gml:TimePeriod>
@@ -915,6 +864,21 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
+                                <gco:CharacterString>2-Chloro-4-isopropylamino-6-amino-s-triazine</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>2-Chloro-4-isopropylamino-6-amino-s-triazine</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
                                 <gco:CharacterString>.alpha.-Amino-2,3-dihydro-5-methyl-3-oxo-4-isoxazolepropanoic acid</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
@@ -975,13 +939,13 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
-                                <gco:CharacterString>2,4-D, Dichlorophenoxyacetic acid</gco:CharacterString>
+                                <gco:CharacterString>2,4-DB</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
                         </gco:MemberName>
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
-                        <gco:CharacterString>2,4-D, Dichlorophenoxyacetic acid</gco:CharacterString>
+                        <gco:CharacterString>2,4-DB</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
@@ -1095,6 +1059,21 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
+                                <gco:CharacterString>Mecoprop</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>Mecoprop</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
                                 <gco:CharacterString>Hardness, carbonate</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
@@ -1147,21 +1126,6 @@
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
                         <gco:CharacterString>Aroclor 1221</gco:CharacterString>
-                    </gmd:descriptor>
-                </gmd:MD_Band>
-            </gmd:dimension>
-            <gmd:dimension>
-                <gmd:MD_Band>
-                    <gmd:sequenceIdentifier>
-                        <gco:MemberName>
-                            <gco:aName>
-                                <gco:CharacterString>Sulfur, sulfate (SO4) as SO4</gco:CharacterString>
-                            </gco:aName>
-                            <gco:attributeType gco:nilReason="unknown"/>
-                        </gco:MemberName>
-                    </gmd:sequenceIdentifier>
-                    <gmd:descriptor>
-                        <gco:CharacterString>Sulfur, sulfate (SO4) as SO4</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
@@ -1380,21 +1344,6 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
-                                <gco:CharacterString>EPTC, Dipropylthiocarbamic acid s-ethyl ester</gco:CharacterString>
-                            </gco:aName>
-                            <gco:attributeType gco:nilReason="unknown"/>
-                        </gco:MemberName>
-                    </gmd:sequenceIdentifier>
-                    <gmd:descriptor>
-                        <gco:CharacterString>EPTC, Dipropylthiocarbamic acid s-ethyl ester</gco:CharacterString>
-                    </gmd:descriptor>
-                </gmd:MD_Band>
-            </gmd:dimension>
-            <gmd:dimension>
-                <gmd:MD_Band>
-                    <gmd:sequenceIdentifier>
-                        <gco:MemberName>
-                            <gco:aName>
                                 <gco:CharacterString>Aroclor 1260</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
@@ -1447,21 +1396,6 @@
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
                         <gco:CharacterString>Beryllium</gco:CharacterString>
-                    </gmd:descriptor>
-                </gmd:MD_Band>
-            </gmd:dimension>
-            <gmd:dimension>
-                <gmd:MD_Band>
-                    <gmd:sequenceIdentifier>
-                        <gco:MemberName>
-                            <gco:aName>
-                                <gco:CharacterString>Dichlorovos</gco:CharacterString>
-                            </gco:aName>
-                            <gco:attributeType gco:nilReason="unknown"/>
-                        </gco:MemberName>
-                    </gmd:sequenceIdentifier>
-                    <gmd:descriptor>
-                        <gco:CharacterString>Dichlorovos</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
@@ -1537,6 +1471,21 @@
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
                         <gco:CharacterString>.alpha.-Hexachlorocyclohexane</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
+                                <gco:CharacterString>Phosphorus as P</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>Phosphorus as P</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
@@ -1650,13 +1599,13 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
-                                <gco:CharacterString>Turbidity</gco:CharacterString>
+                                <gco:CharacterString>Dichlorvos</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
                         </gco:MemberName>
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
-                        <gco:CharacterString>Turbidity</gco:CharacterString>
+                        <gco:CharacterString>Dichlorvos</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
@@ -1665,13 +1614,13 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
-                                <gco:CharacterString>Desethyl atrazine</gco:CharacterString>
+                                <gco:CharacterString>Turbidity</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
                         </gco:MemberName>
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
-                        <gco:CharacterString>Desethyl atrazine</gco:CharacterString>
+                        <gco:CharacterString>Turbidity</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
@@ -1800,21 +1749,6 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
-                                <gco:CharacterString>2,4,5-T, Trichlorophenoxyacetic acid</gco:CharacterString>
-                            </gco:aName>
-                            <gco:attributeType gco:nilReason="unknown"/>
-                        </gco:MemberName>
-                    </gmd:sequenceIdentifier>
-                    <gmd:descriptor>
-                        <gco:CharacterString>2,4,5-T, Trichlorophenoxyacetic acid</gco:CharacterString>
-                    </gmd:descriptor>
-                </gmd:MD_Band>
-            </gmd:dimension>
-            <gmd:dimension>
-                <gmd:MD_Band>
-                    <gmd:sequenceIdentifier>
-                        <gco:MemberName>
-                            <gco:aName>
                                 <gco:CharacterString>Copper</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
@@ -1920,21 +1854,6 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
-                                <gco:CharacterString>Phosphate-phosphorus as P</gco:CharacterString>
-                            </gco:aName>
-                            <gco:attributeType gco:nilReason="unknown"/>
-                        </gco:MemberName>
-                    </gmd:sequenceIdentifier>
-                    <gmd:descriptor>
-                        <gco:CharacterString>Phosphate-phosphorus as P</gco:CharacterString>
-                    </gmd:descriptor>
-                </gmd:MD_Band>
-            </gmd:dimension>
-            <gmd:dimension>
-                <gmd:MD_Band>
-                    <gmd:sequenceIdentifier>
-                        <gco:MemberName>
-                            <gco:aName>
                                 <gco:CharacterString>Dalapon</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
@@ -2002,6 +1921,21 @@
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
                         <gco:CharacterString>Carbonaceous biochemical oxygen demand, standard conditions</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
+                                <gco:CharacterString>Sulfate as SO4</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>Sulfate as SO4</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
@@ -2115,6 +2049,21 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
+                                <gco:CharacterString>2,4,5-T</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>2,4,5-T</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
                                 <gco:CharacterString>2-Choro-6-ethylamino-4-amino-s-triazine</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
@@ -2122,6 +2071,21 @@
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
                         <gco:CharacterString>2-Choro-6-ethylamino-4-amino-s-triazine</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
+                                <gco:CharacterString>S-Ethyl dipropylthiocarbamate</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>S-Ethyl dipropylthiocarbamate</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
@@ -2340,13 +2304,13 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
-                                <gco:CharacterString>MCPP, Mecoprop</gco:CharacterString>
+                                <gco:CharacterString>2,4-D</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
                         </gco:MemberName>
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
-                        <gco:CharacterString>MCPP, Mecoprop</gco:CharacterString>
+                        <gco:CharacterString>2,4-D</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
@@ -2482,21 +2446,6 @@
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
                         <gco:CharacterString>Cyanide</gco:CharacterString>
-                    </gmd:descriptor>
-                </gmd:MD_Band>
-            </gmd:dimension>
-            <gmd:dimension>
-                <gmd:MD_Band>
-                    <gmd:sequenceIdentifier>
-                        <gco:MemberName>
-                            <gco:aName>
-                                <gco:CharacterString>2,4-DB, Dichlorophenoxybutyric acid</gco:CharacterString>
-                            </gco:aName>
-                            <gco:attributeType gco:nilReason="unknown"/>
-                        </gco:MemberName>
-                    </gmd:sequenceIdentifier>
-                    <gmd:descriptor>
-                        <gco:CharacterString>2,4-DB, Dichlorophenoxybutyric acid</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>

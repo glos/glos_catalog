@@ -17,57 +17,6 @@
     <gmd:contact>
         <gmd:CI_ResponsibleParty>
             <gmd:individualName>
-                <gco:CharacterString>GLOS DMAC</gco:CharacterString>
-            </gmd:individualName>
-            <gmd:organisationName>
-                <gco:CharacterString>Great Lakes Observing System</gco:CharacterString>
-            </gmd:organisationName>
-            <gmd:contactInfo>
-                <gmd:CI_Contact>
-                    <gmd:phone>
-                        <gmd:CI_Telephone>
-                            <gmd:voice>
-                                <gco:CharacterString>(734) 332-6113</gco:CharacterString>
-                            </gmd:voice>
-                        </gmd:CI_Telephone>
-                    </gmd:phone>
-                    <gmd:address>
-                        <gmd:CI_Address>
-                            <gmd:deliveryPoint>
-                                <gco:CharacterString>229 Nickels Arcade</gco:CharacterString>
-                            </gmd:deliveryPoint>
-                            <gmd:city>
-                                <gco:CharacterString>Ann Arbor</gco:CharacterString>
-                            </gmd:city>
-                            <gmd:administrativeArea>
-                                <gco:CharacterString>Michigan</gco:CharacterString>
-                            </gmd:administrativeArea>
-                            <gmd:postalCode>
-                                <gco:CharacterString>48104</gco:CharacterString>
-                            </gmd:postalCode>
-                            <gmd:electronicMailAddress>
-                                <gco:CharacterString>dmac@glos.us</gco:CharacterString>
-                            </gmd:electronicMailAddress>
-                        </gmd:CI_Address>
-                    </gmd:address>
-                    <gmd:onlineResource>
-                        <gmd:CI_OnlineResource id="glos_url">
-                            <gmd:linkage>
-                                <gmd:URL>http://glos.us</gmd:URL>
-                            </gmd:linkage>
-                        </gmd:CI_OnlineResource>
-                    </gmd:onlineResource>
-                </gmd:CI_Contact>
-            </gmd:contactInfo>
-            <gmd:role>
-                <gmd:CI_RoleCode
-                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/CodeList/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
-            </gmd:role>
-        </gmd:CI_ResponsibleParty>
-    </gmd:contact>
-    <gmd:contact>
-        <gmd:CI_ResponsibleParty>
-            <gmd:individualName>
                 <gco:CharacterString>NWQMC - WQP</gco:CharacterString>
             </gmd:individualName>
             <gmd:organisationName>
@@ -150,7 +99,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:Date>2013-03-20</gco:Date>
+        <gco:Date>2013-07-22</gco:Date>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -168,7 +117,7 @@
                     <gmd:date>
                         <gmd:CI_Date>
                             <gmd:date>
-                                <gco:DateTime>2013-03-20T23:51:57.103Z</gco:DateTime>
+                                <gco:DateTime>2013-07-22T08:46:53.572Z</gco:DateTime>
                             </gmd:date>
                             <gmd:dateType gco:nilReason="unknown"/>
                         </gmd:CI_Date>
@@ -196,6 +145,9 @@
                         <gco:CharacterString>1,2,4-Trichlorobenzene</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
+                        <gco:CharacterString>Dibenz[a,h]anthracene</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
                         <gco:CharacterString>2,4-Dinitrophenol</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
@@ -203,6 +155,9 @@
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Lindane</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>2-Chloro-4-isopropylamino-6-amino-s-triazine</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>C1-C4 Phenanthrenes</gco:CharacterString>
@@ -223,9 +178,6 @@
                         <gco:CharacterString>Organic carbon</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>2,4-D, Dichlorophenoxyacetic acid</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
                         <gco:CharacterString>Hexachloroethane</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
@@ -233,6 +185,9 @@
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>p-Nitrophenol</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>2,4-DB</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Carbofuran</gco:CharacterString>
@@ -260,9 +215,6 @@
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Picloram</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>1,4-Dichlorobenzene</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Benzo[k]fluoranthene</gco:CharacterString>
@@ -340,16 +292,10 @@
                         <gco:CharacterString>p-Chloro-m-cresol</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>n-Nitrosodipropylamine</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
                         <gco:CharacterString>Endrin aldehyde</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Beryllium</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>Dibenzo[a,h]anthracene</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Isophorone</gco:CharacterString>
@@ -365,6 +311,12 @@
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>.alpha.-Hexachlorocyclohexane</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Phosphorus as P</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>p-Dichlorobenzene</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Antimony</gco:CharacterString>
@@ -386,9 +338,6 @@
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Turbidity</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>Desethyl atrazine</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>2,4-Dichlorophenol</gco:CharacterString>
@@ -439,9 +388,6 @@
                         <gco:CharacterString>p,p'-DDE</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>2,4,5-T, Trichlorophenoxyacetic acid</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
                         <gco:CharacterString>Copper</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
@@ -454,7 +400,7 @@
                         <gco:CharacterString>Atrazine</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>Phosphate-phosphorus as P</gco:CharacterString>
+                        <gco:CharacterString>N-Nitrosodi-n-propylamine</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>.beta.-Endosulfan</gco:CharacterString>
@@ -488,6 +434,9 @@
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Heptachlor</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>2,4,5-T</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>2-Choro-6-ethylamino-4-amino-s-triazine</gco:CharacterString>
@@ -547,6 +496,9 @@
                         <gco:CharacterString>Total suspended solids</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
+                        <gco:CharacterString>2,4-D</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
                         <gco:CharacterString>Trifluralin</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
@@ -566,9 +518,6 @@
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Dieldrin</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>2,4-DB, Dichlorophenoxybutyric acid</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Bentazon</gco:CharacterString>
@@ -616,6 +565,9 @@
                         <gco:CharacterString>Toxaphene</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
+                        <gco:CharacterString>2,4,6-Trichlorophenol</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
                         <gco:CharacterString>Aroclor 1248</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
@@ -635,9 +587,6 @@
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Carbazole</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>2,4,6-Trichlorophenol (TCPh)</gco:CharacterString>
                     </gmd:keyword>
                 </gmd:MD_Keywords>
             </gmd:descriptiveKeywords>
@@ -671,7 +620,7 @@
                     <gmd:temporalElement>
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
-                                <gml:TimePeriod id="591698112">
+                                <gml:TimePeriod id="TP-EX1">
                                     <gml:beginPosition>2005-06-09T16:50:00.000Z</gml:beginPosition>
                                     <gml:endPosition>2008-06-18T17:20:00.000Z</gml:endPosition>
                                 </gml:TimePeriod>
@@ -751,7 +700,7 @@
                     <gmd:temporalElement>
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
-                                <gml:TimePeriod id="-1293508784">
+                                <gml:TimePeriod id="TP-EX1">
                                     <gml:beginPosition>2005-06-09T16:50:00.000Z</gml:beginPosition>
                                     <gml:endPosition>2008-06-18T17:20:00.000Z</gml:endPosition>
                                 </gml:TimePeriod>
@@ -936,6 +885,21 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
+                                <gco:CharacterString>Dibenz[a,h]anthracene</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>Dibenz[a,h]anthracene</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
                                 <gco:CharacterString>2,4-Dinitrophenol</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
@@ -973,6 +937,21 @@
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
                         <gco:CharacterString>Lindane</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
+                                <gco:CharacterString>2-Chloro-4-isopropylamino-6-amino-s-triazine</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>2-Chloro-4-isopropylamino-6-amino-s-triazine</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
@@ -1071,21 +1050,6 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
-                                <gco:CharacterString>2,4-D, Dichlorophenoxyacetic acid</gco:CharacterString>
-                            </gco:aName>
-                            <gco:attributeType gco:nilReason="unknown"/>
-                        </gco:MemberName>
-                    </gmd:sequenceIdentifier>
-                    <gmd:descriptor>
-                        <gco:CharacterString>2,4-D, Dichlorophenoxyacetic acid</gco:CharacterString>
-                    </gmd:descriptor>
-                </gmd:MD_Band>
-            </gmd:dimension>
-            <gmd:dimension>
-                <gmd:MD_Band>
-                    <gmd:sequenceIdentifier>
-                        <gco:MemberName>
-                            <gco:aName>
                                 <gco:CharacterString>Hexachloroethane</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
@@ -1123,6 +1087,21 @@
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
                         <gco:CharacterString>p-Nitrophenol</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
+                                <gco:CharacterString>2,4-DB</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>2,4-DB</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
@@ -1258,21 +1237,6 @@
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
                         <gco:CharacterString>Picloram</gco:CharacterString>
-                    </gmd:descriptor>
-                </gmd:MD_Band>
-            </gmd:dimension>
-            <gmd:dimension>
-                <gmd:MD_Band>
-                    <gmd:sequenceIdentifier>
-                        <gco:MemberName>
-                            <gco:aName>
-                                <gco:CharacterString>1,4-Dichlorobenzene</gco:CharacterString>
-                            </gco:aName>
-                            <gco:attributeType gco:nilReason="unknown"/>
-                        </gco:MemberName>
-                    </gmd:sequenceIdentifier>
-                    <gmd:descriptor>
-                        <gco:CharacterString>1,4-Dichlorobenzene</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
@@ -1656,21 +1620,6 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
-                                <gco:CharacterString>n-Nitrosodipropylamine</gco:CharacterString>
-                            </gco:aName>
-                            <gco:attributeType gco:nilReason="unknown"/>
-                        </gco:MemberName>
-                    </gmd:sequenceIdentifier>
-                    <gmd:descriptor>
-                        <gco:CharacterString>n-Nitrosodipropylamine</gco:CharacterString>
-                    </gmd:descriptor>
-                </gmd:MD_Band>
-            </gmd:dimension>
-            <gmd:dimension>
-                <gmd:MD_Band>
-                    <gmd:sequenceIdentifier>
-                        <gco:MemberName>
-                            <gco:aName>
                                 <gco:CharacterString>Endrin aldehyde</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
@@ -1693,21 +1642,6 @@
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
                         <gco:CharacterString>Beryllium</gco:CharacterString>
-                    </gmd:descriptor>
-                </gmd:MD_Band>
-            </gmd:dimension>
-            <gmd:dimension>
-                <gmd:MD_Band>
-                    <gmd:sequenceIdentifier>
-                        <gco:MemberName>
-                            <gco:aName>
-                                <gco:CharacterString>Dibenzo[a,h]anthracene</gco:CharacterString>
-                            </gco:aName>
-                            <gco:attributeType gco:nilReason="unknown"/>
-                        </gco:MemberName>
-                    </gmd:sequenceIdentifier>
-                    <gmd:descriptor>
-                        <gco:CharacterString>Dibenzo[a,h]anthracene</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
@@ -1783,6 +1717,36 @@
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
                         <gco:CharacterString>.alpha.-Hexachlorocyclohexane</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
+                                <gco:CharacterString>Phosphorus as P</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>Phosphorus as P</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
+                                <gco:CharacterString>p-Dichlorobenzene</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>p-Dichlorobenzene</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
@@ -1888,21 +1852,6 @@
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
                         <gco:CharacterString>Turbidity</gco:CharacterString>
-                    </gmd:descriptor>
-                </gmd:MD_Band>
-            </gmd:dimension>
-            <gmd:dimension>
-                <gmd:MD_Band>
-                    <gmd:sequenceIdentifier>
-                        <gco:MemberName>
-                            <gco:aName>
-                                <gco:CharacterString>Desethyl atrazine</gco:CharacterString>
-                            </gco:aName>
-                            <gco:attributeType gco:nilReason="unknown"/>
-                        </gco:MemberName>
-                    </gmd:sequenceIdentifier>
-                    <gmd:descriptor>
-                        <gco:CharacterString>Desethyl atrazine</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
@@ -2151,21 +2100,6 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
-                                <gco:CharacterString>2,4,5-T, Trichlorophenoxyacetic acid</gco:CharacterString>
-                            </gco:aName>
-                            <gco:attributeType gco:nilReason="unknown"/>
-                        </gco:MemberName>
-                    </gmd:sequenceIdentifier>
-                    <gmd:descriptor>
-                        <gco:CharacterString>2,4,5-T, Trichlorophenoxyacetic acid</gco:CharacterString>
-                    </gmd:descriptor>
-                </gmd:MD_Band>
-            </gmd:dimension>
-            <gmd:dimension>
-                <gmd:MD_Band>
-                    <gmd:sequenceIdentifier>
-                        <gco:MemberName>
-                            <gco:aName>
                                 <gco:CharacterString>Copper</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
@@ -2226,13 +2160,13 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
-                                <gco:CharacterString>Phosphate-phosphorus as P</gco:CharacterString>
+                                <gco:CharacterString>N-Nitrosodi-n-propylamine</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
                         </gco:MemberName>
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
-                        <gco:CharacterString>Phosphate-phosphorus as P</gco:CharacterString>
+                        <gco:CharacterString>N-Nitrosodi-n-propylamine</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
@@ -2398,6 +2332,21 @@
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
                         <gco:CharacterString>Heptachlor</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
+                                <gco:CharacterString>2,4,5-T</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>2,4,5-T</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
@@ -2691,6 +2640,21 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
+                                <gco:CharacterString>2,4-D</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>2,4-D</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
                                 <gco:CharacterString>Trifluralin</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
@@ -2788,21 +2752,6 @@
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
                         <gco:CharacterString>Dieldrin</gco:CharacterString>
-                    </gmd:descriptor>
-                </gmd:MD_Band>
-            </gmd:dimension>
-            <gmd:dimension>
-                <gmd:MD_Band>
-                    <gmd:sequenceIdentifier>
-                        <gco:MemberName>
-                            <gco:aName>
-                                <gco:CharacterString>2,4-DB, Dichlorophenoxybutyric acid</gco:CharacterString>
-                            </gco:aName>
-                            <gco:attributeType gco:nilReason="unknown"/>
-                        </gco:MemberName>
-                    </gmd:sequenceIdentifier>
-                    <gmd:descriptor>
-                        <gco:CharacterString>2,4-DB, Dichlorophenoxybutyric acid</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
@@ -3036,6 +2985,21 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
+                                <gco:CharacterString>2,4,6-Trichlorophenol</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>2,4,6-Trichlorophenol</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
                                 <gco:CharacterString>Aroclor 1248</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
@@ -3133,21 +3097,6 @@
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
                         <gco:CharacterString>Carbazole</gco:CharacterString>
-                    </gmd:descriptor>
-                </gmd:MD_Band>
-            </gmd:dimension>
-            <gmd:dimension>
-                <gmd:MD_Band>
-                    <gmd:sequenceIdentifier>
-                        <gco:MemberName>
-                            <gco:aName>
-                                <gco:CharacterString>2,4,6-Trichlorophenol (TCPh)</gco:CharacterString>
-                            </gco:aName>
-                            <gco:attributeType gco:nilReason="unknown"/>
-                        </gco:MemberName>
-                    </gmd:sequenceIdentifier>
-                    <gmd:descriptor>
-                        <gco:CharacterString>2,4,6-Trichlorophenol (TCPh)</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>

@@ -17,57 +17,6 @@
     <gmd:contact>
         <gmd:CI_ResponsibleParty>
             <gmd:individualName>
-                <gco:CharacterString>GLOS DMAC</gco:CharacterString>
-            </gmd:individualName>
-            <gmd:organisationName>
-                <gco:CharacterString>Great Lakes Observing System</gco:CharacterString>
-            </gmd:organisationName>
-            <gmd:contactInfo>
-                <gmd:CI_Contact>
-                    <gmd:phone>
-                        <gmd:CI_Telephone>
-                            <gmd:voice>
-                                <gco:CharacterString>(734) 332-6113</gco:CharacterString>
-                            </gmd:voice>
-                        </gmd:CI_Telephone>
-                    </gmd:phone>
-                    <gmd:address>
-                        <gmd:CI_Address>
-                            <gmd:deliveryPoint>
-                                <gco:CharacterString>229 Nickels Arcade</gco:CharacterString>
-                            </gmd:deliveryPoint>
-                            <gmd:city>
-                                <gco:CharacterString>Ann Arbor</gco:CharacterString>
-                            </gmd:city>
-                            <gmd:administrativeArea>
-                                <gco:CharacterString>Michigan</gco:CharacterString>
-                            </gmd:administrativeArea>
-                            <gmd:postalCode>
-                                <gco:CharacterString>48104</gco:CharacterString>
-                            </gmd:postalCode>
-                            <gmd:electronicMailAddress>
-                                <gco:CharacterString>dmac@glos.us</gco:CharacterString>
-                            </gmd:electronicMailAddress>
-                        </gmd:CI_Address>
-                    </gmd:address>
-                    <gmd:onlineResource>
-                        <gmd:CI_OnlineResource id="glos_url">
-                            <gmd:linkage>
-                                <gmd:URL>http://glos.us</gmd:URL>
-                            </gmd:linkage>
-                        </gmd:CI_OnlineResource>
-                    </gmd:onlineResource>
-                </gmd:CI_Contact>
-            </gmd:contactInfo>
-            <gmd:role>
-                <gmd:CI_RoleCode
-                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/CodeList/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
-            </gmd:role>
-        </gmd:CI_ResponsibleParty>
-    </gmd:contact>
-    <gmd:contact>
-        <gmd:CI_ResponsibleParty>
-            <gmd:individualName>
                 <gco:CharacterString>NWQMC - WQP</gco:CharacterString>
             </gmd:individualName>
             <gmd:organisationName>
@@ -150,7 +99,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:Date>2013-03-21</gco:Date>
+        <gco:Date>2013-07-22</gco:Date>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -168,7 +117,7 @@
                     <gmd:date>
                         <gmd:CI_Date>
                             <gmd:date>
-                                <gco:DateTime>2013-03-21T03:18:28.002Z</gco:DateTime>
+                                <gco:DateTime>2013-07-22T09:50:42.089Z</gco:DateTime>
                             </gmd:date>
                             <gmd:dateType gco:nilReason="unknown"/>
                         </gmd:CI_Date>
@@ -187,7 +136,13 @@
                         <gco:CharacterString>Phorate</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
+                        <gco:CharacterString>Dibenz[a,h]anthracene</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
                         <gco:CharacterString>Lindane</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>2-Chloro-4-isopropylamino-6-amino-s-triazine</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Propanil</gco:CharacterString>
@@ -218,9 +173,6 @@
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Fluometuron</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>Chlordane, trans</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>(-)-trans-Permethrin</gco:CharacterString>
@@ -310,9 +262,6 @@
                         <gco:CharacterString>Benzo(b)fluoranthene</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>EPTC, Dipropylthiocarbamic acid s-ethyl ester</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
                         <gco:CharacterString>Ethion</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
@@ -323,12 +272,6 @@
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Azinphos-methyl</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>Dichlorovos</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>Dibenzo[a,h]anthracene</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Isophorone</gco:CharacterString>
@@ -364,6 +307,9 @@
                         <gco:CharacterString>Clomazone</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
+                        <gco:CharacterString>Dichlorvos</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
                         <gco:CharacterString>Di(2-ethylhexyl) adipate</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
@@ -377,9 +323,6 @@
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Turbidity</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>Desethyl atrazine</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Diphenamid</gco:CharacterString>
@@ -442,6 +385,9 @@
                         <gco:CharacterString>Merphos</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
+                        <gco:CharacterString>trans-Chlordane</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
                         <gco:CharacterString>Molinate</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
@@ -479,6 +425,9 @@
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>2-Choro-6-ethylamino-4-amino-s-triazine</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>S-Ethyl dipropylthiocarbamate</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Heptachlor epoxide</gco:CharacterString>
@@ -644,7 +593,7 @@
                     <gmd:temporalElement>
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
-                                <gml:TimePeriod id="1969149511">
+                                <gml:TimePeriod id="TP-EX1">
                                     <gml:beginPosition>1998-04-03T00:00:00.000Z</gml:beginPosition>
                                     <gml:endPosition>1998-07-29T21:00:00.000Z</gml:endPosition>
                                 </gml:TimePeriod>
@@ -724,7 +673,7 @@
                     <gmd:temporalElement>
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
-                                <gml:TimePeriod id="464444061">
+                                <gml:TimePeriod id="TP-EX1">
                                     <gml:beginPosition>1998-04-03T00:00:00.000Z</gml:beginPosition>
                                     <gml:endPosition>1998-07-29T21:00:00.000Z</gml:endPosition>
                                 </gml:TimePeriod>
@@ -864,6 +813,21 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
+                                <gco:CharacterString>Dibenz[a,h]anthracene</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>Dibenz[a,h]anthracene</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
                                 <gco:CharacterString>Lindane</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
@@ -871,6 +835,21 @@
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
                         <gco:CharacterString>Lindane</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
+                                <gco:CharacterString>2-Chloro-4-isopropylamino-6-amino-s-triazine</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>2-Chloro-4-isopropylamino-6-amino-s-triazine</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
@@ -1021,21 +1000,6 @@
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
                         <gco:CharacterString>Fluometuron</gco:CharacterString>
-                    </gmd:descriptor>
-                </gmd:MD_Band>
-            </gmd:dimension>
-            <gmd:dimension>
-                <gmd:MD_Band>
-                    <gmd:sequenceIdentifier>
-                        <gco:MemberName>
-                            <gco:aName>
-                                <gco:CharacterString>Chlordane, trans</gco:CharacterString>
-                            </gco:aName>
-                            <gco:attributeType gco:nilReason="unknown"/>
-                        </gco:MemberName>
-                    </gmd:sequenceIdentifier>
-                    <gmd:descriptor>
-                        <gco:CharacterString>Chlordane, trans</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
@@ -1479,21 +1443,6 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
-                                <gco:CharacterString>EPTC, Dipropylthiocarbamic acid s-ethyl ester</gco:CharacterString>
-                            </gco:aName>
-                            <gco:attributeType gco:nilReason="unknown"/>
-                        </gco:MemberName>
-                    </gmd:sequenceIdentifier>
-                    <gmd:descriptor>
-                        <gco:CharacterString>EPTC, Dipropylthiocarbamic acid s-ethyl ester</gco:CharacterString>
-                    </gmd:descriptor>
-                </gmd:MD_Band>
-            </gmd:dimension>
-            <gmd:dimension>
-                <gmd:MD_Band>
-                    <gmd:sequenceIdentifier>
-                        <gco:MemberName>
-                            <gco:aName>
                                 <gco:CharacterString>Ethion</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
@@ -1546,36 +1495,6 @@
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
                         <gco:CharacterString>Azinphos-methyl</gco:CharacterString>
-                    </gmd:descriptor>
-                </gmd:MD_Band>
-            </gmd:dimension>
-            <gmd:dimension>
-                <gmd:MD_Band>
-                    <gmd:sequenceIdentifier>
-                        <gco:MemberName>
-                            <gco:aName>
-                                <gco:CharacterString>Dichlorovos</gco:CharacterString>
-                            </gco:aName>
-                            <gco:attributeType gco:nilReason="unknown"/>
-                        </gco:MemberName>
-                    </gmd:sequenceIdentifier>
-                    <gmd:descriptor>
-                        <gco:CharacterString>Dichlorovos</gco:CharacterString>
-                    </gmd:descriptor>
-                </gmd:MD_Band>
-            </gmd:dimension>
-            <gmd:dimension>
-                <gmd:MD_Band>
-                    <gmd:sequenceIdentifier>
-                        <gco:MemberName>
-                            <gco:aName>
-                                <gco:CharacterString>Dibenzo[a,h]anthracene</gco:CharacterString>
-                            </gco:aName>
-                            <gco:attributeType gco:nilReason="unknown"/>
-                        </gco:MemberName>
-                    </gmd:sequenceIdentifier>
-                    <gmd:descriptor>
-                        <gco:CharacterString>Dibenzo[a,h]anthracene</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
@@ -1749,6 +1668,21 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
+                                <gco:CharacterString>Dichlorvos</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>Dichlorvos</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
                                 <gco:CharacterString>Di(2-ethylhexyl) adipate</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
@@ -1816,21 +1750,6 @@
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
                         <gco:CharacterString>Turbidity</gco:CharacterString>
-                    </gmd:descriptor>
-                </gmd:MD_Band>
-            </gmd:dimension>
-            <gmd:dimension>
-                <gmd:MD_Band>
-                    <gmd:sequenceIdentifier>
-                        <gco:MemberName>
-                            <gco:aName>
-                                <gco:CharacterString>Desethyl atrazine</gco:CharacterString>
-                            </gco:aName>
-                            <gco:attributeType gco:nilReason="unknown"/>
-                        </gco:MemberName>
-                    </gmd:sequenceIdentifier>
-                    <gmd:descriptor>
-                        <gco:CharacterString>Desethyl atrazine</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
@@ -2139,6 +2058,21 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
+                                <gco:CharacterString>trans-Chlordane</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>trans-Chlordane</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
                                 <gco:CharacterString>Molinate</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
@@ -2326,6 +2260,21 @@
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
                         <gco:CharacterString>2-Choro-6-ethylamino-4-amino-s-triazine</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
+                                <gco:CharacterString>S-Ethyl dipropylthiocarbamate</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>S-Ethyl dipropylthiocarbamate</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>

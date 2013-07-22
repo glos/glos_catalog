@@ -17,57 +17,6 @@
     <gmd:contact>
         <gmd:CI_ResponsibleParty>
             <gmd:individualName>
-                <gco:CharacterString>GLOS DMAC</gco:CharacterString>
-            </gmd:individualName>
-            <gmd:organisationName>
-                <gco:CharacterString>Great Lakes Observing System</gco:CharacterString>
-            </gmd:organisationName>
-            <gmd:contactInfo>
-                <gmd:CI_Contact>
-                    <gmd:phone>
-                        <gmd:CI_Telephone>
-                            <gmd:voice>
-                                <gco:CharacterString>(734) 332-6113</gco:CharacterString>
-                            </gmd:voice>
-                        </gmd:CI_Telephone>
-                    </gmd:phone>
-                    <gmd:address>
-                        <gmd:CI_Address>
-                            <gmd:deliveryPoint>
-                                <gco:CharacterString>229 Nickels Arcade</gco:CharacterString>
-                            </gmd:deliveryPoint>
-                            <gmd:city>
-                                <gco:CharacterString>Ann Arbor</gco:CharacterString>
-                            </gmd:city>
-                            <gmd:administrativeArea>
-                                <gco:CharacterString>Michigan</gco:CharacterString>
-                            </gmd:administrativeArea>
-                            <gmd:postalCode>
-                                <gco:CharacterString>48104</gco:CharacterString>
-                            </gmd:postalCode>
-                            <gmd:electronicMailAddress>
-                                <gco:CharacterString>dmac@glos.us</gco:CharacterString>
-                            </gmd:electronicMailAddress>
-                        </gmd:CI_Address>
-                    </gmd:address>
-                    <gmd:onlineResource>
-                        <gmd:CI_OnlineResource id="glos_url">
-                            <gmd:linkage>
-                                <gmd:URL>http://glos.us</gmd:URL>
-                            </gmd:linkage>
-                        </gmd:CI_OnlineResource>
-                    </gmd:onlineResource>
-                </gmd:CI_Contact>
-            </gmd:contactInfo>
-            <gmd:role>
-                <gmd:CI_RoleCode
-                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/CodeList/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
-            </gmd:role>
-        </gmd:CI_ResponsibleParty>
-    </gmd:contact>
-    <gmd:contact>
-        <gmd:CI_ResponsibleParty>
-            <gmd:individualName>
                 <gco:CharacterString>NWQMC - WQP</gco:CharacterString>
             </gmd:individualName>
             <gmd:organisationName>
@@ -150,7 +99,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:Date>2013-03-21</gco:Date>
+        <gco:Date>2013-07-22</gco:Date>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -168,7 +117,7 @@
                     <gmd:date>
                         <gmd:CI_Date>
                             <gmd:date>
-                                <gco:DateTime>2013-03-21T02:07:38.188Z</gco:DateTime>
+                                <gco:DateTime>2013-07-22T11:23:14.191Z</gco:DateTime>
                             </gmd:date>
                             <gmd:dateType gco:nilReason="unknown"/>
                         </gmd:CI_Date>
@@ -187,10 +136,10 @@
                         <gco:CharacterString>Salmonella</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>Giardia</gco:CharacterString>
+                        <gco:CharacterString>Cryptosporidium</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>Cryptosporidium</gco:CharacterString>
+                        <gco:CharacterString>Giardia</gco:CharacterString>
                     </gmd:keyword>
                 </gmd:MD_Keywords>
             </gmd:descriptiveKeywords>
@@ -224,7 +173,7 @@
                     <gmd:temporalElement>
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
-                                <gml:TimePeriod id="-847970679">
+                                <gml:TimePeriod id="TP-EX1">
                                     <gml:beginPosition>2002-06-10T15:45:00.000Z</gml:beginPosition>
                                     <gml:endPosition>2003-09-04T12:45:00.000Z</gml:endPosition>
                                 </gml:TimePeriod>
@@ -304,7 +253,7 @@
                     <gmd:temporalElement>
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
-                                <gml:TimePeriod id="1500566631">
+                                <gml:TimePeriod id="TP-EX1">
                                     <gml:beginPosition>2002-06-10T15:45:00.000Z</gml:beginPosition>
                                     <gml:endPosition>2003-09-04T12:45:00.000Z</gml:endPosition>
                                 </gml:TimePeriod>
@@ -444,13 +393,13 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
-                                <gco:CharacterString>Giardia</gco:CharacterString>
+                                <gco:CharacterString>Cryptosporidium</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
                         </gco:MemberName>
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
-                        <gco:CharacterString>Giardia</gco:CharacterString>
+                        <gco:CharacterString>Cryptosporidium</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
@@ -459,13 +408,13 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
-                                <gco:CharacterString>Cryptosporidium</gco:CharacterString>
+                                <gco:CharacterString>Giardia</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
                         </gco:MemberName>
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
-                        <gco:CharacterString>Cryptosporidium</gco:CharacterString>
+                        <gco:CharacterString>Giardia</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
