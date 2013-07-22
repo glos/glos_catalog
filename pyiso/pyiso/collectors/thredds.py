@@ -18,7 +18,12 @@ class ThreddsCollector(object):
         if url is None:
             url = self.url
 
-        r = requests.get(url)
+        try:
+            r = requests.get(url)
+        except requests.exceptions.RequestException:
+            print "Error connecting to %s" % url
+            return []
+
         tree = etree.HTML(r.text)
 
         isos = []

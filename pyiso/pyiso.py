@@ -3,11 +3,7 @@ from pyiso.collectors.geo import GeoCollector
 from pyiso.collectors.insitu import InSituCollector
 from pyiso.downloader import IsoDownloader
 
-import requests
 import os
-import codecs
-import sys
-
 
 def main(base_download_path):
 
