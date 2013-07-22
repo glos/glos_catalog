@@ -1,24 +1,16 @@
-# -*- coding: utf-8 -*-
-# Documentation: http://docs.basex.org/wiki/Clients
-#
-# Usage: BASEX_SERVER=localhost BASEX_USER=admin BASEX_PASS=admin python populate_database.py
-#
-# (C) BaseX Team 2005-12, BSD License
-import BaseXClient
-from os import walk
-from os.path import join
 import os
 import sys
-
-if sys.version < '3': # i'm testing with Python 2.7.3
-    import codecs
-    sys.stdout = codecs.getwriter('utf-8')(sys.stdout)
-
 import xml.dom.minidom
 
+import BaseXClient
 
-def UpdateGlos(directory = ""):
-    
+def readXml(filename):
+    doc = xml.dom.minidom.parse(filename)
+    content = doc.toxml()    
+    return content
+
+def main(directory="../ISOs", include_files=None):
+
     try:
         base_server = os.environ["BASEX_SERVER"]
         base_port = os.environ.get("BASEX_PORT", 1984)
@@ -35,24 +27,25 @@ def UpdateGlos(directory = ""):
     print "Updating XML from DIR: '", directory, "'"
 
     try:   
-        # add document
-        for root, dirs, files in walk(directory):
+        for root, dirs, files in os.walk(directory):
+            print root
             for f in files:
 
                 if os.path.splitext(f)[1][1:].strip().lower() != "xml":
                   continue
                 
-                fpath = join(root,f)
-                dbpath = join(root,f)[len(directory):]
+                fpath = os.path.join(root,f)
+                dbpath = os.path.join(root,f)[len(directory):]
 
-                if "ndbc" not in dbpath:
-                    continue
+                # Only process files that contain the string 'include_files'
+                if include_files is not None:
+                    if include_files not in dbpath:
+                        continue
 
                 print "Updating %s..." % dbpath
                 session.replace(dbpath, readXml(fpath))
     
     except Exception as e:
-        # print exception
         print(repr(e))
     
     finally:
@@ -60,21 +53,14 @@ def UpdateGlos(directory = ""):
         session.execute("CREATE INDEX FULLTEXT")
         if session:
             session.close()
-    
 
-def readXml(filename):
+directory = None
+if sys.argv[1] is not None:
+    directory = sys.argv[1]
     
-    # input encoding is utf-16le
-    doc = xml.dom.minidom.parse(filename)
-    # expat parser will decode it to real unicode, and rewrite processing instruction.
-    # so, we can send this (->toxml()) as content for basex, safely.
-    content = doc.toxml()
-    # str if Python 3.x, unicode if Python 2.x.
-    # (both are actually real unicode. (ucs2 or ucs4.))
-    #print(type(content))
-    
-    return content
-    
-    
-UpdateGlos("../ISOs")
+files = None    
+if sys.argv[2] is not None and sys.argv[2].lower() != "all":
+    files = sys.argv[2]
+
+main(directory=directory, include_files=files)
 
