@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 # Documentation: http://docs.basex.org/wiki/Clients
 #
-# Usage: BASEX_SERVER=localhost BASEX_USER=admin BASEX_PASS=admin python populate_database.py
-#
 # (C) BaseX Team 2005-12, BSD License
 import BaseXClient
 from os import walk
@@ -17,7 +15,7 @@ if sys.version < '3': # i'm testing with Python 2.7.3
 import xml.dom.minidom
 
 
-def CreateGlos(directory = ""):
+def UpdateSingle(xml_file):
     
     try:
         base_server = os.environ["BASEX_SERVER"]
@@ -27,46 +25,21 @@ def CreateGlos(directory = ""):
     except:
         raise ValueError("Please set environmental variables %s, %s, and %s" % ("BASEX_SERVER", "BASEX_USER", "BASEX_PASS"))
 
+    print "Importing file: %s" % xml_file
+
     # create session
     session = BaseXClient.Session(base_server, base_port, base_user, base_pass)
-
-    session.execute("drop db glos")
-    print(session.info())
-
-    print "Importing XML in DIR: '", directory, "'"
+    session.execute("OPEN glos")
 
     try:
-        # create empty database
-        session.execute("create db glos")
-        print(session.info())
-    
-        # add document
-        for root, dirs, files in walk(directory):
-            for f in files:
-
-                if os.path.splitext(f)[1][1:].strip().lower() != "xml":
-                  continue
-                
-                fpath = join(root,f)
-                dbpath = join(root,f)[len(directory):]
-                
-                #print "File:", fpath
-                #print "bd path:", dbpath
-        
-                session.add(dbpath, readXml(fpath))
-                print(session.info())
-    
-    
-    except Exception as e:
-        # print exception
-        print(repr(e))
-    
+        dbpath = "/".join(xml_file.split("/")[1:])
+        session.replace(dbpath, readXml(xml_file))
+        print(session.info()) 
     finally:
-        session.execute("CREATE INDEX FULLTEXT")
         # close session
+        session.execute("CREATE INDEX FULLTEXT")
         if session:
             session.close()
-    
 
 def readXml(filename):
     
@@ -77,10 +50,10 @@ def readXml(filename):
     content = doc.toxml()
     # str if Python 3.x, unicode if Python 2.x.
     # (both are actually real unicode. (ucs2 or ucs4.))
-    #print(type(content))
+    print(type(content))
     
     return content
     
     
-CreateGlos("ISOs")
+UpdateSingle("../ISOs/In-situ/storet/10070005.xml")
 
