@@ -26,7 +26,11 @@ class IsoDownloader(object):
             if modifier is not None:
                 data = modifier(url, **kwargs)
             else:
-                data = requests.get(url).text
+                try:
+                    data = requests.get(url).text
+                except requests.exceptions.RequestException:
+                    print "Error downloading %s" % url
+                    continue
                 
             # Need to use codecs.open for UTF-8 data
             with open(filepath, "w") as handle:
