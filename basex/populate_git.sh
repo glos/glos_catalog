@@ -1,6 +1,8 @@
 #!/bin/bash
 
-# First argument is the string to process...
+# First argument is the path to ISO files
+
+# Second argument is the string to process...
 # all (everything... slow)
 # ndbc
 # hads
@@ -12,4 +14,4 @@ git checkout master
 git pull origin master
 cd basex
 
-python populate_update.py /home/dev/Development/glos_catalog/ISOs $1
+python populate_update.py $1 $2
