@@ -1,5 +1,5 @@
 from metadown.collectors.thredds import ThreddsCollector
-from metadown.collectors.geo import GeoCollector
+from metadown.collectors.geonetwork import GeoNetworkCollector
 from metadown.downloader import XmlDownloader
 
 import os
@@ -58,7 +58,7 @@ def main(base_download_path):
     download_path = os.path.join(base_download_path, "Models", "SLRFVM")
     XmlDownloader.run(isos, download_path)
 
-    isos = GeoCollector("http://data.glos.us/metadata").run()
+    isos = GeoNetworkCollector("http://data.glos.us/metadata").run()
     download_path = os.path.join(base_download_path, "GeoNetwork")
     XmlDownloader.run(isos, download_path, namer=GeoCollector.namer, modifier=GeoCollector.modifier)   
 
