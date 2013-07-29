@@ -60,7 +60,7 @@ def main(base_download_path):
 
     isos = GeoNetworkCollector("http://data.glos.us/metadata").run()
     download_path = os.path.join(base_download_path, "GeoNetwork")
-    XmlDownloader.run(isos, download_path, namer=GeoCollector.namer, modifier=GeoCollector.modifier)   
+    XmlDownloader.run(isos, download_path, namer=GeoNetworkCollector.namer, modifier=GeoNetworkCollector.modifier)   
 
 main(sys.argv[1])
 
