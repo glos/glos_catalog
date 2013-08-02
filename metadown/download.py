@@ -11,49 +11,41 @@ def main(base_download_path):
     # skips: The LINK path in the actual thredds catalog webpage can't be equal to any of these strings
     
     # We only want the Agg selects
-    selects = ["SST-Agg"]
-    # Don't process the "files/" lists
-    skips = ["files/"]
-    isos = ThreddsCollector("http://tds.glos.us:8080/thredds/mtri/aoc.html", selects=selects, skips=skips).run()
+    selects = [".*SST-Agg"]
+    isos = ThreddsCollector("http://tds.glos.us:8080/thredds/mtri/aoc.html", selects=selects).run()
     download_path = os.path.join(base_download_path, "Satellite")
     XmlDownloader.run(isos, download_path)
 
     # We only want the Agg selects
-    selects = ["CHL-Agg"]
-    # Don't process the "files/" lists
-    skips = ["files/"]
-    isos = ThreddsCollector("http://tds.glos.us:8080/thredds/mtri/chl.html", selects=selects, skips=skips).run()
+    selects = [".*CHL-Agg"]
+    isos = ThreddsCollector("http://tds.glos.us:8080/thredds/mtri/chl.html", selects=selects).run()
     download_path = os.path.join(base_download_path, "Satellite")
     XmlDownloader.run(isos, download_path)
 
     # We only want the Agg selects
-    selects = ["NC-Agg"]
-    # Don't process the "files/" lists
-    skips = ["files/"]
-    isos = ThreddsCollector("http://tds.glos.us:8080/thredds/mtri/natcolor.html", selects=selects, skips=skips).run()
+    selects = [".*NC-Agg"]
+    isos = ThreddsCollector("http://tds.glos.us:8080/thredds/mtri/natcolor.html", selects=selects).run()
     download_path = os.path.join(base_download_path, "Satellite")
     XmlDownloader.run(isos, download_path)
 
     # We only want the all year best selects
-    selects = ["2D_best", "3D_best", "2D_-_All_Years_best", "3D_-_All_Years_best"]
-    # Don't process the "files/" lists
-    skips = ["files/"]
-    isos = ThreddsCollector("http://tds.glos.us:8080/thredds/glcfs/glcfs.html", selects=selects, skips=skips).run()
+    selects = [".*2D_best", ".*3D_best", ".*2D_-_All_Years_best", ".*3D_-_All_Years_best"]
+    isos = ThreddsCollector("http://tds.glos.us:8080/thredds/glcfs/glcfs.html", selects=selects).run()
     download_path = os.path.join(base_download_path, "Models", "GLCFS")
     XmlDownloader.run(isos, download_path)
 
     # We only want the Agg and Latest
-    selects = ["Nowcast-Agg", "Lastest-Forecast"]
+    selects = [".*Nowcast-Agg", ".*Lastest-Forecast"]
     # Don't process the "files/" lists
-    skips = ["Nowcast - Individual Files/", "Forecast - Individual Files/"]
+    skips = [".*Nowcast - Individual Files/", ".*Forecast - Individual Files/"]
     isos = ThreddsCollector("http://tds.glos.us:8080/thredds/hecwfs/hecwfs.html", selects=selects, skips=skips).run()
     download_path = os.path.join(base_download_path, "Models", "HECWFS")
     XmlDownloader.run(isos, download_path)
     
     # We only want the Agg and Latest
-    selects = ["Nowcast-Agg", "Lastest-Forecast"]
+    selects = [".*Nowcast-Agg", ".*Lastest-Forecast"]
     # Don't process the "files/" lists
-    skips = ["Nowcast - Individual Files/", "Forecast - Individual Files/"]
+    skips = [".*Nowcast - Individual Files/", ".*Forecast - Individual Files/"]
     isos = ThreddsCollector("http://tds.glos.us:8080/thredds/slrfvm/slrfvm.html", selects=selects, skips=skips).run()
     download_path = os.path.join(base_download_path, "Models", "SLRFVM")
     XmlDownloader.run(isos, download_path)

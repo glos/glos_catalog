@@ -12,9 +12,7 @@
                  xmlns:gmx="http://www.isotc211.org/2005/gmx"
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
-   <gmd:fileIdentifier>
-      <gco:CharacterString>glos/glcfs/huron/fcfmrc-2d/Lake_Huron_-_2D_best.ncd</gco:CharacterString>
-   </gmd:fileIdentifier>
+   <gmd:fileIdentifier gco:nilReason="missing"/>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#LanguageCode"
                         codeListValue="eng">eng</gmd:LanguageCode>
@@ -27,29 +25,13 @@
       <gmd:MD_ScopeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
                         codeListValue="dataset">dataset</gmd:MD_ScopeCode>
    </gmd:hierarchyLevel>
-   <gmd:hierarchyLevel>
-      <gmd:MD_ScopeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
-                        codeListValue="service">service</gmd:MD_ScopeCode>
-   </gmd:hierarchyLevel>
    <gmd:contact>
       <gmd:CI_ResponsibleParty>
-         <gmd:individualName>
-            <gco:CharacterString>Dr. Dave Schwab</gco:CharacterString>
-         </gmd:individualName>
+         <gmd:individualName gco:nilReason="missing"/>
          <gmd:organisationName>
             <gco:CharacterString>NOAA/GLERL</gco:CharacterString>
          </gmd:organisationName>
-         <gmd:contactInfo>
-            <gmd:CI_Contact>
-               <gmd:address>
-                  <gmd:CI_Address>
-                     <gmd:electronicMailAddress>
-                        <gco:CharacterString>david.schwab@noaa.gov</gco:CharacterString>
-                     </gmd:electronicMailAddress>
-                  </gmd:CI_Address>
-               </gmd:address>
-            </gmd:CI_Contact>
-         </gmd:contactInfo>
+         <gmd:contactInfo gco:nilReason="missing"/>
          <gmd:role>
             <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
                              codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
@@ -57,7 +39,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2013-07-29</gco:Date>
+      <gco:Date>2013-08-02</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -113,7 +95,7 @@
                                                 codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>13932</gco:Integer>
+                  <gco:Integer>13980</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
                   <gco:Measure uom="seconds">3600.0</gco:Measure>
@@ -134,89 +116,18 @@
                <gmd:title>
                   <gco:CharacterString>GLCFS - Lake Huron - Forecast - 2D</gco:CharacterString>
                </gmd:title>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2012-01-01</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                             codeListValue="creation">creation</gmd:CI_DateTypeCode>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2012-01-01</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                             codeListValue="issued">issued</gmd:CI_DateTypeCode>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2012-01-01</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                             codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:identifier>
-                  <gmd:MD_Identifier>
-                     <gmd:authority>
-                        <gmd:CI_Citation>
-                           <gmd:title>
-                              <gco:CharacterString>GLOS</gco:CharacterString>
-                           </gmd:title>
-                           <gmd:date gco:nilReason="inapplicable"/>
-                        </gmd:CI_Citation>
-                     </gmd:authority>
-                     <gmd:code>
-                        <gco:CharacterString>glos/glcfs/huron/fcfmrc-2d/Lake_Huron_-_2D_best.ncd</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:MD_Identifier>
-               </gmd:identifier>
+               <gmd:date gco:nilReason="missing"/>
+               <gmd:identifier gco:nilReason="missing"/>
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
-                     <gmd:individualName>
-                        <gco:CharacterString>Dr. Dave Schwab</gco:CharacterString>
-                     </gmd:individualName>
+                     <gmd:individualName gco:nilReason="missing"/>
                      <gmd:organisationName>
                         <gco:CharacterString>NOAA/GLERL</gco:CharacterString>
                      </gmd:organisationName>
-                     <gmd:contactInfo>
-                        <gmd:CI_Contact>
-                           <gmd:address>
-                              <gmd:CI_Address>
-                                 <gmd:electronicMailAddress>
-                                    <gco:CharacterString>david.schwab@noaa.gov</gco:CharacterString>
-                                 </gmd:electronicMailAddress>
-                              </gmd:CI_Address>
-                           </gmd:address>
-                        </gmd:CI_Contact>
-                     </gmd:contactInfo>
-                     <gmd:role>
-                        <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
-                                         codeListValue="originator">originator</gmd:CI_RoleCode>
-                     </gmd:role>
-                  </gmd:CI_ResponsibleParty>
-               </gmd:citedResponsibleParty>
-               <gmd:citedResponsibleParty>
-                  <gmd:CI_ResponsibleParty>
-                     <gmd:individualName>
-                        <gco:CharacterString>GLOS DMAC</gco:CharacterString>
-                     </gmd:individualName>
-                     <gmd:organisationName gco:nilReason="missing"/>
                      <gmd:contactInfo gco:nilReason="missing"/>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
-                                         codeListValue=""/>
+                                         codeListValue="originator">originator</gmd:CI_RoleCode>
                      </gmd:role>
                   </gmd:CI_ResponsibleParty>
                </gmd:citedResponsibleParty>
@@ -227,41 +138,17 @@
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
-               <gmd:individualName>
-                  <gco:CharacterString>Dr. Dave Schwab</gco:CharacterString>
-               </gmd:individualName>
+               <gmd:individualName gco:nilReason="missing"/>
                <gmd:organisationName>
                   <gco:CharacterString>NOAA/GLERL</gco:CharacterString>
                </gmd:organisationName>
-               <gmd:contactInfo>
-                  <gmd:CI_Contact>
-                     <gmd:address>
-                        <gmd:CI_Address>
-                           <gmd:electronicMailAddress>
-                              <gco:CharacterString>david.schwab@noaa.gov</gco:CharacterString>
-                           </gmd:electronicMailAddress>
-                        </gmd:CI_Address>
-                     </gmd:address>
-                  </gmd:CI_Contact>
-               </gmd:contactInfo>
+               <gmd:contactInfo gco:nilReason="missing"/>
                <gmd:role>
                   <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
                                    codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
                </gmd:role>
             </gmd:CI_ResponsibleParty>
          </gmd:pointOfContact>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword>
-                  <gco:CharacterString>GLOS DMAC</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:type>
-                  <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
-                                          codeListValue="dataCenter">dataCenter</gmd:MD_KeywordTypeCode>
-               </gmd:type>
-               <gmd:thesaurusName gco:nilReason="unknown"/>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
@@ -329,13 +216,6 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
-         <gmd:resourceConstraints>
-            <gmd:MD_LegalConstraints>
-               <gmd:useLimitation>
-                  <gco:CharacterString>No usage restrictions</gco:CharacterString>
-               </gmd:useLimitation>
-            </gmd:MD_LegalConstraints>
-         </gmd:resourceConstraints>
          <gmd:aggregationInfo>
             <gmd:MD_AggregateInformation>
                <gmd:aggregateDataSetIdentifier>
@@ -393,10 +273,10 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d1863">
+                        <gml:TimePeriod gml:id="d177">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2012-01-01T01:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2013-08-03T12:00:00Z</gml:endPosition>
+                           <gml:endPosition>2013-08-05T12:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -415,330 +295,6 @@
             </gmd:EX_Extent>
          </gmd:extent>
       </gmd:MD_DataIdentification>
-   </gmd:identificationInfo>
-   <gmd:identificationInfo>
-      <srv:SV_ServiceIdentification id="OPeNDAP">
-         <gmd:citation>
-            <gmd:CI_Citation>
-               <gmd:title>
-                  <gco:CharacterString>GLCFS - Lake Huron - Forecast - 2D</gco:CharacterString>
-               </gmd:title>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2012-01-01</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                             codeListValue="creation">creation</gmd:CI_DateTypeCode>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2012-01-01</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                             codeListValue="issued">issued</gmd:CI_DateTypeCode>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2012-01-01</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                             codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:citedResponsibleParty>
-                  <gmd:CI_ResponsibleParty>
-                     <gmd:individualName>
-                        <gco:CharacterString>Dr. Dave Schwab</gco:CharacterString>
-                     </gmd:individualName>
-                     <gmd:organisationName>
-                        <gco:CharacterString>NOAA/GLERL</gco:CharacterString>
-                     </gmd:organisationName>
-                     <gmd:contactInfo>
-                        <gmd:CI_Contact>
-                           <gmd:address>
-                              <gmd:CI_Address>
-                                 <gmd:electronicMailAddress>
-                                    <gco:CharacterString>david.schwab@noaa.gov</gco:CharacterString>
-                                 </gmd:electronicMailAddress>
-                              </gmd:CI_Address>
-                           </gmd:address>
-                        </gmd:CI_Contact>
-                     </gmd:contactInfo>
-                     <gmd:role>
-                        <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
-                                         codeListValue="originator">originator</gmd:CI_RoleCode>
-                     </gmd:role>
-                  </gmd:CI_ResponsibleParty>
-               </gmd:citedResponsibleParty>
-               <gmd:citedResponsibleParty>
-                  <gmd:CI_ResponsibleParty>
-                     <gmd:individualName>
-                        <gco:CharacterString>GLOS DMAC</gco:CharacterString>
-                     </gmd:individualName>
-                     <gmd:organisationName gco:nilReason="missing"/>
-                     <gmd:contactInfo gco:nilReason="missing"/>
-                     <gmd:role>
-                        <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
-                                         codeListValue=""/>
-                     </gmd:role>
-                  </gmd:CI_ResponsibleParty>
-               </gmd:citedResponsibleParty>
-            </gmd:CI_Citation>
-         </gmd:citation>
-         <gmd:abstract>
-            <gco:CharacterString>Aggregation of the 2D Forecast output for Lake Huron from GLCFS</gco:CharacterString>
-         </gmd:abstract>
-         <srv:serviceType>
-            <gco:LocalName>THREDDS OPeNDAP</gco:LocalName>
-         </srv:serviceType>
-         <srv:extent>
-            <gmd:EX_Extent>
-               <gmd:geographicElement>
-                  <gmd:EX_GeographicBoundingBox>
-                     <gmd:extentTypeCode>
-                        <gco:Boolean>1</gco:Boolean>
-                     </gmd:extentTypeCode>
-                     <gmd:westBoundLongitude>
-                        <gco:Decimal>-84.79869079589844</gco:Decimal>
-                     </gmd:westBoundLongitude>
-                     <gmd:eastBoundLongitude>
-                        <gco:Decimal>-79.597900390625</gco:Decimal>
-                     </gmd:eastBoundLongitude>
-                     <gmd:southBoundLatitude>
-                        <gco:Decimal>42.97047424316406</gco:Decimal>
-                     </gmd:southBoundLatitude>
-                     <gmd:northBoundLatitude>
-                        <gco:Decimal>46.3606071472168</gco:Decimal>
-                     </gmd:northBoundLatitude>
-                  </gmd:EX_GeographicBoundingBox>
-               </gmd:geographicElement>
-               <gmd:temporalElement>
-                  <gmd:EX_TemporalExtent>
-                     <gmd:extent>
-                        <gml:TimePeriod gml:id="d1863e71">
-                           <gml:beginPosition>2012-01-01T01:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2013-08-03T12:00:00Z</gml:endPosition>
-                        </gml:TimePeriod>
-                     </gmd:extent>
-                  </gmd:EX_TemporalExtent>
-               </gmd:temporalElement>
-               <gmd:verticalElement>
-                  <gmd:EX_VerticalExtent>
-                     <gmd:minimumValue>
-                        <gco:Real>-0</gco:Real>
-                     </gmd:minimumValue>
-                     <gmd:maximumValue>
-                        <gco:Real>-214.5</gco:Real>
-                     </gmd:maximumValue>
-                     <gmd:verticalCRS gco:nilReason="missing"/>
-                  </gmd:EX_VerticalExtent>
-               </gmd:verticalElement>
-            </gmd:EX_Extent>
-         </srv:extent>
-         <srv:couplingType>
-            <srv:SV_CouplingType codeList="http://www.tc211.org/ISO19139/resources/codeList.xml#SV_CouplingType"
-                                 codeListValue="tight">tight</srv:SV_CouplingType>
-         </srv:couplingType>
-         <srv:containsOperations>
-            <srv:SV_OperationMetadata>
-               <srv:operationName>
-                  <gco:CharacterString>OPeNDAP Client Access</gco:CharacterString>
-               </srv:operationName>
-               <srv:DCP gco:nilReason="unknown"/>
-               <srv:connectPoint>
-                  <gmd:CI_OnlineResource>
-                     <gmd:linkage>
-                        <gmd:URL>http://tds.glos.us:8080/thredds/dodsC/glos/glcfs/huron/fcfmrc-2d/Lake_Huron_-_2D_best.ncd</gmd:URL>
-                     </gmd:linkage>
-                     <gmd:name>
-                        <gco:CharacterString>OPeNDAP</gco:CharacterString>
-                     </gmd:name>
-                     <gmd:description>
-                        <gco:CharacterString>THREDDS OPeNDAP</gco:CharacterString>
-                     </gmd:description>
-                     <gmd:function>
-                        <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
-                                                   codeListValue="download">download</gmd:CI_OnLineFunctionCode>
-                     </gmd:function>
-                  </gmd:CI_OnlineResource>
-               </srv:connectPoint>
-            </srv:SV_OperationMetadata>
-         </srv:containsOperations>
-         <srv:operatesOn xlink:href="#DataIdentification"/>
-      </srv:SV_ServiceIdentification>
-   </gmd:identificationInfo>
-   <gmd:identificationInfo>
-      <srv:SV_ServiceIdentification id="OGC-WMS">
-         <gmd:citation>
-            <gmd:CI_Citation>
-               <gmd:title>
-                  <gco:CharacterString>GLCFS - Lake Huron - Forecast - 2D</gco:CharacterString>
-               </gmd:title>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2012-01-01</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                             codeListValue="creation">creation</gmd:CI_DateTypeCode>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2012-01-01</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                             codeListValue="issued">issued</gmd:CI_DateTypeCode>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2012-01-01</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                             codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:citedResponsibleParty>
-                  <gmd:CI_ResponsibleParty>
-                     <gmd:individualName>
-                        <gco:CharacterString>Dr. Dave Schwab</gco:CharacterString>
-                     </gmd:individualName>
-                     <gmd:organisationName>
-                        <gco:CharacterString>NOAA/GLERL</gco:CharacterString>
-                     </gmd:organisationName>
-                     <gmd:contactInfo>
-                        <gmd:CI_Contact>
-                           <gmd:address>
-                              <gmd:CI_Address>
-                                 <gmd:electronicMailAddress>
-                                    <gco:CharacterString>david.schwab@noaa.gov</gco:CharacterString>
-                                 </gmd:electronicMailAddress>
-                              </gmd:CI_Address>
-                           </gmd:address>
-                        </gmd:CI_Contact>
-                     </gmd:contactInfo>
-                     <gmd:role>
-                        <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
-                                         codeListValue="originator">originator</gmd:CI_RoleCode>
-                     </gmd:role>
-                  </gmd:CI_ResponsibleParty>
-               </gmd:citedResponsibleParty>
-               <gmd:citedResponsibleParty>
-                  <gmd:CI_ResponsibleParty>
-                     <gmd:individualName>
-                        <gco:CharacterString>GLOS DMAC</gco:CharacterString>
-                     </gmd:individualName>
-                     <gmd:organisationName gco:nilReason="missing"/>
-                     <gmd:contactInfo gco:nilReason="missing"/>
-                     <gmd:role>
-                        <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
-                                         codeListValue=""/>
-                     </gmd:role>
-                  </gmd:CI_ResponsibleParty>
-               </gmd:citedResponsibleParty>
-            </gmd:CI_Citation>
-         </gmd:citation>
-         <gmd:abstract>
-            <gco:CharacterString>Aggregation of the 2D Forecast output for Lake Huron from GLCFS</gco:CharacterString>
-         </gmd:abstract>
-         <srv:serviceType>
-            <gco:LocalName>Open Geospatial Consortium Web Map Service (WMS)</gco:LocalName>
-         </srv:serviceType>
-         <srv:extent>
-            <gmd:EX_Extent>
-               <gmd:geographicElement>
-                  <gmd:EX_GeographicBoundingBox>
-                     <gmd:extentTypeCode>
-                        <gco:Boolean>1</gco:Boolean>
-                     </gmd:extentTypeCode>
-                     <gmd:westBoundLongitude>
-                        <gco:Decimal>-84.79869079589844</gco:Decimal>
-                     </gmd:westBoundLongitude>
-                     <gmd:eastBoundLongitude>
-                        <gco:Decimal>-79.597900390625</gco:Decimal>
-                     </gmd:eastBoundLongitude>
-                     <gmd:southBoundLatitude>
-                        <gco:Decimal>42.97047424316406</gco:Decimal>
-                     </gmd:southBoundLatitude>
-                     <gmd:northBoundLatitude>
-                        <gco:Decimal>46.3606071472168</gco:Decimal>
-                     </gmd:northBoundLatitude>
-                  </gmd:EX_GeographicBoundingBox>
-               </gmd:geographicElement>
-               <gmd:temporalElement>
-                  <gmd:EX_TemporalExtent>
-                     <gmd:extent>
-                        <gml:TimePeriod gml:id="d1863e72">
-                           <gml:beginPosition>2012-01-01T01:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2013-08-03T12:00:00Z</gml:endPosition>
-                        </gml:TimePeriod>
-                     </gmd:extent>
-                  </gmd:EX_TemporalExtent>
-               </gmd:temporalElement>
-               <gmd:verticalElement>
-                  <gmd:EX_VerticalExtent>
-                     <gmd:minimumValue>
-                        <gco:Real>-0</gco:Real>
-                     </gmd:minimumValue>
-                     <gmd:maximumValue>
-                        <gco:Real>-214.5</gco:Real>
-                     </gmd:maximumValue>
-                     <gmd:verticalCRS gco:nilReason="missing"/>
-                  </gmd:EX_VerticalExtent>
-               </gmd:verticalElement>
-            </gmd:EX_Extent>
-         </srv:extent>
-         <srv:couplingType>
-            <srv:SV_CouplingType codeList="http://www.tc211.org/ISO19139/resources/codeList.xml#SV_CouplingType"
-                                 codeListValue="tight">tight</srv:SV_CouplingType>
-         </srv:couplingType>
-         <srv:containsOperations>
-            <srv:SV_OperationMetadata>
-               <srv:operationName>
-                  <gco:CharacterString>GetCapabilities</gco:CharacterString>
-               </srv:operationName>
-               <srv:DCP gco:nilReason="unknown"/>
-               <srv:connectPoint>
-                  <gmd:CI_OnlineResource>
-                     <gmd:linkage>
-                        <gmd:URL>http://tds.glos.us:8080/thredds/wms/glos/glcfs/huron/fcfmrc-2d/Lake_Huron_-_2D_best.ncd?service=WMS&amp;version=1.3.0&amp;request=GetCapabilities</gmd:URL>
-                     </gmd:linkage>
-                     <gmd:name>
-                        <gco:CharacterString>OGC-WMS</gco:CharacterString>
-                     </gmd:name>
-                     <gmd:description>
-                        <gco:CharacterString>Open Geospatial Consortium Web Map Service (WMS)</gco:CharacterString>
-                     </gmd:description>
-                     <gmd:function>
-                        <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
-                                                   codeListValue="download">download</gmd:CI_OnLineFunctionCode>
-                     </gmd:function>
-                  </gmd:CI_OnlineResource>
-               </srv:connectPoint>
-            </srv:SV_OperationMetadata>
-         </srv:containsOperations>
-         <srv:operatesOn xlink:href="#DataIdentification"/>
-      </srv:SV_ServiceIdentification>
    </gmd:identificationInfo>
    <gmd:contentInfo>
       <gmi:MI_CoverageDescription>
@@ -1120,87 +676,6 @@
          </gmd:dimension>
       </gmi:MI_CoverageDescription>
    </gmd:contentInfo>
-   <gmd:distributionInfo>
-      <gmd:MD_Distribution>
-         <gmd:distributor>
-            <gmd:MD_Distributor>
-               <gmd:distributorContact>
-                  <gmd:CI_ResponsibleParty>
-                     <gmd:individualName gco:nilReason="missing"/>
-                     <gmd:organisationName>
-                        <gco:CharacterString>GLOS DMAC</gco:CharacterString>
-                     </gmd:organisationName>
-                     <gmd:contactInfo>
-                        <gmd:CI_Contact>
-                           <gmd:address>
-                              <gmd:CI_Address>
-                                 <gmd:electronicMailAddress>
-                                    <gco:CharacterString>dmac@glos.us</gco:CharacterString>
-                                 </gmd:electronicMailAddress>
-                              </gmd:CI_Address>
-                           </gmd:address>
-                        </gmd:CI_Contact>
-                     </gmd:contactInfo>
-                     <gmd:role>
-                        <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
-                                         codeListValue="publisher">publisher</gmd:CI_RoleCode>
-                     </gmd:role>
-                  </gmd:CI_ResponsibleParty>
-               </gmd:distributorContact>
-               <gmd:distributorFormat>
-                  <gmd:MD_Format>
-                     <gmd:name>
-                        <gco:CharacterString>OPeNDAP</gco:CharacterString>
-                     </gmd:name>
-                     <gmd:version gco:nilReason="unknown"/>
-                  </gmd:MD_Format>
-               </gmd:distributorFormat>
-               <gmd:distributorTransferOptions>
-                  <gmd:MD_DigitalTransferOptions>
-                     <gmd:onLine>
-                        <gmd:CI_OnlineResource>
-                           <gmd:linkage>
-                              <gmd:URL>http://tds.glos.us:8080/thredds/dodsC/glos/glcfs/huron/fcfmrc-2d/Lake_Huron_-_2D_best.ncd.html</gmd:URL>
-                           </gmd:linkage>
-                           <gmd:name>
-                              <gco:CharacterString>File Information</gco:CharacterString>
-                           </gmd:name>
-                           <gmd:description>
-                              <gco:CharacterString>This URL provides a standard OPeNDAP html interface for selecting data from this dataset. Change the extension to .info for a description of the dataset.</gco:CharacterString>
-                           </gmd:description>
-                           <gmd:function>
-                              <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
-                                                         codeListValue="download">download</gmd:CI_OnLineFunctionCode>
-                           </gmd:function>
-                        </gmd:CI_OnlineResource>
-                     </gmd:onLine>
-                  </gmd:MD_DigitalTransferOptions>
-               </gmd:distributorTransferOptions>
-               <gmd:distributorTransferOptions>
-                  <gmd:MD_DigitalTransferOptions>
-                     <gmd:onLine>
-                        <gmd:CI_OnlineResource>
-                           <gmd:linkage>
-                              <gmd:URL>http://www.ncdc.noaa.gov/oa/wct/wct-jnlp-beta.php?singlefile=http://tds.glos.us:8080/thredds/dodsC/glos/glcfs/huron/fcfmrc-2d/Lake_Huron_-_2D_best.ncd</gmd:URL>
-                           </gmd:linkage>
-                           <gmd:name>
-                              <gco:CharacterString>Viewer Information</gco:CharacterString>
-                           </gmd:name>
-                           <gmd:description>
-                              <gco:CharacterString>This URL provides an NCDC climate and weather toolkit view of an OPeNDAP resource.</gco:CharacterString>
-                           </gmd:description>
-                           <gmd:function>
-                              <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode"
-                                                         codeListValue="mapDigital">mapDigital</gmd:CI_OnLineFunctionCode>
-                           </gmd:function>
-                        </gmd:CI_OnlineResource>
-                     </gmd:onLine>
-                  </gmd:MD_DigitalTransferOptions>
-               </gmd:distributorTransferOptions>
-            </gmd:MD_Distributor>
-         </gmd:distributor>
-      </gmd:MD_Distribution>
-   </gmd:distributionInfo>
    <gmd:dataQualityInfo>
       <gmd:DQ_DataQuality>
          <gmd:scope>

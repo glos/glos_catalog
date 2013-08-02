@@ -13,7 +13,7 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
    <gmd:fileIdentifier>
-      <gco:CharacterString>LakeHuronCHL-Agg</gco:CharacterString>
+      <gco:CharacterString>modis.chl</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#LanguageCode"
@@ -26,10 +26,6 @@
    <gmd:hierarchyLevel>
       <gmd:MD_ScopeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
                         codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-   </gmd:hierarchyLevel>
-   <gmd:hierarchyLevel>
-      <gmd:MD_ScopeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
-                        codeListValue="service">service</gmd:MD_ScopeCode>
    </gmd:hierarchyLevel>
    <gmd:contact>
       <gmd:CI_ResponsibleParty>
@@ -80,7 +76,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2013-07-29</gco:Date>
+      <gco:Date>2013-08-02</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -149,39 +145,7 @@
                <gmd:title>
                   <gco:CharacterString>Lake Huron - MODIS - Lake Surface Chlorophyll (CHL) - Aggregation</gco:CharacterString>
                </gmd:title>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2012-01-01</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                             codeListValue="creation">creation</gmd:CI_DateTypeCode>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2012-01-01</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                             codeListValue="issued">issued</gmd:CI_DateTypeCode>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2012-01-01</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                             codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
+               <gmd:date gco:nilReason="missing"/>
                <gmd:identifier>
                   <gmd:MD_Identifier>
                      <gmd:authority>
@@ -193,7 +157,7 @@
                         </gmd:CI_Citation>
                      </gmd:authority>
                      <gmd:code>
-                        <gco:CharacterString>LakeHuronCHL-Agg</gco:CharacterString>
+                        <gco:CharacterString/>
                      </gmd:code>
                   </gmd:MD_Identifier>
                </gmd:identifier>
@@ -245,19 +209,6 @@
                      </gmd:role>
                   </gmd:CI_ResponsibleParty>
                </gmd:citedResponsibleParty>
-               <gmd:citedResponsibleParty>
-                  <gmd:CI_ResponsibleParty>
-                     <gmd:individualName>
-                        <gco:CharacterString>GLOS DMAC</gco:CharacterString>
-                     </gmd:individualName>
-                     <gmd:organisationName gco:nilReason="missing"/>
-                     <gmd:contactInfo gco:nilReason="missing"/>
-                     <gmd:role>
-                        <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
-                                         codeListValue=""/>
-                     </gmd:role>
-                  </gmd:CI_ResponsibleParty>
-               </gmd:citedResponsibleParty>
                <gmd:otherCitationDetails>
                   <gco:CharacterString>These data are provided to the Great Lakes Observing System from the Michigan Tech Research Institute (MTRI) in Ann Arbor, MI. For further information about MTRI or these data, please contact Mr. Colin Brooks cnbrooks@mtu.edu</gco:CharacterString>
                </gmd:otherCitationDetails>
@@ -266,9 +217,6 @@
          <gmd:abstract>
             <gco:CharacterString>Aggregation of Chlorophyll from Lake Huron and surrounding waters from MODIS satellites.</gco:CharacterString>
          </gmd:abstract>
-         <gmd:credit>
-            <gco:CharacterString>GLOS MTRI</gco:CharacterString>
-         </gmd:credit>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
                <gmd:individualName>
@@ -340,9 +288,7 @@
                </gmd:type>
                <gmd:thesaurusName>
                   <gmd:CI_Citation>
-                     <gmd:title>
-                        <gco:CharacterString>GCMD Science Keywords</gco:CharacterString>
-                     </gmd:title>
+                     <gmd:title gco:nilReason="missing"/>
                      <gmd:date gco:nilReason="unknown"/>
                   </gmd:CI_Citation>
                </gmd:thesaurusName>
@@ -400,13 +346,6 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
-         <gmd:resourceConstraints>
-            <gmd:MD_LegalConstraints>
-               <gmd:useLimitation>
-                  <gco:CharacterString>LICENSE</gco:CharacterString>
-               </gmd:useLimitation>
-            </gmd:MD_LegalConstraints>
-         </gmd:resourceConstraints>
          <gmd:aggregationInfo>
             <gmd:MD_AggregateInformation>
                <gmd:aggregateDataSetName>
@@ -484,7 +423,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d1833">
+                        <gml:TimePeriod gml:id="d149">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2013-06-19T18:15:00Z</gml:beginPosition>
                            <gml:endPosition>2013-07-20T19:10:00Z</gml:endPosition>
@@ -506,376 +445,6 @@
             </gmd:EX_Extent>
          </gmd:extent>
       </gmd:MD_DataIdentification>
-   </gmd:identificationInfo>
-   <gmd:identificationInfo>
-      <srv:SV_ServiceIdentification id="OPeNDAP">
-         <gmd:citation>
-            <gmd:CI_Citation>
-               <gmd:title>
-                  <gco:CharacterString>Lake Huron - MODIS - Lake Surface Chlorophyll (CHL) - Aggregation</gco:CharacterString>
-               </gmd:title>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2012-01-01</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                             codeListValue="creation">creation</gmd:CI_DateTypeCode>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2012-01-01</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                             codeListValue="issued">issued</gmd:CI_DateTypeCode>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2012-01-01</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                             codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:citedResponsibleParty>
-                  <gmd:CI_ResponsibleParty>
-                     <gmd:individualName>
-                        <gco:CharacterString>Colin Brooks</gco:CharacterString>
-                     </gmd:individualName>
-                     <gmd:organisationName>
-                        <gco:CharacterString>Michigan Tech Research Institute (MTRI)</gco:CharacterString>
-                     </gmd:organisationName>
-                     <gmd:contactInfo>
-                        <gmd:CI_Contact>
-                           <gmd:address>
-                              <gmd:CI_Address>
-                                 <gmd:electronicMailAddress>
-                                    <gco:CharacterString>cnbrooks@mtu.edu</gco:CharacterString>
-                                 </gmd:electronicMailAddress>
-                              </gmd:CI_Address>
-                           </gmd:address>
-                           <gmd:onlineResource>
-                              <gmd:CI_OnlineResource>
-                                 <gmd:linkage>
-                                    <gmd:URL>http://www.mtri.org/</gmd:URL>
-                                 </gmd:linkage>
-                                 <gmd:protocol>
-                                    <gco:CharacterString>http</gco:CharacterString>
-                                 </gmd:protocol>
-                                 <gmd:applicationProfile>
-                                    <gco:CharacterString>web browser</gco:CharacterString>
-                                 </gmd:applicationProfile>
-                                 <gmd:name>
-                                    <gco:CharacterString/>
-                                 </gmd:name>
-                                 <gmd:description>
-                                    <gco:CharacterString/>
-                                 </gmd:description>
-                                 <gmd:function>
-                                    <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
-                                                               codeListValue="information">information</gmd:CI_OnLineFunctionCode>
-                                 </gmd:function>
-                              </gmd:CI_OnlineResource>
-                           </gmd:onlineResource>
-                        </gmd:CI_Contact>
-                     </gmd:contactInfo>
-                     <gmd:role>
-                        <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
-                                         codeListValue="originator">originator</gmd:CI_RoleCode>
-                     </gmd:role>
-                  </gmd:CI_ResponsibleParty>
-               </gmd:citedResponsibleParty>
-               <gmd:citedResponsibleParty>
-                  <gmd:CI_ResponsibleParty>
-                     <gmd:individualName>
-                        <gco:CharacterString>GLOS DMAC</gco:CharacterString>
-                     </gmd:individualName>
-                     <gmd:organisationName gco:nilReason="missing"/>
-                     <gmd:contactInfo gco:nilReason="missing"/>
-                     <gmd:role>
-                        <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
-                                         codeListValue=""/>
-                     </gmd:role>
-                  </gmd:CI_ResponsibleParty>
-               </gmd:citedResponsibleParty>
-            </gmd:CI_Citation>
-         </gmd:citation>
-         <gmd:abstract>
-            <gco:CharacterString>Aggregation of Chlorophyll from Lake Huron and surrounding waters from MODIS satellites.</gco:CharacterString>
-         </gmd:abstract>
-         <srv:serviceType>
-            <gco:LocalName>THREDDS OPeNDAP</gco:LocalName>
-         </srv:serviceType>
-         <srv:extent>
-            <gmd:EX_Extent>
-               <gmd:geographicElement>
-                  <gmd:EX_GeographicBoundingBox>
-                     <gmd:extentTypeCode>
-                        <gco:Boolean>1</gco:Boolean>
-                     </gmd:extentTypeCode>
-                     <gmd:westBoundLongitude>
-                        <gco:Decimal>-84.90167009999999</gco:Decimal>
-                     </gmd:westBoundLongitude>
-                     <gmd:eastBoundLongitude>
-                        <gco:Decimal>-79.1861581</gco:Decimal>
-                     </gmd:eastBoundLongitude>
-                     <gmd:southBoundLatitude>
-                        <gco:Decimal>42.783392299999996</gco:Decimal>
-                     </gmd:southBoundLatitude>
-                     <gmd:northBoundLatitude>
-                        <gco:Decimal>46.809016299999996</gco:Decimal>
-                     </gmd:northBoundLatitude>
-                  </gmd:EX_GeographicBoundingBox>
-               </gmd:geographicElement>
-               <gmd:temporalElement>
-                  <gmd:EX_TemporalExtent>
-                     <gmd:extent>
-                        <gml:TimePeriod gml:id="d1833e66">
-                           <gml:beginPosition>2013-06-19T18:15:00Z</gml:beginPosition>
-                           <gml:endPosition>2013-07-20T19:10:00Z</gml:endPosition>
-                        </gml:TimePeriod>
-                     </gmd:extent>
-                  </gmd:EX_TemporalExtent>
-               </gmd:temporalElement>
-               <gmd:verticalElement>
-                  <gmd:EX_VerticalExtent>
-                     <gmd:minimumValue>
-                        <gco:Real>0.0</gco:Real>
-                     </gmd:minimumValue>
-                     <gmd:maximumValue>
-                        <gco:Real>0.0</gco:Real>
-                     </gmd:maximumValue>
-                     <gmd:verticalCRS gco:nilReason="missing"/>
-                  </gmd:EX_VerticalExtent>
-               </gmd:verticalElement>
-            </gmd:EX_Extent>
-         </srv:extent>
-         <srv:couplingType>
-            <srv:SV_CouplingType codeList="http://www.tc211.org/ISO19139/resources/codeList.xml#SV_CouplingType"
-                                 codeListValue="tight">tight</srv:SV_CouplingType>
-         </srv:couplingType>
-         <srv:containsOperations>
-            <srv:SV_OperationMetadata>
-               <srv:operationName>
-                  <gco:CharacterString>OPeNDAP Client Access</gco:CharacterString>
-               </srv:operationName>
-               <srv:DCP gco:nilReason="unknown"/>
-               <srv:connectPoint>
-                  <gmd:CI_OnlineResource>
-                     <gmd:linkage>
-                        <gmd:URL>http://tds.glos.us:8080/thredds/dodsC/CHL/LakeHuronCHL-Agg</gmd:URL>
-                     </gmd:linkage>
-                     <gmd:name>
-                        <gco:CharacterString>OPeNDAP</gco:CharacterString>
-                     </gmd:name>
-                     <gmd:description>
-                        <gco:CharacterString>THREDDS OPeNDAP</gco:CharacterString>
-                     </gmd:description>
-                     <gmd:function>
-                        <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
-                                                   codeListValue="download">download</gmd:CI_OnLineFunctionCode>
-                     </gmd:function>
-                  </gmd:CI_OnlineResource>
-               </srv:connectPoint>
-            </srv:SV_OperationMetadata>
-         </srv:containsOperations>
-         <srv:operatesOn xlink:href="#DataIdentification"/>
-      </srv:SV_ServiceIdentification>
-   </gmd:identificationInfo>
-   <gmd:identificationInfo>
-      <srv:SV_ServiceIdentification id="OGC-WMS">
-         <gmd:citation>
-            <gmd:CI_Citation>
-               <gmd:title>
-                  <gco:CharacterString>Lake Huron - MODIS - Lake Surface Chlorophyll (CHL) - Aggregation</gco:CharacterString>
-               </gmd:title>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2012-01-01</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                             codeListValue="creation">creation</gmd:CI_DateTypeCode>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2012-01-01</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                             codeListValue="issued">issued</gmd:CI_DateTypeCode>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2012-01-01</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                             codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:citedResponsibleParty>
-                  <gmd:CI_ResponsibleParty>
-                     <gmd:individualName>
-                        <gco:CharacterString>Colin Brooks</gco:CharacterString>
-                     </gmd:individualName>
-                     <gmd:organisationName>
-                        <gco:CharacterString>Michigan Tech Research Institute (MTRI)</gco:CharacterString>
-                     </gmd:organisationName>
-                     <gmd:contactInfo>
-                        <gmd:CI_Contact>
-                           <gmd:address>
-                              <gmd:CI_Address>
-                                 <gmd:electronicMailAddress>
-                                    <gco:CharacterString>cnbrooks@mtu.edu</gco:CharacterString>
-                                 </gmd:electronicMailAddress>
-                              </gmd:CI_Address>
-                           </gmd:address>
-                           <gmd:onlineResource>
-                              <gmd:CI_OnlineResource>
-                                 <gmd:linkage>
-                                    <gmd:URL>http://www.mtri.org/</gmd:URL>
-                                 </gmd:linkage>
-                                 <gmd:protocol>
-                                    <gco:CharacterString>http</gco:CharacterString>
-                                 </gmd:protocol>
-                                 <gmd:applicationProfile>
-                                    <gco:CharacterString>web browser</gco:CharacterString>
-                                 </gmd:applicationProfile>
-                                 <gmd:name>
-                                    <gco:CharacterString/>
-                                 </gmd:name>
-                                 <gmd:description>
-                                    <gco:CharacterString/>
-                                 </gmd:description>
-                                 <gmd:function>
-                                    <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
-                                                               codeListValue="information">information</gmd:CI_OnLineFunctionCode>
-                                 </gmd:function>
-                              </gmd:CI_OnlineResource>
-                           </gmd:onlineResource>
-                        </gmd:CI_Contact>
-                     </gmd:contactInfo>
-                     <gmd:role>
-                        <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
-                                         codeListValue="originator">originator</gmd:CI_RoleCode>
-                     </gmd:role>
-                  </gmd:CI_ResponsibleParty>
-               </gmd:citedResponsibleParty>
-               <gmd:citedResponsibleParty>
-                  <gmd:CI_ResponsibleParty>
-                     <gmd:individualName>
-                        <gco:CharacterString>GLOS DMAC</gco:CharacterString>
-                     </gmd:individualName>
-                     <gmd:organisationName gco:nilReason="missing"/>
-                     <gmd:contactInfo gco:nilReason="missing"/>
-                     <gmd:role>
-                        <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
-                                         codeListValue=""/>
-                     </gmd:role>
-                  </gmd:CI_ResponsibleParty>
-               </gmd:citedResponsibleParty>
-            </gmd:CI_Citation>
-         </gmd:citation>
-         <gmd:abstract>
-            <gco:CharacterString>Aggregation of Chlorophyll from Lake Huron and surrounding waters from MODIS satellites.</gco:CharacterString>
-         </gmd:abstract>
-         <srv:serviceType>
-            <gco:LocalName>Open Geospatial Consortium Web Map Service (WMS)</gco:LocalName>
-         </srv:serviceType>
-         <srv:extent>
-            <gmd:EX_Extent>
-               <gmd:geographicElement>
-                  <gmd:EX_GeographicBoundingBox>
-                     <gmd:extentTypeCode>
-                        <gco:Boolean>1</gco:Boolean>
-                     </gmd:extentTypeCode>
-                     <gmd:westBoundLongitude>
-                        <gco:Decimal>-84.90167009999999</gco:Decimal>
-                     </gmd:westBoundLongitude>
-                     <gmd:eastBoundLongitude>
-                        <gco:Decimal>-79.1861581</gco:Decimal>
-                     </gmd:eastBoundLongitude>
-                     <gmd:southBoundLatitude>
-                        <gco:Decimal>42.783392299999996</gco:Decimal>
-                     </gmd:southBoundLatitude>
-                     <gmd:northBoundLatitude>
-                        <gco:Decimal>46.809016299999996</gco:Decimal>
-                     </gmd:northBoundLatitude>
-                  </gmd:EX_GeographicBoundingBox>
-               </gmd:geographicElement>
-               <gmd:temporalElement>
-                  <gmd:EX_TemporalExtent>
-                     <gmd:extent>
-                        <gml:TimePeriod gml:id="d1833e67">
-                           <gml:beginPosition>2013-06-19T18:15:00Z</gml:beginPosition>
-                           <gml:endPosition>2013-07-20T19:10:00Z</gml:endPosition>
-                        </gml:TimePeriod>
-                     </gmd:extent>
-                  </gmd:EX_TemporalExtent>
-               </gmd:temporalElement>
-               <gmd:verticalElement>
-                  <gmd:EX_VerticalExtent>
-                     <gmd:minimumValue>
-                        <gco:Real>0.0</gco:Real>
-                     </gmd:minimumValue>
-                     <gmd:maximumValue>
-                        <gco:Real>0.0</gco:Real>
-                     </gmd:maximumValue>
-                     <gmd:verticalCRS gco:nilReason="missing"/>
-                  </gmd:EX_VerticalExtent>
-               </gmd:verticalElement>
-            </gmd:EX_Extent>
-         </srv:extent>
-         <srv:couplingType>
-            <srv:SV_CouplingType codeList="http://www.tc211.org/ISO19139/resources/codeList.xml#SV_CouplingType"
-                                 codeListValue="tight">tight</srv:SV_CouplingType>
-         </srv:couplingType>
-         <srv:containsOperations>
-            <srv:SV_OperationMetadata>
-               <srv:operationName>
-                  <gco:CharacterString>GetCapabilities</gco:CharacterString>
-               </srv:operationName>
-               <srv:DCP gco:nilReason="unknown"/>
-               <srv:connectPoint>
-                  <gmd:CI_OnlineResource>
-                     <gmd:linkage>
-                        <gmd:URL>http://tds.glos.us:8080/thredds/wms/CHL/LakeHuronCHL-Agg?service=WMS&amp;version=1.3.0&amp;request=GetCapabilities</gmd:URL>
-                     </gmd:linkage>
-                     <gmd:name>
-                        <gco:CharacterString>OGC-WMS</gco:CharacterString>
-                     </gmd:name>
-                     <gmd:description>
-                        <gco:CharacterString>Open Geospatial Consortium Web Map Service (WMS)</gco:CharacterString>
-                     </gmd:description>
-                     <gmd:function>
-                        <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
-                                                   codeListValue="download">download</gmd:CI_OnLineFunctionCode>
-                     </gmd:function>
-                  </gmd:CI_OnlineResource>
-               </srv:connectPoint>
-            </srv:SV_OperationMetadata>
-         </srv:containsOperations>
-         <srv:operatesOn xlink:href="#DataIdentification"/>
-      </srv:SV_ServiceIdentification>
    </gmd:identificationInfo>
    <gmd:contentInfo>
       <gmi:MI_CoverageDescription>
@@ -1050,48 +619,6 @@
                      <gmd:version gco:nilReason="unknown"/>
                   </gmd:MD_Format>
                </gmd:distributorFormat>
-               <gmd:distributorTransferOptions>
-                  <gmd:MD_DigitalTransferOptions>
-                     <gmd:onLine>
-                        <gmd:CI_OnlineResource>
-                           <gmd:linkage>
-                              <gmd:URL>http://tds.glos.us:8080/thredds/dodsC/CHL/LakeHuronCHL-Agg.html</gmd:URL>
-                           </gmd:linkage>
-                           <gmd:name>
-                              <gco:CharacterString>File Information</gco:CharacterString>
-                           </gmd:name>
-                           <gmd:description>
-                              <gco:CharacterString>This URL provides a standard OPeNDAP html interface for selecting data from this dataset. Change the extension to .info for a description of the dataset.</gco:CharacterString>
-                           </gmd:description>
-                           <gmd:function>
-                              <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
-                                                         codeListValue="download">download</gmd:CI_OnLineFunctionCode>
-                           </gmd:function>
-                        </gmd:CI_OnlineResource>
-                     </gmd:onLine>
-                  </gmd:MD_DigitalTransferOptions>
-               </gmd:distributorTransferOptions>
-               <gmd:distributorTransferOptions>
-                  <gmd:MD_DigitalTransferOptions>
-                     <gmd:onLine>
-                        <gmd:CI_OnlineResource>
-                           <gmd:linkage>
-                              <gmd:URL>http://www.ncdc.noaa.gov/oa/wct/wct-jnlp-beta.php?singlefile=http://tds.glos.us:8080/thredds/dodsC/CHL/LakeHuronCHL-Agg</gmd:URL>
-                           </gmd:linkage>
-                           <gmd:name>
-                              <gco:CharacterString>Viewer Information</gco:CharacterString>
-                           </gmd:name>
-                           <gmd:description>
-                              <gco:CharacterString>This URL provides an NCDC climate and weather toolkit view of an OPeNDAP resource.</gco:CharacterString>
-                           </gmd:description>
-                           <gmd:function>
-                              <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode"
-                                                         codeListValue="mapDigital">mapDigital</gmd:CI_OnLineFunctionCode>
-                           </gmd:function>
-                        </gmd:CI_OnlineResource>
-                     </gmd:onLine>
-                  </gmd:MD_DigitalTransferOptions>
-               </gmd:distributorTransferOptions>
             </gmd:MD_Distributor>
          </gmd:distributor>
       </gmd:MD_Distribution>
