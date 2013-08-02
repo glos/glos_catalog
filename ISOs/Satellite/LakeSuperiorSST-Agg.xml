@@ -128,10 +128,10 @@
                                                 codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>123</gco:Integer>
+                  <gco:Integer>124</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
-                  <gco:Measure uom="seconds">353685.0</gco:Measure>
+                  <gco:Measure uom="seconds">354729.0</gco:Measure>
                </gmd:resolution>
             </gmd:MD_Dimension>
          </gmd:axisDimensionProperties>
@@ -496,10 +496,10 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d711">
+                        <gml:TimePeriod gml:id="d795">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2012-03-11T08:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2013-07-23T18:00:00Z</gml:endPosition>
+                           <gml:endPosition>2013-07-29T07:55:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -652,9 +652,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d711e68">
+                        <gml:TimePeriod gml:id="d795e68">
                            <gml:beginPosition>2012-03-11T08:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2013-07-23T18:00:00Z</gml:endPosition>
+                           <gml:endPosition>2013-07-29T07:55:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -837,9 +837,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d711e69">
+                        <gml:TimePeriod gml:id="d795e69">
                            <gml:beginPosition>2012-03-11T08:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2013-07-23T18:00:00Z</gml:endPosition>
+                           <gml:endPosition>2013-07-29T07:55:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -1121,8 +1121,8 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>Thu Jul 18 14:40:47 2013: /usr/local/bin/ncks -4 -A -L 3 /home/nljessee/Desktop/DMAC_Scripts/Superior/LST/4326_201307170730.nc /home/nljessee/Desktop/DMAC_Scripts/Superior/LST/4326_201307170730.nc4
-Thu Jul 18 14:40:44 2013: GDAL Create( /home/nljessee/Desktop/DMAC_Scripts/Superior/LST/4326_201307170730.nc, ... )</gco:CharacterString>
+                  <gco:CharacterString>Thu Jul 25 15:42:02 2013: /usr/local/bin/ncks -4 -A -L 3 /home/nljessee/Desktop/DMAC_Scripts/Superior/LST/4326_201307231800.nc /home/nljessee/Desktop/DMAC_Scripts/Superior/LST/4326_201307231800.nc4
+Thu Jul 25 15:42:00 2013: GDAL Create( /home/nljessee/Desktop/DMAC_Scripts/Superior/LST/4326_201307231800.nc, ... )</gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
          </gmd:lineage>
