@@ -117,7 +117,7 @@
                     <gmd:date>
                         <gmd:CI_Date>
                             <gmd:date>
-                                <gco:DateTime>2013-08-03T03:48:45.678Z</gco:DateTime>
+                                <gco:DateTime>2013-08-03T12:29:16.623Z</gco:DateTime>
                             </gmd:date>
                             <gmd:dateType gco:nilReason="unknown"/>
                         </gmd:CI_Date>
