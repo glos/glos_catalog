@@ -17,57 +17,6 @@
     <gmd:contact>
         <gmd:CI_ResponsibleParty>
             <gmd:individualName>
-                <gco:CharacterString>GLOS DMAC</gco:CharacterString>
-            </gmd:individualName>
-            <gmd:organisationName>
-                <gco:CharacterString>Great Lakes Observing System</gco:CharacterString>
-            </gmd:organisationName>
-            <gmd:contactInfo>
-                <gmd:CI_Contact>
-                    <gmd:phone>
-                        <gmd:CI_Telephone>
-                            <gmd:voice>
-                                <gco:CharacterString>(734) 332-6113</gco:CharacterString>
-                            </gmd:voice>
-                        </gmd:CI_Telephone>
-                    </gmd:phone>
-                    <gmd:address>
-                        <gmd:CI_Address>
-                            <gmd:deliveryPoint>
-                                <gco:CharacterString>229 Nickels Arcade</gco:CharacterString>
-                            </gmd:deliveryPoint>
-                            <gmd:city>
-                                <gco:CharacterString>Ann Arbor</gco:CharacterString>
-                            </gmd:city>
-                            <gmd:administrativeArea>
-                                <gco:CharacterString>Michigan</gco:CharacterString>
-                            </gmd:administrativeArea>
-                            <gmd:postalCode>
-                                <gco:CharacterString>48104</gco:CharacterString>
-                            </gmd:postalCode>
-                            <gmd:electronicMailAddress>
-                                <gco:CharacterString>dmac@glos.us</gco:CharacterString>
-                            </gmd:electronicMailAddress>
-                        </gmd:CI_Address>
-                    </gmd:address>
-                    <gmd:onlineResource>
-                        <gmd:CI_OnlineResource id="glos_url">
-                            <gmd:linkage>
-                                <gmd:URL>http://glos.us</gmd:URL>
-                            </gmd:linkage>
-                        </gmd:CI_OnlineResource>
-                    </gmd:onlineResource>
-                </gmd:CI_Contact>
-            </gmd:contactInfo>
-            <gmd:role>
-                <gmd:CI_RoleCode
-                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/CodeList/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
-            </gmd:role>
-        </gmd:CI_ResponsibleParty>
-    </gmd:contact>
-    <gmd:contact>
-        <gmd:CI_ResponsibleParty>
-            <gmd:individualName>
                 <gco:CharacterString>NWQMC - WQP</gco:CharacterString>
             </gmd:individualName>
             <gmd:organisationName>
@@ -150,7 +99,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:Date>2013-03-20</gco:Date>
+        <gco:Date>2013-08-03</gco:Date>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -168,7 +117,7 @@
                     <gmd:date>
                         <gmd:CI_Date>
                             <gmd:date>
-                                <gco:DateTime>2013-03-20T19:48:18.002Z</gco:DateTime>
+                                <gco:DateTime>2013-08-03T03:47:26.860Z</gco:DateTime>
                             </gmd:date>
                             <gmd:dateType gco:nilReason="unknown"/>
                         </gmd:CI_Date>
@@ -277,9 +226,6 @@
                         <gco:CharacterString>Phosphorus as P</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>Enterococcus</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
                         <gco:CharacterString>Barium</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
@@ -313,9 +259,6 @@
                         <gco:CharacterString>Oxidation reduction potential (ORP)</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>Hexachlorobenzene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
                         <gco:CharacterString>p,p'-DDE</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
@@ -346,9 +289,6 @@
                         <gco:CharacterString>Calcium</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>Oil and Grease</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
                         <gco:CharacterString>Carbonaceous biochemical oxygen demand, standard conditions</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
@@ -365,6 +305,9 @@
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Nitrate as N</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Oil and grease</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Chloride</gco:CharacterString>
@@ -427,13 +370,7 @@
                         <gco:CharacterString>Pheophytin a</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>Total Coliform</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
                         <gco:CharacterString>Transparency, tube with disk</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>Fecal Coliform</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Aldrin</gco:CharacterString>
@@ -463,17 +400,17 @@
                                 <gco:Decimal>-92.443972</gco:Decimal>
                             </gmd:eastBoundLongitude>
                             <gmd:southBoundLatitude>
-                                <gco:Decimal>46.012527</gco:Decimal>
+                                <gco:Decimal>46.012528</gco:Decimal>
                             </gmd:southBoundLatitude>
                             <gmd:northBoundLatitude>
-                                <gco:Decimal>46.012527</gco:Decimal>
+                                <gco:Decimal>46.012528</gco:Decimal>
                             </gmd:northBoundLatitude>
                         </gmd:EX_GeographicBoundingBox>
                     </gmd:geographicElement>
                     <gmd:temporalElement>
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
-                                <gml:TimePeriod id="-1287103715">
+                                <gml:TimePeriod id="TP-EX1">
                                     <gml:beginPosition>1957-04-30T00:01:00.000Z</gml:beginPosition>
                                     <gml:endPosition>2010-11-03T17:15:00.000Z</gml:endPosition>
                                 </gml:TimePeriod>
@@ -543,17 +480,17 @@
                                 <gco:Decimal>-92.443972</gco:Decimal>
                             </gmd:eastBoundLongitude>
                             <gmd:southBoundLatitude>
-                                <gco:Decimal>46.012527</gco:Decimal>
+                                <gco:Decimal>46.012528</gco:Decimal>
                             </gmd:southBoundLatitude>
                             <gmd:northBoundLatitude>
-                                <gco:Decimal>46.012527</gco:Decimal>
+                                <gco:Decimal>46.012528</gco:Decimal>
                             </gmd:northBoundLatitude>
                         </gmd:EX_GeographicBoundingBox>
                     </gmd:geographicElement>
                     <gmd:temporalElement>
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
-                                <gml:TimePeriod id="-2102877046">
+                                <gml:TimePeriod id="TP-EX1">
                                     <gml:beginPosition>1957-04-30T00:01:00.000Z</gml:beginPosition>
                                     <gml:endPosition>2010-11-03T17:15:00.000Z</gml:endPosition>
                                 </gml:TimePeriod>
@@ -1143,21 +1080,6 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
-                                <gco:CharacterString>Enterococcus</gco:CharacterString>
-                            </gco:aName>
-                            <gco:attributeType gco:nilReason="unknown"/>
-                        </gco:MemberName>
-                    </gmd:sequenceIdentifier>
-                    <gmd:descriptor>
-                        <gco:CharacterString>Enterococcus</gco:CharacterString>
-                    </gmd:descriptor>
-                </gmd:MD_Band>
-            </gmd:dimension>
-            <gmd:dimension>
-                <gmd:MD_Band>
-                    <gmd:sequenceIdentifier>
-                        <gco:MemberName>
-                            <gco:aName>
                                 <gco:CharacterString>Barium</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
@@ -1323,21 +1245,6 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
-                                <gco:CharacterString>Hexachlorobenzene</gco:CharacterString>
-                            </gco:aName>
-                            <gco:attributeType gco:nilReason="unknown"/>
-                        </gco:MemberName>
-                    </gmd:sequenceIdentifier>
-                    <gmd:descriptor>
-                        <gco:CharacterString>Hexachlorobenzene</gco:CharacterString>
-                    </gmd:descriptor>
-                </gmd:MD_Band>
-            </gmd:dimension>
-            <gmd:dimension>
-                <gmd:MD_Band>
-                    <gmd:sequenceIdentifier>
-                        <gco:MemberName>
-                            <gco:aName>
                                 <gco:CharacterString>p,p'-DDE</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
@@ -1488,21 +1395,6 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
-                                <gco:CharacterString>Oil and Grease</gco:CharacterString>
-                            </gco:aName>
-                            <gco:attributeType gco:nilReason="unknown"/>
-                        </gco:MemberName>
-                    </gmd:sequenceIdentifier>
-                    <gmd:descriptor>
-                        <gco:CharacterString>Oil and Grease</gco:CharacterString>
-                    </gmd:descriptor>
-                </gmd:MD_Band>
-            </gmd:dimension>
-            <gmd:dimension>
-                <gmd:MD_Band>
-                    <gmd:sequenceIdentifier>
-                        <gco:MemberName>
-                            <gco:aName>
                                 <gco:CharacterString>Carbonaceous biochemical oxygen demand, standard conditions</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
@@ -1585,6 +1477,21 @@
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
                         <gco:CharacterString>Nitrate as N</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
+                                <gco:CharacterString>Oil and grease</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>Oil and grease</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
@@ -1893,21 +1800,6 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
-                                <gco:CharacterString>Total Coliform</gco:CharacterString>
-                            </gco:aName>
-                            <gco:attributeType gco:nilReason="unknown"/>
-                        </gco:MemberName>
-                    </gmd:sequenceIdentifier>
-                    <gmd:descriptor>
-                        <gco:CharacterString>Total Coliform</gco:CharacterString>
-                    </gmd:descriptor>
-                </gmd:MD_Band>
-            </gmd:dimension>
-            <gmd:dimension>
-                <gmd:MD_Band>
-                    <gmd:sequenceIdentifier>
-                        <gco:MemberName>
-                            <gco:aName>
                                 <gco:CharacterString>Transparency, tube with disk</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
@@ -1915,21 +1807,6 @@
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
                         <gco:CharacterString>Transparency, tube with disk</gco:CharacterString>
-                    </gmd:descriptor>
-                </gmd:MD_Band>
-            </gmd:dimension>
-            <gmd:dimension>
-                <gmd:MD_Band>
-                    <gmd:sequenceIdentifier>
-                        <gco:MemberName>
-                            <gco:aName>
-                                <gco:CharacterString>Fecal Coliform</gco:CharacterString>
-                            </gco:aName>
-                            <gco:attributeType gco:nilReason="unknown"/>
-                        </gco:MemberName>
-                    </gmd:sequenceIdentifier>
-                    <gmd:descriptor>
-                        <gco:CharacterString>Fecal Coliform</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>

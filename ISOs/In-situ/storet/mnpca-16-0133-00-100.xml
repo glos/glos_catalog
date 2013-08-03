@@ -99,7 +99,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:Date>2013-07-22</gco:Date>
+        <gco:Date>2013-08-03</gco:Date>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -117,7 +117,7 @@
                     <gmd:date>
                         <gmd:CI_Date>
                             <gmd:date>
-                                <gco:DateTime>2013-07-22T08:23:12.653Z</gco:DateTime>
+                                <gco:DateTime>2013-08-03T03:14:36.736Z</gco:DateTime>
                             </gmd:date>
                             <gmd:dateType gco:nilReason="unknown"/>
                         </gmd:CI_Date>
@@ -139,10 +139,28 @@
                         <gco:CharacterString>Alkalinity, total as CaCO3</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
+                        <gco:CharacterString>Dissolved oxygen saturation</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Depth, Secchi disk depth</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Lake physical appearance (choice list)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
                         <gco:CharacterString>Apparent color</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
+                        <gco:CharacterString>Specific conductance</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
                         <gco:CharacterString>Turbidity</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Dissolved oxygen (DO)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Oxidation reduction potential (ORP)</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Phosphate-phosphorus as P</gco:CharacterString>
@@ -151,10 +169,19 @@
                         <gco:CharacterString>Chloride</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
+                        <gco:CharacterString>pH</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Temperature, water</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
                         <gco:CharacterString>Total suspended solids</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Total volatile solids</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Lake recreational suitability (choice list)</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Pheophytin a</gco:CharacterString>
@@ -426,6 +453,51 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
+                                <gco:CharacterString>Dissolved oxygen saturation</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>Dissolved oxygen saturation</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
+                                <gco:CharacterString>Depth, Secchi disk depth</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>Depth, Secchi disk depth</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
+                                <gco:CharacterString>Lake physical appearance (choice list)</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>Lake physical appearance (choice list)</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
                                 <gco:CharacterString>Apparent color</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
@@ -441,6 +513,21 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
+                                <gco:CharacterString>Specific conductance</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>Specific conductance</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
                                 <gco:CharacterString>Turbidity</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
@@ -448,6 +535,36 @@
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
                         <gco:CharacterString>Turbidity</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
+                                <gco:CharacterString>Dissolved oxygen (DO)</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>Dissolved oxygen (DO)</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
+                                <gco:CharacterString>Oxidation reduction potential (ORP)</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>Oxidation reduction potential (ORP)</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
@@ -486,6 +603,36 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
+                                <gco:CharacterString>pH</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>pH</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
+                                <gco:CharacterString>Temperature, water</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>Temperature, water</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
                                 <gco:CharacterString>Total suspended solids</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
@@ -508,6 +655,21 @@
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
                         <gco:CharacterString>Total volatile solids</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
+                                <gco:CharacterString>Lake recreational suitability (choice list)</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>Lake recreational suitability (choice list)</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>

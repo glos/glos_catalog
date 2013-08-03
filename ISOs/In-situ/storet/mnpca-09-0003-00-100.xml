@@ -99,7 +99,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:Date>2013-07-22</gco:Date>
+        <gco:Date>2013-08-03</gco:Date>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -117,7 +117,7 @@
                     <gmd:date>
                         <gmd:CI_Date>
                             <gmd:date>
-                                <gco:DateTime>2013-07-22T08:04:16.204Z</gco:DateTime>
+                                <gco:DateTime>2013-08-03T03:08:14.137Z</gco:DateTime>
                             </gmd:date>
                             <gmd:dateType gco:nilReason="unknown"/>
                         </gmd:CI_Date>
@@ -143,6 +143,9 @@
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Nutrient-nitrogen as N</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Depth, Secchi disk depth</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Apparent color</gco:CharacterString>
@@ -188,6 +191,9 @@
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Silica</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Temperature, water</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Mercury</gco:CharacterString>
@@ -495,6 +501,21 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
+                                <gco:CharacterString>Depth, Secchi disk depth</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>Depth, Secchi disk depth</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
                                 <gco:CharacterString>Apparent color</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
@@ -712,6 +733,21 @@
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
                         <gco:CharacterString>Silica</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
+                                <gco:CharacterString>Temperature, water</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>Temperature, water</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
