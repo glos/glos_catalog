@@ -69,7 +69,7 @@
         <attribute name="geospatial_vertical_units" type="String" value="meters" />
         <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
         <attribute name="geospatial_vertical_positive" type="String" value="up" />
-        <aggregation dimName="time" type="joinExisting">
+        <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
           <scan location="/var/thredds/MTRI-LST/erie_current_year/converted/" suffix=".nc4"/>
         </aggregation>
       </netcdf>
@@ -109,7 +109,7 @@
         <attribute name="geospatial_vertical_units" type="String" value="meters" />
         <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
         <attribute name="geospatial_vertical_positive" type="String" value="up" />
-        <aggregation dimName="time" type="joinExisting">
+        <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
           <scan location="/var/thredds/MTRI-LST/huron_current_year/converted/" suffix=".nc4"/>
         </aggregation>
       </netcdf>
@@ -149,7 +149,7 @@
         <attribute name="geospatial_vertical_units" type="String" value="meters" />
         <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
         <attribute name="geospatial_vertical_positive" type="String" value="up" />
-        <aggregation dimName="time" type="joinExisting">
+        <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
           <scan location="/var/thredds/MTRI-LST/michigan_current_year/converted/" suffix=".nc4"/>
         </aggregation>
       </netcdf>
@@ -189,7 +189,7 @@
         <attribute name="geospatial_vertical_units" type="String" value="meters" />
         <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
         <attribute name="geospatial_vertical_positive" type="String" value="up" />
-        <aggregation dimName="time" type="joinExisting">
+        <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
           <scan location="/var/thredds/MTRI-LST/ontario_current_year/converted/" suffix=".nc4"/>
         </aggregation>
       </netcdf>
@@ -229,7 +229,7 @@
         <attribute name="geospatial_vertical_units" type="String" value="meters" />
         <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
         <attribute name="geospatial_vertical_positive" type="String" value="up" />      
-        <aggregation dimName="time" type="joinExisting">
+        <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
           <scan location="/var/thredds/MTRI-LST/superior_current_year/converted/" suffix=".nc4"/>
         </aggregation>
       </netcdf>

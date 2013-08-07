@@ -42,7 +42,7 @@
       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
         <attribute name="title" value="Lake Erie - MODIS - Lake Surface Chlorophyll (CHL) - Aggregation" />
         <attribute name="summary" value="Aggregation of Chlorophyll from Lake Erie and surrounding waters from MODIS satellites." />
-        <aggregation dimName="time" type="joinExisting">
+        <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
           <scan location="/var/thredds/MTRI-CHL/erie/" suffix=".nc"/>
         </aggregation>
       </netcdf>
@@ -55,7 +55,7 @@
       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
         <attribute name="title" value="Lake Huron - MODIS - Lake Surface Chlorophyll (CHL) - Aggregation" />
         <attribute name="summary" value="Aggregation of Chlorophyll from Lake Huron and surrounding waters from MODIS satellites." />
-        <aggregation dimName="time" type="joinExisting">
+        <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
           <scan location="/var/thredds/MTRI-CHL/huron/" suffix=".nc"/>
         </aggregation>
       </netcdf>
@@ -68,7 +68,7 @@
       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
         <attribute name="title" value="Lake Michigan - MODIS - Lake Surface Chlorophyll (CHL) - Aggregation" />
         <attribute name="summary" value="Aggregation of Chlorophyll from Lake Michigan and surrounding waters from MODIS satellites." />
-        <aggregation dimName="time" type="joinExisting">
+        <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
           <scan location="/var/thredds/MTRI-CHL/michigan/" suffix=".nc"/>
         </aggregation>
       </netcdf>
@@ -81,7 +81,7 @@
       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
         <attribute name="title" value="Lake Ontario - MODIS - Lake Surface Chlorophyll (CHL) - Aggregation" />
         <attribute name="summary" value="Aggregation of Chlorophyll from Lake Ontario and surrounding waters from MODIS satellites." />
-        <aggregation dimName="time" type="joinExisting">
+        <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
           <scan location="/var/thredds/MTRI-CHL/ontario/" suffix=".nc"/>
         </aggregation>
       </netcdf>
@@ -94,7 +94,7 @@
       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
         <attribute name="title" value="Lake Superior - MODIS - Lake Surface Chlorophyll (CHL) - Aggregation" />
         <attribute name="summary" value="Aggregation of Chlorophyll from Lake Superior and surrounding waters from MODIS satellites." />
-        <aggregation dimName="time" type="joinExisting">
+        <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
           <scan location="/var/thredds/MTRI-CHL/superior/" suffix=".nc"/>
         </aggregation>
       </netcdf>
