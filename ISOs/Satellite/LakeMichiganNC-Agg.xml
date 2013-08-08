@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2013-08-07</gco:Date>
+      <gco:Date>2013-08-08</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -493,7 +493,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d355">
+                        <gml:TimePeriod gml:id="d31">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2013-07-06T18:55:00Z</gml:beginPosition>
                            <gml:endPosition>2013-07-25T19:25:00Z</gml:endPosition>
@@ -649,7 +649,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d355e66">
+                        <gml:TimePeriod gml:id="d31e66">
                            <gml:beginPosition>2013-07-06T18:55:00Z</gml:beginPosition>
                            <gml:endPosition>2013-07-25T19:25:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -834,7 +834,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d355e67">
+                        <gml:TimePeriod gml:id="d31e67">
                            <gml:beginPosition>2013-07-06T18:55:00Z</gml:beginPosition>
                            <gml:endPosition>2013-07-25T19:25:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -1162,7 +1162,7 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>Thu Jul 25 15:39:30 2013: GDAL Create( /home/nljessee/Desktop/DMAC_Scripts/Michigan/NCI/20130722_1855.nc, ... )</gco:CharacterString>
+                  <gco:CharacterString>Fri Aug 02 11:01:32 2013: GDAL Create( /home/nljessee/Desktop/DMAC_Scripts/Michigan/NCI/20130725_1925.nc, ... )</gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
          </gmd:lineage>

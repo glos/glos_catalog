@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2013-08-07</gco:Date>
+      <gco:Date>2013-08-08</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -496,7 +496,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d337">
+                        <gml:TimePeriod gml:id="d13">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2012-03-11T08:00:00Z</gml:beginPosition>
                            <gml:endPosition>2013-07-31T07:45:00Z</gml:endPosition>
@@ -652,7 +652,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d337e68">
+                        <gml:TimePeriod gml:id="d13e68">
                            <gml:beginPosition>2012-03-11T08:00:00Z</gml:beginPosition>
                            <gml:endPosition>2013-07-31T07:45:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -837,7 +837,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d337e69">
+                        <gml:TimePeriod gml:id="d13e69">
                            <gml:beginPosition>2012-03-11T08:00:00Z</gml:beginPosition>
                            <gml:endPosition>2013-07-31T07:45:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -1121,8 +1121,8 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>Thu Jul 25 15:41:32 2013: /usr/local/bin/ncks -4 -A -L 3 /home/nljessee/Desktop/DMAC_Scripts/Ontario/LST/4326_201307231800.nc /home/nljessee/Desktop/DMAC_Scripts/Ontario/LST/4326_201307231800.nc4
-Thu Jul 25 15:41:31 2013: GDAL Create( /home/nljessee/Desktop/DMAC_Scripts/Ontario/LST/4326_201307231800.nc, ... )</gco:CharacterString>
+                  <gco:CharacterString>Fri Aug  2 11:04:39 2013: /usr/local/bin/ncks -4 -A -L 3 /home/nljessee/Desktop/DMAC_Scripts/Ontario/LST/4326_201307310745.nc /home/nljessee/Desktop/DMAC_Scripts/Ontario/LST/4326_201307310745.nc4
+Fri Aug 02 11:04:38 2013: GDAL Create( /home/nljessee/Desktop/DMAC_Scripts/Ontario/LST/4326_201307310745.nc, ... )</gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
          </gmd:lineage>
