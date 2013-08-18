@@ -64,7 +64,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:Date>2013-08-11</gco:Date>
+        <gco:Date>2013-08-18</gco:Date>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -82,7 +82,7 @@
                     <gmd:date>
                         <gmd:CI_Date>
                             <gmd:date>
-                                <gco:DateTime>2013-08-11T02:16:10.768Z</gco:DateTime>
+                                <gco:DateTime>2013-08-18T02:16:51.748Z</gco:DateTime>
                             </gmd:date>
                             <gmd:dateType gco:nilReason="unknown"/>
                         </gmd:CI_Date>
@@ -94,6 +94,9 @@
             </gmd:abstract>
             <gmd:descriptiveKeywords>
                 <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>stream_gage_height</gco:CharacterString>
+                    </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>stream_gage_height</gco:CharacterString>
                     </gmd:keyword>
@@ -167,6 +170,21 @@
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
                         <gco:CharacterString>http://mmisw.org/ont/glos/parameter/stream_gage_height</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
+                                <gco:CharacterString>stream_gage_height</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>http://mmisw.org/ont/fake/parameter/stream_gage_height</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
