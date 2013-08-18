@@ -64,7 +64,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:Date>2013-08-11</gco:Date>
+        <gco:Date>2013-08-18</gco:Date>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -82,7 +82,7 @@
                     <gmd:date>
                         <gmd:CI_Date>
                             <gmd:date>
-                                <gco:DateTime>2013-08-11T03:01:29.020Z</gco:DateTime>
+                                <gco:DateTime>2013-08-18T03:02:26.959Z</gco:DateTime>
                             </gmd:date>
                             <gmd:dateType gco:nilReason="unknown"/>
                         </gmd:CI_Date>
@@ -101,7 +101,7 @@
                         <gco:CharacterString>Significant Wave Height</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>Sea Surface Dominant Wave Period</gco:CharacterString>
+                        <gco:CharacterString>sea_surface_dominant_wave_period</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Mean Wave Period</gco:CharacterString>
@@ -123,6 +123,9 @@
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>Sea Surface Wind Wave To Direction</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Sea Surface Dominant Wave Period</gco:CharacterString>
                     </gmd:keyword>
                 </gmd:MD_Keywords>
             </gmd:descriptiveKeywords>
@@ -376,7 +379,7 @@
                     <gmd:sequenceIdentifier>
                         <gco:MemberName>
                             <gco:aName>
-                                <gco:CharacterString>Sea Surface Dominant Wave Period</gco:CharacterString>
+                                <gco:CharacterString>sea_surface_dominant_wave_period</gco:CharacterString>
                             </gco:aName>
                             <gco:attributeType gco:nilReason="unknown"/>
                         </gco:MemberName>
@@ -488,6 +491,21 @@
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
                         <gco:CharacterString>http://mmisw.org/ont/cf/parameter/sea_surface_wind_wave_to_direction</gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+            <gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
+                                <gco:CharacterString>Sea Surface Dominant Wave Period</gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString>http://mmisw.org/ont/fake/parameter/sea_surface_dominant_wave_period</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
