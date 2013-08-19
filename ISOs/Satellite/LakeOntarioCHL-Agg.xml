@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2013-08-16</gco:Date>
+      <gco:Date>2013-08-19</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -484,7 +484,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d34547">
+                        <gml:TimePeriod gml:id="d35959">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2013-06-20T18:55:00Z</gml:beginPosition>
                            <gml:endPosition>2013-08-11T18:30:00Z</gml:endPosition>
@@ -640,7 +640,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d34547e66">
+                        <gml:TimePeriod gml:id="d35959e66">
                            <gml:beginPosition>2013-06-20T18:55:00Z</gml:beginPosition>
                            <gml:endPosition>2013-08-11T18:30:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -673,7 +673,7 @@
                <srv:connectPoint>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://tds.glos.us:8080/thredds/dodsC/CHL/LakeOntarioCHL-Agg</gmd:URL>
+                        <gmd:URL>http://tds.glos.us/thredds/dodsC/CHL/LakeOntarioCHL-Agg</gmd:URL>
                      </gmd:linkage>
                      <gmd:name>
                         <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -825,7 +825,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d34547e67">
+                        <gml:TimePeriod gml:id="d35959e67">
                            <gml:beginPosition>2013-06-20T18:55:00Z</gml:beginPosition>
                            <gml:endPosition>2013-08-11T18:30:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -858,7 +858,7 @@
                <srv:connectPoint>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://tds.glos.us:8080/thredds/wms/CHL/LakeOntarioCHL-Agg?service=WMS&amp;version=1.3.0&amp;request=GetCapabilities</gmd:URL>
+                        <gmd:URL>http://tds.glos.us/thredds/wms/CHL/LakeOntarioCHL-Agg?service=WMS&amp;version=1.3.0&amp;request=GetCapabilities</gmd:URL>
                      </gmd:linkage>
                      <gmd:name>
                         <gco:CharacterString>OGC-WMS</gco:CharacterString>
@@ -1055,7 +1055,7 @@
                      <gmd:onLine>
                         <gmd:CI_OnlineResource>
                            <gmd:linkage>
-                              <gmd:URL>http://tds.glos.us:8080/thredds/dodsC/CHL/LakeOntarioCHL-Agg.html</gmd:URL>
+                              <gmd:URL>http://tds.glos.us/thredds/dodsC/CHL/LakeOntarioCHL-Agg.html</gmd:URL>
                            </gmd:linkage>
                            <gmd:name>
                               <gco:CharacterString>File Information</gco:CharacterString>
@@ -1076,7 +1076,7 @@
                      <gmd:onLine>
                         <gmd:CI_OnlineResource>
                            <gmd:linkage>
-                              <gmd:URL>http://www.ncdc.noaa.gov/oa/wct/wct-jnlp-beta.php?singlefile=http://tds.glos.us:8080/thredds/dodsC/CHL/LakeOntarioCHL-Agg</gmd:URL>
+                              <gmd:URL>http://www.ncdc.noaa.gov/oa/wct/wct-jnlp-beta.php?singlefile=http://tds.glos.us/thredds/dodsC/CHL/LakeOntarioCHL-Agg</gmd:URL>
                            </gmd:linkage>
                            <gmd:name>
                               <gco:CharacterString>Viewer Information</gco:CharacterString>

@@ -57,7 +57,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2013-08-16</gco:Date>
+      <gco:Date>2013-08-19</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -311,10 +311,10 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d34659">
+                        <gml:TimePeriod gml:id="d36023">
                            <gml:description>seconds</gml:description>
-                           <gml:beginPosition>2013-08-15T13:01:52Z</gml:beginPosition>
-                           <gml:endPosition>2013-08-17T12:00:00Z</gml:endPosition>
+                           <gml:beginPosition>2013-08-19T01:01:52Z</gml:beginPosition>
+                           <gml:endPosition>2013-08-21T00:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -414,9 +414,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d34659e49">
-                           <gml:beginPosition>2013-08-15T13:01:52Z</gml:beginPosition>
-                           <gml:endPosition>2013-08-17T12:00:00Z</gml:endPosition>
+                        <gml:TimePeriod gml:id="d36023e49">
+                           <gml:beginPosition>2013-08-19T01:01:52Z</gml:beginPosition>
+                           <gml:endPosition>2013-08-21T00:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -436,7 +436,7 @@
                <srv:connectPoint>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://tds.glos.us:8080/thredds/dodsC/FVCOM/HECWFS-Latest-Forecast.nc</gmd:URL>
+                        <gmd:URL>http://tds.glos.us/thredds/dodsC/FVCOM/HECWFS-Latest-Forecast.nc</gmd:URL>
                      </gmd:linkage>
                      <gmd:name>
                         <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -546,9 +546,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d34659e50">
-                           <gml:beginPosition>2013-08-15T13:01:52Z</gml:beginPosition>
-                           <gml:endPosition>2013-08-17T12:00:00Z</gml:endPosition>
+                        <gml:TimePeriod gml:id="d36023e50">
+                           <gml:beginPosition>2013-08-19T01:01:52Z</gml:beginPosition>
+                           <gml:endPosition>2013-08-21T00:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -568,7 +568,7 @@
                <srv:connectPoint>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://tds.glos.us:8080/thredds/fileServer/FVCOM/HECWFS-Latest-Forecast.nc</gmd:URL>
+                        <gmd:URL>http://tds.glos.us/thredds/fileServer/FVCOM/HECWFS-Latest-Forecast.nc</gmd:URL>
                      </gmd:linkage>
                      <gmd:name>
                         <gco:CharacterString>THREDDS_HTTP_Service</gco:CharacterString>
@@ -1303,7 +1303,7 @@
                      <gmd:onLine>
                         <gmd:CI_OnlineResource>
                            <gmd:linkage>
-                              <gmd:URL>http://tds.glos.us:8080/thredds/dodsC/FVCOM/HECWFS-Latest-Forecast.nc.html</gmd:URL>
+                              <gmd:URL>http://tds.glos.us/thredds/dodsC/FVCOM/HECWFS-Latest-Forecast.nc.html</gmd:URL>
                            </gmd:linkage>
                            <gmd:name>
                               <gco:CharacterString>File Information</gco:CharacterString>
@@ -1324,7 +1324,7 @@
                      <gmd:onLine>
                         <gmd:CI_OnlineResource>
                            <gmd:linkage>
-                              <gmd:URL>http://www.ncdc.noaa.gov/oa/wct/wct-jnlp-beta.php?singlefile=http://tds.glos.us:8080/thredds/dodsC/FVCOM/HECWFS-Latest-Forecast.nc</gmd:URL>
+                              <gmd:URL>http://www.ncdc.noaa.gov/oa/wct/wct-jnlp-beta.php?singlefile=http://tds.glos.us/thredds/dodsC/FVCOM/HECWFS-Latest-Forecast.nc</gmd:URL>
                            </gmd:linkage>
                            <gmd:name>
                               <gco:CharacterString>Viewer Information</gco:CharacterString>
@@ -1357,7 +1357,7 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>model started at: 15/08/2013   08:41</gco:CharacterString>
+                  <gco:CharacterString>model started at: 18/08/2013   20:41</gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
          </gmd:lineage>

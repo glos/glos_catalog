@@ -57,7 +57,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2013-08-16</gco:Date>
+      <gco:Date>2013-08-19</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -375,7 +375,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d34593">
+                        <gml:TimePeriod gml:id="d36005">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2006-01-01T03:00:00Z</gml:beginPosition>
                            <gml:endPosition>2013-07-20T00:00:00Z</gml:endPosition>
@@ -508,7 +508,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d34593e72">
+                        <gml:TimePeriod gml:id="d36005e72">
                            <gml:beginPosition>2006-01-01T03:00:00Z</gml:beginPosition>
                            <gml:endPosition>2013-07-20T00:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -541,7 +541,7 @@
                <srv:connectPoint>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://tds.glos.us:8080/thredds/dodsC/glos/glcfs/archiveall/erie/ncfmrc-3d/Lake_Erie_-_Nowcast_-_3D_-_All_Years_best.ncd</gmd:URL>
+                        <gmd:URL>http://tds.glos.us/thredds/dodsC/glos/glcfs/archiveall/erie/ncfmrc-3d/Lake_Erie_-_Nowcast_-_3D_-_All_Years_best.ncd</gmd:URL>
                      </gmd:linkage>
                      <gmd:name>
                         <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -670,7 +670,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d34593e73">
+                        <gml:TimePeriod gml:id="d36005e73">
                            <gml:beginPosition>2006-01-01T03:00:00Z</gml:beginPosition>
                            <gml:endPosition>2013-07-20T00:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -703,7 +703,7 @@
                <srv:connectPoint>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://tds.glos.us:8080/thredds/wms/glos/glcfs/archiveall/erie/ncfmrc-3d/Lake_Erie_-_Nowcast_-_3D_-_All_Years_best.ncd?service=WMS&amp;version=1.3.0&amp;request=GetCapabilities</gmd:URL>
+                        <gmd:URL>http://tds.glos.us/thredds/wms/glos/glcfs/archiveall/erie/ncfmrc-3d/Lake_Erie_-_Nowcast_-_3D_-_All_Years_best.ncd?service=WMS&amp;version=1.3.0&amp;request=GetCapabilities</gmd:URL>
                      </gmd:linkage>
                      <gmd:name>
                         <gco:CharacterString>OGC-WMS</gco:CharacterString>
@@ -1032,7 +1032,7 @@
                      <gmd:onLine>
                         <gmd:CI_OnlineResource>
                            <gmd:linkage>
-                              <gmd:URL>http://tds.glos.us:8080/thredds/dodsC/glos/glcfs/archiveall/erie/ncfmrc-3d/Lake_Erie_-_Nowcast_-_3D_-_All_Years_best.ncd.html</gmd:URL>
+                              <gmd:URL>http://tds.glos.us/thredds/dodsC/glos/glcfs/archiveall/erie/ncfmrc-3d/Lake_Erie_-_Nowcast_-_3D_-_All_Years_best.ncd.html</gmd:URL>
                            </gmd:linkage>
                            <gmd:name>
                               <gco:CharacterString>File Information</gco:CharacterString>
@@ -1053,7 +1053,7 @@
                      <gmd:onLine>
                         <gmd:CI_OnlineResource>
                            <gmd:linkage>
-                              <gmd:URL>http://www.ncdc.noaa.gov/oa/wct/wct-jnlp-beta.php?singlefile=http://tds.glos.us:8080/thredds/dodsC/glos/glcfs/archiveall/erie/ncfmrc-3d/Lake_Erie_-_Nowcast_-_3D_-_All_Years_best.ncd</gmd:URL>
+                              <gmd:URL>http://www.ncdc.noaa.gov/oa/wct/wct-jnlp-beta.php?singlefile=http://tds.glos.us/thredds/dodsC/glos/glcfs/archiveall/erie/ncfmrc-3d/Lake_Erie_-_Nowcast_-_3D_-_All_Years_best.ncd</gmd:URL>
                            </gmd:linkage>
                            <gmd:name>
                               <gco:CharacterString>Viewer Information</gco:CharacterString>
