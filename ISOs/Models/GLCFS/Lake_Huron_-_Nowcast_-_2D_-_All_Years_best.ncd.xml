@@ -408,7 +408,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d37363">
+                        <gml:TimePeriod gml:id="d61">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2012-01-01T01:00:00Z</gml:beginPosition>
                            <gml:endPosition>2013-07-20T00:00:00Z</gml:endPosition>
@@ -541,7 +541,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d37363e73">
+                        <gml:TimePeriod gml:id="d61e73">
                            <gml:beginPosition>2012-01-01T01:00:00Z</gml:beginPosition>
                            <gml:endPosition>2013-07-20T00:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -703,7 +703,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d37363e74">
+                        <gml:TimePeriod gml:id="d61e74">
                            <gml:beginPosition>2012-01-01T01:00:00Z</gml:beginPosition>
                            <gml:endPosition>2013-07-20T00:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -1339,7 +1339,7 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>Mon Apr 22 07:53:06 2013: /opt/local/bin/ncks --fl_fmt=netcdf4_classic --deflate=5 nc_files/h201305100.out1.nc tmp/h201305100.out1.nc4 ;
+                  <gco:CharacterString>Mon Jun 10 07:55:49 2013: /opt/local/bin/ncks --fl_fmt=netcdf4_classic --deflate=5 nc_files/h201310100.out1.nc tmp/h201310100.out1.nc4 ;
 FMRC Best Dataset</gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
