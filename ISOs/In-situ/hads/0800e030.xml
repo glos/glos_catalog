@@ -64,7 +64,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:Date>2013-07-22</gco:Date>
+        <gco:Date>2013-08-25</gco:Date>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -82,7 +82,7 @@
                     <gmd:date>
                         <gmd:CI_Date>
                             <gmd:date>
-                                <gco:DateTime>2013-07-22T02:11:31.990Z</gco:DateTime>
+                                <gco:DateTime>2013-08-25T02:15:22.800Z</gco:DateTime>
                             </gmd:date>
                             <gmd:dateType gco:nilReason="unknown"/>
                         </gmd:CI_Date>
@@ -116,9 +116,6 @@
                         <gco:CharacterString>Battery Voltage</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>Fuel Moisture</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
                         <gco:CharacterString>Wind Gust From Direction</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
@@ -143,16 +140,16 @@
                                 <gco:Boolean>1</gco:Boolean>
                             </gmd:extentTypeCode>
                             <gmd:westBoundLongitude>
-                                <gco:Decimal>-84.1227777777778</gco:Decimal>
+                                <gco:Decimal>-84.12277777777777</gco:Decimal>
                             </gmd:westBoundLongitude>
                             <gmd:eastBoundLongitude>
-                                <gco:Decimal>-84.1227777777778</gco:Decimal>
+                                <gco:Decimal>-84.12277777777777</gco:Decimal>
                             </gmd:eastBoundLongitude>
                             <gmd:southBoundLatitude>
-                                <gco:Decimal>44.1291666666667</gco:Decimal>
+                                <gco:Decimal>44.12916666666667</gco:Decimal>
                             </gmd:southBoundLatitude>
                             <gmd:northBoundLatitude>
-                                <gco:Decimal>44.1291666666667</gco:Decimal>
+                                <gco:Decimal>44.12916666666667</gco:Decimal>
                             </gmd:northBoundLatitude>
                         </gmd:EX_GeographicBoundingBox>
                     </gmd:geographicElement>
@@ -256,7 +253,7 @@
                         </gco:MemberName>
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
-                        <gco:CharacterString>http://mmisw.org/ont/aoos/parameter/fuel_temperature</gco:CharacterString>
+                        <gco:CharacterString>http://mmisw.org/ont/fake/parameter/fuel_temperature</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
@@ -287,21 +284,6 @@
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
                         <gco:CharacterString>http://mmisw.org/ont/ioos/parameter/battery_voltage</gco:CharacterString>
-                    </gmd:descriptor>
-                </gmd:MD_Band>
-            </gmd:dimension>
-            <gmd:dimension>
-                <gmd:MD_Band>
-                    <gmd:sequenceIdentifier>
-                        <gco:MemberName>
-                            <gco:aName>
-                                <gco:CharacterString>Fuel Moisture</gco:CharacterString>
-                            </gco:aName>
-                            <gco:attributeType gco:nilReason="unknown"/>
-                        </gco:MemberName>
-                    </gmd:sequenceIdentifier>
-                    <gmd:descriptor>
-                        <gco:CharacterString>http://mmisw.org/ont/aoos/parameter/fuel_moisture</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
@@ -346,7 +328,7 @@
                         </gco:MemberName>
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
-                        <gco:CharacterString>http://mmisw.org/ont/aoos/parameter/solar_radiation</gco:CharacterString>
+                        <gco:CharacterString>http://mmisw.org/ont/fake/parameter/solar_radiation</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
