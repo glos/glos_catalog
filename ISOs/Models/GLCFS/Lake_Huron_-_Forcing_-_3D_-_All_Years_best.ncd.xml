@@ -57,7 +57,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2013-08-16</gco:Date>
+      <gco:Date>2013-08-25</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -378,7 +378,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d34605">
+                        <gml:TimePeriod gml:id="d4293">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2006-01-01T00:00:00Z</gml:beginPosition>
                            <gml:endPosition>2013-07-19T23:00:00Z</gml:endPosition>
@@ -511,7 +511,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d34605e72">
+                        <gml:TimePeriod gml:id="d4293e72">
                            <gml:beginPosition>2006-01-01T00:00:00Z</gml:beginPosition>
                            <gml:endPosition>2013-07-19T23:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -544,7 +544,7 @@
                <srv:connectPoint>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://tds.glos.us:8080/thredds/dodsC/glos/glcfs/archiveall/huron/forcing-fmrc-3d/Lake_Huron_-_Forcing_-_3D_-_All_Years_best.ncd</gmd:URL>
+                        <gmd:URL>http://tds.glos.us/thredds/dodsC/glos/glcfs/archiveall/huron/forcing-fmrc-3d/Lake_Huron_-_Forcing_-_3D_-_All_Years_best.ncd</gmd:URL>
                      </gmd:linkage>
                      <gmd:name>
                         <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -673,7 +673,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d34605e73">
+                        <gml:TimePeriod gml:id="d4293e73">
                            <gml:beginPosition>2006-01-01T00:00:00Z</gml:beginPosition>
                            <gml:endPosition>2013-07-19T23:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -706,7 +706,7 @@
                <srv:connectPoint>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://tds.glos.us:8080/thredds/wms/glos/glcfs/archiveall/huron/forcing-fmrc-3d/Lake_Huron_-_Forcing_-_3D_-_All_Years_best.ncd?service=WMS&amp;version=1.3.0&amp;request=GetCapabilities</gmd:URL>
+                        <gmd:URL>http://tds.glos.us/thredds/wms/glos/glcfs/archiveall/huron/forcing-fmrc-3d/Lake_Huron_-_Forcing_-_3D_-_All_Years_best.ncd?service=WMS&amp;version=1.3.0&amp;request=GetCapabilities</gmd:URL>
                      </gmd:linkage>
                      <gmd:name>
                         <gco:CharacterString>OGC-WMS</gco:CharacterString>
@@ -1035,7 +1035,7 @@
                      <gmd:onLine>
                         <gmd:CI_OnlineResource>
                            <gmd:linkage>
-                              <gmd:URL>http://tds.glos.us:8080/thredds/dodsC/glos/glcfs/archiveall/huron/forcing-fmrc-3d/Lake_Huron_-_Forcing_-_3D_-_All_Years_best.ncd.html</gmd:URL>
+                              <gmd:URL>http://tds.glos.us/thredds/dodsC/glos/glcfs/archiveall/huron/forcing-fmrc-3d/Lake_Huron_-_Forcing_-_3D_-_All_Years_best.ncd.html</gmd:URL>
                            </gmd:linkage>
                            <gmd:name>
                               <gco:CharacterString>File Information</gco:CharacterString>
@@ -1056,7 +1056,7 @@
                      <gmd:onLine>
                         <gmd:CI_OnlineResource>
                            <gmd:linkage>
-                              <gmd:URL>http://www.ncdc.noaa.gov/oa/wct/wct-jnlp-beta.php?singlefile=http://tds.glos.us:8080/thredds/dodsC/glos/glcfs/archiveall/huron/forcing-fmrc-3d/Lake_Huron_-_Forcing_-_3D_-_All_Years_best.ncd</gmd:URL>
+                              <gmd:URL>http://www.ncdc.noaa.gov/oa/wct/wct-jnlp-beta.php?singlefile=http://tds.glos.us/thredds/dodsC/glos/glcfs/archiveall/huron/forcing-fmrc-3d/Lake_Huron_-_Forcing_-_3D_-_All_Years_best.ncd</gmd:URL>
                            </gmd:linkage>
                            <gmd:name>
                               <gco:CharacterString>Viewer Information</gco:CharacterString>
@@ -1089,7 +1089,7 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>Mon Apr 22 07:40:59 2013: /opt/local/bin/ncks --fl_fmt=netcdf4_classic --deflate=5 nc_files/h201305100.in1.nc tmp/h201305100.in1.nc4 ;
+                  <gco:CharacterString>Mon Jun 10 07:42:08 2013: /opt/local/bin/ncks --fl_fmt=netcdf4_classic --deflate=5 nc_files/h201310100.in1.nc tmp/h201310100.in1.nc4 ;
 FMRC Best Dataset</gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
