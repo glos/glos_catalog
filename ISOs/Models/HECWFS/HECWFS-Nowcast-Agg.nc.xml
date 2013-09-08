@@ -57,7 +57,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2013-09-07</gco:Date>
+      <gco:Date>2013-09-08</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -311,10 +311,10 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d8809">
+                        <gml:TimePeriod gml:id="d8943">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2011-11-15T10:01:52Z</gml:beginPosition>
-                           <gml:endPosition>2013-09-07T18:00:00Z</gml:endPosition>
+                           <gml:endPosition>2013-09-07T21:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -414,9 +414,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d8809e49">
+                        <gml:TimePeriod gml:id="d8943e49">
                            <gml:beginPosition>2011-11-15T10:01:52Z</gml:beginPosition>
-                           <gml:endPosition>2013-09-07T18:00:00Z</gml:endPosition>
+                           <gml:endPosition>2013-09-07T21:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -1225,7 +1225,7 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>model started at: 07/09/2013   13:30</gco:CharacterString>
+                  <gco:CharacterString>model started at: 07/09/2013   16:30</gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
          </gmd:lineage>
