@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2013-09-08</gco:Date>
+      <gco:Date>2013-09-15</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -128,10 +128,10 @@
                                                 codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>142</gco:Integer>
+                  <gco:Integer>143</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
-                  <gco:Measure uom="seconds">332714.0</gco:Measure>
+                  <gco:Measure uom="seconds">333420.0</gco:Measure>
                </gmd:resolution>
             </gmd:MD_Dimension>
          </gmd:axisDimensionProperties>
@@ -496,10 +496,10 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d9001">
+                        <gml:TimePeriod gml:id="d12459">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2012-03-11T08:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2013-09-05T07:20:00Z</gml:endPosition>
+                           <gml:endPosition>2013-09-10T07:35:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -652,9 +652,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d9001e68">
+                        <gml:TimePeriod gml:id="d12459e68">
                            <gml:beginPosition>2012-03-11T08:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2013-09-05T07:20:00Z</gml:endPosition>
+                           <gml:endPosition>2013-09-10T07:35:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -837,9 +837,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d9001e69">
+                        <gml:TimePeriod gml:id="d12459e69">
                            <gml:beginPosition>2012-03-11T08:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2013-09-05T07:20:00Z</gml:endPosition>
+                           <gml:endPosition>2013-09-10T07:35:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -1121,8 +1121,8 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>Thu Sep  5 15:11:04 2013: /usr/local/bin/ncks -4 -A -L 3 /home/nljessee/Desktop/DMAC_Scripts/Huron/LST/4326_201309050720.nc /home/nljessee/Desktop/DMAC_Scripts/Huron/LST/4326_201309050720.nc4
-Thu Sep 05 15:11:01 2013: GDAL Create( /home/nljessee/Desktop/DMAC_Scripts/Huron/LST/4326_201309050720.nc, ... )</gco:CharacterString>
+                  <gco:CharacterString>Thu Sep 12 11:33:32 2013: /usr/local/bin/ncks -4 -A -L 3 /home/nljessee/Desktop/DMAC_Scripts/Huron/LST/4326_201309100735.nc /home/nljessee/Desktop/DMAC_Scripts/Huron/LST/4326_201309100735.nc4
+Thu Sep 12 11:33:30 2013: GDAL Create( /home/nljessee/Desktop/DMAC_Scripts/Huron/LST/4326_201309100735.nc, ... )</gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
          </gmd:lineage>
