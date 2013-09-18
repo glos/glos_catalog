@@ -113,7 +113,7 @@
                                                 codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>66168</gco:Integer>
+                  <gco:Integer>67368</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
                   <gco:Measure uom="seconds">3600.0</gco:Measure>
@@ -378,10 +378,10 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d25033">
+                        <gml:TimePeriod gml:id="d25317">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2006-01-01T00:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2013-07-19T23:00:00Z</gml:endPosition>
+                           <gml:endPosition>2013-09-07T23:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -511,9 +511,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d25033e72">
+                        <gml:TimePeriod gml:id="d25317e72">
                            <gml:beginPosition>2006-01-01T00:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2013-07-19T23:00:00Z</gml:endPosition>
+                           <gml:endPosition>2013-09-07T23:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -673,9 +673,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d25033e73">
+                        <gml:TimePeriod gml:id="d25317e73">
                            <gml:beginPosition>2006-01-01T00:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2013-07-19T23:00:00Z</gml:endPosition>
+                           <gml:endPosition>2013-09-07T23:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
