@@ -1,129 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<catalog name="SLRFVM - Upper St. Lawrence River (FVCOM)" xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+<catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd"
+  xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+  xmlns:xlink="http://www.w3.org/1999/xlink" name="SLRFVM - Upper St. Lawrence River (FVCOM)">
 
   <service name="agg" base="" serviceType="compound">
-    <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/" />
-    <service name="ncml" serviceType="NCML" base="/thredds/ncml/" />
-    <service name="uddc" serviceType="UDDC" base="/thredds/uddc/" />
+    <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/"/>
+    <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+    <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
     <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
   </service>
 
   <service name="all" base="" serviceType="compound">
-    <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/" />
-    <service name="http" serviceType="HTTPServer" base="/thredds/fileServer/" />
-    <service name="ncml" serviceType="NCML" base="/thredds/ncml/" />
-    <service name="uddc" serviceType="UDDC" base="/thredds/uddc/" />
-    <service name="iso" serviceType="ISO" base="/thredds/iso/" />
+    <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/"/>
+    <service name="http" serviceType="HTTPServer" base="/thredds/fileServer/"/>
+    <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+    <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+    <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
   </service>
-  
-  <service name="latest" serviceType="Resolver" base="" />
 
-  <datasetRoot path="slr_FVCOM" location="/data/fvcom_lastest_forecasts" cache="false" />
+  <service name="latest" serviceType="Resolver" base=""/>
+
+  <datasetRoot path="slr_FVCOM" location="/data/fvcom_lastest_forecasts" cache="false"/>
 
   <dataset name="SLRFVM - Upper St. Lawrence River (FVCOM)">
-  
+
     <metadata inherited="true">
-      <keyword vocabulary="GCMD Science Keywords">GLOS, FVCOM, SLRVM, St. Lawrence River, Waterway, Forecast</keyword>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, FVCOM, SLRVM, St. Lawrence River, Waterway,
+        Forecast</keyword>
       <date type="created">2012-01-01</date>
       <date type="modified">2012-01-01</date>
       <date type="issued">2012-01-01</date>
       <creator>
-        <name vocabulary="DIF">Dr. Dave Schwab</name>
-        <contact url="http://www.glerl.noaa.gov/" email="david.schwab@noaa.gov"/>
+        <name vocabulary="DIF">Dr. Eric J. Anderson</name>
+        <contact url="http://www.glerl.noaa.gov/" email="eric.j.anderson@noaa.gov"/>
       </creator>
       <publisher>
         <name>GLOS DMAC</name>
         <contact url="http://glos.us" email="dmac@glos.us"/>
       </publisher>
       <documentation type="rights">No usage restrictions</documentation>
-      <documentation type="Disclaimer"> NOAA GLERL is providing this data "as is," and NOAA GLERL and
-        its partners cannot be held responsible, nor assume any liability for any damages caused by
-        inaccuracies in this data or documentation, or as a result of the failure of the data or
+      <documentation type="Disclaimer"> NOAA GLERL is providing this data "as is," and NOAA GLERL
+        and its partners cannot be held responsible, nor assume any liability for any damages caused
+        by inaccuracies in this data or documentation, or as a result of the failure of the data or
         software to function in a particular manner. NOAA GLERL and its partners make no warranty,
-        expressed or implied, as to the accuracy, completeness, or utility of this information, nor does
-        the fact of distribution constitute a warranty. Real-time data have not been subjected to
-        quality control or quality assurance procedures. Timely delivery of data and products through
-        the Internet is not guaranteed. Before using information obtained from this server, special
-        attention should be given to the date and time of the data and products being displayed.
-      </documentation>
+        expressed or implied, as to the accuracy, completeness, or utility of this information, nor
+        does the fact of distribution constitute a warranty. Real-time data have not been subjected
+        to quality control or quality assurance procedures. Timely delivery of data and products
+        through the Internet is not guaranteed. Before using information obtained from this server,
+        special attention should be given to the date and time of the data and products being
+        displayed. </documentation>
       <contributor role="distributor">GLOS DMAC</contributor>
       <contributor role="producer">GLERL</contributor>
-      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal"/>
     </metadata>
 
-     <dataset name="Forecast - Latest" ID="SLRFVM - Lastest-Forecast" urlPath="FVCOM/SLRFVM-Latest-Forecast.nc">
-        <metadata inherited="true">
-          <serviceName>all</serviceName>
-        </metadata>
-        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/fvcom_lastest_forecasts/slr.nc">
-          <attribute name="title" value="SLRFVM - Upper St. Lawrence River (FVCOM) - Latest Forecast" />
-          <attribute name="summary" value="Latest Forecast for SLRFVM - Upper St. Lawrence River (FVCOM) run out of GLERL" />
-          <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
-          <attribute name="naming_authority" type="String" value="GLOS" />
-          <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0" />
-          <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
-        </netcdf>
-      </dataset>
-  
+    <dataset name="Forecast - Latest" ID="SLRFVM - Lastest-Forecast"
+      urlPath="FVCOM/SLRFVM-Latest-Forecast.nc">
+      <metadata inherited="true">
+        <serviceName>all</serviceName>
+      </metadata>
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2"
+        location="/data/fvcom_lastest_forecasts/slr.nc">
+        <attribute name="title" value="SLRFVM - Upper St. Lawrence River (FVCOM) - Latest Forecast"/>
+        <attribute name="summary"
+          value="Latest Forecast for SLRFVM - Upper St. Lawrence River (FVCOM) run out of GLERL"/>
+        <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/"/>
+        <attribute name="naming_authority" type="String" value="GLOS"/>
+        <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+        <attribute name="standard_name_vocabulary" type="String"
+          value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html"/>
+      </netcdf>
+    </dataset>
+
     <dataset name="Nowcast - Aggregation" ID="SLRFVM-Nowcast-Agg" urlPath="SLRFVM-Nowcast-Agg.nc">
       <metadata inherited="true">
         <serviceName>agg</serviceName>
       </metadata>
       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-        <attribute name="title" value="SLRFVM - Upper St. Lawrence River (FVCOM) - Nowcast Aggregation" />
-        <attribute name="summary" value="Nowcast Aggregation from SLRFVM - Upper St. Lawrence River (FVCOM) run out of GLERL" />
-        <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
-        <attribute name="naming_authority" type="String" value="GLOS" />
-        <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0" />
-        <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+        <attribute name="title"
+          value="SLRFVM - Upper St. Lawrence River (FVCOM) - Nowcast Aggregation"/>
+        <attribute name="summary"
+          value="Nowcast Aggregation from SLRFVM - Upper St. Lawrence River (FVCOM) run out of GLERL"/>
+        <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/"/>
+        <attribute name="naming_authority" type="String" value="GLOS"/>
+        <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+        <attribute name="standard_name_vocabulary" type="String"
+          value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html"/>
+        <attribute name="cdm_data_type" value="any"/>
+        <variable name="fvcom_mesh" shape="" type="int">
+          <attribute name="cf_role" value="mesh_topology"/>
+          <attribute name="topology_dimension" type="int" value="2"/>
+          <attribute name="node_coordinates" value="lon lat"/>
+          <attribute name="face_coordinates" value="lonc latc"/>
+          <attribute name="face_node_connectivity" value="nv"/>
+        </variable>
+        <variable name="siglay" shape="siglay node" type="float">
+          <attribute name="long_name" value="Sigma Layers"/>
+          <attribute name="standard_name" value="ocean_sigma/general_coordinate"/>
+          <attribute name="positive" value="up"/>
+          <attribute name="valid_min" type="double" value="-1.0"/>
+          <attribute name="valid_max" type="double" value="0.0"/>
+          <attribute name="formula_terms" value="sigma: siglay eta: zeta depth: h"/>
+        </variable>
+        <variable name="h" shape="node" type="float">
+          <attribute name="long_name" value="Bathymetry"/>
+          <attribute name="standard_name" value="sea_floor_depth_below_geoid"/>
+          <attribute name="units" value="m"/>
+          <attribute name="coordinates" value="lat lon"/>
+          <attribute name="mesh" value="fvcom_mesh"/>
+          <attribute name="location" value="node"/>
+        </variable>
+        <variable name="nv" shape="three nele" type="float">
+          <attribute name="long_name" value="nodes surrounding element"/>
+          <attribute name="cf_role" value="face_node_connnectivity"/>
+          <attribute name="start_index" type="int" value="1"/>
+        </variable>
+        <variable name="zeta" shape="time node" type="float">
+          <attribute name="long_name" value="Water Surface Elevation"/>
+          <attribute name="units" value="meters"/>
+          <attribute name="standard_name" value="sea_surface_height_above_geoid"/>
+          <attribute name="coordinates" value="time lat lon"/>
+          <attribute name="type" value="data"/>
+          <attribute name="missing_value" type="double" value="-999.0"/>
+          <attribute name="field" value="elev, scalar"/>
+          <attribute name="coverage_content_type" value="modelResult"/>
+          <attribute name="mesh" value="fvcom_mesh"/>
+          <attribute name="location" value="node"/>
+        </variable>
+        <variable name="u" shape="time siglay nele" type="float">
+          <attribute name="units" value="meters s-1"/>
+          <attribute name="type" value="data"/>
+          <attribute name="missing_value" type="double" value="-999.0"/>
+          <attribute name="field" value="ua, scalar"/>
+          <attribute name="coverage_content_type" value="modelResult"/>
+          <attribute name="standard_name" value="eastward_sea_water_velocity"/>
+          <attribute name="coordinates" value="time siglay latc lonc"/>
+          <attribute name="mesh" value="fvcom_mesh"/>
+          <attribute name="location" value="face"/>
+        </variable>
+        <variable name="v" shape="time siglay nele" type="float">
+          <attribute name="units" value="meters s-1"/>
+          <attribute name="type" value="data"/>
+          <attribute name="missing_value" type="double" value="-999.0"/>
+          <attribute name="field" value="va, scalar"/>
+          <attribute name="coverage_content_type" value="modelResult"/>
+          <attribute name="standard_name" value="northward_sea_water_velocity"/>
+          <attribute name="coordinates" value="time siglay latc lonc"/>
+          <attribute name="mesh" value="fvcom_mesh"/>
+          <attribute name="location" value="face"/>
+        </variable>
         <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
           <scan location="/var/thredds/SLRFVM/nowcast/" suffix=".nc" subdirs="false"/>
         </aggregation>
       </netcdf>
     </dataset>
 
-    <datasetScan name="Nowcast - Individual Files" 
-                       ID="SLRFVM-Nowcast-Files" path="SLRFVM-Nowcast-Files"
-                       location="/var/thredds/SLRFVM/nowcast/">
+    <datasetScan name="Nowcast - Individual Files" ID="SLRFVM-Nowcast-Files"
+      path="SLRFVM-Nowcast-Files" location="/var/thredds/SLRFVM/nowcast/">
       <metadata inherited="true">
         <serviceName>all</serviceName>
       </metadata>
-      <filter>
-        <include wildcard="*.nc"/>
-      </filter>
-      <addProxies>
-        <simpleLatest name="latest.xml" top="true" serviceName="latest" />
-      </addProxies>
+
       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-        <attribute name="title" value="SLRFVM - Upper St. Lawrence River (FVCOM)" />
-        <attribute name="summary" value="SLRFVM - Upper St. Lawrence River (FVCOM) run out of GLERL" />
-        <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
-        <attribute name="naming_authority" type="String" value="GLOS" />
-        <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0" />
-        <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
-      </netcdf>      
-    </datasetScan>
-    
-    <datasetScan name="Forecast - Individual Files" 
-                       ID="SLRFVM-Forecast-Files" path="SLRFVM-Forecast-Files"
-                       location="/var/thredds/SLRFVM/forecast/">
-      <metadata inherited="true">
-        <serviceName>all</serviceName>
-      </metadata>
-      <filter>
-        <include wildcard="*.nc"/>
-      </filter>
-      <addProxies>
-        <simpleLatest name="latest.xml" top="true" serviceName="latest" />
-      </addProxies>
-      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-        <attribute name="title" value="SLRFVM - Upper St. Lawrence River (FVCOM)" />
-        <attribute name="summary" value="SLRFVM - Upper St. Lawrence River (FVCOM) run out of GLERL" />
-        <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
-        <attribute name="naming_authority" type="String" value="GLOS" />
-        <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0" />
-        <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+        <attribute name="title" value="SLRFVM - Upper St. Lawrence River (FVCOM)"/>
+        <attribute name="summary" value="SLRFVM - Upper St. Lawrence River (FVCOM) run out of GLERL"/>
+        <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/"/>
+        <attribute name="naming_authority" type="String" value="GLOS"/>
+        <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+        <attribute name="standard_name_vocabulary" type="String"
+          value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html"/>
       </netcdf>
+      <filter>
+        <include wildcard="*.nc"/>
+      </filter>
+      <addProxies>
+        <simpleLatest name="latest.xml" top="true" serviceName="latest"/>
+      </addProxies>
+    </datasetScan>
+
+    <datasetScan name="Forecast - Individual Files" ID="SLRFVM-Forecast-Files"
+      path="SLRFVM-Forecast-Files" location="/var/thredds/SLRFVM/forecast/">
+      <metadata inherited="true">
+        <serviceName>all</serviceName>
+      </metadata>
+
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <attribute name="title" value="SLRFVM - Upper St. Lawrence River (FVCOM)"/>
+        <attribute name="summary" value="SLRFVM - Upper St. Lawrence River (FVCOM) run out of GLERL"/>
+        <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/"/>
+        <attribute name="naming_authority" type="String" value="GLOS"/>
+        <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+        <attribute name="standard_name_vocabulary" type="String"
+          value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html"/>
+      </netcdf>
+      <filter>
+        <include wildcard="*.nc"/>
+      </filter>
+      <addProxies>
+        <simpleLatest name="latest.xml" top="true" serviceName="latest"/>
+      </addProxies>
     </datasetScan>
   </dataset>
 </catalog>
