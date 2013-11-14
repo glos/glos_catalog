@@ -113,10 +113,10 @@
                                                 codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>5496</gco:Integer>
+                  <gco:Integer>5500</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
-                  <gco:Measure uom="seconds">10815.0</gco:Measure>
+                  <gco:Measure uom="seconds">10807.0</gco:Measure>
                </gmd:resolution>
             </gmd:MD_Dimension>
          </gmd:axisDimensionProperties>
@@ -375,7 +375,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d549">
+                        <gml:TimePeriod gml:id="d633">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2012-01-01T03:00:00Z</gml:beginPosition>
                            <gml:endPosition>2013-11-19T00:00:00Z</gml:endPosition>
@@ -508,7 +508,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d549e71">
+                        <gml:TimePeriod gml:id="d633e71">
                            <gml:beginPosition>2012-01-01T03:00:00Z</gml:beginPosition>
                            <gml:endPosition>2013-11-19T00:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -670,7 +670,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d549e72">
+                        <gml:TimePeriod gml:id="d633e72">
                            <gml:beginPosition>2012-01-01T03:00:00Z</gml:beginPosition>
                            <gml:endPosition>2013-11-19T00:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
