@@ -7,6 +7,9 @@
     <catalogRef xlink:title="MTRI - Lake Surface Temperature (MODIS)" xlink:href="mtri/aoc.xml" name=""/>
     <catalogRef xlink:title="MTRI - Lake Surface Chlorophyll (MODIS)" xlink:href="mtri/chl.xml" name=""/>
     <catalogRef xlink:title="MTRI - Natural Color Imagery (MODIS)" xlink:href="mtri/natcolor.xml" name=""/>
+    <catalogRef xlink:title="MTRI - Color Dissolved Organic Matter (MODIS)" xlink:href="mtri/cdom.xml" name=""/>
+    <catalogRef xlink:title="MTRI - Dissolved Organic Carbon (MODIS)" xlink:href="mtri/doc.xml" name=""/>
+    <catalogRef xlink:title="MTRI - Suspended Minerals (MODIS)" xlink:href="mtri/sm.xml" name=""/>
   </dataset>
   
   <dataset name="Modeled Datasets">
