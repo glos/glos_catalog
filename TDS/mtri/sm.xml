@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog name="MTRI-SM Catalog"
+        xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <service name="all" base="" serviceType="compound">
+    <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/" />
+    <service name="http" serviceType="HTTPServer" base="/thredds/fileServer/" />
+    <service name="wms" serviceType="WMS" base="/thredds/wms/" />
+    <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+    <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+    <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+  </service>
+  <service name="agg" base="" serviceType="compound">
+    <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/" />
+    <service name="wms" serviceType="WMS" base="/thredds/wms/" />
+    <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+    <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+    <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+  </service>
+
+  <dataset name="MTRI - Suspended Minerals">
+
+    <metadata inherited="true">
+      <keyword vocabulary="GCMD Science Keywords">GLOS, MODIS, MTRI, Suspended Minerals, Satellite</keyword>
+      <date type="created">2013-11-13</date>
+      <date type="modified">2013-11-13</date>
+      <date type="issued">2013-11-13</date>
+      <project>GLOS MTRI</project>
+      <documentation type="funding">GLOS MTRI</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer">MTRI</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <dataset name="Lake Erie Suspended Minerals - Aggregation" urlPath="SM/LakeErieSM-Agg" ID="LakeErieSM-Agg" dataType="Grid">
+      <metadata inherited="true">
+        <serviceName>agg</serviceName>
+      </metadata>
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <attribute name="title" value="Lake Erie - MODIS - Suspended Minerals - Aggregation" />
+        <attribute name="summary" value="Aggregation of Suspended Minerals from Lake Erie and surrounding waters from MODIS satellites." />
+        <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
+          <scan location="/var/thredds/MTRI-SM/erie/" suffix=".nc"/>
+        </aggregation>
+      </netcdf>
+    </dataset>
+    <dataset name="Lake Huron Suspended Minerals - Aggregation" urlPath="SM/LakeHuronSM-Agg" ID="LakeHuronSM-Agg" dataType="Grid">
+      <metadata inherited="true">
+        <serviceName>agg</serviceName>
+      </metadata>
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <attribute name="title" value="Lake Huron - MODIS - Suspended Minerals - Aggregation" />
+        <attribute name="summary" value="Aggregation of Suspended Minerals from Lake Huron and surrounding waters from MODIS satellites." />
+        <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
+          <scan location="/var/thredds/MTRI-SM/huron/" suffix=".nc"/>
+        </aggregation>
+      </netcdf>
+    </dataset>
+    <dataset name="Lake Ontario Suspended Minerals - Aggregation" urlPath="SM/LakeOntarioSM-Agg" ID="LakeOntarioSM-Agg" dataType="Grid">
+      <metadata inherited="true">
+        <serviceName>agg</serviceName>
+      </metadata>
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <attribute name="title" value="Lake Ontario - MODIS - Suspended Minerals - Aggregation" />
+        <attribute name="summary" value="Aggregation of Suspended Minerals from Lake Ontario and surrounding waters from MODIS satellites." />
+        <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
+          <scan location="/var/thredds/MTRI-SM/ontario/" suffix=".nc"/>
+        </aggregation>
+      </netcdf>
+    </dataset>
+    <dataset name="Lake Michigan Suspended Minerals - Aggregation" urlPath="SM/LakeMichiganSM-Agg" ID="LakeMichiganSM-Agg" dataType="Grid">
+      <metadata inherited="true">
+        <serviceName>agg</serviceName>
+      </metadata>
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <attribute name="title" value="Lake Michigan - MODIS - Suspended Minerals - Aggregation" />
+        <attribute name="summary" value="Aggregation of Suspended Minerals from Lake Michigan and surrounding waters from MODIS satellites." />
+        <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
+          <scan location="/var/thredds/MTRI-SM/michigan/" suffix=".nc"/>
+        </aggregation>
+      </netcdf>
+    </dataset>
+    <dataset name="Lake Superior Suspended Minerals - Aggregation" urlPath="SM/LakeSuperiorSM-Agg" ID="LakeSuperiorSM-Agg" dataType="Grid">
+      <metadata inherited="true">
+        <serviceName>agg</serviceName>
+      </metadata>
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <attribute name="title" value="Lake Superior - MODIS - Suspended Minerals - Aggregation" />
+        <attribute name="summary" value="Aggregation of Suspended Minerals from Lake Superior and surrounding waters from MODIS satellites." />
+        <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
+          <scan location="/var/thredds/MTRI-SM/superior/" suffix=".nc"/>
+        </aggregation>
+      </netcdf>
+    </dataset>
+    <!--
+    <dataset name="Lake Huron Natural Color - Aggregation" urlPath="NC/LakeHuronNC-Agg" ID="LakeHuronNC-Agg" dataType="Grid">
+      <metadata inherited="true">
+        <serviceName>agg</serviceName>
+      </metadata>
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <attribute name="title" value="Lake Huron - MODIS - Natural Color Imagery (NC) - Aggregation" />
+        <attribute name="summary" value="Aggregation of Natural Color Imagery from Lake Huron and surrounding waters from MODIS satellites." />
+        <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
+          <scan location="/var/thredds/MTRI-NC/huron/" suffix=".nc"/>
+        </aggregation>
+      </netcdf>
+    </dataset>
+
+    <dataset name="Lake Michigan Natural Color - Aggregation" urlPath="NC/LakeMichiganNC-Agg" ID="LakeMichiganNC-Agg" dataType="Grid">
+      <metadata inherited="true">
+        <serviceName>agg</serviceName>
+      </metadata>
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <attribute name="title" value="Lake Michigan - MODIS - Natural Color Imagery (NC) - Aggregation" />
+        <attribute name="summary" value="Aggregation of Natural Color Imagery from Lake Michigan and surrounding waters from MODIS satellites." />
+        <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
+          <scan location="/var/thredds/MTRI-NC/michigan/" suffix=".nc"/>
+        </aggregation>
+      </netcdf>
+    </dataset>
+
+    <dataset name="Lake Ontario Natural Color - Aggregation" urlPath="NC/LakeOntarioNC-Agg" ID="LakeOntarioNC-Agg" dataType="Grid">
+      <metadata inherited="true">
+        <serviceName>agg</serviceName>
+      </metadata>
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <attribute name="title" value="Lake Ontario - MODIS - Natural Color Imagery (NC) - Aggregation" />
+        <attribute name="summary" value="Aggregation of Natural Color Imagery from Lake Ontario and surrounding waters from MODIS satellites." />
+        <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
+          <scan location="/var/thredds/MTRI-NC/ontario/" suffix=".nc"/>
+        </aggregation>
+      </netcdf>
+    </dataset>
+
+    <dataset name="Lake Superior Natural Color - Aggregation" urlPath="NC/LakeSuperiorNC-Agg" ID="LakeSuperiorNC-Agg" dataType="Grid">
+      <metadata inherited="true">
+        <serviceName>agg</serviceName>
+      </metadata>
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <attribute name="title" value="Lake Superior - MODIS - Natural Color Imagery (NC) - Aggregation" />
+        <attribute name="summary" value="Aggregation of Natural Color Imagery from Lake Superior and surrounding waters from MODIS satellites." />  
+        <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
+          <scan location="/var/thredds/MTRI-NC/superior/" suffix=".nc"/>
+        </aggregation>
+      </netcdf>
+    </dataset>
+    -->
+  </dataset>
+</catalog>
+
+
