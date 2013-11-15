@@ -57,7 +57,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2013-11-14</gco:Date>
+      <gco:Date>2013-11-15</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -271,12 +271,6 @@
                   <gco:CharacterString>sea_surface_height_above_geoid</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>sea_water_temperature</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>sea_water_salinity</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
                   <gco:CharacterString>sea_surface_height_above_geoid</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
@@ -311,10 +305,10 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d839">
+                        <gml:TimePeriod gml:id="d221">
                            <gml:description>seconds</gml:description>
-                           <gml:beginPosition>2013-11-14T13:01:52Z</gml:beginPosition>
-                           <gml:endPosition>2013-11-16T12:00:00Z</gml:endPosition>
+                           <gml:beginPosition>2012-11-25T01:01:52Z</gml:beginPosition>
+                           <gml:endPosition>2012-11-26T13:58:07Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -414,9 +408,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d839e49">
-                           <gml:beginPosition>2013-11-14T13:01:52Z</gml:beginPosition>
-                           <gml:endPosition>2013-11-16T12:00:00Z</gml:endPosition>
+                        <gml:TimePeriod gml:id="d221e49">
+                           <gml:beginPosition>2012-11-25T01:01:52Z</gml:beginPosition>
+                           <gml:endPosition>2012-11-26T13:58:07Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -546,9 +540,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d839e50">
-                           <gml:beginPosition>2013-11-14T13:01:52Z</gml:beginPosition>
-                           <gml:endPosition>2013-11-16T12:00:00Z</gml:endPosition>
+                        <gml:TimePeriod gml:id="d221e50">
+                           <gml:beginPosition>2012-11-25T01:01:52Z</gml:beginPosition>
+                           <gml:endPosition>2012-11-26T13:58:07Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -1029,50 +1023,6 @@
                <gmd:sequenceIdentifier>
                   <gco:MemberName>
                      <gco:aName>
-                        <gco:CharacterString>temp</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>float</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>temperature (sea_water_temperature)</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#degrees_C"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>salinity</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>float</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>salinity (sea_water_salinity)</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1e-3"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
                         <gco:CharacterString>wet_nodes</gco:CharacterString>
                      </gco:aName>
                      <gco:attributeType>
@@ -1357,7 +1307,7 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>model started at: 14/11/2013   07:41</gco:CharacterString>
+                  <gco:CharacterString>model started at: 24/11/2012   19:30</gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
          </gmd:lineage>
