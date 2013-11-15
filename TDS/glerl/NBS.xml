@@ -1,0 +1,1877 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog name="NBS"
+        xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <service name="agg" base="" serviceType="compound">
+    <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/" />
+    <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+    <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+    <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+  </service>
+
+  
+  <dataset name="Monthly runoff to LK ERIE from land surface expressed as millimeters over the lake surface" ID="NBS_RUN.NC" urlPath="NBS/Run.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/erie/Run.nc">
+      <attribute name="title" value="Monthly runoff to LK ERIE from land surface expressed as millimeters over the lake surface" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Huron (with Georgian Bay) Net Basin Supply (expressed as millimeters over lake surface)" ID="NBS_NBS_COMP_MM_LAKEPRC.NC" urlPath="NBS/NBS_comp_mm_LakePrc.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/huron/NBS_comp_mm_LakePrc.nc">
+      <attribute name="title" value="Lake Huron (with Georgian Bay) Net Basin Supply (expressed as millimeters over lake surface)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Huron (with Georgian Bay) Net Basin Supply (expressed as cubic meters per second)" ID="NBS_NBS_COMP_CMS_LAKEPRC.NC" urlPath="NBS/NBS_comp_cms_LakePrc.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/huron/NBS_comp_cms_LakePrc.nc">
+      <attribute name="title" value="Lake Huron (with Georgian Bay) Net Basin Supply (expressed as cubic meters per second)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Huron (with Georgian Bay) Net Basin Supply (expressed as millimeters over lake surface)" ID="NBS_NBS_COMP_MM_LANDPRC.NC" urlPath="NBS/NBS_comp_mm_LandPrc.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/huron/NBS_comp_mm_LandPrc.nc">
+      <attribute name="title" value="Lake Huron (with Georgian Bay) Net Basin Supply (expressed as millimeters over lake surface)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Huron (with Georgian Bay) Net Basin Supply (expressed as cubic meters per second)" ID="NBS_NBS_COMP_CMS_LANDPRC.NC" urlPath="NBS/NBS_comp_cms_LandPrc.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/huron/NBS_comp_cms_LandPrc.nc">
+      <attribute name="title" value="Lake Huron (with Georgian Bay) Net Basin Supply (expressed as cubic meters per second)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Huron (with Georgian Bay) Overlake Precipitation (millimeters)" ID="NBS_PRCLK.NC" urlPath="NBS/PrcLk.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/huron/PrcLk.nc">
+      <attribute name="title" value="Lake Huron (with Georgian Bay) Overlake Precipitation (millimeters)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Huron (with Georgian Bay) Overland Precipitation (millimeters)" ID="NBS_PRCLD.NC" urlPath="NBS/PrcLd.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/huron/PrcLd.nc">
+      <attribute name="title" value="Lake Huron (with Georgian Bay) Overland Precipitation (millimeters)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly runoff to Lake Huron (with Georgian Bay) from land surface expressed as millimeters over the lake surface" ID="NBS_RUN.NC" urlPath="NBS/Run.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/huron/Run.nc">
+      <attribute name="title" value="Monthly runoff to Lake Huron (with Georgian Bay) from land surface expressed as millimeters over the lake surface" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name=" Lake Huron (with Georgian Bay) " ID="NBS_EVP.NC" urlPath="NBS/Evp.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/huron/Evp.nc">
+      <attribute name="title" value=" Lake Huron (with Georgian Bay) " />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Michigan-Huron Net Basin Supply (expressed as millimeters over lake surface)" ID="NBS_NBS_COMP_MM_LAKEPRC.NC" urlPath="NBS/NBS_comp_mm_LakePrc.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/michiganhuron/NBS_comp_mm_LakePrc.nc">
+      <attribute name="title" value="Lake Michigan-Huron Net Basin Supply (expressed as millimeters over lake surface)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Michigan-Huron Net Basin Supply (expressed as cubic meters per second)" ID="NBS_NBS_COMP_CMS_LAKEPRC.NC" urlPath="NBS/NBS_comp_cms_LakePrc.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/michiganhuron/NBS_comp_cms_LakePrc.nc">
+      <attribute name="title" value="Lake Michigan-Huron Net Basin Supply (expressed as cubic meters per second)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Michigan-Huron Net Basin Supply (expressed as millimeters over lake surface)" ID="NBS_NBS_COMP_MM_LANDPRC.NC" urlPath="NBS/NBS_comp_mm_LandPrc.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/michiganhuron/NBS_comp_mm_LandPrc.nc">
+      <attribute name="title" value="Lake Michigan-Huron Net Basin Supply (expressed as millimeters over lake surface)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Michigan-Huron Net Basin Supply (expressed as cubic meters per second)" ID="NBS_NBS_COMP_CMS_LANDPRC.NC" urlPath="NBS/NBS_comp_cms_LandPrc.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/michiganhuron/NBS_comp_cms_LandPrc.nc">
+      <attribute name="title" value="Lake Michigan-Huron Net Basin Supply (expressed as cubic meters per second)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Michigan-Huron Overlake Precipitation (millimeters)" ID="NBS_PRCLK.NC" urlPath="NBS/PrcLk.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/michiganhuron/PrcLk.nc">
+      <attribute name="title" value="Lake Michigan-Huron Overlake Precipitation (millimeters)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Michigan-Huron Overland Precipitation (millimeters)" ID="NBS_PRCLD.NC" urlPath="NBS/PrcLd.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/michiganhuron/PrcLd.nc">
+      <attribute name="title" value="Lake Michigan-Huron Overland Precipitation (millimeters)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly runoff to LK MICHIGAN-HURON from land surface expressed as millimeters over the lake surface" ID="NBS_RUN.NC" urlPath="NBS/Run.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/michiganhuron/Run.nc">
+      <attribute name="title" value="Monthly runoff to LK MICHIGAN-HURON from land surface expressed as millimeters over the lake surface" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name=" Lake MICHIGAN-HURON (and Georgian Bay)" ID="NBS_EVP.NC" urlPath="NBS/Evp.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/michiganhuron/Evp.nc">
+      <attribute name="title" value=" Lake MICHIGAN-HURON (and Georgian Bay)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Michigan Net Basin Supply (expressed as millimeters over lake surface)" ID="NBS_NBS_COMP_MM_LAKEPRC.NC" urlPath="NBS/NBS_comp_mm_LakePrc.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/michigan/NBS_comp_mm_LakePrc.nc">
+      <attribute name="title" value="Lake Michigan Net Basin Supply (expressed as millimeters over lake surface)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Michigan Net Basin Supply (expressed as cubic meters per second)" ID="NBS_NBS_COMP_CMS_LAKEPRC.NC" urlPath="NBS/NBS_comp_cms_LakePrc.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/michigan/NBS_comp_cms_LakePrc.nc">
+      <attribute name="title" value="Lake Michigan Net Basin Supply (expressed as cubic meters per second)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Michigan Net Basin Supply (expressed as millimeters over lake surface)" ID="NBS_NBS_COMP_MM_LANDPRC.NC" urlPath="NBS/NBS_comp_mm_LandPrc.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/michigan/NBS_comp_mm_LandPrc.nc">
+      <attribute name="title" value="Lake Michigan Net Basin Supply (expressed as millimeters over lake surface)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Michigan Net Basin Supply (expressed as cubic meters per second)" ID="NBS_NBS_COMP_CMS_LANDPRC.NC" urlPath="NBS/NBS_comp_cms_LandPrc.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/michigan/NBS_comp_cms_LandPrc.nc">
+      <attribute name="title" value="Lake Michigan Net Basin Supply (expressed as cubic meters per second)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Michigan Overlake Precipitation (millimeters)" ID="NBS_PRCLK.NC" urlPath="NBS/PrcLk.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/michigan/PrcLk.nc">
+      <attribute name="title" value="Lake Michigan Overlake Precipitation (millimeters)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Michigan Overland Precipitation (millimeters)" ID="NBS_PRCLD.NC" urlPath="NBS/PrcLd.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/michigan/PrcLd.nc">
+      <attribute name="title" value="Lake Michigan Overland Precipitation (millimeters)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly runoff to Lake MICHIGAN from land surface expressed as millimeters over the lake surface" ID="NBS_RUN.NC" urlPath="NBS/Run.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/michigan/Run.nc">
+      <attribute name="title" value="Monthly runoff to Lake MICHIGAN from land surface expressed as millimeters over the lake surface" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name=" Lake MICHIGAN" ID="NBS_EVP.NC" urlPath="NBS/Evp.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/michigan/Evp.nc">
+      <attribute name="title" value=" Lake MICHIGAN" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Ontario Net Basin Supply (expressed as millimeters over lake surface)" ID="NBS_NBS_COMP_MM_LAKEPRC.NC" urlPath="NBS/NBS_comp_mm_LakePrc.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/ontario/NBS_comp_mm_LakePrc.nc">
+      <attribute name="title" value="Lake Ontario Net Basin Supply (expressed as millimeters over lake surface)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Ontario Net Basin Supply (expressed as cubic meters per second)" ID="NBS_NBS_COMP_CMS_LAKEPRC.NC" urlPath="NBS/NBS_comp_cms_LakePrc.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/ontario/NBS_comp_cms_LakePrc.nc">
+      <attribute name="title" value="Lake Ontario Net Basin Supply (expressed as cubic meters per second)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Ontario Net Basin Supply (expressed as millimeters over lake surface)" ID="NBS_NBS_COMP_MM_LANDPRC.NC" urlPath="NBS/NBS_comp_mm_LandPrc.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/ontario/NBS_comp_mm_LandPrc.nc">
+      <attribute name="title" value="Lake Ontario Net Basin Supply (expressed as millimeters over lake surface)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Ontario Net Basin Supply (expressed as cubic meters per second)" ID="NBS_NBS_COMP_CMS_LANDPRC.NC" urlPath="NBS/NBS_comp_cms_LandPrc.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/ontario/NBS_comp_cms_LandPrc.nc">
+      <attribute name="title" value="Lake Ontario Net Basin Supply (expressed as cubic meters per second)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Ontario Overlake Precipitation (millimeters)" ID="NBS_PRCLK.NC" urlPath="NBS/PrcLk.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/ontario/PrcLk.nc">
+      <attribute name="title" value="Lake Ontario Overlake Precipitation (millimeters)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Ontario Overland Precipitation (millimeters)" ID="NBS_PRCLD.NC" urlPath="NBS/PrcLd.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/ontario/PrcLd.nc">
+      <attribute name="title" value="Lake Ontario Overland Precipitation (millimeters)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly runoff to LK ONTARIO from land surface expressed as millimeters over the lake surface" ID="NBS_RUN.NC" urlPath="NBS/Run.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/ontario/Run.nc">
+      <attribute name="title" value="Monthly runoff to LK ONTARIO from land surface expressed as millimeters over the lake surface" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name=" Lake Ontario" ID="NBS_EVP.NC" urlPath="NBS/Evp.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/ontario/Evp.nc">
+      <attribute name="title" value=" Lake Ontario" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake St. Clair Net Basin Supply (expressed as millimeters over lake surface)" ID="NBS_NBS_COMP_MM_LAKEPRC.NC" urlPath="NBS/NBS_comp_mm_LakePrc.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/stclair/NBS_comp_mm_LakePrc.nc">
+      <attribute name="title" value="Lake St. Clair Net Basin Supply (expressed as millimeters over lake surface)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake St. Clair Net Basin Supply (expressed as cubic meters per second)" ID="NBS_NBS_COMP_CMS_LAKEPRC.NC" urlPath="NBS/NBS_comp_cms_LakePrc.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/stclair/NBS_comp_cms_LakePrc.nc">
+      <attribute name="title" value="Lake St. Clair Net Basin Supply (expressed as cubic meters per second)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake St. Clair Net Basin Supply (expressed as millimeters over lake surface)" ID="NBS_NBS_COMP_MM_LANDPRC.NC" urlPath="NBS/NBS_comp_mm_LandPrc.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/stclair/NBS_comp_mm_LandPrc.nc">
+      <attribute name="title" value="Lake St. Clair Net Basin Supply (expressed as millimeters over lake surface)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake St. Clair Net Basin Supply (expressed as cubic meters per second)" ID="NBS_NBS_COMP_CMS_LANDPRC.NC" urlPath="NBS/NBS_comp_cms_LandPrc.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/stclair/NBS_comp_cms_LandPrc.nc">
+      <attribute name="title" value="Lake St. Clair Net Basin Supply (expressed as cubic meters per second)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake St. Clair Overlake Precipitation (millimeters)" ID="NBS_PRCLK.NC" urlPath="NBS/PrcLk.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/stclair/PrcLk.nc">
+      <attribute name="title" value="Lake St. Clair Overlake Precipitation (millimeters)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake St. Clair Overland Precipitation (millimeters)" ID="NBS_PRCLD.NC" urlPath="NBS/PrcLd.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/stclair/PrcLd.nc">
+      <attribute name="title" value="Lake St. Clair Overland Precipitation (millimeters)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly runoff to LK St. CLAIR from land surface expressed as millimeters over the lake surface" ID="NBS_RUN.NC" urlPath="NBS/Run.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/stclair/Run.nc">
+      <attribute name="title" value="Monthly runoff to LK St. CLAIR from land surface expressed as millimeters over the lake surface" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name=" Lake St. Clair" ID="NBS_EVP.NC" urlPath="NBS/Evp.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/stclair/Evp.nc">
+      <attribute name="title" value=" Lake St. Clair" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Superior Net Basin Supply (expressed as millimeters over lake surface)" ID="NBS_NBS_COMP_MM_LAKEPRC.NC" urlPath="NBS/NBS_comp_mm_LakePrc.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/superior/NBS_comp_mm_LakePrc.nc">
+      <attribute name="title" value="Lake Superior Net Basin Supply (expressed as millimeters over lake surface)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Superior Net Basin Supply (expressed as cubic meters per second)" ID="NBS_NBS_COMP_CMS_LAKEPRC.NC" urlPath="NBS/NBS_comp_cms_LakePrc.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/superior/NBS_comp_cms_LakePrc.nc">
+      <attribute name="title" value="Lake Superior Net Basin Supply (expressed as cubic meters per second)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Superior Net Basin Supply (expressed as millimeters over lake surface)" ID="NBS_NBS_COMP_MM_LANDPRC.NC" urlPath="NBS/NBS_comp_mm_LandPrc.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/superior/NBS_comp_mm_LandPrc.nc">
+      <attribute name="title" value="Lake Superior Net Basin Supply (expressed as millimeters over lake surface)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Superior Net Basin Supply (expressed as cubic meters per second)" ID="NBS_NBS_COMP_CMS_LANDPRC.NC" urlPath="NBS/NBS_comp_cms_LandPrc.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/superior/NBS_comp_cms_LandPrc.nc">
+      <attribute name="title" value="Lake Superior Net Basin Supply (expressed as cubic meters per second)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Superior Overlake Precipitation (millimeters)" ID="NBS_PRCLK.NC" urlPath="NBS/PrcLk.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/superior/PrcLk.nc">
+      <attribute name="title" value="Lake Superior Overlake Precipitation (millimeters)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Superior Overland Precipitation (millimeters)" ID="NBS_PRCLD.NC" urlPath="NBS/PrcLd.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/superior/PrcLd.nc">
+      <attribute name="title" value="Lake Superior Overland Precipitation (millimeters)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly runoff to LK SUPERIOR from land surface expressed as millimeters over the lake surface" ID="NBS_RUN.NC" urlPath="NBS/Run.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/superior/Run.nc">
+      <attribute name="title" value="Monthly runoff to LK SUPERIOR from land surface expressed as millimeters over the lake surface" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name=" Lake SUPERIOR" ID="NBS_EVP.NC" urlPath="NBS/Evp.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/superior/Evp.nc">
+      <attribute name="title" value=" Lake SUPERIOR" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="0.0" />
+      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="0.0" />
+      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+</catalog>
+

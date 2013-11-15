@@ -20,6 +20,7 @@
 
   <dataset name="Hydrologic Datasets">
     <catalogRef xlink:title="GLERL - Water Surface Temperatures" xlink:href="glerl/watertemps.xml" name=""/>
+    <catalogRef xlink:title="GLERL - NBS" xlink:href="glerl/NBS.xml" name=""/>
   </dataset>
   
   <dataset name="RANGER3">
