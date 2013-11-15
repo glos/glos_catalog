@@ -66,7 +66,7 @@
                   <gco:Integer>756</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
-                  <gco:Measure uom="seconds">9.467151258E9</gco:Measure>
+                  <gco:Measure uom="seconds">2629764.0</gco:Measure>
                </gmd:resolution>
             </gmd:MD_Dimension>
          </gmd:axisDimensionProperties>
@@ -268,8 +268,8 @@
                      <gmd:extent>
                         <gml:TimePeriod gml:id="d541">
                            <gml:description>seconds</gml:description>
-                           <gml:beginPosition>77236-01-14T00:00:00Z</gml:beginPosition>
-                           <gml:endPosition>149265-01-06T00:00:00Z</gml:endPosition>
+                           <gml:beginPosition>1948-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition>2010-12-01T00:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -386,8 +386,8 @@
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
                         <gml:TimePeriod gml:id="d541e47">
-                           <gml:beginPosition>77236-01-14T00:00:00Z</gml:beginPosition>
-                           <gml:endPosition>149265-01-06T00:00:00Z</gml:endPosition>
+                           <gml:beginPosition>1948-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition>2010-12-01T00:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -473,7 +473,7 @@
                      <gco:attributeType>
                         <gco:TypeName>
                            <gco:aName>
-                              <gco:CharacterString>int</gco:CharacterString>
+                              <gco:CharacterString>double</gco:CharacterString>
                            </gco:aName>
                         </gco:TypeName>
                      </gco:attributeType>
@@ -482,7 +482,7 @@
                <gmd:descriptor>
                   <gco:CharacterString>Time (time)</gco:CharacterString>
                </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#hours%20since%201970-01-01"/>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#seconds%20since%201970-01-01"/>
             </gmd:MD_Band>
          </gmd:dimension>
       </gmi:MI_CoverageDescription>
