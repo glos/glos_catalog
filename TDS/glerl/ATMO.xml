@@ -11,7 +11,7 @@
   </service>
 
   
-  <dataset name="Lake St. Clair modeled water surface temperatures (Celsius)" ID="381d7cca" urlPath="ATMO/STC.nc">
+  <dataset name="Lake St. Clair modeled water surface temperatures (Celsius)" ID="328ecc9f" urlPath="ATMO/328ecc9f.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -49,7 +49,7 @@
 
   </dataset>
   
-  <dataset name="Lake Huron (including Georgian Bay) modeled water surface temperatures (Celsius)" ID="d2150575" urlPath="ATMO/HGB.nc">
+  <dataset name="Lake Huron (including Georgian Bay) modeled water surface temperatures (Celsius)" ID="45ea7149" urlPath="ATMO/45ea7149.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -87,7 +87,7 @@
 
   </dataset>
   
-  <dataset name="Lake Michigan modeled water surface temperatures (Celsius)" ID="96e52b16" urlPath="ATMO/MIC.nc">
+  <dataset name="Lake Michigan modeled water surface temperatures (Celsius)" ID="e45fed6e" urlPath="ATMO/e45fed6e.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -125,7 +125,7 @@
 
   </dataset>
   
-  <dataset name="Lake Huron (without Georgian Bay) modeled water surface temperatures (Celsius)" ID="d7101758" urlPath="ATMO/HUR.nc">
+  <dataset name="Lake Huron (without Georgian Bay) modeled water surface temperatures (Celsius)" ID="1032aed0" urlPath="ATMO/1032aed0.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -163,7 +163,7 @@
 
   </dataset>
   
-  <dataset name="Lake Superior modeled water surface temperatures (Celsius)" ID="b4d14b6d" urlPath="ATMO/SUP.nc">
+  <dataset name="Lake Superior modeled water surface temperatures (Celsius)" ID="272b817f" urlPath="ATMO/272b817f.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -201,7 +201,7 @@
 
   </dataset>
   
-  <dataset name="Georgian Bay modeled water surface temperatures (Celsius)" ID="e10d1d1f" urlPath="ATMO/GEO.nc">
+  <dataset name="Georgian Bay modeled water surface temperatures (Celsius)" ID="18956c96" urlPath="ATMO/18956c96.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -239,7 +239,7 @@
 
   </dataset>
   
-  <dataset name="Lake Erie modeled water surface temperatures (Celsius)" ID="ef2422bb" urlPath="ATMO/ERI.nc">
+  <dataset name="Lake Erie modeled water surface temperatures (Celsius)" ID="3332986e" urlPath="ATMO/3332986e.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -277,7 +277,7 @@
 
   </dataset>
   
-  <dataset name="Lake Ontario modeled water surface temperatures (Celsius)" ID="0bc08bab" urlPath="ATMO/ONT.nc">
+  <dataset name="Lake Ontario modeled water surface temperatures (Celsius)" ID="4f0fbd4a" urlPath="ATMO/4f0fbd4a.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -315,7 +315,7 @@
 
   </dataset>
   
-  <dataset name="Great Lakes (and St. Clair) Combined WindSpeed" ID="f3b03009" urlPath="ATMO/GRT.nc">
+  <dataset name="Great Lakes (and St. Clair) Combined WindSpeed" ID="b02dfda8" urlPath="ATMO/b02dfda8.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -353,7 +353,7 @@
 
   </dataset>
   
-  <dataset name=" Lake St. Clair" ID="4dd638c2" urlPath="ATMO/STC.nc">
+  <dataset name=" Lake St. Clair" ID="f46d20bb" urlPath="ATMO/f46d20bb.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -391,7 +391,7 @@
 
   </dataset>
   
-  <dataset name=" Lake Michigan-Huron  (including Georgian Bay)" ID="cc2a64bf" urlPath="ATMO/MHG.nc">
+  <dataset name=" Lake Michigan-Huron  (including Georgian Bay)" ID="2358c087" urlPath="ATMO/2358c087.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -429,7 +429,7 @@
 
   </dataset>
   
-  <dataset name=" Lake Michigan" ID="1faf4362" urlPath="ATMO/MIC.nc">
+  <dataset name=" Lake Michigan" ID="bbfa55aa" urlPath="ATMO/bbfa55aa.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -467,7 +467,7 @@
 
   </dataset>
   
-  <dataset name="Georgian Bay" ID="1fd82d9b" urlPath="ATMO/GEO.nc">
+  <dataset name="Georgian Bay" ID="b6157a3e" urlPath="ATMO/b6157a3e.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -505,7 +505,7 @@
 
   </dataset>
   
-  <dataset name=" Lake Huron (without Georgian Bay)" ID="f4be6b1c" urlPath="ATMO/HUR.nc">
+  <dataset name=" Lake Huron (without Georgian Bay)" ID="ff28bfe3" urlPath="ATMO/ff28bfe3.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -543,7 +543,7 @@
 
   </dataset>
   
-  <dataset name=" Lake Superior" ID="77cd37bd" urlPath="ATMO/SUP.nc">
+  <dataset name=" Lake Superior" ID="2d6922e2" urlPath="ATMO/2d6922e2.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -581,7 +581,7 @@
 
   </dataset>
   
-  <dataset name=" Lake Huron (with Georgian Bay)" ID="187ea75a" urlPath="ATMO/HGB.nc">
+  <dataset name=" Lake Huron (with Georgian Bay)" ID="75a17aec" urlPath="ATMO/75a17aec.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -619,7 +619,7 @@
 
   </dataset>
   
-  <dataset name=" Lake Erie" ID="d564c1bb" urlPath="ATMO/ERI.nc">
+  <dataset name=" Lake Erie" ID="7a945263" urlPath="ATMO/7a945263.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -657,7 +657,7 @@
 
   </dataset>
   
-  <dataset name=" Lake Ontario" ID="1580e90c" urlPath="ATMO/ONT.nc">
+  <dataset name=" Lake Ontario" ID="8587c71d" urlPath="ATMO/8587c71d.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -695,7 +695,7 @@
 
   </dataset>
   
-  <dataset name="Great Lakes (and St. Clair) Combined Cloud Cover" ID="0a031136" urlPath="ATMO/GRT.nc">
+  <dataset name="Great Lakes (and St. Clair) Combined Cloud Cover" ID="65deece7" urlPath="ATMO/65deece7.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -733,7 +733,7 @@
 
   </dataset>
   
-  <dataset name=" Lake St. Clair" ID="4dd638c2" urlPath="ATMO/STC.nc">
+  <dataset name=" Lake St. Clair" ID="e251884c" urlPath="ATMO/e251884c.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -771,7 +771,7 @@
 
   </dataset>
   
-  <dataset name=" Lake Michigan-Huron  (including Georgian Bay)" ID="cc2a64bf" urlPath="ATMO/MHG.nc">
+  <dataset name=" Lake Michigan-Huron  (including Georgian Bay)" ID="b9cea88e" urlPath="ATMO/b9cea88e.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -809,7 +809,7 @@
 
   </dataset>
   
-  <dataset name=" Lake Michigan" ID="1faf4362" urlPath="ATMO/MIC.nc">
+  <dataset name=" Lake Michigan" ID="213cdcef" urlPath="ATMO/213cdcef.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -847,7 +847,7 @@
 
   </dataset>
   
-  <dataset name="Georgian Bay" ID="1fd82d9b" urlPath="ATMO/GEO.nc">
+  <dataset name="Georgian Bay" ID="bfe8f37b" urlPath="ATMO/bfe8f37b.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -885,7 +885,7 @@
 
   </dataset>
   
-  <dataset name=" Lake Huron (without Georgian Bay)" ID="f4be6b1c" urlPath="ATMO/HUR.nc">
+  <dataset name=" Lake Huron (without Georgian Bay)" ID="90302d4b" urlPath="ATMO/90302d4b.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -923,7 +923,7 @@
 
   </dataset>
   
-  <dataset name=" Lake Superior" ID="77cd37bd" urlPath="ATMO/SUP.nc">
+  <dataset name=" Lake Superior" ID="03e89643" urlPath="ATMO/03e89643.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -961,7 +961,7 @@
 
   </dataset>
   
-  <dataset name=" Lake Huron (with Georgian Bay)" ID="187ea75a" urlPath="ATMO/HGB.nc">
+  <dataset name=" Lake Huron (with Georgian Bay)" ID="4d793972" urlPath="ATMO/4d793972.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -999,7 +999,7 @@
 
   </dataset>
   
-  <dataset name=" Lake Erie" ID="d564c1bb" urlPath="ATMO/ERI.nc">
+  <dataset name=" Lake Erie" ID="6cb5493b" urlPath="ATMO/6cb5493b.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1037,7 +1037,7 @@
 
   </dataset>
   
-  <dataset name=" Lake Ontario" ID="1580e90c" urlPath="ATMO/ONT.nc">
+  <dataset name=" Lake Ontario" ID="56912a84" urlPath="ATMO/56912a84.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>

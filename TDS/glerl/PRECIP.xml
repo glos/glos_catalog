@@ -11,7 +11,7 @@
   </service>
 
   
-  <dataset name=" Lake Michigan-Huron Beginning-of-Month Levels" ID="22b16a0d" urlPath="PRECIP/MHN.nc">
+  <dataset name=" Lake Michigan-Huron Beginning-of-Month Levels" ID="719e3b1e" urlPath="PRECIP/719e3b1e.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -49,7 +49,7 @@
 
   </dataset>
   
-  <dataset name=" Lake St. Clair Beginning-of-Month Levels" ID="c5ea6334" urlPath="PRECIP/STC.nc">
+  <dataset name=" Lake St. Clair Beginning-of-Month Levels" ID="276d3460" urlPath="PRECIP/276d3460.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -87,7 +87,7 @@
 
   </dataset>
   
-  <dataset name=" Lake Michigan Beginning-of-Month Levels" ID="03962f17" urlPath="PRECIP/MIC.nc">
+  <dataset name=" Lake Michigan Beginning-of-Month Levels" ID="bfcf2719" urlPath="PRECIP/bfcf2719.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -125,7 +125,7 @@
 
   </dataset>
   
-  <dataset name=" Lake Huron Beginning-of-Month Levels" ID="035a84a2" urlPath="PRECIP/HUR.nc">
+  <dataset name=" Lake Huron Beginning-of-Month Levels" ID="6370698d" urlPath="PRECIP/6370698d.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -163,7 +163,7 @@
 
   </dataset>
   
-  <dataset name=" Lake Superior Beginning-of-Month Levels" ID="14430dcd" urlPath="PRECIP/SUP.nc">
+  <dataset name=" Lake Superior Beginning-of-Month Levels" ID="019b8701" urlPath="PRECIP/019b8701.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -201,7 +201,7 @@
 
   </dataset>
   
-  <dataset name=" Lake Erie Beginning-of-Month Levels" ID="b832470f" urlPath="PRECIP/ERI.nc">
+  <dataset name=" Lake Erie Beginning-of-Month Levels" ID="19d8def3" urlPath="PRECIP/19d8def3.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -239,7 +239,7 @@
 
   </dataset>
   
-  <dataset name=" Lake Ontario Beginning-of-Month Levels" ID="d2f9e173" urlPath="PRECIP/ONT.nc">
+  <dataset name=" Lake Ontario Beginning-of-Month Levels" ID="353c835f" urlPath="PRECIP/353c835f.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -277,7 +277,7 @@
 
   </dataset>
   
-  <dataset name="     Lake Michigan OverBasin Precipitation (millimeters)" ID="470f8941" urlPath="PRECIP/MIC_mm.nc">
+  <dataset name="     Lake Michigan OverBasin Precipitation (millimeters)" ID="9e8fb654" urlPath="PRECIP/9e8fb654.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -315,7 +315,7 @@
 
   </dataset>
   
-  <dataset name="Georgian Bay OverBasin Precipitation (millimeters)" ID="293f7ca0" urlPath="PRECIP/GEO_mm.nc">
+  <dataset name="Georgian Bay OverBasin Precipitation (millimeters)" ID="ded643e8" urlPath="PRECIP/ded643e8.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -353,7 +353,7 @@
 
   </dataset>
   
-  <dataset name="     Lake Erie OverBasin Precipitation (millimeters)" ID="d4db3c1e" urlPath="PRECIP/ERI_mm.nc">
+  <dataset name="     Lake Erie OverBasin Precipitation (millimeters)" ID="3ca98487" urlPath="PRECIP/3ca98487.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -391,7 +391,7 @@
 
   </dataset>
   
-  <dataset name="     Lake Ontario OverBasin Precipitation (millimeters)" ID="ef3b8c62" urlPath="PRECIP/ONT_mm.nc">
+  <dataset name="     Lake Ontario OverBasin Precipitation (millimeters)" ID="4a433473" urlPath="PRECIP/4a433473.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -429,7 +429,7 @@
 
   </dataset>
   
-  <dataset name="     Lake Michigan-Huron (including Georgian Bay) OverBasin Precipitation (millimeters)" ID="5910ea76" urlPath="PRECIP/MHG_mm.nc">
+  <dataset name="     Lake Michigan-Huron (including Georgian Bay) OverBasin Precipitation (millimeters)" ID="490c2c89" urlPath="PRECIP/490c2c89.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -467,7 +467,7 @@
 
   </dataset>
   
-  <dataset name="     Lake Superior OverBasin Precipitation (millimeters)" ID="62cb3bbf" urlPath="PRECIP/SUP_mm.nc">
+  <dataset name="     Lake Superior OverBasin Precipitation (millimeters)" ID="835a2362" urlPath="PRECIP/835a2362.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -505,7 +505,7 @@
 
   </dataset>
   
-  <dataset name="     Lake Huron (including Georgian Bay) OverBasin Precipitation (millimeters)" ID="5aa0af2d" urlPath="PRECIP/HGB_mm.nc">
+  <dataset name="     Lake Huron (including Georgian Bay) OverBasin Precipitation (millimeters)" ID="fda47f43" urlPath="PRECIP/fda47f43.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -543,7 +543,7 @@
 
   </dataset>
   
-  <dataset name="     Lake Huron (without Georgian Bay) OverBasin Precipitation (millimeters)" ID="02577eea" urlPath="PRECIP/HUR_mm.nc">
+  <dataset name="     Lake Huron (without Georgian Bay) OverBasin Precipitation (millimeters)" ID="6ca8f654" urlPath="PRECIP/6ca8f654.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -581,7 +581,7 @@
 
   </dataset>
   
-  <dataset name="Great Lakes OverBasin Precipitation (millimeters)" ID="db08f09c" urlPath="PRECIP/GRT_mm.nc">
+  <dataset name="Great Lakes OverBasin Precipitation (millimeters)" ID="46da1f25" urlPath="PRECIP/46da1f25.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -619,7 +619,7 @@
 
   </dataset>
   
-  <dataset name="     Lake St.Clair OverBasin Precipitation (millimeters)" ID="6907c079" urlPath="PRECIP/STC_mm.nc">
+  <dataset name="     Lake St.Clair OverBasin Precipitation (millimeters)" ID="09f6b3f6" urlPath="PRECIP/09f6b3f6.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -657,7 +657,7 @@
 
   </dataset>
   
-  <dataset name="Lake Ontario OverBasin Precipitation (cubic meters per second)" ID="2e74d736" urlPath="PRECIP/ONT_cms.nc">
+  <dataset name="Lake Ontario OverBasin Precipitation (cubic meters per second)" ID="dcd2b450" urlPath="PRECIP/dcd2b450.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -695,7 +695,7 @@
 
   </dataset>
   
-  <dataset name="Lake Michigan OverBasin Precipitation (cubic meters per second)" ID="a2494fbf" urlPath="PRECIP/MIC_cms.nc">
+  <dataset name="Lake Michigan OverBasin Precipitation (cubic meters per second)" ID="5c078b6f" urlPath="PRECIP/5c078b6f.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -733,7 +733,7 @@
 
   </dataset>
   
-  <dataset name="Lake StClair OverBasin Precipitation (cubic meters per second)" ID="6d7295c1" urlPath="PRECIP/STC_cms.nc">
+  <dataset name="Lake StClair OverBasin Precipitation (cubic meters per second)" ID="b112554d" urlPath="PRECIP/b112554d.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -771,7 +771,7 @@
 
   </dataset>
   
-  <dataset name="Lake Superior OverBasin Precipitation (cubic meters per second)" ID="0465b0e5" urlPath="PRECIP/SUP_cms.nc">
+  <dataset name="Lake Superior OverBasin Precipitation (cubic meters per second)" ID="7c842ada" urlPath="PRECIP/7c842ada.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -809,7 +809,7 @@
 
   </dataset>
   
-  <dataset name="Great Lakes OverBasin Precipitation (cubic meters per second)" ID="77636661" urlPath="PRECIP/GRT_cms.nc">
+  <dataset name="Great Lakes OverBasin Precipitation (cubic meters per second)" ID="5db510bb" urlPath="PRECIP/5db510bb.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -847,7 +847,7 @@
 
   </dataset>
   
-  <dataset name="Lake Huron (with Georgian Bay) OverBasin Precipitation (cubic meters per second)" ID="e5003706" urlPath="PRECIP/HGB_cms.nc">
+  <dataset name="Lake Huron (with Georgian Bay) OverBasin Precipitation (cubic meters per second)" ID="ada07b41" urlPath="PRECIP/ada07b41.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -885,7 +885,7 @@
 
   </dataset>
   
-  <dataset name="Lake Huron (without Georgian Bay) Overbasin Precipitation (cubic meters per second)" ID="12638ca6" urlPath="PRECIP/HUR_cms.nc">
+  <dataset name="Lake Huron (without Georgian Bay) Overbasin Precipitation (cubic meters per second)" ID="e110537d" urlPath="PRECIP/e110537d.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -923,7 +923,7 @@
 
   </dataset>
   
-  <dataset name="Lake Erie OverBasin Precipitation (cubic meters per second)" ID="ad06d044" urlPath="PRECIP/ERI_cms.nc">
+  <dataset name="Lake Erie OverBasin Precipitation (cubic meters per second)" ID="d4e958d0" urlPath="PRECIP/d4e958d0.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -961,7 +961,7 @@
 
   </dataset>
   
-  <dataset name="Georgian Bay OverBasin Precipitation (cubic meters per second)" ID="419c6f78" urlPath="PRECIP/GEO_cms.nc">
+  <dataset name="Georgian Bay OverBasin Precipitation (cubic meters per second)" ID="4135f872" urlPath="PRECIP/4135f872.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -999,7 +999,7 @@
 
   </dataset>
   
-  <dataset name="Lake Michigan-Huron (including Georgian Bay) OverBasin Precipitation (cubic meters per second)" ID="ab0a55cb" urlPath="PRECIP/MHG_cms.nc">
+  <dataset name="Lake Michigan-Huron (including Georgian Bay) OverBasin Precipitation (cubic meters per second)" ID="89ac2a6d" urlPath="PRECIP/89ac2a6d.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1037,7 +1037,7 @@
 
   </dataset>
   
-  <dataset name="     Lake Michigan Overlake Precipitation (millimeters)" ID="03e33199" urlPath="PRECIP/MIC_mm.nc">
+  <dataset name="     Lake Michigan Overlake Precipitation (millimeters)" ID="2d9551d2" urlPath="PRECIP/2d9551d2.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1075,7 +1075,7 @@
 
   </dataset>
   
-  <dataset name="Georgian Bay Overlake Precipitation (millimeters)" ID="241fc697" urlPath="PRECIP/GEO_mm.nc">
+  <dataset name="Georgian Bay Overlake Precipitation (millimeters)" ID="d9140d63" urlPath="PRECIP/d9140d63.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1113,7 +1113,7 @@
 
   </dataset>
   
-  <dataset name="     Lake Erie Overlake Precipitation (millimeters)" ID="373289ab" urlPath="PRECIP/ERI_mm.nc">
+  <dataset name="     Lake Erie Overlake Precipitation (millimeters)" ID="f3c3b86c" urlPath="PRECIP/f3c3b86c.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1151,7 +1151,7 @@
 
   </dataset>
   
-  <dataset name="     Lake Ontario Overlake Precipitation (millimeters)" ID="6d0c2302" urlPath="PRECIP/ONT_mm.nc">
+  <dataset name="     Lake Ontario Overlake Precipitation (millimeters)" ID="c985c74e" urlPath="PRECIP/c985c74e.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1189,7 +1189,7 @@
 
   </dataset>
   
-  <dataset name="     Lake Michigan-Huron (including Georgian Bay) Overlake Precipitation (millimeters)" ID="0d7c60cd" urlPath="PRECIP/MHG_mm.nc">
+  <dataset name="     Lake Michigan-Huron (including Georgian Bay) Overlake Precipitation (millimeters)" ID="c7ca5eca" urlPath="PRECIP/c7ca5eca.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1227,7 +1227,7 @@
 
   </dataset>
   
-  <dataset name="     Lake Superior Overlake Precipitation (millimeters)" ID="ea349384" urlPath="PRECIP/SUP_mm.nc">
+  <dataset name="     Lake Superior Overlake Precipitation (millimeters)" ID="2925dc78" urlPath="PRECIP/2925dc78.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1265,7 +1265,7 @@
 
   </dataset>
   
-  <dataset name="     Lake Huron (including Georgian Bay) Overlake Precipitation (millimeters)" ID="c2bcff35" urlPath="PRECIP/HGB_mm.nc">
+  <dataset name="     Lake Huron (including Georgian Bay) Overlake Precipitation (millimeters)" ID="e152a172" urlPath="PRECIP/e152a172.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1303,7 +1303,7 @@
 
   </dataset>
   
-  <dataset name="     Lake Huron (without Georgian Bay) Overlake Precipitation (millimeters)" ID="09c1b07e" urlPath="PRECIP/HUR_mm.nc">
+  <dataset name="     Lake Huron (without Georgian Bay) Overlake Precipitation (millimeters)" ID="913e52af" urlPath="PRECIP/913e52af.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1341,7 +1341,7 @@
 
   </dataset>
   
-  <dataset name="Great Lakes Overlake Precipitation (millimeters)" ID="11bc0efe" urlPath="PRECIP/GRT_mm.nc">
+  <dataset name="Great Lakes Overlake Precipitation (millimeters)" ID="515f1337" urlPath="PRECIP/515f1337.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1379,7 +1379,7 @@
 
   </dataset>
   
-  <dataset name="     Lake St.Clair Overlake Precipitation (millimeters)" ID="a982761f" urlPath="PRECIP/STC_mm.nc">
+  <dataset name="     Lake St.Clair Overlake Precipitation (millimeters)" ID="cc5b0437" urlPath="PRECIP/cc5b0437.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1417,7 +1417,7 @@
 
   </dataset>
   
-  <dataset name="Lake Ontario Overlake Precipitation (cubic meters per second)" ID="a567db19" urlPath="PRECIP/ONT_cms.nc">
+  <dataset name="Lake Ontario Overlake Precipitation (cubic meters per second)" ID="21ec622c" urlPath="PRECIP/21ec622c.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1455,7 +1455,7 @@
 
   </dataset>
   
-  <dataset name="Lake Michigan Overlake Precipitation (cubic meters per second)" ID="8813cbca" urlPath="PRECIP/MIC_cms.nc">
+  <dataset name="Lake Michigan Overlake Precipitation (cubic meters per second)" ID="835f1295" urlPath="PRECIP/835f1295.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1493,7 +1493,7 @@
 
   </dataset>
   
-  <dataset name="Lake StClair Overlake Precipitation (cubic meters per second)" ID="77303611" urlPath="PRECIP/STC_cms.nc">
+  <dataset name="Lake StClair Overlake Precipitation (cubic meters per second)" ID="779aae92" urlPath="PRECIP/779aae92.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1531,7 +1531,7 @@
 
   </dataset>
   
-  <dataset name="Lake Superior Overlake Precipitation (cubic meters per second)" ID="b13a5a70" urlPath="PRECIP/SUP_cms.nc">
+  <dataset name="Lake Superior Overlake Precipitation (cubic meters per second)" ID="f8488425" urlPath="PRECIP/f8488425.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1569,7 +1569,7 @@
 
   </dataset>
   
-  <dataset name="Great Lakes Overlake Precipitation (cubic meters per second)" ID="e4109494" urlPath="PRECIP/GRT_cms.nc">
+  <dataset name="Great Lakes Overlake Precipitation (cubic meters per second)" ID="5c04ea4d" urlPath="PRECIP/5c04ea4d.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1607,7 +1607,7 @@
 
   </dataset>
   
-  <dataset name="Lake Huron (with Georgian Bay) Overlake Precipitation (cubic meters per second)" ID="077706c5" urlPath="PRECIP/HGB_cms.nc">
+  <dataset name="Lake Huron (with Georgian Bay) Overlake Precipitation (cubic meters per second)" ID="0c378756" urlPath="PRECIP/0c378756.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1645,7 +1645,7 @@
 
   </dataset>
   
-  <dataset name="Lake Huron (without Georgian Bay) Overlake Precipitation (cubic meters per second)" ID="d808c8d4" urlPath="PRECIP/HUR_cms.nc">
+  <dataset name="Lake Huron (without Georgian Bay) Overlake Precipitation (cubic meters per second)" ID="902fbca1" urlPath="PRECIP/902fbca1.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1683,7 +1683,7 @@
 
   </dataset>
   
-  <dataset name="Lake Erie Overlake Precipitation (cubic meters per second)" ID="45a18a2b" urlPath="PRECIP/ERI_cms.nc">
+  <dataset name="Lake Erie Overlake Precipitation (cubic meters per second)" ID="ed6d006a" urlPath="PRECIP/ed6d006a.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1721,7 +1721,7 @@
 
   </dataset>
   
-  <dataset name="Georgian Bay Overlake Precipitation (cubic meters per second)" ID="ea11e192" urlPath="PRECIP/GEO_cms.nc">
+  <dataset name="Georgian Bay Overlake Precipitation (cubic meters per second)" ID="8860ebd4" urlPath="PRECIP/8860ebd4.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1759,7 +1759,7 @@
 
   </dataset>
   
-  <dataset name="Lake Michigan-Huron (including Georgian Bay) Overlake Precipitation (cubic meters per second)" ID="f1e585a3" urlPath="PRECIP/MHG_cms.nc">
+  <dataset name="Lake Michigan-Huron (including Georgian Bay) Overlake Precipitation (cubic meters per second)" ID="1a493a7d" urlPath="PRECIP/1a493a7d.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1797,7 +1797,7 @@
 
   </dataset>
   
-  <dataset name="     Lake Michigan Overland Precipitation (millimeters)" ID="5fea3c14" urlPath="PRECIP/MIC_mm.nc">
+  <dataset name="     Lake Michigan Overland Precipitation (millimeters)" ID="8470468e" urlPath="PRECIP/8470468e.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1835,7 +1835,7 @@
 
   </dataset>
   
-  <dataset name="Georgian Bay Overland Precipitation (millimeters)" ID="8a59ea70" urlPath="PRECIP/GEO_mm.nc">
+  <dataset name="Georgian Bay Overland Precipitation (millimeters)" ID="72b6b74f" urlPath="PRECIP/72b6b74f.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1873,7 +1873,7 @@
 
   </dataset>
   
-  <dataset name="     Lake Erie Overland Precipitation (millimeters)" ID="d4c52cbf" urlPath="PRECIP/ERI_mm.nc">
+  <dataset name="     Lake Erie Overland Precipitation (millimeters)" ID="3b01340c" urlPath="PRECIP/3b01340c.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1911,7 +1911,7 @@
 
   </dataset>
   
-  <dataset name="     Lake Ontario Overland Precipitation (millimeters)" ID="6e588f43" urlPath="PRECIP/ONT_mm.nc">
+  <dataset name="     Lake Ontario Overland Precipitation (millimeters)" ID="45fe8ed7" urlPath="PRECIP/45fe8ed7.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1949,7 +1949,7 @@
 
   </dataset>
   
-  <dataset name="     Lake Michigan-Huron Overland Precipitation (millimeters) -- includes Georgian Bay" ID="e82ab026" urlPath="PRECIP/MHG_mm.nc">
+  <dataset name="     Lake Michigan-Huron Overland Precipitation (millimeters) -- includes Georgian Bay" ID="2c27fca5" urlPath="PRECIP/2c27fca5.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1987,7 +1987,7 @@
 
   </dataset>
   
-  <dataset name="     Lake Superior Overland Precipitation (millimeters)" ID="3a2bea7b" urlPath="PRECIP/SUP_mm.nc">
+  <dataset name="     Lake Superior Overland Precipitation (millimeters)" ID="cd3027cc" urlPath="PRECIP/cd3027cc.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -2025,7 +2025,7 @@
 
   </dataset>
   
-  <dataset name="     Lake Huron Overland Precipitation (millimeters)" ID="ecca9161" urlPath="PRECIP/HGB_mm.nc">
+  <dataset name="     Lake Huron Overland Precipitation (millimeters)" ID="dd59bb98" urlPath="PRECIP/dd59bb98.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -2063,7 +2063,7 @@
 
   </dataset>
   
-  <dataset name="     Lake Huron (without Georgian Bay) Overland Precipitation (millimeters)" ID="5428d7b6" urlPath="PRECIP/HUR_mm.nc">
+  <dataset name="     Lake Huron (without Georgian Bay) Overland Precipitation (millimeters)" ID="53c55f49" urlPath="PRECIP/53c55f49.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -2101,7 +2101,7 @@
 
   </dataset>
   
-  <dataset name="     Great Lakes Overland Precipitation (millimeters)" ID="e1d77d3f" urlPath="PRECIP/GRT_mm.nc">
+  <dataset name="     Great Lakes Overland Precipitation (millimeters)" ID="7881d93a" urlPath="PRECIP/7881d93a.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -2139,7 +2139,7 @@
 
   </dataset>
   
-  <dataset name="     Lake St.Clair Overland Precipitation (millimeters)" ID="f9de9b96" urlPath="PRECIP/STC_mm.nc">
+  <dataset name="     Lake St.Clair Overland Precipitation (millimeters)" ID="29b61fc3" urlPath="PRECIP/29b61fc3.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -2177,7 +2177,7 @@
 
   </dataset>
   
-  <dataset name="Lake Ontario Overland Precipitation (cubic meters per second)" ID="79bc19ab" urlPath="PRECIP/ONT_cms.nc">
+  <dataset name="Lake Ontario Overland Precipitation (cubic meters per second)" ID="34ad34d6" urlPath="PRECIP/34ad34d6.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -2215,7 +2215,7 @@
 
   </dataset>
   
-  <dataset name="Lake Michigan Overland Precipitation (cubic meters per second)" ID="1aacdcc1" urlPath="PRECIP/MIC_cms.nc">
+  <dataset name="Lake Michigan Overland Precipitation (cubic meters per second)" ID="70e29399" urlPath="PRECIP/70e29399.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -2253,7 +2253,7 @@
 
   </dataset>
   
-  <dataset name="Lake St. Clair Overland Precipitation (cubic meters per second)" ID="bb022602" urlPath="PRECIP/STC_cms.nc">
+  <dataset name="Lake St. Clair Overland Precipitation (cubic meters per second)" ID="f2993639" urlPath="PRECIP/f2993639.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -2291,7 +2291,7 @@
 
   </dataset>
   
-  <dataset name="Lake Superior Overland Precipitation (cubic meters per second)" ID="6cbda634" urlPath="PRECIP/SUP_cms.nc">
+  <dataset name="Lake Superior Overland Precipitation (cubic meters per second)" ID="64891f6b" urlPath="PRECIP/64891f6b.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -2329,7 +2329,7 @@
 
   </dataset>
   
-  <dataset name="Great Lakes Overland Precipitation (cubic meters per second)" ID="7445b255" urlPath="PRECIP/GRT_cms.nc">
+  <dataset name="Great Lakes Overland Precipitation (cubic meters per second)" ID="48ee3b12" urlPath="PRECIP/48ee3b12.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -2367,7 +2367,7 @@
 
   </dataset>
   
-  <dataset name="Lake Huron (with Georgian Bay) Overland Precipitation (cubic meters per second)" ID="5f96a18d" urlPath="PRECIP/HGB_cms.nc">
+  <dataset name="Lake Huron (with Georgian Bay) Overland Precipitation (cubic meters per second)" ID="1684838b" urlPath="PRECIP/1684838b.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -2405,7 +2405,7 @@
 
   </dataset>
   
-  <dataset name="Lake Huron (without Georgian Bay) Overland Precipitation (cubic meters per second)" ID="9ff9ff14" urlPath="PRECIP/HUR_cms.nc">
+  <dataset name="Lake Huron (without Georgian Bay) Overland Precipitation (cubic meters per second)" ID="5bc52a79" urlPath="PRECIP/5bc52a79.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -2443,7 +2443,7 @@
 
   </dataset>
   
-  <dataset name="Lake Erie Overland Precipitation (cubic meters per second)" ID="7b900d7f" urlPath="PRECIP/ERI_cms.nc">
+  <dataset name="Lake Erie Overland Precipitation (cubic meters per second)" ID="fa849c63" urlPath="PRECIP/fa849c63.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -2481,7 +2481,7 @@
 
   </dataset>
   
-  <dataset name="Georgian Bay Overland Precipitation (cubic meters per second)" ID="0d225e19" urlPath="PRECIP/GEO_cms.nc">
+  <dataset name="Georgian Bay Overland Precipitation (cubic meters per second)" ID="7fca8797" urlPath="PRECIP/7fca8797.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -2519,7 +2519,7 @@
 
   </dataset>
   
-  <dataset name="Lake Michigan-Huron (including Georgian Bay) Overland Precipitation (cubic meters per second)" ID="03f9d74f" urlPath="PRECIP/MHG_cms.nc">
+  <dataset name="Lake Michigan-Huron (including Georgian Bay) Overland Precipitation (cubic meters per second)" ID="11277379" urlPath="PRECIP/11277379.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -2557,7 +2557,7 @@
 
   </dataset>
   
-  <dataset name="Lake Michigan-Huron Combined Change In Storage" ID="b11296ed" urlPath="PRECIP/MHN.nc">
+  <dataset name="Lake Michigan-Huron Combined Change In Storage" ID="d6d51b3d" urlPath="PRECIP/d6d51b3d.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -2595,7 +2595,7 @@
 
   </dataset>
   
-  <dataset name="Lake St. Clair Change In Storage" ID="b49680c8" urlPath="PRECIP/STC.nc">
+  <dataset name="Lake St. Clair Change In Storage" ID="70e8abb3" urlPath="PRECIP/70e8abb3.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -2633,7 +2633,7 @@
 
   </dataset>
   
-  <dataset name="Lake Michigan Change In Storage" ID="13afaa1d" urlPath="PRECIP/MIC.nc">
+  <dataset name="Lake Michigan Change In Storage" ID="cd643952" urlPath="PRECIP/cd643952.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -2671,7 +2671,7 @@
 
   </dataset>
   
-  <dataset name="Lake Huron Change In Storage" ID="50bbd45e" urlPath="PRECIP/HUR.nc">
+  <dataset name="Lake Huron Change In Storage" ID="e707f561" urlPath="PRECIP/e707f561.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -2709,7 +2709,7 @@
 
   </dataset>
   
-  <dataset name="Lake Superior Change In Storage" ID="78eba013" urlPath="PRECIP/SUP.nc">
+  <dataset name="Lake Superior Change In Storage" ID="6211aedd" urlPath="PRECIP/6211aedd.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -2747,7 +2747,7 @@
 
   </dataset>
   
-  <dataset name="Lake Erie Change In Storage" ID="586abf82" urlPath="PRECIP/ERI.nc">
+  <dataset name="Lake Erie Change In Storage" ID="ac515910" urlPath="PRECIP/ac515910.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -2785,7 +2785,7 @@
 
   </dataset>
   
-  <dataset name="Lake Ontario Change In Storage" ID="9114f682" urlPath="PRECIP/ONT.nc">
+  <dataset name="Lake Ontario Change In Storage" ID="61db52e5" urlPath="PRECIP/61db52e5.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -2823,7 +2823,7 @@
 
   </dataset>
   
-  <dataset name=" Monthly runoff to LK MICHIGAN  from land surface " ID="9f7982a8" urlPath="PRECIP/MIC_mm.nc">
+  <dataset name=" Monthly runoff to LK MICHIGAN  from land surface " ID="0ad3f711" urlPath="PRECIP/0ad3f711.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -2861,7 +2861,7 @@
 
   </dataset>
   
-  <dataset name=" Monthly runoff to Georgian Bay from land surface " ID="16ed83f0" urlPath="PRECIP/GEO_mm.nc">
+  <dataset name=" Monthly runoff to Georgian Bay from land surface " ID="72782379" urlPath="PRECIP/72782379.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -2899,7 +2899,7 @@
 
   </dataset>
   
-  <dataset name=" Monthly runoff to Lake Erie from land surface " ID="ef70d882" urlPath="PRECIP/ERI_mm.nc">
+  <dataset name=" Monthly runoff to Lake Erie from land surface " ID="eb1d5c7e" urlPath="PRECIP/eb1d5c7e.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -2937,7 +2937,7 @@
 
   </dataset>
   
-  <dataset name=" Monthly runoff to Lake Ontario from land surface " ID="cdba7fbc" urlPath="PRECIP/ONT_mm.nc">
+  <dataset name=" Monthly runoff to Lake Ontario from land surface " ID="f0570cd3" urlPath="PRECIP/f0570cd3.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -2975,7 +2975,7 @@
 
   </dataset>
   
-  <dataset name="Great Lakes and StClair Combined Runoff" ID="08591a81" urlPath="PRECIP/GRT_mm.nc">
+  <dataset name="Great Lakes and StClair Combined Runoff" ID="cd117f2a" urlPath="PRECIP/cd117f2a.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -3013,7 +3013,7 @@
 
   </dataset>
   
-  <dataset name=" Monthly runoff to Lake St. Clair from land surface " ID="764a22af" urlPath="PRECIP/STC_mm.nc">
+  <dataset name=" Monthly runoff to Lake St. Clair from land surface " ID="092b4c17" urlPath="PRECIP/092b4c17.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -3051,7 +3051,7 @@
 
   </dataset>
   
-  <dataset name=" Monthly runoff to combined Michigan/Huron/Georgian from land surface " ID="13133f06" urlPath="PRECIP/MHG_mm.nc">
+  <dataset name=" Monthly runoff to combined Michigan/Huron/Georgian from land surface " ID="ba3b76f8" urlPath="PRECIP/ba3b76f8.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -3089,7 +3089,7 @@
 
   </dataset>
   
-  <dataset name=" Monthly runoff to LK SUPERIOR  from land surface " ID="fe11fd9b" urlPath="PRECIP/SUP_mm.nc">
+  <dataset name=" Monthly runoff to LK SUPERIOR  from land surface " ID="d2fb8fea" urlPath="PRECIP/d2fb8fea.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -3127,7 +3127,7 @@
 
   </dataset>
   
-  <dataset name=" Monthly runoff to Lake Huron (with Georgian Bay) from land surface " ID="aaf2bee6" urlPath="PRECIP/HGB_mm.nc">
+  <dataset name=" Monthly runoff to Lake Huron (with Georgian Bay) from land surface " ID="24d8b88e" urlPath="PRECIP/24d8b88e.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -3165,7 +3165,7 @@
 
   </dataset>
   
-  <dataset name=" Monthly runoff to Lake Huron (w/o Georgian Bay)  from land surface " ID="a952d258" urlPath="PRECIP/HUR_mm.nc">
+  <dataset name=" Monthly runoff to Lake Huron (w/o Georgian Bay)  from land surface " ID="9fde4c54" urlPath="PRECIP/9fde4c54.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -3203,7 +3203,7 @@
 
   </dataset>
   
-  <dataset name=" Monthly runoff to LK ONTARIO from land surface " ID="6d1029c4" urlPath="PRECIP/ONT_cms.nc">
+  <dataset name=" Monthly runoff to LK ONTARIO from land surface " ID="c4c41aa9" urlPath="PRECIP/c4c41aa9.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -3241,7 +3241,7 @@
 
   </dataset>
   
-  <dataset name=" Monthly runoff to LK ERIE  from land surface " ID="714597f8" urlPath="PRECIP/ERI_cms.nc">
+  <dataset name=" Monthly runoff to LK ERIE  from land surface " ID="3bde4d0e" urlPath="PRECIP/3bde4d0e.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -3279,7 +3279,7 @@
 
   </dataset>
   
-  <dataset name=" Monthly runoff to Georgian Bay from land surface " ID="16ed83f0" urlPath="PRECIP/GEO_cms.nc">
+  <dataset name=" Monthly runoff to Georgian Bay from land surface " ID="4cff6dd3" urlPath="PRECIP/4cff6dd3.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -3317,7 +3317,7 @@
 
   </dataset>
   
-  <dataset name=" Monthly runoff to combined Michigan/Huron/Georgian from land surface" ID="b7c26a00" urlPath="PRECIP/MHG_cms.nc">
+  <dataset name=" Monthly runoff to combined Michigan/Huron/Georgian from land surface" ID="24abab51" urlPath="PRECIP/24abab51.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -3355,7 +3355,7 @@
 
   </dataset>
   
-  <dataset name=" Monthly runoff to LK SUPERIOR  from land surface " ID="fe11fd9b" urlPath="PRECIP/SUP_NoO_cms.nc">
+  <dataset name=" Monthly runoff to LK SUPERIOR  from land surface " ID="884b7015" urlPath="PRECIP/884b7015.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -3393,7 +3393,7 @@
 
   </dataset>
   
-  <dataset name="Great Lakes and StClair Combined Runoff" ID="08591a81" urlPath="PRECIP/GRT_cms.nc">
+  <dataset name="Great Lakes and StClair Combined Runoff" ID="de5035a1" urlPath="PRECIP/de5035a1.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -3431,7 +3431,7 @@
 
   </dataset>
   
-  <dataset name=" Monthly runoff to LK MICHIGAN  from land surface " ID="9f7982a8" urlPath="PRECIP/MIC_cms.nc">
+  <dataset name=" Monthly runoff to LK MICHIGAN  from land surface " ID="ef3e94cb" urlPath="PRECIP/ef3e94cb.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -3469,7 +3469,7 @@
 
   </dataset>
   
-  <dataset name=" Monthly runoff to LK STCLAIR  from land surface " ID="3b62ac36" urlPath="PRECIP/STC_cms.nc">
+  <dataset name=" Monthly runoff to LK STCLAIR  from land surface " ID="03e414ce" urlPath="PRECIP/03e414ce.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -3507,7 +3507,7 @@
 
   </dataset>
   
-  <dataset name=" Monthly runoff to LK SUPERIOR  from land surface " ID="fe11fd9b" urlPath="PRECIP/SUP_cms.nc">
+  <dataset name=" Monthly runoff to LK SUPERIOR  from land surface " ID="3f5f28d3" urlPath="PRECIP/3f5f28d3.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -3545,7 +3545,7 @@
 
   </dataset>
   
-  <dataset name=" Monthly runoff to LK HURON (with Georgian Bay)  from land surface " ID="8d8a163e" urlPath="PRECIP/HGB_cms.nc">
+  <dataset name=" Monthly runoff to LK HURON (with Georgian Bay)  from land surface " ID="d9cace17" urlPath="PRECIP/d9cace17.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -3583,7 +3583,7 @@
 
   </dataset>
   
-  <dataset name=" Monthly runoff to LK HURON (w/o Georgian Bay)  from land surface " ID="0f8971a2" urlPath="PRECIP/HUR_cms.nc">
+  <dataset name=" Monthly runoff to LK HURON (w/o Georgian Bay)  from land surface " ID="20a9be2d" urlPath="PRECIP/20a9be2d.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -3621,7 +3621,7 @@
 
   </dataset>
   
-  <dataset name="Monthly Mean Gauged Percentage For Lake Erie basin" ID="0e5cd88e" urlPath="PRECIP/ERI_Pct.nc">
+  <dataset name="Monthly Mean Gauged Percentage For Lake Erie basin" ID="f690c590" urlPath="PRECIP/f690c590.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -3659,7 +3659,7 @@
 
   </dataset>
   
-  <dataset name="Monthly Mean Gauged Percentage For Lake Huron basin" ID="90030d4a" urlPath="PRECIP/HUR_Pct.nc">
+  <dataset name="Monthly Mean Gauged Percentage For Lake Huron basin" ID="fb8fbbbc" urlPath="PRECIP/fb8fbbbc.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -3697,7 +3697,7 @@
 
   </dataset>
   
-  <dataset name="Monthly Mean Gauged Percentage For Lake Michigan basin" ID="13c26f44" urlPath="PRECIP/MIC_Pct.nc">
+  <dataset name="Monthly Mean Gauged Percentage For Lake Michigan basin" ID="129a3468" urlPath="PRECIP/129a3468.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -3735,7 +3735,7 @@
 
   </dataset>
   
-  <dataset name="Monthly Mean Gauged Percentage For Lake Ontario basin" ID="a493f3fa" urlPath="PRECIP/ONT_Pct.nc">
+  <dataset name="Monthly Mean Gauged Percentage For Lake Ontario basin" ID="2e66bda5" urlPath="PRECIP/2e66bda5.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -3773,7 +3773,7 @@
 
   </dataset>
   
-  <dataset name="Monthly Mean Gauged Percentage For Lake Superior basin" ID="8288b201" urlPath="PRECIP/SUP_Pct.nc">
+  <dataset name="Monthly Mean Gauged Percentage For Lake Superior basin" ID="2a5c46a6" urlPath="PRECIP/2a5c46a6.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -3811,7 +3811,7 @@
 
   </dataset>
   
-  <dataset name="Monthly Mean Gauged Percentage For Georgian Bay basin" ID="5e42c24a" urlPath="PRECIP/GEO_Pct.nc">
+  <dataset name="Monthly Mean Gauged Percentage For Georgian Bay basin" ID="c5a0cde7" urlPath="PRECIP/c5a0cde7.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -3849,7 +3849,7 @@
 
   </dataset>
   
-  <dataset name="Monthly Mean Gauged Percentage For Lake St. Clair basin" ID="8fb737d2" urlPath="PRECIP/STC_Pct.nc">
+  <dataset name="Monthly Mean Gauged Percentage For Lake St. Clair basin" ID="e8dba95b" urlPath="PRECIP/e8dba95b.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -3887,7 +3887,7 @@
 
   </dataset>
   
-  <dataset name="Great Lakes (and St. Clair) Combined Evaporation" ID="edcb7b43" urlPath="PRECIP/GRT.nc">
+  <dataset name="Great Lakes (and St. Clair) Combined Evaporation" ID="08e69c6a" urlPath="PRECIP/08e69c6a.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -3925,7 +3925,7 @@
 
   </dataset>
   
-  <dataset name=" Lake St. Clair" ID="4dd638c2" urlPath="PRECIP/STC.nc">
+  <dataset name=" Lake St. Clair" ID="99788b8e" urlPath="PRECIP/99788b8e.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -3963,7 +3963,7 @@
 
   </dataset>
   
-  <dataset name=" Lake Michigan-Huron  (including Georgian Bay)" ID="cc2a64bf" urlPath="PRECIP/MHG.nc">
+  <dataset name=" Lake Michigan-Huron  (including Georgian Bay)" ID="ee67c05f" urlPath="PRECIP/ee67c05f.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -4001,7 +4001,7 @@
 
   </dataset>
   
-  <dataset name=" Lake Michigan" ID="1faf4362" urlPath="PRECIP/MIC.nc">
+  <dataset name=" Lake Michigan" ID="7c7a8c52" urlPath="PRECIP/7c7a8c52.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -4039,7 +4039,7 @@
 
   </dataset>
   
-  <dataset name="Georgian Bay" ID="1fd82d9b" urlPath="PRECIP/GEO.nc">
+  <dataset name="Georgian Bay" ID="8e4200cb" urlPath="PRECIP/8e4200cb.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -4077,7 +4077,7 @@
 
   </dataset>
   
-  <dataset name=" Lake Huron (without Georgian Bay)" ID="f4be6b1c" urlPath="PRECIP/HUR.nc">
+  <dataset name=" Lake Huron (without Georgian Bay)" ID="034729b1" urlPath="PRECIP/034729b1.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -4115,7 +4115,7 @@
 
   </dataset>
   
-  <dataset name=" Lake Superior" ID="77cd37bd" urlPath="PRECIP/SUP.nc">
+  <dataset name=" Lake Superior" ID="a2716557" urlPath="PRECIP/a2716557.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -4153,7 +4153,7 @@
 
   </dataset>
   
-  <dataset name=" Lake Huron (with Georgian Bay)" ID="187ea75a" urlPath="PRECIP/HGB.nc">
+  <dataset name=" Lake Huron (with Georgian Bay)" ID="d7515c1e" urlPath="PRECIP/d7515c1e.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -4191,7 +4191,7 @@
 
   </dataset>
   
-  <dataset name=" Lake Erie" ID="d564c1bb" urlPath="PRECIP/ERI.nc">
+  <dataset name=" Lake Erie" ID="cbedfe03" urlPath="PRECIP/cbedfe03.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -4229,7 +4229,7 @@
 
   </dataset>
   
-  <dataset name=" Lake Ontario" ID="1580e90c" urlPath="PRECIP/ONT.nc">
+  <dataset name=" Lake Ontario" ID="f37b47d3" urlPath="PRECIP/f37b47d3.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>

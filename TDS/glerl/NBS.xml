@@ -11,7 +11,7 @@
   </service>
 
   
-  <dataset name="Monthly runoff to LK ERIE from land surface expressed as millimeters over the lake surface" ID="cd0c7e70" urlPath="NBS/Run.nc">
+  <dataset name="Monthly runoff to LK ERIE from land surface expressed as millimeters over the lake surface" ID="2479aac8" urlPath="NBS/2479aac8.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -49,7 +49,7 @@
 
   </dataset>
   
-  <dataset name="Lake Huron (with Georgian Bay) Net Basin Supply (expressed as millimeters over lake surface)" ID="9b03554b" urlPath="NBS/NBS_comp_mm_LakePrc.nc">
+  <dataset name="Lake Huron (with Georgian Bay) Net Basin Supply (expressed as millimeters over lake surface)" ID="88044229" urlPath="NBS/88044229.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -87,7 +87,7 @@
 
   </dataset>
   
-  <dataset name="Lake Huron (with Georgian Bay) Net Basin Supply (expressed as cubic meters per second)" ID="a72fc70a" urlPath="NBS/NBS_comp_cms_LakePrc.nc">
+  <dataset name="Lake Huron (with Georgian Bay) Net Basin Supply (expressed as cubic meters per second)" ID="e50070b3" urlPath="NBS/e50070b3.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -125,7 +125,7 @@
 
   </dataset>
   
-  <dataset name="Lake Huron (with Georgian Bay) Net Basin Supply (expressed as millimeters over lake surface)" ID="9b03554b" urlPath="NBS/NBS_comp_mm_LandPrc.nc">
+  <dataset name="Lake Huron (with Georgian Bay) Net Basin Supply (expressed as millimeters over lake surface)" ID="9769522a" urlPath="NBS/9769522a.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -163,7 +163,7 @@
 
   </dataset>
   
-  <dataset name="Lake Huron (with Georgian Bay) Net Basin Supply (expressed as cubic meters per second)" ID="a72fc70a" urlPath="NBS/NBS_comp_cms_LandPrc.nc">
+  <dataset name="Lake Huron (with Georgian Bay) Net Basin Supply (expressed as cubic meters per second)" ID="193813fc" urlPath="NBS/193813fc.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -201,7 +201,7 @@
 
   </dataset>
   
-  <dataset name="Lake Huron (with Georgian Bay) Overlake Precipitation (millimeters)" ID="b67d1559" urlPath="NBS/PrcLk.nc">
+  <dataset name="Lake Huron (with Georgian Bay) Overlake Precipitation (millimeters)" ID="19b45b9a" urlPath="NBS/19b45b9a.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -239,7 +239,7 @@
 
   </dataset>
   
-  <dataset name="Lake Huron (with Georgian Bay) Overland Precipitation (millimeters)" ID="caf86dee" urlPath="NBS/PrcLd.nc">
+  <dataset name="Lake Huron (with Georgian Bay) Overland Precipitation (millimeters)" ID="c3a9465a" urlPath="NBS/c3a9465a.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -277,7 +277,7 @@
 
   </dataset>
   
-  <dataset name="Monthly runoff to Lake Huron (with Georgian Bay) from land surface expressed as millimeters over the lake surface" ID="6b33b6f7" urlPath="NBS/Run.nc">
+  <dataset name="Monthly runoff to Lake Huron (with Georgian Bay) from land surface expressed as millimeters over the lake surface" ID="8eacbfce" urlPath="NBS/8eacbfce.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -315,7 +315,7 @@
 
   </dataset>
   
-  <dataset name=" Lake Huron (with Georgian Bay) " ID="3729455d" urlPath="NBS/Evp.nc">
+  <dataset name=" Lake Huron (with Georgian Bay) " ID="cd9790b3" urlPath="NBS/cd9790b3.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -353,7 +353,7 @@
 
   </dataset>
   
-  <dataset name="Lake Michigan-Huron Net Basin Supply (expressed as millimeters over lake surface)" ID="0792727b" urlPath="NBS/NBS_comp_mm_LakePrc.nc">
+  <dataset name="Lake Michigan-Huron Net Basin Supply (expressed as millimeters over lake surface)" ID="2086fe27" urlPath="NBS/2086fe27.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -391,7 +391,7 @@
 
   </dataset>
   
-  <dataset name="Lake Michigan-Huron Net Basin Supply (expressed as cubic meters per second)" ID="62860b20" urlPath="NBS/NBS_comp_cms_LakePrc.nc">
+  <dataset name="Lake Michigan-Huron Net Basin Supply (expressed as cubic meters per second)" ID="929f2576" urlPath="NBS/929f2576.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -429,7 +429,7 @@
 
   </dataset>
   
-  <dataset name="Lake Michigan-Huron Net Basin Supply (expressed as millimeters over lake surface)" ID="0792727b" urlPath="NBS/NBS_comp_mm_LandPrc.nc">
+  <dataset name="Lake Michigan-Huron Net Basin Supply (expressed as millimeters over lake surface)" ID="033c97ae" urlPath="NBS/033c97ae.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -467,7 +467,7 @@
 
   </dataset>
   
-  <dataset name="Lake Michigan-Huron Net Basin Supply (expressed as cubic meters per second)" ID="62860b20" urlPath="NBS/NBS_comp_cms_LandPrc.nc">
+  <dataset name="Lake Michigan-Huron Net Basin Supply (expressed as cubic meters per second)" ID="f4f8f16c" urlPath="NBS/f4f8f16c.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -505,7 +505,7 @@
 
   </dataset>
   
-  <dataset name="Lake Michigan-Huron Overlake Precipitation (millimeters)" ID="0869d57e" urlPath="NBS/PrcLk.nc">
+  <dataset name="Lake Michigan-Huron Overlake Precipitation (millimeters)" ID="3cbf2a7a" urlPath="NBS/3cbf2a7a.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -543,7 +543,7 @@
 
   </dataset>
   
-  <dataset name="Lake Michigan-Huron Overland Precipitation (millimeters)" ID="9771367a" urlPath="NBS/PrcLd.nc">
+  <dataset name="Lake Michigan-Huron Overland Precipitation (millimeters)" ID="dde8c3bd" urlPath="NBS/dde8c3bd.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -581,7 +581,7 @@
 
   </dataset>
   
-  <dataset name="Monthly runoff to LK MICHIGAN-HURON from land surface expressed as millimeters over the lake surface" ID="349925fb" urlPath="NBS/Run.nc">
+  <dataset name="Monthly runoff to LK MICHIGAN-HURON from land surface expressed as millimeters over the lake surface" ID="7ffda833" urlPath="NBS/7ffda833.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -619,7 +619,7 @@
 
   </dataset>
   
-  <dataset name=" Lake MICHIGAN-HURON (and Georgian Bay)" ID="217bf4f4" urlPath="NBS/Evp.nc">
+  <dataset name=" Lake MICHIGAN-HURON (and Georgian Bay)" ID="ac76f02b" urlPath="NBS/ac76f02b.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -657,7 +657,7 @@
 
   </dataset>
   
-  <dataset name="Lake Michigan Net Basin Supply (expressed as millimeters over lake surface)" ID="379083fb" urlPath="NBS/NBS_comp_mm_LakePrc.nc">
+  <dataset name="Lake Michigan Net Basin Supply (expressed as millimeters over lake surface)" ID="c268b2f9" urlPath="NBS/c268b2f9.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -695,7 +695,7 @@
 
   </dataset>
   
-  <dataset name="Lake Michigan Net Basin Supply (expressed as cubic meters per second)" ID="c51a6e75" urlPath="NBS/NBS_comp_cms_LakePrc.nc">
+  <dataset name="Lake Michigan Net Basin Supply (expressed as cubic meters per second)" ID="0bf3f3f9" urlPath="NBS/0bf3f3f9.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -733,7 +733,7 @@
 
   </dataset>
   
-  <dataset name="Lake Michigan Net Basin Supply (expressed as millimeters over lake surface)" ID="379083fb" urlPath="NBS/NBS_comp_mm_LandPrc.nc">
+  <dataset name="Lake Michigan Net Basin Supply (expressed as millimeters over lake surface)" ID="fdd54815" urlPath="NBS/fdd54815.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -771,7 +771,7 @@
 
   </dataset>
   
-  <dataset name="Lake Michigan Net Basin Supply (expressed as cubic meters per second)" ID="c51a6e75" urlPath="NBS/NBS_comp_cms_LandPrc.nc">
+  <dataset name="Lake Michigan Net Basin Supply (expressed as cubic meters per second)" ID="0bc5d048" urlPath="NBS/0bc5d048.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -809,7 +809,7 @@
 
   </dataset>
   
-  <dataset name="Lake Michigan Overlake Precipitation (millimeters)" ID="c5d33dbc" urlPath="NBS/PrcLk.nc">
+  <dataset name="Lake Michigan Overlake Precipitation (millimeters)" ID="2de85cb9" urlPath="NBS/2de85cb9.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -847,7 +847,7 @@
 
   </dataset>
   
-  <dataset name="Lake Michigan Overland Precipitation (millimeters)" ID="bc4bb2be" urlPath="NBS/PrcLd.nc">
+  <dataset name="Lake Michigan Overland Precipitation (millimeters)" ID="d2ee51d1" urlPath="NBS/d2ee51d1.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -885,7 +885,7 @@
 
   </dataset>
   
-  <dataset name="Monthly runoff to Lake MICHIGAN from land surface expressed as millimeters over the lake surface" ID="abc924a9" urlPath="NBS/Run.nc">
+  <dataset name="Monthly runoff to Lake MICHIGAN from land surface expressed as millimeters over the lake surface" ID="77baf31b" urlPath="NBS/77baf31b.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -923,7 +923,7 @@
 
   </dataset>
   
-  <dataset name=" Lake MICHIGAN" ID="6650d8af" urlPath="NBS/Evp.nc">
+  <dataset name=" Lake MICHIGAN" ID="aa740045" urlPath="NBS/aa740045.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -961,7 +961,7 @@
 
   </dataset>
   
-  <dataset name="Lake Ontario Net Basin Supply (expressed as millimeters over lake surface)" ID="ae5b9a50" urlPath="NBS/NBS_comp_mm_LakePrc.nc">
+  <dataset name="Lake Ontario Net Basin Supply (expressed as millimeters over lake surface)" ID="dfd94406" urlPath="NBS/dfd94406.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -999,7 +999,7 @@
 
   </dataset>
   
-  <dataset name="Lake Ontario Net Basin Supply (expressed as cubic meters per second)" ID="bbf7fb91" urlPath="NBS/NBS_comp_cms_LakePrc.nc">
+  <dataset name="Lake Ontario Net Basin Supply (expressed as cubic meters per second)" ID="36bc8128" urlPath="NBS/36bc8128.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1037,7 +1037,7 @@
 
   </dataset>
   
-  <dataset name="Lake Ontario Net Basin Supply (expressed as millimeters over lake surface)" ID="ae5b9a50" urlPath="NBS/NBS_comp_mm_LandPrc.nc">
+  <dataset name="Lake Ontario Net Basin Supply (expressed as millimeters over lake surface)" ID="e040c89c" urlPath="NBS/e040c89c.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1075,7 +1075,7 @@
 
   </dataset>
   
-  <dataset name="Lake Ontario Net Basin Supply (expressed as cubic meters per second)" ID="bbf7fb91" urlPath="NBS/NBS_comp_cms_LandPrc.nc">
+  <dataset name="Lake Ontario Net Basin Supply (expressed as cubic meters per second)" ID="91328a9e" urlPath="NBS/91328a9e.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1113,7 +1113,7 @@
 
   </dataset>
   
-  <dataset name="Lake Ontario Overlake Precipitation (millimeters)" ID="4383cbe8" urlPath="NBS/PrcLk.nc">
+  <dataset name="Lake Ontario Overlake Precipitation (millimeters)" ID="d81a90e0" urlPath="NBS/d81a90e0.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1151,7 +1151,7 @@
 
   </dataset>
   
-  <dataset name="Lake Ontario Overland Precipitation (millimeters)" ID="c5349acf" urlPath="NBS/PrcLd.nc">
+  <dataset name="Lake Ontario Overland Precipitation (millimeters)" ID="3691d166" urlPath="NBS/3691d166.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1189,7 +1189,7 @@
 
   </dataset>
   
-  <dataset name="Monthly runoff to LK ONTARIO from land surface expressed as millimeters over the lake surface" ID="2f6520b8" urlPath="NBS/Run.nc">
+  <dataset name="Monthly runoff to LK ONTARIO from land surface expressed as millimeters over the lake surface" ID="ce875009" urlPath="NBS/ce875009.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1227,7 +1227,7 @@
 
   </dataset>
   
-  <dataset name=" Lake Ontario" ID="1580e90c" urlPath="NBS/Evp.nc">
+  <dataset name=" Lake Ontario" ID="1c24ea87" urlPath="NBS/1c24ea87.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1265,7 +1265,7 @@
 
   </dataset>
   
-  <dataset name="Lake St. Clair Net Basin Supply (expressed as millimeters over lake surface)" ID="27dc0dcf" urlPath="NBS/NBS_comp_mm_LakePrc.nc">
+  <dataset name="Lake St. Clair Net Basin Supply (expressed as millimeters over lake surface)" ID="432d39b8" urlPath="NBS/432d39b8.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1303,7 +1303,7 @@
 
   </dataset>
   
-  <dataset name="Lake St. Clair Net Basin Supply (expressed as cubic meters per second)" ID="7302ee73" urlPath="NBS/NBS_comp_cms_LakePrc.nc">
+  <dataset name="Lake St. Clair Net Basin Supply (expressed as cubic meters per second)" ID="dcd354af" urlPath="NBS/dcd354af.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1341,7 +1341,7 @@
 
   </dataset>
   
-  <dataset name="Lake St. Clair Net Basin Supply (expressed as millimeters over lake surface)" ID="27dc0dcf" urlPath="NBS/NBS_comp_mm_LandPrc.nc">
+  <dataset name="Lake St. Clair Net Basin Supply (expressed as millimeters over lake surface)" ID="9f847903" urlPath="NBS/9f847903.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1379,7 +1379,7 @@
 
   </dataset>
   
-  <dataset name="Lake St. Clair Net Basin Supply (expressed as cubic meters per second)" ID="7302ee73" urlPath="NBS/NBS_comp_cms_LandPrc.nc">
+  <dataset name="Lake St. Clair Net Basin Supply (expressed as cubic meters per second)" ID="c9dced27" urlPath="NBS/c9dced27.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1417,7 +1417,7 @@
 
   </dataset>
   
-  <dataset name="Lake St. Clair Overlake Precipitation (millimeters)" ID="8dd93b5f" urlPath="NBS/PrcLk.nc">
+  <dataset name="Lake St. Clair Overlake Precipitation (millimeters)" ID="a36618e2" urlPath="NBS/a36618e2.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1455,7 +1455,7 @@
 
   </dataset>
   
-  <dataset name="Lake St. Clair Overland Precipitation (millimeters)" ID="a4cafaa0" urlPath="NBS/PrcLd.nc">
+  <dataset name="Lake St. Clair Overland Precipitation (millimeters)" ID="c9da5543" urlPath="NBS/c9da5543.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1493,7 +1493,7 @@
 
   </dataset>
   
-  <dataset name="Monthly runoff to LK St. CLAIR from land surface expressed as millimeters over the lake surface" ID="36284764" urlPath="NBS/Run.nc">
+  <dataset name="Monthly runoff to LK St. CLAIR from land surface expressed as millimeters over the lake surface" ID="aaf622ef" urlPath="NBS/aaf622ef.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1531,7 +1531,7 @@
 
   </dataset>
   
-  <dataset name=" Lake St. Clair" ID="4dd638c2" urlPath="NBS/Evp.nc">
+  <dataset name=" Lake St. Clair" ID="55746a8e" urlPath="NBS/55746a8e.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1569,7 +1569,7 @@
 
   </dataset>
   
-  <dataset name="Lake Superior Net Basin Supply (expressed as millimeters over lake surface)" ID="ba96873b" urlPath="NBS/NBS_comp_mm_LakePrc.nc">
+  <dataset name="Lake Superior Net Basin Supply (expressed as millimeters over lake surface)" ID="13d7bcf5" urlPath="NBS/13d7bcf5.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1607,7 +1607,7 @@
 
   </dataset>
   
-  <dataset name="Lake Superior Net Basin Supply (expressed as cubic meters per second)" ID="33fdb3f5" urlPath="NBS/NBS_comp_cms_LakePrc.nc">
+  <dataset name="Lake Superior Net Basin Supply (expressed as cubic meters per second)" ID="ad6ffc80" urlPath="NBS/ad6ffc80.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1645,7 +1645,7 @@
 
   </dataset>
   
-  <dataset name="Lake Superior Net Basin Supply (expressed as millimeters over lake surface)" ID="ba96873b" urlPath="NBS/NBS_comp_mm_LandPrc.nc">
+  <dataset name="Lake Superior Net Basin Supply (expressed as millimeters over lake surface)" ID="7094ed3a" urlPath="NBS/7094ed3a.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1683,7 +1683,7 @@
 
   </dataset>
   
-  <dataset name="Lake Superior Net Basin Supply (expressed as cubic meters per second)" ID="33fdb3f5" urlPath="NBS/NBS_comp_cms_LandPrc.nc">
+  <dataset name="Lake Superior Net Basin Supply (expressed as cubic meters per second)" ID="5c0841e4" urlPath="NBS/5c0841e4.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1721,7 +1721,7 @@
 
   </dataset>
   
-  <dataset name="Lake Superior Overlake Precipitation (millimeters)" ID="1d1b58eb" urlPath="NBS/PrcLk.nc">
+  <dataset name="Lake Superior Overlake Precipitation (millimeters)" ID="37d8fb18" urlPath="NBS/37d8fb18.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1759,7 +1759,7 @@
 
   </dataset>
   
-  <dataset name="Lake Superior Overland Precipitation (millimeters)" ID="5d6957d5" urlPath="NBS/PrcLd.nc">
+  <dataset name="Lake Superior Overland Precipitation (millimeters)" ID="a593eb17" urlPath="NBS/a593eb17.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1797,7 +1797,7 @@
 
   </dataset>
   
-  <dataset name="Monthly runoff to LK SUPERIOR from land surface expressed as millimeters over the lake surface" ID="ed2c9a51" urlPath="NBS/Run.nc">
+  <dataset name="Monthly runoff to LK SUPERIOR from land surface expressed as millimeters over the lake surface" ID="89b4da02" urlPath="NBS/89b4da02.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1835,7 +1835,7 @@
 
   </dataset>
   
-  <dataset name=" Lake SUPERIOR" ID="a75deb89" urlPath="NBS/Evp.nc">
+  <dataset name=" Lake SUPERIOR" ID="0956290a" urlPath="NBS/0956290a.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
