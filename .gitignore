@@ -3,3 +3,4 @@
 pyiso/pyiso/iso_tmp/*
 *.log
 *.out
+*.swp

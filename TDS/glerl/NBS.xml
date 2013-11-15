@@ -11,7 +11,7 @@
   </service>
 
   
-  <dataset name="Monthly runoff to LK ERIE from land surface expressed as millimeters over the lake surface" ID="NBS_RUN.NC" urlPath="NBS/Run.nc">
+  <dataset name="Monthly runoff to LK ERIE from land surface expressed as millimeters over the lake surface" ID="cd0c7e70" urlPath="NBS/Run.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -38,18 +38,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="41.1452705" />
+      <attribute name="geospatial_lat_max" type="double" value="43.1532265" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-83.567372" />
+      <attribute name="geospatial_lon_max" type="double" value="-78.645816" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake Huron (with Georgian Bay) Net Basin Supply (expressed as millimeters over lake surface)" ID="NBS_NBS_COMP_MM_LAKEPRC.NC" urlPath="NBS/NBS_comp_mm_LakePrc.nc">
+  <dataset name="Lake Huron (with Georgian Bay) Net Basin Supply (expressed as millimeters over lake surface)" ID="9b03554b" urlPath="NBS/NBS_comp_mm_LakePrc.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -76,18 +76,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="43.030886" />
+      <attribute name="geospatial_lat_max" type="double" value="45.925314" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-84.530071" />
+      <attribute name="geospatial_lon_max" type="double" value="-80.775424" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake Huron (with Georgian Bay) Net Basin Supply (expressed as cubic meters per second)" ID="NBS_NBS_COMP_CMS_LAKEPRC.NC" urlPath="NBS/NBS_comp_cms_LakePrc.nc">
+  <dataset name="Lake Huron (with Georgian Bay) Net Basin Supply (expressed as cubic meters per second)" ID="a72fc70a" urlPath="NBS/NBS_comp_cms_LakePrc.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -114,18 +114,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="43.030886" />
+      <attribute name="geospatial_lat_max" type="double" value="45.925314" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-84.530071" />
+      <attribute name="geospatial_lon_max" type="double" value="-80.775424" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake Huron (with Georgian Bay) Net Basin Supply (expressed as millimeters over lake surface)" ID="NBS_NBS_COMP_MM_LANDPRC.NC" urlPath="NBS/NBS_comp_mm_LandPrc.nc">
+  <dataset name="Lake Huron (with Georgian Bay) Net Basin Supply (expressed as millimeters over lake surface)" ID="9b03554b" urlPath="NBS/NBS_comp_mm_LandPrc.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -152,18 +152,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="43.030886" />
+      <attribute name="geospatial_lat_max" type="double" value="45.925314" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-84.530071" />
+      <attribute name="geospatial_lon_max" type="double" value="-80.775424" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake Huron (with Georgian Bay) Net Basin Supply (expressed as cubic meters per second)" ID="NBS_NBS_COMP_CMS_LANDPRC.NC" urlPath="NBS/NBS_comp_cms_LandPrc.nc">
+  <dataset name="Lake Huron (with Georgian Bay) Net Basin Supply (expressed as cubic meters per second)" ID="a72fc70a" urlPath="NBS/NBS_comp_cms_LandPrc.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -190,18 +190,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="43.030886" />
+      <attribute name="geospatial_lat_max" type="double" value="45.925314" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-84.530071" />
+      <attribute name="geospatial_lon_max" type="double" value="-80.775424" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake Huron (with Georgian Bay) Overlake Precipitation (millimeters)" ID="NBS_PRCLK.NC" urlPath="NBS/PrcLk.nc">
+  <dataset name="Lake Huron (with Georgian Bay) Overlake Precipitation (millimeters)" ID="b67d1559" urlPath="NBS/PrcLk.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -228,18 +228,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="43.030886" />
+      <attribute name="geospatial_lat_max" type="double" value="45.925314" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-84.530071" />
+      <attribute name="geospatial_lon_max" type="double" value="-80.775424" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake Huron (with Georgian Bay) Overland Precipitation (millimeters)" ID="NBS_PRCLD.NC" urlPath="NBS/PrcLd.nc">
+  <dataset name="Lake Huron (with Georgian Bay) Overland Precipitation (millimeters)" ID="caf86dee" urlPath="NBS/PrcLd.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -266,18 +266,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="43.030886" />
+      <attribute name="geospatial_lat_max" type="double" value="45.925314" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-84.530071" />
+      <attribute name="geospatial_lon_max" type="double" value="-80.775424" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Monthly runoff to Lake Huron (with Georgian Bay) from land surface expressed as millimeters over the lake surface" ID="NBS_RUN.NC" urlPath="NBS/Run.nc">
+  <dataset name="Monthly runoff to Lake Huron (with Georgian Bay) from land surface expressed as millimeters over the lake surface" ID="6b33b6f7" urlPath="NBS/Run.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -304,18 +304,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="43.030886" />
+      <attribute name="geospatial_lat_max" type="double" value="45.925314" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-84.530071" />
+      <attribute name="geospatial_lon_max" type="double" value="-80.775424" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name=" Lake Huron (with Georgian Bay) " ID="NBS_EVP.NC" urlPath="NBS/Evp.nc">
+  <dataset name=" Lake Huron (with Georgian Bay) " ID="3729455d" urlPath="NBS/Evp.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -342,18 +342,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="43.030886" />
+      <attribute name="geospatial_lat_max" type="double" value="45.925314" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-84.530071" />
+      <attribute name="geospatial_lon_max" type="double" value="-80.775424" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake Michigan-Huron Net Basin Supply (expressed as millimeters over lake surface)" ID="NBS_NBS_COMP_MM_LAKEPRC.NC" urlPath="NBS/NBS_comp_mm_LakePrc.nc">
+  <dataset name="Lake Michigan-Huron Net Basin Supply (expressed as millimeters over lake surface)" ID="0792727b" urlPath="NBS/NBS_comp_mm_LakePrc.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -380,18 +380,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake Michigan-Huron Net Basin Supply (expressed as cubic meters per second)" ID="NBS_NBS_COMP_CMS_LAKEPRC.NC" urlPath="NBS/NBS_comp_cms_LakePrc.nc">
+  <dataset name="Lake Michigan-Huron Net Basin Supply (expressed as cubic meters per second)" ID="62860b20" urlPath="NBS/NBS_comp_cms_LakePrc.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -418,18 +418,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake Michigan-Huron Net Basin Supply (expressed as millimeters over lake surface)" ID="NBS_NBS_COMP_MM_LANDPRC.NC" urlPath="NBS/NBS_comp_mm_LandPrc.nc">
+  <dataset name="Lake Michigan-Huron Net Basin Supply (expressed as millimeters over lake surface)" ID="0792727b" urlPath="NBS/NBS_comp_mm_LandPrc.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -456,18 +456,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake Michigan-Huron Net Basin Supply (expressed as cubic meters per second)" ID="NBS_NBS_COMP_CMS_LANDPRC.NC" urlPath="NBS/NBS_comp_cms_LandPrc.nc">
+  <dataset name="Lake Michigan-Huron Net Basin Supply (expressed as cubic meters per second)" ID="62860b20" urlPath="NBS/NBS_comp_cms_LandPrc.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -494,18 +494,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake Michigan-Huron Overlake Precipitation (millimeters)" ID="NBS_PRCLK.NC" urlPath="NBS/PrcLk.nc">
+  <dataset name="Lake Michigan-Huron Overlake Precipitation (millimeters)" ID="0869d57e" urlPath="NBS/PrcLk.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -532,18 +532,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake Michigan-Huron Overland Precipitation (millimeters)" ID="NBS_PRCLD.NC" urlPath="NBS/PrcLd.nc">
+  <dataset name="Lake Michigan-Huron Overland Precipitation (millimeters)" ID="9771367a" urlPath="NBS/PrcLd.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -570,18 +570,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Monthly runoff to LK MICHIGAN-HURON from land surface expressed as millimeters over the lake surface" ID="NBS_RUN.NC" urlPath="NBS/Run.nc">
+  <dataset name="Monthly runoff to LK MICHIGAN-HURON from land surface expressed as millimeters over the lake surface" ID="349925fb" urlPath="NBS/Run.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -608,18 +608,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name=" Lake MICHIGAN-HURON (and Georgian Bay)" ID="NBS_EVP.NC" urlPath="NBS/Evp.nc">
+  <dataset name=" Lake MICHIGAN-HURON (and Georgian Bay)" ID="217bf4f4" urlPath="NBS/Evp.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -646,18 +646,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake Michigan Net Basin Supply (expressed as millimeters over lake surface)" ID="NBS_NBS_COMP_MM_LAKEPRC.NC" urlPath="NBS/NBS_comp_mm_LakePrc.nc">
+  <dataset name="Lake Michigan Net Basin Supply (expressed as millimeters over lake surface)" ID="379083fb" urlPath="NBS/NBS_comp_mm_LakePrc.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -684,18 +684,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="41.62" />
+      <attribute name="geospatial_lat_max" type="double" value="46.03" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-88.27" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.77" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake Michigan Net Basin Supply (expressed as cubic meters per second)" ID="NBS_NBS_COMP_CMS_LAKEPRC.NC" urlPath="NBS/NBS_comp_cms_LakePrc.nc">
+  <dataset name="Lake Michigan Net Basin Supply (expressed as cubic meters per second)" ID="c51a6e75" urlPath="NBS/NBS_comp_cms_LakePrc.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -722,18 +722,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="41.62" />
+      <attribute name="geospatial_lat_max" type="double" value="46.03" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-88.27" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.77" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake Michigan Net Basin Supply (expressed as millimeters over lake surface)" ID="NBS_NBS_COMP_MM_LANDPRC.NC" urlPath="NBS/NBS_comp_mm_LandPrc.nc">
+  <dataset name="Lake Michigan Net Basin Supply (expressed as millimeters over lake surface)" ID="379083fb" urlPath="NBS/NBS_comp_mm_LandPrc.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -760,18 +760,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="41.62" />
+      <attribute name="geospatial_lat_max" type="double" value="46.03" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-88.27" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.77" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake Michigan Net Basin Supply (expressed as cubic meters per second)" ID="NBS_NBS_COMP_CMS_LANDPRC.NC" urlPath="NBS/NBS_comp_cms_LandPrc.nc">
+  <dataset name="Lake Michigan Net Basin Supply (expressed as cubic meters per second)" ID="c51a6e75" urlPath="NBS/NBS_comp_cms_LandPrc.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -798,18 +798,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="41.62" />
+      <attribute name="geospatial_lat_max" type="double" value="46.03" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-88.27" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.77" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake Michigan Overlake Precipitation (millimeters)" ID="NBS_PRCLK.NC" urlPath="NBS/PrcLk.nc">
+  <dataset name="Lake Michigan Overlake Precipitation (millimeters)" ID="c5d33dbc" urlPath="NBS/PrcLk.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -836,18 +836,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="41.62" />
+      <attribute name="geospatial_lat_max" type="double" value="46.03" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-88.27" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.77" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake Michigan Overland Precipitation (millimeters)" ID="NBS_PRCLD.NC" urlPath="NBS/PrcLd.nc">
+  <dataset name="Lake Michigan Overland Precipitation (millimeters)" ID="bc4bb2be" urlPath="NBS/PrcLd.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -874,18 +874,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="41.62" />
+      <attribute name="geospatial_lat_max" type="double" value="46.03" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-88.27" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.77" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Monthly runoff to Lake MICHIGAN from land surface expressed as millimeters over the lake surface" ID="NBS_RUN.NC" urlPath="NBS/Run.nc">
+  <dataset name="Monthly runoff to Lake MICHIGAN from land surface expressed as millimeters over the lake surface" ID="abc924a9" urlPath="NBS/Run.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -912,18 +912,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="41.62" />
+      <attribute name="geospatial_lat_max" type="double" value="46.03" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-88.27" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.77" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name=" Lake MICHIGAN" ID="NBS_EVP.NC" urlPath="NBS/Evp.nc">
+  <dataset name=" Lake MICHIGAN" ID="6650d8af" urlPath="NBS/Evp.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -950,18 +950,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="41.62" />
+      <attribute name="geospatial_lat_max" type="double" value="46.03" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-88.27" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.77" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake Ontario Net Basin Supply (expressed as millimeters over lake surface)" ID="NBS_NBS_COMP_MM_LAKEPRC.NC" urlPath="NBS/NBS_comp_mm_LakePrc.nc">
+  <dataset name="Lake Ontario Net Basin Supply (expressed as millimeters over lake surface)" ID="ae5b9a50" urlPath="NBS/NBS_comp_mm_LakePrc.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -988,18 +988,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="43.12" />
+      <attribute name="geospatial_lat_max" type="double" value="44.33" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-79.8" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.95" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake Ontario Net Basin Supply (expressed as cubic meters per second)" ID="NBS_NBS_COMP_CMS_LAKEPRC.NC" urlPath="NBS/NBS_comp_cms_LakePrc.nc">
+  <dataset name="Lake Ontario Net Basin Supply (expressed as cubic meters per second)" ID="bbf7fb91" urlPath="NBS/NBS_comp_cms_LakePrc.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1026,18 +1026,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="43.12" />
+      <attribute name="geospatial_lat_max" type="double" value="44.33" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-79.8" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.95" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake Ontario Net Basin Supply (expressed as millimeters over lake surface)" ID="NBS_NBS_COMP_MM_LANDPRC.NC" urlPath="NBS/NBS_comp_mm_LandPrc.nc">
+  <dataset name="Lake Ontario Net Basin Supply (expressed as millimeters over lake surface)" ID="ae5b9a50" urlPath="NBS/NBS_comp_mm_LandPrc.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1064,18 +1064,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="43.12" />
+      <attribute name="geospatial_lat_max" type="double" value="44.33" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-79.8" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.95" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake Ontario Net Basin Supply (expressed as cubic meters per second)" ID="NBS_NBS_COMP_CMS_LANDPRC.NC" urlPath="NBS/NBS_comp_cms_LandPrc.nc">
+  <dataset name="Lake Ontario Net Basin Supply (expressed as cubic meters per second)" ID="bbf7fb91" urlPath="NBS/NBS_comp_cms_LandPrc.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1102,18 +1102,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="43.12" />
+      <attribute name="geospatial_lat_max" type="double" value="44.33" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-79.8" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.95" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake Ontario Overlake Precipitation (millimeters)" ID="NBS_PRCLK.NC" urlPath="NBS/PrcLk.nc">
+  <dataset name="Lake Ontario Overlake Precipitation (millimeters)" ID="4383cbe8" urlPath="NBS/PrcLk.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1140,18 +1140,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="43.12" />
+      <attribute name="geospatial_lat_max" type="double" value="44.33" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-79.8" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.95" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake Ontario Overland Precipitation (millimeters)" ID="NBS_PRCLD.NC" urlPath="NBS/PrcLd.nc">
+  <dataset name="Lake Ontario Overland Precipitation (millimeters)" ID="c5349acf" urlPath="NBS/PrcLd.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1178,18 +1178,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="43.12" />
+      <attribute name="geospatial_lat_max" type="double" value="44.33" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-79.8" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.95" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Monthly runoff to LK ONTARIO from land surface expressed as millimeters over the lake surface" ID="NBS_RUN.NC" urlPath="NBS/Run.nc">
+  <dataset name="Monthly runoff to LK ONTARIO from land surface expressed as millimeters over the lake surface" ID="2f6520b8" urlPath="NBS/Run.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1216,18 +1216,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="43.12" />
+      <attribute name="geospatial_lat_max" type="double" value="44.33" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-79.8" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.95" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name=" Lake Ontario" ID="NBS_EVP.NC" urlPath="NBS/Evp.nc">
+  <dataset name=" Lake Ontario" ID="1580e90c" urlPath="NBS/Evp.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1254,18 +1254,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="43.12" />
+      <attribute name="geospatial_lat_max" type="double" value="44.33" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-79.8" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.95" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake St. Clair Net Basin Supply (expressed as millimeters over lake surface)" ID="NBS_NBS_COMP_MM_LAKEPRC.NC" urlPath="NBS/NBS_comp_mm_LakePrc.nc">
+  <dataset name="Lake St. Clair Net Basin Supply (expressed as millimeters over lake surface)" ID="27dc0dcf" urlPath="NBS/NBS_comp_mm_LakePrc.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1292,18 +1292,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="42.3" />
+      <attribute name="geospatial_lat_max" type="double" value="42.68" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-83.0" />
+      <attribute name="geospatial_lon_max" type="double" value="-82.43" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake St. Clair Net Basin Supply (expressed as cubic meters per second)" ID="NBS_NBS_COMP_CMS_LAKEPRC.NC" urlPath="NBS/NBS_comp_cms_LakePrc.nc">
+  <dataset name="Lake St. Clair Net Basin Supply (expressed as cubic meters per second)" ID="7302ee73" urlPath="NBS/NBS_comp_cms_LakePrc.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1330,18 +1330,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="42.3" />
+      <attribute name="geospatial_lat_max" type="double" value="42.68" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-83.0" />
+      <attribute name="geospatial_lon_max" type="double" value="-82.43" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake St. Clair Net Basin Supply (expressed as millimeters over lake surface)" ID="NBS_NBS_COMP_MM_LANDPRC.NC" urlPath="NBS/NBS_comp_mm_LandPrc.nc">
+  <dataset name="Lake St. Clair Net Basin Supply (expressed as millimeters over lake surface)" ID="27dc0dcf" urlPath="NBS/NBS_comp_mm_LandPrc.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1368,18 +1368,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="42.3" />
+      <attribute name="geospatial_lat_max" type="double" value="42.68" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-83.0" />
+      <attribute name="geospatial_lon_max" type="double" value="-82.43" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake St. Clair Net Basin Supply (expressed as cubic meters per second)" ID="NBS_NBS_COMP_CMS_LANDPRC.NC" urlPath="NBS/NBS_comp_cms_LandPrc.nc">
+  <dataset name="Lake St. Clair Net Basin Supply (expressed as cubic meters per second)" ID="7302ee73" urlPath="NBS/NBS_comp_cms_LandPrc.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1406,18 +1406,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="42.3" />
+      <attribute name="geospatial_lat_max" type="double" value="42.68" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-83.0" />
+      <attribute name="geospatial_lon_max" type="double" value="-82.43" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake St. Clair Overlake Precipitation (millimeters)" ID="NBS_PRCLK.NC" urlPath="NBS/PrcLk.nc">
+  <dataset name="Lake St. Clair Overlake Precipitation (millimeters)" ID="8dd93b5f" urlPath="NBS/PrcLk.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1444,18 +1444,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="42.3" />
+      <attribute name="geospatial_lat_max" type="double" value="42.68" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-83.0" />
+      <attribute name="geospatial_lon_max" type="double" value="-82.43" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake St. Clair Overland Precipitation (millimeters)" ID="NBS_PRCLD.NC" urlPath="NBS/PrcLd.nc">
+  <dataset name="Lake St. Clair Overland Precipitation (millimeters)" ID="a4cafaa0" urlPath="NBS/PrcLd.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1482,18 +1482,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="42.3" />
+      <attribute name="geospatial_lat_max" type="double" value="42.68" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-83.0" />
+      <attribute name="geospatial_lon_max" type="double" value="-82.43" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Monthly runoff to LK St. CLAIR from land surface expressed as millimeters over the lake surface" ID="NBS_RUN.NC" urlPath="NBS/Run.nc">
+  <dataset name="Monthly runoff to LK St. CLAIR from land surface expressed as millimeters over the lake surface" ID="36284764" urlPath="NBS/Run.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1520,18 +1520,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="42.3" />
+      <attribute name="geospatial_lat_max" type="double" value="42.68" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-83.0" />
+      <attribute name="geospatial_lon_max" type="double" value="-82.43" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name=" Lake St. Clair" ID="NBS_EVP.NC" urlPath="NBS/Evp.nc">
+  <dataset name=" Lake St. Clair" ID="4dd638c2" urlPath="NBS/Evp.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1558,18 +1558,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="42.3" />
+      <attribute name="geospatial_lat_max" type="double" value="42.68" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-83.0" />
+      <attribute name="geospatial_lon_max" type="double" value="-82.43" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake Superior Net Basin Supply (expressed as millimeters over lake surface)" ID="NBS_NBS_COMP_MM_LAKEPRC.NC" urlPath="NBS/NBS_comp_mm_LakePrc.nc">
+  <dataset name="Lake Superior Net Basin Supply (expressed as millimeters over lake surface)" ID="ba96873b" urlPath="NBS/NBS_comp_mm_LakePrc.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1596,18 +1596,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="46.425095" />
+      <attribute name="geospatial_lat_max" type="double" value="48.723861" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-92.177277" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.594911" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake Superior Net Basin Supply (expressed as cubic meters per second)" ID="NBS_NBS_COMP_CMS_LAKEPRC.NC" urlPath="NBS/NBS_comp_cms_LakePrc.nc">
+  <dataset name="Lake Superior Net Basin Supply (expressed as cubic meters per second)" ID="33fdb3f5" urlPath="NBS/NBS_comp_cms_LakePrc.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1634,18 +1634,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="46.425095" />
+      <attribute name="geospatial_lat_max" type="double" value="48.723861" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-92.177277" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.594911" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake Superior Net Basin Supply (expressed as millimeters over lake surface)" ID="NBS_NBS_COMP_MM_LANDPRC.NC" urlPath="NBS/NBS_comp_mm_LandPrc.nc">
+  <dataset name="Lake Superior Net Basin Supply (expressed as millimeters over lake surface)" ID="ba96873b" urlPath="NBS/NBS_comp_mm_LandPrc.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1672,18 +1672,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="46.425095" />
+      <attribute name="geospatial_lat_max" type="double" value="48.723861" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-92.177277" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.594911" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake Superior Net Basin Supply (expressed as cubic meters per second)" ID="NBS_NBS_COMP_CMS_LANDPRC.NC" urlPath="NBS/NBS_comp_cms_LandPrc.nc">
+  <dataset name="Lake Superior Net Basin Supply (expressed as cubic meters per second)" ID="33fdb3f5" urlPath="NBS/NBS_comp_cms_LandPrc.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1710,18 +1710,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="46.425095" />
+      <attribute name="geospatial_lat_max" type="double" value="48.723861" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-92.177277" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.594911" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake Superior Overlake Precipitation (millimeters)" ID="NBS_PRCLK.NC" urlPath="NBS/PrcLk.nc">
+  <dataset name="Lake Superior Overlake Precipitation (millimeters)" ID="1d1b58eb" urlPath="NBS/PrcLk.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1748,18 +1748,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="46.425095" />
+      <attribute name="geospatial_lat_max" type="double" value="48.723861" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-92.177277" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.594911" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Lake Superior Overland Precipitation (millimeters)" ID="NBS_PRCLD.NC" urlPath="NBS/PrcLd.nc">
+  <dataset name="Lake Superior Overland Precipitation (millimeters)" ID="5d6957d5" urlPath="NBS/PrcLd.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1786,18 +1786,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="46.425095" />
+      <attribute name="geospatial_lat_max" type="double" value="48.723861" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-92.177277" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.594911" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name="Monthly runoff to LK SUPERIOR from land surface expressed as millimeters over the lake surface" ID="NBS_RUN.NC" urlPath="NBS/Run.nc">
+  <dataset name="Monthly runoff to LK SUPERIOR from land surface expressed as millimeters over the lake surface" ID="ed2c9a51" urlPath="NBS/Run.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1824,18 +1824,18 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="46.425095" />
+      <attribute name="geospatial_lat_max" type="double" value="48.723861" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-92.177277" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.594911" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
   </dataset>
   
-  <dataset name=" Lake SUPERIOR" ID="NBS_EVP.NC" urlPath="NBS/Evp.nc">
+  <dataset name=" Lake SUPERIOR" ID="a75deb89" urlPath="NBS/Evp.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
@@ -1862,12 +1862,12 @@
       <attribute name="geospatial_vertical_positive" type="String" value="up" />
 
 
-      <attribute name="geospatial_lat_min" type="double" value="0.0" />
-      <attribute name="geospatial_lat_max" type="double" value="0.0" />
+      <attribute name="geospatial_lat_min" type="double" value="46.425095" />
+      <attribute name="geospatial_lat_max" type="double" value="48.723861" />
       <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
       
-      <attribute name="geospatial_lon_min" type="double" value="0.0" />
-      <attribute name="geospatial_lon_max" type="double" value="0.0" />
+      <attribute name="geospatial_lon_min" type="double" value="-92.177277" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.594911" />
       <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
     </netcdf>
 
