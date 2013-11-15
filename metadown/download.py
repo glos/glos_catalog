@@ -28,6 +28,21 @@ def main(base_download_path):
     download_path = os.path.join(base_download_path, "Satellite")
     XmlDownloader.run(isos, download_path)
 
+    # MTRI CDOM, DOC and SM Aggregates
+    selects = [".*CDOM-Agg"]
+    isos = ThreddsCollector("http://tds.glos.us/thredds/mtri/cdom.html", selects=selects).run()
+    download_path = os.path.join(base_download_path, "Satellite")
+    XmlDownloader.run(isos, download_path)
+    selects = [".*DOC-Agg"]
+    isos = ThreddsCollector("http://tds.glos.us/thredds/mtri/doc.html", selects=selects).run()
+    download_path = os.path.join(base_download_path, "Satellite")
+    XmlDownloader.run(isos, download_path)
+    selects = [".*SM-Agg"]
+    isos = ThreddsCollector("http://tds.glos.us/thredds/mtri/sm.html", selects=selects).run()
+    download_path = os.path.join(base_download_path, "Satellite")
+    XmlDownloader.run(isos, download_path)
+
+
     # We only want the all year best selects
     selects = [".*2D_best.*", ".*3D_best.*", ".*2D_-_All_Years_best.*", ".*3D_-_All_Years_best.*"]
     isos = ThreddsCollector("http://tds.glos.us/thredds/glcfs/glcfs.html", selects=selects).run()
