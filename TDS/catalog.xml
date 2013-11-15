@@ -17,7 +17,15 @@
     <catalogRef xlink:title="SLRFVM - Upper St. Lawrence River (FVCOM)" xlink:href="slrfvm/slrfvm.xml" name=""/>
     <catalogRef xlink:title="HECWFS - Huron to Erie Connecting Waterways Forecasting System (FVCOM)" xlink:href="hecwfs/hecwfs.xml" name=""/>
   </dataset>
+
+  <dataset name="Hydrologic Datasets">
+    <catalogRef xlink:title="GLERL - Water Surface Temperatures" xlink:href="glerl/watertemps.xml" name=""/>
+  </dataset>
   
+  <dataset name="RANGER3">
+    <catalogRef xlink:title="Ranger3" xlink:href="ranger3.xml" name=""/>
+  </dataset>
+
   <dataset name="Other">
     <catalogRef xlink:title="Bathymetry - NOAA Coastal Relief (3 arc sec)" xlink:href="bathy.xml" name=""/>
     <catalogRef xlink:title="CF - Discrete Sampling Geometry Examples" xlink:href="cf_feature_types.xml" name=""/>
