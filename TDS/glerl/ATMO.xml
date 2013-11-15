@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog name="ATMO"
+        xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <service name="agg" base="" serviceType="compound">
+    <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/" />
+    <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+    <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+    <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+  </service>
+
+  
+  <dataset name="Lake St. Clair modeled water surface temperatures (Celsius)" ID="381d7cca" urlPath="ATMO/STC.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/watertemps/STC.nc">
+      <attribute name="title" value="Lake St. Clair modeled water surface temperatures (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="42.3" />
+      <attribute name="geospatial_lat_max" type="double" value="42.68" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-83.0" />
+      <attribute name="geospatial_lon_max" type="double" value="-82.43" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Huron (including Georgian Bay) modeled water surface temperatures (Celsius)" ID="d2150575" urlPath="ATMO/HGB.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/watertemps/HGB.nc">
+      <attribute name="title" value="Lake Huron (including Georgian Bay) modeled water surface temperatures (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="43.030886" />
+      <attribute name="geospatial_lat_max" type="double" value="45.925314" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-84.530071" />
+      <attribute name="geospatial_lon_max" type="double" value="-80.775424" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Michigan modeled water surface temperatures (Celsius)" ID="96e52b16" urlPath="ATMO/MIC.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/watertemps/MIC.nc">
+      <attribute name="title" value="Lake Michigan modeled water surface temperatures (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.62" />
+      <attribute name="geospatial_lat_max" type="double" value="46.03" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-88.27" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.77" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Huron (without Georgian Bay) modeled water surface temperatures (Celsius)" ID="d7101758" urlPath="ATMO/HUR.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/watertemps/HUR.nc">
+      <attribute name="title" value="Lake Huron (without Georgian Bay) modeled water surface temperatures (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Superior modeled water surface temperatures (Celsius)" ID="b4d14b6d" urlPath="ATMO/SUP.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/watertemps/SUP.nc">
+      <attribute name="title" value="Lake Superior modeled water surface temperatures (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="46.425095" />
+      <attribute name="geospatial_lat_max" type="double" value="48.723861" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.177277" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.594911" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Georgian Bay modeled water surface temperatures (Celsius)" ID="e10d1d1f" urlPath="ATMO/GEO.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/watertemps/GEO.nc">
+      <attribute name="title" value="Georgian Bay modeled water surface temperatures (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Erie modeled water surface temperatures (Celsius)" ID="ef2422bb" urlPath="ATMO/ERI.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/watertemps/ERI.nc">
+      <attribute name="title" value="Lake Erie modeled water surface temperatures (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.1452705" />
+      <attribute name="geospatial_lat_max" type="double" value="43.1532265" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-83.567372" />
+      <attribute name="geospatial_lon_max" type="double" value="-78.645816" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Ontario modeled water surface temperatures (Celsius)" ID="0bc08bab" urlPath="ATMO/ONT.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/watertemps/ONT.nc">
+      <attribute name="title" value="Lake Ontario modeled water surface temperatures (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="43.12" />
+      <attribute name="geospatial_lat_max" type="double" value="44.33" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-79.8" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.95" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Great Lakes (and St. Clair) Combined WindSpeed" ID="f3b03009" urlPath="ATMO/GRT.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/windspeed/GRT.nc">
+      <attribute name="title" value="Great Lakes (and St. Clair) Combined WindSpeed" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name=" Lake St. Clair" ID="4dd638c2" urlPath="ATMO/STC.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/windspeed/STC.nc">
+      <attribute name="title" value=" Lake St. Clair" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="42.3" />
+      <attribute name="geospatial_lat_max" type="double" value="42.68" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-83.0" />
+      <attribute name="geospatial_lon_max" type="double" value="-82.43" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name=" Lake Michigan-Huron  (including Georgian Bay)" ID="cc2a64bf" urlPath="ATMO/MHG.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/windspeed/MHG.nc">
+      <attribute name="title" value=" Lake Michigan-Huron  (including Georgian Bay)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.62" />
+      <attribute name="geospatial_lat_max" type="double" value="46.03" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-88.27" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.77" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name=" Lake Michigan" ID="1faf4362" urlPath="ATMO/MIC.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/windspeed/MIC.nc">
+      <attribute name="title" value=" Lake Michigan" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.62" />
+      <attribute name="geospatial_lat_max" type="double" value="46.03" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-88.27" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.77" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Georgian Bay" ID="1fd82d9b" urlPath="ATMO/GEO.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/windspeed/GEO.nc">
+      <attribute name="title" value="Georgian Bay" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name=" Lake Huron (without Georgian Bay)" ID="f4be6b1c" urlPath="ATMO/HUR.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/windspeed/HUR.nc">
+      <attribute name="title" value=" Lake Huron (without Georgian Bay)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name=" Lake Superior" ID="77cd37bd" urlPath="ATMO/SUP.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/windspeed/SUP.nc">
+      <attribute name="title" value=" Lake Superior" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="46.425095" />
+      <attribute name="geospatial_lat_max" type="double" value="48.723861" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.177277" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.594911" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name=" Lake Huron (with Georgian Bay)" ID="187ea75a" urlPath="ATMO/HGB.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/windspeed/HGB.nc">
+      <attribute name="title" value=" Lake Huron (with Georgian Bay)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="43.030886" />
+      <attribute name="geospatial_lat_max" type="double" value="45.925314" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-84.530071" />
+      <attribute name="geospatial_lon_max" type="double" value="-80.775424" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name=" Lake Erie" ID="d564c1bb" urlPath="ATMO/ERI.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/windspeed/ERI.nc">
+      <attribute name="title" value=" Lake Erie" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.1452705" />
+      <attribute name="geospatial_lat_max" type="double" value="43.1532265" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-83.567372" />
+      <attribute name="geospatial_lon_max" type="double" value="-78.645816" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name=" Lake Ontario" ID="1580e90c" urlPath="ATMO/ONT.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/windspeed/ONT.nc">
+      <attribute name="title" value=" Lake Ontario" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="43.12" />
+      <attribute name="geospatial_lat_max" type="double" value="44.33" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-79.8" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.95" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Great Lakes (and St. Clair) Combined Cloud Cover" ID="0a031136" urlPath="ATMO/GRT.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/cloud/GRT.nc">
+      <attribute name="title" value="Great Lakes (and St. Clair) Combined Cloud Cover" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name=" Lake St. Clair" ID="4dd638c2" urlPath="ATMO/STC.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/cloud/STC.nc">
+      <attribute name="title" value=" Lake St. Clair" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="42.3" />
+      <attribute name="geospatial_lat_max" type="double" value="42.68" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-83.0" />
+      <attribute name="geospatial_lon_max" type="double" value="-82.43" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name=" Lake Michigan-Huron  (including Georgian Bay)" ID="cc2a64bf" urlPath="ATMO/MHG.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/cloud/MHG.nc">
+      <attribute name="title" value=" Lake Michigan-Huron  (including Georgian Bay)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.62" />
+      <attribute name="geospatial_lat_max" type="double" value="46.03" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-88.27" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.77" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name=" Lake Michigan" ID="1faf4362" urlPath="ATMO/MIC.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/cloud/MIC.nc">
+      <attribute name="title" value=" Lake Michigan" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.62" />
+      <attribute name="geospatial_lat_max" type="double" value="46.03" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-88.27" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.77" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Georgian Bay" ID="1fd82d9b" urlPath="ATMO/GEO.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/cloud/GEO.nc">
+      <attribute name="title" value="Georgian Bay" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name=" Lake Huron (without Georgian Bay)" ID="f4be6b1c" urlPath="ATMO/HUR.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/cloud/HUR.nc">
+      <attribute name="title" value=" Lake Huron (without Georgian Bay)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name=" Lake Superior" ID="77cd37bd" urlPath="ATMO/SUP.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/cloud/SUP.nc">
+      <attribute name="title" value=" Lake Superior" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="46.425095" />
+      <attribute name="geospatial_lat_max" type="double" value="48.723861" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.177277" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.594911" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name=" Lake Huron (with Georgian Bay)" ID="187ea75a" urlPath="ATMO/HGB.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/cloud/HGB.nc">
+      <attribute name="title" value=" Lake Huron (with Georgian Bay)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="43.030886" />
+      <attribute name="geospatial_lat_max" type="double" value="45.925314" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-84.530071" />
+      <attribute name="geospatial_lon_max" type="double" value="-80.775424" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name=" Lake Erie" ID="d564c1bb" urlPath="ATMO/ERI.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/cloud/ERI.nc">
+      <attribute name="title" value=" Lake Erie" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.1452705" />
+      <attribute name="geospatial_lat_max" type="double" value="43.1532265" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-83.567372" />
+      <attribute name="geospatial_lon_max" type="double" value="-78.645816" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name=" Lake Ontario" ID="1580e90c" urlPath="ATMO/ONT.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/cloud/ONT.nc">
+      <attribute name="title" value=" Lake Ontario" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="43.12" />
+      <attribute name="geospatial_lat_max" type="double" value="44.33" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-79.8" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.95" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+</catalog>
+
