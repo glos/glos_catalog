@@ -65,6 +65,33 @@ def main(base_download_path):
     download_path = os.path.join(base_download_path, "Models", "SLRFVM")
     XmlDownloader.run(isos, download_path)
 
+    # RANGER3
+    selects = [".*RANGER3"]
+    isos = ThreddsCollector("http://tds.glos.us/thredds/ranger3.html", selects=selects).run()
+    download_path = os.path.join(base_download_path, "RANGER3")
+    XmlDownloader.run(isos, download_path)
+
+    # GLERL
+    selects = [".*"]
+    isos = ThreddsCollector("http://tds.glos.us/thredds/glerl/NBS.html", selects=selects).run()
+    download_path = os.path.join(base_download_path, "GLERL", "NBS")
+    XmlDownloader.run(isos, download_path)
+
+    selects = [".*"]
+    isos = ThreddsCollector("http://tds.glos.us/thredds/glerl/ATMO.html", selects=selects).run()
+    download_path = os.path.join(base_download_path, "GLERL", "ATMO")
+    XmlDownloader.run(isos, download_path)
+
+    selects = [".*"]
+    isos = ThreddsCollector("http://tds.glos.us/thredds/glerl/PRECIP.html", selects=selects).run()
+    download_path = os.path.join(base_download_path, "GLERL", "PRECIP")
+    XmlDownloader.run(isos, download_path)
+
+    selects = [".*"]
+    isos = ThreddsCollector("http://tds.glos.us/thredds/glerl/AIRTEMPS.html", selects=selects).run()
+    download_path = os.path.join(base_download_path, "GLERL", "AIRTEMPS")
+    XmlDownloader.run(isos, download_path)
+
     isos = GeoNetworkCollector("http://data.glos.us/metadata").run()
     download_path = os.path.join(base_download_path, "GeoNetwork")
     XmlDownloader.run(isos, download_path, namer=GeoNetworkCollector.namer, modifier=GeoNetworkCollector.modifier)   

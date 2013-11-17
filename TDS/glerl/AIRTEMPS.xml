@@ -1,0 +1,3435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog name="AIRTEMPS"
+        xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <service name="agg" base="" serviceType="compound">
+    <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/" />
+    <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+    <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+    <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+  </service>
+
+  
+  <dataset name="Monthly Mean overbasin air temperature for Lake Huron including Georgian Bay (Celsius)" ID="1480785a" urlPath="AIRTEMPS/1480785a.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp/HGBAve.nc">
+      <attribute name="title" value="Monthly Mean overbasin air temperature for Lake Huron including Georgian Bay (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="43.030886" />
+      <attribute name="geospatial_lat_max" type="double" value="45.925314" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-84.530071" />
+      <attribute name="geospatial_lon_max" type="double" value="-80.775424" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly minimum overbasin air temperature for Lake Superior (Celsius)" ID="5f98e548" urlPath="AIRTEMPS/5f98e548.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp/SupMin.nc">
+      <attribute name="title" value="Monthly minimum overbasin air temperature for Lake Superior (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="46.425095" />
+      <attribute name="geospatial_lat_max" type="double" value="48.723861" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.177277" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.594911" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly Mean overbasin air temperature for Lake St. Clair (Celsius)" ID="cde0b113" urlPath="AIRTEMPS/cde0b113.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp/StcAve.nc">
+      <attribute name="title" value="Monthly Mean overbasin air temperature for Lake St. Clair (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="42.3" />
+      <attribute name="geospatial_lat_max" type="double" value="42.68" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-83.0" />
+      <attribute name="geospatial_lon_max" type="double" value="-82.43" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly maximum overbasin air temperature for Lake Erie (Celsius)" ID="865bb817" urlPath="AIRTEMPS/865bb817.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp/EriMax.nc">
+      <attribute name="title" value="Monthly maximum overbasin air temperature for Lake Erie (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.1452705" />
+      <attribute name="geospatial_lat_max" type="double" value="43.1532265" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-83.567372" />
+      <attribute name="geospatial_lon_max" type="double" value="-78.645816" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly maximum overbasin air temperature for Lake Ontario (Celsius)" ID="4aa98d54" urlPath="AIRTEMPS/4aa98d54.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp/OntMax.nc">
+      <attribute name="title" value="Monthly maximum overbasin air temperature for Lake Ontario (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="43.12" />
+      <attribute name="geospatial_lat_max" type="double" value="44.33" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-79.8" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.95" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly minimum overbasin air temperature for Lake St. Clair (Celsius)" ID="3b8e211a" urlPath="AIRTEMPS/3b8e211a.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp/StcMin.nc">
+      <attribute name="title" value="Monthly minimum overbasin air temperature for Lake St. Clair (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="42.3" />
+      <attribute name="geospatial_lat_max" type="double" value="42.68" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-83.0" />
+      <attribute name="geospatial_lon_max" type="double" value="-82.43" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly maximum overbasin air temperature for Lake St. Clair (Celsius)" ID="e2b9902a" urlPath="AIRTEMPS/e2b9902a.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp/StcMax.nc">
+      <attribute name="title" value="Monthly maximum overbasin air temperature for Lake St. Clair (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="42.3" />
+      <attribute name="geospatial_lat_max" type="double" value="42.68" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-83.0" />
+      <attribute name="geospatial_lon_max" type="double" value="-82.43" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Mean monthly minimum overbasin air temperature for Lake Huron including Georgian Bay (Celsius)" ID="73c53228" urlPath="AIRTEMPS/73c53228.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp/HGBMin.nc">
+      <attribute name="title" value="Mean monthly minimum overbasin air temperature for Lake Huron including Georgian Bay (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="43.030886" />
+      <attribute name="geospatial_lat_max" type="double" value="45.925314" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-84.530071" />
+      <attribute name="geospatial_lon_max" type="double" value="-80.775424" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly Mean overbasin air temperature for Georgian Bay (Celsius)" ID="7d59727e" urlPath="AIRTEMPS/7d59727e.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp/GeoAve.nc">
+      <attribute name="title" value="Monthly Mean overbasin air temperature for Georgian Bay (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly maximum air temperature for Lake Superior (Celsius)" ID="3377f4fd" urlPath="AIRTEMPS/3377f4fd.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp/SupMax.nc">
+      <attribute name="title" value="Monthly maximum air temperature for Lake Superior (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="46.425095" />
+      <attribute name="geospatial_lat_max" type="double" value="48.723861" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.177277" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.594911" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly minimum overbasin air temperature for Lake Michigan (Celsius)" ID="0bbc6286" urlPath="AIRTEMPS/0bbc6286.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp/MicMin.nc">
+      <attribute name="title" value="Monthly minimum overbasin air temperature for Lake Michigan (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.62" />
+      <attribute name="geospatial_lat_max" type="double" value="46.03" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-88.27" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.77" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly Mean overbasin air temperature for the entire Great Lakes region (Celsius)" ID="ec2c37d5" urlPath="AIRTEMPS/ec2c37d5.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp/GrtAve.nc">
+      <attribute name="title" value="Monthly Mean overbasin air temperature for the entire Great Lakes region (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly minimum overbasin air temperature for Lake Huron w/o Georgian Bay (Celsius)" ID="ededaba9" urlPath="AIRTEMPS/ededaba9.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp/HurMin.nc">
+      <attribute name="title" value="Monthly minimum overbasin air temperature for Lake Huron w/o Georgian Bay (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly Mean overbasin air temperature for Lake Michigan-Huron" ID="a883b71d" urlPath="AIRTEMPS/a883b71d.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp/MHGMax.nc">
+      <attribute name="title" value="Monthly Mean overbasin air temperature for Lake Michigan-Huron" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly maximum overbasin air temperature for Lake Huron w/o Georgian Bay (Celsius)" ID="adebe303" urlPath="AIRTEMPS/adebe303.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp/HurMax.nc">
+      <attribute name="title" value="Monthly maximum overbasin air temperature for Lake Huron w/o Georgian Bay (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly minimum overbasin air temperature for Lake Ontario (Celsius)" ID="de348c5f" urlPath="AIRTEMPS/de348c5f.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp/OntMin.nc">
+      <attribute name="title" value="Monthly minimum overbasin air temperature for Lake Ontario (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="43.12" />
+      <attribute name="geospatial_lat_max" type="double" value="44.33" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-79.8" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.95" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly Mean overbasin air temperature for Lake Ontario (Celsius)" ID="ad13f466" urlPath="AIRTEMPS/ad13f466.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp/OntAve.nc">
+      <attribute name="title" value="Monthly Mean overbasin air temperature for Lake Ontario (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="43.12" />
+      <attribute name="geospatial_lat_max" type="double" value="44.33" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-79.8" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.95" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly minimum overbasin air temperature for Georgian Bay (Celsius)" ID="7b324cd1" urlPath="AIRTEMPS/7b324cd1.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp/GeoMin.nc">
+      <attribute name="title" value="Monthly minimum overbasin air temperature for Georgian Bay (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly Mean overbasin air temperature for Lake Michigan (Celsius)" ID="4cb81914" urlPath="AIRTEMPS/4cb81914.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp/MicAve.nc">
+      <attribute name="title" value="Monthly Mean overbasin air temperature for Lake Michigan (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.62" />
+      <attribute name="geospatial_lat_max" type="double" value="46.03" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-88.27" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.77" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Mean monthly maximum overbasin air temperature for Lake Huron including Georgian Bay (Celsius)" ID="715975fc" urlPath="AIRTEMPS/715975fc.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp/HGBMax.nc">
+      <attribute name="title" value="Mean monthly maximum overbasin air temperature for Lake Huron including Georgian Bay (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="43.030886" />
+      <attribute name="geospatial_lat_max" type="double" value="45.925314" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-84.530071" />
+      <attribute name="geospatial_lon_max" type="double" value="-80.775424" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly Mean overbasin air temperature for Lake Erie (Celsius)" ID="c5c54ce0" urlPath="AIRTEMPS/c5c54ce0.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp/EriAve.nc">
+      <attribute name="title" value="Monthly Mean overbasin air temperature for Lake Erie (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.1452705" />
+      <attribute name="geospatial_lat_max" type="double" value="43.1532265" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-83.567372" />
+      <attribute name="geospatial_lon_max" type="double" value="-78.645816" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly maximum overbasin air temperature for Lake Michigan (Celsius)" ID="83f4b86c" urlPath="AIRTEMPS/83f4b86c.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp/MicMax.nc">
+      <attribute name="title" value="Monthly maximum overbasin air temperature for Lake Michigan (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.62" />
+      <attribute name="geospatial_lat_max" type="double" value="46.03" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-88.27" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.77" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly Mean overbasin air temperature for Lake Michigan-Huron" ID="ce359caf" urlPath="AIRTEMPS/ce359caf.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp/MHGMin.nc">
+      <attribute name="title" value="Monthly Mean overbasin air temperature for Lake Michigan-Huron" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly maximum overbasin air temperature for the entire Great Lakes region (Celsius)" ID="ecdcc31d" urlPath="AIRTEMPS/ecdcc31d.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp/GrtMax.nc">
+      <attribute name="title" value="Monthly maximum overbasin air temperature for the entire Great Lakes region (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly Mean overbasin air temperature for Lake Superior (Celsius)" ID="0bed737d" urlPath="AIRTEMPS/0bed737d.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp/SupAve.nc">
+      <attribute name="title" value="Monthly Mean overbasin air temperature for Lake Superior (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="46.425095" />
+      <attribute name="geospatial_lat_max" type="double" value="48.723861" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.177277" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.594911" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly minimum overbasin air temperature for the entire Great Lakes region (Celsius)" ID="4248aea8" urlPath="AIRTEMPS/4248aea8.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp/GrtMin.nc">
+      <attribute name="title" value="Monthly minimum overbasin air temperature for the entire Great Lakes region (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly Mean overbasin air temperature for Lake Michigan (Celsius)" ID="aaea5032" urlPath="AIRTEMPS/aaea5032.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp/MHGAve.nc">
+      <attribute name="title" value="Monthly Mean overbasin air temperature for Lake Michigan (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly Mean overbasin air temperature for Lake Huron w/o Georgian Bay (Celsius)" ID="551ba4f4" urlPath="AIRTEMPS/551ba4f4.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp/HurAve.nc">
+      <attribute name="title" value="Monthly Mean overbasin air temperature for Lake Huron w/o Georgian Bay (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly minimum overbasin air temperature for Lake Erie (Celsius)" ID="fae9681e" urlPath="AIRTEMPS/fae9681e.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp/EriMin.nc">
+      <attribute name="title" value="Monthly minimum overbasin air temperature for Lake Erie (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.1452705" />
+      <attribute name="geospatial_lat_max" type="double" value="43.1532265" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-83.567372" />
+      <attribute name="geospatial_lon_max" type="double" value="-78.645816" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly maximum overbasin air temperature for Georgian Bay (Celsius)" ID="7695e5c1" urlPath="AIRTEMPS/7695e5c1.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp/GeoMax.nc">
+      <attribute name="title" value="Monthly maximum overbasin air temperature for Georgian Bay (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly Mean overland air temperature for Lake Huron including Georgian Bay (Celsius)" ID="ab835bd5" urlPath="AIRTEMPS/ab835bd5.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp_ol/HGBAve.nc">
+      <attribute name="title" value="Monthly Mean overland air temperature for Lake Huron including Georgian Bay (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="43.030886" />
+      <attribute name="geospatial_lat_max" type="double" value="45.925314" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-84.530071" />
+      <attribute name="geospatial_lon_max" type="double" value="-80.775424" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly minimum overland air temperature for Lake Superior (Celsius)" ID="b7700c85" urlPath="AIRTEMPS/b7700c85.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp_ol/SupMin.nc">
+      <attribute name="title" value="Monthly minimum overland air temperature for Lake Superior (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="46.425095" />
+      <attribute name="geospatial_lat_max" type="double" value="48.723861" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.177277" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.594911" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly Mean overland air temperature for Lake St. Clair (Celsius)" ID="1c2398a6" urlPath="AIRTEMPS/1c2398a6.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp_ol/StcAve.nc">
+      <attribute name="title" value="Monthly Mean overland air temperature for Lake St. Clair (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="42.3" />
+      <attribute name="geospatial_lat_max" type="double" value="42.68" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-83.0" />
+      <attribute name="geospatial_lon_max" type="double" value="-82.43" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly maximum overland air temperature for Lake Erie (Celsius)" ID="c1d83085" urlPath="AIRTEMPS/c1d83085.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp_ol/EriMax.nc">
+      <attribute name="title" value="Monthly maximum overland air temperature for Lake Erie (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.1452705" />
+      <attribute name="geospatial_lat_max" type="double" value="43.1532265" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-83.567372" />
+      <attribute name="geospatial_lon_max" type="double" value="-78.645816" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly maximum overland air temperature for Lake Ontario (Celsius)" ID="5c1225d4" urlPath="AIRTEMPS/5c1225d4.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp_ol/OntMax.nc">
+      <attribute name="title" value="Monthly maximum overland air temperature for Lake Ontario (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="43.12" />
+      <attribute name="geospatial_lat_max" type="double" value="44.33" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-79.8" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.95" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly minimum overland air temperature for Lake St. Clair (Celsius)" ID="57394dbf" urlPath="AIRTEMPS/57394dbf.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp_ol/StcMin.nc">
+      <attribute name="title" value="Monthly minimum overland air temperature for Lake St. Clair (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="42.3" />
+      <attribute name="geospatial_lat_max" type="double" value="42.68" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-83.0" />
+      <attribute name="geospatial_lon_max" type="double" value="-82.43" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly maximum overland air temperature for Lake St. Clair (Celsius)" ID="3746b13e" urlPath="AIRTEMPS/3746b13e.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp_ol/StcMax.nc">
+      <attribute name="title" value="Monthly maximum overland air temperature for Lake St. Clair (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="42.3" />
+      <attribute name="geospatial_lat_max" type="double" value="42.68" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-83.0" />
+      <attribute name="geospatial_lon_max" type="double" value="-82.43" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Mean monthly minimum overland air temperature for Lake Huron including Georgian Bay (Celsius)" ID="c052796e" urlPath="AIRTEMPS/c052796e.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp_ol/HGBMin.nc">
+      <attribute name="title" value="Mean monthly minimum overland air temperature for Lake Huron including Georgian Bay (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="43.030886" />
+      <attribute name="geospatial_lat_max" type="double" value="45.925314" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-84.530071" />
+      <attribute name="geospatial_lon_max" type="double" value="-80.775424" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly Mean overland air temperature for Georgian Bay (Celsius)" ID="be6820c5" urlPath="AIRTEMPS/be6820c5.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp_ol/GeoAve.nc">
+      <attribute name="title" value="Monthly Mean overland air temperature for Georgian Bay (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly maximum overland air temperature for Lake Superior (Celsius)" ID="fea52bc7" urlPath="AIRTEMPS/fea52bc7.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp_ol/SupMax.nc">
+      <attribute name="title" value="Monthly maximum overland air temperature for Lake Superior (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="46.425095" />
+      <attribute name="geospatial_lat_max" type="double" value="48.723861" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.177277" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.594911" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly minimum overland air temperature for Lake Michigan (Celsius)" ID="db42c1b5" urlPath="AIRTEMPS/db42c1b5.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp_ol/MicMin.nc">
+      <attribute name="title" value="Monthly minimum overland air temperature for Lake Michigan (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.62" />
+      <attribute name="geospatial_lat_max" type="double" value="46.03" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-88.27" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.77" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly Mean overland air temperature for the entire Great Lakes region (Celsius)" ID="302b94a4" urlPath="AIRTEMPS/302b94a4.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp_ol/GrtAve.nc">
+      <attribute name="title" value="Monthly Mean overland air temperature for the entire Great Lakes region (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly minimum overland air temperature for Lake Huron w/o Georgian Bay (Celsius)" ID="23c49d5b" urlPath="AIRTEMPS/23c49d5b.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp_ol/HurMin.nc">
+      <attribute name="title" value="Monthly minimum overland air temperature for Lake Huron w/o Georgian Bay (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly Mean overland air temperature for Lake Michigan-Huron" ID="1ca3e5b3" urlPath="AIRTEMPS/1ca3e5b3.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp_ol/MHGMax.nc">
+      <attribute name="title" value="Monthly Mean overland air temperature for Lake Michigan-Huron" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly maximum overland air temperature for Lake Huron w/o Georgian Bay (Celsius)" ID="f77db8fa" urlPath="AIRTEMPS/f77db8fa.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp_ol/HurMax.nc">
+      <attribute name="title" value="Monthly maximum overland air temperature for Lake Huron w/o Georgian Bay (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly minimum overland air temperature for Lake Ontario (Celsius)" ID="44c1fef7" urlPath="AIRTEMPS/44c1fef7.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp_ol/OntMin.nc">
+      <attribute name="title" value="Monthly minimum overland air temperature for Lake Ontario (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="43.12" />
+      <attribute name="geospatial_lat_max" type="double" value="44.33" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-79.8" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.95" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly Mean overland air temperature for Lake Ontario (Celsius)" ID="0d64aec6" urlPath="AIRTEMPS/0d64aec6.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp_ol/OntAve.nc">
+      <attribute name="title" value="Monthly Mean overland air temperature for Lake Ontario (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="43.12" />
+      <attribute name="geospatial_lat_max" type="double" value="44.33" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-79.8" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.95" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly minimum overland air temperature for Georgian Bay (Celsius)" ID="96800b96" urlPath="AIRTEMPS/96800b96.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp_ol/GeoMin.nc">
+      <attribute name="title" value="Monthly minimum overland air temperature for Georgian Bay (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly Mean overland air temperature for Lake Michigan (Celsius)" ID="b9553673" urlPath="AIRTEMPS/b9553673.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp_ol/MicAve.nc">
+      <attribute name="title" value="Monthly Mean overland air temperature for Lake Michigan (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.62" />
+      <attribute name="geospatial_lat_max" type="double" value="46.03" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-88.27" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.77" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Mean monthly maximum overland air temperature for Lake Huron including Georgian Bay (Celsius)" ID="19567510" urlPath="AIRTEMPS/19567510.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp_ol/HGBMax.nc">
+      <attribute name="title" value="Mean monthly maximum overland air temperature for Lake Huron including Georgian Bay (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="43.030886" />
+      <attribute name="geospatial_lat_max" type="double" value="45.925314" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-84.530071" />
+      <attribute name="geospatial_lon_max" type="double" value="-80.775424" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly Mean overland air temperature for Lake Erie (Celsius)" ID="76b722af" urlPath="AIRTEMPS/76b722af.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp_ol/EriAve.nc">
+      <attribute name="title" value="Monthly Mean overland air temperature for Lake Erie (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.1452705" />
+      <attribute name="geospatial_lat_max" type="double" value="43.1532265" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-83.567372" />
+      <attribute name="geospatial_lon_max" type="double" value="-78.645816" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly maximum overland air temperature for Lake Michigan (Celsius)" ID="1add1485" urlPath="AIRTEMPS/1add1485.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp_ol/MicMax.nc">
+      <attribute name="title" value="Monthly maximum overland air temperature for Lake Michigan (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.62" />
+      <attribute name="geospatial_lat_max" type="double" value="46.03" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-88.27" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.77" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly Mean overland air temperature for Lake Michigan-Huron" ID="2048df5f" urlPath="AIRTEMPS/2048df5f.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp_ol/MHGMin.nc">
+      <attribute name="title" value="Monthly Mean overland air temperature for Lake Michigan-Huron" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly maximum overland air temperature for the entire Great Lakes region (Celsius)" ID="6a56d2cf" urlPath="AIRTEMPS/6a56d2cf.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp_ol/GrtMax.nc">
+      <attribute name="title" value="Monthly maximum overland air temperature for the entire Great Lakes region (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly Mean overland air temperature for Lake Superior (Celsius)" ID="370a34bd" urlPath="AIRTEMPS/370a34bd.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp_ol/SupAve.nc">
+      <attribute name="title" value="Monthly Mean overland air temperature for Lake Superior (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="46.425095" />
+      <attribute name="geospatial_lat_max" type="double" value="48.723861" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.177277" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.594911" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly minimum overland air temperature for the entire Great Lakes region (Celsius)" ID="f40275e0" urlPath="AIRTEMPS/f40275e0.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp_ol/GrtMin.nc">
+      <attribute name="title" value="Monthly minimum overland air temperature for the entire Great Lakes region (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly Mean overland air temperature for Lake Michigan-Huron" ID="7819a47d" urlPath="AIRTEMPS/7819a47d.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp_ol/MHGAve.nc">
+      <attribute name="title" value="Monthly Mean overland air temperature for Lake Michigan-Huron" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly Mean overland air temperature for Lake Huron w/o Georgian Bay (Celsius)" ID="4315b5d9" urlPath="AIRTEMPS/4315b5d9.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp_ol/HurAve.nc">
+      <attribute name="title" value="Monthly Mean overland air temperature for Lake Huron w/o Georgian Bay (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly minimum overland air temperature for Lake Erie (Celsius)" ID="c812e3ce" urlPath="AIRTEMPS/c812e3ce.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp_ol/EriMin.nc">
+      <attribute name="title" value="Monthly minimum overland air temperature for Lake Erie (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.1452705" />
+      <attribute name="geospatial_lat_max" type="double" value="43.1532265" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-83.567372" />
+      <attribute name="geospatial_lon_max" type="double" value="-78.645816" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly maximum overland air temperature for Georgian Bay (Celsius)" ID="1cbf80ef" urlPath="AIRTEMPS/1cbf80ef.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemp_ol/GeoMax.nc">
+      <attribute name="title" value="Monthly maximum overland air temperature for Georgian Bay (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Huron (with Georgian Bay) Mean Monthly Overlake Daily Air Temperature [(max+min)/2] (Celsius)" ID="45843c7e" urlPath="AIRTEMPS/45843c7e.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemps/HGBAve.nc">
+      <attribute name="title" value="Lake Huron (with Georgian Bay) Mean Monthly Overlake Daily Air Temperature [(max+min)/2] (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="43.030886" />
+      <attribute name="geospatial_lat_max" type="double" value="45.925314" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-84.530071" />
+      <attribute name="geospatial_lon_max" type="double" value="-80.775424" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Superior Mean Monthly Overlake Minimum Daily Air Temperature (Celsius)" ID="69bd22a6" urlPath="AIRTEMPS/69bd22a6.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemps/SupMin.nc">
+      <attribute name="title" value="Lake Superior Mean Monthly Overlake Minimum Daily Air Temperature (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="46.425095" />
+      <attribute name="geospatial_lat_max" type="double" value="48.723861" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.177277" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.594911" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake St.Clair Mean Monthly Overlake Daily Air Temperature [(max+min)/2] (Celsius)" ID="ec5a4856" urlPath="AIRTEMPS/ec5a4856.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemps/StcAve.nc">
+      <attribute name="title" value="Lake St.Clair Mean Monthly Overlake Daily Air Temperature [(max+min)/2] (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="42.3" />
+      <attribute name="geospatial_lat_max" type="double" value="42.68" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-83.0" />
+      <attribute name="geospatial_lon_max" type="double" value="-82.43" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Erie Mean Monthly Overlake Maximum Daily Air Temperature (Celsius)" ID="bee30c89" urlPath="AIRTEMPS/bee30c89.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemps/EriMax.nc">
+      <attribute name="title" value="Lake Erie Mean Monthly Overlake Maximum Daily Air Temperature (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.1452705" />
+      <attribute name="geospatial_lat_max" type="double" value="43.1532265" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-83.567372" />
+      <attribute name="geospatial_lon_max" type="double" value="-78.645816" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Ontario Mean Monthly Overlake Maximum Daily Air Temperature (Celsius)" ID="8092c996" urlPath="AIRTEMPS/8092c996.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemps/OntMax.nc">
+      <attribute name="title" value="Lake Ontario Mean Monthly Overlake Maximum Daily Air Temperature (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="43.12" />
+      <attribute name="geospatial_lat_max" type="double" value="44.33" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-79.8" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.95" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake St.Clair Mean Monthly Overlake Minimum Daily Air Temperature (Celsius)" ID="5b93a550" urlPath="AIRTEMPS/5b93a550.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemps/StcMin.nc">
+      <attribute name="title" value="Lake St.Clair Mean Monthly Overlake Minimum Daily Air Temperature (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="42.3" />
+      <attribute name="geospatial_lat_max" type="double" value="42.68" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-83.0" />
+      <attribute name="geospatial_lon_max" type="double" value="-82.43" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake St.Clair Mean Monthly Overlake Maximum Daily Air Temperature (Celsius)" ID="8a541cea" urlPath="AIRTEMPS/8a541cea.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemps/StcMax.nc">
+      <attribute name="title" value="Lake St.Clair Mean Monthly Overlake Maximum Daily Air Temperature (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="42.3" />
+      <attribute name="geospatial_lat_max" type="double" value="42.68" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-83.0" />
+      <attribute name="geospatial_lon_max" type="double" value="-82.43" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Huron (with Georgian Bay) Mean Monthly Overlake Minimum Daily Air Temperature  (Celsius)" ID="68d7b0b8" urlPath="AIRTEMPS/68d7b0b8.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemps/HGBMin.nc">
+      <attribute name="title" value="Lake Huron (with Georgian Bay) Mean Monthly Overlake Minimum Daily Air Temperature  (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="43.030886" />
+      <attribute name="geospatial_lat_max" type="double" value="45.925314" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-84.530071" />
+      <attribute name="geospatial_lon_max" type="double" value="-80.775424" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Georgian Bay Mean Monthly Overlake Daily Air Temperature [(max+min)/2] (Celsius)" ID="747146b5" urlPath="AIRTEMPS/747146b5.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemps/GeoAve.nc">
+      <attribute name="title" value="Georgian Bay Mean Monthly Overlake Daily Air Temperature [(max+min)/2] (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Superior Mean Monthly Overlake Maximum Daily Air Temperature (Celsius)" ID="b87278c5" urlPath="AIRTEMPS/b87278c5.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemps/SupMax.nc">
+      <attribute name="title" value="Lake Superior Mean Monthly Overlake Maximum Daily Air Temperature (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="46.425095" />
+      <attribute name="geospatial_lat_max" type="double" value="48.723861" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.177277" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.594911" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Michigan Mean Monthly Overlake Minimum Daily Air Temperature (Celsius)" ID="cf203ca4" urlPath="AIRTEMPS/cf203ca4.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemps/MicMin.nc">
+      <attribute name="title" value="Lake Michigan Mean Monthly Overlake Minimum Daily Air Temperature (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.62" />
+      <attribute name="geospatial_lat_max" type="double" value="46.03" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-88.27" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.77" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly Mean overlake air temperature for the entire Great Lakes region (Celsius) ([Max+Min]/2)" ID="159ebb6c" urlPath="AIRTEMPS/159ebb6c.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemps/GrtAve.nc">
+      <attribute name="title" value="Monthly Mean overlake air temperature for the entire Great Lakes region (Celsius) ([Max+Min]/2)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Huron Mean Monthly Overlake Minimum Daily Air Temperature (Celsius)" ID="f2ecd894" urlPath="AIRTEMPS/f2ecd894.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemps/HurMin.nc">
+      <attribute name="title" value="Lake Huron Mean Monthly Overlake Minimum Daily Air Temperature (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Michigan-Huron Mean Monthly Overlake Maximum Daily Air Temperature [(max+min)/2] (Celsius)" ID="c7e0ce3d" urlPath="AIRTEMPS/c7e0ce3d.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemps/MHGMax.nc">
+      <attribute name="title" value="Lake Michigan-Huron Mean Monthly Overlake Maximum Daily Air Temperature [(max+min)/2] (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Huron Mean Monthly Overlake Maximum Daily Air Temperature (Celsius)" ID="41655fae" urlPath="AIRTEMPS/41655fae.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemps/HurMax.nc">
+      <attribute name="title" value="Lake Huron Mean Monthly Overlake Maximum Daily Air Temperature (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Ontario Mean Monthly Overlake Minimum Daily Air Temperature (Celsius)" ID="3d8e16a0" urlPath="AIRTEMPS/3d8e16a0.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemps/OntMin.nc">
+      <attribute name="title" value="Lake Ontario Mean Monthly Overlake Minimum Daily Air Temperature (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="43.12" />
+      <attribute name="geospatial_lat_max" type="double" value="44.33" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-79.8" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.95" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Ontario Mean Monthly Overlake Daily Air Temperature [(max+min)/2] (Celsius)" ID="3913828d" urlPath="AIRTEMPS/3913828d.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemps/OntAve.nc">
+      <attribute name="title" value="Lake Ontario Mean Monthly Overlake Daily Air Temperature [(max+min)/2] (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="43.12" />
+      <attribute name="geospatial_lat_max" type="double" value="44.33" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-79.8" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.95" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Georgian Bay Mean Monthly Overlake Minimum Daily Air Temperature (Celsius)" ID="aded3da1" urlPath="AIRTEMPS/aded3da1.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemps/GeoMin.nc">
+      <attribute name="title" value="Georgian Bay Mean Monthly Overlake Minimum Daily Air Temperature (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Michigan Mean Monthly Overlake Daily Air Temperature [(max+min)/2] (Celsius)" ID="fa3c3943" urlPath="AIRTEMPS/fa3c3943.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemps/MicAve.nc">
+      <attribute name="title" value="Lake Michigan Mean Monthly Overlake Daily Air Temperature [(max+min)/2] (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.62" />
+      <attribute name="geospatial_lat_max" type="double" value="46.03" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-88.27" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.77" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Huron (with Georgian Bay) Mean Monthly Overlake Maximum Daily Air Temperature (Celsius)" ID="17e3645c" urlPath="AIRTEMPS/17e3645c.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemps/HGBMax.nc">
+      <attribute name="title" value="Lake Huron (with Georgian Bay) Mean Monthly Overlake Maximum Daily Air Temperature (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="43.030886" />
+      <attribute name="geospatial_lat_max" type="double" value="45.925314" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-84.530071" />
+      <attribute name="geospatial_lon_max" type="double" value="-80.775424" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Erie Mean Monthly Overlake Daily Air Temperature [(max+min)/2] (Celsius)" ID="60a3bee8" urlPath="AIRTEMPS/60a3bee8.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemps/EriAve.nc">
+      <attribute name="title" value="Lake Erie Mean Monthly Overlake Daily Air Temperature [(max+min)/2] (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.1452705" />
+      <attribute name="geospatial_lat_max" type="double" value="43.1532265" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-83.567372" />
+      <attribute name="geospatial_lon_max" type="double" value="-78.645816" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Michigan Mean Monthly Overlake Maximum Daily Air Temperature (Celsius)" ID="fb1b04cb" urlPath="AIRTEMPS/fb1b04cb.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemps/MicMax.nc">
+      <attribute name="title" value="Lake Michigan Mean Monthly Overlake Maximum Daily Air Temperature (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.62" />
+      <attribute name="geospatial_lat_max" type="double" value="46.03" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-88.27" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.77" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Michigan-Huron Mean Monthly Overlake Minimum Daily Air Temperature [(max+min)/2] (Celsius)" ID="4c4722e2" urlPath="AIRTEMPS/4c4722e2.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemps/MHGMin.nc">
+      <attribute name="title" value="Lake Michigan-Huron Mean Monthly Overlake Minimum Daily Air Temperature [(max+min)/2] (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly Maximum overlake air temperature for the entire Great Lakes region (Celsius)" ID="d1114039" urlPath="AIRTEMPS/d1114039.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemps/GrtMax.nc">
+      <attribute name="title" value="Monthly Maximum overlake air temperature for the entire Great Lakes region (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Superior Mean Daily Average Overlake Air Temperature [(max+min)/2] (Celsius)" ID="84fc0fd0" urlPath="AIRTEMPS/84fc0fd0.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemps/SupAve.nc">
+      <attribute name="title" value="Lake Superior Mean Daily Average Overlake Air Temperature [(max+min)/2] (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="46.425095" />
+      <attribute name="geospatial_lat_max" type="double" value="48.723861" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.177277" />
+      <attribute name="geospatial_lon_max" type="double" value="-84.594911" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Monthly Minimum overlake air temperature for the entire Great Lakes region (Celsius)" ID="c90a265e" urlPath="AIRTEMPS/c90a265e.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemps/GrtMin.nc">
+      <attribute name="title" value="Monthly Minimum overlake air temperature for the entire Great Lakes region (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Michigan-Huron Mean Monthly Overlake Daily Air Temperature [(max+min)/2] (Celsius)" ID="5480d152" urlPath="AIRTEMPS/5480d152.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemps/MHGAve.nc">
+      <attribute name="title" value="Lake Michigan-Huron Mean Monthly Overlake Daily Air Temperature [(max+min)/2] (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Huron Mean Monthly Overlake Daily Air Temperature [(max+min)/2] (Celsius)" ID="03b73e32" urlPath="AIRTEMPS/03b73e32.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemps/HurAve.nc">
+      <attribute name="title" value="Lake Huron Mean Monthly Overlake Daily Air Temperature [(max+min)/2] (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Lake Erie Mean Monthly Overlake Minimum Daily Air Temperature (Celsius)" ID="bc14fad4" urlPath="AIRTEMPS/bc14fad4.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemps/EriMin.nc">
+      <attribute name="title" value="Lake Erie Mean Monthly Overlake Minimum Daily Air Temperature (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.1452705" />
+      <attribute name="geospatial_lat_max" type="double" value="43.1532265" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-83.567372" />
+      <attribute name="geospatial_lon_max" type="double" value="-78.645816" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+  <dataset name="Georgian Bay Mean Monthly Overlake Maximum Daily Air Temperature (Celsius)" ID="554e445a" urlPath="AIRTEMPS/554e445a.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+      <project>GLOS</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer"> </contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/data-cache/airtemps/GeoMax.nc">
+      <attribute name="title" value="Georgian Bay Mean Monthly Overlake Maximum Daily Air Temperature (Celsius)" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_units" type="String" value="meters" />
+      <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+      <attribute name="geospatial_vertical_positive" type="String" value="up" />
+
+
+      <attribute name="geospatial_lat_min" type="double" value="41.5586" />
+      <attribute name="geospatial_lat_max" type="double" value="48.95" />
+      <attribute name="geospatial_lat_units" type="String" value="degrees_N" />
+      
+      <attribute name="geospatial_lon_min" type="double" value="-92.414" />
+      <attribute name="geospatial_lon_max" type="double" value="-75.659" />
+      <attribute name="geospatial_lon_units" type="String" value="degrees_E" />
+    </netcdf>
+
+  </dataset>
+  
+</catalog>
+

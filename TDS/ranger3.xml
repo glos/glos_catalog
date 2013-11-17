@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog name="Ranger3"
+        xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <service name="agg" base="" serviceType="compound">
+    <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/" />
+    <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+    <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+    <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+  </service>
+
+  <dataset name="RANGER3" ID="MTRI-RANGER3" urlPath="MTRI-Ranger3.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, MTRI, NPS, RANGER3, Air Temperature, Humidity, Pressure, Wind Speed, Wind Direction, Rainfail Intensity, Accumulated Rainfall, Water Temperature, Conductivity, pH, Oxidation Reduction Potential, Turbidity, Chlorophyll</keyword>
+      <date type="created">2013-11-14</date>
+      <date type="modified">2013-11-14</date>
+      <date type="issued">2013-11-14</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="funding">GLOS MTRI</documentation>
+      <documentation type="summary">The vessel RangerIII is a passenger ferry that travels from the Keweenaw Peninsula to the Isle Royale National Park in Lake Superior. This vessel is equipped with a YSI 660 water quality instrument and the Vaisala WXT520 meteorological sensor.</documentation>
+
+      <project>MTRI RANGER3</project>
+
+      <creator>
+        <name>Chris Roussi (MTRI)</name>
+        <contact url="http://www.mtri.org/rangeriii.html" email="croussi@mtu.edu" />
+      </creator>
+
+      <publisher>
+        <name>Colin Brooks (MTRI)</name>
+        <contact url="http://www.mtri.org/rangeriii.html" email="cnbrooks@mtu.edu"></contact>
+      </publisher>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <contributor role="producer">MTRI</contributor>
+
+      <documentation xlink:href="http://www.mtri.org/rangeriii.html" xlink:title="MTRI Ranger III"/>
+      <documentation xlink:href="http://www.lakesuperiorwatermonitoring.org/ranger3/" xlink:title="Ranger III Additional Info"/>
+
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/thredds/MTRI-Ranger3/ranger3_2012.nc">
+      <attribute name="title" value="MTRI RANGER3" />
+
+      <attribute name="summary" value="The vessel RangerIII is a passenger ferry that travels from the Keweenaw Peninsula to the Isle Royale National Park in Lake Superior. This vessel is equipped with a YSI 660 water quality instrument and the Vaisala WXT520 meteorological sensor." />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+
+  </dataset>
+</catalog>
