@@ -64,7 +64,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:Date>2013-07-22</gco:Date>
+        <gco:Date>2013-11-17</gco:Date>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -82,7 +82,7 @@
                     <gmd:date>
                         <gmd:CI_Date>
                             <gmd:date>
-                                <gco:DateTime>2013-07-22T02:11:34.789Z</gco:DateTime>
+                                <gco:DateTime>2013-11-17T02:42:02.163Z</gco:DateTime>
                             </gmd:date>
                             <gmd:dateType gco:nilReason="unknown"/>
                         </gmd:CI_Date>
@@ -137,16 +137,16 @@
                                 <gco:Boolean>1</gco:Boolean>
                             </gmd:extentTypeCode>
                             <gmd:westBoundLongitude>
-                                <gco:Decimal>-87.4741666666667</gco:Decimal>
+                                <gco:Decimal>-87.47416666666666</gco:Decimal>
                             </gmd:westBoundLongitude>
                             <gmd:eastBoundLongitude>
-                                <gco:Decimal>-87.4741666666667</gco:Decimal>
+                                <gco:Decimal>-87.47416666666666</gco:Decimal>
                             </gmd:eastBoundLongitude>
                             <gmd:southBoundLatitude>
-                                <gco:Decimal>46.2894444444444</gco:Decimal>
+                                <gco:Decimal>46.28944444444444</gco:Decimal>
                             </gmd:southBoundLatitude>
                             <gmd:northBoundLatitude>
-                                <gco:Decimal>46.2894444444444</gco:Decimal>
+                                <gco:Decimal>46.28944444444444</gco:Decimal>
                             </gmd:northBoundLatitude>
                         </gmd:EX_GeographicBoundingBox>
                     </gmd:geographicElement>
@@ -310,7 +310,7 @@
                         </gco:MemberName>
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
-                        <gco:CharacterString>http://mmisw.org/ont/aoos/parameter/solar_radiation</gco:CharacterString>
+                        <gco:CharacterString>http://mmisw.org/ont/fake/parameter/solar_radiation</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
