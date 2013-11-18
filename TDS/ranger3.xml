@@ -24,7 +24,7 @@
       <documentation type="processing_level">post-processed non real-time</documentation>
       <documentation type="rights">LICENSE</documentation>
       <documentation type="funding">GLOS MTRI</documentation>
-      <documentation type="summary">The vessel RangerIII is a passenger ferry that travels from the Keweenaw Peninsula to the Isle Royale National Park in Lake Superior. This vessel is equipped with a YSI 660 water quality instrument and the Vaisala WXT520 meteorological sensor.  Ranger III main URL: http://www.mtri.org/rangeriii.html and additional site at: http://www.lakesuperiorwatermonitoring.org/ranger3/</documentation>
+      <documentation type="summary">The vessel RangerIII is a passenger ferry that travels from the Keweenaw Peninsula to the Isle Royale National Park in Lake Superior. This vessel is equipped with a YSI 660 water quality instrument and the Vaisala WXT520 meteorological sensor.</documentation>
 
       <project>MTRI RANGER3</project>
 
@@ -50,7 +50,7 @@
     <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/var/thredds/MTRI-Ranger3/ranger3_2012.nc">
       <attribute name="title" value="MTRI RANGER3" />
 
-      <attribute name="summary" value="The vessel RangerIII is a passenger ferry that travels from the Keweenaw Peninsula to the Isle Royale National Park in Lake Superior. This vessel is equipped with a YSI 660 water quality instrument and the Vaisala WXT520 meteorological sensor." />
+      <attribute name="summary" value="The vessel RangerIII is a passenger ferry that travels from the Keweenaw Peninsula to the Isle Royale National Park in Lake Superior. This vessel is equipped with a YSI 660 water quality instrument and the Vaisala WXT520 meteorological sensor. Ranger III main URL: http://www.mtri.org/rangeriii.html and additional site at: http://www.lakesuperiorwatermonitoring.org/ranger3/" />
       <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
       <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
 
