@@ -493,7 +493,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d10335">
+                        <gml:TimePeriod gml:id="d10603">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2013-06-19T18:15:00Z</gml:beginPosition>
                            <gml:endPosition>2013-10-12T18:45:00Z</gml:endPosition>
@@ -649,7 +649,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d10335e66">
+                        <gml:TimePeriod gml:id="d10603e66">
                            <gml:beginPosition>2013-06-19T18:15:00Z</gml:beginPosition>
                            <gml:endPosition>2013-10-12T18:45:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -834,7 +834,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d10335e67">
+                        <gml:TimePeriod gml:id="d10603e67">
                            <gml:beginPosition>2013-06-19T18:15:00Z</gml:beginPosition>
                            <gml:endPosition>2013-10-12T18:45:00Z</gml:endPosition>
                         </gml:TimePeriod>
