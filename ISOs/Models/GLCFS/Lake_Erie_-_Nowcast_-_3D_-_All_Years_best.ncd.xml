@@ -57,7 +57,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2013-12-01</gco:Date>
+      <gco:Date>2013-12-03</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -375,7 +375,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d37237">
+                        <gml:TimePeriod gml:id="d93">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2006-01-01T03:00:00Z</gml:beginPosition>
                            <gml:endPosition>2013-10-28T00:00:00Z</gml:endPosition>
@@ -508,7 +508,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d37237e72">
+                        <gml:TimePeriod gml:id="d93e72">
                            <gml:beginPosition>2006-01-01T03:00:00Z</gml:beginPosition>
                            <gml:endPosition>2013-10-28T00:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -670,7 +670,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d37237e73">
+                        <gml:TimePeriod gml:id="d93e73">
                            <gml:beginPosition>2006-01-01T03:00:00Z</gml:beginPosition>
                            <gml:endPosition>2013-10-28T00:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -1086,7 +1086,7 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>Tue Aug  6 08:35:50 2013: /opt/local/bin/ncks --fl_fmt=netcdf4_classic --deflate=5 nc_files/e201315100.out3.nc tmp/e201315100.out3.nc4 ;
+                  <gco:CharacterString>Thu Sep 12 11:56:03 2013: /opt/local/bin/ncks --fl_fmt=netcdf4_classic --deflate=5 nc_files/e201320100.out3.nc tmp/e201320100.out3.nc4 ;
 FMRC Best Dataset</gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
