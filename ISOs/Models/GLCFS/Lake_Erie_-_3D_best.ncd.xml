@@ -113,7 +113,7 @@
                                                 codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>5708</gco:Integer>
+                  <gco:Integer>2780</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
                   <gco:Measure uom="seconds">10800.0</gco:Measure>
@@ -375,9 +375,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d9633">
+                        <gml:TimePeriod gml:id="d9747">
                            <gml:description>seconds</gml:description>
-                           <gml:beginPosition>2012-01-01T03:00:00Z</gml:beginPosition>
+                           <gml:beginPosition>2013-01-01T03:00:00Z</gml:beginPosition>
                            <gml:endPosition>2013-12-14T12:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
@@ -508,8 +508,8 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d9633e71">
-                           <gml:beginPosition>2012-01-01T03:00:00Z</gml:beginPosition>
+                        <gml:TimePeriod gml:id="d9747e71">
+                           <gml:beginPosition>2013-01-01T03:00:00Z</gml:beginPosition>
                            <gml:endPosition>2013-12-14T12:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
@@ -670,8 +670,8 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d9633e72">
-                           <gml:beginPosition>2012-01-01T03:00:00Z</gml:beginPosition>
+                        <gml:TimePeriod gml:id="d9747e72">
+                           <gml:beginPosition>2013-01-01T03:00:00Z</gml:beginPosition>
                            <gml:endPosition>2013-12-14T12:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
@@ -855,7 +855,7 @@
                <gmd:descriptor>
                   <gco:CharacterString>offset hour from start of run for coordinate = time (forecast_period)</gco:CharacterString>
                </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#hours%20since%202012-01-01T00%3A00%3A00Z"/>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#hours%20since%202013-01-01T00%3A00%3A00Z"/>
             </gmd:MD_Band>
          </gmd:dimension>
          <gmd:dimension>
@@ -965,7 +965,7 @@
                <gmd:descriptor>
                   <gco:CharacterString>Forecast time for ForecastModelRunCollection (time)</gco:CharacterString>
                </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#hours%20since%202012-01-01T00%3A00%3A00Z"/>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#hours%20since%202013-01-01T00%3A00%3A00Z"/>
             </gmd:MD_Band>
          </gmd:dimension>
          <gmd:dimension>
@@ -987,7 +987,7 @@
                <gmd:descriptor>
                   <gco:CharacterString>run times for coordinate = time (forecast_reference_time)</gco:CharacterString>
                </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#hours%20since%202012-01-01T00%3A00%3A00Z"/>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#hours%20since%202013-01-01T00%3A00%3A00Z"/>
             </gmd:MD_Band>
          </gmd:dimension>
       </gmi:MI_CoverageDescription>
