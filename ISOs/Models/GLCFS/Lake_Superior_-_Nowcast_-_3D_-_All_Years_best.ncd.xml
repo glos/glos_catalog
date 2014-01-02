@@ -283,13 +283,13 @@
                   <gco:CharacterString>forecast_period</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>depth</gco:CharacterString>
+                  <gco:CharacterString>longitude</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
                   <gco:CharacterString>latitude</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>longitude</gco:CharacterString>
+                  <gco:CharacterString>depth</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
                   <gco:CharacterString>ocean_sigma_coordinate</gco:CharacterString>
@@ -378,7 +378,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d34945">
+                        <gml:TimePeriod gml:id="d85">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2006-01-01T03:00:00Z</gml:beginPosition>
                            <gml:endPosition>2014-01-05T12:00:00Z</gml:endPosition>
@@ -511,7 +511,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d34945e72">
+                        <gml:TimePeriod gml:id="d85e71">
                            <gml:beginPosition>2006-01-01T03:00:00Z</gml:beginPosition>
                            <gml:endPosition>2014-01-05T12:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -673,7 +673,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d34945e73">
+                        <gml:TimePeriod gml:id="d85e72">
                            <gml:beginPosition>2006-01-01T03:00:00Z</gml:beginPosition>
                            <gml:endPosition>2014-01-05T12:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -866,7 +866,7 @@
                <gmd:sequenceIdentifier>
                   <gco:MemberName>
                      <gco:aName>
-                        <gco:CharacterString>depth</gco:CharacterString>
+                        <gco:CharacterString>lon</gco:CharacterString>
                      </gco:aName>
                      <gco:attributeType>
                         <gco:TypeName>
@@ -878,9 +878,9 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>Bathymetry (depth)</gco:CharacterString>
+                  <gco:CharacterString>Longitude (longitude)</gco:CharacterString>
                </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#meters"/>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#degrees_east"/>
             </gmd:MD_Band>
          </gmd:dimension>
          <gmd:dimension>
@@ -910,7 +910,7 @@
                <gmd:sequenceIdentifier>
                   <gco:MemberName>
                      <gco:aName>
-                        <gco:CharacterString>lon</gco:CharacterString>
+                        <gco:CharacterString>depth</gco:CharacterString>
                      </gco:aName>
                      <gco:attributeType>
                         <gco:TypeName>
@@ -922,9 +922,9 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>Longitude (longitude)</gco:CharacterString>
+                  <gco:CharacterString>Bathymetry (depth)</gco:CharacterString>
                </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#degrees_east"/>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#meters"/>
             </gmd:MD_Band>
          </gmd:dimension>
          <gmd:dimension>
@@ -1089,8 +1089,7 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>Thu Sep 12 12:09:11 2013: /opt/local/bin/ncks --fl_fmt=netcdf4_classic --deflate=5 nc_files/s201320100.out3.nc tmp/s201320100.out3.nc4 ;
-FMRC Best Dataset</gco:CharacterString>
+                  <gco:CharacterString>FMRC Best Dataset</gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
          </gmd:lineage>
