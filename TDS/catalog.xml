@@ -24,7 +24,9 @@
     <catalogRef xlink:title="GLERL - Precipitation" xlink:href="glerl/PRECIP.xml" name=""/>
     <catalogRef xlink:title="GLERL - Air Temperature" xlink:href="glerl/AIRTEMPS.xml" name=""/>
   </dataset>
-  
+  <dataset name="Cumulative Impact Assessment -- Water Use Datasets">
+    <catalogRef xlink:title="GLC - Water Use Historical 2006 to 2011" xlink:href="glc/wateruse.xml" name=""/>
+  </dataset>
   <dataset name="RANGER3">
     <catalogRef xlink:title="Ranger3" xlink:href="ranger3.xml" name=""/>
   </dataset>
