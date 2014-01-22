@@ -55,7 +55,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2013-11-18</gco:Date>
+      <gco:Date>2014-01-22</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -197,7 +197,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The vessel RangerIII is a passenger ferry that travels from the Keweenaw Peninsula to the Isle Royale National Park in Lake Superior. This vessel is equipped with a YSI 660 water quality instrument and the Vaisala WXT520 meteorological sensor.</gco:CharacterString>
+            <gco:CharacterString>The vessel RangerIII is a passenger ferry that travels from the Keweenaw Peninsula to the Isle Royale National Park in Lake Superior. This vessel is equipped with a YSI 660 water quality instrument and the Vaisala WXT520 meteorological sensor. Ranger III main URL: http://www.mtri.org/rangeriii.html and additional site at: http://www.lakesuperiorwatermonitoring.org/ranger3/</gco:CharacterString>
          </gmd:abstract>
          <gmd:credit>
             <gco:CharacterString>GLOS MTRI</gco:CharacterString>
@@ -371,7 +371,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d1">
+                        <gml:TimePeriod gml:id="d3039">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2012-06-19T12:59:12Z</gml:beginPosition>
                            <gml:endPosition>2012-07-25T10:40:00Z</gml:endPosition>
@@ -462,7 +462,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The vessel RangerIII is a passenger ferry that travels from the Keweenaw Peninsula to the Isle Royale National Park in Lake Superior. This vessel is equipped with a YSI 660 water quality instrument and the Vaisala WXT520 meteorological sensor.</gco:CharacterString>
+            <gco:CharacterString>The vessel RangerIII is a passenger ferry that travels from the Keweenaw Peninsula to the Isle Royale National Park in Lake Superior. This vessel is equipped with a YSI 660 water quality instrument and the Vaisala WXT520 meteorological sensor. Ranger III main URL: http://www.mtri.org/rangeriii.html and additional site at: http://www.lakesuperiorwatermonitoring.org/ranger3/</gco:CharacterString>
          </gmd:abstract>
          <srv:serviceType>
             <gco:LocalName>THREDDS OPeNDAP</gco:LocalName>
@@ -491,7 +491,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d1e45">
+                        <gml:TimePeriod gml:id="d3039e45">
                            <gml:beginPosition>2012-06-19T12:59:12Z</gml:beginPosition>
                            <gml:endPosition>2012-07-25T10:40:00Z</gml:endPosition>
                         </gml:TimePeriod>
