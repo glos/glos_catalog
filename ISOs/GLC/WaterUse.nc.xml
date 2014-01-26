@@ -13,7 +13,7 @@
                  xmlns:srv="http://www.isotc211.org/2005/srv"
                  xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
    <gmd:fileIdentifier>
-      <gco:CharacterString>8e4200cb</gco:CharacterString>
+      <gco:CharacterString>GLC</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#LanguageCode"
@@ -51,43 +51,18 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
-   <gmd:spatialRepresentationInfo>
-      <gmd:MD_GridSpatialRepresentation>
-         <gmd:numberOfDimensions>
-            <gco:Integer>1</gco:Integer>
-         </gmd:numberOfDimensions>
-         <gmd:axisDimensionProperties>
-            <gmd:MD_Dimension>
-               <gmd:dimensionName>
-                  <gmd:MD_DimensionNameTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode"
-                                                codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
-               </gmd:dimensionName>
-               <gmd:dimensionSize>
-                  <gco:Integer>744</gco:Integer>
-               </gmd:dimensionSize>
-               <gmd:resolution>
-                  <gco:Measure uom="seconds">2629676.0</gco:Measure>
-               </gmd:resolution>
-            </gmd:MD_Dimension>
-         </gmd:axisDimensionProperties>
-         <gmd:cellGeometry>
-            <gmd:MD_CellGeometryCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_CellGeometryCode"
-                                     codeListValue="area">area</gmd:MD_CellGeometryCode>
-         </gmd:cellGeometry>
-         <gmd:transformationParameterAvailability gco:nilReason="unknown"/>
-      </gmd:MD_GridSpatialRepresentation>
-   </gmd:spatialRepresentationInfo>
+   <gmd:spatialRepresentationInfo gco:nilReason="missing"/>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification id="DataIdentification">
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Georgian Bay</gco:CharacterString>
+                  <gco:CharacterString>Great Lakes Water Use Data, Historical, 2006 to 2011</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:Date>2013-11-14</gco:Date>
+                        <gco:Date>2014-01-02</gco:Date>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
@@ -98,7 +73,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:Date>2013-11-14</gco:Date>
+                        <gco:Date>2014-01-02</gco:Date>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
@@ -109,7 +84,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:Date>2013-11-14</gco:Date>
+                        <gco:Date>2014-01-02</gco:Date>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
@@ -119,16 +94,8 @@
                </gmd:date>
                <gmd:identifier>
                   <gmd:MD_Identifier>
-                     <gmd:authority>
-                        <gmd:CI_Citation>
-                           <gmd:title>
-                              <gco:CharacterString>GLOS</gco:CharacterString>
-                           </gmd:title>
-                           <gmd:date gco:nilReason="inapplicable"/>
-                        </gmd:CI_Citation>
-                     </gmd:authority>
                      <gmd:code>
-                        <gco:CharacterString>8e4200cb</gco:CharacterString>
+                        <gco:CharacterString>GLC</gco:CharacterString>
                      </gmd:code>
                   </gmd:MD_Identifier>
                </gmd:identifier>
@@ -158,9 +125,7 @@
                </gmd:citedResponsibleParty>
             </gmd:CI_Citation>
          </gmd:citation>
-         <gmd:abstract>
-            <gco:CharacterString> Monthly Evaporation (mm over lake) from GLERL Lake Evaporation Model</gco:CharacterString>
-         </gmd:abstract>
+         <gmd:abstract gco:nilReason="missing"/>
          <gmd:credit>
             <gco:CharacterString>GLOS</gco:CharacterString>
          </gmd:credit>
@@ -175,40 +140,6 @@
                </gmd:role>
             </gmd:CI_ResponsibleParty>
          </gmd:pointOfContact>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword>
-                  <gco:CharacterString>GLOS</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:type>
-                  <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
-                                          codeListValue="project">project</gmd:MD_KeywordTypeCode>
-               </gmd:type>
-               <gmd:thesaurusName gco:nilReason="unknown"/>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword>
-                  <gco:CharacterString>water_evaporation_amount</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>time</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:type>
-                  <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
-                                          codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
-               </gmd:type>
-               <gmd:thesaurusName>
-                  <gmd:CI_Citation>
-                     <gmd:title>
-                        <gco:CharacterString>http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html</gco:CharacterString>
-                     </gmd:title>
-                     <gmd:date gco:nilReason="unknown"/>
-                  </gmd:CI_Citation>
-               </gmd:thesaurusName>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
          <gmd:resourceConstraints>
             <gmd:MD_LegalConstraints>
                <gmd:useLimitation>
@@ -216,77 +147,13 @@
                </gmd:useLimitation>
             </gmd:MD_LegalConstraints>
          </gmd:resourceConstraints>
-         <gmd:aggregationInfo>
-            <gmd:MD_AggregateInformation>
-               <gmd:aggregateDataSetName>
-                  <gmd:CI_Citation>
-                     <gmd:title>
-                        <gco:CharacterString>GLOS</gco:CharacterString>
-                     </gmd:title>
-                     <gmd:date gco:nilReason="inapplicable"/>
-                  </gmd:CI_Citation>
-               </gmd:aggregateDataSetName>
-               <gmd:associationType>
-                  <gmd:DS_AssociationTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode"
-                                              codeListValue="largerWorkCitation">largerWorkCitation</gmd:DS_AssociationTypeCode>
-               </gmd:associationType>
-               <gmd:initiativeType>
-                  <gmd:DS_InitiativeTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode"
-                                             codeListValue="project">project</gmd:DS_InitiativeTypeCode>
-               </gmd:initiativeType>
-            </gmd:MD_AggregateInformation>
-         </gmd:aggregationInfo>
          <gmd:language>
             <gco:CharacterString>eng</gco:CharacterString>
          </gmd:language>
          <gmd:topicCategory>
             <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
          </gmd:topicCategory>
-         <gmd:extent>
-            <gmd:EX_Extent id="boundingExtent">
-               <gmd:geographicElement>
-                  <gmd:EX_GeographicBoundingBox id="boundingGeographicBoundingBox">
-                     <gmd:extentTypeCode>
-                        <gco:Boolean>1</gco:Boolean>
-                     </gmd:extentTypeCode>
-                     <gmd:westBoundLongitude>
-                        <gco:Decimal>-92.414</gco:Decimal>
-                     </gmd:westBoundLongitude>
-                     <gmd:eastBoundLongitude>
-                        <gco:Decimal>-75.659</gco:Decimal>
-                     </gmd:eastBoundLongitude>
-                     <gmd:southBoundLatitude>
-                        <gco:Decimal>41.5586</gco:Decimal>
-                     </gmd:southBoundLatitude>
-                     <gmd:northBoundLatitude>
-                        <gco:Decimal>48.95</gco:Decimal>
-                     </gmd:northBoundLatitude>
-                  </gmd:EX_GeographicBoundingBox>
-               </gmd:geographicElement>
-               <gmd:temporalElement>
-                  <gmd:EX_TemporalExtent id="boundingTemporalExtent">
-                     <gmd:extent>
-                        <gml:TimePeriod gml:id="d31539">
-                           <gml:description>seconds</gml:description>
-                           <gml:beginPosition>1950-01-01T00:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2011-12-01T00:00:00Z</gml:endPosition>
-                        </gml:TimePeriod>
-                     </gmd:extent>
-                  </gmd:EX_TemporalExtent>
-               </gmd:temporalElement>
-               <gmd:verticalElement>
-                  <gmd:EX_VerticalExtent>
-                     <gmd:minimumValue>
-                        <gco:Real>0.0</gco:Real>
-                     </gmd:minimumValue>
-                     <gmd:maximumValue>
-                        <gco:Real>0.0</gco:Real>
-                     </gmd:maximumValue>
-                     <gmd:verticalCRS gco:nilReason="missing"/>
-                  </gmd:EX_VerticalExtent>
-               </gmd:verticalElement>
-            </gmd:EX_Extent>
-         </gmd:extent>
+         <gmd:extent gco:nilReason="missing"/>
       </gmd:MD_DataIdentification>
    </gmd:identificationInfo>
    <gmd:identificationInfo>
@@ -294,12 +161,12 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Georgian Bay</gco:CharacterString>
+                  <gco:CharacterString>Great Lakes Water Use Data, Historical, 2006 to 2011</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:Date>2013-11-14</gco:Date>
+                        <gco:Date>2014-01-02</gco:Date>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
@@ -310,7 +177,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:Date>2013-11-14</gco:Date>
+                        <gco:Date>2014-01-02</gco:Date>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
@@ -321,7 +188,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:Date>2013-11-14</gco:Date>
+                        <gco:Date>2014-01-02</gco:Date>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
@@ -355,56 +222,11 @@
                </gmd:citedResponsibleParty>
             </gmd:CI_Citation>
          </gmd:citation>
-         <gmd:abstract>
-            <gco:CharacterString> Monthly Evaporation (mm over lake) from GLERL Lake Evaporation Model</gco:CharacterString>
-         </gmd:abstract>
+         <gmd:abstract gco:nilReason="missing"/>
          <srv:serviceType>
             <gco:LocalName>THREDDS OPeNDAP</gco:LocalName>
          </srv:serviceType>
-         <srv:extent>
-            <gmd:EX_Extent>
-               <gmd:geographicElement>
-                  <gmd:EX_GeographicBoundingBox>
-                     <gmd:extentTypeCode>
-                        <gco:Boolean>1</gco:Boolean>
-                     </gmd:extentTypeCode>
-                     <gmd:westBoundLongitude>
-                        <gco:Decimal>-92.414</gco:Decimal>
-                     </gmd:westBoundLongitude>
-                     <gmd:eastBoundLongitude>
-                        <gco:Decimal>-75.659</gco:Decimal>
-                     </gmd:eastBoundLongitude>
-                     <gmd:southBoundLatitude>
-                        <gco:Decimal>41.5586</gco:Decimal>
-                     </gmd:southBoundLatitude>
-                     <gmd:northBoundLatitude>
-                        <gco:Decimal>48.95</gco:Decimal>
-                     </gmd:northBoundLatitude>
-                  </gmd:EX_GeographicBoundingBox>
-               </gmd:geographicElement>
-               <gmd:temporalElement>
-                  <gmd:EX_TemporalExtent>
-                     <gmd:extent>
-                        <gml:TimePeriod gml:id="d31539e47">
-                           <gml:beginPosition>1950-01-01T00:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2011-12-01T00:00:00Z</gml:endPosition>
-                        </gml:TimePeriod>
-                     </gmd:extent>
-                  </gmd:EX_TemporalExtent>
-               </gmd:temporalElement>
-               <gmd:verticalElement>
-                  <gmd:EX_VerticalExtent>
-                     <gmd:minimumValue>
-                        <gco:Real>0.0</gco:Real>
-                     </gmd:minimumValue>
-                     <gmd:maximumValue>
-                        <gco:Real>0.0</gco:Real>
-                     </gmd:maximumValue>
-                     <gmd:verticalCRS gco:nilReason="missing"/>
-                  </gmd:EX_VerticalExtent>
-               </gmd:verticalElement>
-            </gmd:EX_Extent>
-         </srv:extent>
+         <srv:extent gco:nilReason="missing"/>
          <srv:couplingType>
             <srv:SV_CouplingType codeList="http://www.tc211.org/ISO19139/resources/codeList.xml#SV_CouplingType"
                                  codeListValue="tight">tight</srv:SV_CouplingType>
@@ -418,7 +240,7 @@
                <srv:connectPoint>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://tds.glos.us/thredds/dodsC/PRECIP/8e4200cb.nc</gmd:URL>
+                        <gmd:URL>http://tds.glos.us/thredds/dodsC/GLC/WaterUse.nc</gmd:URL>
                      </gmd:linkage>
                      <gmd:name>
                         <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -446,7 +268,7 @@
                <gmd:sequenceIdentifier>
                   <gco:MemberName>
                      <gco:aName>
-                        <gco:CharacterString>evaporation</gco:CharacterString>
+                        <gco:CharacterString>Consumptive_Use</gco:CharacterString>
                      </gco:aName>
                      <gco:attributeType>
                         <gco:TypeName>
@@ -458,9 +280,8 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString> (water_evaporation_amount)</gco:CharacterString>
+                  <gco:CharacterString/>
                </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#mm"/>
             </gmd:MD_Band>
          </gmd:dimension>
          <gmd:dimension>
@@ -468,7 +289,7 @@
                <gmd:sequenceIdentifier>
                   <gco:MemberName>
                      <gco:aName>
-                        <gco:CharacterString>time</gco:CharacterString>
+                        <gco:CharacterString>Diversion</gco:CharacterString>
                      </gco:aName>
                      <gco:attributeType>
                         <gco:TypeName>
@@ -480,9 +301,50 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>Time (time)</gco:CharacterString>
+                  <gco:CharacterString/>
                </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#seconds%20since%201970-01-01"/>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>Year</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>int</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString/>
+               </gmd:descriptor>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>Basin</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>String</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString/>
+               </gmd:descriptor>
             </gmd:MD_Band>
          </gmd:dimension>
       </gmi:MI_CoverageDescription>
@@ -505,7 +367,7 @@
                      <gmd:onLine>
                         <gmd:CI_OnlineResource>
                            <gmd:linkage>
-                              <gmd:URL>http://tds.glos.us/thredds/dodsC/PRECIP/8e4200cb.nc.html</gmd:URL>
+                              <gmd:URL>http://tds.glos.us/thredds/dodsC/GLC/WaterUse.nc.html</gmd:URL>
                            </gmd:linkage>
                            <gmd:name>
                               <gco:CharacterString>File Information</gco:CharacterString>
@@ -526,7 +388,7 @@
                      <gmd:onLine>
                         <gmd:CI_OnlineResource>
                            <gmd:linkage>
-                              <gmd:URL>http://www.ncdc.noaa.gov/oa/wct/wct-jnlp-beta.php?singlefile=http://tds.glos.us/thredds/dodsC/PRECIP/8e4200cb.nc</gmd:URL>
+                              <gmd:URL>http://www.ncdc.noaa.gov/oa/wct/wct-jnlp-beta.php?singlefile=http://tds.glos.us/thredds/dodsC/GLC/WaterUse.nc</gmd:URL>
                            </gmd:linkage>
                            <gmd:name>
                               <gco:CharacterString>Viewer Information</gco:CharacterString>
@@ -546,25 +408,6 @@
          </gmd:distributor>
       </gmd:MD_Distribution>
    </gmd:distributionInfo>
-   <gmd:dataQualityInfo>
-      <gmd:DQ_DataQuality>
-         <gmd:scope>
-            <gmd:DQ_Scope>
-               <gmd:level>
-                  <gmd:MD_ScopeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
-                                    codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-               </gmd:level>
-            </gmd:DQ_Scope>
-         </gmd:scope>
-         <gmd:lineage>
-            <gmd:LI_Lineage>
-               <gmd:statement>
-                  <gco:CharacterString>Created dynamically in IPython Notebook 2013-11-14</gco:CharacterString>
-               </gmd:statement>
-            </gmd:LI_Lineage>
-         </gmd:lineage>
-      </gmd:DQ_DataQuality>
-   </gmd:dataQualityInfo>
    <gmd:metadataMaintenance>
       <gmd:MD_MaintenanceInformation>
          <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
