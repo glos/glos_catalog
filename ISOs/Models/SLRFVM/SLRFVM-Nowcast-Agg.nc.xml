@@ -358,10 +358,10 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d28461">
+                        <gml:TimePeriod gml:id="d29141">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2012-03-23T07:01:52Z</gml:beginPosition>
-                           <gml:endPosition>2014-01-31T12:00:00Z</gml:endPosition>
+                           <gml:endPosition>2014-01-31T15:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -480,9 +480,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d28461e58">
+                        <gml:TimePeriod gml:id="d29141e58">
                            <gml:beginPosition>2012-03-23T07:01:52Z</gml:beginPosition>
-                           <gml:endPosition>2014-01-31T12:00:00Z</gml:endPosition>
+                           <gml:endPosition>2014-01-31T15:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -1224,10 +1224,10 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>Fri Jan 31 21:13:51 2014: ncap2 -O -S /zeus/d2/usl/ncap2.nco temp.nc temp.nc
-Fri Jan 31 21:13:51 2014: ncks -d node,97,19700 -d node,19703,19719 -d node,19723,19731 -d nele,180,35028 -d nele,35032,35061 -d nele,35067,35083 /zeus/d2/usl/nowcast/2014/output/netcdf/201403109.nc temp.nc
-Fri Jan 31 21:13:35 2014: ncap2 -O -s nprocs=nprocs;partition=partition;x=x;y=y;where(lon&gt;0.0) lon=lon-360; usl_0001.nc usl_0001.nc
-model started at: 31/01/2014   15:10</gco:CharacterString>
+                  <gco:CharacterString>Sat Feb  1 00:14:01 2014: ncap2 -O -S /zeus/d2/usl/ncap2.nco temp.nc temp.nc
+Sat Feb  1 00:14:01 2014: ncks -d node,97,19700 -d node,19703,19719 -d node,19723,19731 -d nele,180,35028 -d nele,35032,35061 -d nele,35067,35083 /zeus/d2/usl/nowcast/2014/output/netcdf/201403112.nc temp.nc
+Sat Feb  1 00:13:42 2014: ncap2 -O -s nprocs=nprocs;partition=partition;x=x;y=y;where(lon&gt;0.0) lon=lon-360; usl_0001.nc usl_0001.nc
+model started at: 31/01/2014   18:11</gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
          </gmd:lineage>
