@@ -113,7 +113,7 @@
                                                 codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>40</gco:Integer>
+                  <gco:Integer>472</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
                   <gco:Measure uom="seconds">10800.0</gco:Measure>
@@ -277,7 +277,7 @@
                   <gco:CharacterString>northward_sea_water_velocity</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>time</gco:CharacterString>
+                  <gco:CharacterString>forecast_period</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
                   <gco:CharacterString>longitude</gco:CharacterString>
@@ -290,6 +290,12 @@
                </gmd:keyword>
                <gmd:keyword>
                   <gco:CharacterString>ocean_sigma_coordinate</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>time</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>forecast_reference_time</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
@@ -369,10 +375,10 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d55195">
+                        <gml:TimePeriod gml:id="d119">
                            <gml:description>seconds</gml:description>
-                           <gml:beginPosition>2014-02-17T03:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-02-22T00:00:00Z</gml:endPosition>
+                           <gml:beginPosition>2014-01-01T03:00:00Z</gml:beginPosition>
+                           <gml:endPosition>2014-03-01T00:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -502,9 +508,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d55195e71">
-                           <gml:beginPosition>2014-02-17T03:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-02-22T00:00:00Z</gml:endPosition>
+                        <gml:TimePeriod gml:id="d119e71">
+                           <gml:beginPosition>2014-01-01T03:00:00Z</gml:beginPosition>
+                           <gml:endPosition>2014-03-01T00:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -664,9 +670,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d55195e72">
-                           <gml:beginPosition>2014-02-17T03:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-02-22T00:00:00Z</gml:endPosition>
+                        <gml:TimePeriod gml:id="d119e72">
+                           <gml:beginPosition>2014-01-01T03:00:00Z</gml:beginPosition>
+                           <gml:endPosition>2014-03-01T00:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -835,21 +841,21 @@
                <gmd:sequenceIdentifier>
                   <gco:MemberName>
                      <gco:aName>
-                        <gco:CharacterString>time</gco:CharacterString>
+                        <gco:CharacterString>time_offset</gco:CharacterString>
                      </gco:aName>
                      <gco:attributeType>
                         <gco:TypeName>
                            <gco:aName>
-                              <gco:CharacterString>int</gco:CharacterString>
+                              <gco:CharacterString>double</gco:CharacterString>
                            </gco:aName>
                         </gco:TypeName>
                      </gco:attributeType>
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>UTC (time)</gco:CharacterString>
+                  <gco:CharacterString>offset hour from start of run for coordinate = time (forecast_period)</gco:CharacterString>
                </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#seconds%20since%201970-01-01%2000%3A00%3A00%20%2B00%3A00"/>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#hours%20since%202014-01-01T00%3A00%3A00Z"/>
             </gmd:MD_Band>
          </gmd:dimension>
          <gmd:dimension>
@@ -938,6 +944,50 @@
                   <gco:CharacterString>Sigma Stretched Vertical Coordinate at Nodes (ocean_sigma_coordinate)</gco:CharacterString>
                </gmd:descriptor>
                <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1"/>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>time</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>double</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>Forecast time for ForecastModelRunCollection (time)</gco:CharacterString>
+               </gmd:descriptor>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#hours%20since%202014-01-01T00%3A00%3A00Z"/>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>time_run</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>double</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>run times for coordinate = time (forecast_reference_time)</gco:CharacterString>
+               </gmd:descriptor>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#hours%20since%202014-01-01T00%3A00%3A00Z"/>
             </gmd:MD_Band>
          </gmd:dimension>
       </gmi:MI_CoverageDescription>
