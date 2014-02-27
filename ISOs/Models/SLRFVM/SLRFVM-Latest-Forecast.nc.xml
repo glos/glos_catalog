@@ -325,10 +325,10 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d22341">
+                        <gml:TimePeriod gml:id="d23123">
                            <gml:description>seconds</gml:description>
-                           <gml:beginPosition>2014-02-26T13:01:52Z</gml:beginPosition>
-                           <gml:endPosition>2014-02-28T12:00:00Z</gml:endPosition>
+                           <gml:beginPosition>2014-02-26T16:01:52Z</gml:beginPosition>
+                           <gml:endPosition>2014-02-28T15:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -447,9 +447,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d22341e60">
-                           <gml:beginPosition>2014-02-26T13:01:52Z</gml:beginPosition>
-                           <gml:endPosition>2014-02-28T12:00:00Z</gml:endPosition>
+                        <gml:TimePeriod gml:id="d23123e60">
+                           <gml:beginPosition>2014-02-26T16:01:52Z</gml:beginPosition>
+                           <gml:endPosition>2014-02-28T15:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -598,9 +598,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d22341e61">
-                           <gml:beginPosition>2014-02-26T13:01:52Z</gml:beginPosition>
-                           <gml:endPosition>2014-02-28T12:00:00Z</gml:endPosition>
+                        <gml:TimePeriod gml:id="d23123e61">
+                           <gml:beginPosition>2014-02-26T16:01:52Z</gml:beginPosition>
+                           <gml:endPosition>2014-02-28T15:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -1321,10 +1321,10 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>Thu Feb 27 03:56:39 2014: ncap2 -O -S /zeus/d2/usl/ncap2.nco temp.nc temp.nc
-Thu Feb 27 03:56:37 2014: ncks -d node,97,19700 -d node,19703,19719 -d node,19723,19731 -d nele,180,35028 -d nele,35032,35061 -d nele,35067,35083 /zeus/d2/usl/forecast/2014/output/netcdf/201405712.nc temp.nc
-Thu Feb 27 03:54:39 2014: ncap2 -O -s nprocs=nprocs;partition=partition;x=x;y=y;where(lon&gt;0.0) lon=lon-360; usl_0001.nc usl_0001.nc
-model started at: 26/02/2014   21:14</gco:CharacterString>
+                  <gco:CharacterString>Thu Feb 27 06:56:24 2014: ncap2 -O -S /zeus/d2/usl/ncap2.nco temp.nc temp.nc
+Thu Feb 27 06:56:22 2014: ncks -d node,97,19700 -d node,19703,19719 -d node,19723,19731 -d nele,180,35028 -d nele,35032,35061 -d nele,35067,35083 /zeus/d2/usl/forecast/2014/output/netcdf/201405715.nc temp.nc
+Thu Feb 27 06:54:24 2014: ncap2 -O -s nprocs=nprocs;partition=partition;x=x;y=y;where(lon&gt;0.0) lon=lon-360; usl_0001.nc usl_0001.nc
+model started at: 27/02/2014   00:14</gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
          </gmd:lineage>
