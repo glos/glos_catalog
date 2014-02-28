@@ -493,7 +493,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d36275">
+                        <gml:TimePeriod gml:id="d36955">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2013-06-20T18:55:00Z</gml:beginPosition>
                            <gml:endPosition>2013-10-12T18:45:00Z</gml:endPosition>
@@ -649,7 +649,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d36275e66">
+                        <gml:TimePeriod gml:id="d36955e66">
                            <gml:beginPosition>2013-06-20T18:55:00Z</gml:beginPosition>
                            <gml:endPosition>2013-10-12T18:45:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -834,7 +834,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d36275e67">
+                        <gml:TimePeriod gml:id="d36955e67">
                            <gml:beginPosition>2013-06-20T18:55:00Z</gml:beginPosition>
                            <gml:endPosition>2013-10-12T18:45:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -1162,7 +1162,7 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>Wed Oct 23 11:22:43 2013: GDAL Create( /home/nljessee/Desktop/DMAC_Scripts/Ontario/NCI/20131012_1845.nc, ... )</gco:CharacterString>
+                  <gco:CharacterString>Mon Feb 10 11:32:03 2014: GDAL Create( /home/nljessee/Desktop/DMAC_Scripts/Ontario/NCI/20131012_1845.nc, ... )</gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
          </gmd:lineage>
