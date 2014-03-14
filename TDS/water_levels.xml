@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog name="Great Lakes Water Levels"
+        xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <service name="agg" base="" serviceType="compound">
+    <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/" />
+    <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+    <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+    <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+  </service>
+
+  <dataset name="Water Levels" ID="waterlevels" urlPath="Water_Levels.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Water Levels</keyword>
+      <date type="created">2014-03-07</date>
+      <date type="modified">2014-03-07</date>
+      <date type="issued">2014-03-07</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="summary">The Great Lakes Water Levels are reported by the Army Corps of Engineers.  The Army Corps of Engineers provide water levels based off data from several stations across the Great Lakes.</documentation>
+
+      <project>GLOS Water Levels</project>
+
+      <creator>
+        <name>USACE</name>
+        <contact url="http://www.usace.army.mil" email="hq-publicaffaris@usace.army.mil"></contact>
+      </creator>
+
+      <publisher>
+        <name>GLOSE DMAC</name>
+        <contact url="http://glos.us" email="dmac@glos.us"></contact>
+      </publisher>
+
+      <contributor role="distributor">GLOS</contributor>
+      <contributor role="producer">GLOS</contributor>
+
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+
+     <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <attribute name="title" value="Aggregated Great Lakes Water Levels" />\
+       <attribute name="summary" value="Aggregated Great Lakes Water Levels" />
+        <aggregation dimName="time" type="joinExisting" >
+          <scan location="file:/data/water_levels/" suffix=".nc" />
+        </aggregation>
+     </netcdf>
+  </dataset>
+
+
+
+</catalog>
