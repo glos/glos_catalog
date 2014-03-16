@@ -94,6 +94,11 @@ def main(base_download_path):
     download_path = os.path.join(base_download_path, "GLERL", "AIRTEMPS")
     run_downloader(selects, "http://tds.glos.us/thredds/glerl/AIRTEMPS.html", download_path)
 
+    # water levels
+    selects = [".*"]
+    download_path = os.path.join(base_download_path, "WaterLevels")
+    run_downloader(selects, "http://tds.glos.us/thredds/water_levels.html", download_path)
+
     # CIA
     selects = [".*"]
     isos = ThreddsCollector("http://tds.glos.us/thredds/glc/wateruse.html", selects=selects).run()
