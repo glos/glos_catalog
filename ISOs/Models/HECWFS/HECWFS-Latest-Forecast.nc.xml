@@ -311,10 +311,10 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d10369">
+                        <gml:TimePeriod gml:id="d11049">
                            <gml:description>seconds</gml:description>
-                           <gml:beginPosition>2014-03-15T01:01:52Z</gml:beginPosition>
-                           <gml:endPosition>2014-03-17T00:00:00Z</gml:endPosition>
+                           <gml:beginPosition>2014-03-15T13:01:52Z</gml:beginPosition>
+                           <gml:endPosition>2014-03-17T12:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -414,9 +414,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d10369e49">
-                           <gml:beginPosition>2014-03-15T01:01:52Z</gml:beginPosition>
-                           <gml:endPosition>2014-03-17T00:00:00Z</gml:endPosition>
+                        <gml:TimePeriod gml:id="d11049e49">
+                           <gml:beginPosition>2014-03-15T13:01:52Z</gml:beginPosition>
+                           <gml:endPosition>2014-03-17T12:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -546,9 +546,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d10369e50">
-                           <gml:beginPosition>2014-03-15T01:01:52Z</gml:beginPosition>
-                           <gml:endPosition>2014-03-17T00:00:00Z</gml:endPosition>
+                        <gml:TimePeriod gml:id="d11049e50">
+                           <gml:beginPosition>2014-03-15T13:01:52Z</gml:beginPosition>
+                           <gml:endPosition>2014-03-17T12:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -1357,7 +1357,7 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>model started at: 14/03/2014   21:52</gco:CharacterString>
+                  <gco:CharacterString>model started at: 15/03/2014   09:52</gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
          </gmd:lineage>
