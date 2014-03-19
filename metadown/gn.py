@@ -24,7 +24,7 @@ def main(base_download_path):
     # selects: The ID in THREDDS needs to contain one of these strings to be identified.
     # skips: The LINK path in the actual thredds catalog webpage can't be equal to any of these strings
     
-    isos = GeoNetworkCollector("http://data.glos.us/metadata").run()
+    isos = GeoNetworkCollector("http://slrfvm.glos.us/geonetwork").run()
     download_path = os.path.join(base_download_path, "GeoNetwork")
     XmlDownloader.run(isos, download_path, namer=GeoNetworkCollector.namer, modifier=GeoNetworkCollector.modifier)   
 

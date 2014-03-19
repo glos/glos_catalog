@@ -1,260 +1,414 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd"><gmd:fileIdentifier xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:CharacterString>58c5c998-34b6-4352-9430-81ff6144b766</gco:CharacterString>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd"><gmd:fileIdentifier xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>296d8473f3cb61cc459c9c30550f24b85d734023</gco:CharacterString>
   </gmd:fileIdentifier>
   <gmd:language xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gco:CharacterString>eng</gco:CharacterString>
   </gmd:language>
   <gmd:characterSet xmlns:gmd="http://www.isotc211.org/2005/gmd">
-      <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="./resources/codeList.xml#MD_CharacterSetCode"/>
+      <gmd:MD_CharacterSetCode codeList="./resources/codeList.xml#MD_CharacterSetCode" codeListValue="utf8"/>
   </gmd:characterSet>
-  <gmd:contact xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gmd:CI_ResponsibleParty>
-         <gmd:individualName>
-            <gco:CharacterString>Dick Bartz &amp; Pat Inch</gco:CharacterString>
-         </gmd:individualName>
-         <gmd:organisationName>
-            <gco:CharacterString>Ontario MOE &amp; USGS</gco:CharacterString>
-         </gmd:organisationName>
-         <gmd:positionName>
-            <gco:CharacterString>Metadata Authors</gco:CharacterString>
-         </gmd:positionName>
-         <gmd:contactInfo>
-            <gmd:CI_Contact>
-               <gmd:phone>
-                  <gmd:CI_Telephone>
-                     <gmd:voice>
-                        <gco:CharacterString>807.475.1723 &amp; 614.430.7742</gco:CharacterString>
-                     </gmd:voice>
-                  </gmd:CI_Telephone>
-               </gmd:phone>
-               <gmd:address>
-                  <gmd:CI_Address>
-                     <gmd:city gco:nilReason="missing">
-                        <gco:CharacterString/>
-                     </gmd:city>
-                     <gmd:administrativeArea gco:nilReason="missing">
-                        <gco:CharacterString/>
-                     </gmd:administrativeArea>
-                     <gmd:postalCode gco:nilReason="missing">
-                        <gco:CharacterString/>
-                     </gmd:postalCode>
-                     <gmd:country gco:nilReason="missing">
-                        <gco:CharacterString/>
-                     </gmd:country>
-                     <gmd:electronicMailAddress>
-                        <gco:CharacterString>Pat.Inch@ontario.ca;  rsbartz@usgs.gov</gco:CharacterString>
-                     </gmd:electronicMailAddress>
-                  </gmd:CI_Address>
-               </gmd:address>
-            </gmd:CI_Contact>
-         </gmd:contactInfo>
-         <gmd:role>
-            <gmd:CI_RoleCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
-         </gmd:role>
-      </gmd:CI_ResponsibleParty>
-  </gmd:contact>
+  <gmd:hierarchyLevel xmlns:gmd="http://www.isotc211.org/2005/gmd">
+      <gmd:MD_ScopeCode codeList="./resources/codeList.xml#MD_ScopeCode" codeListValue="service"/>
+  </gmd:hierarchyLevel>
+  <gmd:contact xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
   <gmd:dateStamp xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:DateTime xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx">2011-09-21T09:52:21</gco:DateTime>
+      <gco:DateTime>2013-08-21T09:58:11</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+      <gco:CharacterString>ISO 19119/2005</gco:CharacterString>
   </gmd:metadataStandardName>
   <gmd:metadataStandardVersion xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:CharacterString>Version 3.14</gco:CharacterString>
+      <gco:CharacterString>1.0</gco:CharacterString>
   </gmd:metadataStandardVersion>
-  <gmd:identificationInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml">
-      <gmd:MD_DataIdentification>
+  <gmd:identificationInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <srv:SV_ServiceIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Assessment of the Present and Future Water Use in the Great Lakes Basin - Final Report</gco:CharacterString>
+                  <gco:CharacterString>Bird Studies Canada WMS/WFS Server</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:Date>2010-05-03</gco:Date>
+                        <gco:DateTime>2013-08-21T09:58:11</gco:DateTime>
                      </gmd:date>
                      <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
+                        <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="revision"/>
                      </gmd:dateType>
                   </gmd:CI_Date>
                </gmd:date>
-               <gmd:edition gco:nilReason="missing">
-                  <gco:CharacterString/>
-               </gmd:edition>
-               <gmd:otherCitationDetails>
-                  <gco:CharacterString>Water Uses Technical Working Group</gco:CharacterString>
-               </gmd:otherCitationDetails>
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The study was to identify and summarize the following information: current water withdrawals for major water use sectors for each lake in the Great Lakes basin using existing and available data sources; past trends in water use demand by major water user sectors for each lake in the Great Lakes basin and corresponding trends in related factors such as population growth and economic growth; forecasted water use demand on the Upper Great Lakes by credible agencies or sources of information; and significant factors, including climate change, which may affect forecasted projections
-and trends in water use demand on the Upper Great Lakes.</gco:CharacterString>
+            <gco:CharacterString>Bird Studies Canada WMS/WFS Server for bird distribution and abundance data, and related information.  Bird Studies Canada gratefully acknowledges the support of Environment Canada - Canadian Information System for the Environment in developing this service.</gco:CharacterString>
          </gmd:abstract>
-         <gmd:purpose>
-            <gco:CharacterString>The study assesses the currently available information on past, present and future water withdrawals, returns and consumptive use in the Great Lakes Basin.</gco:CharacterString>
-         </gmd:purpose>
          <gmd:status>
-            <gmd:MD_ProgressCode codeListValue="completed" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ProgressCode"/>
+            <gmd:MD_ProgressCode codeList="./resources/codeList.xml#MD_ProgressCode" codeListValue="completed"/>
          </gmd:status>
-         <gmd:pointOfContact>
-            <gmd:CI_ResponsibleParty>
-               <gmd:individualName>
-                  <gco:CharacterString>Pat Inch &amp; Dick Bartz</gco:CharacterString>
-               </gmd:individualName>
-               <gmd:organisationName>
-                  <gco:CharacterString>Ontario MOE &amp; USGS</gco:CharacterString>
-               </gmd:organisationName>
-               <gmd:positionName>
-                  <gco:CharacterString>Co-Chairs - Technical Working Group; Municipal and Industrial Water Uses</gco:CharacterString>
-               </gmd:positionName>
-               <gmd:contactInfo>
-                  <gmd:CI_Contact>
-                     <gmd:phone>
-                        <gmd:CI_Telephone>
-                           <gmd:voice>
-                              <gco:CharacterString>807.475.1723 &amp; 614.430.7742</gco:CharacterString>
-                           </gmd:voice>
-                        </gmd:CI_Telephone>
-                     </gmd:phone>
-                     <gmd:address>
-                        <gmd:CI_Address>
-                           <gmd:city gco:nilReason="missing">
-                              <gco:CharacterString/>
-                           </gmd:city>
-                           <gmd:administrativeArea gco:nilReason="missing">
-                              <gco:CharacterString/>
-                           </gmd:administrativeArea>
-                           <gmd:postalCode gco:nilReason="missing">
-                              <gco:CharacterString/>
-                           </gmd:postalCode>
-                           <gmd:country gco:nilReason="missing">
-                              <gco:CharacterString/>
-                           </gmd:country>
-                           <gmd:electronicMailAddress>
-                              <gco:CharacterString>Pat.Inch@ontario.ca;  rsbartz@usgs.gov</gco:CharacterString>
-                           </gmd:electronicMailAddress>
-                        </gmd:CI_Address>
-                     </gmd:address>
-                  </gmd:CI_Contact>
-               </gmd:contactInfo>
-               <gmd:role>
-                  <gmd:CI_RoleCode codeListValue="pointOfContact" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
-               </gmd:role>
-            </gmd:CI_ResponsibleParty>
-         </gmd:pointOfContact>
-         <gmd:resourceMaintenance>
-            <gmd:MD_MaintenanceInformation>
-               <gmd:maintenanceAndUpdateFrequency>
-                  <gmd:MD_MaintenanceFrequencyCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_MaintenanceFrequencyCode"/>
-               </gmd:maintenanceAndUpdateFrequency>
-            </gmd:MD_MaintenanceInformation>
-         </gmd:resourceMaintenance>
-         <gmd:graphicOverview>
-            <gmd:MD_BrowseGraphic>
-               <gmd:fileName gco:nilReason="missing">
-                  <gco:CharacterString/>
-               </gmd:fileName>
-               <gmd:fileDescription>
-                  <gco:CharacterString>thumbnail</gco:CharacterString>
-               </gmd:fileDescription>
-            </gmd:MD_BrowseGraphic>
-         </gmd:graphicOverview>
-         <gmd:graphicOverview>
-            <gmd:MD_BrowseGraphic>
-               <gmd:fileName gco:nilReason="missing">
-                  <gco:CharacterString/>
-               </gmd:fileName>
-               <gmd:fileDescription>
-                  <gco:CharacterString>large_thumbnail</gco:CharacterString>
-               </gmd:fileDescription>
-            </gmd:MD_BrowseGraphic>
-         </gmd:graphicOverview>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword>
-                  <gco:CharacterString>COSTS, DATA COLLECTION, DATABASES, DOMESTIC WATER USE, ECONOMIC IMPACT, ELECTRIC POWER, INFLOW, LAKE, OUTFLOW, OUTFLOWS, PERFORMANCE INDICATORS, WATER, WATER INTAKE, WATER LEVEL, WATER LEVEL CHANGES, WATER LEVELS, WATER SUPPLIES, WATER SUPPLY, WATER USE, WATER USE IRRIGATION, WATER UTILITIES, Water Withdrawals, Future Trends, Annual Discharge, Historical Trends, Forecasts, Future Withdrawals, Water Use Demand, Public Supply Withdrawals, Public Water Supply, Industrial Withdrawals, Power Generation, Agricultural Withdrawals, Population Growth, Population Trends, Economic Growth, Thermoelectric Withdrawals, Conservation, Efficiency, Energy Production, Climate Change, Re-Use, Recycling, Lake Superior, Lake Michigan, Lake Huron, Lake St Clair, Lake Erie, Lake Ontario, St. Lawrence River, Agriculture, Mining, Industrial, Thermoelectric, Renewable Engergy, Tar Sands, Global Warming, Precipitation, Per Capita Income, Per Capita Withdrawals, Living Standards, Interbasin Transfers, Consumptive Use, Monitoring</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:type>
-                  <gmd:MD_KeywordTypeCode codeListValue="theme" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode"/>
-               </gmd:type>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
-         <gmd:resourceConstraints>
-            <gmd:MD_LegalConstraints>
-               <gmd:accessConstraints>
-                  <gmd:MD_RestrictionCode codeListValue="intellectualPropertyRights" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"/>
-               </gmd:accessConstraints>
-               <gmd:useConstraints>
-                  <gmd:MD_RestrictionCode codeListValue="intellectualPropertyRights" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"/>
-               </gmd:useConstraints>
-               <gmd:otherConstraints gco:nilReason="missing">
-                  <gco:CharacterString/>
-               </gmd:otherConstraints>
-            </gmd:MD_LegalConstraints>
-         </gmd:resourceConstraints>
-         <gmd:spatialResolution>
-            <gmd:MD_Resolution/>
-         </gmd:spatialResolution>
-         <gmd:language>
-            <gco:CharacterString>eng</gco:CharacterString>
-         </gmd:language>
-         <gmd:topicCategory>
-            <gmd:MD_TopicCategoryCode>inlandWaters</gmd:MD_TopicCategoryCode>
-         </gmd:topicCategory>
-         <gmd:extent>
-            <gmd:EX_Extent>
-               <gmd:temporalElement>
-                  <gmd:EX_TemporalExtent>
-                     <gmd:extent>
-                        <gml:TimePeriod gml:id="n/a">
-                           <gml:beginPosition/>
-                           <gml:endPosition>2010-11-30T00:00:00</gml:endPosition>
-                        </gml:TimePeriod>
-                     </gmd:extent>
-                  </gmd:EX_TemporalExtent>
-               </gmd:temporalElement>
-            </gmd:EX_Extent>
-         </gmd:extent>
-         <gmd:extent>
+         <srv:serviceType>
+            <gco:LocalName codeSpace="www.w3c.org">OGC:WMS</gco:LocalName>
+         </srv:serviceType>
+         <srv:serviceTypeVersion>
+            <gco:CharacterString>1.0.0</gco:CharacterString>
+         </srv:serviceTypeVersion>
+         <srv:accessProperties>
+            <gmd:MD_StandardOrderProcess>
+               <gmd:fees>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:fees>
+            </gmd:MD_StandardOrderProcess>
+         </srv:accessProperties>
+         <srv:extent>
             <gmd:EX_Extent>
                <gmd:geographicElement>
                   <gmd:EX_GeographicBoundingBox>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-93.21</gco:Decimal>
+                        <gco:Decimal>-141.238</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-74.49</gco:Decimal>
+                        <gco:Decimal>-8.24784</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>40.39</gco:Decimal>
+                        <gco:Decimal>40.4143</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>50.74</gco:Decimal>
+                        <gco:Decimal>78.1059</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
             </gmd:EX_Extent>
-         </gmd:extent>
-         <gmd:supplementalInformation>
-            <gco:CharacterString>Comments: "Contracted Study to document present and expected future water use/demand in the Great Lakes Basin, considering consumptive and non-consumptive uses and trends."</gco:CharacterString>
-         </gmd:supplementalInformation>
-      </gmd:MD_DataIdentification>
+         </srv:extent>
+         <srv:coupledResource>
+            <srv:SV_CoupledResource>
+               <srv:operationName>
+                  <gco:CharacterString>GetMap</gco:CharacterString>
+               </srv:operationName>
+               <srv:identifier>
+                  <gco:CharacterString>ded32a53-1d30-4f4f-9b1a-7617d0b7761f</gco:CharacterString>
+               </srv:identifier>
+               <gco:ScopedName>EBIRD_S</gco:ScopedName>
+            </srv:SV_CoupledResource>
+         </srv:coupledResource>
+         <srv:coupledResource>
+            <srv:SV_CoupledResource>
+               <srv:operationName>
+                  <gco:CharacterString>GetMap</gco:CharacterString>
+               </srv:operationName>
+               <srv:identifier>
+                  <gco:CharacterString>3b9c26a3-eece-45e1-8360-bf4f88f25066</gco:CharacterString>
+               </srv:identifier>
+               <gco:ScopedName>EBIRD_L</gco:ScopedName>
+            </srv:SV_CoupledResource>
+         </srv:coupledResource>
+         <srv:coupledResource>
+            <srv:SV_CoupledResource>
+               <srv:operationName>
+                  <gco:CharacterString>GetMap</gco:CharacterString>
+               </srv:operationName>
+               <srv:identifier>
+                  <gco:CharacterString>545cd225-4496-4782-a986-115553c01152</gco:CharacterString>
+               </srv:identifier>
+               <gco:ScopedName>EBIRD_R</gco:ScopedName>
+            </srv:SV_CoupledResource>
+         </srv:coupledResource>
+         <srv:coupledResource>
+            <srv:SV_CoupledResource>
+               <srv:operationName>
+                  <gco:CharacterString>GetMap</gco:CharacterString>
+               </srv:operationName>
+               <srv:identifier>
+                  <gco:CharacterString>1d7c1807-7d02-4553-866d-420d9b77ada2</gco:CharacterString>
+               </srv:identifier>
+               <gco:ScopedName>GBBC_S</gco:ScopedName>
+            </srv:SV_CoupledResource>
+         </srv:coupledResource>
+         <srv:coupledResource>
+            <srv:SV_CoupledResource>
+               <srv:operationName>
+                  <gco:CharacterString>GetMap</gco:CharacterString>
+               </srv:operationName>
+               <srv:identifier>
+                  <gco:CharacterString>6f7bd4fb-eb5d-41f8-8407-5c1a8213459d</gco:CharacterString>
+               </srv:identifier>
+               <gco:ScopedName>GBBC_L</gco:ScopedName>
+            </srv:SV_CoupledResource>
+         </srv:coupledResource>
+         <srv:coupledResource>
+            <srv:SV_CoupledResource>
+               <srv:operationName>
+                  <gco:CharacterString>GetMap</gco:CharacterString>
+               </srv:operationName>
+               <srv:identifier>
+                  <gco:CharacterString>121f626e-69ed-42df-8d8f-04413ab294d0</gco:CharacterString>
+               </srv:identifier>
+               <gco:ScopedName>GBBC_R</gco:ScopedName>
+            </srv:SV_CoupledResource>
+         </srv:coupledResource>
+         <srv:coupledResource>
+            <srv:SV_CoupledResource>
+               <srv:operationName>
+                  <gco:CharacterString>GetMap</gco:CharacterString>
+               </srv:operationName>
+               <srv:identifier>
+                  <gco:CharacterString>29e17ac5-b8a6-4a68-8701-3e5f746971d3</gco:CharacterString>
+               </srv:identifier>
+               <gco:ScopedName>PFW_S</gco:ScopedName>
+            </srv:SV_CoupledResource>
+         </srv:coupledResource>
+         <srv:coupledResource>
+            <srv:SV_CoupledResource>
+               <srv:operationName>
+                  <gco:CharacterString>GetMap</gco:CharacterString>
+               </srv:operationName>
+               <srv:identifier>
+                  <gco:CharacterString>6e7b2a6c-0245-4e70-b97f-ab025d83bee0</gco:CharacterString>
+               </srv:identifier>
+               <gco:ScopedName>PFW_L</gco:ScopedName>
+            </srv:SV_CoupledResource>
+         </srv:coupledResource>
+         <srv:coupledResource>
+            <srv:SV_CoupledResource>
+               <srv:operationName>
+                  <gco:CharacterString>GetMap</gco:CharacterString>
+               </srv:operationName>
+               <srv:identifier>
+                  <gco:CharacterString>e3b510fc-cda4-4c55-a086-4917ada09d24</gco:CharacterString>
+               </srv:identifier>
+               <gco:ScopedName>PFW_R</gco:ScopedName>
+            </srv:SV_CoupledResource>
+         </srv:coupledResource>
+         <srv:coupledResource>
+            <srv:SV_CoupledResource>
+               <srv:operationName>
+                  <gco:CharacterString>GetMap</gco:CharacterString>
+               </srv:operationName>
+               <srv:identifier>
+                  <gco:CharacterString>32a68bfe-cf2f-4532-82e3-8be1f86fba26</gco:CharacterString>
+               </srv:identifier>
+               <gco:ScopedName>BBS_PT</gco:ScopedName>
+            </srv:SV_CoupledResource>
+         </srv:coupledResource>
+         <srv:coupledResource>
+            <srv:SV_CoupledResource>
+               <srv:operationName>
+                  <gco:CharacterString>GetMap</gco:CharacterString>
+               </srv:operationName>
+               <srv:identifier>
+                  <gco:CharacterString>59d8d5e5-bf4b-4693-9abf-dfa0d52efc86</gco:CharacterString>
+               </srv:identifier>
+               <gco:ScopedName>OWLS</gco:ScopedName>
+            </srv:SV_CoupledResource>
+         </srv:coupledResource>
+         <srv:coupledResource>
+            <srv:SV_CoupledResource>
+               <srv:operationName>
+                  <gco:CharacterString>GetMap</gco:CharacterString>
+               </srv:operationName>
+               <srv:identifier>
+                  <gco:CharacterString>46ec7059-5381-4f6c-957d-bce6be3ba9f6</gco:CharacterString>
+               </srv:identifier>
+               <gco:ScopedName>OBBA_BLOCK</gco:ScopedName>
+            </srv:SV_CoupledResource>
+         </srv:coupledResource>
+         <srv:coupledResource>
+            <srv:SV_CoupledResource>
+               <srv:operationName>
+                  <gco:CharacterString>GetMap</gco:CharacterString>
+               </srv:operationName>
+               <srv:identifier>
+                  <gco:CharacterString>6c939af3-f130-481e-b0e9-e6c7c3fab2c2</gco:CharacterString>
+               </srv:identifier>
+               <gco:ScopedName>OBBA_REGION</gco:ScopedName>
+            </srv:SV_CoupledResource>
+         </srv:coupledResource>
+         <srv:coupledResource>
+            <srv:SV_CoupledResource>
+               <srv:operationName>
+                  <gco:CharacterString>GetMap</gco:CharacterString>
+               </srv:operationName>
+               <srv:identifier>
+                  <gco:CharacterString>5fcdffb3-17ad-4f7d-b939-03fadf9829b3</gco:CharacterString>
+               </srv:identifier>
+               <gco:ScopedName>OBBA_SQUARE</gco:ScopedName>
+            </srv:SV_CoupledResource>
+         </srv:coupledResource>
+         <srv:coupledResource>
+            <srv:SV_CoupledResource>
+               <srv:operationName>
+                  <gco:CharacterString>GetMap</gco:CharacterString>
+               </srv:operationName>
+               <srv:identifier>
+                  <gco:CharacterString>17d4c134-eaa8-4e02-a634-543be0f5ef16</gco:CharacterString>
+               </srv:identifier>
+               <gco:ScopedName>CLLS</gco:ScopedName>
+            </srv:SV_CoupledResource>
+         </srv:coupledResource>
+         <srv:coupledResource>
+            <srv:SV_CoupledResource>
+               <srv:operationName>
+                  <gco:CharacterString>GetMap</gco:CharacterString>
+               </srv:operationName>
+               <srv:identifier>
+                  <gco:CharacterString>b42fbb19-aae8-4333-ac85-24a12093f2d2</gco:CharacterString>
+               </srv:identifier>
+               <gco:ScopedName>MMP</gco:ScopedName>
+            </srv:SV_CoupledResource>
+         </srv:coupledResource>
+         <srv:coupledResource>
+            <srv:SV_CoupledResource>
+               <srv:operationName>
+                  <gco:CharacterString>GetMap</gco:CharacterString>
+               </srv:operationName>
+               <srv:identifier>
+                  <gco:CharacterString>0f6f7950-cd80-4923-8454-b159b56be16c</gco:CharacterString>
+               </srv:identifier>
+               <gco:ScopedName>CBC_PY</gco:ScopedName>
+            </srv:SV_CoupledResource>
+         </srv:coupledResource>
+         <srv:coupledResource>
+            <srv:SV_CoupledResource>
+               <srv:operationName>
+                  <gco:CharacterString>GetMap</gco:CharacterString>
+               </srv:operationName>
+               <srv:identifier>
+                  <gco:CharacterString>c9b16021-9270-43ef-8c65-d55b81103362</gco:CharacterString>
+               </srv:identifier>
+               <gco:ScopedName>CBC_PT</gco:ScopedName>
+            </srv:SV_CoupledResource>
+         </srv:coupledResource>
+         <srv:coupledResource>
+            <srv:SV_CoupledResource>
+               <srv:operationName>
+                  <gco:CharacterString>GetMap</gco:CharacterString>
+               </srv:operationName>
+               <srv:identifier>
+                  <gco:CharacterString>5cc9c121-dcbc-44e3-aaa1-94eb14d97218</gco:CharacterString>
+               </srv:identifier>
+               <gco:ScopedName>IBA</gco:ScopedName>
+            </srv:SV_CoupledResource>
+         </srv:coupledResource>
+         <srv:couplingType>
+            <srv:SV_CouplingType codeList="./resources/codeList.xml#SV_CouplingType" codeListValue="tight">tight</srv:SV_CouplingType>
+         </srv:couplingType>
+         <srv:containsOperations>
+            <srv:SV_OperationMetadata>
+               <srv:operationName>
+                  <gco:CharacterString>Map</gco:CharacterString>
+               </srv:operationName>
+               <srv:DCP>
+                  <srv:DCPList codeList="./resources/codeList.xml#DCPList" codeListValue="HTTP-GET"/>
+               </srv:DCP>
+               <srv:DCP>
+                  <srv:DCPList codeList="./resources/codeList.xml#DCPList" codeListValue="HTTP-POST"/>
+               </srv:DCP>
+               <srv:connectPoint>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL/>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString/>
+                     </gmd:protocol>
+                     <gmd:description>
+                        <gco:CharacterString>Format :</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </srv:connectPoint>
+            </srv:SV_OperationMetadata>
+         </srv:containsOperations>
+         <srv:containsOperations>
+            <srv:SV_OperationMetadata>
+               <srv:operationName>
+                  <gco:CharacterString>Capabilities</gco:CharacterString>
+               </srv:operationName>
+               <srv:DCP>
+                  <srv:DCPList codeList="./resources/codeList.xml#DCPList" codeListValue="HTTP-GET"/>
+               </srv:DCP>
+               <srv:DCP>
+                  <srv:DCPList codeList="./resources/codeList.xml#DCPList" codeListValue="HTTP-POST"/>
+               </srv:DCP>
+               <srv:connectPoint>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL/>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString/>
+                     </gmd:protocol>
+                     <gmd:description>
+                        <gco:CharacterString>Format :</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </srv:connectPoint>
+            </srv:SV_OperationMetadata>
+         </srv:containsOperations>
+         <srv:containsOperations>
+            <srv:SV_OperationMetadata>
+               <srv:operationName>
+                  <gco:CharacterString>FeatureInfo</gco:CharacterString>
+               </srv:operationName>
+               <srv:DCP>
+                  <srv:DCPList codeList="./resources/codeList.xml#DCPList" codeListValue="HTTP-GET"/>
+               </srv:DCP>
+               <srv:DCP>
+                  <srv:DCPList codeList="./resources/codeList.xml#DCPList" codeListValue="HTTP-POST"/>
+               </srv:DCP>
+               <srv:connectPoint>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL/>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString/>
+                     </gmd:protocol>
+                     <gmd:description>
+                        <gco:CharacterString>Format :</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </srv:connectPoint>
+            </srv:SV_OperationMetadata>
+         </srv:containsOperations>
+         <srv:operatesOn uuidref="5cc9c121-dcbc-44e3-aaa1-94eb14d97218"/>
+         <srv:operatesOn uuidref="c9b16021-9270-43ef-8c65-d55b81103362"/>
+         <srv:operatesOn uuidref="0f6f7950-cd80-4923-8454-b159b56be16c"/>
+         <srv:operatesOn uuidref="b42fbb19-aae8-4333-ac85-24a12093f2d2"/>
+         <srv:operatesOn uuidref="17d4c134-eaa8-4e02-a634-543be0f5ef16"/>
+         <srv:operatesOn uuidref="5fcdffb3-17ad-4f7d-b939-03fadf9829b3"/>
+         <srv:operatesOn uuidref="6c939af3-f130-481e-b0e9-e6c7c3fab2c2"/>
+         <srv:operatesOn uuidref="46ec7059-5381-4f6c-957d-bce6be3ba9f6"/>
+         <srv:operatesOn uuidref="59d8d5e5-bf4b-4693-9abf-dfa0d52efc86"/>
+         <srv:operatesOn uuidref="32a68bfe-cf2f-4532-82e3-8be1f86fba26"/>
+         <srv:operatesOn uuidref="e3b510fc-cda4-4c55-a086-4917ada09d24"/>
+         <srv:operatesOn uuidref="6e7b2a6c-0245-4e70-b97f-ab025d83bee0"/>
+         <srv:operatesOn uuidref="29e17ac5-b8a6-4a68-8701-3e5f746971d3"/>
+         <srv:operatesOn uuidref="121f626e-69ed-42df-8d8f-04413ab294d0"/>
+         <srv:operatesOn uuidref="6f7bd4fb-eb5d-41f8-8407-5c1a8213459d"/>
+         <srv:operatesOn uuidref="1d7c1807-7d02-4553-866d-420d9b77ada2"/>
+         <srv:operatesOn uuidref="545cd225-4496-4782-a986-115553c01152"/>
+         <srv:operatesOn uuidref="3b9c26a3-eece-45e1-8360-bf4f88f25066"/>
+         <srv:operatesOn uuidref="ded32a53-1d30-4f4f-9b1a-7617d0b7761f"/>
+      </srv:SV_ServiceIdentification>
   </gmd:identificationInfo>
   <gmd:distributionInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gmd:MD_Distribution>
          <gmd:distributionFormat>
             <gmd:MD_Format>
-               <gmd:name>
-                  <gco:CharacterString>IUGLS Water Use Demand Report, May 3, 2010</gco:CharacterString>
+               <gmd:name gco:nilReason="missing">
+                  <gco:CharacterString/>
                </gmd:name>
                <gmd:version gco:nilReason="missing">
                   <gco:CharacterString/>
                </gmd:version>
-               <gmd:specification>
-                  <gco:CharacterString>The data is a downloadable PDF file on a sharepoint website.</gco:CharacterString>
-               </gmd:specification>
             </gmd:MD_Format>
          </gmd:distributionFormat>
          <gmd:transferOptions>
@@ -262,15 +416,12 @@ and trends in water use demand on the Upper Great Lakes.</gco:CharacterString>
                <gmd:onLine>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://team.iugls.org/IUGLS%20Documents/IUGLS_Water%20Use%20Demand_Report_w-Corrections_050310.pdf</gmd:URL>
+                        <gmd:URL/>
                      </gmd:linkage>
                      <gmd:protocol>
-                        <gco:CharacterString>WWW:DOWNLOAD-1.0-ftp--download</gco:CharacterString>
+                        <gco:CharacterString>application/vnd.ogc.wms_xml</gco:CharacterString>
                      </gmd:protocol>
-                     <gmd:name gco:nilReason="missing">
-                        <gco:CharacterString/>
-                     </gmd:name>
-                     <gmd:description gco:nilReason="missing">
+                     <gmd:description>
                         <gco:CharacterString/>
                      </gmd:description>
                   </gmd:CI_OnlineResource>
@@ -279,4 +430,27 @@ and trends in water use demand on the Upper Great Lakes.</gco:CharacterString>
          </gmd:transferOptions>
       </gmd:MD_Distribution>
   </gmd:distributionInfo>
+  <gmd:dataQualityInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gmd:DQ_DataQuality>
+         <gmd:scope>
+            <gmd:DQ_Scope>
+               <gmd:level>
+                  <gmd:MD_ScopeCode codeListValue="service" codeList="./resources/codeList.xml#MD_ScopeCode"/>
+               </gmd:level>
+               <gmd:levelDescription>
+                  <gmd:MD_ScopeDescription>
+                     <gmd:attributes/>
+                  </gmd:MD_ScopeDescription>
+               </gmd:levelDescription>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:lineage>
+            <gmd:LI_Lineage>
+               <gmd:statement gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:statement>
+            </gmd:LI_Lineage>
+         </gmd:lineage>
+      </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
 </gmi:MI_Metadata>
