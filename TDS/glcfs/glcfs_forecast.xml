@@ -93,8 +93,8 @@
         <update startup="true" rescan="0 15 * * * ? *" trigger="allow" />
         <protoDataset choice="Penultimate">
           <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-            <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
-            <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
+            <attribute name="validtime" value="01-JAN-2014 00:00 GMT" />
+            <attribute name="validtime_DOY" value="001, 2014 00:00 GMT" />
             <attribute name="Conventions" type="String" value="CF-1.6"/>
             <attribute name="title" value="GLCFS - Lake Michigan - Forecast - 2D" />
             <attribute name="summary" value="Aggregation of the 2D Forecast output for Lake Michigan from GLCFS" />
@@ -155,8 +155,8 @@
         <update startup="true" rescan="0 15 * * * ? *" trigger="allow" />
         <protoDataset choice="Penultimate">
           <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-            <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
-            <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
+            <attribute name="validtime" value="01-JAN-2014 00:00 GMT" />
+            <attribute name="validtime_DOY" value="001, 2014 00:00 GMT" />
             <attribute name="Conventions" type="String" value="CF-1.6"/>
             <attribute name="title" value="GLCFS - Lake Erie - Forecast - 2D" />
             <attribute name="summary" value="Aggregation of the 2D Forecast output for Lake Erie from GLCFS" />
@@ -216,8 +216,8 @@
         <update startup="true" rescan="0 15 * * * ? *" trigger="allow" />
         <protoDataset choice="Penultimate">
           <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-            <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
-            <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
+            <attribute name="validtime" value="01-JAN-2014 00:00 GMT" />
+            <attribute name="validtime_DOY" value="001, 2014 00:00 GMT" />
             <attribute name="Conventions" type="String" value="CF-1.6"/>
             <attribute name="title" value="GLCFS - Lake Huron - Forecast - 2D" />
             <attribute name="summary" value="Aggregation of the 2D Forecast output for Lake Huron from GLCFS" />
@@ -277,8 +277,8 @@
         <update startup="true" rescan="0 15 * * * ? *" trigger="allow" />
         <protoDataset choice="Penultimate">
           <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-            <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
-            <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
+            <attribute name="validtime" value="01-JAN-2014 00:00 GMT" />
+            <attribute name="validtime_DOY" value="001, 2014 00:00 GMT" />
             <attribute name="Conventions" type="String" value="CF-1.6"/>
             <attribute name="title" value="GLCFS - Lake Ontario - Forecast - 2D" />
             <attribute name="summary" value="Aggregation of the 2D Forecast output for Lake Ontario from GLCFS" />
@@ -339,8 +339,8 @@
         <update startup="true" rescan="0 15 * * * ? *" trigger="allow" />
         <protoDataset choice="Penultimate">
           <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-            <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
-            <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
+            <attribute name="validtime" value="01-JAN-2014 00:00 GMT" />
+            <attribute name="validtime_DOY" value="001, 2014 00:00 GMT" />
             <attribute name="Conventions" type="String" value="CF-1.6"/>
             <attribute name="title" value="GLCFS - Lake Superior - Forecast - 2D" />
             <attribute name="summary" value="Aggregation of the 2D Forecast output for Lake Superior from GLCFS" />
