@@ -4,8 +4,9 @@
         xmlns:xlink="http://www.w3.org/1999/xlink">
 
   <dataset name="GLCFS - Great Lakes Coastal Forecasting System (POM)">
-    <catalogRef xlink:title="Forcing - Current Year (2013)" xlink:href="forcing/glcfs_forcing_current.xml" name=""/>
+    <catalogRef xlink:title="Forcing - Current Year (2014)" xlink:href="forcing/glcfs_forcing_current.xml" name=""/>
     <catalogRef xlink:title="Forcing - All Years" xlink:href="forcing/glcfs_forcing_all.xml" name=""/>
+    <catalogRef xlink:title="Forcing - 2013" xlink:href="forcing/glcfs_forcing_2013.xml" name=""/>
     <catalogRef xlink:title="Forcing - 2012" xlink:href="forcing/glcfs_forcing_2012.xml" name=""/>
     <catalogRef xlink:title="Forcing - 2011" xlink:href="forcing/glcfs_forcing_2011.xml" name=""/>
     <catalogRef xlink:title="Forcing - 2010" xlink:href="forcing/glcfs_forcing_2010.xml" name=""/>
