@@ -1,17 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd"><gmd:fileIdentifier xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:CharacterString>4e239e4b-8fda-4ffd-b48e-4bf7da11d625</gco:CharacterString>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd"><gmd:fileIdentifier xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>00f8abf6-cf6d-4f71-b9d0-b75ff5c2a672</gco:CharacterString>
   </gmd:fileIdentifier>
   <gmd:language xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gco:CharacterString>eng</gco:CharacterString>
   </gmd:language>
   <gmd:characterSet xmlns:gmd="http://www.isotc211.org/2005/gmd">
-      <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="./resources/codeList.xml#MD_CharacterSetCode"/>
+      <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"/>
   </gmd:characterSet>
+  <gmd:parentIdentifier xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>5e5d7296-3963-4587-9949-c3b98c7dedd6</gco:CharacterString>
+  </gmd:parentIdentifier>
   <gmd:contact xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gmd:CI_ResponsibleParty>
          <gmd:individualName>
-            <gco:CharacterString>Ralph Moulton</gco:CharacterString>
+            <gco:CharacterString>Bill Boik</gco:CharacterString>
          </gmd:individualName>
          <gmd:organisationName gco:nilReason="missing">
             <gco:CharacterString/>
@@ -26,16 +29,10 @@
                      <gmd:voice gco:nilReason="missing">
                         <gco:CharacterString/>
                      </gmd:voice>
-                     <gmd:facsimile gco:nilReason="missing">
-                        <gco:CharacterString/>
-                     </gmd:facsimile>
                   </gmd:CI_Telephone>
                </gmd:phone>
                <gmd:address>
                   <gmd:CI_Address>
-                     <gmd:deliveryPoint gco:nilReason="missing">
-                        <gco:CharacterString/>
-                     </gmd:deliveryPoint>
                      <gmd:city gco:nilReason="missing">
                         <gco:CharacterString/>
                      </gmd:city>
@@ -56,12 +53,12 @@
             </gmd:CI_Contact>
          </gmd:contactInfo>
          <gmd:role>
-            <gmd:CI_RoleCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+            <gmd:CI_RoleCode codeListValue="originator" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode"/>
          </gmd:role>
       </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:DateTime xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx">2011-08-24T12:42:34</gco:DateTime>
+      <gco:DateTime>2014-03-05T16:54:31</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
@@ -69,54 +66,67 @@
   <gmd:metadataStandardVersion xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gco:CharacterString>Version 3.14</gco:CharacterString>
   </gmd:metadataStandardVersion>
-  <gmd:metadataExtensionInfo xmlns:gmd="http://www.isotc211.org/2005/gmd">
-      <gmd:MD_MetadataExtensionInformation/>
-  </gmd:metadataExtensionInfo>
   <gmd:identificationInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml">
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Statistics Canada's Canadian shipping survey, 2005-2007</gco:CharacterString>
+                  <gco:CharacterString>Kingsville Area of Study</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:DateTime/>
+                        <gco:Date>2010-06-21</gco:Date>
                      </gmd:date>
                      <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode"/>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation"/>
                      </gmd:dateType>
                   </gmd:CI_Date>
                </gmd:date>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2011-04-06</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:edition gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:edition>
                <gmd:otherCitationDetails>
-                  <gco:CharacterString>Commercial Navigation Technical Working Group</gco:CharacterString>
+                  <gco:CharacterString>Recreational Boating, Tourism, &amp; Cruise Ships Technical Working Group</gco:CharacterString>
                </gmd:otherCitationDetails>
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This survey collects data on domestic marine transport, that is vessels involved in the transport of domestic cargo between Canadian ports.  Data on the orignin, destination, type of commodity and the quantity are collected.</gco:CharacterString>
+            <gco:CharacterString>The inventory contains slip depth data.</gco:CharacterString>
          </gmd:abstract>
          <gmd:purpose>
-            <gco:CharacterString>Data on  cargo movements in and out of Canadian Great Lakes ports was obtained in order to determine the magnitude of use of specific ports and ship routes.</gco:CharacterString>
+            <gco:CharacterString>To provide an inventory of marina slip depths to help calculate the loss of slips based on water levels.</gco:CharacterString>
          </gmd:purpose>
          <gmd:status>
-            <gmd:MD_ProgressCode codeListValue="historicalArchive" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ProgressCode"/>
+            <gmd:MD_ProgressCode codeListValue="completed" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ProgressCode"/>
          </gmd:status>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
                <gmd:individualName>
-                  <gco:CharacterString>Gretchen Gordon</gco:CharacterString>
+                  <gco:CharacterString>Glenn Warren</gco:CharacterString>
                </gmd:individualName>
                <gmd:organisationName>
-                  <gco:CharacterString>Statistics Canada</gco:CharacterString>
+                  <gco:CharacterString>Retired</gco:CharacterString>
                </gmd:organisationName>
+               <gmd:positionName gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:positionName>
                <gmd:contactInfo>
-                  <gmd:CI_Metadata_Contact>
+                  <gmd:CI_Contact>
                      <gmd:phone>
                         <gmd:CI_Telephone>
-                           <gmd:voice>
-                              <gco:CharacterString>416-952-4041</gco:CharacterString>
+                           <gmd:voice gco:nilReason="missing">
+                              <gco:CharacterString/>
                            </gmd:voice>
                         </gmd:CI_Telephone>
                      </gmd:phone>
@@ -134,22 +144,22 @@
                            <gmd:country gco:nilReason="missing">
                               <gco:CharacterString/>
                            </gmd:country>
-                           <gmd:electronicMailAddress>
-                              <gco:CharacterString>Gretchen.Gordon@statcan.gc.ca</gco:CharacterString>
+                           <gmd:electronicMailAddress gco:nilReason="missing">
+                              <gco:CharacterString/>
                            </gmd:electronicMailAddress>
                         </gmd:CI_Address>
                      </gmd:address>
-                  </gmd:CI_Metadata_Contact>
+                  </gmd:CI_Contact>
                </gmd:contactInfo>
                <gmd:role>
-                  <gmd:CI_RoleCode codeListValue="pointOfContact" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+                  <gmd:CI_RoleCode codeListValue="pointOfContact" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode"/>
                </gmd:role>
             </gmd:CI_ResponsibleParty>
          </gmd:pointOfContact>
          <gmd:resourceMaintenance>
             <gmd:MD_MaintenanceInformation>
                <gmd:maintenanceAndUpdateFrequency>
-                  <gmd:MD_MaintenanceFrequencyCode codeListValue="quarterly" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_MaintenanceFrequencyCode"/>
+                  <gmd:MD_MaintenanceFrequencyCode codeListValue="" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"/>
                </gmd:maintenanceAndUpdateFrequency>
             </gmd:MD_MaintenanceInformation>
          </gmd:resourceMaintenance>
@@ -176,20 +186,23 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>SURVEYS</gco:CharacterString>
+                  <gco:CharacterString>SLIPS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER DEPTH</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
-                  <gmd:MD_KeywordTypeCode codeListValue="theme" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode"/>
+                  <gmd:MD_KeywordTypeCode codeListValue="theme" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode"/>
                </gmd:type>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
          <gmd:resourceConstraints>
             <gmd:MD_LegalConstraints>
                <gmd:accessConstraints>
-                  <gmd:MD_RestrictionCode codeListValue="license" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"/>
+                  <gmd:MD_RestrictionCode codeListValue="" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode"/>
                </gmd:accessConstraints>
                <gmd:useConstraints>
-                  <gmd:MD_RestrictionCode codeListValue="license" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"/>
+                  <gmd:MD_RestrictionCode codeListValue="" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode"/>
                </gmd:useConstraints>
                <gmd:otherConstraints gco:nilReason="missing">
                   <gco:CharacterString/>
@@ -202,11 +215,8 @@
          <gmd:language>
             <gco:CharacterString>eng</gco:CharacterString>
          </gmd:language>
-         <gmd:characterSet>
-            <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_CharacterSetCode"/>
-         </gmd:characterSet>
          <gmd:topicCategory>
-            <gmd:MD_TopicCategoryCode>transportation</gmd:MD_TopicCategoryCode>
+            <gmd:MD_TopicCategoryCode/>
          </gmd:topicCategory>
          <gmd:extent>
             <gmd:EX_Extent>
@@ -214,8 +224,8 @@
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
                         <gml:TimePeriod gml:id="n/a">
-                           <gml:beginPosition/>
-                           <gml:endPosition/>
+                           <gml:beginPosition>2010-05-03T00:00:00</gml:beginPosition>
+                           <gml:endPosition>2010-06-21T00:00:00</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -242,8 +252,9 @@
                </gmd:geographicElement>
             </gmd:EX_Extent>
          </gmd:extent>
-         <gmd:supplementalInformation gco:nilReason="missing">
-            <gco:CharacterString/>
+         <gmd:supplementalInformation>
+            <gco:CharacterString>Topic Category Code: "Recreation"
+Geographic Location: "Great Lakes"</gco:CharacterString>
          </gmd:supplementalInformation>
       </gmd:MD_DataIdentification>
   </gmd:identificationInfo>
@@ -252,44 +263,36 @@
          <gmd:distributionFormat>
             <gmd:MD_Format>
                <gmd:name>
-                  <gco:CharacterString>Marine Tonnage Domestic Great Lakes 2007 2006 2005.xls</gco:CharacterString>
+                  <gco:CharacterString>Kingsville Area of Study</gco:CharacterString>
                </gmd:name>
                <gmd:version gco:nilReason="missing">
                   <gco:CharacterString/>
                </gmd:version>
-               <gmd:specification>
-                  <gco:CharacterString>This data can be purchased from Statistics Canada</gco:CharacterString>
+               <gmd:specification gco:nilReason="missing">
+                  <gco:CharacterString/>
                </gmd:specification>
             </gmd:MD_Format>
          </gmd:distributionFormat>
          <gmd:transferOptions>
-            <gmd:MD_DigitalTransferOptions/>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL/>
+                     </gmd:linkage>
+                     <gmd:protocol gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:protocol>
+                     <gmd:name gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:name>
+                     <gmd:description gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
          </gmd:transferOptions>
       </gmd:MD_Distribution>
   </gmd:distributionInfo>
-  <gmd:portrayalCatalogueInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gmd:MD_PortrayalCatalogueReference>
-         <gmd:portrayalCatalogueCitation>
-            <gmd:CI_Citation>
-               <gmd:title gco:nilReason="missing">
-                  <gco:CharacterString/>
-               </gmd:title>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue=""/>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-            </gmd:CI_Citation>
-         </gmd:portrayalCatalogueCitation>
-      </gmd:MD_PortrayalCatalogueReference>
-  </gmd:portrayalCatalogueInfo>
-  <gmd:metadataMaintenance xmlns:gmd="http://www.isotc211.org/2005/gmd">
-      <gmd:MD_MaintenanceInformation>
-         <gmd:maintenanceAndUpdateFrequency>
-            <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_MaintenanceFrequencyCode" codeListValue=""/>
-         </gmd:maintenanceAndUpdateFrequency>
-      </gmd:MD_MaintenanceInformation>
-  </gmd:metadataMaintenance>
 </gmi:MI_Metadata>

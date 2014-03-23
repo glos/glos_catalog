@@ -1,286 +1,468 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd"><gmd:fileIdentifier xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:CharacterString>c8a164a0-a788-4572-ae42-ba696aed84a4</gco:CharacterString>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd"><gmd:fileIdentifier xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>fc859e02-c597-4db1-bdd3-98da60f00f09</gco:CharacterString>
   </gmd:fileIdentifier>
   <gmd:language xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gco:CharacterString>eng</gco:CharacterString>
   </gmd:language>
   <gmd:characterSet xmlns:gmd="http://www.isotc211.org/2005/gmd">
-      <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="./resources/codeList.xml#MD_CharacterSetCode"/>
+      <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_CharacterSetCode"/>
   </gmd:characterSet>
+  <gmd:hierarchyLevel xmlns:gmd="http://www.isotc211.org/2005/gmd">
+      <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ScopeCode" codeListValue="service"/>
+  </gmd:hierarchyLevel>
   <gmd:contact xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gmd:CI_ResponsibleParty>
          <gmd:individualName>
-            <gco:CharacterString>Yin Fan</gco:CharacterString>
+            <gco:CharacterString>Boyan Brodaric</gco:CharacterString>
          </gmd:individualName>
          <gmd:organisationName>
-            <gco:CharacterString>Environment Canada</gco:CharacterString>
+            <gco:CharacterString>Geological Survey of Canada, Earth Sciences Sector, Natural Resources Canada, Government of Canada</gco:CharacterString>
          </gmd:organisationName>
          <gmd:positionName>
-            <gco:CharacterString>Metadata Author</gco:CharacterString>
+            <gco:CharacterString>Research Scientist</gco:CharacterString>
          </gmd:positionName>
          <gmd:contactInfo>
             <gmd:CI_Contact>
                <gmd:phone>
                   <gmd:CI_Telephone>
                      <gmd:voice>
-                        <gco:CharacterString>613-938-5725</gco:CharacterString>
+                        <gco:CharacterString>+1-613-992-3562</gco:CharacterString>
                      </gmd:voice>
+                     <gmd:facsimile>
+                        <gco:CharacterString>+1-613-995-9273</gco:CharacterString>
+                     </gmd:facsimile>
                   </gmd:CI_Telephone>
                </gmd:phone>
                <gmd:address>
                   <gmd:CI_Address>
-                     <gmd:city gco:nilReason="missing">
-                        <gco:CharacterString/>
+                     <gmd:deliveryPoint>
+                        <gco:CharacterString>615 Booth Street</gco:CharacterString>
+                     </gmd:deliveryPoint>
+                     <gmd:city>
+                        <gco:CharacterString>Ottawa</gco:CharacterString>
                      </gmd:city>
-                     <gmd:administrativeArea gco:nilReason="missing">
-                        <gco:CharacterString/>
+                     <gmd:administrativeArea>
+                        <gco:CharacterString>Ontario</gco:CharacterString>
                      </gmd:administrativeArea>
-                     <gmd:postalCode gco:nilReason="missing">
-                        <gco:CharacterString/>
+                     <gmd:postalCode>
+                        <gco:CharacterString>K1A 0E9</gco:CharacterString>
                      </gmd:postalCode>
-                     <gmd:country gco:nilReason="missing">
-                        <gco:CharacterString/>
+                     <gmd:country>
+                        <gco:CharacterString>Canada</gco:CharacterString>
                      </gmd:country>
-                     <gmd:electronicMailAddress>
-                        <gco:CharacterString>yin.fan@ec.gc.ca</gco:CharacterString>
-                     </gmd:electronicMailAddress>
                   </gmd:CI_Address>
                </gmd:address>
+               <gmd:onlineResource>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL/>
+                     </gmd:linkage>
+                  </gmd:CI_OnlineResource>
+               </gmd:onlineResource>
             </gmd:CI_Contact>
          </gmd:contactInfo>
          <gmd:role>
-            <gmd:CI_RoleCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+            <gmd:CI_RoleCode codeListValue="pointOfContact" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
          </gmd:role>
       </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:DateTime xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx">2011-08-24T13:01:36</gco:DateTime>
+      <gco:DateTime xmlns:gmx="http://www.isotc211.org/2005/gmx">2013-05-22T12:06:13</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+      <gco:CharacterString>ISO 19119</gco:CharacterString>
   </gmd:metadataStandardName>
   <gmd:metadataStandardVersion xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:CharacterString>Version 3.14</gco:CharacterString>
+      <gco:CharacterString>1.0</gco:CharacterString>
   </gmd:metadataStandardVersion>
-  <gmd:identificationInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml">
-      <gmd:MD_DataIdentification>
+  <gmd:identificationInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <srv:SV_ServiceIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Hydrological input data for climate change T2 scenario</gco:CharacterString>
+                  <gco:CharacterString>Groundwater Information Network Sensor Observation Service (SOS)</gco:CharacterString>
                </gmd:title>
+               <gmd:alternateTitle>
+                  <gco:CharacterString>Groundwater Levels Monitoring SOS</gco:CharacterString>
+               </gmd:alternateTitle>
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:Date>2011-01-07</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2011-05-24</gco:Date>
+                        <gco:DateTime>2012-02-10T00:00:00</gco:DateTime>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
                      </gmd:dateType>
                   </gmd:CI_Date>
                </gmd:date>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2011-05-24</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="revision"/>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:edition gco:nilReason="missing">
-                  <gco:CharacterString/>
-               </gmd:edition>
-               <gmd:otherCitationDetails>
-                  <gco:CharacterString>Plan Formulation &amp; Evaluation Technical Working Group</gco:CharacterString>
-               </gmd:otherCitationDetails>
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Hydrological input data for climate change T2 scenario include 8 data files, they are Net Basin Supplies for the four Lakes,  ice/weed retardation for St. Clair, Detroit, Niagara River and ice/weed adjustment for US Slip level calculation. The climate change T2 scenario Net Basin Supply were developed by Seidou/Tarha</gco:CharacterString>
+            <gco:CharacterString>This service provides groundwater level observations from a large collection of water wells in British Columbia, Alberta, Manitoba, Ontario, Québec and Nova-Scotia, and provides some key aquifer information from Natural Resources Canada.</gco:CharacterString>
          </gmd:abstract>
-         <gmd:purpose>
-            <gco:CharacterString>Hydrological input data for climate change T2 scenario were used in Lake Superior regulation plan formulation and evaluation</gco:CharacterString>
-         </gmd:purpose>
          <gmd:status>
-            <gmd:MD_ProgressCode codeListValue="completed" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ProgressCode"/>
+            <gmd:MD_ProgressCode codeListValue="onGoing" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ProgressCode"/>
          </gmd:status>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
                <gmd:individualName>
-                  <gco:CharacterString>Yin Fan</gco:CharacterString>
+                  <gco:CharacterString>Boyan Brodaric</gco:CharacterString>
                </gmd:individualName>
                <gmd:organisationName>
-                  <gco:CharacterString>Environment Canada</gco:CharacterString>
+                  <gco:CharacterString>Geological Survey of Canada, Earth Sciences Sector, Natural Resources Canada, Government of Canada</gco:CharacterString>
                </gmd:organisationName>
                <gmd:positionName>
-                  <gco:CharacterString>Water Resources Engineer</gco:CharacterString>
+                  <gco:CharacterString>Research Scientist</gco:CharacterString>
                </gmd:positionName>
                <gmd:contactInfo>
                   <gmd:CI_Contact>
                      <gmd:phone>
                         <gmd:CI_Telephone>
                            <gmd:voice>
-                              <gco:CharacterString>613-938-5725</gco:CharacterString>
+                              <gco:CharacterString>+1-613-992-3562</gco:CharacterString>
                            </gmd:voice>
+                           <gmd:facsimile>
+                              <gco:CharacterString>+1-613-995-9273</gco:CharacterString>
+                           </gmd:facsimile>
                         </gmd:CI_Telephone>
                      </gmd:phone>
                      <gmd:address>
                         <gmd:CI_Address>
-                           <gmd:city gco:nilReason="missing">
-                              <gco:CharacterString/>
+                           <gmd:deliveryPoint>
+                              <gco:CharacterString>615 Booth Street</gco:CharacterString>
+                           </gmd:deliveryPoint>
+                           <gmd:city>
+                              <gco:CharacterString>Ottawa</gco:CharacterString>
                            </gmd:city>
-                           <gmd:administrativeArea gco:nilReason="missing">
-                              <gco:CharacterString/>
+                           <gmd:administrativeArea>
+                              <gco:CharacterString>Ontario</gco:CharacterString>
                            </gmd:administrativeArea>
-                           <gmd:postalCode gco:nilReason="missing">
-                              <gco:CharacterString/>
+                           <gmd:postalCode>
+                              <gco:CharacterString>K1A 0E9</gco:CharacterString>
                            </gmd:postalCode>
-                           <gmd:country gco:nilReason="missing">
-                              <gco:CharacterString/>
+                           <gmd:country>
+                              <gco:CharacterString>Canada</gco:CharacterString>
                            </gmd:country>
                            <gmd:electronicMailAddress>
-                              <gco:CharacterString>yin.fan@ec.gc.ca</gco:CharacterString>
+                              <gco:CharacterString>brodaric@nrcan.gs.ca</gco:CharacterString>
                            </gmd:electronicMailAddress>
                         </gmd:CI_Address>
                      </gmd:address>
+                     <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                           <gmd:linkage>
+                              <gmd:URL>http://ngwd-bdnes.cits.nrcan.gc.ca</gmd:URL>
+                           </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                     </gmd:onlineResource>
                   </gmd:CI_Contact>
                </gmd:contactInfo>
                <gmd:role>
-                  <gmd:CI_RoleCode codeListValue="processor" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+                  <gmd:CI_RoleCode codeListValue="pointOfContact" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
                </gmd:role>
             </gmd:CI_ResponsibleParty>
          </gmd:pointOfContact>
-         <gmd:resourceMaintenance>
-            <gmd:MD_MaintenanceInformation>
-               <gmd:maintenanceAndUpdateFrequency>
-                  <gmd:MD_MaintenanceFrequencyCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_MaintenanceFrequencyCode"/>
-               </gmd:maintenanceAndUpdateFrequency>
-            </gmd:MD_MaintenanceInformation>
-         </gmd:resourceMaintenance>
-         <gmd:graphicOverview>
-            <gmd:MD_BrowseGraphic>
-               <gmd:fileName gco:nilReason="missing">
-                  <gco:CharacterString/>
-               </gmd:fileName>
-               <gmd:fileDescription>
-                  <gco:CharacterString>thumbnail</gco:CharacterString>
-               </gmd:fileDescription>
-            </gmd:MD_BrowseGraphic>
-         </gmd:graphicOverview>
-         <gmd:graphicOverview>
-            <gmd:MD_BrowseGraphic>
-               <gmd:fileName gco:nilReason="missing">
-                  <gco:CharacterString/>
-               </gmd:fileName>
-               <gmd:fileDescription>
-                  <gco:CharacterString>large_thumbnail</gco:CharacterString>
-               </gmd:fileDescription>
-            </gmd:MD_BrowseGraphic>
-         </gmd:graphicOverview>
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>CLIMATE CHANGE SCENARIO, CLIMATE INDICES, ICE/WEED ADJUSTMENT, ICE/WEED RETARDATION, NET BASIN SUPPLY, US SLIP</gco:CharacterString>
+                  <gco:CharacterString>SOS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>water level</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>groundwater level</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>surface water flow</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>water well</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeListValue="theme" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode"/>
                </gmd:type>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>Canada</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Great Lakes Basin</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Ontario</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Alberta</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Nova Scotia</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Alberta</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Manitoba</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Québec</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="place"/>
+               </gmd:type>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
          <gmd:resourceConstraints>
-            <gmd:MD_LegalConstraints>
-               <gmd:accessConstraints>
-                  <gmd:MD_RestrictionCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"/>
-               </gmd:accessConstraints>
-               <gmd:useConstraints>
-                  <gmd:MD_RestrictionCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"/>
-               </gmd:useConstraints>
-               <gmd:otherConstraints gco:nilReason="missing">
-                  <gco:CharacterString/>
-               </gmd:otherConstraints>
-            </gmd:MD_LegalConstraints>
+            <gmd:MD_Constraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>none</gco:CharacterString>
+               </gmd:useLimitation>
+            </gmd:MD_Constraints>
          </gmd:resourceConstraints>
-         <gmd:spatialResolution>
-            <gmd:MD_Resolution/>
-         </gmd:spatialResolution>
-         <gmd:language>
-            <gco:CharacterString>eng</gco:CharacterString>
-         </gmd:language>
-         <gmd:topicCategory>
-            <gmd:MD_TopicCategoryCode>inlandWaters</gmd:MD_TopicCategoryCode>
-         </gmd:topicCategory>
-         <gmd:extent>
-            <gmd:EX_Extent>
-               <gmd:temporalElement>
-                  <gmd:EX_TemporalExtent>
-                     <gmd:extent>
-                        <gml:TimePeriod gml:id="n/a">
-                           <gml:beginPosition/>
-                           <gml:endPosition/>
-                        </gml:TimePeriod>
-                     </gmd:extent>
-                  </gmd:EX_TemporalExtent>
-               </gmd:temporalElement>
-            </gmd:EX_Extent>
-         </gmd:extent>
-         <gmd:extent>
+         <srv:serviceType>
+            <gco:LocalName codeSpace="www.w3c.org">SOS</gco:LocalName>
+         </srv:serviceType>
+         <srv:serviceTypeVersion>
+            <gco:CharacterString>2.0.0</gco:CharacterString>
+         </srv:serviceTypeVersion>
+         <srv:accessProperties>
+            <gmd:MD_StandardOrderProcess>
+               <gmd:fees>
+                  <gco:CharacterString>NONE</gco:CharacterString>
+               </gmd:fees>
+            </gmd:MD_StandardOrderProcess>
+         </srv:accessProperties>
+         <srv:extent>
             <gmd:EX_Extent>
                <gmd:geographicElement>
                   <gmd:EX_GeographicBoundingBox>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-93.21</gco:Decimal>
+                        <gco:Decimal>-143.5767</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-74.49</gco:Decimal>
+                        <gco:Decimal>-50.76422</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>40.39</gco:Decimal>
+                        <gco:Decimal>41.17406</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>50.74</gco:Decimal>
+                        <gco:Decimal>60.15844</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
             </gmd:EX_Extent>
-         </gmd:extent>
-         <gmd:supplementalInformation>
-            <gco:CharacterString>Use Constraints: "public accessible".
-Under Maintenance and Repair: "every few years"
-Temporal Extent Begin Date: 01-01-01
-Temporal Extent End Date: 109-12-31
-Geographic Location: "Upper Great Lakes"
-Comments: "A zip file, it containes 8 data files, 25 KB"</gco:CharacterString>
-         </gmd:supplementalInformation>
-      </gmd:MD_DataIdentification>
+         </srv:extent>
+         <srv:couplingType>
+            <srv:SV_CouplingType codeListValue="tight" codeList="http://www.isotc211.org/2005/iso19119/resources/Codelist/gmxCodelists.xml#SV_CouplingType"/>
+         </srv:couplingType>
+         <srv:containsOperations>
+            <srv:SV_OperationMetadata>
+               <srv:operationName>
+                  <gco:CharacterString>GetCapabilities</gco:CharacterString>
+               </srv:operationName>
+               <srv:DCP>
+                  <srv:DCPList codeList="http://www.isotc211.org/2005/iso19119/resources/Codelist/gmxCodelists.xml#DCPList" codeListValue="WebServices"/>
+               </srv:DCP>
+               <srv:connectPoint>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://ngwd-bdnes.cits.nrcan.gc.ca/GinService/sos/gw?</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:description gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </srv:connectPoint>
+            </srv:SV_OperationMetadata>
+         </srv:containsOperations>
+         <srv:containsOperations>
+            <srv:SV_OperationMetadata>
+               <srv:operationName>
+                  <gco:CharacterString>DescribeSensor</gco:CharacterString>
+               </srv:operationName>
+               <srv:DCP>
+                  <srv:DCPList codeList="http://www.isotc211.org/2005/iso19119/resources/Codelist/gmxCodelists.xml#DCPList" codeListValue="WebServices"/>
+               </srv:DCP>
+               <srv:connectPoint>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://ngwd-bdnes.cits.nrcan.gc.ca/GinService/sos/gw?</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:description gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </srv:connectPoint>
+               <srv:connectPoint>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL/>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:description gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </srv:connectPoint>
+               <srv:connectPoint>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL/>
+                     </gmd:linkage>
+                     <gmd:protocol gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:protocol>
+                     <gmd:name gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:name>
+                  </gmd:CI_OnlineResource>
+               </srv:connectPoint>
+            </srv:SV_OperationMetadata>
+         </srv:containsOperations>
+         <srv:containsOperations>
+            <srv:SV_OperationMetadata>
+               <srv:operationName>
+                  <gco:CharacterString>GetObservation</gco:CharacterString>
+               </srv:operationName>
+               <srv:DCP>
+                  <srv:DCPList codeList="http://www.isotc211.org/2005/iso19119/resources/Codelist/gmxCodelists.xml#DCPList" codeListValue="WebServices"/>
+               </srv:DCP>
+               <srv:DCP/>
+               <srv:connectPoint>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://ngwd-bdnes.cits.nrcan.gc.ca/GinService/sos/gw?</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:description gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </srv:connectPoint>
+               <srv:connectPoint>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL/>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:description gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </srv:connectPoint>
+               <srv:connectPoint>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL/>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:description gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </srv:connectPoint>
+            </srv:SV_OperationMetadata>
+         </srv:containsOperations>
+         <srv:containsOperations>
+            <srv:SV_OperationMetadata>
+               <srv:operationName>
+                  <gco:CharacterString>GetFeatureOfInterest</gco:CharacterString>
+               </srv:operationName>
+               <srv:DCP>
+                  <srv:DCPList codeList="http://www.isotc211.org/2005/iso19119/resources/Codelist/gmxCodelists.xml#DCPList" codeListValue="WebServices"/>
+               </srv:DCP>
+               <srv:connectPoint>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://ngwd-bdnes.cits.nrcan.gc.ca/GinService/sos/gw?</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:description gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </srv:connectPoint>
+            </srv:SV_OperationMetadata>
+         </srv:containsOperations>
+      </srv:SV_ServiceIdentification>
   </gmd:identificationInfo>
   <gmd:distributionInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gmd:MD_Distribution>
          <gmd:distributionFormat>
             <gmd:MD_Format>
-               <gmd:name>
-                  <gco:CharacterString>Seidou370.zip</gco:CharacterString>
+               <gmd:name gco:nilReason="missing">
+                  <gco:CharacterString/>
                </gmd:name>
                <gmd:version gco:nilReason="missing">
                   <gco:CharacterString/>
                </gmd:version>
-               <gmd:specification>
-                  <gco:CharacterString>The data is a downloadable as a zip file on a sharepoint website.</gco:CharacterString>
-               </gmd:specification>
             </gmd:MD_Format>
          </gmd:distributionFormat>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL/>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>OGC:WMS-1.1.1-http-get-map</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:name>
+                     <gmd:description gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
       </gmd:MD_Distribution>
   </gmd:distributionInfo>
+  <gmd:dataQualityInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gmd:DQ_DataQuality>
+         <gmd:scope>
+            <gmd:DQ_Scope>
+               <gmd:level>
+                  <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ScopeCode" codeListValue="service"/>
+               </gmd:level>
+               <gmd:levelDescription>
+                  <gmd:MD_ScopeDescription>
+                     <gmd:other gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:other>
+                  </gmd:MD_ScopeDescription>
+               </gmd:levelDescription>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:lineage>
+            <gmd:LI_Lineage>
+               <gmd:statement gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:statement>
+            </gmd:LI_Lineage>
+         </gmd:lineage>
+      </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
 </gmi:MI_Metadata>

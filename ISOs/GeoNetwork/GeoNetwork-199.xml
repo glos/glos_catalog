@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd"><gmd:fileIdentifier xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:CharacterString>a5e5bd2b-2b43-4b4d-8ce0-a548751fa7d9</gco:CharacterString>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd"><gmd:fileIdentifier xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>ee0fcba1-75b3-487a-a5a8-bb893b2aa63d</gco:CharacterString>
   </gmd:fileIdentifier>
   <gmd:language xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gco:CharacterString>eng</gco:CharacterString>
   </gmd:language>
   <gmd:characterSet xmlns:gmd="http://www.isotc211.org/2005/gmd">
-      <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="./resources/codeList.xml#MD_CharacterSetCode"/>
+      <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"/>
   </gmd:characterSet>
   <gmd:contact xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gmd:CI_ResponsibleParty>
          <gmd:individualName>
-            <gco:CharacterString>Yin Fan</gco:CharacterString>
+            <gco:CharacterString>Mike Shantz</gco:CharacterString>
          </gmd:individualName>
-         <gmd:organisationName gco:nilReason="missing">
-            <gco:CharacterString/>
+         <gmd:organisationName>
+            <gco:CharacterString>Environment Canada</gco:CharacterString>
          </gmd:organisationName>
          <gmd:positionName>
             <gco:CharacterString>Metadata Author</gco:CharacterString>
@@ -42,20 +42,20 @@
                      <gmd:country gco:nilReason="missing">
                         <gco:CharacterString/>
                      </gmd:country>
-                     <gmd:electronicMailAddress gco:nilReason="missing">
-                        <gco:CharacterString/>
+                     <gmd:electronicMailAddress>
+                        <gco:CharacterString>mike.shantz@ec.gc.ca</gco:CharacterString>
                      </gmd:electronicMailAddress>
                   </gmd:CI_Address>
                </gmd:address>
             </gmd:CI_Contact>
          </gmd:contactInfo>
          <gmd:role>
-            <gmd:CI_RoleCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+            <gmd:CI_RoleCode codeListValue="custodian" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode"/>
          </gmd:role>
       </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:DateTime xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx">2011-08-24T12:46:38</gco:DateTime>
+      <gco:DateTime>2014-03-10T15:15:28</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
@@ -63,40 +63,30 @@
   <gmd:metadataStandardVersion xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gco:CharacterString>Version 3.14</gco:CharacterString>
   </gmd:metadataStandardVersion>
-  <gmd:identificationInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml">
+  <gmd:identificationInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Lake Superior Net Basin Supply - Historical 1900-2008</gco:CharacterString>
+                  <gco:CharacterString>Development of Low Water Stage-Impact Relationships for Identified Study Sites: Report to the Coastal Zone Technical Working Group on Task 2 - Undertake Focus Group Sessions to Establish Professional Perspectives on the Impact of Below Average Water Levels</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:Date>2010-05-01</gco:Date>
+                        <gco:Date>2010-12-06</gco:Date>
                      </gmd:date>
                      <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation"/>
                      </gmd:dateType>
                   </gmd:CI_Date>
                </gmd:date>
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:Date>2010-06-14</gco:Date>
+                        <gco:Date>2011-08-22</gco:Date>
                      </gmd:date>
                      <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2010-06-14</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="revision"/>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
                      </gmd:dateType>
                   </gmd:CI_Date>
                </gmd:date>
@@ -104,36 +94,36 @@
                   <gco:CharacterString/>
                </gmd:edition>
                <gmd:otherCitationDetails>
-                  <gco:CharacterString>Plan Formulation &amp; Evaluation Technical Working Group</gco:CharacterString>
+                  <gco:CharacterString>Coastal Zone Technical Working Group</gco:CharacterString>
                </gmd:otherCitationDetails>
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Lake Superior Historical Net Basin Supply was developed by residual method.</gco:CharacterString>
+            <gco:CharacterString>CDM gathered information from real estate professionals within select study areas of the upper Great Lakes to identify water levels that would be defined as producing significant shifts in sensitivity affecting property values. Additionally, information was to be gathered to determine the attributes of property ownership that are affected by low water levels and how sensitive they would be to fluctuating water levels. The work was undertaken as a way of gaining a better understanding of how water level conditions impact shoreline property use and valuation.</gco:CharacterString>
          </gmd:abstract>
          <gmd:purpose>
-            <gco:CharacterString>The Superior NBS was used in Lake Superior regulation plan formulation and evaluation</gco:CharacterString>
+            <gco:CharacterString>To obtain information from real estate professionals on the impacts of low water conditions on property values</gco:CharacterString>
          </gmd:purpose>
          <gmd:status>
-            <gmd:MD_ProgressCode codeListValue="completed" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ProgressCode"/>
+            <gmd:MD_ProgressCode codeListValue="completed" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ProgressCode"/>
          </gmd:status>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
                <gmd:individualName>
-                  <gco:CharacterString>Yin Fan</gco:CharacterString>
+                  <gco:CharacterString>Mike Shantz</gco:CharacterString>
                </gmd:individualName>
                <gmd:organisationName>
                   <gco:CharacterString>Environment Canada</gco:CharacterString>
                </gmd:organisationName>
-               <gmd:positionName>
-                  <gco:CharacterString>Water Resources Engineer</gco:CharacterString>
+               <gmd:positionName gco:nilReason="missing">
+                  <gco:CharacterString/>
                </gmd:positionName>
                <gmd:contactInfo>
                   <gmd:CI_Contact>
                      <gmd:phone>
                         <gmd:CI_Telephone>
-                           <gmd:voice>
-                              <gco:CharacterString>613-938-5725</gco:CharacterString>
+                           <gmd:voice gco:nilReason="missing">
+                              <gco:CharacterString/>
                            </gmd:voice>
                         </gmd:CI_Telephone>
                      </gmd:phone>
@@ -152,21 +142,21 @@
                               <gco:CharacterString/>
                            </gmd:country>
                            <gmd:electronicMailAddress>
-                              <gco:CharacterString>yin.fan@ec.gc.ca</gco:CharacterString>
+                              <gco:CharacterString>mike.shantz@ec.gc.ca</gco:CharacterString>
                            </gmd:electronicMailAddress>
                         </gmd:CI_Address>
                      </gmd:address>
                   </gmd:CI_Contact>
                </gmd:contactInfo>
                <gmd:role>
-                  <gmd:CI_RoleCode codeListValue="processor" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+                  <gmd:CI_RoleCode codeListValue="custodian" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode"/>
                </gmd:role>
             </gmd:CI_ResponsibleParty>
          </gmd:pointOfContact>
          <gmd:resourceMaintenance>
             <gmd:MD_MaintenanceInformation>
                <gmd:maintenanceAndUpdateFrequency>
-                  <gmd:MD_MaintenanceFrequencyCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_MaintenanceFrequencyCode"/>
+                  <gmd:MD_MaintenanceFrequencyCode codeListValue="" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"/>
                </gmd:maintenanceAndUpdateFrequency>
             </gmd:MD_MaintenanceInformation>
          </gmd:resourceMaintenance>
@@ -193,20 +183,23 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>HISTORICAL, LAKE SUPERIOR, NET BASIN SUPPLY</gco:CharacterString>
+                  <gco:CharacterString>LOW WATER</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>RIPARIAN ZONES</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
-                  <gmd:MD_KeywordTypeCode codeListValue="theme" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode"/>
+                  <gmd:MD_KeywordTypeCode codeListValue="theme" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode"/>
                </gmd:type>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
          <gmd:resourceConstraints>
             <gmd:MD_LegalConstraints>
                <gmd:accessConstraints>
-                  <gmd:MD_RestrictionCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"/>
+                  <gmd:MD_RestrictionCode codeListValue="otherRestrictions" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode"/>
                </gmd:accessConstraints>
                <gmd:useConstraints>
-                  <gmd:MD_RestrictionCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"/>
+                  <gmd:MD_RestrictionCode codeListValue="otherRestrictions" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode"/>
                </gmd:useConstraints>
                <gmd:otherConstraints gco:nilReason="missing">
                   <gco:CharacterString/>
@@ -220,46 +213,24 @@
             <gco:CharacterString>eng</gco:CharacterString>
          </gmd:language>
          <gmd:topicCategory>
-            <gmd:MD_TopicCategoryCode>inlandWaters</gmd:MD_TopicCategoryCode>
+            <gmd:MD_TopicCategoryCode>society</gmd:MD_TopicCategoryCode>
          </gmd:topicCategory>
          <gmd:extent>
             <gmd:EX_Extent>
-               <gmd:temporalElement>
-                  <gmd:EX_TemporalExtent>
-                     <gmd:extent>
-                        <gml:TimePeriod gml:id="n/a">
-                           <gml:beginPosition>1900-01-01T00:00:00</gml:beginPosition>
-                           <gml:endPosition>2008-12-31T00:00:00</gml:endPosition>
-                        </gml:TimePeriod>
-                     </gmd:extent>
-                  </gmd:EX_TemporalExtent>
-               </gmd:temporalElement>
-            </gmd:EX_Extent>
-         </gmd:extent>
-         <gmd:extent>
-            <gmd:EX_Extent>
-               <gmd:geographicElement>
-                  <gmd:EX_GeographicBoundingBox>
-                     <gmd:westBoundLongitude>
-                        <gco:Decimal>-92.5</gco:Decimal>
-                     </gmd:westBoundLongitude>
-                     <gmd:eastBoundLongitude>
-                        <gco:Decimal>-83.5</gco:Decimal>
-                     </gmd:eastBoundLongitude>
-                     <gmd:southBoundLatitude>
-                        <gco:Decimal>46</gco:Decimal>
-                     </gmd:southBoundLatitude>
-                     <gmd:northBoundLatitude>
-                        <gco:Decimal>49</gco:Decimal>
-                     </gmd:northBoundLatitude>
-                  </gmd:EX_GeographicBoundingBox>
-               </gmd:geographicElement>
+               <gmd:verticalElement>
+                  <gmd:EX_VerticalExtent>
+                     <gmd:minimumValue>
+                        <gco:Real/>
+                     </gmd:minimumValue>
+                     <gmd:maximumValue>
+                        <gco:Real/>
+                     </gmd:maximumValue>
+                  </gmd:EX_VerticalExtent>
+               </gmd:verticalElement>
             </gmd:EX_Extent>
          </gmd:extent>
          <gmd:supplementalInformation>
-            <gco:CharacterString>Use Constraints: "public accessible".
-Maintenance and Repair: "every few years"
-Comments: "monthly data, 12KB"</gco:CharacterString>
+            <gco:CharacterString>Comments: "Report is a stand alone document and also contained as an appendix in the low water peer review submission. Product developed by CDM."</gco:CharacterString>
          </gmd:supplementalInformation>
       </gmd:MD_DataIdentification>
   </gmd:identificationInfo>
@@ -268,16 +239,36 @@ Comments: "monthly data, 12KB"</gco:CharacterString>
          <gmd:distributionFormat>
             <gmd:MD_Format>
                <gmd:name>
-                  <gco:CharacterString>SUPNBSM_1900_2008.dbf</gco:CharacterString>
+                  <gco:CharacterString>pdf</gco:CharacterString>
                </gmd:name>
-               <gmd:version gco:nilReason="missing">
-                  <gco:CharacterString/>
+               <gmd:version>
+                  <gco:CharacterString>n/a</gco:CharacterString>
                </gmd:version>
                <gmd:specification>
-                  <gco:CharacterString>The data is a downloadable as ascii file on a sharepoint website.</gco:CharacterString>
+                  <gco:CharacterString>The data is a downloadable PDF file on a sharepoint website. File for download</gco:CharacterString>
                </gmd:specification>
             </gmd:MD_Format>
          </gmd:distributionFormat>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://www.iugls.org/DocStore/ProjectArchive/CZN_CoastalZone/CZN05_LowWaterImpacts/Reports/CZN05-R3_DunningJordan_RealEstateSurvey.pdf</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>DunningJordan_RealEstateSurvey</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
       </gmd:MD_Distribution>
   </gmd:distributionInfo>
 </gmi:MI_Metadata>

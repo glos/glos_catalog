@@ -1,30 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd"><gmd:fileIdentifier xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:CharacterString>d1f194d5-1fbf-4e79-a4f1-35ed9a016ad8</gco:CharacterString>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd"><gmd:fileIdentifier xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>958d8773-52da-46ef-b06d-60a85db7158a</gco:CharacterString>
   </gmd:fileIdentifier>
   <gmd:language xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gco:CharacterString>eng</gco:CharacterString>
   </gmd:language>
   <gmd:characterSet xmlns:gmd="http://www.isotc211.org/2005/gmd">
-      <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="./resources/codeList.xml#MD_CharacterSetCode"/>
+      <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"/>
   </gmd:characterSet>
   <gmd:contact xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gmd:CI_ResponsibleParty>
          <gmd:individualName>
-            <gco:CharacterString>Yin Fan</gco:CharacterString>
+            <gco:CharacterString>Dick Bartz &amp; Pat Inch</gco:CharacterString>
          </gmd:individualName>
          <gmd:organisationName>
-            <gco:CharacterString>Environment Canada</gco:CharacterString>
+            <gco:CharacterString>Ontario MOE &amp; USGS</gco:CharacterString>
          </gmd:organisationName>
          <gmd:positionName>
-            <gco:CharacterString>Metadata Author</gco:CharacterString>
+            <gco:CharacterString>Metadata Authors</gco:CharacterString>
          </gmd:positionName>
          <gmd:contactInfo>
             <gmd:CI_Contact>
                <gmd:phone>
                   <gmd:CI_Telephone>
                      <gmd:voice>
-                        <gco:CharacterString>613-938-5725</gco:CharacterString>
+                        <gco:CharacterString>807.475.1723 &amp; 614.430.7742</gco:CharacterString>
                      </gmd:voice>
                   </gmd:CI_Telephone>
                </gmd:phone>
@@ -43,19 +43,19 @@
                         <gco:CharacterString/>
                      </gmd:country>
                      <gmd:electronicMailAddress>
-                        <gco:CharacterString>yin.fan@ec.gc.ca</gco:CharacterString>
+                        <gco:CharacterString>Pat.Inch@ontario.ca;  rsbartz@usgs.gov</gco:CharacterString>
                      </gmd:electronicMailAddress>
                   </gmd:CI_Address>
                </gmd:address>
             </gmd:CI_Contact>
          </gmd:contactInfo>
          <gmd:role>
-            <gmd:CI_RoleCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+            <gmd:CI_RoleCode codeListValue="distributor" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode"/>
          </gmd:role>
       </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:DateTime xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx">2011-08-24T12:57:30</gco:DateTime>
+      <gco:DateTime>2014-03-10T16:45:55</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
@@ -68,35 +68,24 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Hydrological input data for stochastic wet scenario</gco:CharacterString>
+                  <gco:CharacterString>Contextual Narrative for Water Uses</gco:CharacterString>
                </gmd:title>
+               <gmd:alternateTitle>
+                  <gco:CharacterString>Water Use TWG Contextual Narrative</gco:CharacterString>
+               </gmd:alternateTitle>
+               <gmd:alternateTitle>
+                  <gco:CharacterString>Water Uses Contextual Narrative</gco:CharacterString>
+               </gmd:alternateTitle>
+               <gmd:alternateTitle>
+                  <gco:CharacterString>Water Use TWG CN_05-17-2011_Final</gco:CharacterString>
+               </gmd:alternateTitle>
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:Date>2010-11-01</gco:Date>
+                        <gco:Date>2011-05-17</gco:Date>
                      </gmd:date>
                      <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2011-05-12</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2011-05-12</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="revision"/>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
                      </gmd:dateType>
                   </gmd:CI_Date>
                </gmd:date>
@@ -104,36 +93,36 @@
                   <gco:CharacterString/>
                </gmd:edition>
                <gmd:otherCitationDetails>
-                  <gco:CharacterString>Plan Formulation &amp; Evaluation Technical Working Group</gco:CharacterString>
+                  <gco:CharacterString>Water Uses Technical Working Group</gco:CharacterString>
                </gmd:otherCitationDetails>
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Hydrological input data for stochastic wet scenario include 8 data files, they are Net Basin Supplies for the four Lakes,  ice/weed retardation for St. Clair, Detroit, Niagara River and ice/weed adjustment for US Slip level calculation. The NBS were selected from a 55590 year stochastic Net Basin Supply developed by Laura Fagherazzi (Hydro Quebec). This series was selected for high levels on Lake Superior and Lake Michigan-Huron in the 55590 years Plan77A simulation.</gco:CharacterString>
+            <gco:CharacterString>The Contextual Narrative (CN) describes baseline conditions, key trends in the area of interest, how an interest adapts to changing water levels, how state, provincial and federal laws affect the interest, and how an interest is affected by a regulation plan. The narrative also considers the likelihood of major shifts in the sector and any thresholds that if crossed could result in a major dislocation of the interest. The CN also identifies key performance indicators to best measure the impacts on the interest that result from a particular level/flow or series of levels/flows. The CN will be used by the Study Board in evaluating the various plans being developed to regulate Lake Superior water levels, and may also be used in crafting public information materials.</gco:CharacterString>
          </gmd:abstract>
          <gmd:purpose>
-            <gco:CharacterString>Hydrological input data for stochastic wet scenario were used in Lake Superior regulation plan formulation and evaluation</gco:CharacterString>
+            <gco:CharacterString>The water use contextual narrative is part of an International Upper Great Lakes Study Board (Study Board) study for the International Joint Commission.</gco:CharacterString>
          </gmd:purpose>
          <gmd:status>
-            <gmd:MD_ProgressCode codeListValue="completed" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ProgressCode"/>
+            <gmd:MD_ProgressCode codeListValue="completed" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ProgressCode"/>
          </gmd:status>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
                <gmd:individualName>
-                  <gco:CharacterString>Yin Fan</gco:CharacterString>
+                  <gco:CharacterString>Pat Inch &amp; Dick Bartz</gco:CharacterString>
                </gmd:individualName>
                <gmd:organisationName>
-                  <gco:CharacterString>Environment Canada</gco:CharacterString>
+                  <gco:CharacterString>Ontario MOE &amp; USGS</gco:CharacterString>
                </gmd:organisationName>
                <gmd:positionName>
-                  <gco:CharacterString>Water Resources Engineer</gco:CharacterString>
+                  <gco:CharacterString>Co-Chairs - Technical Working Group; Municipal and Industrial Water Uses</gco:CharacterString>
                </gmd:positionName>
                <gmd:contactInfo>
                   <gmd:CI_Contact>
                      <gmd:phone>
                         <gmd:CI_Telephone>
                            <gmd:voice>
-                              <gco:CharacterString>613-938-5725</gco:CharacterString>
+                              <gco:CharacterString>807.475.1723 &amp; 614.430.7742</gco:CharacterString>
                            </gmd:voice>
                         </gmd:CI_Telephone>
                      </gmd:phone>
@@ -152,21 +141,73 @@
                               <gco:CharacterString/>
                            </gmd:country>
                            <gmd:electronicMailAddress>
-                              <gco:CharacterString>yin.fan@ec.gc.ca</gco:CharacterString>
+                              <gco:CharacterString>Pat.Inch@ontario.ca;  rsbartz@usgs.gov</gco:CharacterString>
                            </gmd:electronicMailAddress>
                         </gmd:CI_Address>
                      </gmd:address>
                   </gmd:CI_Contact>
                </gmd:contactInfo>
                <gmd:role>
-                  <gmd:CI_RoleCode codeListValue="processor" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+                  <gmd:CI_RoleCode codeListValue="pointOfContact" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode"/>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:pointOfContact>
+         <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:individualName>
+                  <gco:CharacterString>Kimberly Shaffer</gco:CharacterString>
+               </gmd:individualName>
+               <gmd:organisationName>
+                  <gco:CharacterString>IUGLS Technical Working Group</gco:CharacterString>
+               </gmd:organisationName>
+               <gmd:positionName gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:positionName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:phone>
+                        <gmd:CI_Telephone>
+                           <gmd:voice gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:voice>
+                           <gmd:facsimile gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                     </gmd:phone>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:deliveryPoint gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:deliveryPoint>
+                           <gmd:city gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:city>
+                           <gmd:administrativeArea gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:administrativeArea>
+                           <gmd:postalCode gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:postalCode>
+                           <gmd:country gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:country>
+                           <gmd:electronicMailAddress gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="author"/>
                </gmd:role>
             </gmd:CI_ResponsibleParty>
          </gmd:pointOfContact>
          <gmd:resourceMaintenance>
             <gmd:MD_MaintenanceInformation>
                <gmd:maintenanceAndUpdateFrequency>
-                  <gmd:MD_MaintenanceFrequencyCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_MaintenanceFrequencyCode"/>
+                  <gmd:MD_MaintenanceFrequencyCode codeListValue="notPlanned" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"/>
                </gmd:maintenanceAndUpdateFrequency>
             </gmd:MD_MaintenanceInformation>
          </gmd:resourceMaintenance>
@@ -193,20 +234,624 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>STOCHASTIC, ICE/WEED ADJUSTMENT, ICE/WEED RETARDATION, NET BASIN SUPPLY,  US SLIP, LAKE SUPERIOR, LAKE MICHIGAN-HURON, WET, HIGH, WATER LEVEL</gco:CharacterString>
+                  <gco:CharacterString>ADAPTION</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>ADAPTIVE MANAGEMENT</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>AGRICULTURAL</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>AGRICULTURAL WATER USE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>AGRICULTURE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>CAPACITY</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>CLIMATE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>CLIMATE CHANGE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>COAL FIRED PLANTS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>COAL-FUELED POWER</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>COMBINED SEWER OUTFALLS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>COMBINED SEWER OVERFLOWS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>COMMERCIAL</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>CONSUMPTIVE USE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>CONSERVATION</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>CONTEXTUAL NARRATIVES</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>COOLING TOWERS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>COOLING WATER</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>CRIB</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>CRIBS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>CROP PRODUCTION</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>DATABASES</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>DEMAND</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>DIAMETER</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>DIVERSION</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>DOMESTIC CONSUMPTION</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>DOMESTIC WATER USE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>DRAWDOWN</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>DRINKING WATER</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>DURATION</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>ECONOMIC DEVELOPMENT</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>ECONOMIC POLICY</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>ELEVATION</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>ELECTRIC</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>ELECTRIC POWER</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>ELECTRICAL UTILITIES</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>ENERGY</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>ENERGY DEVELOPMENT</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>ENERGY PRODUCTION</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>EVAPORATION</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>FACILITIES</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>FACILITY</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>FACILITY CAPACITY</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>FEDERAL</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>FEDERAL GOVERNMENT</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>FIRST NATIONS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>FISH IMPINGEMENT</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>FISH KILLS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>FLOOD</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>FLOODING</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>FLOOD PROTECTION</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>FLOODED</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>FLOODS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>FRAZZLE ICE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>GATES</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>GATES SETTING</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>GLACIAL ISOSTATIC ADJUSTMENT</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>GLACIAL ISOSTATIC ADJUSTMENT (GIA)</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>GOVERNMENT</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>GOVERNMENT POLICY</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>GROUNDWATER</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>GROWTH</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>GROWTH FACTORS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>HISTORIC HIGHS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>HISTORIC LOWS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>HISTORICAL WATER LEVELS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>ICE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>HYDROELECTRIC</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>HYDROELECTRIC PLANTS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>IMPINGEMENT</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>INDUSTRAL EFFLUENT</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>INDUSTRIAL</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>INDUSTRIAL WATER SUPPLY</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>INDUSTRY</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>INFLOW</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>INSTITUTIONAL</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>INSTITUTIONAL WATER USE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>INTAKE CAPACITY</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>INTERBASIN DIVERSION</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>INVENTORIES</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>INVENTORY</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>INVERT</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>INVERT ELEVATION</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>IRRIGATION</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>IRRIGATION WATER</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>IRRIGATION WATER USE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>LAKES</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>LAW</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>LEGISLATION</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>LIVESTOCK</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>LONG TERM LEVEL</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>LOW LIFT STATION</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>LOW WATER</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>MANUFACTURERS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>METERED WATER USE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>METERED WATER WITHDRAWAL</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>METERING</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>METERS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>MINING</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>MINISTRY OF THE ENVIRONMENT</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>MONITORING</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>MUNICIPAL</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>MUNICIPAL SANITARY SEWER</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>MUNICIPAL SEWER</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>MUNICIPAL STORM SEWER</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>MUNICIPAL WASTEWATER</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>MUNICIPAL WATER</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>MUNICIPALITIES</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NUCLEAR ENERGY</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NUCLEAR POWER</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>ONCE-THROUGH COOLING</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>OUTFLOW</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>OUTFLOWS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>OUTLET</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>PERFORMANCE INDICATORS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>POPULATION GROWTH</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>POLICY</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>POPULATION CHANGE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>POPULATION DECREASE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>POPULATION DEMAND</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>POPULATION PROJECTIONS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>POWER PLANT</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>POWER PLANT ENTRAINMENT</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>POWER STATION</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>POWER STATIONS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>PRICE POLICY</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>PRICES</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>PRODUCTIVITY</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>PROJECTIONS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>PROVINCIAL GOVERNMENT</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>PUBLIC POLICY</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>PUBLIC SECTOR</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>PUBLIC WATER SUPPLY</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>REGIONAL WATER USE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>REGULATORY AGENCIES</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>SAFE YIELD</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>SANITARY SEWER OUTFALLS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>SANITARY SEWERS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>SANITARY WASTEWATER</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>SEASONAL BEHAVIOUR</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>SEASONAL HIGHS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>SEASONAL LOWS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>SEASONAL VARIATION</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>SEASONAL WATER USE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>SEASONAL WITHDRAWALS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>SHALLOW WATER</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>SHORE INTAKE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>SHORE PROTECTION</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>SHORE WELLS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>STATE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>STATE GOVERNMENT</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>STATES</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>STORM SEWERS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>STORM WASTEWATER</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>STORMS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>STORMWATER</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>SURFACE WATER</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>TAR SANDS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>THERMOELECTRIC ENERGY</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>THERMOELECTRIC POWER</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>TRADE POLICY</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>USE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>UTILITIES</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>VORTEX</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>VORTEXING</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WASTEWATER</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WASTEWATER DISPOSAL</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WASTEWATER TREATMENT</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER CONSERVATION</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER CONSUMPTIVE USE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER DEMAND</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER FACILTIES</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER INTAKE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER INTAKE CRIB</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER LEVEL</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER LEVEL CHANGES</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER LEVELS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER METERS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER POLICY</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER SUPPLIES</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER SUPPLY</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER SUPPLY TREATMENT</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER SYSTEM</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER TAKINGS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER USE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER USE IRRIGATION</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER UTILITIES</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER WELL</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER WITHDRAWAL</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER WORKS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WET WELLS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>YIELD</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
-                  <gmd:MD_KeywordTypeCode codeListValue="theme" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode"/>
+                  <gmd:MD_KeywordTypeCode codeListValue="theme" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode"/>
+               </gmd:type>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>GREAT LAKES</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>LAKE ERIE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>LAKE ST. CLAIR</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>LAKE SUPERIOR</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>LAKE HURON</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>LAKE MICHIGAN</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>LAKE MICHIGAN-HURON</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place"/>
                </gmd:type>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
          <gmd:resourceConstraints>
             <gmd:MD_LegalConstraints>
                <gmd:accessConstraints>
-                  <gmd:MD_RestrictionCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"/>
+                  <gmd:MD_RestrictionCode codeListValue="intellectualPropertyRights" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode"/>
                </gmd:accessConstraints>
                <gmd:useConstraints>
-                  <gmd:MD_RestrictionCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"/>
+                  <gmd:MD_RestrictionCode codeListValue="intellectualPropertyRights" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode"/>
                </gmd:useConstraints>
                <gmd:otherConstraints gco:nilReason="missing">
                   <gco:CharacterString/>
@@ -228,8 +873,8 @@
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
                         <gml:TimePeriod gml:id="n/a">
-                           <gml:beginPosition/>
-                           <gml:endPosition/>
+                           <gml:beginPosition>1876-06-25T00:00:00</gml:beginPosition>
+                           <gml:endPosition>2010-11-30T00:00:00</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -257,12 +902,7 @@
             </gmd:EX_Extent>
          </gmd:extent>
          <gmd:supplementalInformation>
-            <gco:CharacterString>Use Constraints: "public accessible".
-Under Maintenance and Repair: "every few years"
-Temporal Extent Begin Date: 10988-01-01
-Temporal Extent End Date: 11096-12-31
-Geographic Location: "Upper Great Lakes"
-Comments: "A zip file, it containes 8 data files, 25 KB"</gco:CharacterString>
+            <gco:CharacterString>Geographic Location: "Upper Great Lakes"</gco:CharacterString>
          </gmd:supplementalInformation>
       </gmd:MD_DataIdentification>
   </gmd:identificationInfo>
@@ -271,16 +911,36 @@ Comments: "A zip file, it containes 8 data files, 25 KB"</gco:CharacterString>
          <gmd:distributionFormat>
             <gmd:MD_Format>
                <gmd:name>
-                  <gco:CharacterString>wet.zip</gco:CharacterString>
+                  <gco:CharacterString>pdf</gco:CharacterString>
                </gmd:name>
-               <gmd:version gco:nilReason="missing">
-                  <gco:CharacterString/>
+               <gmd:version>
+                  <gco:CharacterString>Final</gco:CharacterString>
                </gmd:version>
                <gmd:specification>
-                  <gco:CharacterString>The data is a downloadable as a zip file on a sharepoint website.</gco:CharacterString>
+                  <gco:CharacterString>Participants were advised that individual information would be kept confidential and information used collectively for the various lakes, sectors, and other parameters. File for download</gco:CharacterString>
                </gmd:specification>
             </gmd:MD_Format>
          </gmd:distributionFormat>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://iugls.org/DocStore/ProjectArchive/MIU_MunicipalIndustrialWaterUses/MIU01_Shaffer_WaterUsesContextualNarrative/Reports/DMI01-R1_Shaffer.pdf</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>DMI01-R1_Shaffer</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Water Use TWG CN_05-17-2011_Final</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
       </gmd:MD_Distribution>
   </gmd:distributionInfo>
 </gmi:MI_Metadata>

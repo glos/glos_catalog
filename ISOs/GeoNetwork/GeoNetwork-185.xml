@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd"><gmd:fileIdentifier xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:CharacterString>5e5c63a8-82e4-4ae5-af3c-9b71c1232f86</gco:CharacterString>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd"><gmd:fileIdentifier xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>c8a164a0-a788-4572-ae42-ba696aed84a4</gco:CharacterString>
   </gmd:fileIdentifier>
   <gmd:language xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gco:CharacterString>eng</gco:CharacterString>
   </gmd:language>
   <gmd:characterSet xmlns:gmd="http://www.isotc211.org/2005/gmd">
-      <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="./resources/codeList.xml#MD_CharacterSetCode"/>
+      <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"/>
   </gmd:characterSet>
   <gmd:contact xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gmd:CI_ResponsibleParty>
          <gmd:individualName>
-            <gco:CharacterString>Tim Hunter</gco:CharacterString>
+            <gco:CharacterString>Yin Fan</gco:CharacterString>
          </gmd:individualName>
          <gmd:organisationName>
-            <gco:CharacterString>NOAA/Great Lakes Environmental Research Laboratory</gco:CharacterString>
+            <gco:CharacterString>Environment Canada</gco:CharacterString>
          </gmd:organisationName>
          <gmd:positionName>
             <gco:CharacterString>Metadata Author</gco:CharacterString>
@@ -24,18 +24,12 @@
                <gmd:phone>
                   <gmd:CI_Telephone>
                      <gmd:voice>
-                        <gco:CharacterString>734-741-2344</gco:CharacterString>
+                        <gco:CharacterString>613-938-5725</gco:CharacterString>
                      </gmd:voice>
-                     <gmd:facsimile gco:nilReason="missing">
-                        <gco:CharacterString/>
-                     </gmd:facsimile>
                   </gmd:CI_Telephone>
                </gmd:phone>
                <gmd:address>
                   <gmd:CI_Address>
-                     <gmd:deliveryPoint gco:nilReason="missing">
-                        <gco:CharacterString/>
-                     </gmd:deliveryPoint>
                      <gmd:city gco:nilReason="missing">
                         <gco:CharacterString/>
                      </gmd:city>
@@ -49,19 +43,19 @@
                         <gco:CharacterString/>
                      </gmd:country>
                      <gmd:electronicMailAddress>
-                        <gco:CharacterString>tim.hunter@noaa.gov</gco:CharacterString>
+                        <gco:CharacterString>yin.fan@ec.gc.ca</gco:CharacterString>
                      </gmd:electronicMailAddress>
                   </gmd:CI_Address>
                </gmd:address>
             </gmd:CI_Contact>
          </gmd:contactInfo>
          <gmd:role>
-            <gmd:CI_RoleCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+            <gmd:CI_RoleCode codeListValue="originator" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode"/>
          </gmd:role>
       </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:DateTime xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx">2011-08-24T12:40:00</gco:DateTime>
+      <gco:DateTime>2014-03-10T17:50:51</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
@@ -74,57 +68,77 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>NOAA/GLERL Lake Erie Monthly Component Net Basin Supply Estimates 1948-2008</gco:CharacterString>
+                  <gco:CharacterString>Hydrological input data for climate change T2 scenario</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:Date>2011-06-20</gco:Date>
+                        <gco:Date>2011-01-07</gco:Date>
                      </gmd:date>
                      <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="revision"/>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation"/>
                      </gmd:dateType>
                   </gmd:CI_Date>
                </gmd:date>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2011-05-24</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2011-05-24</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision"/>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:edition gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:edition>
                <gmd:otherCitationDetails>
-                  <gco:CharacterString>Hydroclimate Technical Working Group</gco:CharacterString>
+                  <gco:CharacterString>Plan Formulation &amp; Evaluation Technical Working Group</gco:CharacterString>
                </gmd:otherCitationDetails>
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Monthly component Net Basin Supply (NBS) values were calculated for the available period of record (1948-2008) using the formula NBS = Precipitation + Runoff - Evaporation.  Precipitation and runoff are estimated from observation data, while evaporation from the lake is a modeled output from the NOAA/GLERL Large Lake Thermodynamics Model.</gco:CharacterString>
+            <gco:CharacterString>Hydrological input data for climate change T2 scenario include 8 data files, they are Net Basin Supplies for the four Lakes,  ice/weed retardation for St. Clair, Detroit, Niagara River and ice/weed adjustment for US Slip level calculation. The climate change T2 scenario Net Basin Supply were developed by Seidou/Tarha</gco:CharacterString>
          </gmd:abstract>
+         <gmd:purpose>
+            <gco:CharacterString>Hydrological input data for climate change T2 scenario were used in Lake Superior regulation plan formulation and evaluation</gco:CharacterString>
+         </gmd:purpose>
          <gmd:status>
-            <gmd:MD_ProgressCode codeListValue="onGoing" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ProgressCode"/>
+            <gmd:MD_ProgressCode codeListValue="completed" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ProgressCode"/>
          </gmd:status>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
                <gmd:individualName>
-                  <gco:CharacterString>Tim Hunter</gco:CharacterString>
+                  <gco:CharacterString>Yin Fan</gco:CharacterString>
                </gmd:individualName>
                <gmd:organisationName>
-                  <gco:CharacterString>NOAA/Great Lakes Environmental Research Laboratory</gco:CharacterString>
+                  <gco:CharacterString>Environment Canada</gco:CharacterString>
                </gmd:organisationName>
                <gmd:positionName>
-                  <gco:CharacterString>IT Specialist</gco:CharacterString>
+                  <gco:CharacterString>Water Resources Engineer</gco:CharacterString>
                </gmd:positionName>
                <gmd:contactInfo>
                   <gmd:CI_Contact>
                      <gmd:phone>
                         <gmd:CI_Telephone>
                            <gmd:voice>
-                              <gco:CharacterString>734-741-2344</gco:CharacterString>
+                              <gco:CharacterString>613-938-5725</gco:CharacterString>
                            </gmd:voice>
-                           <gmd:facsimile gco:nilReason="missing">
-                              <gco:CharacterString/>
-                           </gmd:facsimile>
                         </gmd:CI_Telephone>
                      </gmd:phone>
                      <gmd:address>
                         <gmd:CI_Address>
-                           <gmd:deliveryPoint gco:nilReason="missing">
-                              <gco:CharacterString/>
-                           </gmd:deliveryPoint>
                            <gmd:city gco:nilReason="missing">
                               <gco:CharacterString/>
                            </gmd:city>
@@ -138,21 +152,21 @@
                               <gco:CharacterString/>
                            </gmd:country>
                            <gmd:electronicMailAddress>
-                              <gco:CharacterString>tim.hunter@noaa.gov</gco:CharacterString>
+                              <gco:CharacterString>yin.fan@ec.gc.ca</gco:CharacterString>
                            </gmd:electronicMailAddress>
                         </gmd:CI_Address>
                      </gmd:address>
                   </gmd:CI_Contact>
                </gmd:contactInfo>
                <gmd:role>
-                  <gmd:CI_RoleCode codeListValue="author" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+                  <gmd:CI_RoleCode codeListValue="processor" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode"/>
                </gmd:role>
             </gmd:CI_ResponsibleParty>
          </gmd:pointOfContact>
          <gmd:resourceMaintenance>
             <gmd:MD_MaintenanceInformation>
                <gmd:maintenanceAndUpdateFrequency>
-                  <gmd:MD_MaintenanceFrequencyCode codeListValue="annually" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_MaintenanceFrequencyCode"/>
+                  <gmd:MD_MaintenanceFrequencyCode codeListValue="irregular" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"/>
                </gmd:maintenanceAndUpdateFrequency>
             </gmd:MD_MaintenanceInformation>
          </gmd:resourceMaintenance>
@@ -179,20 +193,35 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>WATER SUPPLY, EVAPORATION ESTIMATE, RUNOFF, STREAM FLOW, PRECIPITATION, HYDROLOGY</gco:CharacterString>
+                  <gco:CharacterString>CLIMATE CHANGE SCENARIO</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>CLIMATE INDICES</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>ICE/WEED ADJUSTMENT</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>ICE/WEED RETARDATION</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NET BASIN SUPPLY</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>US SLIP</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
-                  <gmd:MD_KeywordTypeCode codeListValue="theme" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode"/>
+                  <gmd:MD_KeywordTypeCode codeListValue="theme" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode"/>
                </gmd:type>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
          <gmd:resourceConstraints>
             <gmd:MD_LegalConstraints>
                <gmd:accessConstraints>
-                  <gmd:MD_RestrictionCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"/>
+                  <gmd:MD_RestrictionCode codeListValue="" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode"/>
                </gmd:accessConstraints>
                <gmd:useConstraints>
-                  <gmd:MD_RestrictionCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"/>
+                  <gmd:MD_RestrictionCode codeListValue="" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode"/>
                </gmd:useConstraints>
                <gmd:otherConstraints gco:nilReason="missing">
                   <gco:CharacterString/>
@@ -200,22 +229,11 @@
             </gmd:MD_LegalConstraints>
          </gmd:resourceConstraints>
          <gmd:spatialResolution>
-            <gmd:MD_Resolution>
-               <gmd:equivalentScale>
-                  <gmd:MD_RepresentativeFraction>
-                     <gmd:denominator>
-                        <gco:Integer/>
-                     </gmd:denominator>
-                  </gmd:MD_RepresentativeFraction>
-               </gmd:equivalentScale>
-            </gmd:MD_Resolution>
+            <gmd:MD_Resolution/>
          </gmd:spatialResolution>
          <gmd:language>
             <gco:CharacterString>eng</gco:CharacterString>
          </gmd:language>
-         <gmd:characterSet>
-            <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_CharacterSetCode"/>
-         </gmd:characterSet>
          <gmd:topicCategory>
             <gmd:MD_TopicCategoryCode>inlandWaters</gmd:MD_TopicCategoryCode>
          </gmd:topicCategory>
@@ -225,8 +243,8 @@
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
                         <gml:TimePeriod gml:id="n/a">
-                           <gml:beginPosition>1948-01-03T00:00:00</gml:beginPosition>
-                           <gml:endPosition>2009-01-02T00:00:00</gml:endPosition>
+                           <gml:beginPosition/>
+                           <gml:endPosition/>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -238,23 +256,28 @@
                <gmd:geographicElement>
                   <gmd:EX_GeographicBoundingBox>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-84</gco:Decimal>
+                        <gco:Decimal>-93.21</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-78</gco:Decimal>
+                        <gco:Decimal>-74.49</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>41</gco:Decimal>
+                        <gco:Decimal>40.39</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>43</gco:Decimal>
+                        <gco:Decimal>50.74</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
             </gmd:EX_Extent>
          </gmd:extent>
-         <gmd:supplementalInformation gco:nilReason="missing">
-            <gco:CharacterString/>
+         <gmd:supplementalInformation>
+            <gco:CharacterString>Use Constraints: "public accessible".
+Under Maintenance and Repair: "every few years"
+Temporal Extent Begin Date: 01-01-01
+Temporal Extent End Date: 109-12-31
+Geographic Location: "Upper Great Lakes"
+Comments: "A zip file, it containes 8 data files, 25 KB"</gco:CharacterString>
          </gmd:supplementalInformation>
       </gmd:MD_DataIdentification>
   </gmd:identificationInfo>
@@ -263,13 +286,13 @@
          <gmd:distributionFormat>
             <gmd:MD_Format>
                <gmd:name>
-                  <gco:CharacterString>NBS_ERI.xls</gco:CharacterString>
+                  <gco:CharacterString>ZIP</gco:CharacterString>
                </gmd:name>
-               <gmd:version gco:nilReason="missing">
-                  <gco:CharacterString/>
+               <gmd:version>
+                  <gco:CharacterString>n/a</gco:CharacterString>
                </gmd:version>
                <gmd:specification>
-                  <gco:CharacterString>The data is in an Excel spreadsheet file on an ftp site.  Use "anonymous" as username, and your email address as the password.</gco:CharacterString>
+                  <gco:CharacterString>The data is a downloadable as a zip file on a sharepoint website.</gco:CharacterString>
                </gmd:specification>
             </gmd:MD_Format>
          </gmd:distributionFormat>
@@ -277,14 +300,14 @@
             <gmd:MD_DigitalTransferOptions>
                <gmd:onLine>
                   <gmd:CI_OnlineResource>
-                     <gmd:linkage xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx">
-                        <gmd:URL>ftp://ftp.glerl.noaa.gov/publications/tech_reports/glerl-083/UpdatedFiles/NBS_ERI.xls</gmd:URL>
+                     <gmd:linkage>
+                        <gmd:URL>http://iugls.org/DocStore/ProjectArchive/Viewable_Datasets/PFEG_NBS_Sequences/Seidou370.zip</gmd:URL>
                      </gmd:linkage>
                      <gmd:protocol>
-                        <gco:CharacterString>WWW:DOWNLOAD-1.0-ftp--download</gco:CharacterString>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
                      </gmd:protocol>
-                     <gmd:name xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx">
-                        <gmx:MimeFileType type=""/>
+                     <gmd:name>
+                        <gco:CharacterString>Seidou370</gco:CharacterString>
                      </gmd:name>
                      <gmd:description gco:nilReason="missing">
                         <gco:CharacterString/>

@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd"><gmd:fileIdentifier xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:CharacterString>878633f6-427f-4938-8203-04277c211f4f</gco:CharacterString>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd"><gmd:fileIdentifier xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>95d0e55a-2079-4baa-9470-3bcbd6a8fef8</gco:CharacterString>
   </gmd:fileIdentifier>
   <gmd:language xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gco:CharacterString>eng</gco:CharacterString>
   </gmd:language>
   <gmd:characterSet xmlns:gmd="http://www.isotc211.org/2005/gmd">
-      <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="./resources/codeList.xml#MD_CharacterSetCode"/>
+      <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"/>
   </gmd:characterSet>
   <gmd:contact xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gmd:CI_ResponsibleParty>
          <gmd:individualName>
-            <gco:CharacterString>Yin Fan</gco:CharacterString>
+            <gco:CharacterString>Glenn Warren</gco:CharacterString>
          </gmd:individualName>
-         <gmd:organisationName>
-            <gco:CharacterString>Environment Canada</gco:CharacterString>
+         <gmd:organisationName gco:nilReason="missing">
+            <gco:CharacterString/>
          </gmd:organisationName>
          <gmd:positionName>
             <gco:CharacterString>Metadata Author</gco:CharacterString>
@@ -23,8 +23,8 @@
             <gmd:CI_Contact>
                <gmd:phone>
                   <gmd:CI_Telephone>
-                     <gmd:voice>
-                        <gco:CharacterString>613-938-5725</gco:CharacterString>
+                     <gmd:voice gco:nilReason="missing">
+                        <gco:CharacterString/>
                      </gmd:voice>
                   </gmd:CI_Telephone>
                </gmd:phone>
@@ -43,19 +43,19 @@
                         <gco:CharacterString/>
                      </gmd:country>
                      <gmd:electronicMailAddress>
-                        <gco:CharacterString>yin.fan@ec.gc.ca</gco:CharacterString>
+                        <gco:CharacterString>glenn.warren@persona.ca</gco:CharacterString>
                      </gmd:electronicMailAddress>
                   </gmd:CI_Address>
                </gmd:address>
             </gmd:CI_Contact>
          </gmd:contactInfo>
          <gmd:role>
-            <gmd:CI_RoleCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+            <gmd:CI_RoleCode codeListValue="originator" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode"/>
          </gmd:role>
       </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:DateTime xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx">2011-08-24T13:01:02</gco:DateTime>
+      <gco:DateTime>2014-03-10T14:09:48</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
@@ -68,35 +68,35 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Hydrological input data for climate change T1 scenario</gco:CharacterString>
+                  <gco:CharacterString>International Upper Great Lakes Study: Recreational Boating Economic Overview 2010</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:Date>2011-01-07</gco:Date>
+                        <gco:Date>2010-08-01</gco:Date>
                      </gmd:date>
                      <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation"/>
                      </gmd:dateType>
                   </gmd:CI_Date>
                </gmd:date>
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:Date>2011-05-24</gco:Date>
+                        <gco:Date>2010-10-01</gco:Date>
                      </gmd:date>
                      <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
                      </gmd:dateType>
                   </gmd:CI_Date>
                </gmd:date>
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:Date>2011-05-24</gco:Date>
+                        <gco:Date>2011-07-10</gco:Date>
                      </gmd:date>
                      <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="revision"/>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision"/>
                      </gmd:dateType>
                   </gmd:CI_Date>
                </gmd:date>
@@ -104,36 +104,36 @@
                   <gco:CharacterString/>
                </gmd:edition>
                <gmd:otherCitationDetails>
-                  <gco:CharacterString>Plan Formulation &amp; Evaluation Technical Working Group</gco:CharacterString>
+                  <gco:CharacterString>Recreational Boating, Tourism, &amp; Cruise Ships Technical Working Group</gco:CharacterString>
                </gmd:otherCitationDetails>
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Hydrological input data for climate change T1 scenario include 8 data files, they are Net Basin Supplies for the four Lakes,  ice/weed retardation for St. Clair, Detroit, Niagara River and ice/weed adjustment for US Slip level calculation. The climate change T1 scenario Net Basin Supply were developed by Seidou/Tarha</gco:CharacterString>
+            <gco:CharacterString>Over 110 marina operators were interviewed regarding a number of business operation subjects including revenure losses from fluctuating water levels and mitigation costs to contiue operations.In conjunction with depth</gco:CharacterString>
          </gmd:abstract>
          <gmd:purpose>
-            <gco:CharacterString>Hydrological input data for climate change T1 scenario were used in Lake Superior regulation plan formulation and evaluation</gco:CharacterString>
+            <gco:CharacterString>This report was developed to provide readers with potential financial indicator values(losses)  based on various changing water-level senarios as indicated by marina operators.</gco:CharacterString>
          </gmd:purpose>
          <gmd:status>
-            <gmd:MD_ProgressCode codeListValue="completed" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ProgressCode"/>
+            <gmd:MD_ProgressCode codeListValue="completed" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ProgressCode"/>
          </gmd:status>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
                <gmd:individualName>
-                  <gco:CharacterString>Yin Fan</gco:CharacterString>
+                  <gco:CharacterString>Glenn Warren</gco:CharacterString>
                </gmd:individualName>
                <gmd:organisationName>
-                  <gco:CharacterString>Environment Canada</gco:CharacterString>
+                  <gco:CharacterString>Tourism and Environmental Resource Management Systems (T.E.R.M.S.)</gco:CharacterString>
                </gmd:organisationName>
                <gmd:positionName>
-                  <gco:CharacterString>Water Resources Engineer</gco:CharacterString>
+                  <gco:CharacterString>Data Steward</gco:CharacterString>
                </gmd:positionName>
                <gmd:contactInfo>
                   <gmd:CI_Contact>
                      <gmd:phone>
                         <gmd:CI_Telephone>
                            <gmd:voice>
-                              <gco:CharacterString>613-938-5725</gco:CharacterString>
+                              <gco:CharacterString>(705) 670-0755</gco:CharacterString>
                            </gmd:voice>
                         </gmd:CI_Telephone>
                      </gmd:phone>
@@ -152,21 +152,21 @@
                               <gco:CharacterString/>
                            </gmd:country>
                            <gmd:electronicMailAddress>
-                              <gco:CharacterString>yin.fan@ec.gc.ca</gco:CharacterString>
+                              <gco:CharacterString>glenn.warren@persona.ca</gco:CharacterString>
                            </gmd:electronicMailAddress>
                         </gmd:CI_Address>
                      </gmd:address>
                   </gmd:CI_Contact>
                </gmd:contactInfo>
                <gmd:role>
-                  <gmd:CI_RoleCode codeListValue="processor" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+                  <gmd:CI_RoleCode codeListValue="pointOfContact" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode"/>
                </gmd:role>
             </gmd:CI_ResponsibleParty>
          </gmd:pointOfContact>
          <gmd:resourceMaintenance>
             <gmd:MD_MaintenanceInformation>
                <gmd:maintenanceAndUpdateFrequency>
-                  <gmd:MD_MaintenanceFrequencyCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_MaintenanceFrequencyCode"/>
+                  <gmd:MD_MaintenanceFrequencyCode codeListValue="notPlanned" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"/>
                </gmd:maintenanceAndUpdateFrequency>
             </gmd:MD_MaintenanceInformation>
          </gmd:resourceMaintenance>
@@ -193,20 +193,26 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>CLIMATE CHANGE SCENARIO, CLIMATE INDICES, ICE/WEED ADJUSTMENT, ICE/WEED RETARDATION, NET BASIN SUPPLY, US SLIP</gco:CharacterString>
+                  <gco:CharacterString>ECONOMIC IMPACT</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>DEPTHS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>ECONOMIC ANALYSIS</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
-                  <gmd:MD_KeywordTypeCode codeListValue="theme" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode"/>
+                  <gmd:MD_KeywordTypeCode codeListValue="theme" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode"/>
                </gmd:type>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
          <gmd:resourceConstraints>
             <gmd:MD_LegalConstraints>
                <gmd:accessConstraints>
-                  <gmd:MD_RestrictionCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"/>
+                  <gmd:MD_RestrictionCode codeListValue="" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode"/>
                </gmd:accessConstraints>
                <gmd:useConstraints>
-                  <gmd:MD_RestrictionCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"/>
+                  <gmd:MD_RestrictionCode codeListValue="" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode"/>
                </gmd:useConstraints>
                <gmd:otherConstraints gco:nilReason="missing">
                   <gco:CharacterString/>
@@ -228,8 +234,8 @@
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
                         <gml:TimePeriod gml:id="n/a">
-                           <gml:beginPosition/>
-                           <gml:endPosition/>
+                           <gml:beginPosition>2009-01-01T00:00:00</gml:beginPosition>
+                           <gml:endPosition>2011-08-15T00:00:00</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -257,12 +263,8 @@
             </gmd:EX_Extent>
          </gmd:extent>
          <gmd:supplementalInformation>
-            <gco:CharacterString>Use Constraints: "public accessible".
-Under Maintenance and Repair: "every few years"
-Temporal Extent Begin Date: 01-01-01
-Temporal Extent End Date: 109-12-31
-Geographic Location: "Upper Great Lakes"
-Comments: "A zip file, it containes 8 data files, 25 KB"</gco:CharacterString>
+            <gco:CharacterString>Topic Category Code: "Recreation"
+Geographic Location: "Upper Great Lakes"</gco:CharacterString>
          </gmd:supplementalInformation>
       </gmd:MD_DataIdentification>
   </gmd:identificationInfo>
@@ -271,16 +273,36 @@ Comments: "A zip file, it containes 8 data files, 25 KB"</gco:CharacterString>
          <gmd:distributionFormat>
             <gmd:MD_Format>
                <gmd:name>
-                  <gco:CharacterString>Seidou174.zip</gco:CharacterString>
+                  <gco:CharacterString>pdf</gco:CharacterString>
                </gmd:name>
-               <gmd:version gco:nilReason="missing">
-                  <gco:CharacterString/>
+               <gmd:version>
+                  <gco:CharacterString>Final</gco:CharacterString>
                </gmd:version>
                <gmd:specification>
-                  <gco:CharacterString>The data is a downloadable as a zip file on a sharepoint website.</gco:CharacterString>
+                  <gco:CharacterString>The data is a downloadable PDF file on a shared point website. File for download.</gco:CharacterString>
                </gmd:specification>
             </gmd:MD_Format>
          </gmd:distributionFormat>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://iugls.org/DocStore/ProjectArchive/RBT_RecBoating/RBT03_Douglas_RecBoatingTourismEconomicAnalysis/Reports/RBT03-R1_Douglas.pdf</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>RBT03-R1_Douglas</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
       </gmd:MD_Distribution>
   </gmd:distributionInfo>
 </gmi:MI_Metadata>

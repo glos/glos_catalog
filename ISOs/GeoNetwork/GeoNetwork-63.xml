@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd"><gmd:fileIdentifier xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>0669b74d-357d-4728-86bd-dbb756112f96</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>eng</gco:CharacterString>
+  </gmd:language>
+  <gmd:characterSet xmlns:gmd="http://www.isotc211.org/2005/gmd">
+      <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"/>
+  </gmd:characterSet>
+  <gmd:contact xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gmd:CI_ResponsibleParty>
+         <gmd:individualName>
+            <gco:CharacterString>Mike Shantz</gco:CharacterString>
+         </gmd:individualName>
+         <gmd:organisationName>
+            <gco:CharacterString>Environment Canada</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:positionName>
+            <gco:CharacterString>Metadata Author</gco:CharacterString>
+         </gmd:positionName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact>
+               <gmd:phone>
+                  <gmd:CI_Telephone>
+                     <gmd:voice gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:voice>
+                  </gmd:CI_Telephone>
+               </gmd:phone>
+               <gmd:address>
+                  <gmd:CI_Address>
+                     <gmd:city gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:city>
+                     <gmd:administrativeArea gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:administrativeArea>
+                     <gmd:postalCode gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:postalCode>
+                     <gmd:country gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:country>
+                     <gmd:electronicMailAddress>
+                        <gco:CharacterString>mike.shantz@ec.gc.ca</gco:CharacterString>
+                     </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+               </gmd:address>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeListValue="custodian" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode"/>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:DateTime>2014-03-10T14:28:45</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>Version 3.14</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:identificationInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml">
+      <gmd:MD_DataIdentification>
+         <gmd:citation>
+            <gmd:CI_Citation>
+               <gmd:title>
+                  <gco:CharacterString>Building footprint - Honey Harbour Area</gco:CharacterString>
+               </gmd:title>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2011-08-22</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:edition gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:edition>
+               <gmd:otherCitationDetails>
+                  <gco:CharacterString>Coastal Zone Technical Working Group</gco:CharacterString>
+               </gmd:otherCitationDetails>
+            </gmd:CI_Citation>
+         </gmd:citation>
+         <gmd:abstract>
+            <gco:CharacterString>The polygon file provides an outline of the building footprint for buildings within 150 m of the Georgian Bay shoreline for the Honey Harbour study site of the Coastal Zone Technical Working Group of the International Upper Great Lakes Study. The building outlines were manually digitized from 2007 orthoimagery in the area. The shoreline was extracted from the Ontario Ministry of Natural Resources 'Wateredg' data layer. The 2007 imagery was 30cm resolution. Efforts were made to consistently and accurately capture the building outline but some challenges occurred including vegetation cover blocking building extent and shadows and image angle impacting building footprint identification.</gco:CharacterString>
+         </gmd:abstract>
+         <gmd:purpose>
+            <gco:CharacterString>The polygon file provides an outline of the building footprint for buildings within 150 m of the Georgian Bay shoreline for the Honey Harbour study site of the Coastal Zone Technical Working Group of the International Upper Great Lakes Study</gco:CharacterString>
+         </gmd:purpose>
+         <gmd:status>
+            <gmd:MD_ProgressCode codeListValue="completed" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ProgressCode"/>
+         </gmd:status>
+         <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:individualName>
+                  <gco:CharacterString>Mike Shantz</gco:CharacterString>
+               </gmd:individualName>
+               <gmd:organisationName>
+                  <gco:CharacterString>Environment Canada</gco:CharacterString>
+               </gmd:organisationName>
+               <gmd:positionName>
+                  <gco:CharacterString>Environmental Resource Analyst</gco:CharacterString>
+               </gmd:positionName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:phone>
+                        <gmd:CI_Telephone>
+                           <gmd:voice gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:voice>
+                        </gmd:CI_Telephone>
+                     </gmd:phone>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:city gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:city>
+                           <gmd:administrativeArea gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:administrativeArea>
+                           <gmd:postalCode gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:postalCode>
+                           <gmd:country gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:country>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>mike.shantz@ec.gc.ca</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeListValue="originator" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode"/>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:pointOfContact>
+         <gmd:resourceMaintenance>
+            <gmd:MD_MaintenanceInformation>
+               <gmd:maintenanceAndUpdateFrequency>
+                  <gmd:MD_MaintenanceFrequencyCode codeListValue="unknown" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"/>
+               </gmd:maintenanceAndUpdateFrequency>
+            </gmd:MD_MaintenanceInformation>
+         </gmd:resourceMaintenance>
+         <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+               <gmd:fileName gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:fileName>
+               <gmd:fileDescription>
+                  <gco:CharacterString>thumbnail</gco:CharacterString>
+               </gmd:fileDescription>
+            </gmd:MD_BrowseGraphic>
+         </gmd:graphicOverview>
+         <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+               <gmd:fileName gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:fileName>
+               <gmd:fileDescription>
+                  <gco:CharacterString>large_thumbnail</gco:CharacterString>
+               </gmd:fileDescription>
+            </gmd:MD_BrowseGraphic>
+         </gmd:graphicOverview>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>COASTAL AREAS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>DIGITAL DATA</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>GIS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>STUDY SITES</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeListValue="theme" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode"/>
+               </gmd:type>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>HONEY HARBOUR</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place"/>
+               </gmd:type>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:accessConstraints>
+                  <gmd:MD_RestrictionCode codeListValue="otherRestrictions" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode"/>
+               </gmd:accessConstraints>
+               <gmd:useConstraints>
+                  <gmd:MD_RestrictionCode codeListValue="otherRestrictions" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode"/>
+               </gmd:useConstraints>
+               <gmd:otherConstraints gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
+         <gmd:spatialResolution>
+            <gmd:MD_Resolution/>
+         </gmd:spatialResolution>
+         <gmd:language>
+            <gco:CharacterString>eng</gco:CharacterString>
+         </gmd:language>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:temporalElement>
+                  <gmd:EX_TemporalExtent>
+                     <gmd:extent>
+                        <gml:TimePeriod gml:id="n/a">
+                           <gml:beginPosition/>
+                           <gml:endPosition/>
+                        </gml:TimePeriod>
+                     </gmd:extent>
+                  </gmd:EX_TemporalExtent>
+               </gmd:temporalElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicBoundingBox>
+                     <gmd:westBoundLongitude>
+                        <gco:Decimal>-93.21</gco:Decimal>
+                     </gmd:westBoundLongitude>
+                     <gmd:eastBoundLongitude>
+                        <gco:Decimal>-74.49</gco:Decimal>
+                     </gmd:eastBoundLongitude>
+                     <gmd:southBoundLatitude>
+                        <gco:Decimal>40.39</gco:Decimal>
+                     </gmd:southBoundLatitude>
+                     <gmd:northBoundLatitude>
+                        <gco:Decimal>50.74</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
+               </gmd:geographicElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
+         <gmd:supplementalInformation>
+            <gco:CharacterString>Geographic Location: "Georgian Bay"
+Comments: "General: The building footprint digitization process was undertaken to get a general sense of building count and location. Errors are inherent in the digitization process (e.g. missed buildings, improper outline of buildings, etc.). The accuracy of the digitization was suitable for use within the objective of the International Upper Great Lakes Study. However, new users should verify appropriateness of application for their particular project. Data provided for the International Upper Great Lakes Study. Data is provided "as is" with no warranty for additional uses. See full metadata record for full limitations."</gco:CharacterString>
+         </gmd:supplementalInformation>
+      </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gmd:MD_Distribution>
+         <gmd:distributionFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>ZIP</gco:CharacterString>
+               </gmd:name>
+               <gmd:version gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:version>
+               <gmd:specification>
+                  <gco:CharacterString>The data is a downloadable ZIP file on a sharepoint website containing shp files. File for download</gco:CharacterString>
+               </gmd:specification>
+            </gmd:MD_Format>
+         </gmd:distributionFormat>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://iugls.org/DocStore/ProjectArchive/CZN_CoastalZone/CZN04_CoastalZoneSiteCharacterization/Additional_Archived/Data/buildingfootprint_150mtoshoreline_HH.zip</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>buildingfootprint_150mtoshoreline_HH</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+      </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+</gmi:MI_Metadata>

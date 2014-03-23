@@ -1,175 +1,162 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd"><gmd:fileIdentifier xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:CharacterString>d1f3911a-3107-455f-97fc-79df44807eb9</gco:CharacterString>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd"><gmd:fileIdentifier xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>0e355582-3ba4-40de-a221-a04d04010dad</gco:CharacterString>
   </gmd:fileIdentifier>
   <gmd:language xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gco:CharacterString>eng</gco:CharacterString>
   </gmd:language>
   <gmd:characterSet xmlns:gmd="http://www.isotc211.org/2005/gmd">
-      <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="./resources/codeList.xml#MD_CharacterSetCode"/>
+      <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"/>
   </gmd:characterSet>
   <gmd:contact xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gmd:CI_ResponsibleParty>
          <gmd:individualName>
-            <gco:CharacterString>Kelli Paige</gco:CharacterString>
+            <gco:CharacterString>Mike Shantz</gco:CharacterString>
          </gmd:individualName>
          <gmd:organisationName>
-            <gco:CharacterString>Great Lakes Observing System Regional Association</gco:CharacterString>
+            <gco:CharacterString>Environment Canada</gco:CharacterString>
          </gmd:organisationName>
          <gmd:positionName>
-            <gco:CharacterString>Program Ccordinator</gco:CharacterString>
+            <gco:CharacterString>Metadata Author</gco:CharacterString>
          </gmd:positionName>
          <gmd:contactInfo>
             <gmd:CI_Contact>
                <gmd:phone>
                   <gmd:CI_Telephone>
-                     <gmd:voice>
-                        <gco:CharacterString>734-332-6113</gco:CharacterString>
+                     <gmd:voice gco:nilReason="missing">
+                        <gco:CharacterString/>
                      </gmd:voice>
-                     <gmd:facsimile>
-                        <gco:CharacterString>734.332.6120</gco:CharacterString>
-                     </gmd:facsimile>
                   </gmd:CI_Telephone>
                </gmd:phone>
                <gmd:address>
                   <gmd:CI_Address>
-                     <gmd:deliveryPoint>
-                        <gco:CharacterString>229 Nickels Arcade</gco:CharacterString>
-                     </gmd:deliveryPoint>
-                     <gmd:city>
-                        <gco:CharacterString>Ann Arbor</gco:CharacterString>
+                     <gmd:city gco:nilReason="missing">
+                        <gco:CharacterString/>
                      </gmd:city>
-                     <gmd:administrativeArea>
-                        <gco:CharacterString>MI</gco:CharacterString>
+                     <gmd:administrativeArea gco:nilReason="missing">
+                        <gco:CharacterString/>
                      </gmd:administrativeArea>
-                     <gmd:postalCode>
-                        <gco:CharacterString>48104</gco:CharacterString>
+                     <gmd:postalCode gco:nilReason="missing">
+                        <gco:CharacterString/>
                      </gmd:postalCode>
-                     <gmd:country>
-                        <gco:CharacterString>USA</gco:CharacterString>
+                     <gmd:country gco:nilReason="missing">
+                        <gco:CharacterString/>
                      </gmd:country>
                      <gmd:electronicMailAddress>
-                        <gco:CharacterString>kpaige@glos.us</gco:CharacterString>
+                        <gco:CharacterString>mike.shantz@ec.gc.ca</gco:CharacterString>
                      </gmd:electronicMailAddress>
                   </gmd:CI_Address>
                </gmd:address>
             </gmd:CI_Contact>
          </gmd:contactInfo>
          <gmd:role>
-            <gmd:CI_RoleCode codeListValue="pointOfContact" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+            <gmd:CI_RoleCode codeListValue="custodian" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode"/>
          </gmd:role>
       </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:DateTime xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx">2011-08-15T08:15:06</gco:DateTime>
+      <gco:DateTime>2014-03-10T15:37:47</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
   </gmd:metadataStandardName>
   <gmd:metadataStandardVersion xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:CharacterString>1.0</gco:CharacterString>
+      <gco:CharacterString>Version 3.14</gco:CharacterString>
   </gmd:metadataStandardVersion>
-  <gmd:referenceSystemInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gmd:MD_ReferenceSystem>
-         <gmd:referenceSystemIdentifier>
-            <gmd:RS_Identifier>
-               <gmd:code>
-                  <gco:CharacterString>WGS 1984</gco:CharacterString>
-               </gmd:code>
-            </gmd:RS_Identifier>
-         </gmd:referenceSystemIdentifier>
-      </gmd:MD_ReferenceSystem>
-  </gmd:referenceSystemInfo>
   <gmd:identificationInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml">
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>U-GLOS Station 003 (Univ. of Michigan MHL)</gco:CharacterString>
+                  <gco:CharacterString>Memorandum: Review of Coldwater Methodology Report</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:DateTime>2011-08-12T14:45:00</gco:DateTime>
+                        <gco:Date>2010-08-06</gco:Date>
                      </gmd:date>
                      <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeListValue="publication" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode"/>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation"/>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2011-08-22</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
                      </gmd:dateType>
                   </gmd:CI_Date>
                </gmd:date>
                <gmd:edition gco:nilReason="missing">
                   <gco:CharacterString/>
                </gmd:edition>
-               <gmd:presentationForm>
-                  <gmd:CI_PresentationFormCode codeListValue="mapDigital" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_PresentationFormCode"/>
-               </gmd:presentationForm>
+               <gmd:otherCitationDetails>
+                  <gco:CharacterString>Coastal Zone Technical Working Group</gco:CharacterString>
+               </gmd:otherCitationDetails>
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>GLOS in-situ buoy in Lake Michigan, operated by the University of Michigan Marine Hydrodynamics Laboratory.</gco:CharacterString>
+            <gco:CharacterString>The Coastal Zone TWG asked Zeki Demirbilek of the U.S. Army Corps of Engineers to undertake a technical review of the proposed modelling methodology by Coldwater Consulting Ltd. Dr. Demirbilek provided a set of suggestions that were subsequently considered by the Coastal Zone TWG and Coldwater Consulting Ltd.</gco:CharacterString>
          </gmd:abstract>
          <gmd:purpose>
-            <gco:CharacterString>Continuous in-situ observations of meteorolgic and water surface conditions.</gco:CharacterString>
+            <gco:CharacterString>A technical review of the initial modelling proposal for shore protection infrastructure</gco:CharacterString>
          </gmd:purpose>
          <gmd:status>
-            <gmd:MD_ProgressCode codeListValue="onGoing" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ProgressCode"/>
+            <gmd:MD_ProgressCode codeListValue="completed" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ProgressCode"/>
          </gmd:status>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
                <gmd:individualName>
-                  <gco:CharacterString>Kelli Paige</gco:CharacterString>
+                  <gco:CharacterString>Mike Shantz</gco:CharacterString>
                </gmd:individualName>
                <gmd:organisationName>
-                  <gco:CharacterString>Great Lakes Observing System Regional Association</gco:CharacterString>
+                  <gco:CharacterString>Environment Canada</gco:CharacterString>
                </gmd:organisationName>
-               <gmd:positionName>
-                  <gco:CharacterString>Program Coordinator</gco:CharacterString>
+               <gmd:positionName gco:nilReason="missing">
+                  <gco:CharacterString/>
                </gmd:positionName>
                <gmd:contactInfo>
                   <gmd:CI_Contact>
                      <gmd:phone>
                         <gmd:CI_Telephone>
-                           <gmd:voice>
-                              <gco:CharacterString>734-332-6113</gco:CharacterString>
+                           <gmd:voice gco:nilReason="missing">
+                              <gco:CharacterString/>
                            </gmd:voice>
-                           <gmd:facsimile>
-                              <gco:CharacterString>734.332.6120</gco:CharacterString>
-                           </gmd:facsimile>
                         </gmd:CI_Telephone>
                      </gmd:phone>
                      <gmd:address>
                         <gmd:CI_Address>
-                           <gmd:deliveryPoint>
-                              <gco:CharacterString>229 Nickels Arcade</gco:CharacterString>
-                           </gmd:deliveryPoint>
-                           <gmd:city>
-                              <gco:CharacterString>Ann Arbor</gco:CharacterString>
+                           <gmd:city gco:nilReason="missing">
+                              <gco:CharacterString/>
                            </gmd:city>
-                           <gmd:administrativeArea>
-                              <gco:CharacterString>MI</gco:CharacterString>
+                           <gmd:administrativeArea gco:nilReason="missing">
+                              <gco:CharacterString/>
                            </gmd:administrativeArea>
-                           <gmd:postalCode>
-                              <gco:CharacterString>48104</gco:CharacterString>
+                           <gmd:postalCode gco:nilReason="missing">
+                              <gco:CharacterString/>
                            </gmd:postalCode>
-                           <gmd:country>
-                              <gco:CharacterString>USA</gco:CharacterString>
+                           <gmd:country gco:nilReason="missing">
+                              <gco:CharacterString/>
                            </gmd:country>
                            <gmd:electronicMailAddress>
-                              <gco:CharacterString>kpaige@glos.ujs</gco:CharacterString>
+                              <gco:CharacterString>mike.shantz@ec.gc.ca</gco:CharacterString>
                            </gmd:electronicMailAddress>
                         </gmd:CI_Address>
                      </gmd:address>
                   </gmd:CI_Contact>
                </gmd:contactInfo>
                <gmd:role>
-                  <gmd:CI_RoleCode codeListValue="distributor" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+                  <gmd:CI_RoleCode codeListValue="custodian" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode"/>
                </gmd:role>
             </gmd:CI_ResponsibleParty>
          </gmd:pointOfContact>
          <gmd:resourceMaintenance>
             <gmd:MD_MaintenanceInformation>
                <gmd:maintenanceAndUpdateFrequency>
-                  <gmd:MD_MaintenanceFrequencyCode codeListValue="asNeeded" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_MaintenanceFrequencyCode"/>
+                  <gmd:MD_MaintenanceFrequencyCode codeListValue="notPlanned" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"/>
                </gmd:maintenanceAndUpdateFrequency>
             </gmd:MD_MaintenanceInformation>
          </gmd:resourceMaintenance>
@@ -196,86 +183,63 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>air temperature</gco:CharacterString>
+                  <gco:CharacterString>MODELLING</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>significant wave height</gco:CharacterString>
+                  <gco:CharacterString>OVERTOPPING</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>significant wave period</gco:CharacterString>
+                  <gco:CharacterString>PERFORMANCE INDICATORS</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>water temperature - surface</gco:CharacterString>
+                  <gco:CharacterString>REVETMENT</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>wind speed</gco:CharacterString>
+                  <gco:CharacterString>SHORE PROTECTION</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>wind from direction</gco:CharacterString>
+                  <gco:CharacterString>STRUCTURE ANALYSIS TOOL</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>UNDERCUTTING</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>VERTICAL WALL</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
-                  <gmd:MD_KeywordTypeCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode"/>
-               </gmd:type>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword>
-                  <gco:CharacterString>Longitude -85.49</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Latitude 45.05</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Lake Michigan</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Grand Traverse Bay</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>NDBC ID 45021</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>GLOS</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:type>
-                  <gmd:MD_KeywordTypeCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode"/>
+                  <gmd:MD_KeywordTypeCode codeListValue="theme" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode"/>
                </gmd:type>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
          <gmd:resourceConstraints>
-            <gmd:MD_LegalConstraints/>
+            <gmd:MD_LegalConstraints>
+               <gmd:accessConstraints>
+                  <gmd:MD_RestrictionCode codeListValue="otherRestrictions" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode"/>
+               </gmd:accessConstraints>
+               <gmd:useConstraints>
+                  <gmd:MD_RestrictionCode codeListValue="otherRestrictions" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode"/>
+               </gmd:useConstraints>
+               <gmd:otherConstraints gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
          </gmd:resourceConstraints>
-         <gmd:spatialRepresentationType>
-            <gmd:MD_SpatialRepresentationTypeCode codeListValue="vector" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_SpatialRepresentationTypeCode"/>
-         </gmd:spatialRepresentationType>
          <gmd:spatialResolution>
-            <gmd:MD_Resolution>
-               <gmd:equivalentScale>
-                  <gmd:MD_RepresentativeFraction>
-                     <gmd:denominator>
-                        <gco:Integer/>
-                     </gmd:denominator>
-                  </gmd:MD_RepresentativeFraction>
-               </gmd:equivalentScale>
-            </gmd:MD_Resolution>
+            <gmd:MD_Resolution/>
          </gmd:spatialResolution>
          <gmd:language>
             <gco:CharacterString>eng</gco:CharacterString>
          </gmd:language>
-         <gmd:characterSet>
-            <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_CharacterSetCode"/>
-         </gmd:characterSet>
          <gmd:topicCategory>
-            <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+            <gmd:MD_TopicCategoryCode>society</gmd:MD_TopicCategoryCode>
          </gmd:topicCategory>
          <gmd:extent>
             <gmd:EX_Extent>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d2e435a1049886">
-                           <gml:beginPosition>2009-08-04T00:00:00</gml:beginPosition>
+                        <gml:TimePeriod gml:id="n/a">
+                           <gml:beginPosition/>
                            <gml:endPosition/>
                         </gml:TimePeriod>
                      </gmd:extent>
@@ -288,72 +252,54 @@
                <gmd:geographicElement>
                   <gmd:EX_GeographicBoundingBox>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-88.5</gco:Decimal>
+                        <gco:Decimal>-93.21</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-84.5</gco:Decimal>
+                        <gco:Decimal>-74.49</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>41</gco:Decimal>
+                        <gco:Decimal>40.39</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>46.5</gco:Decimal>
+                        <gco:Decimal>50.74</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
             </gmd:EX_Extent>
          </gmd:extent>
-         <gmd:supplementalInformation gco:nilReason="missing">
-            <gco:CharacterString/>
+         <gmd:supplementalInformation>
+            <gco:CharacterString>Geographic Location: "Great Lakes"
+Comments: "Developed by Dr. Zeki Demirbilek of the U.S. Army Corps of Engineers."</gco:CharacterString>
          </gmd:supplementalInformation>
       </gmd:MD_DataIdentification>
   </gmd:identificationInfo>
   <gmd:distributionInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gmd:MD_Distribution>
+         <gmd:distributionFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>pdf</gco:CharacterString>
+               </gmd:name>
+               <gmd:version>
+                  <gco:CharacterString>n/a</gco:CharacterString>
+               </gmd:version>
+               <gmd:specification>
+                  <gco:CharacterString>The data is a downloadable PDF file on a sharepoint website. File for download</gco:CharacterString>
+               </gmd:specification>
+            </gmd:MD_Format>
+         </gmd:distributionFormat>
          <gmd:transferOptions>
             <gmd:MD_DigitalTransferOptions>
                <gmd:onLine>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://data.glos.us/obs/</gmd:URL>
+                        <gmd:URL>http://www.iugls.org/docstore/ProjectArchive/CZN_CoastalZone/Additional_Archived/OrigFromCZNTWG/CZN07ShoreProtectionImpactAnalysis-CoastalZoneTWG-Mar052012/Reports/Shore_Protection-MethodologyReview-ERDC.pdf</gmd:URL>
                      </gmd:linkage>
                      <gmd:protocol>
                         <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
                      </gmd:protocol>
                      <gmd:name>
-                        <gco:CharacterString>GLOS Observation Explorer</gco:CharacterString>
-                     </gmd:name>
-                     <gmd:description>
-                        <gco:CharacterString>Graphs, charts and data downloads for obtained during the most recent 30 days.</gco:CharacterString>
-                     </gmd:description>
-                  </gmd:CI_OnlineResource>
-               </gmd:onLine>
-               <gmd:onLine>
-                  <gmd:CI_OnlineResource>
-                     <gmd:linkage xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx">
-                        <gmd:URL>http://data.glos.us/metadata/srv/en/resources.get?id=232&amp;fname=&amp;access=private</gmd:URL>
-                     </gmd:linkage>
-                     <gmd:protocol>
-                        <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
-                     </gmd:protocol>
-                     <gmd:name xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx">
-                        <gmx:MimeFileType type=""/>
-                     </gmd:name>
-                     <gmd:description>
-                        <gco:CharacterString/>
-                     </gmd:description>
-                  </gmd:CI_OnlineResource>
-               </gmd:onLine>
-               <gmd:onLine>
-                  <gmd:CI_OnlineResource>
-                     <gmd:linkage>
-                        <gmd:URL/>
-                     </gmd:linkage>
-                     <gmd:protocol>
-                        <gco:CharacterString>OGC:WMS-1.1.1-http-get-map</gco:CharacterString>
-                     </gmd:protocol>
-                     <gmd:name gco:nilReason="missing">
-                        <gco:CharacterString/>
+                        <gco:CharacterString>Shore_Protection-MethodologyReview-ERDC</gco:CharacterString>
                      </gmd:name>
                      <gmd:description gco:nilReason="missing">
                         <gco:CharacterString/>
@@ -364,22 +310,4 @@
          </gmd:transferOptions>
       </gmd:MD_Distribution>
   </gmd:distributionInfo>
-  <gmd:dataQualityInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gmd:DQ_DataQuality>
-         <gmd:scope>
-            <gmd:DQ_Scope>
-               <gmd:level>
-                  <gmd:MD_ScopeCode codeListValue="dataset" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ScopeCode"/>
-               </gmd:level>
-            </gmd:DQ_Scope>
-         </gmd:scope>
-         <gmd:lineage>
-            <gmd:LI_Lineage>
-               <gmd:statement gco:nilReason="missing">
-                  <gco:CharacterString/>
-               </gmd:statement>
-            </gmd:LI_Lineage>
-         </gmd:lineage>
-      </gmd:DQ_DataQuality>
-  </gmd:dataQualityInfo>
 </gmi:MI_Metadata>

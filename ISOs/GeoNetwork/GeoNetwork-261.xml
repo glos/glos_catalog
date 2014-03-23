@@ -1,226 +1,265 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd"><gmd:fileIdentifier xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:CharacterString>122bfaa3-2f92-4d65-a322-7ad01a41d3dd</gco:CharacterString>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd"><gmd:fileIdentifier xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>9ff5138c-78d8-4c31-88dc-d7888406bfe3</gco:CharacterString>
   </gmd:fileIdentifier>
-  <gmd:language xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:CharacterString>eng</gco:CharacterString>
+  <gmd:language xmlns:gmd="http://www.isotc211.org/2005/gmd">
+      <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
   </gmd:language>
-  <gmd:characterSet xmlns:gmd="http://www.isotc211.org/2005/gmd">
-      <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="./resources/codeList.xml#MD_CharacterSetCode"/>
-  </gmd:characterSet>
+  <gmd:parentIdentifier xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>e433d82a-e5bc-4eb0-a853-76cbe0913250</gco:CharacterString>
+  </gmd:parentIdentifier>
+  <gmd:hierarchyLevel xmlns:gmd="http://www.isotc211.org/2005/gmd">
+      <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset"/>
+  </gmd:hierarchyLevel>
   <gmd:contact xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gmd:CI_ResponsibleParty>
          <gmd:individualName>
-            <gco:CharacterString>Mike Shantz</gco:CharacterString>
+            <gco:CharacterString>REQUIRED: The person responsible for the metadata information.</gco:CharacterString>
          </gmd:individualName>
          <gmd:organisationName>
-            <gco:CharacterString>Environment Canada</gco:CharacterString>
+            <gco:CharacterString>REQUIRED: The organization responsible for the metadata information.</gco:CharacterString>
          </gmd:organisationName>
-         <gmd:positionName>
-            <gco:CharacterString>Metadata Author</gco:CharacterString>
-         </gmd:positionName>
          <gmd:contactInfo>
             <gmd:CI_Contact>
                <gmd:phone>
                   <gmd:CI_Telephone>
-                     <gmd:voice gco:nilReason="missing">
-                        <gco:CharacterString/>
+                     <gmd:voice>
+                        <gco:CharacterString>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</gco:CharacterString>
                      </gmd:voice>
                   </gmd:CI_Telephone>
                </gmd:phone>
                <gmd:address>
                   <gmd:CI_Address>
-                     <gmd:city gco:nilReason="missing">
-                        <gco:CharacterString/>
+                     <gmd:city>
+                        <gco:CharacterString>REQUIRED: The city of the address.</gco:CharacterString>
                      </gmd:city>
-                     <gmd:administrativeArea gco:nilReason="missing">
-                        <gco:CharacterString/>
+                     <gmd:administrativeArea>
+                        <gco:CharacterString>REQUIRED: The state or province of the address.</gco:CharacterString>
                      </gmd:administrativeArea>
-                     <gmd:postalCode gco:nilReason="missing">
-                        <gco:CharacterString/>
+                     <gmd:postalCode>
+                        <gco:CharacterString>REQUIRED: The ZIP or other postal code of the address.</gco:CharacterString>
                      </gmd:postalCode>
-                     <gmd:country gco:nilReason="missing">
-                        <gco:CharacterString/>
-                     </gmd:country>
-                     <gmd:electronicMailAddress>
-                        <gco:CharacterString>mike.shantz@ec.gc.ca</gco:CharacterString>
-                     </gmd:electronicMailAddress>
                   </gmd:CI_Address>
                </gmd:address>
             </gmd:CI_Contact>
          </gmd:contactInfo>
          <gmd:role>
-            <gmd:CI_RoleCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115"/>
          </gmd:role>
       </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:DateTime xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx">2011-09-21T12:17:49</gco:DateTime>
+      <gco:DateTime xmlns:gmx="http://www.isotc211.org/2005/gmx">2012-12-07T13:09:54</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+      <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
   </gmd:metadataStandardName>
   <gmd:metadataStandardVersion xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:CharacterString>Version 3.14</gco:CharacterString>
+      <gco:CharacterString>2007</gco:CharacterString>
   </gmd:metadataStandardVersion>
   <gmd:identificationInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml">
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>FEPS Sensitivity Analysis for the International Upper Great Lakes Study - Appendices</gco:CharacterString>
+                  <gco:CharacterString>Coastal Corridors Vulnerable Under Reduced Lake Level Scenarios</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2008-05-07</gco:Date>
-                     </gmd:date>
+                     <gmd:date/>
                      <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115"/>
                      </gmd:dateType>
                   </gmd:CI_Date>
                </gmd:date>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2011-08-22</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:edition gco:nilReason="missing">
-                  <gco:CharacterString/>
-               </gmd:edition>
-               <gmd:otherCitationDetails>
-                  <gco:CharacterString>Coastal Zone Technical Working Group</gco:CharacterString>
-               </gmd:otherCitationDetails>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName>
+                        <gco:CharacterString>Kurt Kowalski</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:organisationName>
+                        <gco:CharacterString>United States Geological Survey (USGS) Great Lakes Science Center (GLSC)</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:phone>
+                              <gmd:CI_Telephone>
+                                 <gmd:voice>
+                                    <gco:CharacterString>734-994-3331</gco:CharacterString>
+                                 </gmd:voice>
+                                 <gmd:facsimile gco:nilReason="missing">
+                                    <gco:CharacterString/>
+                                 </gmd:facsimile>
+                              </gmd:CI_Telephone>
+                           </gmd:phone>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>1451 Green Rd</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:city>
+                                    <gco:CharacterString>Ann Arbor</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea>
+                                    <gco:CharacterString>MI</gco:CharacterString>
+                                 </gmd:administrativeArea>
+                                 <gmd:postalCode>
+                                    <gco:CharacterString>48105</gco:CharacterString>
+                                 </gmd:postalCode>
+                                 <gmd:country gco:nilReason="missing">
+                                    <gco:CharacterString/>
+                                 </gmd:country>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>kkowalski@usgs.gov</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                           <gmd:onlineResource>
+                              <gmd:CI_OnlineResource>
+                                 <gmd:linkage>
+                                    <gmd:URL>http://cida.usgs.gov/glri/projects/accountability/Phragmites_invasion.html</gmd:URL>
+                                 </gmd:linkage>
+                                 <gmd:protocol gco:nilReason="missing">
+                                    <gco:CharacterString/>
+                                 </gmd:protocol>
+                                 <gmd:name gco:nilReason="missing">
+                                    <gco:CharacterString/>
+                                 </gmd:name>
+                                 <gmd:description gco:nilReason="missing">
+                                    <gco:CharacterString/>
+                                 </gmd:description>
+                              </gmd:CI_OnlineResource>
+                           </gmd:onlineResource>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator" codeSpace="ISOTC211/19115"/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The report contains the appendices for the FEPS Sensitivity Analysis for the International Upper Great Lakes Study report. There are three sections to the appendices including Baird LOSLR Performance Indicator Reports, Benefit Analysis for the Illinois Lakebed Downcutting Analysis, and Final Report for Fiscal Year 2001/2002 FEPS Modeling for the Lake Michigan Potential Damages Study. The reports contain relevant methodology information for applying similar approaches in the International Upper Great Lakes Study.</gco:CharacterString>
+            <gco:CharacterString>These data represent coastal corridors exposed by lake levels reduced from mean 2009 water surface elevations. These elevations were established by values published by the United States Army Corps of Engineers (USACE), and based on a network of multiple gages within each lake. The corridors were derived from two data sources: 5-m resolution lidar-based topo-bathymetry produced by the USACE Joint Airborne Lidar-Based Technical Center of eXpertise (JALBTCX) and the National Oceanic and Atmospheric Administration (NOAA) Coastal Services Center, and bathymetric contour lines produced by the NOAA Great Lakes Environmental Research Laboratory (GLERL). The JALBTCX lidar-based topo-bathymetry were used to produce representations of 0.5-meter and 1.0-meter reductions in lake level with respect to the mean 2009 level, while the negative 1-meter GLERL bathymetric contour was used in conjunction with a GLERL shore line to provide a general approximation of the extent exposed by a 1-meter lake level reduction where lidar-based topo-bathymetry were unavailable.</gco:CharacterString>
          </gmd:abstract>
          <gmd:purpose>
-            <gco:CharacterString>Baird and Associates provided appendices containing past studies relevant to the International Upper Great Lakes Study coastal needs as a component of their sensitivity analysis project</gco:CharacterString>
+            <gco:CharacterString>These data are complimentary to a Phragmites mapping program being conducted within the U.S. portion of the Great Lakes coastal zone. The corridors illustrate areas exposed by reduced lake levels and thus vulnerable to encroachment by an invasive haplotype of Phragmites australis (common reed). Maps of invasive Phragmites stands larger than 0.2 hectare (0.5 acre) were created for the U.S. side of the Great Lakes coastal zone using unsupervised and supervised classification algorithms applied to ALOS PALSAR satellite-based radar imagery and field work to train and validate these algorithms.  These maps allowed the calculation of proximity to invasive Phragmites within coastal corridors in an attempt to depict relative vulnerability to Phragmites invasion. The corridors are intended to be used as planning tools by landowners, managers, and members of the general public with interests in the distribution and spread of invasive Phragmites australis within Great Lakes coastal wetlands. The reduced lake level corridors described here can be used in conjunction with an accompanying inland corridor network of streams, wetlands, and water bodies that is also weighted by proximity to Phragmites in order to depict likely invasion pathways under reduced lake level scenarios. 
+
+A polygon layer depicting areas where lidar data were unavailable is included to explicitly inform users of limitations inherent to simulated reduced lake level corridors.</gco:CharacterString>
          </gmd:purpose>
+         <gmd:credit>
+            <gco:CharacterString>Corridors were produced by the USGS GLSC and based off data produced by the USACE JALBTCX, NOAA CSC and NOAA GLERL. Phragmites distribution maps were produced by cooperative research between the USGS GLSC and Michigan Tech Research Intstitute (MTRI) and made possible by the Great Lakes Restoration Initiative GLRI).</gco:CharacterString>
+         </gmd:credit>
+         <gmd:credit>
+            <gco:CharacterString>Great Lakes Science Center http://www.glsc.usgs.gov/</gco:CharacterString>
+         </gmd:credit>
+         <gmd:credit>
+            <gco:CharacterString>USACE JALBTCX http://shoals.sam.usace.army.mil/</gco:CharacterString>
+         </gmd:credit>
+         <gmd:credit>
+            <gco:CharacterString>NOAA Great Lakes Environmental Research Laboratory http://www.glerl.noaa.gov/</gco:CharacterString>
+         </gmd:credit>
+         <gmd:credit>
+            <gco:CharacterString>NOAA CSC http://www.csc.noaa.gov/topobathy/</gco:CharacterString>
+         </gmd:credit>
          <gmd:status>
-            <gmd:MD_ProgressCode codeListValue="completed" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ProgressCode"/>
+            <gmd:MD_ProgressCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ProgressCode" codeListValue="underDevelopment" codeSpace="ISOTC211/19115"/>
          </gmd:status>
-         <gmd:pointOfContact>
-            <gmd:CI_ResponsibleParty>
-               <gmd:individualName>
-                  <gco:CharacterString>Mike Shantz</gco:CharacterString>
-               </gmd:individualName>
-               <gmd:organisationName>
-                  <gco:CharacterString>Environment Canada</gco:CharacterString>
-               </gmd:organisationName>
-               <gmd:positionName gco:nilReason="missing">
-                  <gco:CharacterString/>
-               </gmd:positionName>
-               <gmd:contactInfo>
-                  <gmd:CI_Contact>
-                     <gmd:phone>
-                        <gmd:CI_Telephone>
-                           <gmd:voice gco:nilReason="missing">
-                              <gco:CharacterString/>
-                           </gmd:voice>
-                        </gmd:CI_Telephone>
-                     </gmd:phone>
-                     <gmd:address>
-                        <gmd:CI_Address>
-                           <gmd:city gco:nilReason="missing">
-                              <gco:CharacterString/>
-                           </gmd:city>
-                           <gmd:administrativeArea gco:nilReason="missing">
-                              <gco:CharacterString/>
-                           </gmd:administrativeArea>
-                           <gmd:postalCode gco:nilReason="missing">
-                              <gco:CharacterString/>
-                           </gmd:postalCode>
-                           <gmd:country gco:nilReason="missing">
-                              <gco:CharacterString/>
-                           </gmd:country>
-                           <gmd:electronicMailAddress>
-                              <gco:CharacterString>mike.shantz@ec.gc.ca</gco:CharacterString>
-                           </gmd:electronicMailAddress>
-                        </gmd:CI_Address>
-                     </gmd:address>
-                  </gmd:CI_Contact>
-               </gmd:contactInfo>
-               <gmd:role>
-                  <gmd:CI_RoleCode codeListValue="custodian" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
-               </gmd:role>
-            </gmd:CI_ResponsibleParty>
-         </gmd:pointOfContact>
          <gmd:resourceMaintenance>
             <gmd:MD_MaintenanceInformation>
                <gmd:maintenanceAndUpdateFrequency>
-                  <gmd:MD_MaintenanceFrequencyCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_MaintenanceFrequencyCode"/>
+                  <gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="continual" codeSpace="ISOTC211/19115"/>
                </gmd:maintenanceAndUpdateFrequency>
             </gmd:MD_MaintenanceInformation>
          </gmd:resourceMaintenance>
          <gmd:graphicOverview>
             <gmd:MD_BrowseGraphic>
-               <gmd:fileName gco:nilReason="missing">
-                  <gco:CharacterString/>
+               <gmd:fileName>
+                  <gco:CharacterString>reduced_corridor4geonetwork_thumbnail_s.png</gco:CharacterString>
                </gmd:fileName>
                <gmd:fileDescription>
                   <gco:CharacterString>thumbnail</gco:CharacterString>
                </gmd:fileDescription>
+               <gmd:fileType>
+                  <gco:CharacterString>png</gco:CharacterString>
+               </gmd:fileType>
             </gmd:MD_BrowseGraphic>
          </gmd:graphicOverview>
          <gmd:graphicOverview>
             <gmd:MD_BrowseGraphic>
-               <gmd:fileName gco:nilReason="missing">
-                  <gco:CharacterString/>
+               <gmd:fileName>
+                  <gco:CharacterString>reduced_corridor4geonetwork_thumbnail.png</gco:CharacterString>
                </gmd:fileName>
                <gmd:fileDescription>
                   <gco:CharacterString>large_thumbnail</gco:CharacterString>
                </gmd:fileDescription>
+               <gmd:fileType>
+                  <gco:CharacterString>png</gco:CharacterString>
+               </gmd:fileType>
             </gmd:MD_BrowseGraphic>
          </gmd:graphicOverview>
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>COHESIVE SHORELINE, COSMOS, EROSION, FEPS, SHORE PROTECTION</gco:CharacterString>
+                  <gco:CharacterString>JALBTCX lidar, GLERL bathymetry, Phragmites invasion corridors</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
-                  <gmd:MD_KeywordTypeCode codeListValue="theme" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode"/>
+                  <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</gco:CharacterString>
+                     </gmd:title>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>Great Lakes coastal zone</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115"/>
                </gmd:type>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
          <gmd:resourceConstraints>
             <gmd:MD_LegalConstraints>
                <gmd:accessConstraints>
-                  <gmd:MD_RestrictionCode codeListValue="otherRestrictions" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"/>
+                  <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115"/>
                </gmd:accessConstraints>
-               <gmd:useConstraints>
-                  <gmd:MD_RestrictionCode codeListValue="otherRestrictions" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"/>
-               </gmd:useConstraints>
-               <gmd:otherConstraints gco:nilReason="missing">
-                  <gco:CharacterString/>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>access constraints: Data are preliminary and not intended for distribution. Proximity to existing Phragmites values may change with the release of final mapping products.</gco:CharacterString>
                </gmd:otherConstraints>
             </gmd:MD_LegalConstraints>
          </gmd:resourceConstraints>
-         <gmd:spatialResolution>
-            <gmd:MD_Resolution/>
-         </gmd:spatialResolution>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115"/>
+               </gmd:useConstraints>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>use constraints: Lidar-based data were unavailable in areas where time constraints prevented their collection, and where turbidity or aquatic vegetation prevented light from penetrating the water column. As such, users must also examine the extent of lidar topo-bathymetry, as this extent limits the potential footprint of reduced lake level corridors, and iterpret the location and extent of derived corridor layers accordingly.</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
-            <gco:CharacterString>eng</gco:CharacterString>
+            <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
          </gmd:language>
-         <gmd:topicCategory>
-            <gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
-         </gmd:topicCategory>
+         <gmd:environmentDescription>
+            <gco:CharacterString>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</gco:CharacterString>
+         </gmd:environmentDescription>
          <gmd:extent>
             <gmd:EX_Extent>
+               <gmd:description>
+                  <gco:CharacterString>ground condition</gco:CharacterString>
+               </gmd:description>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="n/a">
-                           <gml:beginPosition/>
-                           <gml:endPosition/>
-                        </gml:TimePeriod>
+                        <gml:TimePeriod gml:id="_023bbcdb78c685b783836c9491d93d"/>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
                </gmd:temporalElement>
@@ -228,26 +267,28 @@
          </gmd:extent>
          <gmd:extent>
             <gmd:EX_Extent>
+               <gmd:description gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:description>
                <gmd:geographicElement>
-                  <gmd:EX_GeographicBoundingBox>
-                     <gmd:westBoundLongitude>
-                        <gco:Decimal>-88.5</gco:Decimal>
-                     </gmd:westBoundLongitude>
-                     <gmd:eastBoundLongitude>
-                        <gco:Decimal>-84.5</gco:Decimal>
-                     </gmd:eastBoundLongitude>
-                     <gmd:southBoundLatitude>
-                        <gco:Decimal>41</gco:Decimal>
-                     </gmd:southBoundLatitude>
-                     <gmd:northBoundLatitude>
-                        <gco:Decimal>46.5</gco:Decimal>
-                     </gmd:northBoundLatitude>
-                  </gmd:EX_GeographicBoundingBox>
+                  <gmd:EX_BoundingPolygon>
+                     <gmd:polygon>
+                        <gml:Polygon gml:id="d7093e493" srsName="urn:x-ogc:def:crs:EPSG:6.6:4326">
+                           <gml:exterior>
+                              <gml:LinearRing>
+                                 <gml:posList>-90.717177799236 48.140998232253 -89.310927799236 48.031134951003004 -88.388076236736 48.338752138503 -84.806533267986 46.844611513503 -84.652724674236 46.493049013503 -84.147353580486 46.515021669753 -83.905654361736 46.075568544753 -83.466201236736 46.119513857253 -83.532119205486 45.811896669753 -82.455459049236 45.284552919753 -82.125869205486 43.636603701003 -82.433486392986 42.94643558878201 -82.455459049236 42.660791057532 -82.828994205486 42.441064495032 -83.158584049236 42.243310588782 -83.114638736736 42.001611370032 -82.960830142986 41.759912151282 -82.411513736736 41.650048870032 -81.290908267986 42.199365276282 -80.078923171991 42.375146526282 -78.870427078241 42.836572307532 -79.200016921991 43.42983402628201 -78.606755203241 43.539697307532 -76.695134109491 43.649560588782 -76.365544265741 44.176904338782 -75.838200515741 44.396630901282 -75.640446609491 43.781396526282 -76.035954421991 43.100244182532 -77.002751296991 42.726709026282 -78.233220046991 42.792626995032 -78.584782546991 42.155419963782 -80.276677078241 41.188623088782 -82.913395828241 40.837060588782 -83.990055984491 41.100732463782 -84.341618484491 41.73793949503201 -83.177067703241 43.144189495032 -84.341618484491 43.034326213782 -84.539372390741 43.42983402628201 -84.539372390741 44.089013713782 -84.143864578241 44.682275432532 -84.627263015741 45.011865276282 -85.220524734491 44.242822307532 -85.703923171991 43.935205120032 -85.550114578241 42.660791057532 -86.121403640741 41.25454105753201 -87.37384504699101 40.815087932532 -88.312359100314 41.183693410249 -88.993511444064 42.370216847749 -88.707866912814 43.402931691499 -88.554058319064 44.084084035249 -88.795757537814 45.006935597749 -87.763042694064 45.863869191499 -89.031794042942 46.097475724173 -90.811579199192 45.636049942923 -92.635309667942 46.141421036673 -92.723200292942 46.954409317923 -90.717177799236 48.140998232253</gml:posList>
+                              </gml:LinearRing>
+                           </gml:exterior>
+                        </gml:Polygon>
+                     </gmd:polygon>
+                  </gmd:EX_BoundingPolygon>
                </gmd:geographicElement>
             </gmd:EX_Extent>
          </gmd:extent>
-         <gmd:supplementalInformation gco:nilReason="missing">
-            <gco:CharacterString/>
+         <gmd:supplementalInformation>
+            <gco:CharacterString>Reduced lake level corridors were produced from JALBTCX and NOAA-CSC lidar-based topo-bathymetry for each of these lakes in all areas where data were available, and from GLERL bathymetric contours in each of the lakes where the negative 1-meter contour was available. Lidar data were collected from 2006 to 2009, while bathymetric contours were based on over 100 years of historic sounding data. Lidar availability were limited by temporal constraints during data collection and in some cases turbitiy and/or aquatic vegetation that prevented light from penetrating the water column. Source lidar-derived topo-bathymetric data accompany these corridor files to illustrate the horizontal extent possible for derived products, and should be used as an interpretive tool. These extent limitations inherent to lidar-derived products prompted the generation of the corridor from bathymetric contour data, which is a more general approximation than that afforded by lidar data, where they are available.
+
+Invasive Phragmites distribution maps are available for the U.S. side of the Great Lakes and their connecting waterways.</gco:CharacterString>
          </gmd:supplementalInformation>
       </gmd:MD_DataIdentification>
   </gmd:identificationInfo>
@@ -256,36 +297,160 @@
          <gmd:distributionFormat>
             <gmd:MD_Format>
                <gmd:name>
-                  <gco:CharacterString>Strategy-R_10970[1].000_FinalFEPSAppendixes_2008-03-3-Baird</gco:CharacterString>
+                  <gco:CharacterString>Web Map Service</gco:CharacterString>
                </gmd:name>
-               <gmd:version gco:nilReason="missing">
-                  <gco:CharacterString/>
+               <gmd:version>
+                  <gco:CharacterString>Various</gco:CharacterString>
                </gmd:version>
-               <gmd:specification>
-                  <gco:CharacterString>The data is a downloadable PDF file on a sharepoint website. File for download</gco:CharacterString>
-               </gmd:specification>
             </gmd:MD_Format>
          </gmd:distributionFormat>
          <gmd:transferOptions>
             <gmd:MD_DigitalTransferOptions>
+               <gmd:unitsOfDistribution gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:unitsOfDistribution>
+               <gmd:transferSize>
+                  <gco:Real/>
+               </gmd:transferSize>
                <gmd:onLine>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://team.iugls.org/IUGLS%20Documents/Strategy-R_10970[1].000_FinalFEPSAppendixes_2008-03-3-Baird.pdf</gmd:URL>
+                        <gmd:URL>http://cida.usgs.gov/ArcGIS/services/GLRI68_Phragmites/MapServer/WMSServer</gmd:URL>
                      </gmd:linkage>
-                     <gmd:protocol gco:nilReason="missing">
-                        <gco:CharacterString/>
+                     <gmd:protocol>
+                        <gco:CharacterString>OGC:WMS-1.1.1-http-get-map</gco:CharacterString>
                      </gmd:protocol>
-                     <gmd:name gco:nilReason="missing">
-                        <gco:CharacterString/>
+                     <gmd:name>
+                        <gco:CharacterString>4</gco:CharacterString>
                      </gmd:name>
-                     <gmd:description gco:nilReason="missing">
-                        <gco:CharacterString/>
+                     <gmd:description>
+                        <gco:CharacterString>Vulnerable Corridors from NOAA Bathymetry: 1m Lake Level Drop</gco:CharacterString>
                      </gmd:description>
                   </gmd:CI_OnlineResource>
                </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://cida.usgs.gov/ArcGIS/services/GLRI68_Phragmites/MapServer/WMSServer</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>OGC:WMS-1.1.1-http-get-map</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>14</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Area with no available lidar data.</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://cida.usgs.gov/ArcGIS/services/GLRI68_Phragmites/MapServer/WMSServer</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>OGC:WMS-1.1.1-http-get-map</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>11</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Vulnerable Corridors from Lidar Data: 1m Lake Level Drop</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://cida.usgs.gov/ArcGIS/services/GLRI68_Phragmites/MapServer/WMSServer</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>OGC:WMS-1.1.1-http-get-map</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:applicationProfile gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:applicationProfile>
+                     <gmd:name>
+                        <gco:CharacterString>13</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Vulnerable Corridors from Lidar Data: 50cm Lake Level Drop</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:offLine>
+                  <gmd:MD_Medium>
+                     <gmd:name>
+                        <gmd:MD_MediumNameCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_MediumNameCode" codeListValue=""/>
+                     </gmd:name>
+                  </gmd:MD_Medium>
+               </gmd:offLine>
             </gmd:MD_DigitalTransferOptions>
          </gmd:transferOptions>
       </gmd:MD_Distribution>
   </gmd:distributionInfo>
+  <gmd:dataQualityInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gmd:DQ_DataQuality>
+         <gmd:scope>
+            <gmd:DQ_Scope>
+               <gmd:level>
+                  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115"/>
+               </gmd:level>
+               <gmd:extent>
+                  <gmd:EX_Extent>
+                     <gmd:verticalElement>
+                        <gmd:EX_VerticalExtent>
+                           <gmd:minimumValue>
+                              <gco:Real/>
+                           </gmd:minimumValue>
+                           <gmd:maximumValue>
+                              <gco:Real/>
+                           </gmd:maximumValue>
+                        </gmd:EX_VerticalExtent>
+                     </gmd:verticalElement>
+                  </gmd:EX_Extent>
+               </gmd:extent>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:report>
+            <gmd:DQ_CompletenessOmission>
+               <gmd:measureDescription>
+                  <gco:CharacterString>Bathymetric lidar data were limited in areas where turbidity and/or aquatic vegetation prevented optical penetration of the water column. This limitation was seen most prominently in western Lake Erie, but locally problematic in many other areas. In some cases lidar data did not extend far enough off shore to encompass the area represented by a 1-m lake level reduction from the mean 2009 level, so available lidar extent spatially truncated derived corridors where these issues were evident. In addition, lidar data were not collected within northern lake Michigan and portions of the Lake Huron and Lake Superior coastal zones. NOAA 1-m bathymetric contours were unavailable for Lake Michigan, or Lake Superior so corridors defined by this contour were only developed for Lakes Huron, St. Clair, Erie, and Ontario. The positional accuracy of the 1-m contour was such that corridors derived from this source should be viewed as a general approximation of the area potentially exposed by a one meter reduction in lake level, and not a precisely defined polygon.</gco:CharacterString>
+               </gmd:measureDescription>
+            </gmd:DQ_CompletenessOmission>
+         </gmd:report>
+         <gmd:report>
+            <gmd:DQ_QuantitativeAttributeAccuracy>
+               <gmd:measureDescription>
+                  <gco:CharacterString>Invasive Phragmites mapping was approximately 86% accurate. Proximity values applied to reduced lake level corridors used this mapping, so are constrained by its accuracy.</gco:CharacterString>
+               </gmd:measureDescription>
+               <gmd:evaluationMethodDescription>
+                  <gco:CharacterString>Distance, in m to mapped invasive Phragmites stands greater than 0.2 ha (0.5 ac).  Mapping had an overall accuracy of approximately 86% based on ground truthing.</gco:CharacterString>
+               </gmd:evaluationMethodDescription>
+               <gmd:result>
+                  <gmd:DQ_QuantitativeResult>
+                     <gmd:value>
+                        <gco:Record>proximity to invasive Phragmites</gco:Record>
+                     </gmd:value>
+                  </gmd:DQ_QuantitativeResult>
+               </gmd:result>
+            </gmd:DQ_QuantitativeAttributeAccuracy>
+         </gmd:report>
+         <gmd:report>
+            <gmd:DQ_AbsoluteExternalPositionalAccuracy>
+               <gmd:measureDescription>
+                  <gco:CharacterString>Vertical lidar data accuracy was reported as +/- 0.20 m based on 1 sigma following post processing via KGPS methods. Bathymetric contours were attributed with integer data and developed at 1-m intervals. Sounding data were normalized to a common datum, so vertical accuracy is presumed to be approximately +/- 0.5 meter but is constrained by bathymetric conditions specific to the time sounding data were collected and the methods used at various times.</gco:CharacterString>
+               </gmd:measureDescription>
+            </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+         </gmd:report>
+         <gmd:report>
+            <gmd:DQ_AbsoluteExternalPositionalAccuracy>
+               <gmd:measureDescription>
+                  <gco:CharacterString>Horizontal lidar data accuracy was reported at +/- 0.75 m based on 1 sigma following post processing via KGPS methods. Bathymetric contours were created based on over 100 years of sounding data and adjusted by trained geomorphologists following automated interpolation.</gco:CharacterString>
+               </gmd:measureDescription>
+            </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+         </gmd:report>
+      </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
 </gmi:MI_Metadata>

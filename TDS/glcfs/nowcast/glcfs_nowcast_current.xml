@@ -16,9 +16,9 @@
     <metadata inherited="true">
       <serviceName>all</serviceName>
       <keyword vocabulary="GCMD Science Keywords">GLOS, GLCFS, Nowcast, Great Lakes</keyword>
-      <date type="created">2012-01-01</date>
-      <date type="modified">2012-01-01</date>
-      <date type="issued">2012-01-01</date>
+      <date type="created">2014-01-01</date>
+      <date type="modified">2014-01-01</date>
+      <date type="issued">2014-01-01</date>
       <creator>
         <name vocabulary="DIF">Dr. Dave Schwab</name>
         <contact url="http://www.glerl.noaa.gov/" email="david.schwab@noaa.gov"/>
@@ -51,8 +51,8 @@
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
           <attribute name="Conventions" type="String" value="CF-1.6"/> 
-          <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
-          <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
+          <attribute name="validtime" value="01-JAN-2014 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2014 00:00 GMT" />
           <attribute name="comment2" value="3-hourly model 3D output starting at validtime plus 3 hr" />
         </netcdf>
       </protoDataset>
@@ -83,8 +83,8 @@
       <update startup="true" rescan="0 15 * * * ? *" trigger="allow" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-          <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
-          <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
+          <attribute name="validtime" value="01-JAN-2014 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2014 00:00 GMT" />
           <attribute name="comment2" value="1-hourly model 2D output starting at validtime plus 1 hr" />
           <attribute name="Conventions" type="String" value="CF-1.6"/> 
         </netcdf>
@@ -106,8 +106,8 @@
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
           <attribute name="Conventions" type="String" value="CF-1.6"/> 
-          <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
-          <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
+          <attribute name="validtime" value="01-JAN-2014 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2014 00:00 GMT" />
           <attribute name="comment2" value="3-hourly model 3D output starting at validtime plus 3 hr" />
         </netcdf>
       </protoDataset>
@@ -150,8 +150,8 @@
       <update startup="true" rescan="0 15 * * * ? *" trigger="allow" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-          <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
-          <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
+          <attribute name="validtime" value="01-JAN-2014 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2014 00:00 GMT" />
           <attribute name="comment2" value="1-hourly model 2D output starting at validtime plus 1 hr" />
           <attribute name="Conventions" type="String" value="CF-1.6"/> 
         </netcdf>
@@ -173,8 +173,8 @@
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
           <attribute name="Conventions" type="String" value="CF-1.6"/> 
-          <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
-          <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
+          <attribute name="validtime" value="01-JAN-2014 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2014 00:00 GMT" />
           <attribute name="comment2" value="3-hourly model 3D output starting at validtime plus 3 hr" />
         </netcdf>
       </protoDataset>
@@ -204,8 +204,8 @@
       <update startup="true" rescan="0 15 * * * ? *" trigger="allow" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-          <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
-          <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
+          <attribute name="validtime" value="01-JAN-2014 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2014 00:00 GMT" />
           <attribute name="comment2" value="1-hourly model 2D output starting at validtime plus 1 hr" />
           <attribute name="Conventions" type="String" value="CF-1.6"/> 
         </netcdf>
@@ -228,8 +228,8 @@
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
           <attribute name="Conventions" type="String" value="CF-1.6"/> 
-          <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
-          <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
+          <attribute name="validtime" value="01-JAN-2014 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2014 00:00 GMT" />
           <attribute name="comment2" value="3-hourly model 3D output starting at validtime plus 3 hr" />
         </netcdf>
       </protoDataset>
@@ -259,8 +259,8 @@
       <update startup="true" rescan="0 15 * * * ? *" trigger="allow" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-          <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
-          <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
+          <attribute name="validtime" value="01-JAN-2014 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2014 00:00 GMT" />
           <attribute name="comment2" value="1-hourly model 2D output starting at validtime plus 1 hr" />
           <attribute name="Conventions" type="String" value="CF-1.6"/> 
         </netcdf>
@@ -282,8 +282,8 @@
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
           <attribute name="Conventions" type="String" value="CF-1.6"/> 
-          <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
-          <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
+          <attribute name="validtime" value="01-JAN-2014 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2014 00:00 GMT" />
           <attribute name="comment2" value="3-hourly model 3D output starting at validtime plus 3 hr" />
         </netcdf>
       </protoDataset>
@@ -313,8 +313,8 @@
       <update startup="true" rescan="0 15 * * * ? *" trigger="allow" />
       <protoDataset choice="Penultimate">
         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-          <attribute name="validtime" value="01-JAN-2013 00:00 GMT" />
-          <attribute name="validtime_DOY" value="001, 2013 00:00 GMT" />
+          <attribute name="validtime" value="01-JAN-2014 00:00 GMT" />
+          <attribute name="validtime_DOY" value="001, 2014 00:00 GMT" />
           <attribute name="comment2" value="1-hourly model 2D output starting at validtime plus 1 hr" />
           <attribute name="Conventions" type="String" value="CF-1.6"/> 
         </netcdf>

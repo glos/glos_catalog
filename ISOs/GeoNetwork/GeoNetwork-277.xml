@@ -1,23 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd"><gmd:fileIdentifier xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:CharacterString>b322c693-ae6c-48dd-8925-5f183d359ce8</gco:CharacterString>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd"><gmd:fileIdentifier xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>ba86e38b-3055-428f-96ae-99b1d022e2eb</gco:CharacterString>
   </gmd:fileIdentifier>
   <gmd:language xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gco:CharacterString>eng</gco:CharacterString>
   </gmd:language>
   <gmd:characterSet xmlns:gmd="http://www.isotc211.org/2005/gmd">
-      <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="./resources/codeList.xml#MD_CharacterSetCode"/>
+      <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"/>
   </gmd:characterSet>
+  <gmd:parentIdentifier xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>8ca8a37c-c1ba-466c-92af-c88b28b7aca9</gco:CharacterString>
+  </gmd:parentIdentifier>
   <gmd:contact xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gmd:CI_ResponsibleParty>
          <gmd:individualName>
-            <gco:CharacterString>Mike Shantz</gco:CharacterString>
+            <gco:CharacterString>Dave Blodgett</gco:CharacterString>
          </gmd:individualName>
-         <gmd:organisationName>
-            <gco:CharacterString>Environment Canada</gco:CharacterString>
+         <gmd:organisationName gco:nilReason="missing">
+            <gco:CharacterString/>
          </gmd:organisationName>
-         <gmd:positionName>
-            <gco:CharacterString>Metadata Author</gco:CharacterString>
+         <gmd:positionName gco:nilReason="missing">
+            <gco:CharacterString/>
          </gmd:positionName>
          <gmd:contactInfo>
             <gmd:CI_Contact>
@@ -26,10 +29,16 @@
                      <gmd:voice gco:nilReason="missing">
                         <gco:CharacterString/>
                      </gmd:voice>
+                     <gmd:facsimile gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:facsimile>
                   </gmd:CI_Telephone>
                </gmd:phone>
                <gmd:address>
                   <gmd:CI_Address>
+                     <gmd:deliveryPoint gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:deliveryPoint>
                      <gmd:city gco:nilReason="missing">
                         <gco:CharacterString/>
                      </gmd:city>
@@ -43,230 +52,401 @@
                         <gco:CharacterString/>
                      </gmd:country>
                      <gmd:electronicMailAddress>
-                        <gco:CharacterString>mike.shantz@ec.gc.ca</gco:CharacterString>
+                        <gco:CharacterString>dblodgett@usgs.gov</gco:CharacterString>
                      </gmd:electronicMailAddress>
                   </gmd:CI_Address>
                </gmd:address>
             </gmd:CI_Contact>
          </gmd:contactInfo>
          <gmd:role>
-            <gmd:CI_RoleCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+            <gmd:CI_RoleCode codeListValue="pointOfContact" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode"/>
          </gmd:role>
       </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:DateTime xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx">2013-07-15T11:41:57</gco:DateTime>
+      <gco:DateTime xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx">2012-06-22T12:11:49</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
   </gmd:metadataStandardName>
   <gmd:metadataStandardVersion xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:CharacterString>Version 3.14</gco:CharacterString>
+      <gco:CharacterString>1.0</gco:CharacterString>
   </gmd:metadataStandardVersion>
-  <gmd:identificationInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+  <gmd:identificationInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml">
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Development of Low Water Stage-Impact Relationships for Identified Study Sites: Report to the Coastal Zone Technical Working Group on Task 4 - Preparation of strategy for development of hedonic pricing model</gco:CharacterString>
+                  <gco:CharacterString>Implementation Of The Great Lakes Observing System</gco:CharacterString>
                </gmd:title>
+               <gmd:alternateTitle gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:alternateTitle>
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:Date>2010-12-03</gco:Date>
+                        <gco:DateTime>2010-09-10T19:00:00</gco:DateTime>
                      </gmd:date>
                      <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2011-08-22</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
+                        <gmd:CI_DateTypeCode codeListValue="creation" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode"/>
                      </gmd:dateType>
                   </gmd:CI_Date>
                </gmd:date>
                <gmd:edition gco:nilReason="missing">
                   <gco:CharacterString/>
                </gmd:edition>
-               <gmd:otherCitationDetails>
-                  <gco:CharacterString>Coastal Zone Technical Working Group</gco:CharacterString>
+               <gmd:editionDate>
+                  <gco:Date/>
+               </gmd:editionDate>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName>
+                        <gco:CharacterString>Charlie Peters</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:organisationName>
+                        <gco:CharacterString>U.S. Geological Survey</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:positionName>
+                        <gco:CharacterString>USGS Wisconsin WSC Director</gco:CharacterString>
+                     </gmd:positionName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:phone>
+                              <gmd:CI_Telephone>
+                                 <gmd:voice>
+                                    <gco:CharacterString>608-821-3810</gco:CharacterString>
+                                 </gmd:voice>
+                              </gmd:CI_Telephone>
+                           </gmd:phone>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>8505 Research Way</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:city>
+                                    <gco:CharacterString>Middleton</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea>
+                                    <gco:CharacterString>WI</gco:CharacterString>
+                                 </gmd:administrativeArea>
+                                 <gmd:postalCode>
+                                    <gco:CharacterString>53562</gco:CharacterString>
+                                 </gmd:postalCode>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>capeters@usgs.gov</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                           <gmd:onlineResource>
+                              <gmd:CI_OnlineResource>
+                                 <gmd:linkage>
+                                    <gmd:URL>https://cida.usgs.gov/glri/projects/accountability/Great_Lakes_Observing_System.html</gmd:URL>
+                                 </gmd:linkage>
+                                 <gmd:protocol>
+                                    <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                                 </gmd:protocol>
+                                 <gmd:name>
+                                    <gco:CharacterString>Project Home Page</gco:CharacterString>
+                                 </gmd:name>
+                                 <gmd:description gco:nilReason="missing">
+                                    <gco:CharacterString/>
+                                 </gmd:description>
+                              </gmd:CI_OnlineResource>
+                           </gmd:onlineResource>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator"/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:otherCitationDetails gco:nilReason="missing">
+                  <gco:CharacterString/>
                </gmd:otherCitationDetails>
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The requirements for applying the hedonic price method were outlined and a summary report prepared. A brief test using what was referred to as a “simplified hedonic price method” approach was undertaken where asking prices were used with other variables along with water levels to determine a relationship. The author also compared price fluctuations for shoreline properties vs. inland (shore view) properties.</gco:CharacterString>
+            <gco:CharacterString>The Great Lakes Observing System coordinates and integrates regional coastal observations supporting national &amp; regional priorities including Great Lakes restoration. The DOI backbone project is providing instrumentation for real-time observing system information in tributaries, embayments, and the near-shore to determine and guide restoration activities. A simulation model is also being developed that will provide quantifiable measures of restoration progress and comparisons of progress over time and space.</gco:CharacterString>
          </gmd:abstract>
          <gmd:purpose>
-            <gco:CharacterString>To outline a detailed methodology for applying a hedonic price model for assessing low water impacts on the Upper Great Lakes shoreline</gco:CharacterString>
+            <gco:CharacterString>To provide real-time data and information for understanding and prioritizing Great Lakes Restoration work.</gco:CharacterString>
          </gmd:purpose>
+         <gmd:credit>
+            <gco:CharacterString>WI Water Science Center</gco:CharacterString>
+         </gmd:credit>
+         <gmd:credit>
+            <gco:CharacterString>http://wi.water.usgs.gov/index.html</gco:CharacterString>
+         </gmd:credit>
+         <gmd:credit>
+            <gco:CharacterString>USGS Center for Integrated Data Analytics</gco:CharacterString>
+         </gmd:credit>
+         <gmd:credit>
+            <gco:CharacterString>http://cida.usgs.gov/</gco:CharacterString>
+         </gmd:credit>
+         <gmd:credit>
+            <gco:CharacterString>Great Lakes Restoration Initiative (GLRI)</gco:CharacterString>
+         </gmd:credit>
+         <gmd:credit>
+            <gco:CharacterString>http://www.greatlakesrestoration.us/</gco:CharacterString>
+         </gmd:credit>
          <gmd:status>
-            <gmd:MD_ProgressCode codeListValue="completed" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ProgressCode"/>
+            <gmd:MD_ProgressCode codeListValue="onGoing" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ProgressCode"/>
          </gmd:status>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
                <gmd:individualName>
-                  <gco:CharacterString>Mike Shantz</gco:CharacterString>
+                  <gco:CharacterString>Nate Booth</gco:CharacterString>
                </gmd:individualName>
                <gmd:organisationName>
-                  <gco:CharacterString>Environment Canada</gco:CharacterString>
+                  <gco:CharacterString>U.S. Geological Survey</gco:CharacterString>
                </gmd:organisationName>
-               <gmd:positionName gco:nilReason="missing">
-                  <gco:CharacterString/>
+               <gmd:positionName>
+                  <gco:CharacterString>IT Specialist (Sys Analysis)</gco:CharacterString>
                </gmd:positionName>
                <gmd:contactInfo>
                   <gmd:CI_Contact>
                      <gmd:phone>
                         <gmd:CI_Telephone>
-                           <gmd:voice gco:nilReason="missing">
-                              <gco:CharacterString/>
+                           <gmd:voice>
+                              <gco:CharacterString>608-821-3822</gco:CharacterString>
                            </gmd:voice>
+                           <gmd:facsimile gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:facsimile>
                         </gmd:CI_Telephone>
                      </gmd:phone>
                      <gmd:address>
                         <gmd:CI_Address>
-                           <gmd:city gco:nilReason="missing">
-                              <gco:CharacterString/>
+                           <gmd:deliveryPoint>
+                              <gco:CharacterString>8505 Research Way</gco:CharacterString>
+                           </gmd:deliveryPoint>
+                           <gmd:city>
+                              <gco:CharacterString>Middleton</gco:CharacterString>
                            </gmd:city>
-                           <gmd:administrativeArea gco:nilReason="missing">
-                              <gco:CharacterString/>
+                           <gmd:administrativeArea>
+                              <gco:CharacterString>WI</gco:CharacterString>
                            </gmd:administrativeArea>
-                           <gmd:postalCode gco:nilReason="missing">
-                              <gco:CharacterString/>
+                           <gmd:postalCode>
+                              <gco:CharacterString>53562</gco:CharacterString>
                            </gmd:postalCode>
                            <gmd:country gco:nilReason="missing">
                               <gco:CharacterString/>
                            </gmd:country>
                            <gmd:electronicMailAddress>
-                              <gco:CharacterString>mike.shantz@ec.gc.ca</gco:CharacterString>
+                              <gco:CharacterString>nlbooth@usgs.gov</gco:CharacterString>
                            </gmd:electronicMailAddress>
                         </gmd:CI_Address>
                      </gmd:address>
                   </gmd:CI_Contact>
                </gmd:contactInfo>
                <gmd:role>
-                  <gmd:CI_RoleCode codeListValue="custodian" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+                  <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
                </gmd:role>
             </gmd:CI_ResponsibleParty>
          </gmd:pointOfContact>
-         <gmd:resourceMaintenance>
-            <gmd:MD_MaintenanceInformation>
-               <gmd:maintenanceAndUpdateFrequency>
-                  <gmd:MD_MaintenanceFrequencyCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_MaintenanceFrequencyCode"/>
-               </gmd:maintenanceAndUpdateFrequency>
-            </gmd:MD_MaintenanceInformation>
-         </gmd:resourceMaintenance>
-         <gmd:graphicOverview>
+         <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
             <gmd:MD_BrowseGraphic>
-               <gmd:fileName gco:nilReason="missing">
-                  <gco:CharacterString/>
+               <gmd:fileName>
+                  <gco:CharacterString>surface_sites_s.png</gco:CharacterString>
                </gmd:fileName>
                <gmd:fileDescription>
                   <gco:CharacterString>thumbnail</gco:CharacterString>
                </gmd:fileDescription>
+               <gmd:fileType>
+                  <gco:CharacterString>png</gco:CharacterString>
+               </gmd:fileType>
             </gmd:MD_BrowseGraphic>
          </gmd:graphicOverview>
-         <gmd:graphicOverview>
+         <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
             <gmd:MD_BrowseGraphic>
-               <gmd:fileName gco:nilReason="missing">
-                  <gco:CharacterString/>
+               <gmd:fileName>
+                  <gco:CharacterString>surface_sites.png</gco:CharacterString>
                </gmd:fileName>
                <gmd:fileDescription>
                   <gco:CharacterString>large_thumbnail</gco:CharacterString>
                </gmd:fileDescription>
+               <gmd:fileType>
+                  <gco:CharacterString>png</gco:CharacterString>
+               </gmd:fileType>
             </gmd:MD_BrowseGraphic>
          </gmd:graphicOverview>
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>HEDONIC PRICE MODEL</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>LOW WATER</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>RIPARIAN ZONES</gco:CharacterString>
+                  <gco:CharacterString>Great Lakes</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
-                  <gmd:MD_KeywordTypeCode codeListValue="theme" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode"/>
+                  <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place"/>
                </gmd:type>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
-         <gmd:resourceConstraints>
-            <gmd:MD_LegalConstraints>
-               <gmd:accessConstraints>
-                  <gmd:MD_RestrictionCode codeListValue="otherRestrictions" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"/>
-               </gmd:accessConstraints>
-               <gmd:useConstraints>
-                  <gmd:MD_RestrictionCode codeListValue="otherRestrictions" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"/>
-               </gmd:useConstraints>
-               <gmd:otherConstraints gco:nilReason="missing">
-                  <gco:CharacterString/>
-               </gmd:otherConstraints>
-            </gmd:MD_LegalConstraints>
-         </gmd:resourceConstraints>
-         <gmd:spatialResolution>
-            <gmd:MD_Resolution/>
-         </gmd:spatialResolution>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>Real Time</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Archive</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="temporal"/>
+               </gmd:type>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>Monitoring</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Water Quality</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Buoy Network</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Stream Gage Network</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme"/>
+               </gmd:type>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
          <gmd:language>
             <gco:CharacterString>eng</gco:CharacterString>
          </gmd:language>
          <gmd:topicCategory>
-            <gmd:MD_TopicCategoryCode>society</gmd:MD_TopicCategoryCode>
+            <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
          </gmd:topicCategory>
          <gmd:extent>
             <gmd:EX_Extent>
-               <gmd:verticalElement>
-                  <gmd:EX_VerticalExtent>
-                     <gmd:minimumValue>
-                        <gco:Real/>
-                     </gmd:minimumValue>
-                     <gmd:maximumValue>
-                        <gco:Real/>
-                     </gmd:maximumValue>
-                  </gmd:EX_VerticalExtent>
-               </gmd:verticalElement>
+               <gmd:description gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:description>
+               <gmd:geographicElement>
+                  <gmd:EX_BoundingPolygon>
+                     <gmd:polygon>
+                        <gml:Polygon gml:id="d7282e599" srsName="urn:x-ogc:def:crs:EPSG:6.6:4326">
+                           <gml:exterior>
+                              <gml:LinearRing>
+                                 <gml:posList>-93.290405273438 46.576538085938 -89.950561523438 50.267944335938 -84.193725585938 50.311889648438 -80.282592773438 47.015991210938004 -75.800170898438 45.258178710938 -74.306030273438 43.807983398438004 -77.206420898438 40.951538085938 -84.677124023438 40.248413085938 -89.99450683593801 41.347045898438 -89.730834960938 44.598999023438 -93.290405273438 46.576538085938</gml:posList>
+                              </gml:LinearRing>
+                           </gml:exterior>
+                        </gml:Polygon>
+                     </gmd:polygon>
+                  </gmd:EX_BoundingPolygon>
+               </gmd:geographicElement>
             </gmd:EX_Extent>
          </gmd:extent>
-         <gmd:supplementalInformation>
-            <gco:CharacterString>Comments: "Report is a stand alone document and also contained as an appendix in the low water peer review submission. Product developed by CDM."</gco:CharacterString>
+         <gmd:supplementalInformation gco:nilReason="missing">
+            <gco:CharacterString/>
          </gmd:supplementalInformation>
       </gmd:MD_DataIdentification>
   </gmd:identificationInfo>
   <gmd:distributionInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gmd:MD_Distribution>
-         <gmd:distributionFormat>
-            <gmd:MD_Format>
-               <gmd:name>
-                  <gco:CharacterString>Low_Water-Hedonic_Price_Model_methodology-CDM</gco:CharacterString>
-               </gmd:name>
-               <gmd:version gco:nilReason="missing">
-                  <gco:CharacterString/>
-               </gmd:version>
-               <gmd:specification>
-                  <gco:CharacterString>The data is a downloadable PDF file on a sharepoint website. File for download</gco:CharacterString>
-               </gmd:specification>
-            </gmd:MD_Format>
-         </gmd:distributionFormat>
+         <gmd:distributor>
+            <gmd:MD_Distributor>
+               <gmd:distributorContact>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName>
+                        <gco:CharacterString>Daniel Sullivan</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:organisationName>
+                        <gco:CharacterString>U.S. Geological Survey</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:positionName gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:positionName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:phone>
+                              <gmd:CI_Telephone>
+                                 <gmd:voice gco:nilReason="missing">
+                                    <gco:CharacterString/>
+                                 </gmd:voice>
+                                 <gmd:facsimile gco:nilReason="missing">
+                                    <gco:CharacterString/>
+                                 </gmd:facsimile>
+                              </gmd:CI_Telephone>
+                           </gmd:phone>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:deliveryPoint gco:nilReason="missing">
+                                    <gco:CharacterString/>
+                                 </gmd:deliveryPoint>
+                                 <gmd:city gco:nilReason="missing">
+                                    <gco:CharacterString/>
+                                 </gmd:city>
+                                 <gmd:administrativeArea gco:nilReason="missing">
+                                    <gco:CharacterString/>
+                                 </gmd:administrativeArea>
+                                 <gmd:postalCode gco:nilReason="missing">
+                                    <gco:CharacterString/>
+                                 </gmd:postalCode>
+                                 <gmd:country gco:nilReason="missing">
+                                    <gco:CharacterString/>
+                                 </gmd:country>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>djsulliv@usgs.gov</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="custodian"/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:distributorContact>
+            </gmd:MD_Distributor>
+         </gmd:distributor>
          <gmd:transferOptions>
             <gmd:MD_DigitalTransferOptions>
                <gmd:onLine>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://www.iugls.org/DocStore/ProjectArchive/CZN_CoastalZone/CZN05_LowWaterImpacts/Reports/CZN05-R5_DunningJordan_HedonicPriceModel.pdf</gmd:URL>
+                        <gmd:URL>http://cida.usgs.gov/glri/projects/accountability/Great_Lakes_Observing_System.html</gmd:URL>
                      </gmd:linkage>
                      <gmd:protocol>
                         <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
                      </gmd:protocol>
                      <gmd:name>
-                        <gco:CharacterString>CZN05-R5_DunningJordan_HedonicPriceModel.pdf</gco:CharacterString>
+                        <gco:CharacterString>Project Home Page</gco:CharacterString>
                      </gmd:name>
-                     <gmd:description gco:nilReason="missing">
-                        <gco:CharacterString/>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://pubs.usgs.gov/of/2011/1202/</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>USGS Open File Report 2011-1202</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Compilation of Watershed Models for Tributaries to the Great Lakes, United States, as of 2010, and Identification of Watersheds for Future Modeling for the Great Lakes Restoration Initiative
+
+By William F. Coon, Elizabeth A. Murphy, David T. Soong, and Jennifer B. Sharpe</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://cida.usgs.gov/ArcGIS/services/GL_MAPS/MapServer/WMSServer</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>OGC:WMS-1.1.1-http-get-map</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>5</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Surface Water Monitoring Sites</gco:CharacterString>
                      </gmd:description>
                   </gmd:CI_OnlineResource>
                </gmd:onLine>

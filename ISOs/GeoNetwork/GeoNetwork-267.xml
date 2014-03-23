@@ -1,287 +1,472 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd"><gmd:fileIdentifier xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:CharacterString>db621f62-6fee-4caf-9eac-ee591b925237</gco:CharacterString>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd"><gmd:fileIdentifier xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>b594ec11-3d1f-4a24-9f7b-db9fd6aa367f</gco:CharacterString>
   </gmd:fileIdentifier>
-  <gmd:language xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:CharacterString>eng</gco:CharacterString>
+  <gmd:language xmlns:gmd="http://www.isotc211.org/2005/gmd">
+      <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
   </gmd:language>
-  <gmd:characterSet xmlns:gmd="http://www.isotc211.org/2005/gmd">
-      <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="./resources/codeList.xml#MD_CharacterSetCode"/>
-  </gmd:characterSet>
+  <gmd:parentIdentifier xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>e433d82a-e5bc-4eb0-a853-76cbe0913250</gco:CharacterString>
+  </gmd:parentIdentifier>
+  <gmd:hierarchyLevel xmlns:gmd="http://www.isotc211.org/2005/gmd">
+      <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset"/>
+  </gmd:hierarchyLevel>
   <gmd:contact xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gmd:CI_ResponsibleParty>
-         <gmd:individualName>
-            <gco:CharacterString>Mike Shantz</gco:CharacterString>
-         </gmd:individualName>
          <gmd:organisationName>
-            <gco:CharacterString>Environment Canada</gco:CharacterString>
+            <gco:CharacterString>JALBTCX</gco:CharacterString>
          </gmd:organisationName>
          <gmd:positionName>
-            <gco:CharacterString>Metadata Author</gco:CharacterString>
+            <gco:CharacterString>Data Production Manager</gco:CharacterString>
          </gmd:positionName>
          <gmd:contactInfo>
             <gmd:CI_Contact>
                <gmd:phone>
                   <gmd:CI_Telephone>
-                     <gmd:voice gco:nilReason="missing">
-                        <gco:CharacterString/>
+                     <gmd:voice>
+                        <gco:CharacterString>228-252-1121</gco:CharacterString>
                      </gmd:voice>
+                     <gmd:voice>
+                        <gco:CharacterString>228-252-1111</gco:CharacterString>
+                     </gmd:voice>
+                     <gmd:facsimile>
+                        <gco:CharacterString>228-252-1133</gco:CharacterString>
+                     </gmd:facsimile>
                   </gmd:CI_Telephone>
                </gmd:phone>
                <gmd:address>
                   <gmd:CI_Address>
-                     <gmd:city gco:nilReason="missing">
-                        <gco:CharacterString/>
+                     <gmd:deliveryPoint>
+                        <gco:CharacterString>7225 Stennis Airport Rd., STE 100</gco:CharacterString>
+                     </gmd:deliveryPoint>
+                     <gmd:city>
+                        <gco:CharacterString>Kiln</gco:CharacterString>
                      </gmd:city>
-                     <gmd:administrativeArea gco:nilReason="missing">
-                        <gco:CharacterString/>
+                     <gmd:administrativeArea>
+                        <gco:CharacterString>MS</gco:CharacterString>
                      </gmd:administrativeArea>
-                     <gmd:postalCode gco:nilReason="missing">
-                        <gco:CharacterString/>
+                     <gmd:postalCode>
+                        <gco:CharacterString>39556</gco:CharacterString>
                      </gmd:postalCode>
-                     <gmd:country gco:nilReason="missing">
-                        <gco:CharacterString/>
+                     <gmd:country>
+                        <gmd:Country codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#Country" codeListValue="" codeSpace="ISO3166-alpha2"/>
                      </gmd:country>
                      <gmd:electronicMailAddress>
-                        <gco:CharacterString>mike.shantz@ec.gc.ca</gco:CharacterString>
+                        <gco:CharacterString>shoals-info@sam.usace.army.mil</gco:CharacterString>
                      </gmd:electronicMailAddress>
                   </gmd:CI_Address>
                </gmd:address>
+               <gmd:hoursOfService>
+                  <gco:CharacterString>8am- 5pm Monday through Friday</gco:CharacterString>
+               </gmd:hoursOfService>
             </gmd:CI_Contact>
          </gmd:contactInfo>
          <gmd:role>
-            <gmd:CI_RoleCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115"/>
          </gmd:role>
       </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:DateTime xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx">2011-09-21T12:38:58</gco:DateTime>
+      <gco:DateTime xmlns:gmx="http://www.isotc211.org/2005/gmx">2012-10-25T13:58:25</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+      <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
   </gmd:metadataStandardName>
   <gmd:metadataStandardVersion xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:CharacterString>Version 3.14</gco:CharacterString>
+      <gco:CharacterString>2007</gco:CharacterString>
   </gmd:metadataStandardVersion>
+  <gmd:spatialRepresentationInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gmd:MD_GridSpatialRepresentation>
+         <gmd:numberOfDimensions>
+            <gco:integer>2</gco:integer>
+         </gmd:numberOfDimensions>
+         <gmd:axisDimensionProperties>
+            <gmd:MD_Dimension>
+               <gmd:dimensionName>
+                  <gmd:MD_DimensionNameTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="row" codeSpace="ISOTC211/19115"/>
+               </gmd:dimensionName>
+               <gmd:dimensionSize>
+                  <gco:Integer>3998</gco:Integer>
+               </gmd:dimensionSize>
+            </gmd:MD_Dimension>
+         </gmd:axisDimensionProperties>
+         <gmd:axisDimensionProperties>
+            <gmd:MD_Dimension>
+               <gmd:dimensionName>
+                  <gmd:MD_DimensionNameTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="column" codeSpace="ISOTC211/19115"/>
+               </gmd:dimensionName>
+               <gmd:dimensionSize>
+                  <gco:Integer>10277</gco:Integer>
+               </gmd:dimensionSize>
+            </gmd:MD_Dimension>
+         </gmd:axisDimensionProperties>
+         <gmd:axisDimensionProperties>
+            <gmd:MD_Dimension>
+               <gmd:dimensionName>
+                  <gmd:MD_DimensionNameTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="vertical" codeSpace="ISOTC211/19115"/>
+               </gmd:dimensionName>
+               <gmd:dimensionSize>
+                  <gco:Integer>1</gco:Integer>
+               </gmd:dimensionSize>
+            </gmd:MD_Dimension>
+         </gmd:axisDimensionProperties>
+      </gmd:MD_GridSpatialRepresentation>
+  </gmd:spatialRepresentationInfo>
   <gmd:identificationInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml">
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Master Database - Baird Geospatial Data Inventory</gco:CharacterString>
+                  <gco:CharacterString>Lidar Topo-Bathymetry</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2008-07-26</gco:Date>
-                     </gmd:date>
+                     <gmd:date/>
                      <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115"/>
                      </gmd:dateType>
                   </gmd:CI_Date>
                </gmd:date>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2011-08-22</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:edition gco:nilReason="missing">
-                  <gco:CharacterString/>
-               </gmd:edition>
-               <gmd:otherCitationDetails>
-                  <gco:CharacterString>Coastal Zone Technical Working Group</gco:CharacterString>
-               </gmd:otherCitationDetails>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName>
+                        <gco:CharacterString>JALBTCX (Joint Airborne Lidar Bathymetry Technical Center of eXpertise)</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:presentationForm>
+                  <gmd:CI_PresentationFormCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_PresentationFormCode" codeListValue=""/>
+               </gmd:presentationForm>
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Baird and Associates organized all identified datasets from their data inventory in a single MS Excel spreadsheet. Categories were identified and associated dataset characteristics provided.</gco:CharacterString>
+            <gco:CharacterString>These files were used to construct corridors estimating the extent of new coastal corridors exposed by reduced lake levels. They are included here to show the available horizontal extent of lidar-derived topo-bathymetric data and thus explicitly identify gaps and limitations of predicted corridor extents under various reduced lake level scenarios. In addition, these files provide users with a background layer that depicts the topographic variability of the submerged near-shore lake bed and terrestrial landscape.These files are 5m grid representations of the hydrographic and topographic data collected by the CHARTS system along the coasts of the U.S. sides of Lake Michigan, Lake Huron, Lake St. Clair, Lake Erie, and Lake Ontario as part of the National Coastal Mapping Program. Similar data exist for portions of the Lake Superior coastal zone, but are not viewable on the interactive maps associated with this online resourse.
+
+The 5m grid representation of the data are based on the ASCII xyz files containing the hydrographic data and the topographic last return (TL) data. An example file name is "2007_NCMP_MI_Huron_47_5mGrid.tif ." The data file names are based on the year, project, area name, box number, and product type. Data were collected from 2006 to 2010, and for multiple dates along portions of the above listed lakes' coastal zones as well as their connecting channels.  These data do not represent spatially complete contiguous coverages along the entire coast, and are limited where turbidity or aquatic vegetation prevented light penetration through the water column when flights were conducted.
+
+Where multiple date data were available, the year's data whose bathymetric coverage were most complete were used preferentially as the primary year, and the alternate year's data were used to fill any gaps imposed by turbidity or aquatic vegetation in the primary year. In these cases, the tiles file name reflects the two years' coincident data, with the first year listed in the file name representing the primary year selected.
+
+The data were collected and processed in geographic coordinates and ellipsoid heights. The positions are provided relative to NAD83 in decimal degrees of longitude and latitude. The heights were converted from ellipsoid to orthometric heights (NAVD88) using NGS' Geoid03 model file "g2003u08.bin" with the results in meters. Once converted to orthometric heights, the data were then converted to IGLD85 using the VDatum program from NOAA (National Oceanic and Atmospheric Administration).</gco:CharacterString>
          </gmd:abstract>
          <gmd:purpose>
-            <gco:CharacterString>A spreadsheet summarizing the results of the geospatial data inventory undertaken by Baird and Associates</gco:CharacterString>
+            <gco:CharacterString>These data were collected as a part of the National Coastal Mapping Program to depict the elevations above and below water in the Great Lakes coastal zone.</gco:CharacterString>
          </gmd:purpose>
+         <gmd:credit>
+            <gco:CharacterString>USACE JALBTCX http://shoals.sam.usace.army.mil/</gco:CharacterString>
+         </gmd:credit>
+         <gmd:credit>
+            <gco:CharacterString>NOAA Coastal Services Center http://www.csc.noaa.gov/topobathy/</gco:CharacterString>
+         </gmd:credit>
+         <gmd:credit>
+            <gco:CharacterString>Great Lakes Science Center http://www.glsc.usgs.gov/</gco:CharacterString>
+         </gmd:credit>
          <gmd:status>
-            <gmd:MD_ProgressCode codeListValue="completed" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ProgressCode"/>
+            <gmd:MD_ProgressCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="ISOTC211/19115"/>
          </gmd:status>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
                <gmd:individualName>
-                  <gco:CharacterString>Mike Shantz</gco:CharacterString>
+                  <gco:CharacterString>Kurt Kowalski</gco:CharacterString>
                </gmd:individualName>
                <gmd:organisationName>
-                  <gco:CharacterString>Environment Canada</gco:CharacterString>
+                  <gco:CharacterString>United States Geological Survey (USGS) Great Lakes Science Center (GLSC)</gco:CharacterString>
                </gmd:organisationName>
-               <gmd:positionName gco:nilReason="missing">
-                  <gco:CharacterString/>
+               <gmd:positionName>
+                  <gco:CharacterString>Research Ecologist</gco:CharacterString>
                </gmd:positionName>
                <gmd:contactInfo>
                   <gmd:CI_Contact>
                      <gmd:phone>
                         <gmd:CI_Telephone>
-                           <gmd:voice gco:nilReason="missing">
-                              <gco:CharacterString/>
+                           <gmd:voice>
+                              <gco:CharacterString>734-994-3331</gco:CharacterString>
                            </gmd:voice>
                         </gmd:CI_Telephone>
                      </gmd:phone>
                      <gmd:address>
                         <gmd:CI_Address>
-                           <gmd:city gco:nilReason="missing">
-                              <gco:CharacterString/>
+                           <gmd:deliveryPoint>
+                              <gco:CharacterString>1491 Green Rd</gco:CharacterString>
+                           </gmd:deliveryPoint>
+                           <gmd:city>
+                              <gco:CharacterString>Ann Arbor</gco:CharacterString>
                            </gmd:city>
-                           <gmd:administrativeArea gco:nilReason="missing">
-                              <gco:CharacterString/>
+                           <gmd:administrativeArea>
+                              <gco:CharacterString>MI</gco:CharacterString>
                            </gmd:administrativeArea>
-                           <gmd:postalCode gco:nilReason="missing">
-                              <gco:CharacterString/>
+                           <gmd:postalCode>
+                              <gco:CharacterString>48105</gco:CharacterString>
                            </gmd:postalCode>
-                           <gmd:country gco:nilReason="missing">
-                              <gco:CharacterString/>
+                           <gmd:country>
+                              <gco:CharacterString>U.S.</gco:CharacterString>
                            </gmd:country>
                            <gmd:electronicMailAddress>
-                              <gco:CharacterString>mike.shantz@ec.gc.ca</gco:CharacterString>
+                              <gco:CharacterString>kkowalski@usgs.gov</gco:CharacterString>
                            </gmd:electronicMailAddress>
                         </gmd:CI_Address>
                      </gmd:address>
+                     <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                           <gmd:linkage>
+                              <gmd:URL>http://cida.usgs.gov/glri/projects/accountability/Phragmites_invasion.html</gmd:URL>
+                           </gmd:linkage>
+                           <gmd:protocol gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:protocol>
+                           <gmd:name gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:name>
+                           <gmd:description gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:description>
+                        </gmd:CI_OnlineResource>
+                     </gmd:onlineResource>
                   </gmd:CI_Contact>
                </gmd:contactInfo>
                <gmd:role>
-                  <gmd:CI_RoleCode codeListValue="custodian" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+                  <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115"/>
                </gmd:role>
             </gmd:CI_ResponsibleParty>
          </gmd:pointOfContact>
          <gmd:resourceMaintenance>
             <gmd:MD_MaintenanceInformation>
                <gmd:maintenanceAndUpdateFrequency>
-                  <gmd:MD_MaintenanceFrequencyCode codeListValue="" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_MaintenanceFrequencyCode"/>
+                  <gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded" codeSpace="ISOTC211/19115"/>
                </gmd:maintenanceAndUpdateFrequency>
             </gmd:MD_MaintenanceInformation>
          </gmd:resourceMaintenance>
          <gmd:graphicOverview>
             <gmd:MD_BrowseGraphic>
-               <gmd:fileName gco:nilReason="missing">
-                  <gco:CharacterString/>
+               <gmd:fileName>
+                  <gco:CharacterString>Screen_shot_2011-05-20_at_3.02.48_PM_s.png</gco:CharacterString>
                </gmd:fileName>
                <gmd:fileDescription>
                   <gco:CharacterString>thumbnail</gco:CharacterString>
                </gmd:fileDescription>
+               <gmd:fileType>
+                  <gco:CharacterString>png</gco:CharacterString>
+               </gmd:fileType>
             </gmd:MD_BrowseGraphic>
          </gmd:graphicOverview>
          <gmd:graphicOverview>
             <gmd:MD_BrowseGraphic>
-               <gmd:fileName gco:nilReason="missing">
-                  <gco:CharacterString/>
+               <gmd:fileName>
+                  <gco:CharacterString>Screen_shot_2011-05-20_at_3.02.48_PM.png</gco:CharacterString>
                </gmd:fileName>
                <gmd:fileDescription>
                   <gco:CharacterString>large_thumbnail</gco:CharacterString>
                </gmd:fileDescription>
+               <gmd:fileType>
+                  <gco:CharacterString>png</gco:CharacterString>
+               </gmd:fileType>
             </gmd:MD_BrowseGraphic>
          </gmd:graphicOverview>
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>BASE DATA, BATHYMETRY, DIGITAL MAPS, GEOGRAPHIC INFORMATION SYSTEMS, SHORELINE CLASSIFICATION</gco:CharacterString>
+                  <gco:CharacterString>Topography</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Lidar</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>elevation</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Bathymetry</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Phragmites</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Great Lakes</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>coastal corridors</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
-                  <gmd:MD_KeywordTypeCode codeListValue="theme" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode"/>
+                  <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
+               </gmd:type>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>Great Lakes Coastal Zones</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115"/>
+               </gmd:type>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>CHARTS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>U.S. Army Corps of Engineers, Mobile District</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>SHOALS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCMP</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>JALBTCX</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="stratum" codeSpace="ISOTC211/19115"/>
+               </gmd:type>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>2006-2008</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="temporal" codeSpace="ISOTC211/19115"/>
                </gmd:type>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
          <gmd:resourceConstraints>
             <gmd:MD_LegalConstraints>
                <gmd:accessConstraints>
-                  <gmd:MD_RestrictionCode codeListValue="otherRestrictions" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"/>
+                  <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115"/>
                </gmd:accessConstraints>
-               <gmd:useConstraints>
-                  <gmd:MD_RestrictionCode codeListValue="otherRestrictions" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"/>
-               </gmd:useConstraints>
-               <gmd:otherConstraints gco:nilReason="missing">
-                  <gco:CharacterString/>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>access constraints: none</gco:CharacterString>
                </gmd:otherConstraints>
             </gmd:MD_LegalConstraints>
          </gmd:resourceConstraints>
-         <gmd:spatialResolution>
-            <gmd:MD_Resolution/>
-         </gmd:spatialResolution>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115"/>
+               </gmd:useConstraints>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>use constraints: These data depict the heights at the time of the survey and are only accurate for that time. Acknowledgement of the Joint Airborne Lidar Bathymetry Technical Center of eXpertise (JALBTCX) would be appreciated in any publications or derived products.</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
-            <gco:CharacterString>eng</gco:CharacterString>
+            <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
          </gmd:language>
          <gmd:topicCategory>
-            <gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+            <gmd:MD_TopicCategoryCode>elevation</gmd:MD_TopicCategoryCode>
          </gmd:topicCategory>
-         <gmd:extent>
-            <gmd:EX_Extent>
-               <gmd:temporalElement>
-                  <gmd:EX_TemporalExtent>
-                     <gmd:extent>
-                        <gml:TimePeriod gml:id="n/a">
-                           <gml:beginPosition/>
-                           <gml:endPosition/>
-                        </gml:TimePeriod>
-                     </gmd:extent>
-                  </gmd:EX_TemporalExtent>
-               </gmd:temporalElement>
-            </gmd:EX_Extent>
-         </gmd:extent>
+         <gmd:environmentDescription>
+            <gco:CharacterString>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</gco:CharacterString>
+         </gmd:environmentDescription>
          <gmd:extent>
             <gmd:EX_Extent>
                <gmd:geographicElement>
-                  <gmd:EX_GeographicBoundingBox>
-                     <gmd:westBoundLongitude>
-                        <gco:Decimal>-93.21</gco:Decimal>
-                     </gmd:westBoundLongitude>
-                     <gmd:eastBoundLongitude>
-                        <gco:Decimal>-74.49</gco:Decimal>
-                     </gmd:eastBoundLongitude>
-                     <gmd:southBoundLatitude>
-                        <gco:Decimal>40.39</gco:Decimal>
-                     </gmd:southBoundLatitude>
-                     <gmd:northBoundLatitude>
-                        <gco:Decimal>50.74</gco:Decimal>
-                     </gmd:northBoundLatitude>
-                  </gmd:EX_GeographicBoundingBox>
+                  <gmd:EX_BoundingPolygon>
+                     <gmd:polygon>
+                        <gml:Polygon gml:id="d7175e666" srsName="urn:x-ogc:def:crs:EPSG:6.6:4326">
+                           <gml:exterior>
+                              <gml:LinearRing>
+                                 <gml:posList>-89.858182893169 48.123514464523 -89.506620393169 47.903787902023005 -90.429471955669 47.530252745773 -91.550077424419 46.871073058273 -90.649198518169 47.222635558273 -90.253690705669 47.112772277023 -90.671171174419 46.761209777023 -90.143827424419 46.871073058273 -89.572538361919 47.112772277023 -88.781522736919 47.376444152023 -88.166288361919 47.684061339523 -87.441190705669 47.530252745773 -87.770780549419 47.222635558273 -88.254178986919 47.046854308273 -87.748807893169 47.046854308273 -87.287382111919 46.739237120773 -86.58425711191902 46.695291808273005 -85.947050080669 46.849100402023 -85.397733674419 46.958963683273 -84.870389924419 46.915018370773 -84.826444611919 46.607401183273 -84.348884918377 46.453592589523005 -84.107185699627 46.519510558273 -83.931404449627 46.080057433273 -83.997322418377 45.860330870773 -84.854256012127 45.882303527023 -85.337654449627 45.948221495773 -86.26050601212701 45.772440245773 -86.677986480877 45.530741027023 -86.963631012127 45.618631652023 -87.46900210587701 45.179178527023 -87.007576324627 45.508768370773 -86.721931793377 45.508768370773 -87.007576324627 44.937479308273 -87.337166168377 44.410135558273 -87.447029449627 44.073891790316 -87.688728668377 43.194985540316 -87.578865387127 42.272133977816004 -87.425056793377 41.876626165316 -86.941658355877 41.854653509066 -86.546150543377 42.338051946566 -86.370369293377 42.887368352816 -86.656013824627 43.656411321566 -86.546150543377 44.557290227816 -85.996834137127 45.172524602816 -85.557381012127 45.436196477816 -85.425545074627 45.238442571566004 -85.249763824627 45.809731634066 -84.854256012127 45.853676946566 -84.085213043377 45.765786321566 -83.491951324627 45.524087102816 -83.250252105877 45.304360540316 -83.294197418377 44.952798040316 -83.162361480877 44.733071477816 -83.184334137127 44.271645696566 -83.557869293377 44.007973821566 -83.821541168377 43.854165227816 -83.733650543377 43.722329290316 -83.184334137127 44.161782415316 -82.898689605877 44.293618352816 -82.591072418377 44.117837102816 -82.459236480877 43.678383977816 -82.393318512127 43.216958196566 -82.459236480877 42.997231634066004 -82.481209137127 42.755532415316004 -82.613045074627 42.579751165316 -82.810798980877 42.469887884066 -83.052498199627 42.381997259066 -83.118416168377 42.030434759066004 -83.228279449627 41.854653509066 -82.876716949627 41.722817571566 -82.569099762127 41.547036321566004 -82.085701324627 41.700844915316 -81.360603668377 41.876626165316 -80.65492656064 42.096352727816 -79.95180156064 42.294106634066 -79.38051249814 42.667641790316 -78.91908671689 42.821450384066 -79.09486796689 43.348794134066 -79.13881327939 43.524575384066 -78.58949687314 43.546548040316 -78.06215312314 43.480630071566 -77.46889140439 43.436684759066 -76.94154765439 43.436684759066 -76.48012187314002 43.634438665316 -76.41420390439 43.942055852816 -76.41420390439 44.183755071566 -76.01869609189 44.337563665316 -75.97475077939 43.854165227816 -76.01869609189 43.568520696566 -76.23842265439002 43.260903509066 -76.58998515439 43.173012884066 -77.18324687314 43.019204290316 -77.68861796689 43.063149602816 -77.99623515439 43.194985540316 -78.56752421689 43.216958196566 -78.85316874814 43.173012884066 -78.67738749814 42.887368352816 -78.76527812314 42.689614446566 -79.09486796689 42.403969915316 -79.57826640439 42.250161321566 -80.14955546689 41.964516790316 -80.91859843564 41.810708196566 -81.51186015439 41.547036321566004 -82.14906718564 41.327309759066 -82.83021952939 41.305337102816004 -83.18178202939 41.459145696566 -83.35756327939 41.612954290316 -83.55531718564 41.744790227816 -83.59926249814 41.854653509066 -83.42348124814 42.030434759066004 -83.22572734189 42.206216009066 -83.20375468564 42.513833196566004 -82.67641093564 42.733559759066 -82.61049296689 42.953286321566 -82.61049296689 43.524575384066 -82.69838359189 43.942055852816 -83.00600077939 44.073891790316 -83.33559062314 43.876137884066 -83.46742656064 43.656411321566 -83.86293437314002 43.480630071566 -84.08266093564 43.700356634066 -84.06068827939 43.986001165316 -83.62123515439002 44.183755071566 -83.29164531064 44.535317571566 -83.44545390439 44.952798040316 -83.51137187314 45.348305852816 -84.10463359189002 45.568032415316 -84.63197734189 45.633950384066 -84.91762187314 45.743813665316 -84.98353984189 45.590005071566 -84.85170390439 45.458169134066 -85.07143046689002 45.282387884066 -85.26918437314 45.194497259066 -85.20326640439 44.974770696566 -85.40102031064 44.755044134066 -85.64271952939 44.689126165316 -85.70863749814 44.952798040316 -85.92836406064 44.820962102816 -86.12611796689 44.601235540316 -86.23598124814 44.315591009066 -86.41176249814 43.986001165316 -86.38978984189 43.590493352816 -86.17006327939 43.173012884066 -86.10414531064 42.821450384066 -86.17006327939 42.425942571566 -86.38978984189 42.052407415316 -86.78529765439 41.634926946566 -86.96107890439 41.590981634066 -87.40053202939 41.525063665316 -87.79603984189 41.700844915316 -88.05971171689 42.316079290316 -87.86195781064 42.799477727816 -88.01576640439 43.370766790316 -87.86195781064 43.898110540316 -87.68617656064 44.421869488475 -87.22475077939 45.015131207225 -87.70814921689 44.619623394725 -87.90590312314 44.333978863475 -88.16957499814 44.531732769725 -87.94984843564 45.059076519725 -87.42250468564 45.674310894725 -87.02699687314 45.981928082225 -86.36781718564 46.069818707225 -85.68666484189 46.223627300975 -84.93959452939 46.113764019725 -84.25844218564 46.113764019725 -84.47816874814 46.399408550975 -84.89564921689 46.333490582225 -85.15932109189 46.465326519725 -85.11537577939 46.728998394725 -85.62074687314 46.619135113475 -86.23598124814 46.487299175975 -86.76332499814002 46.311517925975 -87.37855937314 46.421381207225 -87.73012187314002 46.663080425975 -87.99379374814 46.882806988475 -88.49916484189 46.772943707225 -88.58705546689 46.882806988475 -88.41127421689 47.234369488475 -88.78480937314 47.036615582225 -89.15834452939 46.838861675975 -89.80182074708 46.663080425975 -90.32916449708 46.443353863475004 -90.92242621583 46.421381207225 -91.12018012208 46.553217144725 -90.92242621583 46.816889019725 -91.18609809083 46.728998394725 -91.66949652833 46.575189800975 -92.24078559083 46.575189800975 -92.30670355958 46.707025738475 -91.88922309083 47.102533550975 -91.05426215333 47.607904644725 -90.50494574708 47.849603863475 -89.858182893169 48.123514464523</gml:posList>
+                              </gml:LinearRing>
+                           </gml:exterior>
+                        </gml:Polygon>
+                     </gmd:polygon>
+                  </gmd:EX_BoundingPolygon>
                </gmd:geographicElement>
             </gmd:EX_Extent>
          </gmd:extent>
+         <gmd:extent>
+            <gmd:EX_Extent/>
+         </gmd:extent>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:verticalElement>
+                  <gmd:EX_VerticalExtent>
+                     <gmd:minimumValue>
+                        <gco:Real/>
+                     </gmd:minimumValue>
+                     <gmd:maximumValue>
+                        <gco:Real/>
+                     </gmd:maximumValue>
+                  </gmd:EX_VerticalExtent>
+               </gmd:verticalElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
          <gmd:supplementalInformation>
-            <gco:CharacterString>Geographic Location: "Upper Great Lakes"
-Comments: "Product developed by Baird and Associates along with CDM for the International Upper Great Lakes Study. Data is provided "as is" with no warranty for additional uses."</gco:CharacterString>
+            <gco:CharacterString>Aside from the mosaics of multiple years' coincident tiles, data are unaltered as received from the United States Army Corps of Engineers (USACE) Joint Airborne Lidar Bathymetry Technical Center of eXpertise (JALBTCX).</gco:CharacterString>
          </gmd:supplementalInformation>
       </gmd:MD_DataIdentification>
   </gmd:identificationInfo>
   <gmd:distributionInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gmd:MD_Distribution>
-         <gmd:distributionFormat>
-            <gmd:MD_Format>
-               <gmd:name>
-                  <gco:CharacterString>Data-Master_Database_2009-08-26-Baird</gco:CharacterString>
-               </gmd:name>
-               <gmd:version gco:nilReason="missing">
-                  <gco:CharacterString/>
-               </gmd:version>
-               <gmd:specification>
-                  <gco:CharacterString>The data is a downloadable MS EXCEL file on a sharepoint website. File for download</gco:CharacterString>
-               </gmd:specification>
-            </gmd:MD_Format>
-         </gmd:distributionFormat>
          <gmd:transferOptions>
             <gmd:MD_DigitalTransferOptions>
                <gmd:onLine>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://team.iugls.org/IUGLS%20Documents/Data-Master_Database_2009-08-26-Baird.xls</gmd:URL>
+                        <gmd:URL>http://cida.usgs.gov/ArcGIS/services/GLRI68_Phragmites_lidar/MapServer/WMSServer</gmd:URL>
                      </gmd:linkage>
-                     <gmd:protocol gco:nilReason="missing">
-                        <gco:CharacterString/>
+                     <gmd:protocol>
+                        <gco:CharacterString>OGC:WMS-1.1.1-http-get-map</gco:CharacterString>
                      </gmd:protocol>
-                     <gmd:name gco:nilReason="missing">
-                        <gco:CharacterString/>
+                     <gmd:name>
+                        <gco:CharacterString>7</gco:CharacterString>
                      </gmd:name>
-                     <gmd:description gco:nilReason="missing">
-                        <gco:CharacterString/>
+                     <gmd:description>
+                        <gco:CharacterString>Lake Ontario Topo-Bathymetry</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://cida.usgs.gov/ArcGIS/services/GLRI68_Phragmites_lidar/MapServer/WMSServer</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>OGC:WMS-1.1.1-http-get-map</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>11</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Lake Michigan Topo-Bathymetry</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://cida.usgs.gov/ArcGIS/services/GLRI68_Phragmites_lidar/MapServer/WMSServer</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>OGC:WMS-1.1.1-http-get-map</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>15</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Lake Huron Topo-Bathymetry</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://cida.usgs.gov/ArcGIS/services/GLRI68_Phragmites_lidar/MapServer/WMSServer</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>OGC:WMS-1.1.1-http-get-map</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>19</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Lake Erie Topo Bathimetry</gco:CharacterString>
                      </gmd:description>
                   </gmd:CI_OnlineResource>
                </gmd:onLine>
@@ -289,4 +474,139 @@ Comments: "Product developed by Baird and Associates along with CDM for the Inte
          </gmd:transferOptions>
       </gmd:MD_Distribution>
   </gmd:distributionInfo>
+  <gmd:dataQualityInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gmd:DQ_DataQuality>
+         <gmd:scope>
+            <gmd:DQ_Scope>
+               <gmd:level>
+                  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115"/>
+               </gmd:level>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:report>
+            <gmd:DQ_ConceptualConsistency>
+               <gmd:measureDescription>
+                  <gco:CharacterString>The data provided in this file were tested against ground truth data. At these locations the lidar data matched within 0.20 meters, and different flight line data agreed within 0.20 meters.</gco:CharacterString>
+               </gmd:measureDescription>
+            </gmd:DQ_ConceptualConsistency>
+         </gmd:report>
+         <gmd:report>
+            <gmd:DQ_QuantitativeAttributeAccuracy>
+               <gmd:measureDescription>
+                  <gco:CharacterString>These data are not attributed.</gco:CharacterString>
+               </gmd:measureDescription>
+               <gmd:evaluationMethodDescription>
+                  <gco:CharacterString>These data are not attributed.</gco:CharacterString>
+               </gmd:evaluationMethodDescription>
+               <gmd:result>
+                  <gmd:DQ_QuantitativeResult>
+                     <gmd:value>
+                        <gco:Record>N/A</gco:Record>
+                     </gmd:value>
+                  </gmd:DQ_QuantitativeResult>
+               </gmd:result>
+            </gmd:DQ_QuantitativeAttributeAccuracy>
+         </gmd:report>
+         <gmd:report>
+            <gmd:DQ_AbsoluteExternalPositionalAccuracy>
+               <gmd:measureDescription>
+                  <gco:CharacterString>The data positions were obtained using post processed KGPS methods. The vertical accuracy of the data is better than +/- 0.20m.</gco:CharacterString>
+               </gmd:measureDescription>
+               <gmd:evaluationMethodDescription>
+                  <gco:CharacterString>1 Sigma</gco:CharacterString>
+               </gmd:evaluationMethodDescription>
+               <gmd:result>
+                  <gmd:DQ_QuantitativeResult>
+                     <gmd:value>
+                        <gco:Record>0.20</gco:Record>
+                     </gmd:value>
+                  </gmd:DQ_QuantitativeResult>
+               </gmd:result>
+            </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+         </gmd:report>
+         <gmd:report>
+            <gmd:DQ_AbsoluteExternalPositionalAccuracy>
+               <gmd:measureDescription>
+                  <gco:CharacterString>The data positions were obtained using post processed KGPS methods. The horizontal accuracy of the data is better than +/- 0.75m.</gco:CharacterString>
+               </gmd:measureDescription>
+               <gmd:evaluationMethodDescription>
+                  <gco:CharacterString>1 Sigma</gco:CharacterString>
+               </gmd:evaluationMethodDescription>
+               <gmd:result>
+                  <gmd:DQ_QuantitativeResult>
+                     <gmd:value>
+                        <gco:Record>0.75</gco:Record>
+                     </gmd:value>
+                  </gmd:DQ_QuantitativeResult>
+               </gmd:result>
+            </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+         </gmd:report>
+         <gmd:lineage>
+            <gmd:LI_Lineage>
+               <gmd:processStep>
+                  <gmd:LI_ProcessStep>
+                     <gmd:description>
+                        <gco:CharacterString>These data were collected using the CHARTS surveys system. It is owned by the Naval Oceanographic Office and operated through contract. The system collects topographic lidar data at 20kHz and hydrographic data at 3kHz. The system also collects RGB imagery at 1Hz. A CASI-1500 hyperspectral line scanner is integrated with the system as well. Aircraft position, velocity and acceleration information are collected through a combination of Novatel and POS A/V equipment. Raw data are collected and transferred to the office for downloading and processing in SHOALS GCS software. GPS data are processed using POSPac software and the results are combined with the lidar data to produce 3-D positions for each lidar shot. These data are edited using Fledermaus software where anomalous data are removed from the dataset. The data are converted from ellipsoid to orthometric heights, based on the GEOID03 model, within the chartsLAS program. The heights were converted from ellipsoid to orthometric heights (NAVD88) using NGS' Geoid03 model file "g2003u08.bin" with the results in meters. Once converted to orthometric heights, the data were then converted to IGLD85 using the VDatum program from NOAA (National Oceanic and Atmospheric Administration).</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:processor>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:organisationName>
+                              <gco:CharacterString>JALBTCX</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:positionName>
+                              <gco:CharacterString>Data Production Manager</gco:CharacterString>
+                           </gmd:positionName>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:phone>
+                                    <gmd:CI_Telephone>
+                                       <gmd:voice>
+                                          <gco:CharacterString>228-252-1111</gco:CharacterString>
+                                       </gmd:voice>
+                                       <gmd:voice>
+                                          <gco:CharacterString>228-252-1121</gco:CharacterString>
+                                       </gmd:voice>
+                                       <gmd:facsimile>
+                                          <gco:CharacterString>228-252-1133</gco:CharacterString>
+                                       </gmd:facsimile>
+                                    </gmd:CI_Telephone>
+                                 </gmd:phone>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:deliveryPoint>
+                                          <gco:CharacterString>7225 Stennis Airport Rd., STE 100</gco:CharacterString>
+                                       </gmd:deliveryPoint>
+                                       <gmd:city>
+                                          <gco:CharacterString>Kiln</gco:CharacterString>
+                                       </gmd:city>
+                                       <gmd:administrativeArea>
+                                          <gco:CharacterString>MS</gco:CharacterString>
+                                       </gmd:administrativeArea>
+                                       <gmd:postalCode>
+                                          <gco:CharacterString>39556</gco:CharacterString>
+                                       </gmd:postalCode>
+                                       <gmd:country>
+                                          <gmd:Country codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#Country" codeListValue="" codeSpace="ISO3166-alpha2"/>
+                                       </gmd:country>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>shoals-info@sam.usace.army.mil</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                                 <gmd:hoursOfService>
+                                    <gco:CharacterString>8am - 5pm Monday through Friday</gco:CharacterString>
+                                 </gmd:hoursOfService>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:processor>
+                  </gmd:LI_ProcessStep>
+               </gmd:processStep>
+            </gmd:LI_Lineage>
+         </gmd:lineage>
+      </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
 </gmi:MI_Metadata>

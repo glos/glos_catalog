@@ -1,0 +1,585 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd"><gmd:fileIdentifier xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>58c5c998-34b6-4352-9430-81ff6144b766</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>eng</gco:CharacterString>
+  </gmd:language>
+  <gmd:characterSet xmlns:gmd="http://www.isotc211.org/2005/gmd">
+      <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"/>
+  </gmd:characterSet>
+  <gmd:contact xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gmd:CI_ResponsibleParty>
+         <gmd:individualName>
+            <gco:CharacterString>Dick Bartz &amp; Pat Inch</gco:CharacterString>
+         </gmd:individualName>
+         <gmd:organisationName>
+            <gco:CharacterString>Ontario MOE &amp; USGS</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:positionName>
+            <gco:CharacterString>Metadata Authors</gco:CharacterString>
+         </gmd:positionName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact>
+               <gmd:phone>
+                  <gmd:CI_Telephone>
+                     <gmd:voice>
+                        <gco:CharacterString>807.475.1723 &amp; 614.430.7742</gco:CharacterString>
+                     </gmd:voice>
+                  </gmd:CI_Telephone>
+               </gmd:phone>
+               <gmd:address>
+                  <gmd:CI_Address>
+                     <gmd:city gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:city>
+                     <gmd:administrativeArea gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:administrativeArea>
+                     <gmd:postalCode gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:postalCode>
+                     <gmd:country gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:country>
+                     <gmd:electronicMailAddress>
+                        <gco:CharacterString>Pat.Inch@ontario.ca;  rsbartz@usgs.gov</gco:CharacterString>
+                     </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+               </gmd:address>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeListValue="distributor" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode"/>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:DateTime>2014-03-10T16:26:04</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>Version 3.14</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:identificationInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml">
+      <gmd:MD_DataIdentification>
+         <gmd:citation>
+            <gmd:CI_Citation>
+               <gmd:title>
+                  <gco:CharacterString>Assessment of the Present and Future Water Use in the Great Lakes Basin - Final Report</gco:CharacterString>
+               </gmd:title>
+               <gmd:alternateTitle>
+                  <gco:CharacterString>IUGLS Water Use Demand Report, May 3, 2010</gco:CharacterString>
+               </gmd:alternateTitle>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2010-05-03</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:edition gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:edition>
+               <gmd:otherCitationDetails>
+                  <gco:CharacterString>Water Uses Technical Working Group</gco:CharacterString>
+               </gmd:otherCitationDetails>
+            </gmd:CI_Citation>
+         </gmd:citation>
+         <gmd:abstract>
+            <gco:CharacterString>The study was to identify and summarize the following information: current water withdrawals for major water use sectors for each lake in the Great Lakes basin using existing and available data sources; past trends in water use demand by major water user sectors for each lake in the Great Lakes basin and corresponding trends in related factors such as population growth and economic growth; forecasted water use demand on the Upper Great Lakes by credible agencies or sources of information; and significant factors, including climate change, which may affect forecasted projections
+and trends in water use demand on the Upper Great Lakes.</gco:CharacterString>
+         </gmd:abstract>
+         <gmd:purpose>
+            <gco:CharacterString>The study assesses the currently available information on past, present and future water withdrawals, returns and consumptive use in the Great Lakes Basin.</gco:CharacterString>
+         </gmd:purpose>
+         <gmd:status>
+            <gmd:MD_ProgressCode codeListValue="completed" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ProgressCode"/>
+         </gmd:status>
+         <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:individualName>
+                  <gco:CharacterString>Pat Inch &amp; Dick Bartz</gco:CharacterString>
+               </gmd:individualName>
+               <gmd:organisationName>
+                  <gco:CharacterString>Ontario MOE &amp; USGS</gco:CharacterString>
+               </gmd:organisationName>
+               <gmd:positionName>
+                  <gco:CharacterString>Co-Chairs - Technical Working Group; Municipal and Industrial Water Uses</gco:CharacterString>
+               </gmd:positionName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:phone>
+                        <gmd:CI_Telephone>
+                           <gmd:voice>
+                              <gco:CharacterString>807.475.1723 &amp; 614.430.7742</gco:CharacterString>
+                           </gmd:voice>
+                        </gmd:CI_Telephone>
+                     </gmd:phone>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:city gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:city>
+                           <gmd:administrativeArea gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:administrativeArea>
+                           <gmd:postalCode gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:postalCode>
+                           <gmd:country gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:country>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>Pat.Inch@ontario.ca;  rsbartz@usgs.gov</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeListValue="pointOfContact" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode"/>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:pointOfContact>
+         <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:individualName>
+                  <gco:CharacterString>Benedykt Dziegielewski</gco:CharacterString>
+               </gmd:individualName>
+               <gmd:organisationName>
+                  <gco:CharacterString>CDM</gco:CharacterString>
+               </gmd:organisationName>
+               <gmd:positionName gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:positionName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:phone>
+                        <gmd:CI_Telephone>
+                           <gmd:voice gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:voice>
+                           <gmd:facsimile gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                     </gmd:phone>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:deliveryPoint gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:deliveryPoint>
+                           <gmd:city gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:city>
+                           <gmd:administrativeArea gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:administrativeArea>
+                           <gmd:postalCode gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:postalCode>
+                           <gmd:country gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:country>
+                           <gmd:electronicMailAddress gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="author"/>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:pointOfContact>
+         <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:individualName>
+                  <gco:CharacterString>Mitchell G. Horrie</gco:CharacterString>
+               </gmd:individualName>
+               <gmd:organisationName>
+                  <gco:CharacterString>CDM</gco:CharacterString>
+               </gmd:organisationName>
+               <gmd:positionName gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:positionName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:phone>
+                        <gmd:CI_Telephone>
+                           <gmd:voice gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:voice>
+                           <gmd:facsimile gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                     </gmd:phone>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:deliveryPoint gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:deliveryPoint>
+                           <gmd:city gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:city>
+                           <gmd:administrativeArea gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:administrativeArea>
+                           <gmd:postalCode gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:postalCode>
+                           <gmd:country gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:country>
+                           <gmd:electronicMailAddress gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="author"/>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:pointOfContact>
+         <gmd:resourceMaintenance>
+            <gmd:MD_MaintenanceInformation>
+               <gmd:maintenanceAndUpdateFrequency>
+                  <gmd:MD_MaintenanceFrequencyCode codeListValue="notPlanned" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"/>
+               </gmd:maintenanceAndUpdateFrequency>
+            </gmd:MD_MaintenanceInformation>
+         </gmd:resourceMaintenance>
+         <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+               <gmd:fileName gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:fileName>
+               <gmd:fileDescription>
+                  <gco:CharacterString>thumbnail</gco:CharacterString>
+               </gmd:fileDescription>
+            </gmd:MD_BrowseGraphic>
+         </gmd:graphicOverview>
+         <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+               <gmd:fileName gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:fileName>
+               <gmd:fileDescription>
+                  <gco:CharacterString>large_thumbnail</gco:CharacterString>
+               </gmd:fileDescription>
+            </gmd:MD_BrowseGraphic>
+         </gmd:graphicOverview>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>COSTS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>DATA COLLECTION</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>DATABASES</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>DOMESTIC WATER USE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>ECONOMIC IMPACT</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>ELECTRIC POWER</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>INFLOW</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>LAKE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>OUTFLOW</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>OUTFLOWS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>PERFORMANCE INDICATORS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER INTAKE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER LEVEL</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER LEVEL CHANGES</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER LEVELS</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER SUPPLIES</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER SUPPLY</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER USE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER USE IRRIGATION</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WATER UTILITIES</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Water Withdrawals</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Future Trends</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Annual Discharge</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Historical Trends</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Forecasts</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Future Withdrawals</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Water Use Demand</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Public Supply Withdrawals</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Public Water Supply</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Industrial Withdrawals</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Power Generation</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Agricultural Withdrawals</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Population Growth</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Population Trends</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Economic Growth</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Thermoelectric Withdrawals</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Conservation</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Efficiency</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Energy Production</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Climate Change</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Re-Use</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Recycling</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Agriculture</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Mining</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Industrial</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Thermoelectric</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Renewable Engergy</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Tar Sands</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Global Warming</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Precipitation</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Per Capita Income</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Per Capita Withdrawals</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Living Standards</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Interbasin Transfers</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Consumptive Use</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Monitoring</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeListValue="theme" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode"/>
+               </gmd:type>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>Lake Superior</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Lake Michigan</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Lake Huron</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Lake St Clair</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Lake Erie</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Lake Ontario</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>St. Lawrence River</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place"/>
+               </gmd:type>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:accessConstraints>
+                  <gmd:MD_RestrictionCode codeListValue="intellectualPropertyRights" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode"/>
+               </gmd:accessConstraints>
+               <gmd:useConstraints>
+                  <gmd:MD_RestrictionCode codeListValue="intellectualPropertyRights" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode"/>
+               </gmd:useConstraints>
+               <gmd:otherConstraints gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
+         <gmd:spatialResolution>
+            <gmd:MD_Resolution/>
+         </gmd:spatialResolution>
+         <gmd:language>
+            <gco:CharacterString>eng</gco:CharacterString>
+         </gmd:language>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>inlandWaters</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:temporalElement>
+                  <gmd:EX_TemporalExtent>
+                     <gmd:extent>
+                        <gml:TimePeriod gml:id="n/a">
+                           <gml:beginPosition/>
+                           <gml:endPosition>2010-11-30T00:00:00</gml:endPosition>
+                        </gml:TimePeriod>
+                     </gmd:extent>
+                  </gmd:EX_TemporalExtent>
+               </gmd:temporalElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicBoundingBox>
+                     <gmd:westBoundLongitude>
+                        <gco:Decimal>-93.21</gco:Decimal>
+                     </gmd:westBoundLongitude>
+                     <gmd:eastBoundLongitude>
+                        <gco:Decimal>-74.49</gco:Decimal>
+                     </gmd:eastBoundLongitude>
+                     <gmd:southBoundLatitude>
+                        <gco:Decimal>40.39</gco:Decimal>
+                     </gmd:southBoundLatitude>
+                     <gmd:northBoundLatitude>
+                        <gco:Decimal>50.74</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
+               </gmd:geographicElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
+         <gmd:supplementalInformation>
+            <gco:CharacterString>Comments: "Contracted Study to document present and expected future water use/demand in the Great Lakes Basin, considering consumptive and non-consumptive uses and trends."</gco:CharacterString>
+         </gmd:supplementalInformation>
+      </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gmd:MD_Distribution>
+         <gmd:distributionFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>pdf</gco:CharacterString>
+               </gmd:name>
+               <gmd:version>
+                  <gco:CharacterString>Final</gco:CharacterString>
+               </gmd:version>
+               <gmd:specification>
+                  <gco:CharacterString>The data is a downloadable PDF file on a sharepoint website.</gco:CharacterString>
+               </gmd:specification>
+            </gmd:MD_Format>
+         </gmd:distributionFormat>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://iugls.org/DocStore/ProjectArchive/MIU_MunicipalIndustrialWaterUses/MIU03_DziegielewskiHorrie_AssessmentPresentAndFutureWaterUses/Reports/MIU03-R1_DziegielewskiHorrie.pdf</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>MIU03-R1_DziegielewskiHorrie</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+      </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+</gmi:MI_Metadata>
