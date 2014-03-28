@@ -1,0 +1,25 @@
+# m h DM MON DOW CMD
+
+# Sunday starting at 1am, do a source an hour
+0 1 * * 0 ~/swh-metadata-iso.sh glos.props glos
+0 2 * * 0 ~/swh-metadata-iso.sh hads.props hads
+0 3 * * 0 ~/swh-metadata-iso.sh ndbc.props ndbc
+0 4 * * 0 ~/swh-metadata-iso.sh nerrs.props nerrs
+0 5 * * 0 ~/swh-metadata-iso.sh noaa_nos_coops.props coops
+0 6 * * 0 ~/swh-metadata-iso.sh noaaweather.props
+0 7 * * 0 ~/swh-metadata-iso.sh raws.props
+0 8 * * 0 ~/swh-metadata-iso.sh snotel.props
+0 9 * * 0 ~/swh-metadata-iso.sh usgswater.props
+
+# Saturday - STORET only
+0 1  * * 6 ~/swh-metadata-iso.sh storet1.props storet1
+0 4  * * 6 ~/swh-metadata-iso.sh storet2.props storet2
+0 7  * * 6 ~/swh-metadata-iso.sh storet3.props storet3
+0 10 * * 6 ~/swh-metadata-iso.sh storet4.props storet4
+
+# update sos for GLOS only every 12 min
+0 */12 * * * ~/swh-update.sh glos.props
+
+
+# Update Models, Satellites, and GeoNetwork every 2 hours
+15 */2 * * * ~/run_metadown.sh
