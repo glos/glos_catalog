@@ -57,7 +57,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2014-04-20</gco:Date>
+      <gco:Date>2014-04-21</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -358,10 +358,10 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d92493">
+                        <gml:TimePeriod gml:id="d121">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2012-03-23T07:01:52Z</gml:beginPosition>
-                           <gml:endPosition>2014-04-20T06:00:00Z</gml:endPosition>
+                           <gml:endPosition>2014-04-21T03:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -480,9 +480,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d92493e58">
+                        <gml:TimePeriod gml:id="d121e58">
                            <gml:beginPosition>2012-03-23T07:01:52Z</gml:beginPosition>
-                           <gml:endPosition>2014-04-20T06:00:00Z</gml:endPosition>
+                           <gml:endPosition>2014-04-21T03:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -1224,10 +1224,10 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>Sun Apr 20 15:13:20 2014: ncap2 -O -S /zeus/d2/usl/ncap2.nco temp.nc temp.nc
-Sun Apr 20 15:13:20 2014: ncks -d node,97,19700 -d node,19703,19719 -d node,19723,19731 -d nele,180,35028 -d nele,35032,35061 -d nele,35067,35083 /zeus/d2/usl/nowcast/2014/output/netcdf/201411003.nc temp.nc
-Sun Apr 20 15:12:57 2014: ncap2 -O -s nprocs=nprocs;partition=partition;x=x;y=y;where(lon&gt;0.0) lon=lon-360; usl_0001.nc usl_0001.nc
-model started at: 20/04/2014   10:10</gco:CharacterString>
+                  <gco:CharacterString>Mon Apr 21 12:13:12 2014: ncap2 -O -S /zeus/d2/usl/ncap2.nco temp.nc temp.nc
+Mon Apr 21 12:13:12 2014: ncks -d node,97,19700 -d node,19703,19719 -d node,19723,19731 -d nele,180,35028 -d nele,35032,35061 -d nele,35067,35083 /zeus/d2/usl/nowcast/2014/output/netcdf/201411100.nc temp.nc
+Mon Apr 21 12:12:50 2014: ncap2 -O -s nprocs=nprocs;partition=partition;x=x;y=y;where(lon&gt;0.0) lon=lon-360; usl_0001.nc usl_0001.nc
+model started at: 21/04/2014   07:10</gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
          </gmd:lineage>
