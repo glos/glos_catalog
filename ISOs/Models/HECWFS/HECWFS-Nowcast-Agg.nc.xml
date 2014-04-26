@@ -311,10 +311,10 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d32727">
+                        <gml:TimePeriod gml:id="d34415">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2011-11-15T10:01:52Z</gml:beginPosition>
-                           <gml:endPosition>2014-04-26T06:00:00Z</gml:endPosition>
+                           <gml:endPosition>2014-04-26T09:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -414,9 +414,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d32727e49">
+                        <gml:TimePeriod gml:id="d34415e49">
                            <gml:beginPosition>2011-11-15T10:01:52Z</gml:beginPosition>
-                           <gml:endPosition>2014-04-26T06:00:00Z</gml:endPosition>
+                           <gml:endPosition>2014-04-26T09:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -1225,7 +1225,7 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>model started at: 26/04/2014   01:30</gco:CharacterString>
+                  <gco:CharacterString>model started at: 26/04/2014   04:30</gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
          </gmd:lineage>
