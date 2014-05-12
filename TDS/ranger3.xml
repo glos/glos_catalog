@@ -57,7 +57,7 @@
       <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
     </netcdf>
     </dataset>
-    <dataset name="RANGER3" ID="MTRI-RANGER3" urlPath="MTRI-Ranger3-13.nc">
+    <dataset name="RANGER3-2013" ID="MTRI-RANGER3-2013" urlPath="MTRI-Ranger3-13.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
