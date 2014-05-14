@@ -35,7 +35,7 @@
       <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
     </metadata>
 
-    <dataset name="GLOS Glider - unit_236 - Aggregation" urlPath="gliders/unit_236-Agg" ID="Glider-Agg" dataType="Point">
+    <dataset name="GLOS Glider - unit_236 - Aggregation" urlPath="gliders/unit_236-Agg" ID="unit_236-Agg" dataType="Point">
       <metadata inherited="true">
         <serviceName>agg</serviceName>
       </metadata>
