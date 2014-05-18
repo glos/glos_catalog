@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog name="GLOS Glider"
+        xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <service name="all" base="" serviceType="compound">
+    <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/" />
+    <service name="http" serviceType="HTTPServer" base="/thredds/fileServer/" />
+    <service name="wms" serviceType="WMS" base="/thredds/wms/" />
+    <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+    <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+    <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+  </service>
+  <service name="agg" base="" serviceType="compound">
+    <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/" />
+    <service name="wms" serviceType="WMS" base="/thredds/wms/" />
+    <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+    <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+    <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+  </service>
+
+  <dataset name="GLOS - Glider Data">
+
+    <metadata inherited="true">
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Glider</keyword>
+      <date type="created">2014-04-04</date>
+      <date type="modified">2014-04-04</date>
+      <date type="issued">2014-04-04</date>
+      <project>GLOS Glider</project>
+      <documentation type="funding">GLOS</documentation>
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <contributor role="distributor">GLOS</contributor>
+      <contributor role="producer">GLOS</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <dataset name="GLOS Glider - unit_236 - Aggregation" urlPath="gliders/unit_236-Agg" ID="unit_236-Agg" dataType="Point">
+      <metadata inherited="true">
+        <serviceName>agg</serviceName>
+      </metadata>
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <attribute name="title" value="GLOS Glider - Aggregation" />
+        <attribute name="summary" value="Aggregation of Glider data from The Great Lakes." />
+        <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+        <attribute name="geospatial_vertical_min" type="double" value="0.0" />
+        <attribute name="geospatial_vertical_max" type="double" value="0.0" />
+        <attribute name="geospatial_vertical_units" type="String" value="meters" />
+        <attribute name="geospatial_vertical_resolution" type="double" value="0.0" />
+        <attribute name="geospatial_vertical_positive" type="String" value="up" />
+        <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
+          <scan location="/data/GliderNetCDF/unit_236/" suffix=".nc"/>
+        </aggregation>
+      </netcdf>
+    </dataset>
+
+    <datasetScan name="GLOS Glider - unit_236- Individual Files" path='gliders/unit_236' location="/data/GliderNetCDF/unit_236/" >
+      <serviceName>agg</serviceName>
+    </datasetScan>
+
+   </dataset>
+
+
+</catalog>
