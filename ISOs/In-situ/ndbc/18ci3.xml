@@ -12,7 +12,7 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
     <gmd:fileIdentifier>
-        <gco:CharacterString>wmo:45162</gco:CharacterString>
+        <gco:CharacterString>wmo:18ci3</gco:CharacterString>
     </gmd:fileIdentifier>
     <gmd:contact>
         <gmd:CI_ResponsibleParty>
@@ -77,12 +77,12 @@
             <gmd:citation>
                 <gmd:CI_Citation>
                     <gmd:title>
-                        <gco:CharacterString>Alpena, MI</gco:CharacterString>
+                        <gco:CharacterString>Michigan City, IN</gco:CharacterString>
                     </gmd:title>
                     <gmd:date>
                         <gmd:CI_Date>
                             <gmd:date>
-                                <gco:DateTime>2014-07-13T03:02:07.584Z</gco:DateTime>
+                                <gco:DateTime>2014-07-13T03:02:09.316Z</gco:DateTime>
                             </gmd:date>
                             <gmd:dateType gco:nilReason="unknown"/>
                         </gmd:CI_Date>
@@ -90,27 +90,12 @@
                 </gmd:CI_Citation>
             </gmd:citation>
             <gmd:abstract>
-                <gco:CharacterString>Alpena, MI</gco:CharacterString>
+                <gco:CharacterString>Michigan City, IN</gco:CharacterString>
             </gmd:abstract>
             <gmd:descriptiveKeywords>
                 <gmd:MD_Keywords>
                     <gmd:keyword>
                         <gco:CharacterString>Sea Water Temperature</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>Wind Speed</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>Wind From Direction</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>wind_vertical_velocity</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>Wind Gust From Direction</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>Wind Vertical Velocity</gco:CharacterString>
                     </gmd:keyword>
                 </gmd:MD_Keywords>
             </gmd:descriptiveKeywords>
@@ -128,16 +113,16 @@
                                 <gco:Boolean>1</gco:Boolean>
                             </gmd:extentTypeCode>
                             <gmd:westBoundLongitude>
-                                <gco:Decimal>-83.269</gco:Decimal>
+                                <gco:Decimal>-86.91</gco:Decimal>
                             </gmd:westBoundLongitude>
                             <gmd:eastBoundLongitude>
-                                <gco:Decimal>-83.269</gco:Decimal>
+                                <gco:Decimal>-86.91</gco:Decimal>
                             </gmd:eastBoundLongitude>
                             <gmd:southBoundLatitude>
-                                <gco:Decimal>44.984</gco:Decimal>
+                                <gco:Decimal>41.73</gco:Decimal>
                             </gmd:southBoundLatitude>
                             <gmd:northBoundLatitude>
-                                <gco:Decimal>44.984</gco:Decimal>
+                                <gco:Decimal>41.73</gco:Decimal>
                             </gmd:northBoundLatitude>
                         </gmd:EX_GeographicBoundingBox>
                     </gmd:geographicElement>
@@ -145,8 +130,8 @@
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
                                 <gml:TimePeriod id="TP-EX1">
-                                    <gml:beginPosition>2012-05-18T14:59:00.000Z</gml:beginPosition>
-                                    <gml:endPosition indeterminatePosition="now"/>
+                                    <gml:beginPosition>2014-07-12T13:10:00.000Z</gml:beginPosition>
+                                    <gml:endPosition>2014-07-12T13:10:00.000Z</gml:endPosition>
                                 </gml:TimePeriod>
                             </gmd:extent>
                         </gmd:EX_TemporalExtent>
@@ -195,7 +180,7 @@
                 </gmd:CI_Citation>
             </gmd:citation>
             <gmd:abstract>
-                <gco:CharacterString>Alpena, MI</gco:CharacterString>
+                <gco:CharacterString>Michigan City, IN</gco:CharacterString>
             </gmd:abstract>
             <srv:serviceType>
                 <gco:LocalName>National Data Buoy Center SOS</gco:LocalName>
@@ -208,16 +193,16 @@
                                 <gco:Boolean>1</gco:Boolean>
                             </gmd:extentTypeCode>
                             <gmd:westBoundLongitude>
-                                <gco:Decimal>-83.269</gco:Decimal>
+                                <gco:Decimal>-86.91</gco:Decimal>
                             </gmd:westBoundLongitude>
                             <gmd:eastBoundLongitude>
-                                <gco:Decimal>-83.269</gco:Decimal>
+                                <gco:Decimal>-86.91</gco:Decimal>
                             </gmd:eastBoundLongitude>
                             <gmd:southBoundLatitude>
-                                <gco:Decimal>44.984</gco:Decimal>
+                                <gco:Decimal>41.73</gco:Decimal>
                             </gmd:southBoundLatitude>
                             <gmd:northBoundLatitude>
-                                <gco:Decimal>44.984</gco:Decimal>
+                                <gco:Decimal>41.73</gco:Decimal>
                             </gmd:northBoundLatitude>
                         </gmd:EX_GeographicBoundingBox>
                     </gmd:geographicElement>
@@ -225,8 +210,8 @@
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
                                 <gml:TimePeriod id="TP-EX1">
-                                    <gml:beginPosition>2012-05-18T14:59:00.000Z</gml:beginPosition>
-                                    <gml:endPosition indeterminatePosition="now"/>
+                                    <gml:beginPosition>2014-07-12T13:10:00.000Z</gml:beginPosition>
+                                    <gml:endPosition>2014-07-12T13:10:00.000Z</gml:endPosition>
                                 </gml:TimePeriod>
                             </gmd:extent>
                         </gmd:EX_TemporalExtent>
@@ -282,7 +267,7 @@
                     <srv:connectPoint>
                         <gmd:CI_OnlineResource>
                             <gmd:linkage>
-                                <gmd:URL>http://sdftest.ndbc.noaa.gov/sos/server.php?service=SOS&amp;request=DescribeSensor&amp;version=1.0.0&amp;outputformat=text/xml;subtype=%22sensorML/1.0.1%22&amp;procedure=urn:ioos:station:wmo%3A45162</gmd:URL>
+                                <gmd:URL>http://sdftest.ndbc.noaa.gov/sos/server.php?service=SOS&amp;request=DescribeSensor&amp;version=1.0.0&amp;outputformat=text/xml;subtype=%22sensorML/1.0.1%22&amp;procedure=urn:ioos:station:wmo%3A18ci3</gmd:URL>
                             </gmd:linkage>
                             <gmd:name>
                                 <gco:CharacterString>SOS</gco:CharacterString>
@@ -307,7 +292,7 @@
                     <srv:connectPoint>
                         <gmd:CI_OnlineResource>
                             <gmd:linkage>
-                                <gmd:URL>http://sdftest.ndbc.noaa.gov/sos/server.php?service=SOS&amp;request=GetObservation&amp;version=1.0.0&amp;responseformat=text/xml;subtype=%22om/1.0.0%22&amp;eventtime=latest&amp;offering=urn:ioos:station:wmo%3A45162&amp;observedProperty=sea_water_temperature</gmd:URL>
+                                <gmd:URL>http://sdftest.ndbc.noaa.gov/sos/server.php?service=SOS&amp;request=GetObservation&amp;version=1.0.0&amp;responseformat=text/xml;subtype=%22om/1.0.0%22&amp;eventtime=latest&amp;offering=urn:ioos:station:wmo%3A18ci3&amp;observedProperty=sea_water_temperature</gmd:URL>
                             </gmd:linkage>
                             <gmd:name>
                                 <gco:CharacterString>SOS</gco:CharacterString>
@@ -341,81 +326,6 @@
                     </gmd:sequenceIdentifier>
                     <gmd:descriptor>
                         <gco:CharacterString>http://mmisw.org/ont/cf/parameter/sea_water_temperature</gco:CharacterString>
-                    </gmd:descriptor>
-                </gmd:MD_Band>
-            </gmd:dimension>
-            <gmd:dimension>
-                <gmd:MD_Band>
-                    <gmd:sequenceIdentifier>
-                        <gco:MemberName>
-                            <gco:aName>
-                                <gco:CharacterString>Wind Speed</gco:CharacterString>
-                            </gco:aName>
-                            <gco:attributeType gco:nilReason="unknown"/>
-                        </gco:MemberName>
-                    </gmd:sequenceIdentifier>
-                    <gmd:descriptor>
-                        <gco:CharacterString>http://mmisw.org/ont/cf/parameter/wind_speed</gco:CharacterString>
-                    </gmd:descriptor>
-                </gmd:MD_Band>
-            </gmd:dimension>
-            <gmd:dimension>
-                <gmd:MD_Band>
-                    <gmd:sequenceIdentifier>
-                        <gco:MemberName>
-                            <gco:aName>
-                                <gco:CharacterString>Wind From Direction</gco:CharacterString>
-                            </gco:aName>
-                            <gco:attributeType gco:nilReason="unknown"/>
-                        </gco:MemberName>
-                    </gmd:sequenceIdentifier>
-                    <gmd:descriptor>
-                        <gco:CharacterString>http://mmisw.org/ont/cf/parameter/wind_from_direction</gco:CharacterString>
-                    </gmd:descriptor>
-                </gmd:MD_Band>
-            </gmd:dimension>
-            <gmd:dimension>
-                <gmd:MD_Band>
-                    <gmd:sequenceIdentifier>
-                        <gco:MemberName>
-                            <gco:aName>
-                                <gco:CharacterString>wind_vertical_velocity</gco:CharacterString>
-                            </gco:aName>
-                            <gco:attributeType gco:nilReason="unknown"/>
-                        </gco:MemberName>
-                    </gmd:sequenceIdentifier>
-                    <gmd:descriptor>
-                        <gco:CharacterString>http://mmisw.org/ont/aoos/parameter/wind_vertical_velocity</gco:CharacterString>
-                    </gmd:descriptor>
-                </gmd:MD_Band>
-            </gmd:dimension>
-            <gmd:dimension>
-                <gmd:MD_Band>
-                    <gmd:sequenceIdentifier>
-                        <gco:MemberName>
-                            <gco:aName>
-                                <gco:CharacterString>Wind Gust From Direction</gco:CharacterString>
-                            </gco:aName>
-                            <gco:attributeType gco:nilReason="unknown"/>
-                        </gco:MemberName>
-                    </gmd:sequenceIdentifier>
-                    <gmd:descriptor>
-                        <gco:CharacterString>http://mmisw.org/ont/ioos/parameter/wind_gust_from_direction</gco:CharacterString>
-                    </gmd:descriptor>
-                </gmd:MD_Band>
-            </gmd:dimension>
-            <gmd:dimension>
-                <gmd:MD_Band>
-                    <gmd:sequenceIdentifier>
-                        <gco:MemberName>
-                            <gco:aName>
-                                <gco:CharacterString>Wind Vertical Velocity</gco:CharacterString>
-                            </gco:aName>
-                            <gco:attributeType gco:nilReason="unknown"/>
-                        </gco:MemberName>
-                    </gmd:sequenceIdentifier>
-                    <gmd:descriptor>
-                        <gco:CharacterString>http://mmisw.org/ont/fake/parameter/wind_vertical_velocity</gco:CharacterString>
                     </gmd:descriptor>
                 </gmd:MD_Band>
             </gmd:dimension>
