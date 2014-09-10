@@ -19,52 +19,2212 @@
     <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
   </service>
 
-  <dataset name="GLOP" ID="GLOP" urlPath="glop/glop.nc">
+  <dataset name="ER43 - Hyperpro II Optical Profile" ID="er43_hyperpro" urlPath="glop/er43_hyperpro.nc">
 
     <metadata inherited="true">
       <serviceName>agg</serviceName>
-      <keyword vocabulary="GCMD Science Keywords">GLOS, MTRI, NPS, RANGER3, Air Temperature, Humidity, Pressure, Wind Speed, Wind Direction, Rainfail Intensity, Accumulated Rainfall, Water Temperature, Conductivity, pH, Oxidation Reduction Potential, Turbidity, Chlorophyll</keyword>
-      <date type="created">2013-11-14</date>
-      <date type="modified">2013-11-14</date>
-      <date type="issued">2013-11-14</date>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
 
       <dataType>Point</dataType>
 
       <documentation type="processing_level">post-processed non real-time</documentation>
       <documentation type="rights">LICENSE</documentation>
-      <documentation type="funding">GLOS MTRI</documentation>
-      <documentation type="summary">The vessel RangerIII is a passenger ferry that travels from the Keweenaw Peninsula to the Isle Royale National Park in Lake Superior. This vessel is equipped with a YSI 660 water quality instrument and the Vaisala WXT520 meteorological sensor.</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
 
-      <project>MTRI RANGER3</project>
-
-      <creator>
-        <name>Chris Roussi (MTRI)</name>
-        <contact url="http://www.mtri.org/rangeriii.html" email="croussi@mtu.edu" />
-      </creator>
-
-      <publisher>
-        <name>Colin Brooks (MTRI)</name>
-        <contact url="http://www.mtri.org/rangeriii.html" email="cnbrooks@mtu.edu"></contact>
-      </publisher>
+      <project>GLOS</project>
 
       <contributor role="distributor">GLOS DMAC</contributor>
-      <contributor role="producer">MTRI</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
 
-      <documentation xlink:href="http://www.mtri.org/rangeriii.html" xlink:title="MTRI Ranger III"/>
-      <documentation xlink:href="http://www.lakesuperiorwatermonitoring.org/ranger3/" xlink:title="Ranger III Additional Info"/>
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/er43_hyperpro.nc">
+        <attribute name="title" value="ER43 - Hyperpro II Optical Profile" />
 
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-12 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ER43 - Hyperspectral Optical Absorption and Attenuation" ID="er43_ac_s" urlPath="glop/er43_ac_s.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/er43_ac_s.nc">
+        <attribute name="title" value="ER43 - Hyperspectral Optical Absorption and Attenuation" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-12 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ER43 - Multispectral Backscattering" ID="er43_bb_9" urlPath="glop/er43_bb_9.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/er43_bb_9.nc">
+        <attribute name="title" value="ER43 - Multispectral Backscattering" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-12 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ER43 - Optical Properties" ID="er43_lab_i" urlPath="glop/er43_lab_i.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
       <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
     </metadata>
 
     <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/er43_lab_i.nc">
-      <attribute name="title" value="ER43 Lab_i" />
+        <attribute name="title" value="ER43 - Optical Properties" />
 
-      <attribute name="summary" value="The vessel RangerIII is a passenger ferry that travels from the Keweenaw Peninsula to the Isle Royale National Park in Lake Superior. This vessel is equipped with a YSI 660 water quality instrument and the Vaisala WXT520 meteorological sensor. Ranger III main URL: http://www.mtri.org/rangeriii.html and additional site at: http://www.lakesuperiorwatermonitoring.org/ranger3/" />
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-12 13:00:00-04:00" />
       <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
       <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
-
       <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
     </netcdf>
 </dataset>
+
+<dataset name="ER58 - Hyperspectral Optical Absorption and Attenuation" ID="er58_ac_s" urlPath="glop/er58_ac_s.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/er58_ac_s.nc">
+        <attribute name="title" value="ER58 - Hyperspectral Optical Absorption and Attenuation" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-13 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ER58 - Multispectral Backscattering" ID="er58_bb_9" urlPath="glop/er58_bb_9.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/er58_bb_9.nc">
+        <attribute name="title" value="ER58 - Multispectral Backscattering" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-13 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ER58 - Optical Properties" ID="er58_lab_i" urlPath="glop/er58_lab_i.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/er58_lab_i.nc">
+        <attribute name="title" value="ER58 - Optical Properties" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-13 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ER59 - Hyperpro II Optical Profile" ID="er59_hyperpro" urlPath="glop/er59_hyperpro.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/er59_hyperpro.nc">
+        <attribute name="title" value="ER59 - Hyperpro II Optical Profile" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-13 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ER59 - Hyperspectral Optical Absorption and Attenuation" ID="er59_ac_s" urlPath="glop/er59_ac_s.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/er59_ac_s.nc">
+        <attribute name="title" value="ER59 - Hyperspectral Optical Absorption and Attenuation" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-13 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ER59 - Multispectral Backscattering" ID="er59_bb_9" urlPath="glop/er59_bb_9.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/er59_bb_9.nc">
+        <attribute name="title" value="ER59 - Multispectral Backscattering" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-13 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ER59 - Optical Properties" ID="er59_lab_i" urlPath="glop/er59_lab_i.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/er59_lab_i.nc">
+        <attribute name="title" value="ER59 - Optical Properties" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-13 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ER60 - Hyperpro II Optical Profile" ID="er60_hyperpro" urlPath="glop/er60_hyperpro.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/er60_hyperpro.nc">
+        <attribute name="title" value="ER60 - Hyperpro II Optical Profile" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-13 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ER60 - Hyperspectral Optical Absorption and Attenuation" ID="er60_ac_s" urlPath="glop/er60_ac_s.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/er60_ac_s.nc">
+        <attribute name="title" value="ER60 - Hyperspectral Optical Absorption and Attenuation" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-13 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ER60 - Multispectral Backscattering" ID="er60_bb_9" urlPath="glop/er60_bb_9.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/er60_bb_9.nc">
+        <attribute name="title" value="ER60 - Multispectral Backscattering" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-13 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ER60 - Optical Properties" ID="er60_lab_i" urlPath="glop/er60_lab_i.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/er60_lab_i.nc">
+        <attribute name="title" value="ER60 - Optical Properties" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-13 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ER91 - Hyperpro II Optical Profile" ID="er91_hyperpro" urlPath="glop/er91_hyperpro.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/er91_hyperpro.nc">
+        <attribute name="title" value="ER91 - Hyperpro II Optical Profile" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-13 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ER91 - Hyperspectral Optical Absorption and Attenuation" ID="er91_ac_s" urlPath="glop/er91_ac_s.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/er91_ac_s.nc">
+        <attribute name="title" value="ER91 - Hyperspectral Optical Absorption and Attenuation" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-13 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ER91 - Multispectral Backscattering" ID="er91_bb_9" urlPath="glop/er91_bb_9.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/er91_bb_9.nc">
+        <attribute name="title" value="ER91 - Multispectral Backscattering" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-13 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ER91 - Optical Properties" ID="er91_lab_i" urlPath="glop/er91_lab_i.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/er91_lab_i.nc">
+        <attribute name="title" value="ER91 - Optical Properties" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-13 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ON12 - Hyperpro II Optical Profile" ID="on12_hyperpro" urlPath="glop/on12_hyperpro.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/on12_hyperpro.nc">
+        <attribute name="title" value="ON12 - Hyperpro II Optical Profile" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-08-10 20:47:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ON12 - Hyperspectral Optical Absorption and Attenuation" ID="on12_ac_s" urlPath="glop/on12_ac_s.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/on12_ac_s.nc">
+        <attribute name="title" value="ON12 - Hyperspectral Optical Absorption and Attenuation" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-08-10 20:47:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ON12 - Multispectral Backscattering" ID="on12_bb_9" urlPath="glop/on12_bb_9.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/on12_bb_9.nc">
+        <attribute name="title" value="ON12 - Multispectral Backscattering" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-08-10 20:47:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ON12 - Optical Properties" ID="on12_lab_i" urlPath="glop/on12_lab_i.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/on12_lab_i.nc">
+        <attribute name="title" value="ON12 - Optical Properties" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-08-10 20:47:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ON25 - Hyperspectral Optical Absorption and Attenuation" ID="on25_ac_s" urlPath="glop/on25_ac_s.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/on25_ac_s.nc">
+        <attribute name="title" value="ON25 - Hyperspectral Optical Absorption and Attenuation" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-08-11 00:14:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ON25 - Multispectral Backscattering" ID="on25_bb_9" urlPath="glop/on25_bb_9.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/on25_bb_9.nc">
+        <attribute name="title" value="ON25 - Multispectral Backscattering" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-08-11 00:14:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ON25 - Optical Properties" ID="on25_lab_i" urlPath="glop/on25_lab_i.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/on25_lab_i.nc">
+        <attribute name="title" value="ON25 - Optical Properties" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-08-11 00:14:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ON33 - Hyperspectral Optical Absorption and Attenuation" ID="on33_ac_s" urlPath="glop/on33_ac_s.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/on33_ac_s.nc">
+        <attribute name="title" value="ON33 - Hyperspectral Optical Absorption and Attenuation" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-08-11 05:07:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ON33 - Multispectral Backscattering" ID="on33_bb_9" urlPath="glop/on33_bb_9.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/on33_bb_9.nc">
+        <attribute name="title" value="ON33 - Multispectral Backscattering" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-08-11 05:07:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ON33 - Optical Properties" ID="on33_lab_i" urlPath="glop/on33_lab_i.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/on33_lab_i.nc">
+        <attribute name="title" value="ON33 - Optical Properties" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-08-11 05:07:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ON49 - Hyperpro II Optical Profile" ID="on49_hyperpro" urlPath="glop/on49_hyperpro.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/on49_hyperpro.nc">
+        <attribute name="title" value="ON49 - Hyperpro II Optical Profile" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-08-11 14:35:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ON49 - Hyperspectral Optical Absorption and Attenuation" ID="on49_ac_s" urlPath="glop/on49_ac_s.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/on49_ac_s.nc">
+        <attribute name="title" value="ON49 - Hyperspectral Optical Absorption and Attenuation" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-08-11 14:35:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ON49 - Multispectral Backscattering" ID="on49_bb_9" urlPath="glop/on49_bb_9.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/on49_bb_9.nc">
+        <attribute name="title" value="ON49 - Multispectral Backscattering" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-08-11 14:35:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ON49 - Optical Properties" ID="on49_lab_i" urlPath="glop/on49_lab_i.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/on49_lab_i.nc">
+        <attribute name="title" value="ON49 - Optical Properties" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-08-11 14:35:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ON55 - Hyperspectral Optical Absorption and Attenuation" ID="on55_ac_s" urlPath="glop/on55_ac_s.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/on55_ac_s.nc">
+        <attribute name="title" value="ON55 - Hyperspectral Optical Absorption and Attenuation" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-08-12 07:14:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ON55 - Multispectral Backscattering" ID="on55_bb_9" urlPath="glop/on55_bb_9.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/on55_bb_9.nc">
+        <attribute name="title" value="ON55 - Multispectral Backscattering" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-08-12 07:14:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ON55 - Optical Properties" ID="on55_lab_i" urlPath="glop/on55_lab_i.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/on55_lab_i.nc">
+        <attribute name="title" value="ON55 - Optical Properties" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-08-12 07:14:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ON60 - Hyperpro II Optical Profile" ID="on60_hyperpro" urlPath="glop/on60_hyperpro.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/on60_hyperpro.nc">
+        <attribute name="title" value="ON60 - Hyperpro II Optical Profile" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-08-11 17:22:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ON60 - Hyperspectral Optical Absorption and Attenuation" ID="on60_ac_s" urlPath="glop/on60_ac_s.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/on60_ac_s.nc">
+        <attribute name="title" value="ON60 - Hyperspectral Optical Absorption and Attenuation" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-08-11 17:22:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ON60 - Multispectral Backscattering" ID="on60_bb_9" urlPath="glop/on60_bb_9.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/on60_bb_9.nc">
+        <attribute name="title" value="ON60 - Multispectral Backscattering" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-08-11 17:22:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ON60 - Optical Properties" ID="on60_lab_i" urlPath="glop/on60_lab_i.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/on60_lab_i.nc">
+        <attribute name="title" value="ON60 - Optical Properties" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-08-11 17:22:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ON63 - Hyperpro II Optical Profile" ID="on63_hyperpro" urlPath="glop/on63_hyperpro.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/on63_hyperpro.nc">
+        <attribute name="title" value="ON63 - Hyperpro II Optical Profile" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-08-11 19:53:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ON63 - Hyperspectral Optical Absorption and Attenuation" ID="on63_ac_s" urlPath="glop/on63_ac_s.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/on63_ac_s.nc">
+        <attribute name="title" value="ON63 - Hyperspectral Optical Absorption and Attenuation" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-08-11 19:53:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ON63 - Multispectral Backscattering" ID="on63_bb_9" urlPath="glop/on63_bb_9.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/on63_bb_9.nc">
+        <attribute name="title" value="ON63 - Multispectral Backscattering" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-08-11 19:53:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="ON63 - Optical Properties" ID="on63_lab_i" urlPath="glop/on63_lab_i.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/on63_lab_i.nc">
+        <attribute name="title" value="ON63 - Optical Properties" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-08-11 19:53:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="EC973 - Hyperpro II Optical Profile" ID="ec973_hyperpro" urlPath="glop/ec973_hyperpro.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/ec973_hyperpro.nc">
+        <attribute name="title" value="EC973 - Hyperpro II Optical Profile" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-13 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="EC973 - Hyperspectral Optical Absorption and Attenuation" ID="ec973_ac_s" urlPath="glop/ec973_ac_s.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/ec973_ac_s.nc">
+        <attribute name="title" value="EC973 - Hyperspectral Optical Absorption and Attenuation" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-13 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="EC973 - Multispectral Backscattering" ID="ec973_bb_9" urlPath="glop/ec973_bb_9.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/ec973_bb_9.nc">
+        <attribute name="title" value="EC973 - Multispectral Backscattering" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-13 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="EC973 - Optical Properties" ID="ec973_lab_i" urlPath="glop/ec973_lab_i.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/ec973_lab_i.nc">
+        <attribute name="title" value="EC973 - Optical Properties" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-13 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="EC835 - Hyperspectral Optical Absorption and Attenuation" ID="ec835_ac_s" urlPath="glop/ec835_ac_s.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/ec835_ac_s.nc">
+        <attribute name="title" value="EC835 - Hyperspectral Optical Absorption and Attenuation" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-13 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="EC835 - Multispectral Backscattering" ID="ec835_bb_9" urlPath="glop/ec835_bb_9.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/ec835_bb_9.nc">
+        <attribute name="title" value="EC835 - Multispectral Backscattering" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-13 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="EC835 - Optical Properties" ID="ec835_lab_i" urlPath="glop/ec835_lab_i.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/ec835_lab_i.nc">
+        <attribute name="title" value="EC835 - Optical Properties" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-13 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="EC968 - Hyperspectral Optical Absorption and Attenuation" ID="ec968_ac_s" urlPath="glop/ec968_ac_s.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/ec968_ac_s.nc">
+        <attribute name="title" value="EC968 - Hyperspectral Optical Absorption and Attenuation" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-12 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="EC968 - Multispectral Backscattering" ID="ec968_bb_9" urlPath="glop/ec968_bb_9.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/ec968_bb_9.nc">
+        <attribute name="title" value="EC968 - Multispectral Backscattering" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-12 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="EC968 - Optical Properties" ID="ec968_lab_i" urlPath="glop/ec968_lab_i.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/ec968_lab_i.nc">
+        <attribute name="title" value="EC968 - Optical Properties" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-12 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="EC969 - Hyperspectral Optical Absorption and Attenuation" ID="ec969_ac_s" urlPath="glop/ec969_ac_s.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/ec969_ac_s.nc">
+        <attribute name="title" value="EC969 - Hyperspectral Optical Absorption and Attenuation" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-12 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="EC969 - Multispectral Backscattering" ID="ec969_bb_9" urlPath="glop/ec969_bb_9.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/ec969_bb_9.nc">
+        <attribute name="title" value="EC969 - Multispectral Backscattering" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-12 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="EC969 - Optical Properties" ID="ec969_lab_i" urlPath="glop/ec969_lab_i.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/ec969_lab_i.nc">
+        <attribute name="title" value="EC969 - Optical Properties" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-12 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="EC496 - Hyperspectral Optical Absorption and Attenuation" ID="ec496_ac_s" urlPath="glop/ec496_ac_s.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/ec496_ac_s.nc">
+        <attribute name="title" value="EC496 - Hyperspectral Optical Absorption and Attenuation" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-12 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="EC496 - Multispectral Backscattering" ID="ec496_bb_9" urlPath="glop/ec496_bb_9.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/ec496_bb_9.nc">
+        <attribute name="title" value="EC496 - Multispectral Backscattering" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-12 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="EC496 - Optical Properties" ID="ec496_lab_i" urlPath="glop/ec496_lab_i.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/ec496_lab_i.nc">
+        <attribute name="title" value="EC496 - Optical Properties" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-12 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="EC1163 - Optical Properties" ID="ec1163_lab_i" urlPath="glop/ec1163_lab_i.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/ec1163_lab_i.nc">
+        <attribute name="title" value="EC1163 - Optical Properties" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-14 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="EC311 - Hyperpro II Optical Profile" ID="ec311_hyperpro" urlPath="glop/ec311_hyperpro.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/ec311_hyperpro.nc">
+        <attribute name="title" value="EC311 - Hyperpro II Optical Profile" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-12 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="EC311 - Hyperspectral Optical Absorption and Attenuation" ID="ec311_ac_s" urlPath="glop/ec311_ac_s.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/ec311_ac_s.nc">
+        <attribute name="title" value="EC311 - Hyperspectral Optical Absorption and Attenuation" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-12 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="EC311 - Multispectral Backscattering" ID="ec311_bb_9" urlPath="glop/ec311_bb_9.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/ec311_bb_9.nc">
+        <attribute name="title" value="EC311 - Multispectral Backscattering" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-12 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="EC311 - Optical Properties" ID="ec311_lab_i" urlPath="glop/ec311_lab_i.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/ec311_lab_i.nc">
+        <attribute name="title" value="EC311 - Optical Properties" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-12 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="EC965 - Hyperpro II Optical Profile" ID="ec965_hyperpro" urlPath="glop/ec965_hyperpro.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/ec965_hyperpro.nc">
+        <attribute name="title" value="EC965 - Hyperpro II Optical Profile" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-14 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="EC965 - Hyperspectral Optical Absorption and Attenuation" ID="ec965_ac_s" urlPath="glop/ec965_ac_s.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/ec965_ac_s.nc">
+        <attribute name="title" value="EC965 - Hyperspectral Optical Absorption and Attenuation" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-14 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="EC965 - Multispectral Backscattering" ID="ec965_bb_9" urlPath="glop/ec965_bb_9.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/ec965_bb_9.nc">
+        <attribute name="title" value="EC965 - Multispectral Backscattering" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-14 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+</dataset>
+
+<dataset name="EC965 - Optical Properties" ID="ec965_lab_i" urlPath="glop/ec965_lab_i.nc">
+
+    <metadata inherited="true">
+      <serviceName>agg</serviceName>
+      <keyword vocabulary="GCMD Science Keywords">GLOS, Optical Properties, Dissolved Oxygen</keyword>
+      <date type="created">2014-09-10</date>
+      <date type="modified">2014-09-10</date>
+      <date type="issued">2014-09-10</date>
+
+      <dataType>Point</dataType>
+
+      <documentation type="processing_level">post-processed non real-time</documentation>
+      <documentation type="rights">LICENSE</documentation>
+      <documentation type="summary">Great Lakes Optical Properties Dataset</documentation>
+
+      <project>GLOS</project>
+
+      <contributor role="distributor">GLOS DMAC</contributor>
+      <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
+    </metadata>
+
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/glop_datasets/ec965_lab_i.nc">
+        <attribute name="title" value="EC965 - Optical Properties" />
+
+      <attribute name="summary" value="Great Lakes Optical Properties" />
+      <attribute name="time" value="2007-09-14 13:00:00-04:00" />
+      <attribute name="metadata_link" type="String" value="http://data.glos.us/portal/" />
+      <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+      <attribute name="standard_name_vocabulary" type="String" value="http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html" />
+    </netcdf>
+  </dataset>
 </catalog>
 
