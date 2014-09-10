@@ -22,6 +22,7 @@
   <dataset name="GLOP" ID="GLOP" urlPath="glop/glop.nc">
 
     <metadata inherited="true">
+      <serviceName>agg</serviceName>
       <keyword vocabulary="GCMD Science Keywords">GLOS, MTRI, NPS, RANGER3, Air Temperature, Humidity, Pressure, Wind Speed, Wind Direction, Rainfail Intensity, Accumulated Rainfall, Water Temperature, Conductivity, pH, Oxidation Reduction Potential, Turbidity, Chlorophyll</keyword>
       <date type="created">2013-11-14</date>
       <date type="modified">2013-11-14</date>
