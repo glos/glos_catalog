@@ -5,21 +5,19 @@
 
   <service name="agg" base="" serviceType="compound">
     <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/" />
+    <service name="wms" serviceType="WMS" base="/thredds/wms/" />
     <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
     <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
     <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
   </service>
 
-  <dataset name="Water Levels" ID="waterlevels" urlPath="Water_Levels.nc">
+  <dataset name="Great Lakes Water Levels">
 
     <metadata inherited="true">
-      <serviceName>agg</serviceName>
       <keyword vocabulary="GCMD Science Keywords">GLOS, Water Levels</keyword>
       <date type="created">2014-03-07</date>
       <date type="modified">2014-03-07</date>
       <date type="issued">2014-03-07</date>
-
-      <dataType>Point</dataType>
 
       <documentation type="processing_level">post-processed non real-time</documentation>
       <documentation type="rights">LICENSE</documentation>
@@ -34,7 +32,7 @@
       </creator>
 
       <publisher>
-        <name>GLOSE DMAC</name>
+        <name>GLOS DMAC</name>
         <contact url="http://glos.us" email="dmac@glos.us"></contact>
       </publisher>
 
@@ -44,14 +42,114 @@
       <property name="viewer" value="http://data.glos.us/portal/, GLOS Data Portal" />
     </metadata>
 
-
-     <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-        <attribute name="title" value="Aggregated Great Lakes Water Levels" />\
+    <dataset name="The Great Lakes - Water Level Aggregation" urlPath="water_levels/TheGreatLakes-Agg" ID="GreatLakes-Agg" dataType="Point">
+      <metadata inherited="true">
+        <serviceName>agg</serviceName>
+      </metadata>
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+       <attribute name="title" value="Aggregated Great Lakes Water Levels" />\
        <attribute name="summary" value="Aggregated Great Lakes Water Levels" />
-        <aggregation dimName="time" type="joinExisting" >
-          <scan location="file:/data/water_levels/" suffix=".nc" />
+        <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
+          <scan location="/data/water_levels/GreatLakesWaterLevels/" suffix=".nc" />
         </aggregation>
-     </netcdf>
+      </netcdf>
+    </dataset>
+
+    <datasetScan name="The Great Lakes Individual Files" path='water_levels/TheGreatLakes' location="/data/water_levels/GreatLakesWaterLevels/" >
+      <serviceName>agg</serviceName>
+    </datasetScan>
+
+    <dataset name="Lake Superior - Water Level Aggregation" urlPath="water_levels/LakeSuperior-Agg" ID="LakeSuperior-Agg" dataType="Point">
+      <metadata inherited="true">
+        <serviceName>agg</serviceName>
+      </metadata>
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+       <attribute name="title" value="Aggregated Lake Superior Water Levels" />\
+       <attribute name="summary" value="Aggregated Lake Superior Water Levels" />
+        <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
+          <scan location="/data/water_levels/LakeSuperiorWaterLevels/" suffix=".nc" />
+        </aggregation>
+      </netcdf>
+    </dataset>
+
+    <datasetScan name="Lake Superior Individual Files" path='water_levels/LakeSuperior' location="/data/water_levels/LakeSuperiorWaterLevels/" >
+      <serviceName>agg</serviceName>
+    </datasetScan>
+
+    <dataset name="Lake Ontario - Water Level Aggregation" urlPath="water_levels/LakeOntario-Agg" ID="LakeOntario-Agg" dataType="Point">
+      <metadata inherited="true">
+        <serviceName>agg</serviceName>
+      </metadata>
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+       <attribute name="title" value="Aggregated Lake Ontario Water Levels" />\
+       <attribute name="summary" value="Aggregated Lake Ontario Water Levels" />
+        <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
+          <scan location="/data/water_levels/LakeOntarioWaterLevels/" suffix=".nc" />
+        </aggregation>
+      </netcdf>
+    </dataset>
+
+    <datasetScan name="Lake Ontario Individual Files" path='water_levels/LakeOntario' location="/data/water_levels/LakeOntarioWaterLevels/" >
+      <serviceName>agg</serviceName>
+    </datasetScan>
+
+
+    <dataset name="Lake Erie - Water Level Aggregation" urlPath="water_levels/LakeErie-Agg" ID="LakeErie-Agg" dataType="Point">
+      <metadata inherited="true">
+        <serviceName>agg</serviceName>
+      </metadata>
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+       <attribute name="title" value="Aggregated Lake Erie Water Levels" />\
+       <attribute name="summary" value="Aggregated Lake Erie Water Levels" />
+        <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
+          <scan location="/data/water_levels/LakeErieWaterLevels/" suffix=".nc" />
+        </aggregation>
+      </netcdf>
+    </dataset>
+
+    <datasetScan name="Lake Erie Individual Files" path='water_levels/LakeErie' location="/data/water_levels/LakeErieWaterLevels/" >
+      <serviceName>agg</serviceName>
+    </datasetScan>
+
+
+    <dataset name="Lake St. Clair - Water Level Aggregation" urlPath="water_levels/LakeStClair-Agg" ID="LakeStClair-Agg" dataType="Point">
+      <metadata inherited="true">
+        <serviceName>agg</serviceName>
+      </metadata>
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+       <attribute name="title" value="Aggregated Lake St. Clair Water Levels" />\
+       <attribute name="summary" value="Aggregated Lake St. Clair Water Levels" />
+        <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
+          <scan location="/data/water_levels/LakeSt.ClairWaterLevels/" suffix=".nc" />
+        </aggregation>
+      </netcdf>
+    </dataset>
+
+    <datasetScan name="Lake St. Clair Individual Files" path='water_levels/LakeStClair' location="/data/water_levels/LakeSt.ClairWaterLevels/" >
+      <serviceName>agg</serviceName>
+    </datasetScan>
+
+
+    <dataset name="Lake Michigan and Huron - Water Level Aggregation" urlPath="water_levels/LakeMichiganAndHuron-Agg" ID="LakeMichiganAndHuron-Agg" dataType="Point">
+      <metadata inherited="true">
+        <serviceName>agg</serviceName>
+      </metadata>
+      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+       <attribute name="title" value="Aggregated Lake Michigan and Huron Water Levels" />\
+       <attribute name="summary" value="Aggregated Lake Michigan and Huron Water Levels" />
+        <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
+          <scan location="/data/water_levels/LakesMichiganandHuronWaterLevels/" suffix=".nc" />
+        </aggregation>
+      </netcdf>
+    </dataset>
+
+    <datasetScan name="Lake Michigan and Huron Individual Files" path='water_levels/LakeMichiganAndHuron' location="/data/water_levels/LakesMichiganandHuronWaterLevels/" >
+      <serviceName>agg</serviceName>
+    </datasetScan>
+
+
+
+
   </dataset>
 
 
