@@ -36,6 +36,10 @@
   <dataset name="GLOS Gliders">
     <catalogRef xlink:title="GLOS Gliders" xlink:href="glos_glider.xml" name=""/>
   </dataset>
+  
+  <dataset name="GLOP">
+      <catalogRef xlink:title="Great Lakes Optical Properties" xlink:href="glop/glop.xml" name=""/>
+  </dataset>
 
   <dataset name="Water Levels">
     <catalogRef xlink:title="Water Levels" xlink:href="water_levels.xml" name=""/>
