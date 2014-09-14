@@ -50,12 +50,12 @@
        <attribute name="title" value="Aggregated Great Lakes Water Levels" />\
        <attribute name="summary" value="Aggregated Great Lakes Water Levels" />
         <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
-          <scan location="/data/water_levels/TheGreatLakes/" suffix=".nc" />
+          <scan location="/data/water_levels/GreatLakesWaterLevels/" suffix=".nc" />
         </aggregation>
       </netcdf>
     </dataset>
 
-    <datasetScan name="The Great Lakes Individual Files" path='water_levels/TheGreatLakes' location="/data/water_levels/TheGreatLakes/" >
+    <datasetScan name="The Great Lakes Individual Files" path='water_levels/TheGreatLakes' location="/data/water_levels/GreatLakesWaterLevels/" >
       <serviceName>agg</serviceName>
     </datasetScan>
 
@@ -67,12 +67,12 @@
        <attribute name="title" value="Aggregated Lake Superior Water Levels" />\
        <attribute name="summary" value="Aggregated Lake Superior Water Levels" />
         <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
-          <scan location="/data/water_levels/LakeSuperior/" suffix=".nc" />
+          <scan location="/data/water_levels/LakeSuperiorWaterLevels/" suffix=".nc" />
         </aggregation>
       </netcdf>
     </dataset>
 
-    <datasetScan name="Lake Superior Individual Files" path='water_levels/LakeSuperior' location="/data/water_levels/LakeSuperior/" >
+    <datasetScan name="Lake Superior Individual Files" path='water_levels/LakeSuperior' location="/data/water_levels/LakeSuperiorWaterLevels/" >
       <serviceName>agg</serviceName>
     </datasetScan>
 
@@ -84,12 +84,12 @@
        <attribute name="title" value="Aggregated Lake Ontario Water Levels" />\
        <attribute name="summary" value="Aggregated Lake Ontario Water Levels" />
         <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
-          <scan location="/data/water_levels/LakeOntario/" suffix=".nc" />
+          <scan location="/data/water_levels/LakeOntarioWaterLevels/" suffix=".nc" />
         </aggregation>
       </netcdf>
     </dataset>
 
-    <datasetScan name="Lake Ontario Individual Files" path='water_levels/LakeOntario' location="/data/water_levels/LakeOntario/" >
+    <datasetScan name="Lake Ontario Individual Files" path='water_levels/LakeOntario' location="/data/water_levels/LakeOntarioWaterLevels/" >
       <serviceName>agg</serviceName>
     </datasetScan>
 
@@ -102,12 +102,12 @@
        <attribute name="title" value="Aggregated Lake Erie Water Levels" />\
        <attribute name="summary" value="Aggregated Lake Erie Water Levels" />
         <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
-          <scan location="/data/water_levels/LakeErie/" suffix=".nc" />
+          <scan location="/data/water_levels/LakeErieWaterLevels/" suffix=".nc" />
         </aggregation>
       </netcdf>
     </dataset>
 
-    <datasetScan name="Lake Erie Individual Files" path='water_levels/LakeErie' location="/data/water_levels/LakeErie/" >
+    <datasetScan name="Lake Erie Individual Files" path='water_levels/LakeErie' location="/data/water_levels/LakeErieWaterLevels/" >
       <serviceName>agg</serviceName>
     </datasetScan>
 
@@ -120,12 +120,12 @@
        <attribute name="title" value="Aggregated Lake St. Clair Water Levels" />\
        <attribute name="summary" value="Aggregated Lake St. Clair Water Levels" />
         <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
-          <scan location="/data/water_levels/LakeStClair/" suffix=".nc" />
+          <scan location="/data/water_levels/LakeSt.ClairWaterLevels/" suffix=".nc" />
         </aggregation>
       </netcdf>
     </dataset>
 
-    <datasetScan name="Lake St. Clair Individual Files" path='water_levels/LakeStClair' location="/data/water_levels/LakeStClair/" >
+    <datasetScan name="Lake St. Clair Individual Files" path='water_levels/LakeStClair' location="/data/water_levels/LakeSt.ClairWaterLevels/" >
       <serviceName>agg</serviceName>
     </datasetScan>
 
@@ -138,12 +138,12 @@
        <attribute name="title" value="Aggregated Lake Michigan and Huron Water Levels" />\
        <attribute name="summary" value="Aggregated Lake Michigan and Huron Water Levels" />
         <aggregation dimName="time" type="joinExisting" recheckEvery="60 min">
-          <scan location="/data/water_levels/LakeMichiganAndHuron/" suffix=".nc" />
+          <scan location="/data/water_levels/LakesMichiganandHuronWaterLevels/" suffix=".nc" />
         </aggregation>
       </netcdf>
     </dataset>
 
-    <datasetScan name="Lake Michigan and Huron Individual Files" path='water_levels/LakeMichiganAndHuron' location="/data/water_levels/LakeMichiganAndHuron/" >
+    <datasetScan name="Lake Michigan and Huron Individual Files" path='water_levels/LakeMichiganAndHuron' location="/data/water_levels/LakesMichiganandHuronWaterLevels/" >
       <serviceName>agg</serviceName>
     </datasetScan>
 
